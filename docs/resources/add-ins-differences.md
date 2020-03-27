@@ -1,20 +1,22 @@
 ---
 title: Différences entre les scripts Office et les compléments Office
 description: Les différences de comportement et d’API entre les scripts Office et les compléments Office.
-ms.date: 12/12/2019
+ms.date: 03/23/2020
 localization_priority: Normal
-ms.openlocfilehash: 4626afb66b54c94a72f29b039c601435c089d64d
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: 2290d4e34b7a7286d67443de9e9c64bad4fcd4b7
+ms.sourcegitcommit: d556aaefac80e55f53ac56b7f6ecbc657ebd426f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700229"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978714"
 ---
 # <a name="differences-between-office-scripts-and-office-add-ins"></a>Différences entre les scripts Office et les compléments Office
 
 Les compléments Office et les scripts Office ont beaucoup de choses en commun. Ils proposent tous les deux un contrôle automatique d’un classeur Excel via l' `Excel` espace de noms de l’API JavaScript pour Office. Toutefois, les scripts Office sont plus limités dans leur étendue.
 
-Exécution des scripts Office avec une pression manuelle, tandis que les compléments Office s’appuient sur l’interaction de l’utilisateur et sont persistants pendant l’utilisation du classeur. Si vous constatez que votre extension Excel doit dépasser les fonctionnalités de la plateforme de script, consultez la [documentation relative aux compléments Office](/office/dev/add-ins) pour en savoir plus sur les compléments Office.
+![Diagramme à quatre quadrants montrant les zones ciblées pour différentes solutions d’extensibilité Office. Les scripts Office et les compléments Office Web sont centrés sur le Web et la collaboration, mais les scripts Office répondent aux utilisateurs finaux (tandis que les compléments Web Office ciblent les développeurs professionnels).)](../images/office-programmability-diagram.png)
+
+Les scripts Office sont exécutés jusqu’à la fin avec une pression manuelle ou une étape de l' [automate d’alimentation](https://flow.microsoft.com/), tandis que les compléments Office persistent lorsque leurs volets Office sont ouverts. Cela signifie que les compléments peuvent conserver l’État pendant une session, tandis que les scripts Office ne gèrent pas un état interne entre les exécutions. Si vous constatez que votre extension Excel doit dépasser les fonctionnalités de la plateforme de script, consultez la [documentation relative aux compléments Office](/office/dev/add-ins) pour en savoir plus sur les compléments Office.
 
 Le reste de cet article décrit les principales différences entre les compléments Office et les scripts Office.
 
@@ -38,6 +40,7 @@ Les scripts Office ne peuvent pas utiliser des [API communes](/javascript/api/of
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Scripts Office dans Excel sur le Web](../overview/excel.md)
-- [Résolution des problèmes liés aux scripts Office](../testing/troubleshooting.md)
+- [Office Scripts dans Excel sur le web](../overview/excel.md)
+- [Différences entre les scripts Office et les macros VBA](vba-differences.md)
+- [Dépannage de Office Scripts](../testing/troubleshooting.md)
 - [Créer un complément de volet de tâches Excel](/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
