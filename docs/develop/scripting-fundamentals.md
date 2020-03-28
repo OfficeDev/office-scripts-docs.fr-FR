@@ -1,41 +1,41 @@
 ---
-title: Scripts de base pour les scripts Office dans Excel sur le Web
-description: Informations sur le modèle objet et autres notions de base à connaître avant d’écrire des scripts Office.
+title: Principes de base des scripts pour Office Scripts dans Excel sur le web
+description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 01/27/2020
 localization_priority: Priority
 ms.openlocfilehash: 5a709c16e23c00ffc7ee7949a3cb11459dc2d530
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
-ms.translationtype: MT
+ms.sourcegitcommit: d556aaefac80e55f53ac56b7f6ecbc657ebd426f
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700200"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978718"
 ---
-# <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Notions de base sur les scripts pour les scripts Office dans Excel sur le Web (aperçu)
+# <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Principes de base des scripts pour Office Scripts dans Excel sur le web (préversion)
 
-Cet article vous présente les aspects techniques des scripts Office. Vous découvrirez comment les objets Excel fonctionnent ensemble et comment l’éditeur de code se synchronise avec un classeur.
+Cet article vous présente les aspects techniques de Office Scripts. Vous découvrirez comment les objets Excel fonctionnent ensemble et comment l’éditeur de code se synchronise avec un classeur.
 
 [!INCLUDE [Preview note](../includes/preview-note.md)]
 
 ## <a name="object-model"></a>Modèle d’objet
 
-Pour comprendre les API Excel, vous devez comprendre comment les composants d’un classeur sont liés les uns aux autres.
+Pour comprendre les API Excel, vous devez connaître la manière dont les composants d’un classeur sont liés les uns aux autres.
 
 - Un **classeur** contient une ou plusieurs **feuilles de calcul**.
-- Une **feuille de calcul** donne accès aux cellules par le biais d’objets **Range** .
+- Une **feuille de calcul** donne accès à des cellules via **plage** objets.
 - Une **plage** représente un groupe de cellules contiguës.
-- Les **plages** permettent de créer et de placer des **tableaux**, des **graphiques**, des **formes**et d’autres objets d’organisation ou de visualisation de données.
-- Une **feuille de calcul** contient des collections de ces objets de données qui sont présents dans la feuille individuelle.
-- Les **classeurs** contiennent des collections de certains de ces objets de données (tels que les **tableaux**) pour l’intégralité du **classeur**.
+- Les **plages** sont utilisées pour créer et placer des **tableaux**, des **graphiques**, des **formes** et d’autres objets d’organisation ou de visualisation de données.
+- Une **feuille de calcul** contient des collections d’objets de données présents dans la feuille individuelle.
+- Les **classeurs** contiennent des collections de certains de ces objets de données (par exemple : les **tableaux**) pour l'ensemble du **classeur**.
 
-### <a name="ranges"></a>Ranges
+### <a name="ranges"></a>Plages
 
-Une plage est un groupe de cellules contiguës dans le classeur. Les scripts utilisent généralement la notation de style a1 (par exemple, **B3** pour la cellule unique de la ligne **B** et de la colonne **3** ou **C2 : F4** pour les cellules des lignes **C** à **F** et les colonnes **2** à **4**) pour définir des plages.
+Une plage est un groupe de cellules contiguës dans le classeur. Les scripts utilisent généralement la notation de style A1 (par exemple : **B3** pour la cellule unique de la ligne **B** et de la colonne **3** ou **C2:F4** pour les cellules des lignes **C** à **F** et des colonnes **2** à **4**) pour définir les plages.
 
-Les plages ont trois propriétés principales `values`: `formulas`, et `format`. Ces propriétés obtiennent ou définissent les valeurs de cellule, les formules à évaluer et la mise en forme visuelle des cellules.
+Les plages comportent trois propriétés principales : `values`, `formulas`et `format`. Ces propriétés obtiennent ou définissent les valeurs des cellules, les formules à évaluer et la mise en forme visuelle des cellules.
 
 #### <a name="range-sample"></a>Exemple de plage
 
-L’exemple suivant montre comment créer des enregistrements de ventes. Ce script utilise `Range` des objets pour définir les valeurs, les formules et les formats.
+L’exemple de code suivant montre comment créer des registres des ventes. Le script utilise les objets `Range` pour déterminer les valeurs, les formules et les formats.
 
 ```TypeScript
 async function main(context: Excel.RequestContext) {
@@ -78,17 +78,17 @@ async function main(context: Excel.RequestContext) {
 
 L’exécution de ce script crée les données suivantes dans la feuille de calcul active :
 
-![Un enregistrement de ventes affichant des lignes de valeur, une colonne de formule et des en-têtes mis en forme.](../images/range-sample.png)
+![Un registre des ventes affiche des lignes de valeur, une colonne de formule et des en-têtes mis en forme.](../images/range-sample.png)
 
 ### <a name="charts-tables-and-other-data-objects"></a>Graphiques, tableaux et autres objets de données
 
-Les scripts peuvent créer et manipuler les structures de données et les visualisations dans Excel. Les tableaux et les graphiques sont deux des objets les plus couramment utilisés, mais les API prennent en charge les tableaux croisés dynamiques, les formes, les images et plus encore.
+Les scripts peuvent créer et manipuler les structures de données et les visualisations dans Excel. Les tableaux et les graphiques sont deux des objets les plus fréquemment utilisés, mais les API prennent en charge les tableaux croisés dynamiques, les formes, les images et bien plus encore.
 
 #### <a name="creating-a-table"></a>Création d’un tableau
 
-Créer des tables à l’aide de plages de données. La mise en forme et les contrôles de tableau (tels que les filtres) sont automatiquement appliqués à la plage.
+Créez des tableaux à l’aide des plages de données remplies. Les contrôles de mise en forme et du tableau (par exemple, les filtres) sont automatiquement appliqués à la plage.
 
-Le script suivant crée un tableau à l’aide des plages de l’exemple précédent.
+L’exemple de code suivant crée un tableau à l’aide des plages de l’exemple précédent.
 
 ```TypeScript
 async function main(context: Excel.RequestContext) {
@@ -99,13 +99,13 @@ async function main(context: Excel.RequestContext) {
 
 L’exécution de ce script sur la feuille de calcul avec les données précédentes crée le tableau suivant :
 
-![Tableau créé à partir de l’enregistrement de ventes précédent.](../images/table-sample.png)
+![Un tableau créée à partir du registre des ventes précédent.](../images/table-sample.png)
 
 #### <a name="creating-a-chart"></a>Création d’un graphique
 
-Créez des graphiques pour visualiser les données dans une plage. Les scripts autorisent des dizaines de variétés de graphiques, chacune pouvant être personnalisée en fonction de vos besoins.
+Vous pouvez créer un graphique pour visualiser les données d’une plage. Les scripts permettent des dizaines de variétés de graphiques, chacune pouvant être personnalisée pour répondre à vos besoins.
 
-Le script suivant crée un graphique en histogramme simple pour trois éléments et place celle-ci 100 pixels en dessous de la partie supérieure de la feuille de calcul.
+Le script suivant crée un histogramme pour trois éléments et place celui-ci 100 pixels en dessous de la partie supérieure de la feuille de calcul.
 
 ```TypeScript
 async function main(context: Excel.RequestContext) {
@@ -115,27 +115,27 @@ async function main(context: Excel.RequestContext) {
 }
 ```
 
-L’exécution de ce script sur la feuille de calcul avec le tableau précédent crée le graphique suivant :
+L’exécution de ce script sur la feuille de calcul avec le tableau précédent crée le graphique suivant :
 
-![Histogramme affichant les quantités de trois éléments de l’enregistrement des ventes précédent.](../images/chart-sample.png)
+![Un histogramme montrant les quantités pour trois des articles présents dans le registre des ventes précédent.](../images/chart-sample.png)
 
-### <a name="further-reading-on-the-object-model"></a>Documentation supplémentaire sur le modèle objet
+### <a name="further-reading-on-the-object-model"></a>Lectures complémentaires sur le modèle d’objet
 
-La [documentation de référence de l’API des scripts Office](/javascript/api/office-scripts/overview) est une liste complète des objets utilisés dans les scripts Office. Vous pouvez utiliser la table des matières pour accéder à une classe sur laquelle vous aimeriez obtenir des informations supplémentaires. Voici quelques-unes des pages fréquemment consultées.
+La [Documentation de référence de l’API Office Scripts](/javascript/api/office-scripts/overview) est une liste complète des objets utilisés dans Office Scripts. Si vous souhaitez en savoir plus, vous pouvez accéder aux informations sur la classe de votre choix en utilisant la table des matières. Voici quelques pages fréquemment consultées.
 
-- [Chart](/javascript/api/office-scripts/excel/excel.chart)
-- [Comment](/javascript/api/office-scripts/excel/excel.comment)
+- [Graphique](/javascript/api/office-scripts/excel/excel.chart)
+- [Commentaire](/javascript/api/office-scripts/excel/excel.comment)
 - [PivotTable](/javascript/api/office-scripts/excel/excel.pivottable)
 - [Range](/javascript/api/office-scripts/excel/excel.range)
 - [RangeFormat](/javascript/api/office-scripts/excel/excel.rangeformat)
-- [Shape](/javascript/api/office-scripts/excel/excel.shape)
-- [Table](/javascript/api/office-scripts/excel/excel.table)
-- [Workbook](/javascript/api/office-scripts/excel/excel.workbook)
-- [Worksheet](/javascript/api/office-scripts/excel/excel.worksheet)
+- [Forme](/javascript/api/office-scripts/excel/excel.shape)
+- [Tableau](/javascript/api/office-scripts/excel/excel.table)
+- [Classeur](/javascript/api/office-scripts/excel/excel.workbook)
+- [Feuille de calcul](/javascript/api/office-scripts/excel/excel.worksheet)
 
-## <a name="main-function"></a>`main`elle
+## <a name="main-function"></a>Fonction `main` :
 
-Chaque script Office doit contenir une `main` fonction avec la signature suivante, y compris `Excel.RequestContext` la définition de type :
+Chaque script Office doit contenir une fonction `main` avec la signature suivante, qui inclut la définition de type `Excel.RequestContext` :
 
 ```TypeScript
 async function main(context: Excel.RequestContext) {
@@ -143,55 +143,55 @@ async function main(context: Excel.RequestContext) {
 }
 ```
 
-Le code à l' `main` intérieur de la fonction s’exécute lors de l’exécution du script. `main`peut appeler d’autres fonctions dans votre script, mais le code qui n’est pas contenu dans une fonction ne s’exécutera pas.
+Le code à l’intérieur de la fonction `main` s’exécute lors de l’exécution du script. `main` peut appeler d’autres fonctions dans le script, mais le code qui n’est pas inclus dans une fonction ne s’exécutera pas.
 
 ## <a name="context"></a>Contexte
 
-La `main` fonction accepte un `Excel.RequestContext` paramètre, nommé `context`. Imaginez `context` comme un pont entre votre script et le classeur. Votre script accède au classeur avec l' `context` objet et l’utilise `context` pour envoyer et recevoir des données.
+La fonction `main` accepte un paramètre `Excel.RequestContext`, nommé `context`. Vous devez imaginer le `context` comme un pont entre le script et le classeur. Le script accède au classeur avec l’objet `context` et utilise ce `context` pour envoyer et recevoir des données.
 
-L' `context` objet est nécessaire, car le script et Excel s’exécutent dans différents processus et emplacements. Le script devra modifier ou interroger les données du classeur dans le Cloud. L' `context` objet gère ces transactions.
+L’objet `context` est nécessaire car le script et Excel sont exécutés dans différents processus et emplacements. Le script doit apporter des modifications ou rechercher les données du classeur dans le cloud. L’objet `context` gère ces opérations.
 
 ## <a name="sync-and-load"></a>Synchronisation et chargement
 
-Étant donné que votre script et votre classeur s’exécutent à différents emplacements, le transfert de données entre les deux prend du temps. Pour améliorer les performances des scripts, les commandes sont mises en file d’attente jusqu' `sync` à ce que le script appelle explicitement l’opération pour synchroniser le script et le classeur. Votre script peut fonctionner indépendamment jusqu’à ce qu’il doive effectuer l’une des opérations suivantes :
+Comme le script et le classeur s’exécutent dans des emplacements différents, le transfert de données entre les deux prend du temps. Pour améliorer les performances du script, les commandes sont mises en file d’attente jusqu’à ce que le script appelle explicitement l’opération `sync` pour synchroniser le script et le classeur. Le script peut fonctionner de façon indépendante jusqu’à ce qu’il doive effectuer l’une des opérations suivantes :
 
-- Lire les données du classeur (après `load` une opération).
-- Écrire des données dans le classeur (généralement parce que le script est terminé).
+- Lire les données du classeur (en suivant une opération `load`).
+- Écrire les données dans le classeur (généralement quand le script est terminé).
 
 L’image suivante montre un exemple de flux de contrôle entre le script et le classeur :
 
-![Diagramme illustrant les opérations de lecture et d’écriture dans le classeur à partir du script.](../images/load-sync.png)
+![Un diagramme montrant les opérations de lecture et d’écriture effectuées dans le classeur à partir du script.](../images/load-sync.png)
 
 ### <a name="sync"></a>Synchronisation
 
-Chaque fois que votre script a besoin de lire ou d’écrire des données dans le classeur, appelez la `RequestContext.sync` méthode comme illustré ci-dessous :
+Lorsque le script a besoin de lire ou d’écrire des données dans le classeur, appelez la méthode `RequestContext.sync` comme illustré ici :
 
 ```TypeScript
 await context.sync();
 ```
 
 > [!NOTE]
-> `context.sync()`est implicitement appelé à la fin d’un script.
+> `context.sync()` est appelé implicitement à la fin d’un script.
 
-Une fois `sync` l’opération terminée, le classeur est mis à jour pour refléter toutes les opérations d’écriture que le script a spécifiées. Une opération d’écriture définit une propriété sur un objet Excel (par exemple `range.format.fill.color = "red"`,) ou un appel à une méthode qui modifie une propriété ( `range.format.autoFitColumns()`par exemple,). L' `sync` opération lit également toutes les valeurs du classeur que le script a demandées `load` à l’aide d’une opération (comme indiqué dans la section suivante).
+Une fois l’opération `sync` terminée, le classeur se met à jour pour illustrer les opérations d’écriture que le script a spécifiées. Une opération d’écriture définit une propriété sur un objet Excel (par exemple : `range.format.fill.color = "red"`) ou appelle une méthode qui modifie une propriété (par exemple : `range.format.autoFitColumns()`). L’opération `sync` lit également les valeurs du classeur demandées par le script à l’aide d’une opération `load` (comme indiqué dans la section suivante).
 
-La synchronisation de votre script avec le classeur peut prendre du temps, en fonction de votre réseau. Vous devez réduire le nombre d' `sync` appels pour aider votre script à s’exécuter rapidement.  
+La synchronisation du script avec le classeur peut prendre du temps, en fonction de votre réseau. Vous devez diminuer le nombre d’appels `sync` pour faciliter l’exécution du script.  
 
-### <a name="load"></a>Load
+### <a name="load"></a>Charger
 
-Un script doit charger les données du classeur avant de le lire. Toutefois, le chargement fréquent de données à partir de l’intégralité du classeur réduirait considérablement la vitesse du script. Au lieu de `load` cela, la méthode permet à votre script d’indiquer spécifiquement quelles données doivent être récupérées à partir du classeur.
+Un script doit charger les données du classeur avant de les lire. Toutefois, le chargement fréquent de données à partir de l’intégralité du classeur réduirait considérablement la vitesse du script. La méthode `load`, qui permet au script d’indiquer spécifiquement les données du classeur à récupérer, est plus appropriée.
 
-La `load` méthode est disponible sur tous les objets Excel. Votre script doit charger les propriétés d’un objet avant de pouvoir les lire. Si vous ne le faites pas, une erreur se produit.
+La méthode `load` est disponible sur tous les objets Excel. Le script doit charger les propriétés d’un objet avant de pouvoir les lire. Sinon, cela entraînera une erreur.
 
-Les exemples suivants utilisent un `Range` objet pour afficher les trois façons dont `load` la méthode peut être utilisée pour charger des données.
+Les exemples suivants utilisent un objet `Range` pour illustrer les trois méthodes utilisées par `load` pour charger les données.
 
-|Intent |Exemple de commande | Effet |
+|Objectif |Exemple de commande | Effet |
 |:--|:--|:--|
-|Charger une propriété |`myRange.load("values");` | Charge une seule propriété, dans ce cas, le tableau à deux dimensions des valeurs de cette plage. |
-|Charger plusieurs propriétés |`myRange.load("values, rowCount, columnCount");`| Charge toutes les propriétés à partir d’une liste délimitée par des virgules, dans cet exemple, les valeurs, le nombre de lignes et le nombre de colonnes. |
-|Tout charger | `myRange.load();`|Charge toutes les propriétés de la plage. Il ne s’agit pas d’une solution recommandée, car elle ralentit votre script en obtenant des données inutiles. Vous ne devez l’utiliser que si vous testez votre script ou si vous avez besoin de chaque propriété de l’objet. |
+|Charger une propriété |`myRange.load("values");` | Charge une seule propriété. Dans ce cas, le tableau à deux dimensions des valeurs dans cette plage. |
+|Charger plusieurs propriétés |`myRange.load("values, rowCount, columnCount");`| Charge toutes les propriétés d’une liste, qui sont délimitées par des virgules. Dans cet exemple, les valeurs, le nombre de lignes et le nombre de colonnes. |
+|Tout charger | `myRange.load();`|Charge toutes les propriétés de la plage. Ceci n’est pas une solution recommandée, car elle ralentit le script, qui charge des données superflues. Vous devez utiliser cette opération uniquement lorsque vous testez le script ou si vous avez besoin de toutes les propriétés de l’objet. |
 
-Votre script doit appeler `context.sync()` avant de lire les valeurs chargées.
+Le script doit appeler `context.sync()` avant de lire les valeurs chargées.
 
 ```TypeScript
 let range = selectedSheet.getRange("A1:B3");
@@ -200,7 +200,7 @@ await context.sync(); // Synchronize with the workbook to get the property.
 console.log(range.rowCount); // Read and log the property value (3).
 ```
 
-Vous pouvez également charger les propriétés sur toute une collection. Chaque objet collection possède une `items` propriété qui est un tableau contenant les objets de cette collection. À `items` l’aide du début d’un appel hiérarchique (`items\myProperty`) pour `load` charger les propriétés spécifiées sur chacun de ces éléments. L’exemple suivant charge la `resolved` propriété sur chaque `Comment` objet dans l' `CommentCollection` objet d’une feuille de calcul.
+Vous pouvez également charger des propriétés sur l’ensemble d’une collection. Chaque objet d’une collection possède une propriété `items`, qui est un tableau contenant les objets dans cette collection. L’utilisation de `items` comme point de départ d’un appel hiérarchique (`items\myProperty`) pour que `load` charge les propriétés spécifiées sur chacun de ces éléments. L’exemple suivant charge la propriété `resolved` sur tous les objets `Comment` dans l’objet `CommentCollection` d’une feuille de calcul.
 
 ```TypeScript
 let comments = selectedSheet.comments;
@@ -209,11 +209,11 @@ await context.sync(); // Synchronize with the workbook to get the properties.
 ```
 
 > [!TIP]
-> Pour en savoir plus sur l’utilisation des collections dans les scripts Office, reportez-vous à la [section tableau de l’article Using Built-in JavaScript Objects in Office scripts](javascript-objects.md#array) .
+> Si vous souhaitez en savoir plus sur l’utilisation des collections dans les scripts Office, consultez l’article [Section du tableau sur l'utilisation d'objets JavaScript intégrés dans Office Scripts](javascript-objects.md#array).
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir également
 
-- [Enregistrer, modifier et créer des scripts Office dans Excel sur le Web](../tutorials/excel-tutorial.md)
-- [Lire des données de classeur avec des scripts Office dans Excel sur le Web](../tutorials/excel-read-tutorial.md)
-- [Référence de l’API des scripts Office](/javascript/api/office-scripts/overview)
+- [Enregistrer, modifier et créer des scripts Office dans Excel sur le web](../tutorials/excel-tutorial.md)
+- [Lire les données d’un classeur avec les scripts Office dans Excel sur le web](../tutorials/excel-read-tutorial.md)
+- [Référence de l'API Office Scripts](/javascript/api/office-scripts/overview)
 - [Utilisation d’objets JavaScript intégrés dans les scripts Office](javascript-objects.md)
