@@ -1,14 +1,14 @@
 ---
 title: Utilisation d’objets JavaScript intégrés dans les scripts Office
 description: Comment appeler des API JavaScript intégrées à partir d’un script Office dans Excel sur le Web.
-ms.date: 01/21/2020
+ms.date: 04/06/2020
 localization_priority: Normal
-ms.openlocfilehash: e0fcd98117125ead18e55675e195415ff59c0c5d
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: a4b698215edea5f266e159fee0e08690904dd379
+ms.sourcegitcommit: 0b2232c4c228b14d501edb8bb489fe0e84748b42
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700201"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191012"
 ---
 # <a name="using-built-in-javascript-objects-in-office-scripts"></a>Utilisation d’objets JavaScript intégrés dans les scripts Office
 
@@ -112,6 +112,8 @@ async function main(context: Excel.RequestContext) {
   range.values = [[date.toLocaleDateString()]];
 }
 ```
+
+La section [utiliser les dates](../resources/excel-samples.md#work-with-dates) des exemples contient davantage de scripts liés à la date.
 
 ## <a name="math"></a>Mathématiques
 
