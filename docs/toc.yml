@@ -6,9 +6,9 @@
       href: overview/excel.md
     - name: Didacticiels
       items:
-        - name: Notions de base des scripts Office
+        - name: Bases des scripts Office
           href: tutorials/excel-tutorial.md
-        - name: Lire les données de classeur à l’aide d’un script
+        - name: Lire les données d’un classeur avec un script
           href: tutorials/excel-read-tutorial.md
     - name: Principes de base de l’écriture de script
       href: develop/scripting-fundamentals.md
@@ -34,7 +34,7 @@
           items:
             - name: Vue d’ensemble
               href: resources/scenarios/sample-scenario-overview.md
-            - name: Analyser les téléchargements Web
+            - name: Analyser les téléchargements web
               href: resources/scenarios/analyze-web-downloads.md
-            - name: Calculatrice de note
+            - name: Calculatrice de notes
               href: resources/scenarios/grade-calculator.md
