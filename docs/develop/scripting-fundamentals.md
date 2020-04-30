@@ -1,14 +1,14 @@
 ---
 title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
-ms.date: 01/27/2020
+ms.date: 04/24/2020
 localization_priority: Priority
-ms.openlocfilehash: 5a709c16e23c00ffc7ee7949a3cb11459dc2d530
-ms.sourcegitcommit: d556aaefac80e55f53ac56b7f6ecbc657ebd426f
+ms.openlocfilehash: 8449654e359f665677f3d416a8e28fa4d6930f26
+ms.sourcegitcommit: 350bd2447f616fa87bb23ac826c7731fb813986b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978718"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919797"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Principes de base des scripts pour Office Scripts dans Excel sur le web (préversion)
 
@@ -29,7 +29,7 @@ Pour comprendre les API Excel, vous devez connaître la manière dont les compos
 
 ### <a name="ranges"></a>Plages
 
-Une plage est un groupe de cellules contiguës dans le classeur. Les scripts utilisent généralement la notation de style A1 (par exemple : **B3** pour la cellule unique de la ligne **B** et de la colonne **3** ou **C2:F4** pour les cellules des lignes **C** à **F** et des colonnes **2** à **4**) pour définir les plages.
+Une plage est un groupe de cellules contiguës dans le classeur. Les scripts utilisent généralement la notation de style A1 (par exemple : **B3** pour la cellule unique de la colonne **B** et de la ligne **3** ou **C2:F4** pour les cellules des colonnes **C** à **F** et des lignes **2** à **4**) pour définir les plages.
 
 Les plages comportent trois propriétés principales : `values`, `formulas`et `format`. Ces propriétés obtiennent ou définissent les valeurs des cellules, les formules à évaluer et la mise en forme visuelle des cellules.
 
@@ -155,7 +155,7 @@ L’objet `context` est nécessaire car le script et Excel sont exécutés dans 
 
 Comme le script et le classeur s’exécutent dans des emplacements différents, le transfert de données entre les deux prend du temps. Pour améliorer les performances du script, les commandes sont mises en file d’attente jusqu’à ce que le script appelle explicitement l’opération `sync` pour synchroniser le script et le classeur. Le script peut fonctionner de façon indépendante jusqu’à ce qu’il doive effectuer l’une des opérations suivantes :
 
-- Lire les données du classeur (en suivant une opération `load`).
+- Lisez les données du classeur (en suivant une `load`opération de ou une méthode qui renvoie une [ClientResult](/javascript/api/office-scripts/excel/excel.clientresult)).
 - Écrire les données dans le classeur (généralement quand le script est terminé).
 
 L’image suivante montre un exemple de flux de contrôle entre le script et le classeur :
@@ -173,7 +173,7 @@ await context.sync();
 > [!NOTE]
 > `context.sync()` est appelé implicitement à la fin d’un script.
 
-Une fois l’opération `sync` terminée, le classeur se met à jour pour illustrer les opérations d’écriture que le script a spécifiées. Une opération d’écriture définit une propriété sur un objet Excel (par exemple : `range.format.fill.color = "red"`) ou appelle une méthode qui modifie une propriété (par exemple : `range.format.autoFitColumns()`). L’opération `sync` lit également les valeurs du classeur demandées par le script à l’aide d’une opération `load` (comme indiqué dans la section suivante).
+Une fois l’opération `sync` terminée, le classeur se met à jour pour illustrer les opérations d’écriture que le script a spécifiées. Une opération d’écriture définit une propriété sur un objet Excel (par exemple : `range.format.fill.color = "red"`) ou appelle une méthode qui modifie une propriété (par exemple : `range.format.autoFitColumns()`). L’opération `sync` lit également les valeurs du classeur demandées par le script à l’aide d’une opération `load` ou d’une méthode renvoyant une `ClientResult` (comme indiqué dans la section suivante).
 
 La synchronisation du script avec le classeur peut prendre du temps, en fonction de votre réseau. Vous devez diminuer le nombre d’appels `sync` pour faciliter l’exécution du script.  
 
@@ -211,7 +211,26 @@ await context.sync(); // Synchronize with the workbook to get the properties.
 > [!TIP]
 > Si vous souhaitez en savoir plus sur l’utilisation des collections dans les scripts Office, consultez l’article [Section du tableau sur l'utilisation d'objets JavaScript intégrés dans Office Scripts](javascript-objects.md#array).
 
-## <a name="see-also"></a>Voir également
+### <a name="clientresult"></a>ClientResult
+
+Les méthodes qui renvoient des informations du classeur présentent un modèle semblable au paradigme `load`/`sync`. Par exemple, `TableCollection.getCount` obtient le nombre de tableaux dans la collection. `getCount` renvoie une `ClientResult<number>`, ce qui signifie que la propriété `value` dans le renvoie `ClientResult` est un nombre. Votre script ne peut pas accéder à cette valeur tant que `context.sync()` n’est pas appelé. À l’instar du chargement d’une propriété, la valeur `value` est une valeur « vide » locale jusqu’à cet appel`sync`.
+
+Le script suivant fournit le nombre total de tableaux dans le classeur et enregistre ce nombre sur la console.
+
+```TypeScript
+async function main(context: Excel.RequestContext) {
+  let tableCount = context.workbook.tables.getCount();
+
+  // This sync call implicitly loads tableCount.value.
+  // Any other ClientResult values are loaded too.
+  await context.sync();
+
+  // Trying to log the value before calling sync would throw an error.
+  console.log(tableCount.value);
+}
+```
+
+## <a name="see-also"></a>Voir aussi
 
 - [Enregistrer, modifier et créer des scripts Office dans Excel sur le web](../tutorials/excel-tutorial.md)
 - [Lire les données d’un classeur avec les scripts Office dans Excel sur le web](../tutorials/excel-read-tutorial.md)
