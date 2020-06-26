@@ -6,10 +6,14 @@
       href: overview/excel.md
     - name: Didacticiels
       items:
-        - name: Bases des scripts Office
+        - name: Découvrir les concepts de base d’Office Scripts
           href: tutorials/excel-tutorial.md
         - name: Lire les données d’un classeur avec un script
           href: tutorials/excel-read-tutorial.md
+        - name: Commencer à utiliser des scripts avec Power Automate
+          href: tutorials/excel-power-automate-manual.md
+        - name: Exécuter automatiquement des scripts avec Power Automate
+          href: tutorials/excel-power-automate-trigger.md
     - name: Principes de base de l’écriture de script
       href: develop/scripting-fundamentals.md
     - name: Concepts
@@ -22,10 +26,18 @@
           href: resources/vba-differences.md
         - name: Différences entre les scripts Office et les compléments Office
           href: resources/add-ins-differences.md
+        - name: Intégration avec Power Automate
+          href: develop/power-automate-integration.md
+    - name: Résolution des problèmes
+      items:
+        - name: Concepts de base de la résolution des problèmes
+          href: testing/troubleshooting.md
+        - name: Amélioration des performances des scripts
+          href: develop/web-client-performance.md
         - name: Annuler les effets d’un script Office
           href: testing/undo.md
-    - name: Résolution des problèmes
-      href: testing/troubleshooting.md
+        - name: Utiliser le modèle asynchrone (hérité)
+          href: develop/excel-async-model.md
     - name: Exemples
       items:
         - name: Exemples de scripts
@@ -38,3 +50,5 @@
               href: resources/scenarios/analyze-web-downloads.md
             - name: Calculatrice de notes
               href: resources/scenarios/grade-calculator.md
+            - name: Rappels de tâche (avec Power Automate)
+              href: resources/scenarios/task-reminders.md
