@@ -1,16 +1,16 @@
 ---
-title: Résolution des problèmes liés aux scripts Office
+title: Dépannage de Office Scripts
 description: Débogage des conseils et techniques pour les scripts Office, ainsi que des ressources d’aide.
-ms.date: 12/13/2019
+ms.date: 05/14/2020
 localization_priority: Normal
-ms.openlocfilehash: 959faff875f342dc1b1ab158ad9ded24732b0894
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: 6448980eec45214a589444229db0fd781b9fea13
+ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700204"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878618"
 ---
-# <a name="troubleshooting-office-scripts"></a>Résolution des problèmes liés aux scripts Office
+# <a name="troubleshooting-office-scripts"></a>Dépannage de Office Scripts
 
 Lorsque vous développez des scripts Office, vous pouvez faire des erreurs. C'est bon. Nous disposons d’outils qui permettent de trouver les problèmes et de faire fonctionner vos scripts parfaitement.
 
@@ -19,16 +19,11 @@ Lorsque vous développez des scripts Office, vous pouvez faire des erreurs. C'es
 Parfois, lors de la résolution des problèmes, vous voudrez imprimer des messages à l’écran. Ces éléments peuvent vous indiquer la valeur actuelle des variables ou les chemins d’accès de code déclenchés. Pour ce faire, consignez le texte dans la console.
 
 ```TypeScript
-console.log("Logging my range's address.");
-myRange.load("address");
-await context.sync();
-console.log(myRange.address);
+console.log("Logging myRange's address.");
+console.log(myRange.getAddress());
 ```
 
-> [!IMPORTANT]
-> N’oubliez pas `load` d’utiliser les `sync` données de feuille de calcul et le classeur avant de consigner les propriétés de l’objet.
-
-Les chaînes transmises`console.log` s’afficheront dans la console de journalisation de l’éditeur de code. Pour activer la console, appuyez sur le bouton de **sélection** et sélectionnez **logs...**
+Les chaînes transmises `console.log` s’afficheront dans la console de journalisation de l’éditeur de code. Pour activer la console, appuyez sur le bouton de **sélection** et sélectionnez **logs...**
 
 Les journaux n’ont pas d’incidence sur le classeur.
 
@@ -46,6 +41,7 @@ En cas de problème avec l’enregistreur d’actions ou l’éditeur, envoyez d
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Scripts Office dans Excel sur le Web](../overview/excel.md)
+- [Office Scripts dans Excel sur le web](../overview/excel.md)
 - [Scripts de base pour les scripts Office dans Excel sur le Web](../develop/scripting-fundamentals.md)
 - [Annuler les effets d’un script Office](undo.md)
+- [Améliorer les performances de vos scripts Office](../develop/web-client-performance.md)

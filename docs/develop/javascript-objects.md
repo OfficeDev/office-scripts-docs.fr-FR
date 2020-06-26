@@ -1,14 +1,14 @@
 ---
 title: Utilisation d’objets JavaScript intégrés dans les scripts Office
 description: Comment appeler des API JavaScript intégrées à partir d’un script Office dans Excel sur le Web.
-ms.date: 04/08/2020
+ms.date: 04/24/2020
 localization_priority: Normal
-ms.openlocfilehash: 54cadb6e9ce60e631488bbe7de00c29a6db35eb7
-ms.sourcegitcommit: b13dedb5ee2048f0a244aa2294bf2c38697cb62c
+ms.openlocfilehash: b5d70e77aef79c38a8cfd680c9d03bb126c402b2
+ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43215258"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878534"
 ---
 # <a name="using-built-in-javascript-objects-in-office-scripts"></a>Utilisation d’objets JavaScript intégrés dans les scripts Office
 
@@ -23,27 +23,25 @@ L’objet [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Gl
 
 ### <a name="working-with-ranges"></a>Utilisation des plages
 
-Les plages contiennent plusieurs tableaux à deux dimensions qui correspondent directement aux cellules de cette plage. Elles incluent des propriétés telles `values`que `formulas`, et `numberFormat`. Les propriétés de type tableau doivent être [chargées](scripting-fundamentals.md#sync-and-load) comme n’importe quelle autre propriété.
+Les plages contiennent plusieurs tableaux à deux dimensions qui correspondent directement aux cellules de cette plage. Ces tableaux contiennent des informations spécifiques sur chaque cellule de cette plage. Par exemple, `Range.getValues` renvoie toutes les valeurs de ces cellules (avec les lignes et les colonnes du mappage de tableau à deux dimensions sur les lignes et les colonnes de cette sous-section de feuille de calcul). `Range.getFormulas`et `Range.getNumberFormats` sont d’autres méthodes fréquemment utilisées qui retournent des tableaux comme `Range.getValues` .
 
 Le script suivant recherche dans la plage **a1 : D4** le format de nombre contenant un « $ ». Le script définit la couleur de remplissage de ces cellules sur « jaune ».
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
+function main(workbook: ExcelScript.Workbook) {
   // Get the range From A1 to D4.
-  let range = context.workbook.worksheets.getActiveWorksheet().getRange("A1:D4");
+  let range = workbook.getActiveWorksheet().getRange("A1:D4");
 
-  // Load the numberFormat property on the range.
-  range.load("numberFormat");
-  await context.sync();
-
+  // Get the number formats for each cell in the range.
+  let rangeNumberFormats = range.getNumberFormats();
   // Iterate through the arrays of rows and columns corresponding to those in the range.
-  range.numberFormat.forEach((rowItem, rowIndex) => {
-    range.numberFormat[rowIndex].forEach((columnItem, columnIndex) => {
+  rangeNumberFormats.forEach((rowItem, rowIndex) => {
+    rangeNumberFormats[rowIndex].forEach((columnItem, columnIndex) => {
       // Treat the numberFormat as a string so we can do text comparisons.
       let columnItemText = columnItem as string;
       if (columnItemText.indexOf("$") >= 0) {
         // Set the cell's fill to yellow.
-        range.getCell(rowIndex, columnIndex).format.fill.color = "yellow";
+        range.getCell(rowIndex, columnIndex).getFormat().getFill().setColor("yellow");
       }
     });
   });
@@ -52,42 +50,38 @@ async function main(context: Excel.RequestContext) {
 
 ### <a name="working-with-collections"></a>Utilisation des collections
 
-De nombreux objets Excel sont contenus dans une collection. Par exemple, toutes les [formes](/javascript/api/office-scripts/excel/excel.shape) d’une feuille de calcul sont contenues dans un `Worksheet.shapes` [ShapeCollection](/javascript/api/office-scripts/excel/excel.shapecollection) (en tant que propriété). Chaque `*Collection` objet contient une `items` propriété qui est un tableau qui stocke les objets à l’intérieur de cette collection. Cela peut être traité comme un tableau JavaScript normal, mais les éléments de la collection doivent d’abord être chargés. Si vous devez utiliser une propriété sur chaque objet de la collection, utilisez une instruction de chargement hiérarchique (`items/propertyName`).
+De nombreux objets Excel sont contenus dans une collection. La collection est gérée par l’API de scripts Office et exposée sous forme de tableau. Par exemple, toutes les [formes](/javascript/api/office-scripts/excel/excelscript.shape) d’une feuille de calcul sont contenues dans un `Shape[]` qui est renvoyé par la `Worksheet.getShapes` méthode. Vous pouvez utiliser ce tableau pour lire des valeurs à partir de la collection, ou pour accéder à des objets spécifiques à partir des méthodes de l’objet parent `get*` .
+
+> [!NOTE]
+> N’ajoutez pas ou ne supprimez pas manuellement des objets de ces tableaux de collections. Utilisez les `add` méthodes sur les objets parents et les `delete` méthodes sur les objets de type collection. Par exemple, ajoutez une [table](/javascript/api/office-scripts/excel/excelscript.table) à une [feuille de calcul](/javascript/api/office-scripts/excel/excelscript.worksheet) avec la `Worksheet.addTable` méthode et supprimez l' `Table` using `Table.delete` .
 
 Le script suivant journalise le type de chaque forme dans la feuille de calcul active.
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
+function main(workbook: ExcelScript.Workbook) {
   // Get the current worksheet.
-  let selectedSheet = context.workbook.worksheets.getActiveWorksheet();
+  let selectedSheet = workbook.getActiveWorksheet();
 
   // Get the shapes in this worksheet.
-  let shapes = selectedSheet.shapes;
-  shapes.load("items/type");
-  await context.sync();
+  let shapes = selectedSheet.getShapes();
 
   // Log the type of every shape in the collection.
-  shapes.items.forEach((shape) => {
-    console.log(shape.type);
+  shapes.forEach((shape) => {
+    console.log(shape.getType());
   });
 }
 ```
 
-Vous pouvez charger des objets individuels à partir d’une `getItem` collection `getItemAt` à l’aide des méthodes ou. `getItem`Obtient un objet à l’aide d’un identificateur unique comme un nom (ces noms sont souvent spécifiés par votre script). `getItemAt`Obtient un objet à l’aide de son index dans la collection. L’appel doit être suivi d’une `await context.sync();` commande avant que l’objet puisse être utilisé.
-
 Le script suivant supprime la forme la plus ancienne dans la feuille de calcul active.
 
 ```Typescript
-async function main(context: Excel.RequestContext) {
+function main(workbook: ExcelScript.Workbook) {
   // Get the current worksheet.
-  let selectedSheet = context.workbook.worksheets.getActiveWorksheet();
+  let selectedSheet = workbook.getActiveWorksheet();
 
   // Get the first (oldest) shape in the worksheet.
   // Note that this script will thrown an error if there are no shapes.
-  let shape = selectedSheet.shapes.getItemAt(0);
-
-  // Sync to load `shape` from the collection.
-  await context.sync();
+  let shape = selectedSheet.getShapes()[0];
 
   // Remove the shape from the worksheet.
   shape.delete();
@@ -101,15 +95,15 @@ L’objet [Date](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Glo
 Le script suivant ajoute la date actuelle à la feuille de calcul. À l’aide de la `toLocaleDateString` méthode, Excel reconnaît la valeur comme une date et modifie automatiquement le format numérique de la cellule.
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
+function main(workbook: ExcelScript.Workbook) {
   // Get the range for cell A1.
-  let range = context.workbook.worksheets.getActiveWorksheet().getRange("A1");
+  let range = workbook.getActiveWorksheet().getRange("A1");
 
   // Get the current date and time.
   let date = new Date(Date.now());
 
   // Set the value at A1 to the current date, using a localized string.
-  range.values = [[date.toLocaleDateString()]];
+  range.setValue(date.toLocaleDateString());
 }
 ```
 
@@ -122,26 +116,25 @@ L’objet [Math](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Glo
 Le script suivant utilise `Math.min` pour rechercher et consigner le plus petit nombre de la plage **a1 : D4** . Notez que cet exemple suppose que la plage entière ne contienne que des nombres, et non des chaînes.
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
+function main(workbook: ExcelScript.Workbook) {
   // Get the range from A1 to D4.
-  let comparisonRange = context.workbook.worksheets.getActiveWorksheet().getRange("A1:D4");
-  
+  let comparisonRange = workbook.getActiveWorksheet().getRange("A1:D4");
+
   // Load the range's values.
-  comparisonRange.load("values");
-  await context.sync();
+  let comparisonRangeValues = comparisonRange.getValues();
 
   // Set the minimum values as the first value.
-  let minimum = comparisonRange.values[0][0];
+  let minimum = comparisonRangeValues[0][0];
 
   // Iterate over each row looking for the smallest value.
-  comparisonRange.values.forEach((rowItem, rowIndex) => {
+  comparisonRangeValues.forEach((rowItem, rowIndex) => {
     // Iterate over each column looking for the smallest value.
-    comparisonRange.values[rowIndex].forEach((columnItem) => {
+    comparisonRangeValues[rowIndex].forEach((columnItem) => {
       // Use `Math.min` to set the smallest value as either the current cell's value or the previous minimum.
       minimum = Math.min(minimum, columnItem);
     });
   });
-  
+
   console.log(minimum);
 }
 

@@ -1,14 +1,14 @@
 ---
 title: Environnement de l’éditeur de code des scripts Office
 description: Les conditions préalables et les informations d’environnement pour les scripts Office dans Excel sur le Web.
-ms.date: 04/08/2020
+ms.date: 04/24/2020
 localization_priority: Normal
-ms.openlocfilehash: 6b26adf886172f085980bed0488b4aa7a6815991
-ms.sourcegitcommit: b13dedb5ee2048f0a244aa2294bf2c38697cb62c
+ms.openlocfilehash: efe6ddbe39a1ea3850b4dc6fea0fa885b80c0c28
+ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43215265"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878667"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Environnement de l’éditeur de code des scripts Office
 
@@ -25,7 +25,7 @@ Les scripts Office sont principalement des portions de code autonomes. Seule une
 
 ## <a name="office-scripts-javascript-api"></a>API JavaScript pour les scripts Office
 
-Les scripts Office utilisent une version spécialisée des API JavaScript Office utilisées par des [Compléments Office](/office/dev/add-ins/overview/index). Les différences entre les deux plateformes sont décrites dans l’article [différences entre les scripts Office et les compléments Office](../resources/add-ins-differences.md#apis) . Vous pouvez afficher toutes les API disponibles pour votre script dans la [documentation de référence de l’API des scripts Office](/javascript/api/office-scripts/overview).
+Les scripts Office utilisent une version spécialisée des API JavaScript pour Office pour les [Compléments Office](/office/dev/add-ins/overview/index). Bien qu’il existe des similitudes entre les deux API, vous ne devez pas supposer que le code peut être transféré entre les deux plateformes. Les différences entre les deux plateformes sont décrites dans l’article [différences entre les scripts Office et les compléments Office](../resources/add-ins-differences.md#apis) . Vous pouvez afficher toutes les API disponibles pour votre script dans la [documentation de référence de l’API des scripts Office](/javascript/api/office-scripts/overview).
 
 ## <a name="intellisense"></a>Remplissage
 
