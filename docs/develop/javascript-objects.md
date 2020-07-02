@@ -1,14 +1,14 @@
 ---
 title: Utilisation d’objets JavaScript intégrés dans les scripts Office
 description: Comment appeler des API JavaScript intégrées à partir d’un script Office dans Excel sur le Web.
-ms.date: 04/24/2020
+ms.date: 06/29/2020
 localization_priority: Normal
-ms.openlocfilehash: b5d70e77aef79c38a8cfd680c9d03bb126c402b2
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 1c8ac757574e8c4be64b373f8d4bf421ddfa0c79
+ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878534"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44999259"
 ---
 # <a name="using-built-in-javascript-objects-in-office-scripts"></a>Utilisation d’objets JavaScript intégrés dans les scripts Office
 
@@ -50,10 +50,10 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="working-with-collections"></a>Utilisation des collections
 
-De nombreux objets Excel sont contenus dans une collection. La collection est gérée par l’API de scripts Office et exposée sous forme de tableau. Par exemple, toutes les [formes](/javascript/api/office-scripts/excel/excelscript.shape) d’une feuille de calcul sont contenues dans un `Shape[]` qui est renvoyé par la `Worksheet.getShapes` méthode. Vous pouvez utiliser ce tableau pour lire des valeurs à partir de la collection, ou pour accéder à des objets spécifiques à partir des méthodes de l’objet parent `get*` .
+De nombreux objets Excel sont contenus dans une collection. La collection est gérée par l’API de scripts Office et exposée sous forme de tableau. Par exemple, toutes les [formes](/javascript/api/office-scripts/excelscript/excelscript.shape) d’une feuille de calcul sont contenues dans un `Shape[]` qui est renvoyé par la `Worksheet.getShapes` méthode. Vous pouvez utiliser ce tableau pour lire des valeurs à partir de la collection, ou pour accéder à des objets spécifiques à partir des méthodes de l’objet parent `get*` .
 
 > [!NOTE]
-> N’ajoutez pas ou ne supprimez pas manuellement des objets de ces tableaux de collections. Utilisez les `add` méthodes sur les objets parents et les `delete` méthodes sur les objets de type collection. Par exemple, ajoutez une [table](/javascript/api/office-scripts/excel/excelscript.table) à une [feuille de calcul](/javascript/api/office-scripts/excel/excelscript.worksheet) avec la `Worksheet.addTable` méthode et supprimez l' `Table` using `Table.delete` .
+> N’ajoutez pas ou ne supprimez pas manuellement des objets de ces tableaux de collections. Utilisez les `add` méthodes sur les objets parents et les `delete` méthodes sur les objets de type collection. Par exemple, ajoutez une [table](/javascript/api/office-scripts/excelscript/excelscript.table) à une [feuille de calcul](/javascript/api/office-scripts/excelscript/excelscript.worksheet) avec la `Worksheet.addTable` méthode et supprimez l' `Table` using `Table.delete` .
 
 Le script suivant journalise le type de chaque forme dans la feuille de calcul active.
 

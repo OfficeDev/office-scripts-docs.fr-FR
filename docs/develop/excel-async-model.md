@@ -1,14 +1,14 @@
 ---
 title: Utilisation des API Async de scripts Office pour prendre en charge les scripts hérités
 description: Introduction sur les API Async Office scripts et utilisation du modèle Load/Sync pour les scripts hérités.
-ms.date: 06/22/2020
+ms.date: 06/29/2020
 localization_priority: Normal
-ms.openlocfilehash: c7b3c1401ecc2b4d0371590e71f61ae6e9ad8a9d
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 78a09232060d862a4e0944356ba2f33f7a264ea1
+ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878778"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44999284"
 ---
 # <a name="using-the-office-scripts-async-apis-to-support-legacy-scripts"></a>Utilisation des API Async de scripts Office pour prendre en charge les scripts hérités
 
@@ -37,7 +37,7 @@ L’objet `context` est nécessaire car le script et Excel sont exécutés dans 
 
 Comme le script et le classeur s’exécutent dans des emplacements différents, le transfert de données entre les deux prend du temps. Dans l’API Async, les commandes sont mises en file d’attente jusqu’à ce que le script appelle explicitement l' `sync` opération pour synchroniser le script et le classeur. Le script peut fonctionner de façon indépendante jusqu’à ce qu’il doive effectuer l’une des opérations suivantes :
 
-- Lisez les données du classeur (en suivant une `load`opération de ou une méthode qui renvoie une [ClientResult](/javascript/api/office-scripts/excel/excel.clientresult?view=office-scripts-async)).
+- Lisez les données du classeur (en suivant une `load`opération de ou une méthode qui renvoie une [ClientResult](/javascript/api/office-scripts/excelscript/excel.clientresult?view=office-scripts-async)).
 - Écrire les données dans le classeur (généralement quand le script est terminé).
 
 L’image suivante montre un exemple de flux de contrôle entre le script et le classeur :

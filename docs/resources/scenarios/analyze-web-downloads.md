@@ -1,14 +1,14 @@
 ---
 title: 'Exemple de scénario de scripts Office : analyser les téléchargements Web'
 description: Exemple qui prend des données de trafic Internet brutes dans un classeur Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans un tableau.
-ms.date: 06/15/2020
+ms.date: 06/25/2020
 localization_priority: Normal
-ms.openlocfilehash: 2a74fada55115faf79f0b625b8a7cd6352deb651
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 425d2af432d6b3c4b7604daf7935d2cc1ec059a8
+ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878646"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44999266"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Exemple de scénario de scripts Office : analyser les téléchargements Web
 
@@ -30,6 +30,9 @@ Vous développerez un script qui analyse les données de téléchargements hebdo
 Cet exemple a été démo dans le cadre de l’appel de la communauté de développeurs de compléments Office pour le 2020 février.
 
 > [!VIDEO https://www.youtube.com/embed/vPEqbb7t6-Y?start=154]
+
+> [!NOTE]
+> Le code présenté dans cette vidéo utilise un modèle d’API plus ancien ( [API Async pour les scripts Office](../../develop/excel-async-model.md)). L’exemple présenté sur cette page a été mis à jour, mais le code semble un peu différent de l’enregistrement. Les modifications n’affectent pas le comportement du script ou de l’autre contenu dans la démonstration du présentateur.
 
 ## <a name="setup-instructions"></a>Instructions de configuration
 
