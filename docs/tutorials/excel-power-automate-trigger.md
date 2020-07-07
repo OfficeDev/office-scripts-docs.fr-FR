@@ -1,14 +1,13 @@
 ---
-title: Exécuter automatiquement des scripts avec Power automate
-description: Didacticiel sur l’intégration de Power automate aux scripts Office pour Excel sur le Web à l’aide de déclencheurs externes automatiques, tels que la réception de courrier électronique via Outlook.
-ms.date: 06/09/2020
+title: Exécuter automatiquement des scripts avec Power Automate
+description: Didacticiel sur l’exécution de scripts Office pour Excel sur le Web via automate d’alimentation à l’aide d’un déclencheur externe automatique (réception de courriers électroniques via Outlook).
+ms.date: 06/29/2020
 localization_priority: Priority
-ms.openlocfilehash: 538a6533e4628a0f555d08eadda060a20830a7ae
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: MT
+ms.openlocfilehash: a750197d6b5ae770ad7d2e17b3ee00dc65ee8875
+ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878771"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45043418"
 ---
 # <a name="automatically-run-scripts-with-power-automate-preview"></a>Exécuter automatiquement des scripts avec Power automate (aperçu)
 
@@ -263,6 +262,6 @@ Lorsque le flux est déclenché et exécute correctement votre script, vous deve
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Pour en savoir plus sur la connexion de scripts Office avec Power Automated, consultez la rubrique [intégration des scripts Office avec Power automate](../develop/power-automate-integration.md) .
+Consultez la rubrique [exécuter des scripts Office avec Power automate](../develop/power-automate-integration.md) pour en savoir plus sur la connexion de scripts Office avec Power Automated.
 
 Vous pouvez également consulter le [scénario d’exemple de rappel de tâche automatisée](../resources/scenarios/task-reminders.md) pour savoir comment combiner des scripts Office et alimenter automatiquement avec des cartes adaptatives de teams.

@@ -1,14 +1,13 @@
 ---
-title: Commencer à utiliser des scripts avec Power automate
-description: Didacticiel sur l’intégration de Power automate aux scripts Office à l’aide d’un déclencheur manuel.
-ms.date: 06/09/2020
+title: Commencer à utiliser des scripts avec Power Automate
+description: Didacticiel sur l’utilisation d’un script Office dans Power Automated via un déclencheur manuel.
+ms.date: 06/29/2020
 localization_priority: Priority
-ms.openlocfilehash: 37c2d9ae4c5456a1355362c70695fc61c236a725
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: MT
+ms.openlocfilehash: b2a10692929de90506f58851e9322afa63e15ca0
+ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878790"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45043411"
 ---
 # <a name="start-using-scripts-with-power-automate-preview"></a>Commencer à utiliser des scripts avec Power automate (aperçu)
 
