@@ -1,13 +1,14 @@
 ---
 title: Exécuter des scripts Office avec Power automate
 description: Comment obtenir des scripts Office pour Excel sur le Web avec un flux de travail Automated Power.
-ms.date: 06/29/2020
+ms.date: 07/01/2020
 localization_priority: Normal
-ms.openlocfilehash: 0ea58324998d23020e04cb37dfeea065791757f5
-ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
+ms.openlocfilehash: 40a67f3d0e8f049a8ec5516c0af54c5fc6fb9319
+ms.sourcegitcommit: edf58aed3cd38f57e5e7227465a1ef5515e15703
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043383"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45081592"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter des scripts Office avec Power automate
 
@@ -18,7 +19,7 @@ ms.locfileid: "45043383"
 
 ## <a name="getting-started"></a>Prise en main
 
-Pour commencer à combiner les scripts Power Automated et Office, suivez le didacticiel [commencer à utiliser des scripts avec Power automate](../tutorials/excel-power-automate-manual.md). Cela vous apprend à créer un flux qui appelle un script simple. Une fois que vous avez terminé ce didacticiel et que vous avez [exécuté automatiquement les scripts avec Power Automated](../tutorials/excel-power-automate-trigger.md) , renvoyez ici pour obtenir des informations détaillées sur la connexion des scripts Office à la mise à niveau automatique des flux.
+Pour commencer à combiner les scripts Power Automated et Office, suivez le didacticiel [commencer à utiliser des scripts avec Power automate](../tutorials/excel-power-automate-manual.md). Cela vous apprend à créer un flux qui appelle un script simple. Une fois que vous avez terminé ce didacticiel et que vous avez [exécuté automatiquement des scripts avec Automated Power](../tutorials/excel-power-automate-trigger.md) Automated Power Tutorial Tutorial, renvoyez ici pour obtenir des informations détaillées sur la connexion de scripts Office à Power Automated flows.
 
 ## <a name="excel-online-business-connector"></a>Connecteur Excel Online (Business)
 
@@ -27,7 +28,16 @@ Les [connecteurs](/connectors/connectors) sont les ponts entre l’automate de p
 > [!IMPORTANT]
 > L’action « exécuter un script » permet aux personnes qui utilisent le connecteur Excel d’accéder à votre classeur et à ses données. De plus, il existe des risques de sécurité pour les scripts qui effectuent des appels d’API externes, comme expliqué dans la rubrique [appels externes de Power Automated](external-calls.md). Si votre administrateur est concerné par l’exposition de données hautement sensibles, il peut soit désactiver le connecteur Excel Online, soit restreindre l’accès aux scripts Office via les contrôles de l' [administrateur des scripts Office](https://support.microsoft.com/office/19d3c51a-6ca2-40ab-978d-60fa49554dcf).
 
-## <a name="passing-data-from-power-automate-into-a-script"></a>Transmission de données de Power automate dans un script
+## <a name="data-transfer-in-flows-for-scripts"></a>Transfert de données dans les flux pour les scripts
+
+Power automate vous permet de transmettre des éléments de données entre les étapes de votre flux. Les scripts peuvent être configurés pour accepter tous les types d’informations dont vous avez besoin et renvoyer tout élément de votre classeur souhaité dans votre flux. L’entrée de votre script est spécifiée en ajoutant des paramètres à la `main` fonction (en plus de `workbook: ExcelScript.Workbook` ). La sortie du script est déclarée en ajoutant un type de retour à `main` .
+
+> [!NOTE]
+> Lorsque vous créez un bloc de script d’exécution dans votre flux, les paramètres acceptés et les types renvoyés sont renseignés. Si vous modifiez les paramètres ou les types de retour de votre script, vous devez rétablir le bloc de script « exécuter le script » de votre flux. Cela garantit que les données sont analysées correctement.
+
+Les sections suivantes couvrent les détails de l’entrée et de la sortie des scripts utilisés dans Power automate. Si vous souhaitez une approche pratique de l’apprentissage de cette rubrique, essayez les [scripts exécuter automatiquement avec Automated Power](../tutorials/excel-power-automate-trigger.md) Automated Flow Tutorial ou explorez le scénario d’exemple de [rappel de tâche automatisée](../resources/scenarios/task-reminders.md) .
+
+### <a name="main-parameters-passing-data-to-a-script"></a>`main`Paramètres : transmission de données à un script
 
 Toutes les entrées de script sont spécifiées comme paramètres supplémentaires pour la `main` fonction. Par exemple, si vous souhaitez qu’un script accepte un `string` qui représente un nom comme entrée, vous devez remplacer la `main` signature par `function main(workbook: ExcelScript.Workbook, name: string)` .
 
@@ -72,7 +82,7 @@ Lors de l’ajout de paramètres d’entrée à la fonction d’un script `main`
 
 10. Les valeurs de paramètre par défaut sont autorisées (par exemple `async function main(workbook: ExcelScript.Workbook, Name: string = 'Jane Doe')` .
 
-## <a name="returning-data-from-a-script-back-to-power-automate"></a>Retour des données d’un script à automate d’alimentation
+## <a name="returning-data-from-a-script"></a>Renvoi de données à partir d’un script
 
 Les scripts peuvent renvoyer des données à partir du classeur afin d’être utilisées en tant que contenu dynamique dans un flux automatique de l’alimentation. Comme avec les paramètres d’entrée, Power automate place certaines restrictions sur le type de retour.
 
@@ -134,7 +144,7 @@ function main(
 ## <a name="see-also"></a>Voir aussi
 
 - [Exécuter des scripts Office dans Excel sur le Web avec Power Automated Power](../tutorials/excel-power-automate-manual.md)
-- [Exécuter automatiquement des scripts avec Power Automate](../tutorials/excel-power-automate-trigger.md)
+- [Exécuter automatiquement des scripts avec automate d’alimentation automatisée des flux](../tutorials/excel-power-automate-trigger.md)
 - [Principes de base des scripts pour Office Scripts dans Excel sur le web](scripting-fundamentals.md)
 - [Prise en main de Power Automate](/power-automate/getting-started)
 - [Documentation de référence du connecteur Excel Online (Business)](/connectors/excelonlinebusiness/)

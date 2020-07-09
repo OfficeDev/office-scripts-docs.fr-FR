@@ -1,13 +1,14 @@
 ---
 title: Commencer à utiliser des scripts avec Power Automate
 description: Didacticiel sur l’utilisation d’un script Office dans Power Automated via un déclencheur manuel.
-ms.date: 06/29/2020
+ms.date: 07/01/2020
 localization_priority: Priority
-ms.openlocfilehash: b2a10692929de90506f58851e9322afa63e15ca0
-ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
+ms.openlocfilehash: 83e072a45fc724ff2aac5bf5f3893dcb64eaf2ff
+ms.sourcegitcommit: edf58aed3cd38f57e5e7227465a1ef5515e15703
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043411"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45081634"
 ---
 # <a name="start-using-scripts-with-power-automate-preview"></a>Commencer à utiliser des scripts avec Power automate (aperçu)
 
@@ -123,4 +124,4 @@ Votre flux est maintenant prêt à être exécuté via automate Power. Vous pouv
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Complétez les [scripts exécuter automatiquement avec Power Automated](excel-power-automate-trigger.md) . Elle vous apprend à transmettre des données à partir d’un service de flux de travail à votre script Office.
+Exécutez le didacticiel [exécuter automatiquement les scripts avec automate d’alimentation automatique](excel-power-automate-trigger.md) . Elle vous apprend à transmettre des données à partir d’un service de flux de travail à votre script Office.
