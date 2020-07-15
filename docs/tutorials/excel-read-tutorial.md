@@ -1,14 +1,14 @@
 ---
 title: Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 description: Didacticiel des scripts Office sur la lecture de données à partir de classeurs et l’évaluation de ces données dans le script.
-ms.date: 01/27/2020
+ms.date: 04/23/2020
 localization_priority: Priority
-ms.openlocfilehash: 42ed0fe5843a78692f9660b873211e3668702164
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: 93204184d4b5947b2a67107b1fd73c178a73c32e
+ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700181"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878684"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 
@@ -19,12 +19,7 @@ Ce didacticiel vous apprend comment lire des données à partir d’un classeur 
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-[!INCLUDE [Preview note](../includes/preview-note.md)]
-
-Avant de commencer ce didacticiel, vous devez disposer d’un accès aux scripts Office, ce qui nécessite ce qui suit :
-
-- [Excel pour le web](https://www.office.com/launch/excel).
-- Demandez à votre administrateur d’[activer les scripts Office pour votre organisation](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf), ce qui ajoute l’onglet **Automatiser** au ruban.
+[!INCLUDE [Tutorial prerequisites](../includes/tutorial-prerequisites.md)]
 
 > [!IMPORTANT]
 > Ce didacticiel est destiné aux utilisateurs ayant des connaissances de niveau débutant à intermédiaire en JavaScript ou TypeScript. Si vous débutez avec JavaScript, nous vous conseillons de consulter le [didacticiel Mozilla JavaScript](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction). Rendez-vous sur [Scripts Office dans Excel pour le web](../overview/excel.md) pour en savoir plus sur l’environnement de script.
@@ -56,33 +51,25 @@ Dans le reste du didacticiel, nous allons normaliser ces données à l’aide d�
     Remplacez le contenu du script par le code suivant :
 
     ```TypeScript
-    async function main(context: Excel.RequestContext) {
-      // Get the current worksheet.
-      let workbook = context.workbook;
-      let worksheets = workbook.worksheets;
-      let selectedSheet = worksheets.getActiveWorksheet();
+    function main(workbook: ExcelScript.Workbook) {
+        // Get the current worksheet.
+        let selectedSheet = workbook.getActiveWorksheet();
 
-      // Format the range to display numerical dollar amounts.
-      selectedSheet.getRange("D2:E8").numberFormat = [["$#,##0.00"]];
+        // Format the range to display numerical dollar amounts.
+        selectedSheet.getRange("D2:E8").setNumberFormat("$#,##0.00");
 
-      // Fit the width of all the used columns to the data.
-      selectedSheet.getUsedRange().format.autofitColumns();
+        // Fit the width of all the used columns to the data.
+        selectedSheet.getUsedRange().getFormat().autofitColumns();
     }
     ```
 
-5. Nous allons maintenant lire une valeur depuis l’une des colonnes de montants. Ajoutez le code suivant à la fin du script :
+5. Nous allons maintenant lire une valeur depuis l’une des colonnes de montants. Ajoutez le code suivant à la fin du script (avant le `}` de clôture) :
 
     ```TypeScript
     // Get the value of cell D2.
     let range = selectedSheet.getRange("D2");
-    range.load("values");
-    await context.sync();
-  
-    // Print the value of D2.
-    console.log(range.values);
+    console.log(range.getValues());
     ```
-
-    Remarquez les appels de `load` et de `sync`. Pour plus de détails sur ces méthodes, voir [Principes de base des scripts Office dans Excel pour le web](../develop/scripting-fundamentals.md#sync-and-load). Pour l’instant, sachez seulement que vous devez demander la lecture des données puis synchroniser votre script avec le classeur pour lire les données.
 
 6. Exécutez le script.
 7. Ouvrez la console. Accédez au menu **Ellipses**, puis appuyez sur **Journaux...**.
@@ -99,10 +86,12 @@ Maintenant que nous avons vu comment lire des données, nous allons les utiliser
 1. Ajoutez le code suivant à la fin du script :
 
     ```TypeScript
-    // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
-    let positiveValue = Math.abs(range.values[0][0]);
-    range.values = [[positiveValue]];
+        // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
+    let positiveValue = Math.abs(range.getValue());
+    range.setValue(positiveValue);
     ```
+
+    Notez que nous utilisons `getValue` et `setValue`. Ces méthodes fonctionnent sur une seule cellule. Lorsque vous manipulez des plages de plusieurs cellules, vous pouvez utiliser `getValues` et `setValues`.
 
 2. La valeur de la cellule **D2** doit maintenant être positive.
 
@@ -113,47 +102,44 @@ Maintenant que nous avons vu comment lire et écrire dans une seule cellule, con
 1. Supprimez le code qui affecte une seule cellule (le code de valeur absolue précédent), de sorte que votre script se présente désormais comme suit :
 
     ```TypeScript
-    async function main(context: Excel.RequestContext) {
-      // Get the current worksheet.
-      let workbook = context.workbook;
-      let worksheets = workbook.worksheets;
-      let selectedSheet = worksheets.getActiveWorksheet();
+    function main(workbook: ExcelScript.Workbook) {
+        // Get the current worksheet.
+        let selectedSheet = workbook.getActiveWorksheet();
 
-      // Format the range to display numerical dollar amounts.
-      selectedSheet.getRange("D2:E8").numberFormat = [["$#,##0.00"]];
+        // Format the range to display numerical dollar amounts.
+        selectedSheet.getRange("D2:E8").setNumberFormat("$#,##0.00");
 
-      // Fit the width of all the used columns to the data.
-      selectedSheet.getUsedRange().format.autofitColumns();
+        // Fit the width of all the used columns to the data.
+        selectedSheet.getUsedRange().getFormat().autofitColumns();
     }
     ```
 
-2. Ajoutez une boucle pour produire une itération dans des lignes des deux dernières colonnes. Le script remplace la valeur de chaque cellule en la valeur absolue de cette valeur.
+2. Ajoutez une boucle à la fin du script qui itère au sein des lignes des deux dernières colonnes. Le script remplace la valeur de chaque cellule en la valeur absolue de cette valeur.
 
     Notez que l’indexation du tableau qui définit les emplacements des cellules est basée sur zéro. Par conséquent, la cellule **A1** est `range[0][0]`.
 
     ```TypeScript
     // Get the values of the used range.
     let range = selectedSheet.getUsedRange();
-    range.load("rowCount,values");
-    await context.sync();
+    let rangeValues = range.getValues();
 
     // Iterate over the fourth and fifth columns and set their values to their absolute value.
-    for (let i = 1; i < range.rowCount; i++) {
-      // The column at index 3 is column "4" in the worksheet.
-      if (range.values[i][3] != 0) {
-        let positiveValue = Math.abs(range.values[i][3]);
-        selectedSheet.getCell(i, 3).values = [[positiveValue]];
-      }
+    for (let i = 1; i < range.getRowCount(); i++) {
+        // The column at index 3 is column "4" in the worksheet.
+        if (rangeValues[i][3] != 0) {
+            let positiveValue = Math.abs(rangeValues[i][3]);
+            selectedSheet.getCell(i, 3).setValue(positiveValue);
+        }
 
-      // The column at index 4 is column "5" in the worksheet.
-      if (range.values[i][4] != 0) {
-        let positiveValue = Math.abs(range.values[i][4]);
-        selectedSheet.getCell(i, 4).values = [[positiveValue]];
-      }
+        // The column at index 4 is column "5" in the worksheet.
+        if (rangeValues[i][4] != 0) {
+            let positiveValue = Math.abs(rangeValues[i][4]);
+            selectedSheet.getCell(i, 4).setValue(positiveValue);
+        }
     }
     ```
 
-    Cette partie du script effectue plusieurs tâches importantes. Premièrement, elle charge les valeurs et le nombre de lignes de la plage utilisée. Nous pouvons ainsi examiner les valeurs et déterminer quand arrêter. Deuxièmement, elle produit une itération dans la plage utilisée, en vérifiant chaque cellule des colonnes **Débit** et **Crédit**. Enfin, si la valeur dans la cellule n’est pas 0, elle est remplacée par sa valeur absolue. Nous évitons les zéros pour pouvoir laisser les cellules vides telles qu’elles sont.
+    Cette partie du script effectue plusieurs tâches importantes. Premièrement, elle obtient les valeurs et le nombre de lignes de la plage utilisée. Nous pouvons ainsi examiner les valeurs et déterminer quand arrêter. Deuxièmement, elle produit une itération dans la plage utilisée, en vérifiant chaque cellule des colonnes **Débit** et **Crédit**. Enfin, si la valeur dans la cellule n’est pas 0, elle est remplacée par sa valeur absolue. Nous évitons les zéros pour pouvoir laisser les cellules vides telles qu’elles sont.
 
 3. Exécutez le script.
 
