@@ -1,14 +1,14 @@
 ---
 title: Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 description: Didacticiel des scripts Office sur la lecture de données à partir de classeurs et l’évaluation de ces données dans le script.
-ms.date: 04/23/2020
+ms.date: 07/10/2020
 localization_priority: Priority
-ms.openlocfilehash: 93204184d4b5947b2a67107b1fd73c178a73c32e
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: fef1df7cab70ccef67a12ee466af5a89803d0992
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878684"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160421"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 
@@ -72,10 +72,9 @@ Dans le reste du didacticiel, nous allons normaliser ces données à l’aide d�
     ```
 
 6. Exécutez le script.
-7. Ouvrez la console. Accédez au menu **Ellipses**, puis appuyez sur **Journaux...**.
-8. Dans la console, `[Array[1]]` doit s’afficher. Ce n’est pas un nombre, car les plages sont des tableaux de données à deux dimensions. Cette plage à deux dimensions est directement journalisée dans la console. Heureusement, l’éditeur de code vous permet de voir le contenu du tableau.
-9. Lorsqu’un tableau à deux dimensions est journalisé sur la console, il regroupe les valeurs de colonne sous chaque ligne. Développez le journal du tableau en appuyant sur le triangle bleu.
-10. Développez le deuxième niveau du tableau en appuyant sur le triangle bleu nouvellement affiché. Voici ce que vous devez voir :
+7. Dans la console, `[Array[1]]` doit s’afficher. Ce n’est pas un nombre, car les plages sont des tableaux de données à deux dimensions. Cette plage à deux dimensions est directement journalisée dans la console. Heureusement, l’éditeur de code vous permet de voir le contenu du tableau.
+8. Lorsqu’un tableau à deux dimensions est journalisé sur la console, il regroupe les valeurs de colonne sous chaque ligne. Développez le journal du tableau en appuyant sur le triangle bleu.
+9. Développez le deuxième niveau du tableau en appuyant sur le triangle bleu nouvellement affiché. Voici ce que vous devez voir :
 
     ![Journal de la console affichant la sortie « −20,05 », imbriquée sous deux tableaux.](../images/tutorial-4.png)
 
@@ -86,7 +85,7 @@ Maintenant que nous avons vu comment lire des données, nous allons les utiliser
 1. Ajoutez le code suivant à la fin du script :
 
     ```TypeScript
-        // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
+    // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
     let positiveValue = Math.abs(range.getValue());
     range.setValue(positiveValue);
     ```
@@ -124,7 +123,8 @@ Maintenant que nous avons vu comment lire et écrire dans une seule cellule, con
     let rangeValues = range.getValues();
 
     // Iterate over the fourth and fifth columns and set their values to their absolute value.
-    for (let i = 1; i < range.getRowCount(); i++) {
+    let rowCount = range.getRowCount();
+    for (let i = 1; i < rowCount; i++) {
         // The column at index 3 is column "4" in the worksheet.
         if (rangeValues[i][3] != 0) {
             let positiveValue = Math.abs(rangeValues[i][3]);
