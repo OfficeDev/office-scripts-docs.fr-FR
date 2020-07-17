@@ -1,14 +1,14 @@
 ---
 title: Environnement de l’éditeur de code des scripts Office
 description: Les conditions préalables et les informations d’environnement pour les scripts Office dans Excel sur le Web.
-ms.date: 04/24/2020
+ms.date: 07/10/2020
 localization_priority: Normal
-ms.openlocfilehash: efe6ddbe39a1ea3850b4dc6fea0fa885b80c0c28
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 643ea2d5bd69adf4311546465ccd65c08dacf4b4
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878667"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160494"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Environnement de l’éditeur de code des scripts Office
 
@@ -37,7 +37,11 @@ L’éditeur de code Excel utilise le même moteur IntelliSense que Visual Studi
 
 Les scripts Office ne prennent pas en charge l’utilisation de bibliothèques JavaScript tierces externes. Vous ne pouvez actuellement pas appeler une bibliothèque autre que les API de scripts Office à partir d’un script. Vous avez toujours accès à un [objet JavaScript intégré](../develop/javascript-objects.md), tel que [Math](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math).
 
-## <a name="see-also"></a>Voir aussi
+## <a name="browser-support"></a>Prise en charge du navigateur
+
+Les scripts Office fonctionnent dans n’importe quel navigateur qui [prend en charge Office pour le Web](https://support.microsoft.com/office/ad1303e0-a318-47aa-b409-d3a5eb44e452). Toutefois, certaines fonctionnalités JavaScript ne sont pas prises en charge dans Internet Explorer 11 (IE 11). Toutes les fonctionnalités introduites dans [ES6 ou version ultérieure](https://www.w3schools.com/Js/js_es6.asp) ne fonctionneront pas avec Internet Explorer 11. Si les membres de votre organisation continuent d’utiliser ce navigateur, veillez à tester vos scripts dans cet environnement lors de leur partage.
+
+## <a name="see-also"></a>Consultez également
 
 - [Référence de l'API Office Scripts](/javascript/api/office-scripts/overview)
 - [Dépannage de Office Scripts](../testing/troubleshooting.md)

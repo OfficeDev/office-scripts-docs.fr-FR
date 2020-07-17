@@ -1,25 +1,24 @@
 ---
 title: Exécuter des scripts Office avec Power automate
 description: Comment obtenir des scripts Office pour Excel sur le Web avec un flux de travail Automated Power.
-ms.date: 07/01/2020
+ms.date: 07/10/2020
 localization_priority: Normal
-ms.openlocfilehash: 40a67f3d0e8f049a8ec5516c0af54c5fc6fb9319
-ms.sourcegitcommit: edf58aed3cd38f57e5e7227465a1ef5515e15703
+ms.openlocfilehash: bd8fea08b7a9303ad2ceace787de6457a33fb979
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45081592"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160445"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter des scripts Office avec Power automate
 
-[Power automate](https://flow.microsoft.com) vous permet d’ajouter des scripts Office à un flux de travail automatisé plus important. Vous pouvez utiliser Power automate effectuer des opérations comme ajouter le contenu d’un message électronique à la table d’une feuille de calcul ou créer des actions dans vos outils de gestion de projet en fonction des commentaires de votre classeur. Si vous ne connaissez pas l’automate de puissance, nous vous recommandons de consulter la [prise en main de Power automate](/power-automate/getting-started). Ici, vous pouvez en savoir plus sur l’automatisation de vos flux de travail sur plusieurs services.
-
-> [!IMPORTANT]
-> Actuellement, vous ne pouvez pas exécuter des scripts Office à partir d’un [flux partagé](/power-automate/share-buttons). Seul l’utilisateur qui a créé un script peut l’exécuter, même via automate d’alimentation.
+[Power automate](https://flow.microsoft.com) vous permet d’ajouter des scripts Office à un flux de travail automatisé plus important. Vous pouvez utiliser Power automate effectuer des opérations comme ajouter le contenu d’un message électronique à la table d’une feuille de calcul ou créer des actions dans vos outils de gestion de projet en fonction des commentaires de votre classeur.
 
 ## <a name="getting-started"></a>Prise en main
 
-Pour commencer à combiner les scripts Power Automated et Office, suivez le didacticiel [commencer à utiliser des scripts avec Power automate](../tutorials/excel-power-automate-manual.md). Cela vous apprend à créer un flux qui appelle un script simple. Une fois que vous avez terminé ce didacticiel et que vous avez [exécuté automatiquement des scripts avec Automated Power](../tutorials/excel-power-automate-trigger.md) Automated Power Tutorial Tutorial, renvoyez ici pour obtenir des informations détaillées sur la connexion de scripts Office à Power Automated flows.
+Si vous ne connaissez pas l’automate de puissance, nous vous recommandons de consulter la [prise en main de Power automate](/power-automate/getting-started). Ici, vous pouvez en savoir plus sur toutes les possibilités d’automatisation disponibles. Les documents ici se concentrent sur la façon dont les scripts Office fonctionnent avec automate d’alimentation et sur la façon d’améliorer votre expérience Excel.
+
+Pour commencer à combiner les scripts Power Automated et Office, suivez le didacticiel [commencer à utiliser des scripts avec Power automate](../tutorials/excel-power-automate-manual.md). Cela vous apprend à créer un flux qui appelle un script simple. Une fois que vous avez terminé ce didacticiel et que vous avez [transmis des données à des scripts dans un didacticiel de mise à niveau automatique de l’alimentation automatique](../tutorials/excel-power-automate-trigger.md) , renvoyez ici pour obtenir des informations détaillées sur la connexion de scripts Office à la mise à niveau automatique des flux.
 
 ## <a name="excel-online-business-connector"></a>Connecteur Excel Online (Business)
 
@@ -33,9 +32,9 @@ Les [connecteurs](/connectors/connectors) sont les ponts entre l’automate de p
 Power automate vous permet de transmettre des éléments de données entre les étapes de votre flux. Les scripts peuvent être configurés pour accepter tous les types d’informations dont vous avez besoin et renvoyer tout élément de votre classeur souhaité dans votre flux. L’entrée de votre script est spécifiée en ajoutant des paramètres à la `main` fonction (en plus de `workbook: ExcelScript.Workbook` ). La sortie du script est déclarée en ajoutant un type de retour à `main` .
 
 > [!NOTE]
-> Lorsque vous créez un bloc de script d’exécution dans votre flux, les paramètres acceptés et les types renvoyés sont renseignés. Si vous modifiez les paramètres ou les types de retour de votre script, vous devez rétablir le bloc de script « exécuter le script » de votre flux. Cela garantit que les données sont analysées correctement.
+> Lorsque vous créez un bloc de script d’exécution dans votre flux, les paramètres acceptés et les types renvoyés sont renseignés. Si vous modifiez les paramètres ou les types de retour de votre script, vous devez rétablir le bloc de script « exécuter le script » de votre flux. Cela permet de s’assurer que les données sont analysées correctement.
 
-Les sections suivantes couvrent les détails de l’entrée et de la sortie des scripts utilisés dans Power automate. Si vous souhaitez une approche pratique de l’apprentissage de cette rubrique, essayez les [scripts exécuter automatiquement avec Automated Power](../tutorials/excel-power-automate-trigger.md) Automated Flow Tutorial ou explorez le scénario d’exemple de [rappel de tâche automatisée](../resources/scenarios/task-reminders.md) .
+Les sections suivantes couvrent les détails de l’entrée et de la sortie des scripts utilisés dans Power automate. Si vous souhaitez obtenir une approche pratique de l’apprentissage de cette rubrique, essayez de [transmettre des données à des scripts dans un didacticiel de puissance automate d’alimentation automatique](../tutorials/excel-power-automate-trigger.md) ou explorez le scénario d’exemple de [rappels de tâche automatisée](../resources/scenarios/task-reminders.md) .
 
 ### <a name="main-parameters-passing-data-to-a-script"></a>`main`Paramètres : transmission de données à un script
 
@@ -82,7 +81,7 @@ Lors de l’ajout de paramètres d’entrée à la fonction d’un script `main`
 
 10. Les valeurs de paramètre par défaut sont autorisées (par exemple `async function main(workbook: ExcelScript.Workbook, Name: string = 'Jane Doe')` .
 
-## <a name="returning-data-from-a-script"></a>Renvoi de données à partir d’un script
+### <a name="returning-data-from-a-script"></a>Renvoi de données à partir d’un script
 
 Les scripts peuvent renvoyer des données à partir du classeur afin d’être utilisées en tant que contenu dynamique dans un flux automatique de l’alimentation. Comme avec les paramètres d’entrée, Power automate place certaines restrictions sur le type de retour.
 
@@ -100,19 +99,19 @@ Les scripts peuvent renvoyer des données à partir du classeur afin d’être u
 
 Power automate exécute votre script dans le classeur Excel choisi de votre part. Le classeur peut être fermé lorsque cela se produit. Toutes les API qui s’appuient sur l’état actuel de l’utilisateur, telles que `Workbook.getActiveWorksheet` , échouent lorsqu’elles sont exécutées via Power Automated. Lors de la conception de vos scripts, veillez à utiliser des références absolues pour les feuilles de calcul et les plages.
 
-Les fonctions suivantes génèrent une erreur et échouent lorsqu’elles sont appelées à partir d’un script dans un flux d’automate de puissance.
+Les méthodes suivantes génèrent une erreur et échouent lorsqu’elles sont appelées à partir d’un script dans un flux d’automate de puissance.
 
-- `Chart.activate`
-- `Range.select`
-- `Workbook.getActiveCell`
-- `Workbook.getActiveChart`
-- `Workbook.getActiveChartOrNullObject`
-- `Workbook.getActiveSlicer`
-- `Workbook.getActiveSlicerOrNullObject`
-- `Workbook.getActiveWorksheet`
-- `Workbook.getSelectedRange`
-- `Workbook.getSelectedRanges`
-- `Worksheet.activate`
+| Class | Méthode |
+|--|--|
+| [Graphique](/javascript/api/office-scripts/excelscript/excelscript.chart) | `activate` |
+| [Range](/javascript/api/office-scripts/excelscript/excelscript.range) | `select` |
+| [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveCell` |
+| [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveChart` |
+| [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveSlicer` |
+| [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveWorksheet` |
+| [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getSelectedRange` |
+| [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getSelectedRanges` |
+| [Feuille de calcul](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `activate` |
 
 ## <a name="example"></a>Exemple
 
@@ -141,10 +140,10 @@ function main(
 }
 ```
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez également
 
 - [Exécuter des scripts Office dans Excel sur le Web avec Power Automated Power](../tutorials/excel-power-automate-manual.md)
-- [Exécuter automatiquement des scripts avec automate d’alimentation automatisée des flux](../tutorials/excel-power-automate-trigger.md)
-- [Principes de base des scripts pour Office Scripts dans Excel sur le web](scripting-fundamentals.md)
+- [Transmettre des données à des scripts dans un flux automatique de puissance à exécution automatique](../tutorials/excel-power-automate-trigger.md)
+- [Principes de base pour la rédaction de scripts Office en Excel sur le web](scripting-fundamentals.md)
 - [Prise en main de Power Automate](/power-automate/getting-started)
 - [Documentation de référence du connecteur Excel Online (Business)](/connectors/excelonlinebusiness/)

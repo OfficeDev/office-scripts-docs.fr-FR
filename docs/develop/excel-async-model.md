@@ -1,21 +1,21 @@
 ---
-title: Utilisation des API Async de scripts Office pour prendre en charge les scripts hérités
-description: Introduction sur les API Async Office scripts et utilisation du modèle Load/Sync pour les scripts hérités.
-ms.date: 06/29/2020
+title: Prendre en charge les anciens scripts Office qui utilisent les API Async
+description: Introduction sur les API Async Office scripts et utilisation du modèle Load/Sync pour les scripts plus anciens.
+ms.date: 07/08/2020
 localization_priority: Normal
-ms.openlocfilehash: 6c31a39c8e1fe53f2f5587183a6b32e100d2b457
-ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
+ms.openlocfilehash: e7ca5b276cff0e3a38bffc2af1541c0051cf5490
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043397"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160459"
 ---
-# <a name="using-the-office-scripts-async-apis-to-support-legacy-scripts"></a>Utilisation des API Async de scripts Office pour prendre en charge les scripts hérités
+# <a name="support-older-office-scripts-that-use-the-async-apis"></a>Prendre en charge les anciens scripts Office qui utilisent les API Async
 
-Cet article vous apprend à écrire des scripts à l’aide des API héritées, async,. Ces API ont les mêmes fonctionnalités de base que les API de scripts Office, synchrones, mais elles exigent que votre script contrôle la synchronisation des données entre le script et le classeur.
+Cet article vous explique comment gérer et mettre à jour des scripts qui utilisent les API Async de modèle plus anciennes. Ces API ont les mêmes fonctionnalités de base que les API de scripts Office synchrones et à l’heure actuelle, mais elles ont besoin de votre script pour contrôler la synchronisation des données entre le script et le classeur.
 
 > [!IMPORTANT]
-> Le modèle Async ne peut être utilisé qu’avec des scripts créés avant l’implémentation du [modèle d’API](scripting-fundamentals.md?view=office-scripts)actuel. Les scripts sont définitivement verrouillés sur le modèle d’API qu’ils ont lors de leur création. Cela signifie également que si vous souhaitez convertir un script hérité en un nouveau modèle, vous devez utiliser un nouveau script. Nous vous recommandons de mettre à jour vos anciens scripts vers le nouveau modèle lorsque vous effectuez des modifications, étant donné que le modèle actuel est plus facile à utiliser. La rubrique [conversion de scripts Async hérités en la section de modèle actuel](#converting-legacy-async-scripts-to-the-current-model) comporte des conseils sur la façon d’effectuer cette transition.
+> Le modèle Async ne peut être utilisé qu’avec des scripts créés avant l’implémentation du [modèle d’API](scripting-fundamentals.md?view=office-scripts)actuel. Les scripts sont définitivement verrouillés sur le modèle d’API qu’ils ont lors de leur création. Cela signifie également que si vous souhaitez convertir un ancien script vers le nouveau modèle, vous devez créer un nouveau script. Nous vous recommandons de mettre à jour vos anciens scripts vers le nouveau modèle lorsque vous effectuez des modifications, étant donné que le modèle actuel est plus facile à utiliser. La section [conversion de scripts Async en modèle actuel](#converting-async-scripts-to-the-current-model) comporte des conseils sur la façon d’effectuer cette transition.
 
 ## <a name="main-function"></a>Fonction `main` :
 
@@ -55,7 +55,7 @@ await context.sync();
 > [!NOTE]
 > `context.sync()` est appelé implicitement à la fin d’un script.
 
-Une fois l’opération `sync` terminée, le classeur se met à jour pour illustrer les opérations d’écriture que le script a spécifiées. Une opération d’écriture définit une propriété sur un objet Excel (par exemple : `range.format.fill.color = "red"`) ou appelle une méthode qui modifie une propriété (par exemple : `range.format.autoFitColumns()`). L’opération `sync` lit également les valeurs du classeur demandées par le script à l’aide d’une opération `load` ou d’une méthode renvoyant une `ClientResult` (comme indiqué dans la section suivante).
+Une fois l’opération `sync` terminée, le classeur se met à jour pour illustrer les opérations d’écriture que le script a spécifiées. Une opération d’écriture définit une propriété sur un objet Excel (par exemple, `range.format.fill.color = "red"` ) ou un appel à une méthode qui modifie une propriété (par exemple, `range.format.autoFitColumns()` ). L’opération `sync` lit également les valeurs du classeur demandées par le script à l’aide d’une opération `load` ou d’une méthode renvoyant une `ClientResult` (comme indiqué dans la section suivante).
 
 La synchronisation du script avec le classeur peut prendre du temps, en fonction de votre réseau. Réduisez le nombre d' `sync` appels pour aider votre script à s’exécuter rapidement. Dans le cas contraire, les API asynchrones ne sont pas plus rapides que les API synchrones standard.
 
@@ -137,7 +137,7 @@ async function main(context: Excel.RequestContext) {
 }
 ```
 
-## <a name="converting-legacy-async-scripts-to-the-current-model"></a>Conversion de scripts Async hérités en modèle actuel
+## <a name="converting-async-scripts-to-the-current-model"></a>Conversion de scripts Async en modèle actuel
 
 Le modèle d’API actuel n’utilise pas `load` , `sync` , ni un `RequestContext` . Les scripts sont ainsi beaucoup plus faciles à écrire et à gérer. La meilleure ressource pour convertir les anciens scripts est le [débordement de pile](https://stackoverflow.com/questions/tagged/office-scripts). Dans ce cas, vous pouvez demander de l’aide à la communauté pour des scénarios spécifiques. Les conseils suivants devraient vous aider à décrire les étapes générales à suivre.
 
