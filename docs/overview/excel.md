@@ -1,14 +1,14 @@
 ---
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
-ms.date: 06/29/2020
+ms.date: 07/10/2020
 localization_priority: Priority
-ms.openlocfilehash: 046dd4eac0cce14117da75199841f0b2f72031bc
-ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
+ms.openlocfilehash: a27d1797ba2e968cbf4f56c4313223978dc9087c
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043404"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160466"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office Scripts dans Excel sur le web (Aperçu)
 
@@ -24,7 +24,7 @@ Cette série de documents vous explique comment utiliser ces outils. Vous allez 
 
 ## <a name="when-to-use-office-scripts"></a>Quand utiliser Office Scripts
 
-Les scripts permettent d’enregistrer et de reproduire les actions Excel sur des classeurs et des feuilles de calcul différents. Si vous avez l’impression de faire tout le temps les mêmes choses, un script Office peut vous aider à réduire l’ensemble de votre workflow grâce à un seul bouton.
+Les scripts permettent d’enregistrer et de reproduire les actions Excel sur des classeurs et des feuilles de calcul différents. Si vous vous retrouvez à faire les mêmes choses encore et encore, vous pouvez transformer tout ce travail en un script Office facile à exécuter. Exécutez votre script en appuyant sur un bouton dans Excel ou combinez-le avec Power Automate pour rationaliser l'ensemble de votre flux de travail.
 
 Par exemple, vous débutez votre journée de travail en ouvrant un fichier .csv à partir d’un site de comptabilité dans Excel. Vous consacrez ensuite plusieurs minutes à supprimer les colonnes superflues, à mettre en forme un tableau, à ajouter des formules et à créer un tableau croisé dynamique dans une nouvelle feuille de calcul. Ces actions que vous répétez quotidiennement peuvent être enregistrées une seule fois à l’aide de l’enregistreur d’actions. Dès lors, l’exécution du script se chargera de l’intégralité de la conversion .csv. Non seulement, vous supprimez le risque d’oublier les étapes, mais vous pouvez aussi partager le procédé avec d’autres personnes sans avoir à leur apprendre ce dernier. Les scripts Office automatisent vos tâches courantes afin que vous et votre équipe puissiez être plus efficaces et productifs.
 
@@ -32,7 +32,7 @@ Par exemple, vous débutez votre journée de travail en ouvrant un fichier .csv 
 
 ![L’enregistreur d’actions après avoir enregistré plusieurs actions.](../images/action-recorder-intro.png)
 
-L’enregistreur d’actions enregistre les actions que vous effectuez dans Excel et les traduit dans un script. Quand l’enregistreur d’actions est en cours d’exécution, vous pouvez capturer les actions Excel effectuées lorsque vous modifiez des cellules, la mise en forme et créez des tableaux. Le script obtenu peut être exécuté sur d’autres feuilles de calcul et classeurs pour recréer vos actions d’origine.
+L’enregistreur d’actions enregistre les actions que vous effectuez dans Excel et les enregistre en tant que script. Quand l’enregistreur d’actions est en cours d’exécution, vous pouvez capturer les actions Excel effectuées lorsque vous modifiez des cellules, la mise en forme et créez des tableaux. Le script obtenu peut être exécuté sur d’autres feuilles de calcul et classeurs pour recréer vos actions d’origine.
 
 ## <a name="code-editor"></a>Éditeur de code
 

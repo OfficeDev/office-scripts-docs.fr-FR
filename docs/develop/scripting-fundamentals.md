@@ -1,14 +1,14 @@
 ---
 title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 localization_priority: Priority
-ms.openlocfilehash: 9ea24f26052877bc70862c8a05321d588f409b11
-ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
+ms.openlocfilehash: 6c02f4fb986e6a0ed1dd7afb099aaa1c9d1ea276
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44999301"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160473"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Principes de base des scripts pour Office Scripts dans Excel sur le web (préversion)
 
@@ -18,18 +18,18 @@ Cet article vous présente les aspects techniques de Office Scripts. Vous décou
 
 ## <a name="main-function"></a>Fonction `main` :
 
-Chaque script Office doit contenir la fonction `main` avec le type `ExcelScript.Workbook` comme premier paramètre. Une fois la fonction exécutée, l’application Excel appelle cette fonction `main` en fournissant le classeur en tant que premier paramètre. Par conséquent, il est important de ne pas modifier la signature de base de la fonction `main` une fois que vous avez enregistré le script ou créé un nouveau script à partir de l’éditeur de code.
+Chaque script Office doit contenir une fonction `main` avec le type `ExcelScript.Workbook` comme premier paramètre. Une fois la fonction exécutée, l’application Excel appelle cette fonction `main` en fournissant le classeur en tant que premier paramètre. Par conséquent, il est important de ne pas modifier la signature de base de la fonction `main` une fois que vous avez enregistré le script ou créé un nouveau script à partir de l’éditeur de code.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
-// Your code goes here
+  // Your code goes here
 }
 ```
 
 Le code à l’intérieur de la fonction `main` s’exécute lors de l’exécution du script. `main` peut appeler d’autres fonctions dans le script, mais le code qui n’est pas inclus dans une fonction ne s’exécutera pas.
 
 > [!CAUTION]
-> Si votre fonction `main` se présente comme `async function main(context: Excel.RequestContext)`, votre script utilise le modèle API asynchrone héritée. Pour plus d’informations, voir [l’utilisation des API Async scripts Office pour la prise en charge des scripts hérités](excel-async-model.md) pour plus d’informations, notamment la conversion de l’ancien script vers le modèle API actuel.
+> Si votre fonction `main` se présente comme `async function main(context: Excel.RequestContext)`, votre script utilise l’ancien modèle API asynchrone. Pour plus d’informations (notamment sur la conversion de votre script vers le modèle API actuel), consultez [Prendre en charge les anciens scripts Office qui utilisent les API asynchrone](excel-async-model.md).
 
 ## <a name="object-model"></a>Modèle d’objet
 
