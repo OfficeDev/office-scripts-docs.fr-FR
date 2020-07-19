@@ -1,37 +1,37 @@
 ---
-title: Exécuter automatiquement des scripts avec automate d’alimentation automatisée des flux
-description: Didacticiel sur l’exécution de scripts Office pour Excel sur le Web via automate d’alimentation à l’aide d’un déclencheur externe automatique (réception de courriers électroniques via Outlook).
-ms.date: 07/01/2020
+title: Transmettre des données à des scripts dans un flux automatique Power Automate
+description: Un tutoriel sur l'exécution de scripts Office pour Excel sur le web via Power automate lorsque les messages sont reçus et transmettent les données de flux au script.
+ms.date: 07/14/2020
 localization_priority: Priority
-ms.openlocfilehash: fc98fb36fd5a8c5ef10bc3b767d6f5add0306246
-ms.sourcegitcommit: edf58aed3cd38f57e5e7227465a1ef5515e15703
+ms.openlocfilehash: c024891e187f22b7d10f6e9d52d262dc2ec4057f
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45081627"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160480"
 ---
-# <a name="automatically-run-scripts-with-automated-power-automate-flows-preview"></a>Exécuter automatiquement des scripts avec automate d’alimentation automatique flux (aperçu)
+# <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Transmettre des données à des scripts dans un flux automatique Power Automate (Aperçu)
 
-Ce didacticiel vous apprend à utiliser un script Office pour Excel sur le Web avec un flux de travail Automated [Power](https://flow.microsoft.com) . Votre script s’exécute automatiquement chaque fois que vous recevez un courrier électronique, en enregistrant des informations à partir du courrier électronique dans un classeur Excel.
+Ce tutoriel vous apprend à exécuter un script Office pour Excel sur le web via un flux de travail automatisé [Power Automate](https://flow.microsoft.com). Votre script s’exécute automatiquement chaque fois que vous recevez un courrier électronique, enregistrant les informations du courrier électronique dans un classeur Excel.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-[!INCLUDE [Tutorial prerequisites](../includes/tutorial-prerequisites.md)]
+[!INCLUDE [Tutorial prerequisites](../includes/power-automate-tutorial-prerequisites.md)]
 
 > [!IMPORTANT]
-> Ce didacticiel suppose que vous avez terminé l' [exécution des scripts Office dans Excel sur le Web avec le didacticiel Power Automated](excel-power-automate-manual.md) .
+> Ce tutoriel suppose que vous avez terminé le tutoriel [Exécuter les scripts Office dans Excel sur le web avec Power Automate](excel-power-automate-manual.md).
 
-## <a name="prepare-the-workbook"></a>Préparation du classeur
+## <a name="prepare-the-workbook"></a>Préparer le classeur
 
-Power automate ne peut pas utiliser de [références relatives](../develop/power-automate-integration.md#avoid-using-relative-references) comme `Workbook.getActiveWorksheet` pour accéder aux composants du classeur. Par conséquent, nous avons besoin d’un classeur et d’une feuille de calcul avec des noms cohérents pour automate de puissance à référencer.
+Power Automate ne peut pas utiliser de [références relatives](../develop/power-automate-integration.md#avoid-using-relative-references) comme `Workbook.getActiveWorksheet`pour accéder aux composants du classeur. Nous avons donc besoin d’un classeur et d’une feuille de calcul avec des noms cohérents que Power Automate peut référencer.
 
-1. Créez un classeur nommé **MyWorkbook**.
+1. Créer un nouveau classeur appelé **MyWorkbook**.
 
-2. Accédez à l’onglet **automatiser** et sélectionnez **éditeur de code**.
+2. Accédez à l’onglet **Automatiser**, puis sélectionnez **Éditeur de code**.
 
-3. Sélectionnez **nouveau script**.
+3. Sélectionnez **Nouveau script**.
 
-4. Remplacez le code existant par le script suivant, puis appuyez sur **exécuter**. Cette opération permet de configurer le classeur avec des noms de feuille de calcul, de tableau et de tableau croisé dynamique cohérents.
+4. Remplacez le code existant par le script suivant et appuyez sur **Exécuter** : Cette opération permet de configurer le classeur avec des noms de feuille de calcul, de tableau et de tableau croisé dynamique cohérents.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -58,11 +58,11 @@ Power automate ne peut pas utiliser de [références relatives](../develop/power
 
 ## <a name="create-an-office-script-for-your-automated-workflow"></a>Créer un script Office pour votre flux de travail automatisé
 
-Nous allons créer un script qui enregistre des informations à partir d’un message électronique. Nous souhaitons savoir comment les jours de la semaine où nous recevons le plus de courrier et le nombre d’expéditeurs uniques qui envoient ce message. Notre classeur contient un tableau contenant les colonnes **Date**, **jour de la semaine**, **adresse e-mail**et **objet** . Notre feuille de calcul contient également un tableau croisé dynamique qui fait pivoter le **jour de la semaine** et l' **adresse de messagerie** (il s’agit des hiérarchies de lignes). Le nombre de **sujets** uniques est l’affichage des informations agrégées (hiérarchie des données). Notre script actualisera ce tableau croisé dynamique après la mise à jour de la table de messagerie.
+Créons un script qui enregistre les informations à partir d’un message électronique. Nous cherchons à identifier quels jours de la semaine nous recevons le plus de messages électroniques et combien d’expéditeurs uniques envoient ces messages électroniques. Notre classeur comporte une table avec les colonnes **date**, **jour de la semaine**, **adresse électronique**et **objet**. Notre feuille de calcul comporte également un tableau croisé dynamique qui fait pivoter le **jour de la semaine** et **adresse électronique** (il s’agit des hiérarchies de ligne). Le nombre de sujets **uniques** correspond aux informations agrégées affichées (hiérarchie des données). Notre script actualise ce tableau croisé dynamique après la mise à jour de la table de messagerie.
 
-1. Dans l' **éditeur de code**, sélectionnez **nouveau script**.
+1. Dans l’ **Éditeur de code**, sélectionnez **Nouveau script**.
 
-2. Le flux que nous allons créer plus tard dans le didacticiel enverra des informations de script sur chaque message électronique reçu. Le script doit accepter cette entrée par le biais de paramètres dans la `main` fonction. Remplacez le script par défaut par le script suivant :
+2. Le flux que nous allons créer plus tard dans le tutoriel enverra les informations de script de chaque message électronique reçu. Le script doit accepter cette entrée à l’aide de paramètres de la fonction `main`. Remplacez le script par défaut par le script suivant :
 
     ```TypeScript
     function main(
@@ -74,7 +74,7 @@ Nous allons créer un script qui enregistre des informations à partir d’un me
     }
     ```
 
-3. Le script a besoin d’accéder à la table et au tableau croisé dynamique du classeur. Ajoutez le code suivant au corps du script, après l’ouverture `{` :
+3. Le script a besoin d’accéder à la table et au tableau croisé dynamique du classeur. Ajoutez le code suivant dans le corps du script, après l'ouverture `{` :
 
     ```TypeScript
     // Get the email table.
@@ -86,7 +86,7 @@ Nous allons créer un script qui enregistre des informations à partir d’un me
     let pivotTable = pivotTableWorksheet.getPivotTable("Pivot");
     ```
 
-4. Le `dateReceived` paramètre est de type `string` . Nous allons convertir cela en [ `Date` objet](../develop/javascript-objects.md#date) afin que nous puissions facilement obtenir le jour de la semaine. Une fois cette opération effectuée, nous devons mapper la valeur de nombre du jour à une version plus lisible. Ajoutez le code suivant à la fin de votre script, avant la fermeture `}` :
+4. Le paramètre `dateReceived` est de type `string`. Transformons cela en un [`Date` objet](../develop/javascript-objects.md#date) pour pouvoir obtenir facilement le jour de la semaine. Une fois cette opération effectuée, vous devez mapper la valeur numérique du jour à une version plus lisible. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
 
     ```TypeScript
     // Parse the received date string.
@@ -119,7 +119,7 @@ Nous allons créer un script qui enregistre des informations à partir d’un me
     }
     ```
 
-5. La `subject` chaîne peut inclure la balise de réponse « re : ». Nous allons supprimer cela de la chaîne afin que les courriers électroniques dans le même thread aient le même objet pour le tableau. Ajoutez le code suivant à la fin de votre script, avant la fermeture `}` :
+5. La chaîne de `subject` peut inclure la balise de réponse « RE : ». Supprimez-le de la chaîne afin que les messages électroniques d’un même fil de discussion aient le même objet pour le tableau. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
 
     ```TypeScript
     // Remove the reply tag from the email subject to group emails on the same thread.
@@ -127,23 +127,23 @@ Nous allons créer un script qui enregistre des informations à partir d’un me
     subjectText = subjectText.replace("RE: ", "");
     ```
 
-6. Maintenant que les données de messagerie ont été mises en forme à notre gré, nous allons ajouter une ligne à la table de messagerie. Ajoutez le code suivant à la fin de votre script, avant la fermeture `}` :
+6. À présent que les données de courrier électronique ont été formatées à notre gout, ajoutons une ligne au tableau de courrier électronique. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
 
     ```TypeScript
     // Add the parsed text to the table.
     table.addRow(-1, [dateReceived, dayText, from, subjectText]);
     ```
 
-7. Enfin, nous allons nous assurer que le tableau croisé dynamique est actualisé. Ajoutez le code suivant à la fin de votre script, avant la fermeture `}` :
+7. Enfin, assurez-vous que le tableau croisé dynamique est actualisé. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
 
     ```TypeScript
     // Refresh the PivotTable to include the new row.
     pivotTable.refresh();
     ```
 
-8. Renommez votre **courrier électronique enregistrer** le script et appuyez sur **enregistrer le script**.
+8. Renommez votre script **Enregistrer le courrier électronique**, puis appuyez sur **Enregistrer le script**.
 
-Votre script est maintenant prêt pour un flux de travail Automated Power. Il doit ressembler au script suivant :
+Votre script est maintenant prêt pour un flux de travail Power Automate. Il devrait ressembler au script suivant :
 
 ```TypeScript
 function main(
@@ -200,69 +200,69 @@ function main(
 }
 ```
 
-## <a name="create-an-automated-workflow-with-power-automate"></a>Créer un flux de travail automatisé avec Power automate
+## <a name="create-an-automated-workflow-with-power-automate"></a>Créer un flux de travail automatisé avec Power Automate
 
-1. Connectez-vous au [site d’automate d’automate Power](https://flow.microsoft.com).
+1. Connectez-vous au site [Power Automate](https://flow.microsoft.com).
 
-2. Dans le menu affiché sur le côté gauche de l’écran, appuyez sur **créer**. Cela vous permet de créer de nouveaux flux de travail.
+2. Dans le menu qui s’affiche sur le côté gauche de l’écran, appuyez sur **Créer**. Cela affiche une liste des moyens de créer de nouveaux flux de travail.
 
-    ![Bouton créer dans Power automate.](../images/power-automate-tutorial-1.png)
+    ![Le bouton Créer dans Power Automate.](../images/power-automate-tutorial-1.png)
 
-3. Dans la section **commencer à partir d’un champ vide** , sélectionnez **flux automatisé**. Cette méthode crée un flux de travail déclenché par un événement, comme la réception d’un message électronique.
+3. Dans la section **Démarrer à partir de zéro**, sélectionnez **Flux automatique**. Cela permet de créer un flux de travail déclenché par un événement, par exemple, la réception d’un courrier électronique.
 
-    ![Option de flux automatisée dans Power Automated.](../images/power-automate-params-tutorial-1.png)
+    ![Option flux automatisé dans Power Automate.](../images/power-automate-params-tutorial-1.png)
 
-4. Dans la fenêtre de boîte de dialogue qui s’affiche, entrez un nom pour votre flux dans la zone de texte **nom du flux** . Ensuite, sélectionnez **quand un nouveau courrier électronique est reçu** dans la liste des options sous **choisir le déclencheur de votre flux**. Vous devrez peut-être Rechercher l’option à l’aide de la zone de recherche. Enfin, appuyez sur **créer**.
+4. Dans la fenêtre de boîte de dialogue qui s’affiche, entrez un nom pour votre flux dans la zone de texte **Nom du flux**. Sélectionnez ensuite **À l'arrivée d'un nouveau courrier électronique** dans la liste d’options sous **Sélectionnez le déclencheur de votre flux**. Vous devrez peut-être rechercher l’option dans la zone de recherche. Enfin, appuyez sur **Créer**.
 
-    ![Partie de la fenêtre créer un flux automatique dans Power automate, qui affiche l’option « nouveau courrier électronique ».](../images/power-automate-params-tutorial-2.png)
+    ![Partie de la fenêtre Créer un flux automatisé dans Power automate affichant l’option « nouveau message électronique ».](../images/power-automate-params-tutorial-2.png)
 
     > [!NOTE]
-    > Ce didacticiel utilise Outlook. N’hésitez pas à utiliser votre service de messagerie préféré, bien que certaines options soient différentes.
+    > Ce tutoriel utilise Outlook. N’hésitez pas à utiliser votre service de messagerie préféré, même si certaines options peuvent être différentes.
 
-5. Appuyez sur **nouvelle étape**.
+5. Appuyez sur **Nouvelle étape**.
 
-6. Sélectionnez l’onglet **standard** , puis **Excel Online (professionnel)**.
+6. Sélectionnez l’onglet **Standard**, puis sélectionnez **Excel Online (Business)**.
 
-    ![Option Power automate pour Excel Online (professionnel).](../images/power-automate-tutorial-4.png)
+    ![L’option Power Automate pour Excel Online (Business).](../images/power-automate-tutorial-4.png)
 
-7. Sous **actions**, sélectionnez **exécuter un script (aperçu)**.
+7. Sous **Actions**, sélectionnez **Exécuter le script** (Aperçu).
 
-    ![Option d’action automate Power pour exécuter un script (aperçu).](../images/power-automate-tutorial-5.png)
+    ![L’option d’action Power Automate pour exécuter le script (Aperçu).](../images/power-automate-tutorial-5.png)
 
-8. Spécifiez les paramètres suivants pour le connecteur de **script d’exécution** :
+8. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
 
-    - **Emplacement**: OneDrive entreprise
-    - **Bibliothèque de documents**: OneDrive
-    - **Fichier**: MyWorkbook.xlsx
-    - **Script**: enregistrer le courrier électronique
-    - **from**: from *(contenu dynamique d’Outlook)*
-    - **dateReceived**: heure *de réception (contenu dynamique d’Outlook)*
-    - **Subject**: subject *(contenu dynamique d’Outlook)*
+    - **Emplacement** : OneDrive Entreprise
+    - **Bibliothèque de documents** : OneDrive
+    - **Fichier** : MyWorkbook.xlsx
+    - **Script** : Enregistrer le courrier électronique
+    - **à partir de**: de *(contenu dynamique d’Outlook)*
+    - **date de réception**: heure de réception *(contenu dynamique d’Outlook)*
+    - **objet**: Objet *(contenu dynamique d’Outlook)*
 
-    *Notez que les paramètres du script s’affichent uniquement une fois que le script est sélectionné.*
+    *Notez que les paramètres du script s’affichent uniquement une fois le script sélectionné.*
 
-    ![Option d’action automate Power pour exécuter un script (aperçu).](../images/power-automate-params-tutorial-3.png)
+    ![L’option d’action Power Automate pour exécuter le script (Aperçu).](../images/power-automate-params-tutorial-3.png)
 
-9. Cliquez sur **Enregistrer**.
+9. Appuyez sur **Enregistrer**.
 
-Votre flux est maintenant activé. Il exécute automatiquement votre script chaque fois que vous recevez un courrier électronique via Outlook.
+Votre flux est désormais activé. Il exécute automatiquement votre script chaque fois que vous recevez un courrier électronique via Outlook.
 
-## <a name="manage-the-script-in-power-automate"></a>Gérer le script dans Power automate
+## <a name="manage-the-script-in-power-automate"></a>Gérer le script dans Power Automate
 
-1. Dans la page principale de l’alimentation automatique, sélectionnez **mes flux**.
+1. Sur la page principale de Power Automate, sélectionnez **Mes flux**.
 
-    ![Bouton mes flux dans Power automate.](../images/power-automate-tutorial-7.png)
+    ![Le bouton Mes flux dans Power Automate.](../images/power-automate-tutorial-7.png)
 
-2. Sélectionnez votre flux. Ici, vous pouvez voir l’historique d’exécution. Vous pouvez actualiser la page ou appuyer sur le bouton actualiser **toutes les exécutions** pour mettre à jour l’historique. Le flux se déclenche peu après la réception d’un message électronique. Testez le flux en envoyant votre courrier.
+2. Sélectionnez votre flux. Ici, vous pouvez voir l’historique d’exécution. Vous pouvez actualiser la page ou appuyer sur le bouton **Actualiser toutes les exécutions** pour mettre à jour l’historique. Le flux se déclenche peu après la réception d’un message électronique. Testez le flux en envoyant un courrier électronique.
 
-Lorsque le flux est déclenché et exécute correctement votre script, vous devez voir la table du classeur et la mise à jour du tableau croisé dynamique.
+Lorsque le flux est déclenché et exécute votre script correctement, la table du classeur et la mise à jour du tableau croisé dynamique doivent s’afficher.
 
-![La table de messagerie une fois que le flux a été exécuté plusieurs fois.](../images/power-automate-params-tutorial-4.png)
+![La table de messages après le flux s’exécute plusieurs fois.](../images/power-automate-params-tutorial-4.png)
 
-![Le tableau croisé dynamique après le flux a été exécuté plusieurs fois.](../images/power-automate-params-tutorial-5.png)
+![Le tableau croisé dynamique après le flux s’exécute plusieurs fois.](../images/power-automate-params-tutorial-5.png)
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Consultez la rubrique [exécuter des scripts Office avec Power automate](../develop/power-automate-integration.md) pour en savoir plus sur la connexion de scripts Office avec Power Automated.
+Visitez [Exécuter des scripts Office avec Power Automate](../develop/power-automate-integration.md) pour en savoir plus sur la connexion de scripts Office avec Power Automate.
 
-Vous pouvez également consulter le [scénario d’exemple de rappel de tâche automatisée](../resources/scenarios/task-reminders.md) pour savoir comment combiner des scripts Office et alimenter automatiquement avec des cartes adaptatives de teams.
+Vous pouvez également consulter le [scénario type des rappels de tâches automatisés](../resources/scenarios/task-reminders.md) pour découvrir comment combiner les scripts Office et Power Automate avec les cartes adaptatives Teams.
