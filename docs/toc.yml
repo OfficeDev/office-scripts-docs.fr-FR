@@ -10,9 +10,9 @@
           href: tutorials/excel-tutorial.md
         - name: Lire les données d’un classeur avec un script
           href: tutorials/excel-read-tutorial.md
-        - name: Commencer à utiliser des scripts avec Power Automate
+        - name: Appeler des scripts à partir d’un flux manuel Power Automate
           href: tutorials/excel-power-automate-manual.md
-        - name: Exécuter automatiquement des scripts avec Power Automate
+        - name: Transmettre des données dans un flux automatique Power Automate
           href: tutorials/excel-power-automate-trigger.md
     - name: Principes de base de l’écriture de script
       href: develop/scripting-fundamentals.md
@@ -38,7 +38,7 @@
           href: develop/web-client-performance.md
         - name: Annuler les effets d’un script Office
           href: testing/undo.md
-        - name: Utiliser le modèle asynchrone (hérité)
+        - name: Prise en charge des anciens scripts Office
           href: develop/excel-async-model.md
     - name: Exemples
       items:
