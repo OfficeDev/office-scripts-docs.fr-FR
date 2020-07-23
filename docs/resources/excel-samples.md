@@ -1,14 +1,14 @@
 ---
 title: Exemples de scripts pour les scripts Office dans Excel sur le Web
 description: Collection d’exemples de code à utiliser avec des scripts Office dans Excel sur le Web.
-ms.date: 06/18/2020
+ms.date: 07/16/2020
 localization_priority: Normal
-ms.openlocfilehash: bfa6679595e6e28cc5d2ae3e3e487fd3e77738aa
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: fa330bfa284799e26ee2cf49800102072d66612b
+ms.sourcegitcommit: 8d549884e68170f808d3d417104a4451a37da83c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878674"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229602"
 ---
 # <a name="sample-scripts-for-office-scripts-in-excel-on-the-web-preview"></a>Exemples de scripts pour les scripts Office dans Excel sur le Web (aperçu)
 
@@ -107,7 +107,67 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="work-with-dates"></a>Utiliser des dates
+### <a name="change-each-individual-cell-in-a-range"></a>Modifier chaque cellule individuelle d’une plage
+
+Ce script effectue une boucle sur la plage sélectionnée. Il efface la mise en forme actuelle et définit la couleur de remplissage de chaque cellule sur une couleur aléatoire.
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+  // Get the currently selected range.
+  let range = workbook.getSelectedRange();
+
+  // Get the size boundaries of the range.
+  let rows = range.getRowCount();
+  let cols = range.getColumnCount();
+
+  // Clear any existing formatting
+  range.clear(ExcelScript.ClearApplyTo.formats);
+
+  // Iterate over the range.
+  for (let row = 0; row < rows; row++) {
+    for (let col = 0; col < cols; col++) {
+      // Generate a random color hex-code.
+      let colorString = `#${Math.random().toString(16).substr(-6)}`;
+
+      // Set the color of the current cell to that random hex-code.
+      range.getCell(row, col).getFormat().getFill().setColor(colorString);
+    }
+  }
+}
+```
+
+## <a name="collections"></a>Collections
+
+Ces exemples fonctionnent avec des collections d’objets dans le classeur.
+
+### <a name="iterating-over-collections"></a>Itération sur les collections
+
+Ce script obtient et enregistre les noms de toutes les feuilles de calcul dans le classeur. Il définit également les couleurs de leurs tabulations sur une couleur aléatoire.
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+  // Get all the worksheets in the workbook.
+  let sheets = workbook.getWorksheets();
+
+  // Get a list of all the worksheet names.
+  let names = sheets.map ((sheet) => sheet.getName());
+
+  // Write in the console all the worksheet names and the total count.
+  console.log(names);
+  console.log(`Total worksheets inside of this workbook: ${sheets.length}`);
+  
+  // Set the tab color each worksheet to a random color
+  for (let sheet of sheets) {
+    // Generate a random color hex-code.
+    let colorString = `#${Math.random().toString(16).substr(-6)}`;
+
+    // Set the color of the current worksheet's tab to that random hex-code.
+    sheet.setTabColor(colorString);
+  }
+}
+```
+
+## <a name="dates"></a>Dates
 
 Les exemples de cette section indiquent comment utiliser l’objet [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) JavaScript.
 
