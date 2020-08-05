@@ -29,7 +29,7 @@ function main(workbook: ExcelScript.Workbook) {
 Le code à l’intérieur de la fonction `main` s’exécute lors de l’exécution du script. `main` peut appeler d’autres fonctions dans le script, mais le code qui n’est pas inclus dans une fonction ne s’exécutera pas.
 
 > [!CAUTION]
-> Si votre fonction `main` se présente comme `async function main(context: Excel.RequestContext)`, votre script utilise l’ancien modèle API asynchrone. Pour plus d’informations (notamment sur la conversion de votre script vers le modèle API actuel), consultez [Prendre en charge les anciens scripts Office qui utilisent les API asynchrone](excel-async-model.md).
+> Si votre fonction `main` ressemble à ceci : `async function main(context: Excel.RequestContext)`, cela veut dire que votre script utilise l’ancien modèle API asynchrone. Si vous souhaitez en savoir plus (notamment sur la conversion de votre script vers le modèle API actuel), veuillez consulter l’article [Prendre en charge les anciens scripts Office qui utilisent des API asynchrones](excel-async-model.md).
 
 ## <a name="object-model"></a>Modèle d’objet
 
@@ -163,7 +163,7 @@ L’exécution de ce script sur la feuille de calcul avec le tableau précédent
 
 ### <a name="collections-and-other-object-relations"></a>Collections et autres relations d’objets
 
-Tout objet enfant est accessible via son objet parent. Par exemple, vous pouvez lire `Worksheets` à partir de l’objet `Workbook`. Il y aura une méthode de `get` liée sur la classe parente (par exemple, `Workbook.getWorksheets()` ou `Workbook.getWorksheet(name)`). `get` les méthodes qui sont singulières renvoient un objet unique et nécessitent un ID ou un nom pour l’objet spécifique (par exemple, le nom d’une feuille de calcul). `get` les méthodes qui permettent de renvoyer l’ensemble de la collection d’objets sous la forme d’une matrice. Si la collection est vide, vous obtenez une matrice vide (`[]`).
+Tout objet enfant est accessible via son objet parent. Par exemple, vous pouvez lire `Worksheets` à partir de l’objet `Workbook`. Il y aura une méthode `get` associée sur la classe parente (par exemple, `Workbook.getWorksheets()` ou `Workbook.getWorksheet(name)`). `get` les méthodes qui sont singulières renvoient un objet unique et nécessitent un ID ou un nom pour l’objet spécifique (par exemple, le nom d’une feuille de calcul). `get` les méthodes qui permettent de renvoyer l’ensemble de la collection d’objets sous la forme d’une matrice. Si la collection est vide, vous obtenez une matrice vide (`[]`).
 
 Une fois la collection récupérée, vous pouvez utiliser des opérations de tableau régulières, telles que l’acquisition de ses `length` ou utiliser des `for`, `for..of``while` des boucles pour l’itération ou utiliser des méthodes matricielles telles que les `map``forEach`. Vous pouvez également accéder aux objets individuels dans la collection à l’aide de la valeur d’index de tableau. Par exemple, `workbook.getTables()[0]` renvoie la première table de la collection. Pour en savoir plus sur l’utilisation de la fonctionnalité de tableau intégrée avec l’infrastructure de scripts Office, consultez la section [utilisation des collections de utilisation d’objets JavaScript intégrés dans les scripts Office](javascript-objects.md#working-with-collections).
 
