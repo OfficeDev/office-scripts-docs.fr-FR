@@ -1,5 +1,3 @@
-[!INCLUDE [Preview note](../includes/preview-note.md)]
-
 Avant de commencer ce didacticiel, vous devez disposer d’un accès aux scripts Office, ce qui nécessite ce qui suit :
 
 - [Excel pour le web](https://www.office.com/launch/excel).

@@ -1,14 +1,14 @@
 ---
 title: Exécuter des scripts Office avec Power automate
 description: Comment obtenir des scripts Office pour Excel sur le Web avec un flux de travail Automated Power.
-ms.date: 07/10/2020
+ms.date: 07/24/2020
 localization_priority: Normal
-ms.openlocfilehash: bd8fea08b7a9303ad2ceace787de6457a33fb979
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: a427948847d7ab84962cdede7fb44d214592909f
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160445"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616674"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter des scripts Office avec Power automate
 
@@ -22,7 +22,7 @@ Pour commencer à combiner les scripts Power Automated et Office, suivez le dida
 
 ## <a name="excel-online-business-connector"></a>Connecteur Excel Online (Business)
 
-Les [connecteurs](/connectors/connectors) sont les ponts entre l’automate de puissance et les applications. Le [connecteur Excel Online (Business)](/connectors/excelonlinebusiness) donne accès à vos flux aux classeurs Excel. L’action « exécuter un script » vous permet d’appeler n’importe quel script Office accessible via le classeur sélectionné. Vous pouvez non seulement exécuter des scripts via un flux, mais vous pouvez transmettre des données vers et depuis le classeur avec le flux via les scripts.
+Les [connecteurs](/connectors/connectors) sont les ponts entre l’automate de puissance et les applications. Le [connecteur Excel Online (Business)](/connectors/excelonlinebusiness) donne accès à vos flux aux classeurs Excel. L’action « exécuter un script » vous permet d’appeler n’importe quel script Office accessible via le classeur sélectionné. Vous pouvez également attribuer des paramètres d’entrée de scripts afin que les données puissent être fournies par le flux, ou que votre script renvoie des informations pour les étapes ultérieures dans le flux.
 
 > [!IMPORTANT]
 > L’action « exécuter un script » permet aux personnes qui utilisent le connecteur Excel d’accéder à votre classeur et à ses données. De plus, il existe des risques de sécurité pour les scripts qui effectuent des appels d’API externes, comme expliqué dans la rubrique [appels externes de Power Automated](external-calls.md). Si votre administrateur est concerné par l’exposition de données hautement sensibles, il peut soit désactiver le connecteur Excel Online, soit restreindre l’accès aux scripts Office via les contrôles de l' [administrateur des scripts Office](https://support.microsoft.com/office/19d3c51a-6ca2-40ab-978d-60fa49554dcf).
@@ -46,7 +46,7 @@ Lors de l’ajout de paramètres d’entrée à la fonction d’un script `main`
 
 1. Le premier paramètre doit être de type `ExcelScript.Workbook` . Le nom de son paramètre n’a pas d’importance.
 
-2. Chaque paramètre doit avoir un type.
+2. Chaque paramètre doit avoir un type (par exemple, `string` ou `number` ).
 
 3. Les types de base,,,,, `string` `number` `boolean` `any` `unknown` `object` et `undefined` sont pris en charge.
 
@@ -54,7 +54,7 @@ Lors de l’ajout de paramètres d’entrée à la fonction d’un script `main`
 
 5. Les tableaux imbriqués sont pris en charge en tant que paramètres (mais pas en tant que types de retour).
 
-6. Les types Union sont autorisés s’il s’agit d’une Union de littéraux appartenant à un seul type ( `string` , `number` , ou `boolean` ). Les unions d’un type pris en charge avec undefined sont également prises en charge.
+6. Les types Union sont autorisés s’ils sont une Union de littéraux appartenant à un même type (tel que `"Left" | "Right"` ). Les unions d’un type pris en charge avec undefined sont également prises en charge (par exemple, `string | undefined` ).
 
 7. Les types d’objet sont autorisés s’ils contiennent des propriétés de type `string` ,,, des `number` `boolean` tableaux pris en charge ou d’autres objets pris en charge. L’exemple suivant montre les objets imbriqués pris en charge en tant que types de paramètres :
 
@@ -140,10 +140,10 @@ function main(
 }
 ```
 
-## <a name="see-also"></a>Consultez également
+## <a name="see-also"></a>Voir aussi
 
 - [Exécuter des scripts Office dans Excel sur le Web avec Power Automated Power](../tutorials/excel-power-automate-manual.md)
-- [Transmettre des données à des scripts dans un flux automatique de puissance à exécution automatique](../tutorials/excel-power-automate-trigger.md)
+- [Transmettre des données à des scripts dans un flux automatique Power Automate](../tutorials/excel-power-automate-trigger.md)
 - [Principes de base pour la rédaction de scripts Office en Excel sur le web](scripting-fundamentals.md)
 - [Prise en main de Power Automate](/power-automate/getting-started)
 - [Documentation de référence du connecteur Excel Online (Business)](/connectors/excelonlinebusiness/)

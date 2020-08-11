@@ -1,14 +1,14 @@
 ---
 title: 'Exemple de scénario de scripts Office : calcul de la note'
 description: Exemple qui détermine le pourcentage et les notes de lettres d’une classe d’étudiants.
-ms.date: 06/01/2020
+ms.date: 07/24/2020
 localization_priority: Normal
-ms.openlocfilehash: 6f8e3db756c72cf1d0e2f774ccd819c041f0c42d
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 4e488c6cc67bda9122b88c55070654632d9c7fa2
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878639"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616739"
 ---
 # <a name="office-scripts-sample-scenario-grade-calculator"></a>Exemple de scénario de scripts Office : calcul de la note
 
@@ -132,8 +132,8 @@ Vous développerez un script qui totalise les notes pour chaque catégorie de po
         setCellValueConditionalFormatting(
           grade,
           totalRange,
-          "#9C0006",
-          "#FFC7CE",
+          "#443300",
+          "#FFEE22",
           ExcelScript.ConditionalCellValueOperator.equalTo
         );
       })
@@ -178,7 +178,7 @@ Vous développerez un script qui totalise les notes pour chaque catégorie de po
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Exécutez le script de **calculatrice de note** sur la seule feuille de calcul. Le script totalise les notes et affecte à chaque étudiant une note. Si des niveaux individuels ont plus de points que le devoir ou le test ne vaut, la qualité incriminée est indiquée en rouge et le total n’est pas calculé.
+Exécutez le script de **calculatrice de note** sur la seule feuille de calcul. Le script totalise les notes et affecte à chaque étudiant une note. Si des niveaux individuels ont plus de points que le devoir ou le test ne vaut, la qualité incriminée est indiquée en rouge et le total n’est pas calculé. De plus, toutes les notes « A » sont mises en surbrillance en vert, tandis que les notes « d » et « F » sont mises en surbrillance en jaune.
 
 ### <a name="before-running-the-script"></a>Avant d’exécuter le script
 

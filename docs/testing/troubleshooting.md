@@ -1,14 +1,14 @@
 ---
 title: Dépannage de Office Scripts
 description: Débogage des conseils et techniques pour les scripts Office, ainsi que des ressources d’aide.
-ms.date: 05/14/2020
+ms.date: 07/23/2020
 localization_priority: Normal
-ms.openlocfilehash: 6448980eec45214a589444229db0fd781b9fea13
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 00727b497d49a2d1d3f9c61e259b8d8d75028a59
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878618"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616681"
 ---
 # <a name="troubleshooting-office-scripts"></a>Dépannage de Office Scripts
 
@@ -31,6 +31,15 @@ Les journaux n’ont pas d’incidence sur le classeur.
 
 Lorsque votre script Excel rencontre un problème, il génère une erreur. Un message contextuel s’affiche pour vous demander si vous souhaitez **afficher les journaux**. Appuyez sur ce bouton pour ouvrir la console et afficher les erreurs éventuelles.
 
+## <a name="automate-tab-not-appearing"></a>L’onglet automatiser n’apparaît pas
+
+Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l’onglet **automatiser** qui n’apparaît pas dans Excel pour le Web.
+
+1. Assurez-vous [que votre licence Microsoft 365 inclut des scripts Office](../overview/excel.md#requirements).
+1. [Demandez à votre administrateur d’activer la fonctionnalité](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf).
+1. [Vérifiez que votre navigateur est pris en charge](platform-limits.md#browser-support).
+1. [Vérifiez que les cookies tiers sont activés](platform-limits.md#third-party-cookies).
+
 ## <a name="help-resources"></a>Ressources d’aide
 
 Le [débordement de pile](https://stackoverflow.com/questions/tagged/office-scripts) est une communauté de développeurs souhaitant aider à coder les problèmes. Souvent, vous pouvez trouver la solution à votre problème via une recherche de débordement de pile rapide. Si ce n’est pas le cas, posez votre question et marquez-la à l’aide de la balise « Office-scripts ». N’oubliez pas de mentionner que vous créez un *script*Office, et non un *complément*Office.
@@ -43,5 +52,6 @@ En cas de problème avec l’enregistreur d’actions ou l’éditeur, envoyez d
 
 - [Office Scripts dans Excel sur le web](../overview/excel.md)
 - [Scripts de base pour les scripts Office dans Excel sur le Web](../develop/scripting-fundamentals.md)
-- [Annuler les effets d’un script Office](undo.md)
+- [Limites des plateformes avec les scripts Office](platform-limits.md)
 - [Améliorer les performances de vos scripts Office](../develop/web-client-performance.md)
+- [Annuler les effets d’un script Office](undo.md)
