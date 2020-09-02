@@ -3,12 +3,12 @@ title: Exécuter des scripts Office avec Power automate
 description: Comment obtenir des scripts Office pour Excel sur le Web avec un flux de travail Automated Power.
 ms.date: 07/24/2020
 localization_priority: Normal
-ms.openlocfilehash: a427948847d7ab84962cdede7fb44d214592909f
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: 87bd4e15ef7680a7456077494e3fda8208d6b9d8
+ms.sourcegitcommit: e9a8ef5f56177ea9a3d2fc5ac636368e5bdae1f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616674"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321571"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter des scripts Office avec Power automate
 
@@ -25,7 +25,7 @@ Pour commencer à combiner les scripts Power Automated et Office, suivez le dida
 Les [connecteurs](/connectors/connectors) sont les ponts entre l’automate de puissance et les applications. Le [connecteur Excel Online (Business)](/connectors/excelonlinebusiness) donne accès à vos flux aux classeurs Excel. L’action « exécuter un script » vous permet d’appeler n’importe quel script Office accessible via le classeur sélectionné. Vous pouvez également attribuer des paramètres d’entrée de scripts afin que les données puissent être fournies par le flux, ou que votre script renvoie des informations pour les étapes ultérieures dans le flux.
 
 > [!IMPORTANT]
-> L’action « exécuter un script » permet aux personnes qui utilisent le connecteur Excel d’accéder à votre classeur et à ses données. De plus, il existe des risques de sécurité pour les scripts qui effectuent des appels d’API externes, comme expliqué dans la rubrique [appels externes de Power Automated](external-calls.md). Si votre administrateur est concerné par l’exposition de données hautement sensibles, il peut soit désactiver le connecteur Excel Online, soit restreindre l’accès aux scripts Office via les contrôles de l' [administrateur des scripts Office](https://support.microsoft.com/office/19d3c51a-6ca2-40ab-978d-60fa49554dcf).
+> L’action « exécuter un script » permet aux personnes qui utilisent le connecteur Excel d’accéder à votre classeur et à ses données. De plus, il existe des risques de sécurité pour les scripts qui effectuent des appels d’API externes, comme expliqué dans la rubrique [appels externes de Power Automated](external-calls.md). Si votre administrateur est concerné par l’exposition de données hautement sensibles, il peut soit désactiver le connecteur Excel Online, soit restreindre l’accès aux scripts Office via les contrôles de l' [administrateur des scripts Office](/microsoft-365/admin/manage/manage-office-scripts-settings).
 
 ## <a name="data-transfer-in-flows-for-scripts"></a>Transfert de données dans les flux pour les scripts
 
@@ -36,7 +36,7 @@ Power automate vous permet de transmettre des éléments de données entre les �
 
 Les sections suivantes couvrent les détails de l’entrée et de la sortie des scripts utilisés dans Power automate. Si vous souhaitez obtenir une approche pratique de l’apprentissage de cette rubrique, essayez de [transmettre des données à des scripts dans un didacticiel de puissance automate d’alimentation automatique](../tutorials/excel-power-automate-trigger.md) ou explorez le scénario d’exemple de [rappels de tâche automatisée](../resources/scenarios/task-reminders.md) .
 
-### <a name="main-parameters-passing-data-to-a-script"></a>`main`Paramètres : transmission de données à un script
+### <a name="main-parameters-passing-data-to-a-script"></a>`main` Paramètres : transmission de données à un script
 
 Toutes les entrées de script sont spécifiées comme paramètres supplémentaires pour la `main` fonction. Par exemple, si vous souhaitez qu’un script accepte un `string` qui représente un nom comme entrée, vous devez remplacer la `main` signature par `function main(workbook: ExcelScript.Workbook, name: string)` .
 
