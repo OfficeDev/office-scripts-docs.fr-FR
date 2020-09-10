@@ -12,14 +12,14 @@ ms.locfileid: "46616772"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 
-Ce didacticiel vous présente les notions de base de l’enregistrement, de la modification et de la rédaction d’un script Office pour Excel sur le web. Vous allez enregistrer un script mettant en forme une feuille de calcul d’enregistrement des ventes. Vous allez ensuite modifier le script enregistré pour appliquer une mise en forme supplémentaire, créer un tableau, puis trier ce tableau. Ce modèle de type enregistrement suivi de modification est un outil important qui vous permet de savoir à quoi ressemblent vos actions Excel en tant que code.
+Ce didacticiel vous présente les notions de base de l’enregistrement, de la modification et de la rédaction d’un script Office pour Excel sur le web. Vous allez enregistrer un script mettant en forme une feuille de calcul d’enregistrement des ventes. Vous allez ensuite modifier le script enregistré pour appliquer une mise en forme supplémentaire, créer un tableau, puis trier ce tableau. Ce modèle de type « enregistrement suivi d’une modification » constitue un outil important pour vous permettre de savoir à quoi ressemblent vos actions Excel sous forme de code.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
 [!INCLUDE [Tutorial prerequisites](../includes/tutorial-prerequisites.md)]
 
 > [!IMPORTANT]
-> Ce didacticiel est destiné aux utilisateurs ayant des connaissances de niveau débutant à intermédiaire en JavaScript ou TypeScript. Si vous débutez avec JavaScript, nous vous conseillons de démarrer par le [didacticiel Mozilla JavaScript](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction). Si vous souhaitez en savoir plus sur l’environnement de script, veuillez consulter la rubrique [Environnement de l’éditeur de code des scripts Office](../overview/code-editor-environment.md).
+> Ce didacticiel est destiné aux utilisateurs ayant des connaissances de niveau débutant à intermédiaire en JavaScript ou TypeScript. Si vous découvrez JavaScript, nous vous conseillons de commencer par consulter le [didacticiel Mozilla JavaScript](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction). Si vous souhaitez en savoir plus sur l’environnement de script, veuillez consulter la rubrique [Environnement de l’éditeur de code Scripts Office](../overview/code-editor-environment.md).
 
 ## <a name="add-data-and-record-a-basic-script"></a>Ajouter des données et enregistrer un script simple
 
