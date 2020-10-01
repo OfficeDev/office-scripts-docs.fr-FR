@@ -3,19 +3,19 @@ title: Transmettre des données à des scripts dans un flux automatique Power Au
 description: Un tutoriel sur l'exécution de scripts Office pour Excel sur le web via Power automate lorsque les messages sont reçus et transmettent les données de flux au script.
 ms.date: 07/24/2020
 localization_priority: Priority
-ms.openlocfilehash: aed34f4b93bbe22768aab73d7a7264cc7d3c3ee6
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: f6842e27686909bad92138e6d2f9ac1892cac891
+ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616765"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48319678"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Transmettre des données à des scripts dans un flux automatique Power Automate (Aperçu)
 
 Ce tutoriel vous apprend à exécuter un script Office pour Excel sur le web via un flux de travail automatisé [Power Automate](https://flow.microsoft.com). Votre script s’exécute automatiquement chaque fois que vous recevez un courrier électronique, enregistrant les informations du courrier électronique dans un classeur Excel. La possibilité de transférer des données d’autres applications dans un script Office offre une flexibilité et une liberté considérables dans vos processus automatisés.
 
 > [!TIP]
-> Si vous débutez avec les scripts Office, nous vous recommandons de commencer par le didacticiel [Enregistrer, modifier, créer des scripts Office dans Excel pour le web](excel-tutorial.md). Si vous débutez avec Power Automate, nous vous recommandons de démarrer par le didacticiel [Appeler des scripts à partir d’un flux manuel Power Automate](excel-power-automate-manual.md). [Les scripts Office utilisent TypeScript](../overview/code-editor-environment.md), et ce didacticiel est destiné aux utilisateurs ayant des connaissances de niveau débutant à intermédiaire en JavaScript ou TypeScript. Si vous débutez avec JavaScript, nous vous conseillons de démarrer par le [didacticiel Mozilla JavaScript](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction).
+> Si vous débutez avec les scripts Office, nous vous recommandons de commencer par le didacticiel [Enregistrer, modifier, créer des scripts Office dans Excel pour le web](excel-tutorial.md). Si vous débutez avec Power Automate, nous vous recommandons de démarrer par le didacticiel [Appeler des scripts à partir d’un flux manuel Power Automate](excel-power-automate-manual.md). [Les scripts Office utilisent TypeScript](../overview/code-editor-environment.md), et ce didacticiel est destiné aux utilisateurs ayant des connaissances de niveau débutant à intermédiaire en JavaScript ou TypeScript. Si vous découvrez JavaScript, nous vous conseillons de commencer par consulter le [didacticiel Mozilla JavaScript](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction).
 
 ## <a name="prerequisites"></a>Configuration requise
 
@@ -191,7 +191,7 @@ function main(
 
     *Notez que les paramètres du script s’affichent uniquement une fois le script sélectionné.*
 
-    ![L’option d’action Power Automate pour exécuter le script (Aperçu).](../images/power-automate-params-tutorial-3.png)
+    ![Les paramètres de l’option d’action Power Automate pour exécuter le script (Aperçu).](../images/power-automate-params-tutorial-3.png)
 
 9. Appuyez sur **Enregistrer**.
 
