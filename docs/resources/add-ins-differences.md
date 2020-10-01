@@ -3,12 +3,12 @@ title: Différences entre les scripts Office et les compléments Office
 description: Les différences de comportement et d’API entre les scripts Office et les compléments Office.
 ms.date: 06/01/2020
 localization_priority: Normal
-ms.openlocfilehash: fc2029780190672c633e00e26f44273e4311c754
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: ddac6cc68874da34ae76c66a5c5b84ffa7a60eec
+ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878660"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48319650"
 ---
 # <a name="differences-between-office-scripts-and-office-add-ins"></a>Différences entre les scripts Office et les compléments Office
 
@@ -30,7 +30,7 @@ Les scripts Office sont actuellement uniquement pris en charge par Excel sur le 
 
 Il n’existe pas de version synchrone des API JavaScript pour Office pour les compléments Office. Les API de scripts Office standard sont propres à la plateforme et présentent de nombreuses optimisations et altérations pour éviter l’utilisation du `load` / `sync` paradigme.
 
-Certaines [API JavaScript pour Excel](/javascript/api/excel?view=excel-js-preview) sont compatibles avec les [API Async de scripts Office](../develop/excel-async-model.md). Certains exemples et blocs de code de complément peuvent être transférés vers `Excel.run` des blocs avec une traduction minimale. Bien que les deux plateformes partagent la fonctionnalité, il existe des lacunes. Les deux principaux ensembles d’API que les compléments Office ont, mais les scripts Office ne sont pas des événements et les API communes.
+Certaines [API JavaScript pour Excel](/javascript/api/excel?view=excel-js-preview&preserve-view=true) sont compatibles avec les [API Async de scripts Office](../develop/excel-async-model.md). Certains exemples et blocs de code de complément peuvent être transférés vers `Excel.run` des blocs avec une traduction minimale. Bien que les deux plateformes partagent la fonctionnalité, il existe des lacunes. Les deux principaux ensembles d’API que les compléments Office ont, mais les scripts Office ne sont pas des événements et les API communes.
 
 ### <a name="events"></a>Événements
 

@@ -1,6 +1,6 @@
 # <a name="office-scripts-in-excel-on-the-web-documentation"></a>Scripts Office dans Excel sur la documentation Web
 
-Bienvenue dans le référentiel de documentation des scripts Office. Dans cet référentiel, vous trouverez les fichiers sources de documentation pour les didacticiels de scripts Office et les guides de procédures. Pour une expérience optimale, nous vous recommandons de consulter ce contenu sur [docs.microsoft.com](https://docs.microsoft.com/office-scripts-docs).
+Bienvenue dans le référentiel de documentation des scripts Office. Dans cet référentiel, vous trouverez les fichiers sources de documentation pour les didacticiels de scripts Office et les guides de procédures. Pour une expérience optimale, nous vous recommandons de consulter ce contenu sur [docs.microsoft.com](https://docs.microsoft.com/office/dev/scripts).
 
 > **Remarque**: vous trouverez les fichiers sources de documentation de référence pour l’API scripts Office dans le référentiel de [référence Office-scripts-docs](https://github.com/OfficeDev/office-scripts-docs-reference) . Ces API contiennent toutes les opérations Excel potentielles pour vos scripts.
 
@@ -23,8 +23,8 @@ Nous vous encourageons également à apporter les modifications et à générer 
 
 Si votre problème n’est pas lié à la documentation des scripts Office, veuillez le publier sur l’un des canaux suivants à la place :
 
-- Pour poser une question sur la création de scripts Office ou sur l’API Office. js qui exécute des scripts Office, envoyez votre question au débordement de pile et marquez-lahttps://stackoverflow.com/questions/tagged/office-scripts)à l’aide de la balise « Office-scripts » (.
-- Pour signaler un problème avec l’API Office. js, créez le problème dans le [référentiel OfficeDev/Office-js](https://github.com/OfficeDev/office-js), que les membres de l’équipe produit analysent les problèmes signalés par le client.
+- Pour poser une question sur la conception de scripts Office ou sur l’API Office.js qui exécute des scripts Office, envoyez votre question au débordement de pile et marquez-la à l’aide de la balise « Office-scripts » ( https://stackoverflow.com/questions/tagged/office-scripts) .
+- Pour signaler un problème avec l’API Office.js, créez le problème dans le [référentiel OfficeDev/Office-js](https://github.com/OfficeDev/office-js), que les membres de l’équipe produit analysent les problèmes signalés par le client.
 - Pour envoyer une demande de fonctionnalité de scripts Office, publiez votre idée sur la [page voix](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)de l’utilisateur ou, si la demande de fonctionnalité existe déjà, ajoutez votre vote pour elle.
 
 ## <a name="copyright"></a>Copyright

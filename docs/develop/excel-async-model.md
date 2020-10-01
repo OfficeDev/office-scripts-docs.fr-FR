@@ -3,19 +3,19 @@ title: Prendre en charge les anciens scripts Office qui utilisent les API Async
 description: Introduction sur les API Async Office scripts et utilisation du modèle Load/Sync pour les scripts plus anciens.
 ms.date: 07/08/2020
 localization_priority: Normal
-ms.openlocfilehash: e7ca5b276cff0e3a38bffc2af1541c0051cf5490
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: 8c90c263e7e3b232447ac6b62da2b2f373b63a87
+ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160459"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48319660"
 ---
 # <a name="support-older-office-scripts-that-use-the-async-apis"></a>Prendre en charge les anciens scripts Office qui utilisent les API Async
 
 Cet article vous explique comment gérer et mettre à jour des scripts qui utilisent les API Async de modèle plus anciennes. Ces API ont les mêmes fonctionnalités de base que les API de scripts Office synchrones et à l’heure actuelle, mais elles ont besoin de votre script pour contrôler la synchronisation des données entre le script et le classeur.
 
 > [!IMPORTANT]
-> Le modèle Async ne peut être utilisé qu’avec des scripts créés avant l’implémentation du [modèle d’API](scripting-fundamentals.md?view=office-scripts)actuel. Les scripts sont définitivement verrouillés sur le modèle d’API qu’ils ont lors de leur création. Cela signifie également que si vous souhaitez convertir un ancien script vers le nouveau modèle, vous devez créer un nouveau script. Nous vous recommandons de mettre à jour vos anciens scripts vers le nouveau modèle lorsque vous effectuez des modifications, étant donné que le modèle actuel est plus facile à utiliser. La section [conversion de scripts Async en modèle actuel](#converting-async-scripts-to-the-current-model) comporte des conseils sur la façon d’effectuer cette transition.
+> Le modèle Async ne peut être utilisé qu’avec des scripts créés avant l’implémentation du [modèle d’API](scripting-fundamentals.md?view=office-scripts&preserve-view=true)actuel. Les scripts sont définitivement verrouillés sur le modèle d’API qu’ils ont lors de leur création. Cela signifie également que si vous souhaitez convertir un ancien script vers le nouveau modèle, vous devez créer un nouveau script. Nous vous recommandons de mettre à jour vos anciens scripts vers le nouveau modèle lorsque vous effectuez des modifications, étant donné que le modèle actuel est plus facile à utiliser. La section [conversion de scripts Async en modèle actuel](#converting-async-scripts-to-the-current-model) comporte des conseils sur la façon d’effectuer cette transition.
 
 ## <a name="main-function"></a>Fonction `main` :
 
@@ -37,7 +37,7 @@ L’objet `context` est nécessaire car le script et Excel sont exécutés dans 
 
 Comme le script et le classeur s’exécutent dans des emplacements différents, le transfert de données entre les deux prend du temps. Dans l’API Async, les commandes sont mises en file d’attente jusqu’à ce que le script appelle explicitement l' `sync` opération pour synchroniser le script et le classeur. Le script peut fonctionner de façon indépendante jusqu’à ce qu’il doive effectuer l’une des opérations suivantes :
 
-- Lisez les données du classeur (en suivant une `load`opération de ou une méthode qui renvoie une [ClientResult](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async)).
+- Lisez les données du classeur (en suivant une `load`opération de ou une méthode qui renvoie une [ClientResult](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async&preserve-view=true)).
 - Écrire les données dans le classeur (généralement quand le script est terminé).
 
 L’image suivante montre un exemple de flux de contrôle entre le script et le classeur :
@@ -116,7 +116,7 @@ async function main(context: Excel.RequestContext){
 
 ### <a name="clientresult"></a>ClientResult
 
-Les méthodes de l’API Async qui renvoient des informations à partir du classeur ont un modèle similaire pour le `load` / `sync` paradigme. Par exemple, `TableCollection.getCount` obtient le nombre de tableaux dans la collection. `getCount`renvoie un `ClientResult<number>` , ce qui signifie que la `value` propriété dans le renvoyé [`ClientResult`](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async) est un nombre. Votre script ne peut pas accéder à cette valeur tant que `context.sync()` n’est pas appelé. À l’instar du chargement d’une propriété, la valeur `value` est une valeur « vide » locale jusqu’à cet appel`sync`.
+Les méthodes de l’API Async qui renvoient des informations à partir du classeur ont un modèle similaire pour le `load` / `sync` paradigme. Par exemple, `TableCollection.getCount` obtient le nombre de tableaux dans la collection. `getCount` renvoie un `ClientResult<number>` , ce qui signifie que la `value` propriété dans le renvoyé [`ClientResult`](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async&preserve-view=true) est un nombre. Votre script ne peut pas accéder à cette valeur tant que `context.sync()` n’est pas appelé. À l’instar du chargement d’une propriété, la valeur `value` est une valeur « vide » locale jusqu’à cet appel`sync`.
 
 Le script suivant fournit le nombre total de tableaux dans le classeur et enregistre ce nombre sur la console.
 
@@ -145,11 +145,11 @@ Le modèle d’API actuel n’utilise pas `load` , `sync` , ni un `RequestContex
 
 2. Supprimez tous `load` les `sync` appels et. Ils ne sont plus nécessaires.
 
-3. Toutes les propriétés ont été supprimées. À présent, vous accédez à ces objets par le biais `get` de et de `set` méthodes, vous devrez donc changer ces références de propriété en appels de méthode. Par exemple, au lieu de définir la couleur de remplissage d’une cellule par le biais d’un accès aux propriétés comme suit : `mySheet.getRange("A2:C2").format.fill.color = "blue";` , vous utilisez des méthodes comme celle-ci :`mySheet.getRange("A2:C2").getFormat().getFill().setColor("blue");`
+3. Toutes les propriétés ont été supprimées. À présent, vous accédez à ces objets par le biais `get` de et de `set` méthodes, vous devrez donc changer ces références de propriété en appels de méthode. Par exemple, au lieu de définir la couleur de remplissage d’une cellule par le biais d’un accès aux propriétés comme suit : `mySheet.getRange("A2:C2").format.fill.color = "blue";` , vous utilisez des méthodes comme celle-ci : `mySheet.getRange("A2:C2").getFormat().getFill().setColor("blue");`
 
 4. Les classes de collection ont été remplacées par des tableaux. Les `add` `get` méthodes et de ces classes de collection ont été déplacées vers l’objet propriétaire de la collection, de sorte que vos références doivent être mises à jour en conséquence. Par exemple, pour obtenir un graphique nommé « MyChart » à partir de la première feuille de calcul du classeur, utilisez le code suivant : `workbook.getWorksheets()[0].getChart("MyChart");` . Notez le `[0]` pour accéder à la première valeur de la `Worksheet[]` renvoyée par `getWorksheets()` .
 
-5. Certaines méthodes ont été renommées pour des raisons de clarté et de commodité. Pour plus d’informations, consultez la référence de l' [API scripts Office](/javascript/api/office-scripts/overview?view=office-scripts) .
+5. Certaines méthodes ont été renommées pour des raisons de clarté et de commodité. Pour plus d’informations, consultez la référence de l' [API scripts Office](/javascript/api/office-scripts/overview?view=office-scripts&preserve-view=true) .
 
 ## <a name="office-scripts-async-api-reference-documentation"></a>Documentation de référence de l’API asynchrone de scripts Office
 
