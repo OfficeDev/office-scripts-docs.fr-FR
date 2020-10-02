@@ -1,14 +1,14 @@
 ---
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
-ms.date: 07/21/2020
+ms.date: 09/29/2020
 localization_priority: Priority
-ms.openlocfilehash: 6b60e46c13a211dc793638bcca6535f04a529096
-ms.sourcegitcommit: e9a8ef5f56177ea9a3d2fc5ac636368e5bdae1f4
+ms.openlocfilehash: 965e28be285d59d79d46fe005ab16f29b271041f
+ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321581"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48319671"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office Scripts dans Excel sur le web (Aperçu)
 
@@ -27,6 +27,7 @@ Cette série de documents vous explique comment utiliser ces outils. Vous allez 
 Pour utiliser les scripts Office, vous devez disposer des éléments suivants.
 
 1. [Excel sur le web](https://www.office.com/launch/excel) (les autres plateformes, telles que le bureau, ne sont pas prises en charge).
+1. OneDrive Entreprise.
 1. Scripts Office [activés par votre administrateur](/microsoft-365/admin/manage/manage-office-scripts-settings).
 1. Toute licence Microsoft 365 commerciale ou éducative donnant accès aux applications de bureau Microsoft 365, telles que :
 
@@ -65,7 +66,10 @@ Un moyen simple de commencer à apprendre les fonctionnalités de Office Script
 
 Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un scénario avec d'autres personnes dans un cahier de travail, le scénario est joint au cahier. Vos scénarios sont stockés dans votre OneDrive, et lorsque vous en partagez un, vous créez un lien vers celui-ci dans le cahier de travail que vous avez ouvert.
 
-Plus de détails sur le partage et le non-partage de scripts peuvent être trouvés dans l'article [Partager des scripts de bureau en Excel pour le Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b?storagetype=live&ui=en-US&rs=en-US&ad=US).
+Plus de détails sur le partage et le non-partage de scripts peuvent être trouvés dans l'article [Partager des scripts de bureau en Excel pour le Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b).
+
+> [!NOTE]
+> Étant donné que les scripts Office sont stockés dans le OneDrive d’un utilisateur, ils respectent les mêmes stratégies de rétention et de suppression. Pour savoir comment gérer les scripts qui ont été créés et partagés par un utilisateur supprimé de votre organisation, consultez [Rétention et suppression de OneDrive](/onedrive/retention-and-deletion).
 
 ## <a name="connecting-office-scripts-to-power-automate"></a>Connecter les scripts de bureau à l'automatisation de la puissance
 
