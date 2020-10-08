@@ -5,7 +5,7 @@ ms.date: 06/15/2020
 localization_priority: Normal
 ms.openlocfilehash: 4d5b7c70f14e3fc598b95a6226e3ef8caf89f651
 ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: Auto
+ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "44878805"
@@ -104,5 +104,5 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Principes de base des scripts pour Office Scripts dans Excel sur le web](scripting-fundamentals.md)
+- [Principes de base pour la rédaction de scripts Office en Excel sur le web](scripting-fundamentals.md)
 - [NOTIFICATION Web docs : boucles et itération](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Loops_and_iteration)
