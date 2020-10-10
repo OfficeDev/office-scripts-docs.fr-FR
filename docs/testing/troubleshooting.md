@@ -1,14 +1,14 @@
 ---
 title: Dépannage de Office Scripts
 description: Débogage des conseils et techniques pour les scripts Office, ainsi que des ressources d’aide.
-ms.date: 07/23/2020
+ms.date: 10/08/2020
 localization_priority: Normal
-ms.openlocfilehash: 0a2c9ab209bc36e8ba2bdb25a6ab79d9f900f29a
-ms.sourcegitcommit: e9a8ef5f56177ea9a3d2fc5ac636368e5bdae1f4
+ms.openlocfilehash: 9b3f4be778f3cdb4711d1e41d4d68f87ebca8152
+ms.sourcegitcommit: 42fa3b629c93930b4e73e9c4c01d0c8bdf6d7487
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321592"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48411544"
 ---
 # <a name="troubleshooting-office-scripts"></a>Dépannage de Office Scripts
 
@@ -31,7 +31,7 @@ Les journaux n’ont pas d’incidence sur le classeur.
 
 Lorsque votre script Excel rencontre un problème, il génère une erreur. Un message contextuel s’affiche pour vous demander si vous souhaitez **afficher les journaux**. Appuyez sur ce bouton pour ouvrir la console et afficher les erreurs éventuelles.
 
-## <a name="automate-tab-not-appearing"></a>L’onglet automatiser n’apparaît pas
+## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>L’onglet automatiser n’apparaît pas ou les scripts Office ne sont pas disponibles
 
 Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l’onglet **automatiser** qui n’apparaît pas dans Excel sur le Web.
 
@@ -39,6 +39,8 @@ Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l�
 1. [Demandez à votre administrateur d’activer la fonctionnalité](/microsoft-365/admin/manage/manage-office-scripts-settings).
 1. [Vérifiez que votre navigateur est pris en charge](platform-limits.md#browser-support).
 1. [Vérifiez que les cookies tiers sont activés](platform-limits.md#third-party-cookies).
+
+[!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
 ## <a name="help-resources"></a>Ressources d’aide
 

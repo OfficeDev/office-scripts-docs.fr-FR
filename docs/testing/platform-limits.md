@@ -1,14 +1,14 @@
 ---
 title: Limites et exigences de la plateforme avec les scripts Office
 description: Limites de ressources et prise en charge de navigateur pour les scripts Office lorsqu’ils sont utilisés avec Excel sur le Web
-ms.date: 07/23/2020
+ms.date: 10/09/2020
 localization_priority: Normal
-ms.openlocfilehash: 6e297cba0b9f984f2d541cc3c441a666f9ebfcef
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: df468192f443b912e26411e46c9f953e046e55ec
+ms.sourcegitcommit: 42fa3b629c93930b4e73e9c4c01d0c8bdf6d7487
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46618157"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48411556"
 ---
 # <a name="platform-limits-and-requirements-with-office-scripts"></a>Limites et exigences de la plateforme avec les scripts Office
 
@@ -17,6 +17,8 @@ Il existe certaines limitations de plateforme dont vous devez être conscient lo
 ## <a name="browser-support"></a>Prise en charge du navigateur
 
 Les scripts Office fonctionnent dans n’importe quel navigateur qui [prend en charge Office pour le Web](https://support.microsoft.com/office/ad1303e0-a318-47aa-b409-d3a5eb44e452). Toutefois, certaines fonctionnalités JavaScript ne sont pas prises en charge dans Internet Explorer 11 (IE 11). Toutes les fonctionnalités introduites dans [ES6 ou version ultérieure](https://www.w3schools.com/Js/js_es6.asp) ne fonctionneront pas avec Internet Explorer 11. Si les membres de votre organisation continuent d’utiliser ce navigateur, veillez à tester vos scripts dans cet environnement lors de leur partage.
+
+[!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
 ### <a name="third-party-cookies"></a>Cookies tiers
 
