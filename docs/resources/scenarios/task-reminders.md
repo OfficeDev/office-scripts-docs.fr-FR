@@ -5,7 +5,7 @@ ms.date: 06/09/2020
 localization_priority: Normal
 ms.openlocfilehash: f764c37dafdd964e9435d504770d10b1608428b8
 ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: Auto
+ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "44878807"
@@ -154,10 +154,10 @@ Ce scénario utilise [Power Automated](https://flow.microsoft.com) et [Microsoft
 
 10. Choisissez **déclencher manuellement un flux** à partir des options, puis appuyez sur **créer**.
 
-11. Le flux doit appeler le script **Get People** pour obtenir tous les employés avec des champs d’État vides. Appuyez sur **nouvelle étape** et sélectionnez **Excel Online (professionnel)**. Sous **actions**, sélectionnez **exécuter un script (aperçu)**. Fournissez les entrées suivantes pour l’étape de flux :
+11. Le flux doit appeler le script **Get People** pour obtenir tous les employés avec des champs d’État vides. Appuyez sur **nouvelle étape** et sélectionnez **Excel Online (professionnel)**. Sous **Actions**, sélectionnez **Exécuter le script** (Aperçu). Fournissez les entrées suivantes pour l’étape de flux :
 
-    - **Emplacement**: OneDrive entreprise
-    - **Bibliothèque de documents**: OneDrive
+    - **Emplacement** : OneDrive Entreprise
+    - **Bibliothèque de documents** : OneDrive
     - **Fichier**: task-reminders.xlsx
     - **Script**: obtenir des personnes
 
@@ -213,10 +213,10 @@ Ce scénario utilise [Power Automated](https://flow.microsoft.com) et [Microsoft
     - **Mettre à jour le message**: Merci d’avoir soumis votre rapport d’État. Votre réponse a été ajoutée à la feuille de calcul.
     - **Mise à jour**de la carte : Oui
 
-16. Dans le bloc **apply to each** , après l' **envoi d’une carte adaptative à un utilisateur de teams et l’attente d’une réponse**, appuyez sur **Ajouter une action**. Sélectionnez **Excel Online (professionnel)**. Sous **actions**, sélectionnez **exécuter un script (aperçu)**. Fournissez les entrées suivantes pour l’étape de flux :
+16. Dans le bloc **apply to each** , après l' **envoi d’une carte adaptative à un utilisateur de teams et l’attente d’une réponse**, appuyez sur **Ajouter une action**. Sélectionnez **Excel Online (professionnel)**. Sous **Actions**, sélectionnez **Exécuter le script** (Aperçu). Fournissez les entrées suivantes pour l’étape de flux :
 
-    - **Emplacement**: OneDrive entreprise
-    - **Bibliothèque de documents**: OneDrive
+    - **Emplacement** : OneDrive Entreprise
+    - **Bibliothèque de documents** : OneDrive
     - **Fichier**: task-reminders.xlsx
     - **Script**: enregistrer l’État
     - **senderEmail**: e-mail *(contenu dynamique d’Excel)*
