@@ -1,14 +1,14 @@
 ---
 title: Différences entre les scripts Office et les macros VBA
 description: Les différences de comportement et d’API entre les scripts Office et les macros VBA Excel.
-ms.date: 06/30/2020
+ms.date: 11/13/2020
 localization_priority: Normal
-ms.openlocfilehash: 8c246545943341607a7aced4da792b8e49880cb0
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: 7b9186d03489a43836c6e9da7bd28e0abc135f63
+ms.sourcegitcommit: 82d3c0ef1e187bcdeceb2b5fc3411186674fe150
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616688"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49342884"
 ---
 # <a name="differences-between-office-scripts-and-vba-macros"></a>Différences entre les scripts Office et les macros VBA
 
@@ -27,7 +27,7 @@ Les scripts Office utilisent un Runtime universel pour JavaScript. Cela fournit 
 
 ## <a name="security"></a>Sécurité
 
-Les macros VBA ont le même habilitation de sécurité qu’Excel. Cela leur accorde un accès complet à votre bureau. Les scripts Office ont uniquement accès au classeur, et non à l’ordinateur qui héberge le classeur. De plus, il n’est pas possible de partager des jetons d’authentification JavaScript avec des scripts, de sorte que les scripts ne peuvent jamais s’authentifier auprès d’un service externe.
+Les macros VBA ont le même habilitation de sécurité qu’Excel. Cela leur accorde un accès complet à votre bureau. Les scripts Office ont uniquement accès au classeur, et non à l’ordinateur qui héberge le classeur. De plus, il n’est pas possible de partager des jetons d’authentification JavaScript avec des scripts. Cela signifie que le script n’a ni les jetons de l’utilisateur connecté, ni aucune fonctionnalité d’API pour se connecter à un service externe, afin qu’ils ne puissent pas utiliser les jetons existants pour effectuer des appels externes au nom de l’utilisateur.
 
 Les administrateurs disposent de trois options pour les macros VBA : autoriser toutes les macros sur le client, n’autoriser aucune macro sur le client ou n’autoriser que les macros avec des certificats signés. Ce manque de granularité rend difficile l’isolation d’un seul acteur incorrect. Actuellement, les scripts Office sont activés ou désactivés pour un client. Toutefois, nous travaillons pour permettre aux administrateurs de mieux contrôler les scripts et créateurs de script individuels.
 

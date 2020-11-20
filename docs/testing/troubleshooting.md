@@ -1,14 +1,14 @@
 ---
 title: Dépannage de Office Scripts
 description: Débogage des conseils et techniques pour les scripts Office, ainsi que des ressources d’aide.
-ms.date: 10/08/2020
+ms.date: 10/30/2020
 localization_priority: Normal
-ms.openlocfilehash: 9b3f4be778f3cdb4711d1e41d4d68f87ebca8152
-ms.sourcegitcommit: 42fa3b629c93930b4e73e9c4c01d0c8bdf6d7487
+ms.openlocfilehash: b45957bd336edce527397253cacec8cb09df715a
+ms.sourcegitcommit: 82d3c0ef1e187bcdeceb2b5fc3411186674fe150
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411544"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49342877"
 ---
 # <a name="troubleshooting-office-scripts"></a>Dépannage de Office Scripts
 
@@ -36,15 +36,15 @@ Lorsque votre script Excel rencontre un problème, il génère une erreur. Un me
 Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l’onglet **automatiser** qui n’apparaît pas dans Excel sur le Web.
 
 1. Assurez-vous [que votre licence Microsoft 365 inclut des scripts Office](../overview/excel.md#requirements).
-1. [Demandez à votre administrateur d’activer la fonctionnalité](/microsoft-365/admin/manage/manage-office-scripts-settings).
 1. [Vérifiez que votre navigateur est pris en charge](platform-limits.md#browser-support).
 1. [Vérifiez que les cookies tiers sont activés](platform-limits.md#third-party-cookies).
+1. [Assurez-vous que votre administrateur n’a pas désactivé les scripts Office dans le centre d’administration 365 de Microsoft](/microsoft-365/admin/manage/manage-office-scripts-settings).
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
 ## <a name="help-resources"></a>Ressources d’aide
 
-Le [débordement de pile](https://stackoverflow.com/questions/tagged/office-scripts) est une communauté de développeurs souhaitant aider à coder les problèmes. Souvent, vous pouvez trouver la solution à votre problème via une recherche de débordement de pile rapide. Si ce n’est pas le cas, posez votre question et marquez-la à l’aide de la balise « Office-scripts ». N’oubliez pas de mentionner que vous créez un *script*Office, et non un *complément*Office.
+Le [débordement de pile](https://stackoverflow.com/questions/tagged/office-scripts) est une communauté de développeurs souhaitant aider à coder les problèmes. Souvent, vous pouvez trouver la solution à votre problème via une recherche de débordement de pile rapide. Si ce n’est pas le cas, posez votre question et marquez-la à l’aide de la balise « Office-scripts ». N’oubliez pas de mentionner que vous créez un *script* Office, et non un *complément* Office.
 
 Si vous rencontrez un problème avec l’API JavaScript pour Office, créez un problème dans le référentiel GitHub [OfficeDev/Office-js](https://github.com/OfficeDev/office-js) . Les membres de l’équipe produit répondront aux problèmes et fourniront de l’aide. La création d’un problème dans le référentiel **OfficeDev/Office-js** indique que vous avez trouvé un défaut dans la bibliothèque de l’API JavaScript Office que l’équipe produit doit résoudre.
 
