@@ -3,12 +3,12 @@ title: 'Exemple de scénario de scripts Office : analyser les téléchargements
 description: Exemple qui prend des données de trafic Internet brutes dans un classeur Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans un tableau.
 ms.date: 07/10/2020
 localization_priority: Normal
-ms.openlocfilehash: 20c52c4f26b5939fb5de5e04df504e6672dd4200
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: adc2cb401830b66b245c0dfcc4441b7ac9c8c61f
+ms.sourcegitcommit: 009935c5773761c5833e5857491af47e2c95d851
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160452"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49408965"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Exemple de scénario de scripts Office : analyser les téléchargements Web
 
@@ -182,8 +182,8 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
         formula1: "=TRUE",
         operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
-      conditionalFormatTrue.getCellValue().getFormat().getFill().setColor("#F8CCAD");
-      conditionalFormatTrue.getCellValue().setRule({
+      conditionalFormatFalse.getCellValue().getFormat().getFill().setColor("#F8CCAD");
+      conditionalFormatFalse.getCellValue().setRule({
         formula1: "=FALSE",
         operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
@@ -224,7 +224,7 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Accédez à l’une des feuilles de calcul de **semaine \* \* ** et exécutez le script **analyze Web Downloads** . Le script applique la mise en forme conditionnelle et l’étiquetage de l’emplacement sur la feuille actuelle. Elle met également à jour la feuille de calcul de **synthèse** .
+Accédez à l’une des feuilles de calcul de **semaine \* \*** et exécutez le script **analyze Web Downloads** . Le script applique la mise en forme conditionnelle et l’étiquetage de l’emplacement sur la feuille actuelle. Elle met également à jour la feuille de calcul de **synthèse** .
 
 ### <a name="before-running-the-script"></a>Avant d’exécuter le script
 
