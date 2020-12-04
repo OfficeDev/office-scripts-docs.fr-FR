@@ -1,14 +1,14 @@
 ---
 title: 'Exemple de scénario de scripts Office : rappels de tâche automatisée'
 description: Un exemple qui utilise Power automate et des cartes adaptatives automatise les rappels de tâches dans une feuille de calcul de gestion de projets.
-ms.date: 06/09/2020
+ms.date: 11/30/2020
 localization_priority: Normal
-ms.openlocfilehash: f764c37dafdd964e9435d504770d10b1608428b8
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 90769eca0201e450e25778db0eb5c62284b9feb0
+ms.sourcegitcommit: af487756dffea0f8f0cd62710c586842cb08073c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878807"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49571442"
 ---
 # <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Exemple de scénario de scripts Office : rappels de tâche automatisée
 
@@ -65,7 +65,7 @@ Ce scénario utilise [Power Automated](https://flow.microsoft.com) et [Microsoft
         let row = bodyRangeValues[i];
         if (row[STATUS_REPORT_INDEX] === "") {
           // Save the email to return.
-          people.push({ name: row[NAME_INDEX], email: row[EMAIL_INDEX] });
+          people.push({ name: row[NAME_INDEX].toString(), email: row[EMAIL_INDEX].toString() });
         }
       }
 
@@ -158,7 +158,7 @@ Ce scénario utilise [Power Automated](https://flow.microsoft.com) et [Microsoft
 
     - **Emplacement** : OneDrive Entreprise
     - **Bibliothèque de documents** : OneDrive
-    - **Fichier**: task-reminders.xlsx
+    - **File**: task-reminders.xlsx *(choisi via l’Explorateur de fichiers)*
     - **Script**: obtenir des personnes
 
     ![Étape du flux de script de la première exécution.](../../images/scenario-task-reminders-first-flow-step.png)
@@ -211,13 +211,13 @@ Ce scénario utilise [Power Automated](https://flow.microsoft.com) et [Microsoft
 15. Renseignez les champs restants comme suit :
 
     - **Mettre à jour le message**: Merci d’avoir soumis votre rapport d’État. Votre réponse a été ajoutée à la feuille de calcul.
-    - **Mise à jour**de la carte : Oui
+    - **Mise à jour** de la carte : Oui
 
 16. Dans le bloc **apply to each** , après l' **envoi d’une carte adaptative à un utilisateur de teams et l’attente d’une réponse**, appuyez sur **Ajouter une action**. Sélectionnez **Excel Online (professionnel)**. Sous **Actions**, sélectionnez **Exécuter le script** (Aperçu). Fournissez les entrées suivantes pour l’étape de flux :
 
     - **Emplacement** : OneDrive Entreprise
     - **Bibliothèque de documents** : OneDrive
-    - **Fichier**: task-reminders.xlsx
+    - **File**: task-reminders.xlsx *(choisi via l’Explorateur de fichiers)*
     - **Script**: enregistrer l’État
     - **senderEmail**: e-mail *(contenu dynamique d’Excel)*
     - **statusReportResponse**: Response *(contenu dynamique de Teams)*
