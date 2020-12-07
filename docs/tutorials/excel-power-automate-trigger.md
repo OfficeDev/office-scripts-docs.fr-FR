@@ -1,14 +1,14 @@
 ---
 title: Transmettre des données à des scripts dans un flux automatique Power Automate
 description: Un tutoriel sur l'exécution de scripts Office pour Excel sur le web via Power automate lorsque les messages sont reçus et transmettent les données de flux au script.
-ms.date: 07/24/2020
+ms.date: 11/30/2020
 localization_priority: Priority
-ms.openlocfilehash: f6842e27686909bad92138e6d2f9ac1892cac891
-ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
+ms.openlocfilehash: b73f40c70669fedbe8a0adcf346995cb20b62d37
+ms.sourcegitcommit: af487756dffea0f8f0cd62710c586842cb08073c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48319678"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49571478"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Transmettre des données à des scripts dans un flux automatique Power Automate (Aperçu)
 
@@ -58,7 +58,7 @@ Power Automate ne peut pas utiliser de [références relatives](../develop/power
 
 ## <a name="create-an-office-script"></a>Créer un script Office
 
-Créons un script qui enregistre les informations à partir d’un message électronique. Nous cherchons à identifier quels jours de la semaine nous recevons le plus de messages électroniques et combien d’expéditeurs uniques envoient ces messages électroniques. Notre classeur comporte une table avec les colonnes **date**, **jour de la semaine**, **adresse électronique**et **objet**. Notre feuille de calcul comporte également un tableau croisé dynamique qui fait pivoter le **jour de la semaine** et **adresse électronique** (il s’agit des hiérarchies de ligne). Le nombre de sujets **uniques** correspond aux informations agrégées affichées (hiérarchie des données). Notre script actualise ce tableau croisé dynamique après la mise à jour de la table de messagerie.
+Créons un script qui enregistre les informations à partir d’un message électronique. Nous cherchons à identifier quels jours de la semaine nous recevons le plus de messages électroniques et combien d’expéditeurs uniques envoient ces messages électroniques. Notre classeur comporte une table avec les colonnes **date**, **jour de la semaine**, **adresse électronique** et **objet**. Notre feuille de calcul comporte également un tableau croisé dynamique qui fait pivoter le **jour de la semaine** et **adresse électronique** (il s’agit des hiérarchies de ligne). Le nombre de sujets **uniques** correspond aux informations agrégées affichées (hiérarchie des données). Notre script actualise ce tableau croisé dynamique après la mise à jour de la table de messagerie.
 
 1. Dans l’ **Éditeur de code**, sélectionnez **Nouveau script**.
 
@@ -183,8 +183,8 @@ function main(
 
     - **Emplacement** : OneDrive Entreprise
     - **Bibliothèque de documents** : OneDrive
-    - **Fichier** : MyWorkbook.xlsx
-    - **Script** : Enregistrer le courrier électronique
+    - **Fichier** : MyWorkbook.xlsx *(choisi via l’Explorateur de fichiers)*
+    - **Script** : Enregistrer l’e-mail
     - **à partir de**: de *(contenu dynamique d’Outlook)*
     - **date de réception**: heure de réception *(contenu dynamique d’Outlook)*
     - **objet**: Objet *(contenu dynamique d’Outlook)*

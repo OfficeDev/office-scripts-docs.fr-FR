@@ -1,14 +1,14 @@
 ---
 title: Appeler des scripts à partir d’un flux manuel Power Automate
 description: Un tutoriel sur l’utilisation des scripts Office dans Power Automate via un déclencheur manuel.
-ms.date: 07/24/2020
+ms.date: 11/30/2020
 localization_priority: Priority
-ms.openlocfilehash: f447e465bc0b09043d64752266bc9b6dbe5a5d89
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: 831812f5ead549ee3ea3b8c643fc16d5467edbe8
+ms.sourcegitcommit: af487756dffea0f8f0cd62710c586842cb08073c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616754"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49571471"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow-preview"></a>Appeler des scripts à partir d’un flux manuel Power Automate (préversion)
 
@@ -93,7 +93,7 @@ Power Automate ne peut pas utiliser de références relatives comme `Workbook.ge
 
     - **Emplacement** : OneDrive Entreprise
     - **Bibliothèque de documents** : OneDrive
-    - **Fichier** : MyWorkbook.xlsx
+    - **Fichier** : MyWorkbook.xlsx *(choisi via l’Explorateur de fichiers)*
     - **Script** : Définir la date et l’heure
 
     ![Les paramètres du connecteur pour exécuter un script dans Power Automate.](../images/power-automate-tutorial-6.png)
