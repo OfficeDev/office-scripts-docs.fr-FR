@@ -1,60 +1,67 @@
-- name: "Documentation sur Office\_Scripts"
-  href: index.md
-- name: "Office\_Scripts dans Excel sur le web"
-  items:
-    - name: Vue d’ensemble
-      href: overview/excel.md
-    - name: Didacticiels
-      items:
-        - name: Découvrir les concepts de base d’Office Scripts
-          href: tutorials/excel-tutorial.md
-        - name: Lire les données d’un classeur avec un script
-          href: tutorials/excel-read-tutorial.md
-        - name: Appeler des scripts à partir d’un flux manuel Power Automate
-          href: tutorials/excel-power-automate-manual.md
-        - name: Transmettre des données dans un flux automatique Power Automate
-          href: tutorials/excel-power-automate-trigger.md
-    - name: Principes de base de l’écriture de script
-      href: develop/scripting-fundamentals.md
-    - name: Concepts
-      items:
-        - name: Objets JavaScript intégrés
-          href: develop/javascript-objects.md
-        - name: Environnement de l’éditeur de code
-          href: overview/code-editor-environment.md
-        - name: Différences entre les scripts Office et les macros VBA
-          href: resources/vba-differences.md
-        - name: Différences entre les scripts Office et les compléments Office
-          href: resources/add-ins-differences.md
-        - name: Prise en charge des appels d’API externes dans les scripts Office
-          href: develop/external-calls.md
-        - name: Stockage et propriété des fichiers
-          href: overview/script-storage.md
-        - name: Exécuter des scripts avec Power Automate
-          href: develop/power-automate-integration.md
-    - name: Résolution des problèmes
-      items:
-        - name: Concepts de base de la résolution des problèmes
-          href: testing/troubleshooting.md
-        - name: Amélioration des performances des scripts
-          href: develop/web-client-performance.md
-        - name: Limites de plateforme
-          href: testing/platform-limits.md
-        - name: Annuler les effets d’un script Office
-          href: testing/undo.md
-        - name: Prise en charge des anciens scripts Office
-          href: develop/excel-async-model.md
-    - name: Exemples
-      items:
-        - name: Exemples de scripts
-          href: resources/excel-samples.md
-        - name: Scénarios
-          items:
-            - name: Vue d’ensemble
-              href: resources/scenarios/sample-scenario-overview.md
-            - name: Analyser les téléchargements web
-              href: resources/scenarios/analyze-web-downloads.md
-            - name: Calculatrice de notes
-              href: resources/scenarios/grade-calculator.md
-            - name: Rappels de tâche (avec Power Automate)
-              href: resources/scenarios/task-reminders.md
+items:
+  - name: "Documentation sur Office\_Scripts"
+    href: index.md
+  - name: "Office\_Scripts dans Excel sur le web"
+    items:
+      - name: Vue d’ensemble
+        href: overview/excel.md
+      - name: Didacticiels
+        items:
+          - name: Découvrir les concepts de base d’Office Scripts
+            href: tutorials/excel-tutorial.md
+          - name: Lire les données d’un classeur avec un script
+            href: tutorials/excel-read-tutorial.md
+          - name: Appeler des scripts à partir d’un flux manuel Power Automate
+            href: tutorials/excel-power-automate-manual.md
+          - name: Utiliser les données d’un script à partir d’un flux Power Automate exécuté de manière automatique.
+            href: tutorials/excel-power-automate-trigger.md
+          - name: Transférer des données à partir d’un script vers un flux Power Automate
+            href: tutorials/excel-power-automate-returns.md
+      - name: Principes de base de l’écriture de script
+        href: develop/scripting-fundamentals.md
+      - name: Concepts
+        items:
+          - name: Objets JavaScript intégrés
+            href: develop/javascript-objects.md
+          - name: Environnement de l’éditeur de code
+            href: overview/code-editor-environment.md
+          - name: Différences entre les scripts Office et les macros VBA
+            href: resources/vba-differences.md
+          - name: Différences entre les scripts Office et les compléments Office
+            href: resources/add-ins-differences.md
+          - name: Prise en charge des appels d’API externes dans Scripts Office
+            href: develop/external-calls.md
+          - name: Stockage et propriété des fichiers
+            href: overview/script-storage.md
+          - name: Exécuter des scripts avec Power Automate
+            href: develop/power-automate-integration.md
+      - name: Résolution des problèmes
+        items:
+          - name: Concepts de base de la résolution des problèmes
+            href: testing/troubleshooting.md
+          - name: Résolution des problèmes avec Power automate
+            href: testing/power-automate-troubleshooting.md
+          - name: Amélioration des performances des scripts
+            href: develop/web-client-performance.md
+          - name: Limites de plateforme
+            href: testing/platform-limits.md
+          - name: Annuler les effets d’un script Office
+            href: testing/undo.md
+          - name: Prise en charge des anciens scripts Office
+            href: develop/excel-async-model.md
+      - name: Exemples
+        items:
+          - name: Exemples de scripts
+            href: resources/excel-samples.md
+          - name: Scénarios
+            items:
+              - name: Vue d’ensemble
+                href: resources/scenarios/sample-scenario-overview.md
+              - name: Analyser les téléchargements web
+                href: resources/scenarios/analyze-web-downloads.md
+              - name: Calculatrice de notes
+                href: resources/scenarios/grade-calculator.md
+              - name: Données graphiques du niveau d’eau établies par la NOAA
+                href: resources/scenarios/noaa-data-fetch.md
+              - name: Rappels de tâche (avec Power Automate)
+                href: resources/scenarios/task-reminders.md
