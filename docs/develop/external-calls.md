@@ -1,33 +1,34 @@
 ---
 title: Prise en charge des appels d’API externes dans Scripts Office
-description: Prise en charge et conseils pour passer des appels d’API externes dans un script Office.
-ms.date: 09/24/2020
+description: Prise en charge et conseils pour effectuer des appels d’API externes dans un script Office.
+ms.date: 01/05/2021
 localization_priority: Normal
-ms.openlocfilehash: fa77e606e2b3ab90144507660d71561b278e82e5
-ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
+ms.openlocfilehash: 1091031bc2e12f3e1e79b177c69874ee4ce61dd8
+ms.sourcegitcommit: 30c4b731dc8d18fca5aa74ce59e18a4a63eb4ffc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48319629"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49784143"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Prise en charge des appels d’API externes dans Scripts Office
 
-La plateforme de scripts Office ne prend pas en charge les appels vers des [API externes](https://developer.mozilla.org/docs/Web/API). Toutefois, ces appels peuvent être exécutés dans les bonnes circonstances. Les appels externes ne peuvent être effectués qu’à travers le client Excel, et non par le biais de la mise à l’arrêt automatique [dans des circonstances normales](#external-calls-from-power-automate).
+Les auteurs de scripts ne doivent pas s’attendre à un comportement cohérent lors de l’utilisation [d’API](https://developer.mozilla.org/docs/Web/API) externes lors de la phase de prévisualisation de la plateforme. En tant que tel, ne comptez pas sur les API externes pour les scénarios de script critiques.
 
-Les auteurs de script ne devraient pas attendre un comportement cohérent lors de l’utilisation d’API externes pendant la phase d’aperçu de la plateforme. Cela est dû à la façon dont le runtime JavaScript gère l’interaction avec le classeur. Le script peut se terminer avant la fin de l’appel de l’API (ou sa `Promise` résolution est entièrement résolue). En tant que telles, ne reposez pas sur les API externes pour les scénarios de scripts critiques.
+Les appels aux API externes peuvent uniquement être effectués via l’application Excel, et non via Power Automate [dans des circonstances normales.](#external-calls-from-power-automate)
 
 > [!CAUTION]
-> Les appels externes peuvent entraîner l’exposition des données sensibles à des points de terminaison indésirables. Votre administrateur peut établir une protection de pare-feu contre ces appels.
+> Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables. Votre administrateur peut établir une protection pare-feu contre ces appels.
 
-## <a name="definition-files-for-external-apis"></a>Fichiers de définition pour les API externes
+## <a name="working-with-fetch"></a>Travailler avec `fetch`
 
-Les fichiers de définition des API externes ne sont pas inclus dans les scripts Office. L’utilisation de ces API génère des erreurs de compilation pour les définitions manquantes. Les API continuent à s’exécuter (même si elles sont exécutées via le client Excel), comme illustré dans le script suivant :
+[L’API de](https://developer.mozilla.org/docs/Web/API/Fetch_API) récupération récupère des informations à partir de services externes. Il s’agit `async` d’une API, vous devrez donc ajuster la `main` signature de votre script. Make the `main` function and have it return a `async` `Promise<void>` . Vous devez également être sûr de `await` `fetch` l’appel et de la `json` récupération. Cela garantit que ces opérations sont terminées avant la fin du script.
+
+Le script suivant utilise `fetch` pour récupérer les données JSON du serveur de test dans l’URL donnée.
 
 ```typescript
 async function main(workbook: ExcelScript.Workbook): Promise <void> {
-  /* The following line of code generates the error:
-   * "Cannot find name 'fetch'".
-   * It will still run and return the JSON from the testing service.
+  /* 
+   * Retrieve JSON data from a test server.
    */
   let fetchResult = await fetch('https://jsonplaceholder.typicode.com/todos/1');
   let json = await fetchResult.json();
@@ -37,13 +38,16 @@ async function main(workbook: ExcelScript.Workbook): Promise <void> {
 }
 ```
 
-## <a name="external-calls-from-power-automate"></a>Appels externes de Power Automated
+L’exemple de scénario Office Scripts : graphe des données de niveau d’eau de [la NOAA](../resources/scenarios/noaa-data-fetch.md) illustre la commande de récupération utilisée pour extraire des enregistrements de la base de données Archives et courants de l’Administration nationale.
 
-Les appels de l’API externe échouent lorsqu’un script est exécuté avec Power Automated. Il s’agit d’une différence de comportement entre l’exécution d’un script via le client Excel et l’automatisation de l’alimentation. Veillez à vérifier les scripts de ces références avant de les générer dans un flux.
+## <a name="external-calls-from-power-automate"></a>Appels externes à partir de Power Automate
+
+Tous les appels d’API externes échouent lorsqu’un script est exécuté avec Power Automate. Il s’agit d’une différence comportementale entre l’exécution d’un script via le client Excel et via Power Automate. Veillez à vérifier si vos scripts sont de telles références avant de les créer dans un flux.
 
 > [!WARNING]
-> Échec des appels externes le [connecteur Excel Online](/connectors/excelonlinebusiness) de Power automate est là pour vous aider à respecter les stratégies de protection contre la perte de données existantes. Toutefois, les scripts exécutés à l’aide de l’automate d’alimentation sont effectués de façon extérieure à votre organisation et en dehors des pare-feu de votre organisation. Pour une protection supplémentaire contre les utilisateurs malveillants dans cet environnement externe, votre administrateur peut contrôler l’utilisation des scripts Office. Votre administrateur peut désactiver le connecteur Excel Online dans Power automate ou désactiver les scripts Office pour Excel sur le Web via les contrôles de l' [administrateur des scripts Office](/microsoft-365/admin/manage/manage-office-scripts-settings).
+> Les appels externes effectués via le connecteur Power Automate [Excel Online](/connectors/excelonlinebusiness) échouent afin d’aider à respecter les stratégies de protection contre la perte de données existantes. Toutefois, les scripts exécutés via Power Automate le sont en dehors de votre organisation et en dehors des pare-feu de votre organisation. Pour une protection supplémentaire contre les utilisateurs malveillants dans cet environnement externe, votre administrateur peut contrôler l’utilisation des scripts Office. Votre administrateur peut désactiver le connecteur Excel Online dans Power Automate ou désactiver les scripts Office pour Excel sur le web via les contrôles d’administrateur [des scripts Office.](/microsoft-365/admin/manage/manage-office-scripts-settings)
 
 ## <a name="see-also"></a>Voir aussi
 
 - [Utilisation d’objets JavaScript intégrés dans les scripts Office](javascript-objects.md)
+- [Exemple de scénario de scripts Office : graphique des données de niveau d’eau de NOAA](../resources/scenarios/noaa-data-fetch.md)
