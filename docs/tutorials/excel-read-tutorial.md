@@ -1,14 +1,14 @@
 ---
 title: Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 description: Didacticiel des scripts Office sur la lecture de données à partir de classeurs et l’évaluation de ces données dans le script.
-ms.date: 07/20/2020
+ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: cdd09f13bb53cfff8c051360f2306cdb6956d86d
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: 0848a24e7333842b5b3b1f82ec8f270514c34d2f
+ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616705"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772968"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 
@@ -42,7 +42,7 @@ Dans le reste du didacticiel, nous allons normaliser ces données à l’aide d�
     |25/10/2019 |Compte courant |Best For You Organics Company | −85,64 | |
     |01/11/2019 |Compte courant |Versement externe | |1000 |
 
-3. Ouvrez l’**éditeur de code** puis sélectionnez **Nouveau script**.
+3. Ouvrez **Tous les scripts** et sélectionner **Nouveau script**.
 4. Nous allons réarranger la mise en forme. Il s’agit d’un document financier, nous allons donc modifier la mise en forme des nombres dans les colonnes **Débit** et **Crédit** pour afficher les valeurs sous forme de montants en dollars. Ajustons également la largeur des colonnes aux données.
 
     Remplacez le contenu du script par le code suivant :
@@ -73,21 +73,22 @@ Dans le reste du didacticiel, nous allons normaliser ces données à l’aide d�
 8. Lorsqu’un tableau à deux dimensions est journalisé sur la console, il regroupe les valeurs de colonne sous chaque ligne. Développez le journal du tableau en appuyant sur le triangle bleu.
 9. Développez le deuxième niveau du tableau en appuyant sur le triangle bleu nouvellement affiché. Voici ce que vous devez voir :
 
-    ![Journal de la console affichant la sortie « −20,05 », imbriquée sous deux tableaux.](../images/tutorial-4.png)
+    ![Journal de la console affichant la sortie « −20,05 », imbriquée sous deux tableaux](../images/tutorial-4.png)
 
 ## <a name="modify-the-value-of-a-cell"></a>Modifier la valeur d’une cellule.
 
 Maintenant que nous avons vu comment lire des données, nous allons les utiliser pour modifier le classeur. Nous allons rendre la valeur de la cellule **D2** positive avec la fonction `Math.abs`. L’objet [Math](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/math) contient de nombreuses fonctions auxquelles vos scripts ont accès. Pour plus d’informations sur `Math` et les autres objets intégrés, voir [Utilisation d’objets JavaScript intégrés dans les scripts Office](../develop/javascript-objects.md).
 
-1. Ajoutez le code suivant à la fin du script :
+1. Nous utiliserons les méthodes `getValue` et `setValue` pour modifier la valeur de la cellule. Ces méthodes fonctionnent sur une seule cellule. Lorsque vous manipulez des plages de plusieurs cellules, vous pouvez utiliser `getValues` et `setValues`. Ajoutez le code suivant à la fin du script :
 
     ```TypeScript
     // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
-    let positiveValue = Math.abs(range.getValue());
+    let positiveValue = Math.abs(range.getValue() as number);
     range.setValue(positiveValue);
     ```
 
-    Notez que nous utilisons `getValue` et `setValue`. Ces méthodes fonctionnent sur une seule cellule. Lorsque vous manipulez des plages de plusieurs cellules, vous pouvez utiliser `getValues` et `setValues`.
+    > [!NOTE]
+    > Nous [transformons](https://www.typescripttutorial.net/typescript-tutorial/type-casting/) la valeur retournée de `range.getValue()` en `number` à l'aide du mot-clé `as`. Ceci est nécessaire, car une plage peut être des chaînes, des nombres ou des valeurs booléennes. Dans ce cas, nous avons explicitement besoin d’un nombre.
 
 2. La valeur de la cellule **D2** doit maintenant être positive.
 
@@ -124,13 +125,13 @@ Maintenant que nous avons vu comment lire et écrire dans une seule cellule, con
     for (let i = 1; i < rowCount; i++) {
         // The column at index 3 is column "4" in the worksheet.
         if (rangeValues[i][3] != 0) {
-            let positiveValue = Math.abs(rangeValues[i][3]);
+            let positiveValue = Math.abs(rangeValues[i][3] as number);
             selectedSheet.getCell(i, 3).setValue(positiveValue);
         }
 
         // The column at index 4 is column "5" in the worksheet.
         if (rangeValues[i][4] != 0) {
-            let positiveValue = Math.abs(rangeValues[i][4]);
+            let positiveValue = Math.abs(rangeValues[i][4] as number);
             selectedSheet.getCell(i, 4).setValue(positiveValue);
         }
     }
@@ -142,7 +143,7 @@ Maintenant que nous avons vu comment lire et écrire dans une seule cellule, con
 
     Voici ce à quoi doit maintenant ressembler le relevé bancaire :
 
-    ![Le relevé bancaire sous la forme d’un tableau mis en forme avec uniquement des valeurs positives.](../images/tutorial-5.png)
+    ![Le relevé bancaire sous la forme d’un tableau mis en forme avec uniquement des valeurs positives](../images/tutorial-5.png)
 
 ## <a name="next-steps"></a>Étapes suivantes
 
