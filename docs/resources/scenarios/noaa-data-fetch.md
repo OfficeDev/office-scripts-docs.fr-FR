@@ -1,20 +1,20 @@
 ---
 title: 'Exemple de scénario de scripts Office : graphique des données de niveau d’eau de NOAA'
 description: Exemple qui extrait des données JSON d’une base de données NOAA et les utilise pour créer un graphique.
-ms.date: 01/05/2021
+ms.date: 01/11/2021
 localization_priority: Normal
-ms.openlocfilehash: d2afcd05125ea66c028d8e21bcc878371c20fcc3
-ms.sourcegitcommit: 30c4b731dc8d18fca5aa74ce59e18a4a63eb4ffc
+ms.openlocfilehash: 5b0b4e3675cbe053368f63123d819f0dab626e60
+ms.sourcegitcommit: 7580dcb8f2f97974c2a9cce25ea30d6526730e28
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784186"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49867876"
 ---
-# <a name="office-scripts-sample-scenario-graph-water-level-data-from-noaa"></a>Exemple de scénario de scripts Office : graphique des données de niveau d’eau de NOAA
+# <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Exemple de scénario de scripts Office : extraire et graphiquer des données au niveau de l’eau à partir de la NOAA
 
-Dans ce scénario, vous devez tracer le niveau d’eau au niveau de la station De Seattle de [l’Administration nationale de l’unité nationale d’administration.](https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130) Vous utiliserez des données externes pour remplir une feuille de calcul et créer un graphique.
+Dans ce scénario, vous devez tracer le niveau d’eau au niveau de la station de seattle de [l’Administration nationale de l’état de Seattle.](https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130) Vous utiliserez des données externes pour remplir une feuille de calcul et créer un graphique.
 
-Vous allez développer un script qui utilise la commande pour interroger la base de données `fetch` [NOAA Des descendants et des bases de données actuelles.](https://tidesandcurrents.noaa.gov/) Cela permettra d’enregistrer le niveau d’eau sur une période donnée. Les informations seront renvoyées en tant que JSON, de sorte qu’une partie du script les traduirea en valeurs de plage. Une fois que les données se trouve dans la feuille de calcul, elles sont utilisées pour créer un graphique.
+Vous allez développer un script qui utilise la commande pour interroger la base de données `fetch` [NOAA Des descendants et des bases de données actuelles.](https://tidesandcurrents.noaa.gov/) Cela permettra d’enregistrer le niveau d’eau sur une période donnée. Les informations sont renvoyées en tant que JSON, donc une partie du script les traduit en valeurs de plage. Une fois que les données se trouve dans la feuille de calcul, elles sont utilisées pour créer un graphique.
 
 ## <a name="scripting-skills-covered"></a>Compétences d’écriture de scripts couvertes
 
@@ -28,7 +28,7 @@ Vous allez développer un script qui utilise la commande pour interroger la base
 
 1. Sous **l’onglet Automatiser,** **sélectionnez Tous les scripts.**
 
-1. Dans le **volet Des tâches de l’Éditeur** de code, sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
+1. Dans le **volet Des tâches de** l’Éditeur de code, sélectionnez Nouveau **script** et collez le script suivant dans l’éditeur.
 
     ```typescript
     /**
@@ -104,7 +104,7 @@ Vous allez développer un script qui utilise la commande pour interroger la base
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Sur n’importe quelle feuille de calcul, exécutez le script **NOAA Water Level Chart.** Le script récupère les données de niveau d’eau du 25 décembre 2020 au 27 décembre 2020. Les variables au début du script peuvent être modifiées pour utiliser des dates différentes ou `const` obtenir des informations de station différentes. [L’API CO-OPS pour](https://api.tidesandcurrents.noaa.gov/api/prod/) la récupération des données décrit comment obtenir toutes ces données.
+Sur n’importe quelle feuille de calcul, exécutez le script **NOAA Water Level Chart.** Le script récupère les données de niveau d’eau du 25 décembre 2020 au 27 décembre 2020. Les variables au début du script peuvent être modifiées pour utiliser différentes `const` dates ou obtenir des informations de station différentes. [L’API CO-OPS pour la](https://api.tidesandcurrents.noaa.gov/api/prod/) récupération des données décrit comment obtenir toutes ces données.
 
 ### <a name="after-running-the-script"></a>Après l’exécution du script
 
