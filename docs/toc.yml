@@ -59,9 +59,9 @@ items:
                 href: resources/scenarios/sample-scenario-overview.md
               - name: Analyser les téléchargements web
                 href: resources/scenarios/analyze-web-downloads.md
+              - name: Obtenir et représenter graphiquement les données du niveau d'eau auprès de la NOAA
+                href: resources/scenarios/noaa-data-fetch.md
               - name: Calculatrice de notes
                 href: resources/scenarios/grade-calculator.md
-              - name: Données graphiques du niveau d’eau établies par la NOAA
-                href: resources/scenarios/noaa-data-fetch.md
               - name: Rappels de tâche (avec Power Automate)
                 href: resources/scenarios/task-reminders.md
