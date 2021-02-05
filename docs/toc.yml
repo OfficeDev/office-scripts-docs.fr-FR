@@ -45,6 +45,8 @@ items:
             href: develop/web-client-performance.md
           - name: Limites de plateforme
             href: testing/platform-limits.md
+          - name: Restrictions TypeScript
+            href: develop/typescript-restrictions.md
           - name: Annuler les effets d’un script Office
             href: testing/undo.md
           - name: Prise en charge des anciens scripts Office
