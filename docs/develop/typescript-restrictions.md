@@ -3,12 +3,12 @@ title: Restrictions TypeScript dans les scripts Office
 description: Les spécificités du compilateur TypeScript et du linter utilisés par l’éditeur de code de scripts Office.
 ms.date: 01/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 41584ff23b333d17b2e267fdb3b0ec8741f3d203
-ms.sourcegitcommit: df2b64603f91acb37bf95230efd538db0fbf9206
+ms.openlocfilehash: d67e208561ce6ddd706d4c80cf29d2f013a32032
+ms.sourcegitcommit: 98c7bc26f51dc8427669c571135c503d73bcee4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099901"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125933"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>Restrictions TypeScript dans les scripts Office
 
@@ -16,11 +16,11 @@ Les scripts Office utilisent le langage TypeScript. Dans la plupart des cas, tou
 
 ## <a name="no-any-type-in-office-scripts"></a>Aucun type « any » dans les scripts Office
 
-[L’écriture](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) de types est facultative dans TypeScript, car les types peuvent être déduits. Toutefois, Office Script requiert qu’une variable ne puisse pas être [de type n’importe quel](https://www.typescriptlang.org/docs/handbook/basic-types.html#any). Les scripts explicite et implicite `any` ne sont pas autorisés dans un script Office. Ces cas sont signalés comme des erreurs.
+[L’écriture](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) de types est facultative dans TypeScript, car les types peuvent être déduits. Toutefois, Office Script requiert qu’une variable ne puisse pas être [de type n’importe quel](https://www.typescriptlang.org/docs/handbook/basic-types.html#any). Les scripts explicites `any` et implicites ne sont pas autorisés dans un script Office. Ces cas sont signalés comme des erreurs.
 
 ### <a name="explicit-any"></a>Explicite `any`
 
-Vous ne pouvez pas déclarer explicitement une variable de type dans `any` Les scripts Office (c’est-à-dire, `let someVariable: any;` ). Le `any` type provoque des problèmes lors du traitement par Excel. Par exemple, il `Range` faut savoir qu’une valeur est `string` une , ou `number` `boolean` . Vous recevrez une erreur au moment de la compilation (une erreur avant l’exécution du script) si une variable est explicitement définie en tant que `any` type dans le script.
+Vous ne pouvez pas déclarer explicitement une variable de type dans `any` Les scripts Office (c’est-à-dire, `let someVariable: any;` ). Le `any` type provoque des problèmes lors du traitement par Excel. Par exemple, il `Range` faut savoir qu’une valeur est `string` un , ou `number` `boolean` . Vous recevrez une erreur de compilation (une erreur avant l’exécution du script) si une variable est explicitement définie en tant que `any` type dans le script.
 
 ![Message explicite dans le texte de pointeur de l’éditeur de code](../images/explicit-any-editor-message.png)
 
@@ -32,7 +32,7 @@ Pour contourner ce problème, définissez toujours le type de la variable. Si vo
 
 ### <a name="implicit-any"></a>Implicite `any`
 
-Les types de variables TypeScript peuvent être [implicitement](( https://www.typescriptlang.org/docs/handbook/type-inference.html) définis. Si le compilateur TypeScript ne parvient pas à déterminer le type d’une variable (soit parce que le type n’est pas défini explicitement, soit parce que l’inférence de type n’est pas possible), il s’agit d’un implicite et vous recevrez une erreur au moment de la `any` compilation.
+Les types de variables TypeScript peuvent être [implicitement définis.](https://www.typescriptlang.org/docs/handbook/type-inference.html) Si le compilateur TypeScript ne parvient pas à déterminer le type d’une variable (soit parce que le type n’est pas défini explicitement, soit parce que l’inférence de type n’est pas possible), il s’agit d’un implicite et vous recevrez une erreur au moment de la `any` compilation.
 
 Le cas le plus courant sur tout implicite `any` se trouve dans une déclaration de variable, telle que `let value;` . Il existe deux façons d’éviter cela :
 
@@ -41,7 +41,7 @@ Le cas le plus courant sur tout implicite `any` se trouve dans une déclaration 
 
 ## <a name="no-inheriting-office-script-classes-or-interfaces"></a>Aucune classe ou interface Office Script n’hérite
 
-Les classes et interfaces créées dans votre script Office ne peuvent pas étendre ou implémenter des classes ou interfaces [Office](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) Scripts. En d’autres termes, rien dans l’espace de noms `ExcelScript` ne peut avoir de sous-classes ou de sous-polices.
+Les classes et interfaces créées dans votre script Office ne peuvent pas étendre ou implémenter des classes ou interfaces [Office](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) Scripts. En d’autres termes, rien dans l’espace `ExcelScript` de noms ne peut avoir de sous-classes ou de sous-polices.
 
 ## <a name="incompatible-typescript-functions"></a>Fonctions TypeScript incompatibles
 
