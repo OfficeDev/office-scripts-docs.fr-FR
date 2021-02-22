@@ -1,14 +1,14 @@
 ---
 title: Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 description: Didacticiel sur les notions de base des scripts Office, comprenant l’enregistrement de scripts avec l’enregistreur d’actions et l’écriture de données dans un classeur.
-ms.date: 07/21/2020
+ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: 96bdc286883d87249de260666c7c8ffe2c94cc0f
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: fa2fec54cdb0289590868ee6848a942401f21665
+ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616772"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772977"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 
@@ -49,7 +49,7 @@ Tout d’abord, il nous faut des données et un petit script de base.
 
     Voici ce à quoi votre feuille de calcul doit ressembler (les couleurs peuvent être différentes) :
 
-    ![Une ligne de données de ventes de fruits avec la ligne « Oranges » surlignée en orange.](../images/tutorial-1.png)
+    ![Une ligne de données de ventes de fruits avec la ligne « Oranges » surlignée en orange](../images/tutorial-1.png)
 
 ## <a name="edit-an-existing-script"></a>Modifier un script existant
 
@@ -78,7 +78,7 @@ Le script précédent a coloré la ligne « Oranges » en orange. Nous allons 
 
 4. Testez le script en appuyant sur **Exécuter**. Voici ce à quoi votre feuille de calcul doit maintenant ressembler :
 
-    ![Une ligne de données de ventes de fruits avec la ligne « Oranges » surlignée en orange et la ligne « Citrons » en jaune.](../images/tutorial-2.png)
+    ![Une ligne de données de ventes de fruits avec la ligne « Oranges » surlignée en orange et la ligne « Citrons » en jaune](../images/tutorial-2.png)
 
 ## <a name="create-a-table"></a>Créer un tableau
 
@@ -100,7 +100,7 @@ Nous allons convertir les données de ventes de fruits en tableau. Nous allons u
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
-        // Set fill color to FFC000 for range Sheet12!A2:C2
+        // Set fill color to FFC000 for range Sheet1!A2:C2
         let selectedSheet = workbook.getActiveWorksheet();
         selectedSheet.getRange("A2:C2").getFormat().getFill().setColor("FFC000");
         selectedSheet.getRange("A3:C3").getFormat().getFill().setColor("yellow");
@@ -113,7 +113,7 @@ Nous allons convertir les données de ventes de fruits en tableau. Nous allons u
 
 3. Exécutez le script. Voici ce à quoi doit ressembler le tableau :
 
-    ![Un tableau de ventes de fruits trié.](../images/tutorial-3.png)
+    ![Un tableau de ventes de fruits trié](../images/tutorial-3.png)
 
     > [!NOTE]
     > Si vous réexécutez le script, un message d’erreur s’affiche. En effet, vous ne pouvez pas créer un tableau au-dessus d’un autre. Toutefois, vous pouvez exécuter le script sur une autre feuille de calcul ou un autre classeur.
