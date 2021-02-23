@@ -1,34 +1,34 @@
 ---
-title: Exemples de scripts pour les scripts Office dans Excel sur le Web
-description: Collection d’exemples de code à utiliser avec des scripts Office dans Excel sur le Web.
-ms.date: 08/04/2020
+title: Exemples de scripts pour les scripts Office dans Excel sur le web
+description: Collection d’exemples de code à utiliser avec les scripts Office dans Excel sur le web.
+ms.date: 12/21/2020
 localization_priority: Normal
-ms.openlocfilehash: 4f8d6f2395a841a8dcba2ea0e712e645a84a6d91
-ms.sourcegitcommit: 1c88abcf5df16a05913f12df89490ce843cfebe2
+ms.openlocfilehash: 35a7fdb4dcfa4c349aa594e5b13d1b7e4d33a178
+ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46665228"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772963"
 ---
-# <a name="sample-scripts-for-office-scripts-in-excel-on-the-web-preview"></a>Exemples de scripts pour les scripts Office dans Excel sur le Web (aperçu)
+# <a name="sample-scripts-for-office-scripts-in-excel-on-the-web-preview"></a>Exemples de scripts pour les scripts Office dans Excel sur le web (aperçu)
 
-Les exemples suivants sont des scripts simples que vous pouvez essayer dans vos propres classeurs. Pour les utiliser dans Excel sur le Web :
+Les exemples suivants sont des scripts simples que vous pouvez essayer sur vos propres workbooks. Pour les utiliser dans Excel sur le web :
 
 1. Ouvrez l’onglet **Automatiser**.
-2. Appuyez sur **éditeur de code**.
-3. Appuyez sur **nouveau script** dans le volet Office de l’éditeur de code.
+2. Appuyez **sur Éditeur de code.**
+3. Appuyez **sur Nouveau script** dans le volet Des tâches de l’Éditeur de code.
 4. Remplacez l’intégralité du script par l’exemple de votre choix.
-5. Appuyez sur **exécuter** dans le volet Office de l’éditeur de code.
+5. Appuyez **sur Exécuter** dans le volet Des tâches de l’Éditeur de code.
 
 [!INCLUDE [Preview note](../includes/preview-note.md)]
 
-## <a name="scripting-basics"></a>Concepts de base des scripts
+## <a name="scripting-basics"></a>Informations de base sur les scripts
 
-Ces exemples illustrent des blocs de construction fondamentaux pour les scripts Office. Ajoutez-les à vos scripts pour étendre votre solution et résoudre les problèmes courants.
+Ces exemples montrent les blocs de construction fondamentaux pour les scripts Office. Ajoutez-les à vos scripts pour étendre votre solution et résoudre les problèmes courants.
 
-### <a name="read-and-log-one-cell"></a>Lecture et journalisation d’une cellule
+### <a name="read-and-log-one-cell"></a>Lire et enregistrer une cellule
 
-Cet exemple lit la valeur de **a1** et l’imprime sur la console.
+Cet exemple lit la valeur de **A1** et l’imprime sur la console.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -45,7 +45,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="read-the-active-cell"></a>Lire la cellule active
 
-Ce script journalise la valeur de la cellule active active. Si plusieurs cellules sont sélectionnées, la cellule située à l’extrême gauche est consignée.
+Ce script enregistre la valeur de la cellule active active. Si plusieurs cellules sont sélectionnées, la cellule située le plus à gauche est enregistrée.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -59,7 +59,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-an-adjacent-cell"></a>Modifier une cellule adjacente
 
-Ce script obtient des cellules adjacentes à l’aide de références relatives. Notez que si la cellule active se trouve sur la ligne supérieure, une partie du script échoue, car elle fait référence à la cellule située au-dessus de la cellule actuellement sélectionnée.
+Ce script obtient des cellules adjacentes à l’aide de références relatives. Notez que si la cellule active se trouve sur la ligne supérieure, une partie du script échoue, car elle fait référence à la cellule au-dessus de la cellule actuellement sélectionnée.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -86,7 +86,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-all-adjacent-cells"></a>Modifier toutes les cellules adjacentes
 
-Ce script copie la mise en forme de la cellule active vers les cellules voisines. Notez que ce script ne fonctionne que lorsque la cellule active ne se trouve pas sur un bord de la feuille de calcul.
+Ce script copie la mise en forme de la cellule active vers les cellules voisines. Notez que ce script fonctionne uniquement lorsque la cellule active n’est pas sur un bord de la feuille de calcul.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -109,7 +109,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-each-individual-cell-in-a-range"></a>Modifier chaque cellule individuelle d’une plage
 
-Ce script effectue une boucle sur la plage sélectionnée. Il efface la mise en forme actuelle et définit la couleur de remplissage de chaque cellule sur une couleur aléatoire.
+Ce script s’écrit en boucle sur la plage actuellement sélectionnée. Elle permet d’effacer la mise en forme actuelle et de mettre en couleur aléatoire la couleur de remplissage de chaque cellule.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -136,13 +136,30 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
+### <a name="get-groups-of-cells-based-on-special-criteria"></a>Obtenir des groupes de cellules en fonction de critères spéciaux
+
+Ce script obtient toutes les cellules vides de la plage utilisée de la feuille de calcul actuelle. Il met ensuite en évidence toutes ces cellules avec un arrière-plan jaune.
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+    // Get the current used range.
+    let range = workbook.getActiveWorksheet().getUsedRange();
+    
+    // Get all the blank cells.
+    let blankCells = range.getSpecialCells(ExcelScript.SpecialCellType.blanks);
+
+    // Highlight the blank cells with a yellow background.
+    blankCells.getFormat().getFill().setColor("yellow");
+}
+```
+
 ## <a name="collections"></a>Collections
 
-Ces exemples fonctionnent avec des collections d’objets dans le classeur.
+Ces exemples fonctionnent avec des collections d’objets dans le workbook.
 
-### <a name="iterating-over-collections"></a>Itération sur les collections
+### <a name="iterating-over-collections"></a>Iterating over collections
 
-Ce script obtient et enregistre les noms de toutes les feuilles de calcul dans le classeur. Il définit également les couleurs de leurs tabulations sur une couleur aléatoire.
+Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel. Il définit également les couleurs de leur onglet sur une couleur aléatoire.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -169,7 +186,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="querying-and-deleting-from-a-collection"></a>Interrogation et suppression d’une collection
 
-Ce script crée une feuille de calcul. Il recherche une copie existante de la feuille de calcul et le supprime avant de créer une nouvelle feuille.
+Ce script crée une feuille de calcul. Il recherche une copie existante de la feuille de calcul et la supprime avant d’en faire une nouvelle.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -198,7 +215,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="dates"></a>Dates
 
-Les exemples de cette section indiquent comment utiliser l’objet [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) JavaScript.
+Les exemples de cette section montrent comment utiliser l’objet [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) JavaScript.
 
 L’exemple suivant obtient la date et l’heure actuelles, puis écrit ces valeurs dans deux cellules de la feuille de calcul active.
 
@@ -219,7 +236,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-L’exemple suivant lit une date stockée dans Excel et la convertit en un objet JavaScript date. Il utilise le [numéro de série numérique de la date](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) comme entrée pour la date JavaScript.
+L’exemple suivant lit une date stockée dans Excel et la traduit en objet Date JavaScript. Il utilise le [numéro de série numérique](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) de la date comme entrée pour la date JavaScript.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -227,7 +244,7 @@ function main(workbook: ExcelScript.Workbook) {
   let dateRange = workbook.getActiveWorksheet().getRange("A1");
 
   // Convert the Excel date to a JavaScript Date object.
-  let excelDateValue = dateRange.getValue();
+  let excelDateValue = dateRange.getValue() as number;
   let javaScriptDate = new Date(Math.round((excelDateValue - 25569) * 86400 * 1000));
   console.log(javaScriptDate);
 }
@@ -235,11 +252,11 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="display-data"></a>Afficher les données
 
-Ces exemples montrent comment utiliser les données de feuille de calcul et fournir aux utilisateurs une meilleure vue ou organisation.
+Ces exemples montrent comment travailler avec des données de feuille de calcul et fournir aux utilisateurs une meilleure vue ou une meilleure organisation.
 
 ### <a name="apply-conditional-formatting"></a>Application d’une mise en forme conditionnelle
 
-Cet exemple applique la mise en forme conditionnelle à la plage utilisée dans la feuille de calcul. La mise en forme conditionnelle est un remplissage vert pour les 10% de valeurs les plus fréquentes.
+Cet exemple applique une mise en forme conditionnelle à la plage actuellement utilisée dans la feuille de calcul. La mise en forme conditionnelle est un remplissage vert pour les 10 % de valeurs les plus importantes.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -261,7 +278,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="create-a-sorted-table"></a>Créer un tableau trié
 
-Cet exemple montre comment créer un tableau à partir de la plage utilisée dans la feuille de calcul active, puis comment le trier en fonction de la première colonne.
+Cet exemple crée un tableau à partir de la plage utilisée de la feuille de calcul actuelle, puis le trie en fonction de la première colonne.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -277,11 +294,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="log-the-grand-total-values-from-a-pivottable"></a>Enregistrer les valeurs « total général » à partir d’un tableau croisé dynamique
+### <a name="log-the-grand-total-values-from-a-pivottable"></a>Enregistrer les valeurs « Total total » à partir d’un tableau croisé dynamique
 
-Cet exemple recherche le premier tableau croisé dynamique dans le classeur et enregistre les valeurs dans les cellules « total général » (comme mise en surbrillance en vert dans l’image ci-dessous).
+Cet exemple recherche le premier tableau croisé dynamique dans le manuel et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).
 
-![Tableau croisé dynamique sur les ventes de fruit avec la ligne de total général mise en évidence de vert.](../images/sample-pivottable-grand-total-row.png)
+![Tableau croisé dynamique ventes de fruit avec la ligne Total grand mis en surbrillante en vert.](../images/sample-pivottable-grand-total-row.png)
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -292,7 +309,7 @@ function main(workbook: ExcelScript.Workbook) {
   let pivotColumnLabelRange = pivotTable.getLayout().getColumnLabelRange();
 
   // Get the range displaying the pivoted data.
-  let pivotDataRange = pivotTable.getLayout().getRangeBetweenHeaderAndTotal();
+  let pivotDataRange = pivotTable.getLayout().getBodyAndTotalRange();
 
   // Get the range with the "grand totals" for the PivotTable columns.
   let grandTotalRange = pivotDataRange.getLastRow();
@@ -307,9 +324,9 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="formulas"></a>Formules
 
-Ces exemples utilisent des formules Excel et indiquent comment les utiliser dans des scripts.
+Ces exemples utilisent des formules Excel et montrent comment les utiliser dans des scripts.
 
-## <a name="single-formula"></a>Formule unique
+### <a name="single-formula"></a>Formule unique
 
 Ce script définit la formule d’une cellule, puis montre comment Excel stocke la formule et la valeur de la cellule séparément.
 
@@ -330,9 +347,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="spilling-results-from-a-formula"></a>Débordement des résultats d’une formule
+### <a name="spilling-results-from-a-formula"></a>Débordement de résultats d’une formule
 
-Ce script transpose la plage « a1 : D2 » en « A4 : B7 » à l’aide de la fonction Transpose. Si la permutation génère une erreur #SPILL, elle efface la plage cible et applique à nouveau la formule.
+Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose entraîne une erreur #SPILL, elle permet d’effacer la plage cible et d’appliquer à nouveau la formule.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -366,8 +383,8 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="scenario-samples"></a>Exemples de scénario
 
-Pour obtenir des exemples illustrant des solutions plus étendues dans le monde réel, consultez [exemples de scénarios pour les scripts Office](scenarios/sample-scenario-overview.md).
+Pour obtenir des exemples présentant des solutions réelles et plus volumineuses, consultez les [exemples de scénarios pour Les scripts Office.](scenarios/sample-scenario-overview.md)
 
 ## <a name="suggest-new-samples"></a>Suggérer de nouveaux exemples
 
-Nous vous invitons à suggérer de nouveaux exemples. S’il existe un scénario courant qui aide les autres développeurs de script, veuillez nous en indiquer dans la section commentaires ci-dessous.
+Nous vous souhaitons la bienvenue pour les nouveaux exemples. S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires ci-dessous.
