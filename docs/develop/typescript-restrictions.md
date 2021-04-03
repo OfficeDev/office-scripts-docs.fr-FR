@@ -3,12 +3,12 @@ title: Restrictions TypeScript dans les scripts Office
 description: Les spécificités du compilateur TypeScript et du linter utilisés par l’éditeur de code de scripts Office.
 ms.date: 02/05/2021
 localization_priority: Normal
-ms.openlocfilehash: 87a070b9f342fa5a1f5109fa647bba591832e0cf
-ms.sourcegitcommit: 345f1dd96d80471b246044b199fe11126a192a88
+ms.openlocfilehash: 8c9d1beafb236e7ba10dedf00fab944c40fb954d
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242017"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570275"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>Restrictions TypeScript dans les scripts Office
 
@@ -16,7 +16,7 @@ Les scripts Office utilisent le langage TypeScript. Dans la plupart des cas, tou
 
 ## <a name="no-any-type-in-office-scripts"></a>Aucun type « any » dans les scripts Office
 
-[L’écriture](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) de types est facultative dans TypeScript, car les types peuvent être déduits. Toutefois, Office Script requiert qu’une variable ne puisse pas être [de type n’importe quel](https://www.typescriptlang.org/docs/handbook/basic-types.html#any). Les scripts explicite et implicite `any` ne sont pas autorisés dans un script Office. Ces cas sont signalés comme des erreurs.
+[L’écriture](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) de types est facultative dans TypeScript, car les types peuvent être déduits. Toutefois, Office Script requiert qu’une variable ne puisse pas être [de type n’importe quel](https://www.typescriptlang.org/docs/handbook/basic-types.html#any). Les scripts explicites `any` et implicites ne sont pas autorisés dans un script Office. Ces cas sont signalés comme des erreurs.
 
 ### <a name="explicit-any"></a>Explicite `any`
 
@@ -52,7 +52,7 @@ Les API Office Scripts ne peuvent pas être utilisées dans les cas suivants :
 
 ## <a name="eval-is-not-supported"></a>`eval` n’est pas pris en charge
 
-La fonction [d’eval](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/eval) JavaScript n’est pas prise en charge pour des raisons de sécurité.
+La fonction [d’val](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/eval) JavaScript n’est pas prise en charge pour des raisons de sécurité.
 
 ## <a name="restricted-identifers"></a>Identifers restreints
 
@@ -66,7 +66,7 @@ Les mots suivants ne peuvent pas être utilisés comme identificateurs dans un s
 
 Vos scripts peuvent uniquement utiliser des [fonctions de direction lors](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) de la fourniture d’arguments de rappel pour les méthodes [Array.](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) Vous ne pouvez pas transmettre un type d’identificateur ou de fonction « traditionnelle » à ces méthodes.
 
-```typescript
+```TypeScript
 const myArray = [1, 2, 3, 4, 5, 6];
 let filteredArray = myArray.filter((x) => {
   return x % 2 === 0;

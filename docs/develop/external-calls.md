@@ -3,12 +3,12 @@ title: Prise en charge des appels d’API externes dans Scripts Office
 description: Prise en charge et conseils pour effectuer des appels d’API externes dans un script Office.
 ms.date: 01/05/2021
 localization_priority: Normal
-ms.openlocfilehash: 1091031bc2e12f3e1e79b177c69874ee4ce61dd8
-ms.sourcegitcommit: 30c4b731dc8d18fca5aa74ce59e18a4a63eb4ffc
+ms.openlocfilehash: 74b8750f609370370759ca4a4a1daa998363ac2e
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784143"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570310"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Prise en charge des appels d’API externes dans Scripts Office
 
@@ -25,7 +25,7 @@ Les appels aux API externes peuvent uniquement être effectués via l’applicat
 
 Le script suivant utilise `fetch` pour récupérer les données JSON du serveur de test dans l’URL donnée.
 
-```typescript
+```TypeScript
 async function main(workbook: ExcelScript.Workbook): Promise <void> {
   /* 
    * Retrieve JSON data from a test server.
@@ -38,14 +38,14 @@ async function main(workbook: ExcelScript.Workbook): Promise <void> {
 }
 ```
 
-L’exemple de scénario Office Scripts : graphe des données de niveau d’eau de [la NOAA](../resources/scenarios/noaa-data-fetch.md) illustre la commande de récupération utilisée pour extraire des enregistrements de la base de données Archives et courants de l’Administration nationale.
+L’exemple de scénario Office Scripts : les données de niveau d’eau graphe de [la NOAA](../resources/scenarios/noaa-data-fetch.md) illustrent la commande de récupération utilisée pour extraire des enregistrements de la base de données Archives et courants de l’Administration nationale.
 
-## <a name="external-calls-from-power-automate"></a>Appels externes à partir de Power Automate
+## <a name="external-calls-from-power-automate"></a>Appels externes de Power Automate
 
 Tous les appels d’API externes échouent lorsqu’un script est exécuté avec Power Automate. Il s’agit d’une différence comportementale entre l’exécution d’un script via le client Excel et via Power Automate. Veillez à vérifier si vos scripts sont de telles références avant de les créer dans un flux.
 
 > [!WARNING]
-> Les appels externes effectués via le connecteur Power Automate [Excel Online](/connectors/excelonlinebusiness) échouent afin d’aider à respecter les stratégies de protection contre la perte de données existantes. Toutefois, les scripts exécutés via Power Automate le sont en dehors de votre organisation et en dehors des pare-feu de votre organisation. Pour une protection supplémentaire contre les utilisateurs malveillants dans cet environnement externe, votre administrateur peut contrôler l’utilisation des scripts Office. Votre administrateur peut désactiver le connecteur Excel Online dans Power Automate ou désactiver les scripts Office pour Excel sur le web via les contrôles d’administrateur [des scripts Office.](/microsoft-365/admin/manage/manage-office-scripts-settings)
+> Les appels externes effectués via le connecteur Power Automate [Excel Online](/connectors/excelonlinebusiness) échouent afin d’aider à respecter les stratégies de protection contre la perte de données existantes. Toutefois, les scripts exécutés via Power Automate le sont en dehors de votre organisation et en dehors des pare-feu de votre organisation. Pour une protection supplémentaire contre les utilisateurs malveillants dans cet environnement externe, votre administrateur peut contrôler l’utilisation des scripts Office. Votre administrateur peut désactiver le connecteur Excel Online dans Power Automate ou désactiver les scripts Office pour Excel sur le web via les contrôles d’administrateur des [scripts Office.](/microsoft-365/admin/manage/manage-office-scripts-settings)
 
 ## <a name="see-also"></a>Voir aussi
 

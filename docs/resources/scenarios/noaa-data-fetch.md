@@ -3,12 +3,12 @@ title: 'Exemple de scénario de scripts Office : graphique des données de nivea
 description: Exemple qui extrait des données JSON d’une base de données NOAA et les utilise pour créer un graphique.
 ms.date: 01/11/2021
 localization_priority: Normal
-ms.openlocfilehash: 5b0b4e3675cbe053368f63123d819f0dab626e60
-ms.sourcegitcommit: 7580dcb8f2f97974c2a9cce25ea30d6526730e28
+ms.openlocfilehash: 1b9ad9115efe5b1924499f160f39d4b8fe654763
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49867876"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570163"
 ---
 # <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Exemple de scénario de scripts Office : extraire et graphiquer des données au niveau de l’eau à partir de la NOAA
 
@@ -30,7 +30,7 @@ Vous allez développer un script qui utilise la commande pour interroger la base
 
 1. Dans le **volet Des tâches de** l’Éditeur de code, sélectionnez Nouveau **script** et collez le script suivant dans l’éditeur.
 
-    ```typescript
+    ```TypeScript
     /**
      * Gets data from the National Oceanic and Atmospheric Administration's Tides and Currents database. 
      * That data is used to make a chart.
