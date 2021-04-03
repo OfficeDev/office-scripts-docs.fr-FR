@@ -3,12 +3,12 @@ title: Renvoyer les données d’un script vers un flux Power Automate exécuté
 description: Un didacticiel qui présente comment envoyer des e-mails de rappel en exécutant des scripts Office pour Excel sur le web via Power Automate.
 ms.date: 12/15/2020
 localization_priority: Priority
-ms.openlocfilehash: 1925a95938837707eacddff6832180b12cd2011c
-ms.sourcegitcommit: 5f79e5ba9935edb8a890012f2cde3b89fe80faa0
+ms.openlocfilehash: 31ba31ddbfb36f20087be6aa7d83b1b896a698d1
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "49727062"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570529"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow-preview"></a>Renvoyer les données d’un scripts vers un flux Power Automate exécuté automatiquement (aperçu)
 
@@ -48,14 +48,14 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 1. Vous devez désormais avoir un script vide. Nous utilisons le script pour obtenir l’adresse e-mail à partir de la feuille de calcul. Modifiez `main` pour renvoyer une chaîne, comme suit :
 
-    ```typescript
+    ```TypeScript
     function main(workbook: ExcelScript.Workbook) : string {
     }
     ```
 
 1. Ensuite, nous devons obtenir toutes les données du tableau. Cela nous permet de parcourir chaque ligne avec le script. Ajoutez le code suivant à l’intérieur de la fonction`main`.
 
-    ```typescript
+    ```TypeScript
     // Get the H1 worksheet.
     let worksheet = workbook.getWorksheet("H1");
 
@@ -68,7 +68,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 1. Les dates du tableau sont stockées en utilisant le [Numéro de série de la date d’Excel](https://support.microsoft.com/office/date-systems-in-excel-e7fe7167-48a9-4b96-bb53-5612a800b487). Nous convertissons ces dates en dates JavaScript pour les comparer. Nous ajoutons une fonction d’assistance à notre script. Ajoutez le code suivant à l’extérieur de la fonction`main` :
 
-    ```typescript
+    ```TypeScript
     // Convert the Excel date to a JavaScript Date object.
     function convertDate(excelDateValue: number) {
         let javaScriptDate = new Date(Math.round((excelDateValue - 25569) * 86400 * 1000));
@@ -78,7 +78,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 1. Nous devons maintenant déterminer la personne d’astreinte en ce moment. Sa ligne possède une date de début et une date de fin entourant la date actuelle. Nous écrivons un script pour partir du principe qu’une seule personne à la fois est d’astreinte. Les scripts peuvent renvoyer des tableaux pour traiter plusieurs valeurs, mais pour l’instant, nous renvoyons la première adresse e-mail qui correspond. Ajoutez la fonction suivante à la fin de la fonction `main`.
 
-    ```typescript
+    ```TypeScript
     // Look for the first row where today's date is between the row's start and end dates.
     let currentDate = new Date();
     for (let row = 0; row < tableValues.length; row++) {
@@ -93,7 +93,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 1. La méthode finale doit ressembler à ce qui suit :
 
-    ```typescript
+    ```TypeScript
     function main(workbook: ExcelScript.Workbook) : string {
         // Get the H1 worksheet.
         let worksheet = workbook.getWorksheet("H1");

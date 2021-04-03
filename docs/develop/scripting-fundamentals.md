@@ -3,12 +3,12 @@ title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 07/08/2020
 localization_priority: Priority
-ms.openlocfilehash: acbeec69a5d9ae9e3ebfa95c9070033d1cca2265
-ms.sourcegitcommit: e7e019ba36c2f49451ec08c71a1679eb6dba4268
+ms.openlocfilehash: 4609dce617d18f7a7c9d2868a24792c51fb048c6
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49933272"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570233"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Principes de base des scripts pour Office Scripts dans Excel sur le web (préversion)
 
@@ -20,7 +20,7 @@ Cet article vous présente les aspects techniques de Office Scripts. Vous décou
 
 Chaque script Office doit contenir une fonction `main` avec le type `ExcelScript.Workbook` comme premier paramètre. Une fois la fonction exécutée, l’application Excel appelle cette fonction `main` en fournissant le classeur en tant que premier paramètre. Par conséquent, il est important de ne pas modifier la signature de base de la fonction `main` une fois que vous avez enregistré le script ou créé un nouveau script à partir de l’éditeur de code.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Your code goes here
 }
@@ -48,7 +48,7 @@ Chaque script est fourni avec un `workbook` objet de type `Workbook` par la fonc
 
 Le script suivant permet d’obtenir le nom de la feuille de calcul active du classeur.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
     // Get the active worksheet.
     let sheet = workbook.getActiveWorksheet();
@@ -169,7 +169,7 @@ Une fois la collection récupérée, vous pouvez utiliser des opérations de tab
 
 Le script suivant extrait toutes les tables du classeur. Il vérifie ensuite que les en-têtes sont affichés, les boutons de filtre sont visibles et le style de tableau est paramétré sur « TableStyleLight1 ».
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   /* Get table collection */
   const tables = workbook.getTables();
@@ -191,7 +191,7 @@ Vous pouvez ajouter des objets document par programme, tels que des tableaux ou 
 
 Le script suivant crée un tableau dans Excel sur la première feuille de calcul du classeur. Notez que la table créée est renvoyée par la méthode `addTable`.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
     // Get the first worksheet.
     let sheet = workbook.getWorksheets()[0];
@@ -213,7 +213,7 @@ Pour supprimer un objet, appelez la méthode de `delete` l’objet.
 
 Le script suivant supprime la première feuille de calcul du classeur.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
     // Get first worksheet.
     let sheet = workbook.getWorksheets()[0];
