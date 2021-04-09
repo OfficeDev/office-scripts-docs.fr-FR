@@ -3,12 +3,13 @@ title: Mise en place des scripts Office
 description: Informations de base sur les scripts Office, y compris l’accès, l’environnement et les modèles de script.
 ms.date: 04/01/2021
 localization_priority: Normal
-ms.openlocfilehash: f954ee67aa486e4b8185047738ef3d15319a94ae
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ROBOTS: NOINDEX
+ms.openlocfilehash: c1c4675b2fdc1f5ebd9e86f04f5fb011c27a3f1b
+ms.sourcegitcommit: 190ae1c071243f4638d0d650e35f1425914b0156
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571176"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650366"
 ---
 # <a name="getting-started"></a>Prise en main
 
@@ -20,7 +21,7 @@ Découvrez les principes de base de l’accès, de l’environnement et de l’�
 
 [![Principes de base de l’application Office Scripts](../../images/getting-started-env.png)](https://youtu.be/vvCtxsjPxo8 "Principes de base de l’application Office Scripts")
 
-### <a name="access"></a>Accès
+### <a name="access"></a>Access
 
 Office Scripts nécessite des paramètres d’administration disponibles pour l’administrateur Microsoft 365 sous  >  **Paramètres Org paramètres**  >  **Office Scripts**. Par défaut, il est allumé pour tous les utilisateurs. Il existe deux sous-paramètres, que l’administrateur peut activer et désactiver.
 
@@ -44,7 +45,7 @@ La plupart des touches de raccourci que Visual Studio éditeur de code utilise f
 
 #### <a name="key-things-to-note"></a>Points clés à noter
 
-* Les scripts Office sont disponibles uniquement pour les fichiers stockés dans OneDrive Entreprise, les sites SharePoint et les sites d’équipe.
+* Les scripts Office sont uniquement disponibles pour les fichiers stockés dans OneDrive Entreprise, les sites SharePoint et les sites d’équipe.
 * L’éditeur n’affiche pas l’extension du script. En réalité, il s’agit de fichiers TypeScript, mais ils sont stockés avec une extension personnalisée appelée `.osts` .
 * Les scripts sont stockés dans votre propre dossier OneDrive `My Files/Documents/OfficeScripts` Entreprise. Vous n’avez pas besoin de gérer ce dossier. Pour votre part, vous pouvez ignorer cet aspect, car l’éditeur gère l’expérience d’affichage/modification.
 * Les scripts ne sont pas stockés dans des fichiers Excel. Ils sont stockés séparément.
@@ -79,7 +80,7 @@ La syntaxe du langage elle-même est écrite à l’aide [de JavaScript](https:/
 Les API Office Scripts, qui permettent au script d’interagir avec Excel, sont conçues pour les utilisateurs finaux qui n’ont peut-être pas beaucoup d’arrière-plan de codage. Les API peuvent être invoquées de manière synchrone et vous n’avez pas besoin de connaître les sujets avancés tels que les promesses ou les rappels. La conception de l’API Office Scripts fournit :
 
 * Modèle objet simple avec méthodes, getters/setters.
-* Collections d’objets faciles d’accès en tant que tableaux réguliers.
+* Collections d’objets faciles d’accès en tant que tableaux ordinaires.
 * Options de gestion des erreurs simples.
 * Performances optimisées pour certains scénarios aidant les utilisateurs à se concentrer sur le scénario en cours.
 
@@ -89,7 +90,7 @@ L’exécution d’Office Scripts commence à la `main` fonction. Un script est 
 
 * `function main(workbook: ExcelScript.Workbook)`
 
-Un script peut être organisé en fonctions plus petites pour faciliter la reutilisabilité du code, la clarté, etc. D’autres fonctions peuvent être à l’intérieur ou à l’extérieur de la fonction principale, mais toujours dans le même fichier. Un script est autonome et ne peut utiliser que les fonctions définies dans le même fichier. Les scripts ne peuvent pas appeler ou appeler un autre script Office.
+Un script peut être organisé en fonctions plus petites pour faciliter la reutilisabilité du code, la clarté, etc. D’autres fonctions peuvent se trouver à l’intérieur ou à l’extérieur de la fonction principale, mais toujours dans le même fichier. Un script est autonome et ne peut utiliser que les fonctions définies dans le même fichier. Les scripts ne peuvent pas appeler ou appeler un autre script Office.
 
 Ainsi, en résumé :
 
@@ -148,7 +149,7 @@ Dans cet exemple :
 
 * Méthodes de l’objet telles que et renvoyer `workbook` `getAutoSave()` une propriété `getName()` scalar (chaîne, nombre, booléen).
 * Méthodes telles que `getActiveCell()` le retour d’un autre objet.
-* La méthode accepte un argument (nom de la table dans ce cas) et renvoie `getTable()` une table spécifique dans le workbook.
+* La méthode accepte un argument (nom de table dans ce cas) et renvoie `getTable()` une table spécifique dans le workbook.
 * La méthode renvoie un tableau (appelé à de nombreux endroits en tant que collection) de tous les objets slicer dans `getSlicers()` le workbook.
 
 Vous remarquerez que toutes ces méthodes ont un préfixe, qui n’est qu’une convention utilisée dans le modèle objet Office Scripts pour transmettre que la méthode retourne `get` quelque chose. Ils sont également communément appelés « getters ».
@@ -318,7 +319,7 @@ Les collections sont des objets tels que des tableaux, des graphiques, des colon
 
 * [Informations de base sur la langue des tableaux](https://developer.mozilla.org//docs/Learn/JavaScript/First_steps/Arrays)
 
-Ce script montre comment utiliser les collections pris en charge dans les API Office Scripts. Il colore chaque onglet de feuille de calcul du fichier avec une couleur aléatoire.
+Ce script montre comment utiliser les collections pris en charge dans les API De scripts Office. Il colore chaque onglet de feuille de calcul du fichier avec une couleur aléatoire.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -457,7 +458,7 @@ interface ReportImages {
 
 ### <a name="type-assertion-overriding-the-type"></a>Assertion de type (remplacement du type)
 
-Comme l’indique la [documentation](https://www.typescriptlang.org/docs/handbook/basic-types.html#type-assertions) TypeScript, « Parfois, vous finirez par vous retrouver dans une situation où vous en sconnaissez plus sur une valeur que TypeScript. En règle générale, cela se produit lorsque vous savez que le type d’une entité peut être plus spécifique que son type actuel. Les assertions de type sont un moyen d’indiquer au compilateur « Faites-moi confiance, je sais ce que je suis en train de faire ». Une assertion de type est comme un type cast dans d’autres langages, mais elle n’effectue aucune vérification ou réorganisation spéciale des données. Elle n’a aucun impact sur l’runtime et est utilisée purement par le compilateur. »
+Comme l’indique la [documentation](https://www.typescriptlang.org/docs/handbook/basic-types.html#type-assertions) TypeScript, « Parfois, vous finirez par vous retrouver dans une situation où vous en sconnaissez plus sur une valeur que TypeScript. En règle générale, cela se produit lorsque vous savez que le type d’une entité peut être plus spécifique que son type actuel. Les assertions de type sont un moyen d’indiquer au compilateur « Faites-moi confiance, je sais ce que je suis en train de faire ». Une assertion de type est comme un type cast dans d’autres langages, mais elle n’effectue aucune vérification ou réorganisation spéciale des données. Elle n’a aucun impact sur l’runtime et est utilisée uniquement par le compilateur. »
 
 Vous pouvez faire la déclaration du type à l’aide du mot `as` clé ou à l’aide de crochets angulaires, comme illustré dans le code suivant.
 
@@ -493,7 +494,7 @@ Le [site web TypeScript indique](https://www.typescriptlang.org/docs/handbook/ba
 let someVariable: any; 
 ```
 
-Le `any` type présente des difficultés pour la façon dont Office Scripts traite les API Excel. Cela provoque des problèmes lorsque les variables sont envoyées aux API Excel pour traitement. Il est essentiel de connaître le type de variables utilisées dans le script pour le traitement du script et, par conséquent, il est interdit de définir explicitement une variable avec `any` un type. Vous recevrez une erreur de compilation (erreur avant l’exécution du script) s’il existe une variable dont le type est déclaré `any` dans le script. Une erreur s’est également produite dans l’éditeur.
+Le `any` type présente des difficultés pour la façon dont Office Scripts traite les API Excel. Elle provoque des problèmes lorsque les variables sont envoyées aux API Excel pour traitement. Il est essentiel de connaître le type de variables utilisées dans le script pour le traitement du script et, par conséquent, il est interdit de définir explicitement une variable avec `any` un type. Vous recevrez une erreur de compilation (erreur avant l’exécution du script) s’il existe une variable dont le type est déclaré `any` dans le script. Une erreur s’est également produite dans l’éditeur.
 
 ![Erreur explicite « any »](../../images/getting-started-eanyi.png)
 
@@ -581,13 +582,13 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="error-handling"></a>Gestion des erreurs
 
-L’erreur des scripts Office peut être classée dans l’une des catégories suivantes.
+L’erreur Office Scripts peut être classée dans l’une des catégories suivantes.
 
 1. Avertissement au moment de la compilation affiché dans l’éditeur
 1. Erreur au moment de la compilation qui s’affiche lorsque vous exécutez, mais qui se produit avant le début de l’exécution
 1. Erreur d’runtime
 
-Les avertissements de l’éditeur peuvent être identifiés à l’aide des soulignements ondulés rouge dans l’éditeur :
+Les avertissements de l’éditeur peuvent être identifiés à l’aide des soulignements ondulés rouges dans l’éditeur :
 
 ![Avertissement au moment de la compilation affiché dans l’éditeur](../../images/getting-started-eanyi.png)
 
@@ -646,7 +647,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Si la vérification pour s’assurer de la présence de données d’entrée se produit dans une fonction distincte, il est important de terminer le script en émettant l’instruction à partir `return` de la `main` fonction.
 
-Dans l’exemple suivant, la `main` fonction appelle la fonction pour faire les `inputPresent` vérifications préalables. `inputPresent` renvoie un booléen `true` (ou `false` ) indiquant si toutes les entrées requises sont présentes ou non. Il incombe ensuite à la fonction d’émettre l’instruction (c’est-à-dire, à partir de la fonction) de terminer immédiatement `main` `return` le `main` script.
+Dans l’exemple suivant, la `main` fonction appelle la fonction pour faire les `inputPresent` vérifications préalables. `inputPresent` renvoie un booléen ( `true` ou ) indiquant si toutes les `false` entrées requises sont présentes ou non. Il incombe ensuite à la fonction d’émettre l’instruction (c’est-à-dire, à partir de la fonction) de terminer immédiatement `main` `return` le `main` script.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -742,7 +743,7 @@ try {
 }
 ```
 
-Un autre scénario se produit lorsque la fonction principale appelle une autre fonction, qui appelle à son tour une autre fonction (et ainsi de suite) et que l’appel d’API qui vous intéresse se produit dans la fonction inférieure. La propagation de l’erreur jusqu’à n’est peut-être pas `main` réalisable ou pratique. Dans ce cas, il est plus pratique de lancer une erreur dans la fonction inférieure.
+Un autre scénario se produit lorsque la fonction principale appelle une autre fonction, qui appelle à son tour une autre fonction (etc.), et que l’appel d’API qui vous intéresse se produit dans la fonction inférieure. La propagation de l’erreur jusqu’à n’est peut-être pas `main` réalisable ou pratique. Dans ce cas, il est plus pratique de lancer une erreur dans la fonction inférieure.
 
 ```TypeScript
 
@@ -775,7 +776,7 @@ function updateTargetRange(
 
 *Avertissement*: `try..catch` l’utilisation à l’intérieur d’une boucle ralentit votre script. Évitez d’utiliser cela à l’intérieur ou autour des boucles.
 
-## <a name="range-basics"></a>Informations de base sur les plages
+## <a name="range-basics"></a>Principes de base des plages
 
 Consultez [Range Basics](range-basics.md) avant d’aller plus loin dans votre parcours.
 
