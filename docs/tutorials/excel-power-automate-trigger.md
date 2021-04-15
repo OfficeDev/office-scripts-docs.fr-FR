@@ -3,12 +3,12 @@ title: Transmettre des données à des scripts dans un flux automatique Power Au
 description: Un tutoriel sur l'exécution de scripts Office pour Excel sur le web via Power automate lorsque les messages sont reçus et transmettent les données de flux au script.
 ms.date: 12/28/2020
 localization_priority: Priority
-ms.openlocfilehash: 3f81ac13b0827f27adc611895d6bb090df10da5c
-ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
+ms.openlocfilehash: c67c1f958099698201db91f368a287805d5aea0d
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772991"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754893"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Transmettre des données à des scripts dans un flux automatique Power Automate (Aperçu)
 
@@ -156,15 +156,15 @@ function main(
 
 2. Dans le menu qui s’affiche sur le côté gauche de l’écran, appuyez sur **Créer**. Cela affiche une liste des moyens de créer de nouveaux flux de travail.
 
-    ![Le bouton Créer dans Power Automate](../images/power-automate-tutorial-1.png)
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton de création de Power Automate":::
 
 3. Dans la section **Démarrer à partir de zéro**, sélectionnez **Flux automatique**. Cela permet de créer un flux de travail déclenché par un événement, par exemple, la réception d’un courrier électronique.
 
-    ![L’option flux automatisé dans Power Automate](../images/power-automate-params-tutorial-1.png)
+    :::image type="content" source="../images/power-automate-params-tutorial-1.png" alt-text="L’option flux automatisé dans Power Automate":::
 
 4. Dans la fenêtre de boîte de dialogue qui s’affiche, entrez un nom pour votre flux dans la zone de texte **Nom du flux**. Sélectionnez ensuite **À l'arrivée d'un nouveau courrier électronique** dans la liste d’options sous **Sélectionnez le déclencheur de votre flux**. Vous devrez peut-être rechercher l’option dans la zone de recherche. Enfin, appuyez sur **Créer**.
 
-    ![Partie de la fenêtre Créer un flux automatisé dans Power Automate affichant l’option « un nouveau courrier arrive ».](../images/power-automate-params-tutorial-2.png)
+    :::image type="content" source="../images/power-automate-params-tutorial-2.png" alt-text="Composant du flux Power Automate affichant les options « nom de flux » et « choisir le déclencheur de flux ». Le nom de flux est « Enregistrer le flux d’e-mail » et le déclencheur est l’option « Lorsqu’Outlook reçoit un nouvel e-mail ».":::
 
     > [!NOTE]
     > Ce tutoriel utilise Outlook. N’hésitez pas à utiliser votre service de messagerie préféré, même si certaines options peuvent être différentes.
@@ -173,11 +173,11 @@ function main(
 
 6. Sélectionnez l’onglet **Standard**, puis sélectionnez **Excel Online (Business)**.
 
-    ![L’option Power Automate pour Excel Online (Business)](../images/power-automate-tutorial-4.png)
+    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="L’option Excel en ligne (Entreprise) dans Power Automate":::
 
-7. Sous **Actions**, sélectionnez **Exécuter le script** (Aperçu).
+7. Sous **Actions**, sélectionnez **Exécuter le script (aperçu)**.
 
-    ![L’option d’action Exécuter le script (aperçu) dans Power Automate](../images/power-automate-tutorial-5.png)
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="L’option d’action Exécuter un script (aperçu) dans Power Automate":::
 
 8. Vous devez ensuite sélectionner le classeur, le script, puis les arguments de saisie de script à utiliser dans l’étape de flux. À titre de didacticiel, vous allez utiliser le classeur précédemment créé dans OneDrive, mais vous pouvez utiliser n’importe quel classeur dans un site OneDrive ou SharePoint. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
 
@@ -191,7 +191,7 @@ function main(
 
     *Notez que les paramètres du script s’affichent uniquement une fois le script sélectionné.*
 
-    ![Les paramètres de l’option d’action Exécuter le script (aperçu) dans Power Automate](../images/power-automate-params-tutorial-3.png)
+    :::image type="content" source="../images/power-automate-params-tutorial-3.png" alt-text="Action d’exécution de script Power Automate affichant les options qui s’affichent une fois le script sélectionné.":::
 
 9. Appuyez sur **Enregistrer**.
 
@@ -201,15 +201,15 @@ Votre flux est désormais activé. Il exécute automatiquement votre script chaq
 
 1. Sur la page principale de Power Automate, sélectionnez **Mes flux**.
 
-    ![Le bouton Mes flux dans Power Automate](../images/power-automate-tutorial-7.png)
+    :::image type="content" source="../images/power-automate-tutorial-7.png" alt-text="Le bouton Mes flux dans Power Automate":::
 
 2. Sélectionnez votre flux. Ici, vous pouvez voir l’historique d’exécution. Vous pouvez actualiser la page ou appuyer sur le bouton **Actualiser toutes les exécutions** pour mettre à jour l’historique. Le flux se déclenche peu après la réception d’un message électronique. Testez le flux en envoyant un courrier électronique.
 
 Lorsque le flux est déclenché et exécute votre script correctement, la table du classeur et la mise à jour du tableau croisé dynamique doivent s’afficher.
 
-![La table de courriers après l’exécution multiple du flux](../images/power-automate-params-tutorial-4.png)
+:::image type="content" source="../images/power-automate-params-tutorial-4.png" alt-text="Feuille de calcul affichant la table d’e-mail après l’exécution du flux à trois reprises.":::
 
-![Le tableau croisé dynamique après l’exécution multiple du flux](../images/power-automate-params-tutorial-5.png)
+:::image type="content" source="../images/power-automate-params-tutorial-5.png" alt-text="Feuille de calcul affichant le tableau croisé dynamique après l’exécution du flux à trois reprises.":::
 
 ## <a name="next-steps"></a>Étapes suivantes
 

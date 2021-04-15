@@ -3,19 +3,19 @@ title: Lire les données d’un classeur avec les scripts Office d’Excel pour 
 description: Didacticiel des scripts Office sur la lecture de données à partir de classeurs et l’évaluation de ces données dans le script.
 ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: 0848a24e7333842b5b3b1f82ec8f270514c34d2f
-ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
+ms.openlocfilehash: d6321cb91a425da3fd45329d5171f1d5694b2b99
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772968"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754854"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 
 Ce didacticiel vous apprend comment lire des données à partir d’un classeur à l’aide d’un script Office pour Excel pour le web. Vous allez écrire un nouveau script qui met en forme un relevé bancaire et normalise les données incluses. Lors de ce nettoyage de données, votre script lira les valeurs des cellules de transaction, appliquera une formule simple à chaque valeur, puis écrira la réponse résultante dans le classeur. La lecture de données du classeur vous permet d’automatiser certains processus décisionnels dans le script.
 
 > [!TIP]
-> Si vous débutez avec les scripts Office, nous vous recommandons de commencer par le didacticiel [Enregistrer, modifier, créer des scripts Office dans Excel pour le web](excel-tutorial.md). [Les scripts Office utilisent TypeScript](../overview/code-editor-environment.md), et ce didacticiel est destiné aux utilisateurs ayant des connaissances de niveau débutant à intermédiaire en JavaScript ou TypeScript. Si vous débutez avec JavaScript, nous vous conseillons de démarrer par le [didacticiel Mozilla JavaScript](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction).
+> Si vous débutez avec les scripts Office, nous vous recommandons de commencer par le didacticiel [Enregistrer, modifier, créer des scripts Office dans Excel pour le web](excel-tutorial.md). [Les scripts Office utilisent TypeScript](../overview/code-editor-environment.md), et ce didacticiel est destiné aux utilisateurs ayant des connaissances de niveau débutant à intermédiaire en JavaScript ou TypeScript. Si vous découvrez JavaScript, nous vous conseillons de commencer par consulter le [didacticiel Mozilla JavaScript](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -73,7 +73,7 @@ Dans le reste du didacticiel, nous allons normaliser ces données à l’aide d�
 8. Lorsqu’un tableau à deux dimensions est journalisé sur la console, il regroupe les valeurs de colonne sous chaque ligne. Développez le journal du tableau en appuyant sur le triangle bleu.
 9. Développez le deuxième niveau du tableau en appuyant sur le triangle bleu nouvellement affiché. Voici ce que vous devez voir :
 
-    ![Journal de la console affichant la sortie « −20,05 », imbriquée sous deux tableaux](../images/tutorial-4.png)
+    :::image type="content" source="../images/tutorial-4.png" alt-text="Journal de la console affichant la sortie « −20,05 », imbriquée sous deux tableaux":::
 
 ## <a name="modify-the-value-of-a-cell"></a>Modifier la valeur d’une cellule.
 
@@ -143,7 +143,7 @@ Maintenant que nous avons vu comment lire et écrire dans une seule cellule, con
 
     Voici ce à quoi doit maintenant ressembler le relevé bancaire :
 
-    ![Le relevé bancaire sous la forme d’un tableau mis en forme avec uniquement des valeurs positives](../images/tutorial-5.png)
+    :::image type="content" source="../images/tutorial-5.png" alt-text="Une feuille de calcul affichant le relevé bancaire sous la forme d’un tableau mis en forme avec uniquement des valeurs positives":::
 
 ## <a name="next-steps"></a>Étapes suivantes
 
