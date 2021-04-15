@@ -1,37 +1,37 @@
 ---
-title: 'Exemple de scénario de scripts Office : calcul de la note'
-description: Exemple qui détermine le pourcentage et les notes de lettres d’une classe d’étudiants.
-ms.date: 07/24/2020
+title: 'Exemple de scénario de scripts Office : calculatrice de notes'
+description: Exemple qui détermine le pourcentage et les notes de lettre d'une classe d'étudiants.
+ms.date: 12/17/2020
 localization_priority: Normal
-ms.openlocfilehash: 4e488c6cc67bda9122b88c55070654632d9c7fa2
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: b8c45ad405c06a943c75e76391c1160ecb1bd18e
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616739"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755027"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a>Exemple de scénario de scripts Office : calcul de la note
+# <a name="office-scripts-sample-scenario-grade-calculator"></a>Exemple de scénario de scripts Office : calculatrice de notes
 
-Dans ce scénario, vous êtes un instructeur qui traite les notes de fin de contrat de chaque étudiant. Vous avez entré les scores pour les devoirs et les tests au fur et à mesure. À présent, il est temps de déterminer les sorts des étudiants.
+Dans ce scénario, vous êtes un instructeur qui compte les notes de fin de terme de chaque étudiant. You've been entering the scores for their assignments and tests as you go. À présent, il est temps de déterminer les écoles des étudiants.
 
-Vous développerez un script qui totalise les notes pour chaque catégorie de point. Elle affecte ensuite une note à chaque étudiant en fonction du total. Pour garantir la précision, vous allez ajouter des vérifications pour voir si des scores individuels sont trop bas ou très élevés. Si le score d’un étudiant est inférieur à zéro ou supérieur à la valeur possible, le script marque la cellule avec un remplissage rouge et ne totalise pas les points de l’étudiant. Il s’agit d’une indication claire des enregistrements à vérifier. Vous ajouterez également une mise en forme de base aux notes afin de pouvoir rapidement visualiser le haut et le bas de la classe.
+Vous allez développer un script qui totale les notes pour chaque catégorie de points. Il affecte ensuite une note de lettre à chaque étudiant en fonction du total. Pour garantir la précision, vous allez ajouter quelques vérifications pour voir si des scores individuels sont trop faibles ou élevés. Si le score d'un étudiant est inférieur à zéro ou supérieur à la valeur de point possible, le script marquera la cellule avec un remplissage rouge et non le total des points de cet étudiant. Il s'agit d'une indication claire des enregistrements que vous devez vérifier. Vous allez également ajouter une mise en forme de base aux notes afin de pouvoir afficher rapidement le haut et le bas du cours.
 
-## <a name="scripting-skills-covered"></a>Compétences en matière de script
+## <a name="scripting-skills-covered"></a>Compétences d'écriture de scripts couvertes
 
-- Mise en forme de cellule
+- Mise en forme des cellules
 - Vérification des erreurs
 - Expressions régulières
 - Mise en forme conditionnelle
 
-## <a name="setup-instructions"></a>Instructions de configuration
+## <a name="setup-instructions"></a>Instructions d'installation
 
-1. Téléchargez <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> vers votre espace OneDrive.
+1. Téléchargez <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> sur votre OneDrive.
 
-2. Ouvrez le classeur avec Excel pour le Web.
+2. Ouvrez le manuel avec Excel pour le web.
 
-3. Sous l’onglet **automatiser** , ouvrez l' **éditeur de code**.
+3. Sous **l'onglet Automatiser,** ouvrez **Tous les scripts.**
 
-4. Dans le volet Office **éditeur de code** , appuyez sur **nouveau script** et collez le script suivant dans l’éditeur.
+4. Dans le **volet Des tâches de** l'Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l'éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -51,9 +51,9 @@ Vous développerez un script qui totalise les notes pour chaque catégorie de po
 
       // Use regular expressions to read the max score from the assignment, mid-term, and final scores columns.
       let maxScores: string[] = [];
-      const assignmentMaxMatches = studentData[0][1].match(/\d+/);
-      const midtermMaxMatches = studentData[0][2].match(/\d+/);
-      const finalMaxMatches = studentData[0][3].match(/\d+/);
+      const assignmentMaxMatches = (studentData[0][1] as string).match(/\d+/);
+      const midtermMaxMatches = (studentData[0][2] as string).match(/\d+/);
+      const finalMaxMatches = (studentData[0][3] as string).match(/\d+/);
 
       // Check the matches happened before proceeding.
       if (!(assignmentMaxMatches && midtermMaxMatches && finalMaxMatches)) {
@@ -89,7 +89,7 @@ Vous développerez un script qui totalise les notes pour chaque catégorie de po
           studentData[i][3] > maxScores[2]) {
           continue;
         }
-        const total = studentData[i][1] + studentData[i][2] + studentData[i][3];
+        const total = (studentData[i][1] as number) + (studentData[i][2] as number) + (studentData[i][3] as number);
         let grade: string;
         switch (true) {
           case total < 60:
@@ -108,7 +108,7 @@ Vous développerez un script qui totalise les notes pour chaque catégorie de po
             grade = "A";
             break;
         }
-
+    
         // Set total score formula.
         studentsRangeFormulas[i][0] = '=RC[-2]+RC[-1]';
         // Set grade cell.
@@ -166,24 +166,24 @@ Vous développerez un script qui totalise les notes pour chaque catégorie de po
       }
 
       // Apply conditional formatting.
-      let conditionalFormatting : ExcelScript.ConditionalFormat;
+      let conditionalFormatting: ExcelScript.ConditionalFormat;
       conditionalFormatting = range.addConditionalFormat(ExcelScript.ConditionalFormatType.cellValue);
       conditionalFormatting.getCellValue().getFormat().getFont().setColor(fontColor);
       conditionalFormatting.getCellValue().getFormat().getFill().setColor(fillColor);
-      conditionalFormatting.getCellValue().setRule({formula1, operator});
+      conditionalFormatting.getCellValue().setRule({ formula1, operator });
     }
     ```
 
-5. Renommez le script **et enregistrez** -le.
+5. Renommez le script en calculateur **de notes** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Exécutez le script de **calculatrice de note** sur la seule feuille de calcul. Le script totalise les notes et affecte à chaque étudiant une note. Si des niveaux individuels ont plus de points que le devoir ou le test ne vaut, la qualité incriminée est indiquée en rouge et le total n’est pas calculé. De plus, toutes les notes « A » sont mises en surbrillance en vert, tandis que les notes « d » et « F » sont mises en surbrillance en jaune.
+Exécutez le script **Calculatrice de** notes sur la seule feuille de calcul. Le script totalera les notes et attribuera à chaque étudiant une note de lettre. Si des notes individuelles ont plus de points que la valeur de l'affectation ou du test, la note incriminée est marquée en rouge et le total n'est pas calculé. En outre, les notes « A » sont mises en surbrillant en vert, tandis que les notes « D » et « F » sont en jaune.
 
-### <a name="before-running-the-script"></a>Avant d’exécuter le script
+### <a name="before-running-the-script"></a>Avant d'exécution du script
 
-![Feuille de calcul qui affiche des lignes de score pour les étudiants.](../../images/scenario-grade-calculator-before.png)
+:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Feuille de calcul qui affiche des lignes de scores pour les étudiants.":::
 
-### <a name="after-running-the-script"></a>Après avoir exécuté le script
+### <a name="after-running-the-script"></a>Après l'exécution du script
 
-![Feuille de calcul qui affiche les données de score des étudiants avec des cellules non valides en rouge pour les lignes d’étudiant valides.](../../images/scenario-grade-calculator-after.png)
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données des scores des étudiants avec des cellules non valides dans des totaux rouges pour les lignes d'étudiants valides.":::

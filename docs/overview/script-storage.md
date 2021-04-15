@@ -1,30 +1,30 @@
 ---
-title: Stockage et appartenance des fichiers de scripts Office
-description: Informations sur le stockage des scripts Office dans Microsoft OneDrive et leur transfert entre les propriétaires.
+title: Stockage et propriété des fichiers Office Scripts
+description: Informations sur la façon dont les scripts Office sont stockés dans Microsoft OneDrive et transférés entre les propriétaires.
 ms.date: 11/13/2020
 localization_priority: Normal
-ms.openlocfilehash: 648f3b2cf7e7d8d3bab2cf07a090e116e267a99a
-ms.sourcegitcommit: 82d3c0ef1e187bcdeceb2b5fc3411186674fe150
+ms.openlocfilehash: bd868c1dbfd0b33d3cd9fc4ee774c654d86f9b07
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49346864"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755104"
 ---
-# <a name="office-scripts-file-storage-and-ownership"></a>Stockage et appartenance des fichiers de scripts Office
+# <a name="office-scripts-file-storage-and-ownership"></a>Stockage et propriété des fichiers Office Scripts
 
-Les scripts Office sont stockés en tant que fichiers **. OSTs** dans votre Microsoft OneDrive. Cela permet à vos scripts d’exister en dehors d’un classeur particulier. Vos paramètres OneDrive contrôlent les accès et les autorisations partagés pour tous les fichiers script **. OSTs** ; indépendamment des paramètres Excel.
+Les scripts Office sont stockés en tant que fichiers **.osts** dans votre Microsoft OneDrive. Cela permet à vos scripts d'exister en dehors d'un workbook particulier. Vos paramètres OneDrive contrôlent l'accès partagé et les autorisations pour tous les fichiers **.osts** de script ; indépendamment des paramètres Excel.
 
 ## <a name="file-storage"></a>Stockage de fichiers
 
-Les scripts Office sont stockés dans votre espace OneDrive. Les fichiers **. OSTs** se trouvent dans le dossier **scripts/scripts/documents/Office** . Toutes les modifications apportées à ces fichiers **. OSTs** , telles que le changement de nom ou la suppression de fichiers, seront reflétées dans l’éditeur de code et la bibliothèque de scripts.
+You Office Scripts are stored in your OneDrive. Les **fichiers .osts** se trouvent dans **le dossier /Documents/Office Scripts/.** Toutes les modifications de ces fichiers **.osts,** telles que le changement de nom ou la suppression de fichiers, seront reflétées dans l'éditeur de code et la galerie de scripts.
 
-Les scripts partagés avec l’un de vos classeurs restent dans le OneDrive du créateur de script. Elles ne sont pas copiées dans vos dossiers locaux ou OneDrive lorsque vous exécutez le script partagé dans Excel. Le bouton **créer une copie** de l’éditeur de code enregistre une copie distincte du script dans votre OneDrive. Les modifications apportées à la copie n’affectent pas le script d’origine.
+Les scripts partagés avec l'un de vos workbooks restent dans le OneDrive du créateur du script. Ils ne sont copiés dans aucun de vos dossiers locaux ou OneDrive lorsque vous exécutez le script partagé dans Excel. Le **bouton Effectuer une copie** de l'Éditeur de code enregistre une copie distincte du script dans votre OneDrive. Les modifications apportées à la copie n'affectent pas le script d'origine.
 
 ### <a name="script-folders"></a>Dossiers de script
 
-L’ajout de dossiers à OneDrive permet de maintenir l’organisation de vos scripts. Tous les dossiers sous **/documents/Office scripts/** sont affichés sous la section **mes scripts** de l’éditeur de code. Veuillez noter que ces dossiers ne peuvent pas être créés ou supprimés à l’aide de l’éditeur de code. De même, les scripts ne peuvent pas être placés dans des dossiers ou déplacés dans des dossiers à l’aide de l’éditeur de code.
+L'ajout de dossiers à votre OneDrive permet de maintenir l'organisation de vos scripts. Tous les dossiers sous **/Documents/Office Scripts/** sont affichés sous la section **Mes scripts** de l'Éditeur de code. Notez que ces dossiers ne peuvent pas être créés ou supprimés à l'aide de l'éditeur de code. De même, les scripts ne peuvent pas être placés dans des dossiers ou déplacés entre dossiers à l'aide de l'éditeur de code.
 
-![Certains scripts contenus dans des dossiers, comme affiché dans le volet Office éditeur de code](../images/script-folders.png)
+:::image type="content" source="../images/script-folders.png" alt-text="Boîte de dialogue Nouveau script dans l'Éditeur de code affichant les scripts contenus dans les dossiers, tel qu'affiché dans le volet Des tâches.":::
 
 ## <a name="file-ownership-and-retention"></a>Propriété et rétention des fichiers
 

@@ -3,42 +3,42 @@ title: Générer un identificateur unique dans un workbook
 description: Découvrez comment utiliser Office Scripts pour générer un identificateur unique et ajouter une ligne à un tableau et une plage.
 ms.date: 03/18/2021
 localization_priority: Normal
-ms.openlocfilehash: 219aaf5894ee81112e12c44e828beefc74886794
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: c75eba551cc1c05426db613c78d41431b5177842
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571198"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754837"
 ---
 # <a name="generate-a-unique-identifier-in-a-workbook"></a>Générer un identificateur unique dans un workbook
 
-Ce scénario permet à un utilisateur de générer un numéro de document unique avec un format spécifique et de l’ajouter en tant qu’entrée à une plage ou un tableau. La nouvelle entrée ou ligne ajoutée contiendra le numéro de document unique nouvellement généré et quelques autres attributs transmis au script.
+Ce scénario permet à un utilisateur de générer un numéro de document unique avec un format spécifique et de l'ajouter en tant qu'entrée à une plage ou un tableau. La nouvelle entrée ou ligne ajoutée contiendra le numéro de document unique nouvellement généré et quelques autres attributs transmis au script.
 
-Il existe deux versions de l’exemple pour ce scénario.
+Il existe deux versions de l'exemple pour ce scénario.
 
 * [Version 1 : Lire et ajouter une ligne à une feuille de calcul contenant une plage simple](#sample-code-generate-key-and-add-row-to-range)
 
-    _Avant l’ajout de la nouvelle ligne_
+    _Avant l'ajout de la nouvelle ligne_
 
-    ![Capture d’écran montrant la plage avant l’ajout d’une ligne](../../images/document-number-generator-range-before.png)
+    :::image type="content" source="../../images/document-number-generator-range-before.png" alt-text="Feuille de calcul montrant une plage de données avant l'ajout d'une ligne.":::
 
     _Une fois la nouvelle ligne ajoutée_
 
-    ![Capture d’écran montrant la plage après l’ajout d’une ligne](../../images/document-number-generator-range-after.png)
+    :::image type="content" source="../../images/document-number-generator-range-after.png" alt-text="Feuille de calcul montrant une plage de données après l'ajout d'une ligne.":::
 
 * [Version 2 : Lire et ajouter une ligne à un tableau](#sample-code-generate-key-and-add-row-to-table)
 
-    _Avant l’ajout de la nouvelle ligne_
+    _Avant l'ajout de la nouvelle ligne_
 
-    ![Capture d’écran montrant le tableau avant l’ajout d’une ligne](../../images/document-number-generator-table-before.png)
+    :::image type="content" source="../../images/document-number-generator-table-before.png" alt-text="Feuille de calcul montrant un tableau avant l'ajout d'une ligne.":::
 
     _Une fois la nouvelle ligne ajoutée_
 
-    ![Capture d’écran montrant le tableau après l’ajout d’une ligne](../../images/document-number-generator-table-after.png)
+    :::image type="content" source="../../images/document-number-generator-table-after.png" alt-text="Feuille de calcul montrant un tableau après l'ajout d'une ligne.":::
 
 ## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-Téléchargez le fichier <a href="document-number-generator.xlsx">document-number-generator.xlsx</a> utilisé dans cette solution pour l’essayer vous-même !
+Téléchargez le fichier <a href="document-number-generator.xlsx">document-number-generator.xlsx</a> utilisé dans cette solution pour l'essayer vous-même !
 
 ## <a name="sample-code-generate-key-and-add-row-to-range"></a>Exemple de code : générer une clé et ajouter une ligne à la plage
 

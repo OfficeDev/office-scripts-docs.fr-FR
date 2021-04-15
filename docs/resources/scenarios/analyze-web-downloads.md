@@ -1,54 +1,54 @@
 ---
-title: 'Exemple de scénario de scripts Office : analyser les téléchargements Web'
-description: Exemple qui prend des données de trafic Internet brutes dans un classeur Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans un tableau.
-ms.date: 07/10/2020
+title: 'Exemple de scénario de scripts Office : analyser les téléchargements web'
+description: Exemple qui prend des données de trafic Internet brutes dans un workbook Excel et détermine l'emplacement d'origine, avant d'organiser ces informations dans un tableau.
+ms.date: 12/17/2020
 localization_priority: Normal
-ms.openlocfilehash: adc2cb401830b66b245c0dfcc4441b7ac9c8c61f
-ms.sourcegitcommit: 009935c5773761c5833e5857491af47e2c95d851
+ms.openlocfilehash: e351cd6c4a12e83a07a2f4ce5678d7aa10625118
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49408965"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755034"
 ---
-# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Exemple de scénario de scripts Office : analyser les téléchargements Web
+# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Exemple de scénario de scripts Office : analyser les téléchargements web
 
-Dans ce scénario, vous êtes chargé d’analyser les rapports de téléchargement à partir du site Web de votre entreprise. L’objectif de cette analyse est de déterminer si le trafic Web est en provenance des États-Unis ou ailleurs dans le monde entier.
+Dans ce scénario, vous êtes chargé d'analyser les rapports de téléchargement à partir du site web de votre entreprise. L'objectif de cette analyse est de déterminer si le trafic web vient des États-Unis ou d'autres pays du monde.
 
-Vos collègues téléchargent les données brutes dans votre classeur. Chaque ensemble de données de la semaine dispose de sa propre feuille de calcul. Il existe également une feuille de calcul de **synthèse** contenant un tableau et un graphique présentant les tendances de semaine sur semaine.
+Vos collègues téléchargent les données brutes dans votre workbook. Chaque ensemble de données de chaque semaine possède sa propre feuille de calcul. Il existe également la **feuille de calcul Résumé** avec un tableau et un graphique qui indiquent les tendances d'une semaine à l'autre.
 
-Vous développerez un script qui analyse les données de téléchargements hebdomadaires dans la feuille de calcul active. Elle analyse l’adresse IP associée à chaque téléchargement et détermine si elle provient ou non des États-Unis. La réponse est insérée dans la feuille de calcul en tant que valeur booléenne ("TRUE" ou "FALSe") et la mise en forme conditionnelle est appliquée à ces cellules. Les résultats de l’adresse IP seront totalisés sur la feuille de calcul et copiés dans le tableau récapitulatif.
+Vous allez développer un script qui analyse les données de téléchargement hebdomadaires dans la feuille de calcul active. Elle permet d'évaluer l'adresse IP associée à chaque téléchargement et de déterminer si elle provenait ou non des États-Unis. La réponse est insérée dans la feuille de calcul sous la forme d'une valeur booléle (« TRUE » ou « FALSE ») et une mise en forme conditionnelle est appliquée à ces cellules. Les résultats de l'emplacement des adresses IP seront totaux dans la feuille de calcul et copiés dans le tableau récapitulatif.
 
-## <a name="scripting-skills-covered"></a>Compétences en matière de script
+## <a name="scripting-skills-covered"></a>Compétences d'écriture de scripts couvertes
 
-- Analyse de texte
+- L'l ment de texte
 - Sous-fonctions dans les scripts
 - Mise en forme conditionnelle
 - Tables
 
 ## <a name="demo-video"></a>Vidéo de démonstration
 
-Cet exemple a été démo dans le cadre de l’appel de la communauté de développeurs de compléments Office pour le 2020 février.
+Cet exemple a été rétrogradé dans le cadre de l'appel de la communauté des développeurs de applications Office pour février 2020.
 
 > [!VIDEO https://www.youtube.com/embed/vPEqbb7t6-Y?start=154]
 
 > [!NOTE]
-> Le code présenté dans cette vidéo utilise un modèle d’API plus ancien ( [API Async pour les scripts Office](../../develop/excel-async-model.md)). L’exemple présenté sur cette page a été mis à jour, mais le code semble un peu différent de l’enregistrement. Les modifications n’affectent pas le comportement du script ou de l’autre contenu dans la démonstration du présentateur.
+> Le code présenté dans cette vidéo utilise un modèle d'API plus ancien (api [Async de scripts Office).](../../develop/excel-async-model.md) L'exemple présenté sur cette page a été mis à jour, mais le code est légèrement différent de l'enregistrement. Les modifications n'affectent pas le comportement du script ou de l'autre contenu de la démonstration du présentateur.
 
-## <a name="setup-instructions"></a>Instructions de configuration
+## <a name="setup-instructions"></a>Instructions d'installation
 
-1. Téléchargez <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> vers votre espace OneDrive.
+1. Téléchargez <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> sur votre OneDrive.
 
-2. Ouvrez le classeur avec Excel pour le Web.
+2. Ouvrez le manuel avec Excel pour le web.
 
-3. Sous l’onglet **automatiser** , ouvrez l' **éditeur de code**.
+3. Sous **l'onglet Automatiser,** ouvrez **Tous les scripts.**
 
-4. Dans le volet Office **éditeur de code** , appuyez sur **nouveau script** et collez le script suivant dans l’éditeur.
+4. Dans le **volet Des tâches de** l'Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l'éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
       /* Get the Summary worksheet and table.
-       * End the script early if either object is not in the workbook.
-       */
+        * End the script early if either object is not in the workbook.
+        */
       let summaryWorksheet = workbook.getWorksheet("Summary");
       if (!summaryWorksheet) {
         console.log("The script expects a worksheet named \"Summary\". Please download the correct template and try again.");
@@ -59,39 +59,39 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
         console.log("The script expects a summary table named \"Table1\". Please download the correct template and try again.");
         return;
       }
-
+  
       // Get the current worksheet.
       let currentWorksheet = workbook.getActiveWorksheet();
       if (currentWorksheet.getName().toLocaleLowerCase().indexOf("week") !== 0) {
         console.log("Please switch worksheet to one of the weekly data sheets and try again.")
         return;
       }
-
+  
       // Get the values of the active range of the active worksheet.
       let logRange = currentWorksheet.getUsedRange();
-
+  
       if (logRange.getColumnCount() !== 8) {
         console.log(`Verify that you are on the correct worksheet. Either the week's data has been already processed or the content is incorrect. The following columns are expected: ${[
-          "Time Stamp", "IP Address", "kilobytes", "user agent code", "milliseconds", "Request", "Results", "Referrer"
+            "Time Stamp", "IP Address", "kilobytes", "user agent code", "milliseconds", "Request", "Results", "Referrer"
         ]}`);
         return;
       }
       // Get the range that will contain TRUE/FALSE if the IP address is from the United States (US).
       let isUSColumn = logRange
-        .getLastColumn()
-        .getOffsetRange(0, 1);
-
+          .getLastColumn()
+          .getOffsetRange(0, 1);
+  
       // Get the values of all the US IP addresses.
       let ipRange = workbook.getWorksheet("USIPAddresses").getUsedRange();
-      let ipRangeValues = ipRange.getValues();
-      let logRangeValues = logRange.getValues();
+      let ipRangeValues = ipRange.getValues() as number[][];
+      let logRangeValues = logRange.getValues() as string[][];
       // Remove the first row.
       let topRow = logRangeValues.shift();
       console.log(`Analyzing ${logRangeValues.length} entries.`);
-
+  
       // Create a new array to contain the boolean representing if this is a US IP address.
       let newCol = [];
-
+  
       // Go through each row in worksheet and add Boolean.
       for (let i = 0; i < logRangeValues.length; i++) {
         let curRowIP = logRangeValues[i][1];
@@ -101,43 +101,43 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
           newCol.push([false]);
         }
       }
-
+  
       // Remove the empty column header and add proper heading.
       newCol = [["Is US IP"], ...newCol];
-
+  
       // Write the result to the spreadsheet.
       console.log(`Adding column to indicate whether IP belongs to US region or not at address: ${isUSColumn.getAddress()}`);
       console.log(newCol.length);
       console.log(newCol);
       isUSColumn.setValues(newCol);
-
+  
       // Call the local function to add summary data to the worksheet.
       addSummaryData();
-
+  
       // Call the local function to apply conditional formatting.
       applyConditionalFormatting(isUSColumn);
-
+  
       // Autofit columns.
       currentWorksheet.getUsedRange().getFormat().autofitColumns();
-
+  
       // Get the calculated summary data.
       let summaryRangeValues = currentWorksheet.getRange("J2:M2").getValues();
-
+  
       // Add the corresponding row to the summary table.
       summaryTable.addRow(null, summaryRangeValues[0]);
       console.log("Complete.");
       return;
-
+  
       /**
        * A function to add summary data on the worksheet.
-       */
+        */
       function addSummaryData() {
         // Add a summary row and table.
         let summaryHeader = [["Year", "Week", "US", "Other"]];
         let countTrueFormula =
-          "=COUNTIF(" + isUSColumn.getAddress() + ', "=TRUE")/' + (newCol.length - 1);
+            "=COUNTIF(" + isUSColumn.getAddress() + ', "=TRUE")/' + (newCol.length - 1);
         let countFalseFormula =
-          "=COUNTIF(" + isUSColumn.getAddress() + ', "=FALSE")/' + (newCol.length - 1);
+            "=COUNTIF(" + isUSColumn.getAddress() + ', "=FALSE")/' + (newCol.length - 1);
 
         let summaryContent = [
           [
@@ -147,10 +147,8 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
             countFalseFormula
           ]
         ];
-        let summaryHeaderRow = currentWorksheet
-          .getRange("J1:M1");
-        let summaryContentRow = currentWorksheet
-          .getRange("J2:M2");
+        let summaryHeaderRow = currentWorksheet.getRange("J1:M1");
+        let summaryContentRow = currentWorksheet.getRange("J2:M2");
         console.log("2");
 
         summaryHeaderRow.setValues(summaryHeader);
@@ -161,8 +159,8 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
 
         let formats = [[".000", ".000"]];
         summaryContentRow
-          .getOffsetRange(0, 2)
-          .getResizedRange(0, -2).setNumberFormats(formats);
+            .getOffsetRange(0, 2)
+            .getResizedRange(0, -2).setNumberFormats(formats);
       }
     }
     /**
@@ -171,21 +169,21 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
     function applyConditionalFormatting(isUSColumn: ExcelScript.Range) {
       // Add conditional formatting to the new column.
       let conditionalFormatTrue = isUSColumn.addConditionalFormat(
-        ExcelScript.ConditionalFormatType.cellValue
+          ExcelScript.ConditionalFormatType.cellValue
       );
       let conditionalFormatFalse = isUSColumn.addConditionalFormat(
-        ExcelScript.ConditionalFormatType.cellValue
+          ExcelScript.ConditionalFormatType.cellValue
       );
       // Set TRUE to light blue and FALSE to light orange.
       conditionalFormatTrue.getCellValue().getFormat().getFill().setColor("#8FA8DB");
       conditionalFormatTrue.getCellValue().setRule({
-        formula1: "=TRUE",
-        operator: ExcelScript.ConditionalCellValueOperator.equalTo
+          formula1: "=TRUE",
+          operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
       conditionalFormatFalse.getCellValue().getFormat().getFill().setColor("#F8CCAD");
       conditionalFormatFalse.getCellValue().setRule({
-        formula1: "=FALSE",
-        operator: ExcelScript.ConditionalCellValueOperator.equalTo
+          formula1: "=FALSE",
+          operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
     }
     /**
@@ -195,14 +193,14 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
     function ipAddressToInteger(ipAddress: string): number {
       // Split the IP address into octets.
       let octets = ipAddress.split(".");
-
+  
       // Create a number for each octet and do the math to create the integer value of the IP address.
       let fullNum =
-        // Define an arbitrary number for the last octet.
-        111 +
-        parseInt(octets[2]) * 256 +
-        parseInt(octets[1]) * 65536 +
-        parseInt(octets[0]) * 16777216;
+          // Define an arbitrary number for the last octet.
+          111 +
+          parseInt(octets[2]) * 256 +
+          parseInt(octets[1]) * 65536 +
+          parseInt(octets[0]) * 16777216;
       return fullNum;
     }
     /**
@@ -220,18 +218,18 @@ Cet exemple a été démo dans le cadre de l’appel de la communauté de dével
     }
     ```
 
-5. Renommez le script pour analyser et enregistrer les **téléchargements Web** .
+5. Renommez le script pour **analyser les téléchargements web** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Accédez à l’une des feuilles de calcul de **semaine \* \*** et exécutez le script **analyze Web Downloads** . Le script applique la mise en forme conditionnelle et l’étiquetage de l’emplacement sur la feuille actuelle. Elle met également à jour la feuille de calcul de **synthèse** .
+Accédez à l'une **des feuilles de \* \*** calcul Semaine et exécutez le script **Analyser les téléchargements web.** Le script appliquera la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
 
-### <a name="before-running-the-script"></a>Avant d’exécuter le script
+### <a name="before-running-the-script"></a>Avant d'exécution du script
 
-![Feuille de calcul qui affiche les données de trafic Web brut.](../../images/scenario-analyze-web-downloads-before.png)
+:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Feuille de calcul qui affiche les données brutes du trafic web.":::
 
-### <a name="after-running-the-script"></a>Après avoir exécuté le script
+### <a name="after-running-the-script"></a>Après l'exécution du script
 
-![Feuille de calcul qui montre les informations d’emplacement IP mises en forme avec les lignes de trafic Web précédentes.](../../images/scenario-analyze-web-downloads-after.png)
+:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Feuille de calcul qui affiche des informations d'emplacement IP formatées avec les lignes de trafic web précédentes.":::
 
-![Tableau récapitulatif et graphique résumant les feuilles de calcul sur lesquelles le script a été exécuté.](../../images/scenario-analyze-web-downloads-table.png)
+:::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Tableau récapitulatif et graphique récapitulant les feuilles de calcul sur lesquelles le script a été exécuté.":::

@@ -1,16 +1,16 @@
 ---
-title: Envoyer par courrier électronique les images d’un graphique et d’un tableau Excel
-description: Découvrez comment utiliser Office Scripts et Power Automate pour extraire et envoyer par courrier électronique les images d’un graphique et d’un tableau Excel.
+title: Envoyer par courrier électronique les images d'un graphique et d'un tableau Excel
+description: Découvrez comment utiliser Office Scripts et Power Automate pour extraire et envoyer par courrier électronique les images d'un graphique et d'un tableau Excel.
 ms.date: 04/01/2021
 localization_priority: Normal
-ms.openlocfilehash: 7eb12526f97d72de31acdc3c9a4228c670875e2b
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: de3cf16537cb12db45d4d465d367d797d053afc4
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571192"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754809"
 ---
-# <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Utiliser Office Scripts et Power Automate pour envoyer des images électroniques d’un graphique et d’un tableau
+# <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Utiliser Office Scripts et Power Automate pour envoyer des images électroniques d'un graphique et d'un tableau
 
 Cet exemple utilise Office Scripts et Power Automate pour créer un graphique. Il envoie ensuite des images du graphique et de sa table de base par courrier électronique.
 
@@ -21,17 +21,17 @@ Cet exemple utilise Office Scripts et Power Automate pour créer un graphique. I
 * Obtenir des images de graphique et de tableau.
 * Envoyez un e-mail aux images avec Power Automate.
 
-_Données d’entrée_
+_Données d'entrée_
 
-![Données d’entrée](../../images/input-data.png)
+:::image type="content" source="../../images/input-data.png" alt-text="Feuille de calcul montrant une table des données d'entrée.":::
 
 _Graphique de sortie_
 
-![Graphique créé](../../images/chart-created.png)
+:::image type="content" source="../../images/chart-created.png" alt-text="Graphique en colonnes créé montrant le montant dû par le client.":::
 
 _Courrier électronique reçu via le flux Power Automate_
 
-![Courrier électronique reçu](../../images/email-received.png)
+:::image type="content" source="../../images/email-received.png" alt-text="Courrier électronique envoyé par le flux montrant le graphique Excel incorporé dans le corps.":::
 
 ## <a name="solution"></a>Solution
 
@@ -44,7 +44,7 @@ Cette solution est en deux parties :
 
 Le script suivant calcule et extrait un graphique et un tableau Excel.
 
-Téléchargez l’exemple <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> fichier et utilisez-le avec ce script pour l’essayer vous-même !
+Téléchargez l'exemple <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> fichier et utilisez-le avec ce script pour l'essayer vous-même !
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReportImages {
@@ -91,4 +91,4 @@ interface ReportImages {
 
 ## <a name="training-video-extract-and-email-images-of-chart-and-table"></a>Vidéo de formation : extraire et envoyer des images par courrier électronique à un graphique et un tableau
 
-[![Regardez une vidéo pas à pas sur l’extraction et l’envoi par courrier électronique d’images de graphique et de tableau](../../images/charts-image-vid.jpg)](https://youtu.be/152GJyqc-Kw "Vidéo pas à pas sur l’extraction et l’envoi par courrier électronique d’images de graphique et de tableau")
+[![Regardez une vidéo pas à pas sur l'extraction et l'envoi par courrier électronique d'images de graphique et de tableau](../../images/charts-image-vid.jpg)](https://youtu.be/152GJyqc-Kw "Vidéo pas à pas sur l'extraction et l'envoi par courrier électronique d'images de graphique et de tableau")

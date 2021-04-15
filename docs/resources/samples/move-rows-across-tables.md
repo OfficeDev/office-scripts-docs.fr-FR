@@ -1,24 +1,24 @@
 ---
-title: Déplacer des lignes entre des tableaux à l’aide de Scripts Office
-description: Découvrez comment déplacer des lignes d’une table à l’autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
+title: Déplacer des lignes entre des tableaux à l'aide de Scripts Office
+description: Découvrez comment déplacer des lignes d'une table à l'autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
 ms.date: 03/30/2021
 localization_priority: Normal
-ms.openlocfilehash: 0a66c8ff0f8e0e7b7f074ad77e8c660fc80b50a9
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 1adaeee1c8307d7775529496df115563831aed4d
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571167"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755041"
 ---
 # <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a>Déplacer des lignes entre des tableaux en enregistrement des filtres, puis en traitant et réappliquer les filtres
 
 Ce script effectue les opérations suivantes :
 
-* Sélectionne des lignes dans la table source où la valeur d’une colonne est égale à _une valeur._
-* Déplace toutes les lignes sélectionnées dans un autre tableau (cible) d’une autre feuille de calcul.
+* Sélectionne des lignes dans la table source où la valeur d'une colonne est égale à _une valeur._
+* Déplace toutes les lignes sélectionnées dans un autre tableau (cible) d'une autre feuille de calcul.
 * Réapplicité des filtres pertinents sur la table source.
 
-![Captures d’écran du workbook avant et après](../../images/table-filter-before-after.png)
+:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Captures d'écran du workbook avant et après":::
 
 Il existe deux scripts dans cette solution. La principale différence est la façon dont les lignes sont sélectionnées.
 
@@ -27,9 +27,9 @@ Il existe deux scripts dans cette solution. La principale différence est la fa�
 
 ## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-Téléchargez le fichier <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> utilisé dans cette solution pour l’essayer vous-même !
+Téléchargez le fichier <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> utilisé dans cette solution pour l'essayer vous-même !
 
-## <a name="sample-code-move-rows-using-table-filter"></a>Exemple de code : déplacer des lignes à l’aide d’un filtre de tableau
+## <a name="sample-code-move-rows-using-table-filter"></a>Exemple de code : déplacer des lignes à l'aide d'un filtre de tableau
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -146,7 +146,7 @@ function reApplyFilters(sourceTable: ExcelScript.Table, columnNameFilteredOn: st
 }
 ```
 
-## <a name="sample-code-move-rows-using-range-values"></a>Exemple de code : déplacer des lignes à l’aide de valeurs de plage
+## <a name="sample-code-move-rows-using-range-values"></a>Exemple de code : déplacer des lignes à l'aide de valeurs de plage
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
