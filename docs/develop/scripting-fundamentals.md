@@ -3,12 +3,12 @@ title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 07/08/2020
 localization_priority: Priority
-ms.openlocfilehash: 4609dce617d18f7a7c9d2868a24792c51fb048c6
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 2c2fd683e77a0dfbfd3e9df8c79db31e78ceee8b
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570233"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755062"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Principes de base des scripts pour Office Scripts dans Excel sur le web (préversion)
 
@@ -109,7 +109,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script crée les données suivantes dans la feuille de calcul active :
 
-![Un registre des ventes affiche des lignes de valeur, une colonne de formule et des en-têtes mis en forme.](../images/range-sample.png)
+:::image type="content" source="../images/range-sample.png" alt-text="Feuille de calcul contenant un enregistrement des ventes composé de lignes de valeurs, d’une colonne de formule et d’en-têtes formatés.":::
 
 ### <a name="charts-tables-and-other-data-objects"></a>Graphiques, tableaux et autres objets de données
 
@@ -133,7 +133,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script sur la feuille de calcul avec les données précédentes crée le tableau suivant :
 
-![Un tableau créée à partir du registre des ventes précédent.](../images/table-sample.png)
+:::image type="content" source="../images/table-sample.png" alt-text="Feuille de calcul contenant un tableau créé depuis l’enregistrement des ventes précédent.":::
 
 #### <a name="creating-a-chart"></a>Création d’un graphique
 
@@ -159,7 +159,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script sur la feuille de calcul avec le tableau précédent crée le graphique suivant :
 
-![Un histogramme montrant les quantités pour trois des articles présents dans le registre des ventes précédent.](../images/chart-sample.png)
+:::image type="content" source="../images/chart-sample.png" alt-text="Histogramme montrant les quantités pour trois des articles présents dans l’enregistrement des ventes précédent.":::
 
 ### <a name="collections-and-other-object-relations"></a>Collections et autres relations d’objets
 

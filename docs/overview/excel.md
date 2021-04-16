@@ -3,12 +3,12 @@ title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
 ms.date: 11/13/2020
 localization_priority: Priority
-ms.openlocfilehash: a065c8eb5fc52c7525383927b7e1490e703eb179
-ms.sourcegitcommit: 82d3c0ef1e187bcdeceb2b5fc3411186674fe150
+ms.openlocfilehash: 726d5e2ea44f6e61708c9692826f37a526250670
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49571459"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755131"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office Scripts dans Excel sur le web (Aperçu)
 
@@ -50,13 +50,13 @@ Par exemple, vous débutez votre journée de travail en ouvrant un fichier .csv 
 
 ## <a name="action-recorder"></a>Enregistreur d’actions
 
-![L’enregistreur d’actions après avoir enregistré plusieurs actions.](../images/action-recorder-intro.png)
+:::image type="content" source="../images/action-recorder-intro.png" alt-text="Liste d’actions enregistrées par l’enregistreur d’action.":::
 
 La fonctionnalité Enregistreur d’actions vous permet d’enregistrer les actions que vous effectuez dans Excel sous forme de script. Quand l’enregistreur d’actions est en cours d’exécution, vous pouvez capturer les actions Excel effectuées lorsque vous modifiez des cellules, la mise en forme et créez des tableaux. Le script obtenu peut être exécuté sur d’autres feuilles de calcul et classeurs pour recréer vos actions d’origine.
 
 ## <a name="code-editor"></a>Éditeur de code
 
-![L’éditeur de code affichant le code du script ci-dessus.](../images/code-editor-intro.png)
+:::image type="content" source="../images/code-editor-intro.png" alt-text="Éditeur de code affichant le code du script utilisé dans ce didacticiel.":::
 
 Tous les scripts enregistrés avec l’enregistreur d’actions peuvent être modifiés via l’éditeur de code. Cela vous permet d’affiner et de personnaliser le script pour l’adapter à vos besoins. Vous pouvez également ajouter une logique et des fonctionnalités qui ne sont pas directement accessibles via l’interface utilisateur d’Excel, comme les instructions conditionnelles (si/sinon) et les boucles.
 
@@ -64,7 +64,7 @@ Un moyen simple de commencer à apprendre les fonctionnalités de Office Script
 
 ## <a name="sharing-scripts"></a>Partage de scénarios
 
-![La page des détails du scénario montrant l'option «Partager avec d'autres dans ce cahier de travail».](../images/script-sharing.png)
+:::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du scénario montrant l'option « Partager avec d'autres dans ce cahier de travail ».":::
 
 Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un scénario avec d'autres personnes dans un cahier de travail, le scénario est joint au cahier. Vos scénarios sont stockés dans votre OneDrive, et lorsque vous en partagez un, vous créez un lien vers celui-ci dans le cahier de travail que vous avez ouvert.
 
