@@ -1,50 +1,50 @@
 ---
-title: Envoyer par courrier électronique les images d'un graphique et d'un tableau Excel
-description: Découvrez comment utiliser Office Scripts et Power Automate pour extraire et envoyer par courrier électronique les images d'un graphique et d'un tableau Excel.
-ms.date: 04/01/2021
+title: Envoyer par courrier électronique les images d Excel graphique et d'un tableau
+description: Découvrez comment utiliser Office scripts et Power Automate pour extraire et envoyer par e-mail les images d'un Excel graphique et d'un tableau.
+ms.date: 04/05/2021
 localization_priority: Normal
-ms.openlocfilehash: de3cf16537cb12db45d4d465d367d797d053afc4
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 0265250f7fd885cb4899d0b9493b4285496965ff
+ms.sourcegitcommit: 1f003c9924e651600c913d84094506125f1055ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754809"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52026866"
 ---
-# <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a><span data-ttu-id="60954-103">Utiliser Office Scripts et Power Automate pour envoyer des images électroniques d'un graphique et d'un tableau</span><span class="sxs-lookup"><span data-stu-id="60954-103">Use Office Scripts and Power Automate to email images of a chart and table</span></span>
+# <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a><span data-ttu-id="091b7-103">Utiliser Office scripts et Power Automate pour envoyer des images électroniques d'un graphique et d'un tableau</span><span class="sxs-lookup"><span data-stu-id="091b7-103">Use Office Scripts and Power Automate to email images of a chart and table</span></span>
 
-<span data-ttu-id="60954-104">Cet exemple utilise Office Scripts et Power Automate pour créer un graphique.</span><span class="sxs-lookup"><span data-stu-id="60954-104">This sample uses Office Scripts and Power Automate to create a chart.</span></span> <span data-ttu-id="60954-105">Il envoie ensuite des images du graphique et de sa table de base par courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="60954-105">It then emails images of the chart and its base table.</span></span>
+<span data-ttu-id="091b7-104">Cet exemple utilise Office scripts et Power Automate pour créer un graphique.</span><span class="sxs-lookup"><span data-stu-id="091b7-104">This sample uses Office Scripts and Power Automate to create a chart.</span></span> <span data-ttu-id="091b7-105">Il envoie ensuite des images du graphique et de sa table de base par courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="091b7-105">It then emails images of the chart and its base table.</span></span>
 
-## <a name="example-scenario"></a><span data-ttu-id="60954-106">Exemple de scénario</span><span class="sxs-lookup"><span data-stu-id="60954-106">Example scenario</span></span>
+## <a name="example-scenario"></a><span data-ttu-id="091b7-106">Exemple de scénario</span><span class="sxs-lookup"><span data-stu-id="091b7-106">Example scenario</span></span>
 
-* <span data-ttu-id="60954-107">Calculer pour obtenir les derniers résultats.</span><span class="sxs-lookup"><span data-stu-id="60954-107">Calculate to get latest results.</span></span>
-* <span data-ttu-id="60954-108">Créez un graphique.</span><span class="sxs-lookup"><span data-stu-id="60954-108">Create chart.</span></span>
-* <span data-ttu-id="60954-109">Obtenir des images de graphique et de tableau.</span><span class="sxs-lookup"><span data-stu-id="60954-109">Get chart and table images.</span></span>
-* <span data-ttu-id="60954-110">Envoyez un e-mail aux images avec Power Automate.</span><span class="sxs-lookup"><span data-stu-id="60954-110">Email the images with Power Automate.</span></span>
+* <span data-ttu-id="091b7-107">Calculer pour obtenir les derniers résultats.</span><span class="sxs-lookup"><span data-stu-id="091b7-107">Calculate to get latest results.</span></span>
+* <span data-ttu-id="091b7-108">Créez un graphique.</span><span class="sxs-lookup"><span data-stu-id="091b7-108">Create chart.</span></span>
+* <span data-ttu-id="091b7-109">Obtenir des images de graphique et de tableau.</span><span class="sxs-lookup"><span data-stu-id="091b7-109">Get chart and table images.</span></span>
+* <span data-ttu-id="091b7-110">Envoyez un e-mail aux images Power Automate.</span><span class="sxs-lookup"><span data-stu-id="091b7-110">Email the images with Power Automate.</span></span>
 
-<span data-ttu-id="60954-111">_Données d'entrée_</span><span class="sxs-lookup"><span data-stu-id="60954-111">_Input data_</span></span>
+<span data-ttu-id="091b7-111">_Données d'entrée_</span><span class="sxs-lookup"><span data-stu-id="091b7-111">_Input data_</span></span>
 
 :::image type="content" source="../../images/input-data.png" alt-text="Feuille de calcul montrant une table des données d'entrée.":::
 
-<span data-ttu-id="60954-113">_Graphique de sortie_</span><span class="sxs-lookup"><span data-stu-id="60954-113">_Output chart_</span></span>
+<span data-ttu-id="091b7-113">_Graphique de sortie_</span><span class="sxs-lookup"><span data-stu-id="091b7-113">_Output chart_</span></span>
 
 :::image type="content" source="../../images/chart-created.png" alt-text="Graphique en colonnes créé montrant le montant dû par le client.":::
 
-<span data-ttu-id="60954-115">_Courrier électronique reçu via le flux Power Automate_</span><span class="sxs-lookup"><span data-stu-id="60954-115">_Email that was received through Power Automate flow_</span></span>
+<span data-ttu-id="091b7-115">_Courrier électronique reçu par le biais Power Automate flux_</span><span class="sxs-lookup"><span data-stu-id="091b7-115">_Email that was received through Power Automate flow_</span></span>
 
-:::image type="content" source="../../images/email-received.png" alt-text="Courrier électronique envoyé par le flux montrant le graphique Excel incorporé dans le corps.":::
+:::image type="content" source="../../images/email-received.png" alt-text="Courrier électronique envoyé par le flux montrant le Excel graphique incorporé dans le corps.":::
 
-## <a name="solution"></a><span data-ttu-id="60954-117">Solution</span><span class="sxs-lookup"><span data-stu-id="60954-117">Solution</span></span>
+## <a name="solution"></a><span data-ttu-id="091b7-117">Solution</span><span class="sxs-lookup"><span data-stu-id="091b7-117">Solution</span></span>
 
-<span data-ttu-id="60954-118">Cette solution est en deux parties :</span><span class="sxs-lookup"><span data-stu-id="60954-118">This solution has two parts:</span></span>
+<span data-ttu-id="091b7-118">Cette solution est en deux parties :</span><span class="sxs-lookup"><span data-stu-id="091b7-118">This solution has two parts:</span></span>
 
-1. [<span data-ttu-id="60954-119">Script Office pour calculer et extraire un graphique et un tableau Excel</span><span class="sxs-lookup"><span data-stu-id="60954-119">An Office Script to calculate and extract Excel chart and table</span></span>](#sample-code-calculate-and-extract-excel-chart-and-table)
-1. <span data-ttu-id="60954-120">Flux Power Automate pour appeler le script et envoyer par courrier électronique les résultats.</span><span class="sxs-lookup"><span data-stu-id="60954-120">A Power Automate flow to invoke the script and email the results.</span></span> <span data-ttu-id="60954-121">Pour obtenir un exemple sur la procédure à suivre, voir Créer un flux de travail [automatisé avec Power Automate.](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate)</span><span class="sxs-lookup"><span data-stu-id="60954-121">For an example on how to do this, see [Create an automated workflow with Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).</span></span>
+1. [<span data-ttu-id="091b7-119">Un script Office pour calculer et extraire Excel graphique et tableau</span><span class="sxs-lookup"><span data-stu-id="091b7-119">An Office Script to calculate and extract Excel chart and table</span></span>](#sample-code-calculate-and-extract-excel-chart-and-table)
+1. <span data-ttu-id="091b7-120">Un flux Power Automate pour appeler le script et envoyer par courrier électronique les résultats.</span><span class="sxs-lookup"><span data-stu-id="091b7-120">A Power Automate flow to invoke the script and email the results.</span></span> <span data-ttu-id="091b7-121">Pour obtenir un exemple sur la procédure à suivre, voir Créer un flux de travail automatisé [avec Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).</span><span class="sxs-lookup"><span data-stu-id="091b7-121">For an example on how to do this, see [Create an automated workflow with Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).</span></span>
 
-## <a name="sample-code-calculate-and-extract-excel-chart-and-table"></a><span data-ttu-id="60954-122">Exemple de code : calculer et extraire un graphique et un tableau Excel</span><span class="sxs-lookup"><span data-stu-id="60954-122">Sample code: Calculate and extract Excel chart and table</span></span>
+## <a name="sample-code-calculate-and-extract-excel-chart-and-table"></a><span data-ttu-id="091b7-122">Exemple de code : calculer et extraire Excel graphique et tableau</span><span class="sxs-lookup"><span data-stu-id="091b7-122">Sample code: Calculate and extract Excel chart and table</span></span>
 
-<span data-ttu-id="60954-123">Le script suivant calcule et extrait un graphique et un tableau Excel.</span><span class="sxs-lookup"><span data-stu-id="60954-123">The following script calculates and extracts an Excel chart and table.</span></span>
+<span data-ttu-id="091b7-123">Le script suivant calcule et extrait un Excel graphique et un tableau.</span><span class="sxs-lookup"><span data-stu-id="091b7-123">The following script calculates and extracts an Excel chart and table.</span></span>
 
-<span data-ttu-id="60954-124">Téléchargez l'exemple <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> fichier et utilisez-le avec ce script pour l'essayer vous-même !</span><span class="sxs-lookup"><span data-stu-id="60954-124">Download the sample file <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> and use it with this script to try it out yourself!</span></span>
+<span data-ttu-id="091b7-124">Téléchargez l'exemple <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> fichier et utilisez-le avec ce script pour l'essayer vous-même !</span><span class="sxs-lookup"><span data-stu-id="091b7-124">Download the sample file <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> and use it with this script to try it out yourself!</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReportImages {
@@ -89,6 +89,41 @@ interface ReportImages {
 }
 ```
 
-## <a name="training-video-extract-and-email-images-of-chart-and-table"></a><span data-ttu-id="60954-125">Vidéo de formation : extraire et envoyer des images par courrier électronique à un graphique et un tableau</span><span class="sxs-lookup"><span data-stu-id="60954-125">Training video: Extract and email images of chart and table</span></span>
+## <a name="power-automate-flow-email-the-chart-and-table-images"></a><span data-ttu-id="091b7-125">Power Automate flux : envoyer un e-mail aux images du graphique et du tableau</span><span class="sxs-lookup"><span data-stu-id="091b7-125">Power Automate flow: Email the chart and table images</span></span>
 
-<span data-ttu-id="60954-126">[![Regardez une vidéo pas à pas sur l'extraction et l'envoi par courrier électronique d'images de graphique et de tableau](../../images/charts-image-vid.jpg)](https://youtu.be/152GJyqc-Kw "Vidéo pas à pas sur l'extraction et l'envoi par courrier électronique d'images de graphique et de tableau")</span><span class="sxs-lookup"><span data-stu-id="60954-126">[![Watch step-by-step video on how to extract and email images of chart and table](../../images/charts-image-vid.jpg)](https://youtu.be/152GJyqc-Kw "Step-by-step video on how to extract and email images of chart and table")</span></span>
+<span data-ttu-id="091b7-126">Ce flux exécute le script et envoie par e-mail les images renvoyées.</span><span class="sxs-lookup"><span data-stu-id="091b7-126">This flow runs the script and emails the returned images.</span></span>
+
+1. <span data-ttu-id="091b7-127">Créez un **flux de cloud instantané.**</span><span class="sxs-lookup"><span data-stu-id="091b7-127">Create a new **Instant cloud flow**.</span></span>
+1. <span data-ttu-id="091b7-128">Sélectionnez **Déclencher manuellement un flux et** appuyez sur **Créer.**</span><span class="sxs-lookup"><span data-stu-id="091b7-128">Select **Manually trigger a flow** and press **Create**.</span></span>
+1. <span data-ttu-id="091b7-129">Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l'action Exécuter le script (prévisualisation). </span><span class="sxs-lookup"><span data-stu-id="091b7-129">Add a **New step** that uses the **Excel Online (Business)** connector with the **Run script (preview)** action.</span></span> <span data-ttu-id="091b7-130">Utilisez les valeurs suivantes pour l'action :</span><span class="sxs-lookup"><span data-stu-id="091b7-130">Use the following values for the action:</span></span>
+    * <span data-ttu-id="091b7-131">**Emplacement** : OneDrive Entreprise</span><span class="sxs-lookup"><span data-stu-id="091b7-131">**Location**: OneDrive for Business</span></span>
+    * <span data-ttu-id="091b7-132">**Bibliothèque de documents** : OneDrive</span><span class="sxs-lookup"><span data-stu-id="091b7-132">**Document Library**: OneDrive</span></span>
+    * <span data-ttu-id="091b7-133">**Fichier**: votre classeur [(sélectionné avec le sélecateur de fichiers)](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control)</span><span class="sxs-lookup"><span data-stu-id="091b7-133">**File**: Your workbook ([selected with the file chooser](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))</span></span>
+    * <span data-ttu-id="091b7-134">**Script**: nom de votre script</span><span class="sxs-lookup"><span data-stu-id="091b7-134">**Script**: Your script name</span></span>
+
+    :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Le connecteur Excel Online (Entreprise) dans Power Automate.":::
+1. <span data-ttu-id="091b7-136">Cet exemple utilise Outlook client de messagerie.</span><span class="sxs-lookup"><span data-stu-id="091b7-136">This sample uses Outlook as the email client.</span></span> <span data-ttu-id="091b7-137">Vous pouvez utiliser n'importe quel connecteur de messagerie Power Automate prend en charge, mais le reste des étapes suppose que vous avez choisi Outlook.</span><span class="sxs-lookup"><span data-stu-id="091b7-137">You could use any email connector Power Automate supports, but the rest of the steps assume that you chose Outlook.</span></span> <span data-ttu-id="091b7-138">Ajoutez **une nouvelle étape** qui utilise le connecteur **Office 365 Outlook** et l'action Envoyer et e-mail **(V2).**</span><span class="sxs-lookup"><span data-stu-id="091b7-138">Add a **New step** that uses the **Office 365 Outlook** connector and the **Send and email (V2)** action.</span></span> <span data-ttu-id="091b7-139">Utilisez les valeurs suivantes pour l'action :</span><span class="sxs-lookup"><span data-stu-id="091b7-139">Use the following values for the action:</span></span>
+    * <span data-ttu-id="091b7-140">**À**: Votre compte de messagerie de test (ou e-mail personnel)</span><span class="sxs-lookup"><span data-stu-id="091b7-140">**To**: Your test email account (or personal email)</span></span>
+    * <span data-ttu-id="091b7-141">**Objet :** Veuillez consulter les données du rapport</span><span class="sxs-lookup"><span data-stu-id="091b7-141">**Subject**: Please Review Report Data</span></span>
+    * <span data-ttu-id="091b7-142">Pour le **champ Corps,** sélectionnez « Affichage de code » ( `</>` ), puis entrez les entrées suivantes :</span><span class="sxs-lookup"><span data-stu-id="091b7-142">For the **Body** field, select "Code View" (`</>`) and enter the following:</span></span>
+
+    ```HTML
+    <p>Please review the following report data:<br>
+    <br>
+    Chart:<br>
+    <br>
+    <img src="data:image/png;base64,@{outputs('Run_script')?['body/result/chartImage']}"/>
+    <br>
+    Data:<br>
+    <br>
+    <img src="data:image/png;base64,@{outputs('Run_script')?['body/result/tableImage']}"/>
+    <br>
+    </p>
+    ```
+
+    :::image type="content" source="../../images/email-chart-sample-flow-2.png" alt-text="Connecteur de Office 365 Outlook terminé dans Power Automate.":::
+1. <span data-ttu-id="091b7-144">Enregistrez le flux et testez-le.</span><span class="sxs-lookup"><span data-stu-id="091b7-144">Save the flow and try it out.</span></span>
+
+## <a name="training-video-extract-and-email-images-of-chart-and-table"></a><span data-ttu-id="091b7-145">Vidéo de formation : extraire et envoyer des images par courrier électronique à un graphique et un tableau</span><span class="sxs-lookup"><span data-stu-id="091b7-145">Training video: Extract and email images of chart and table</span></span>
+
+<span data-ttu-id="091b7-146">[![Regardez une vidéo pas à pas sur l'extraction et l'envoi par courrier électronique d'images de graphique et de tableau](../../images/charts-image-vid.jpg)](https://youtu.be/152GJyqc-Kw "Vidéo pas à pas sur l'extraction et l'envoi par courrier électronique d'images de graphique et de tableau")</span><span class="sxs-lookup"><span data-stu-id="091b7-146">[![Watch step-by-step video on how to extract and email images of chart and table](../../images/charts-image-vid.jpg)](https://youtu.be/152GJyqc-Kw "Step-by-step video on how to extract and email images of chart and table")</span></span>
