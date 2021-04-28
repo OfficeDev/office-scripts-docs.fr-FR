@@ -89,6 +89,8 @@ items:
                 href: resources/samples/automate-tasks-on-all-excel-files-in-folder.md
               - name: Envoyer une invitation à Teams à partir de données Excel
                 href: resources/samples/send-teams-invite-from-excel-data.md
+              - name: Utiliser les appels externes de récupération à Office Scripts
+                href: resources/samples/external-fetch-calls.md
           - name: Scénarios
             items:
               - name: Analyser les téléchargements web
