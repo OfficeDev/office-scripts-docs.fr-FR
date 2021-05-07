@@ -3,12 +3,12 @@ title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 07/08/2020
 localization_priority: Priority
-ms.openlocfilehash: 2c2fd683e77a0dfbfd3e9df8c79db31e78ceee8b
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 685f83952fa6aecc660524a95dec57e149522820
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755062"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232388"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Principes de base des scripts pour Office Scripts dans Excel sur le web (préversion)
 
@@ -109,7 +109,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script crée les données suivantes dans la feuille de calcul active :
 
-:::image type="content" source="../images/range-sample.png" alt-text="Feuille de calcul contenant un enregistrement des ventes composé de lignes de valeurs, d’une colonne de formule et d’en-têtes formatés.":::
+:::image type="content" source="../images/range-sample.png" alt-text="Feuille de calcul contenant un enregistrement des ventes composé de lignes de valeurs, d’une colonne de formule et d’en-têtes formatés":::
 
 ### <a name="charts-tables-and-other-data-objects"></a>Graphiques, tableaux et autres objets de données
 
@@ -117,7 +117,7 @@ Les scripts peuvent créer et manipuler les structures de données et les visual
 
 #### <a name="creating-a-table"></a>Création d’un tableau
 
-Créez des tableaux à l’aide des plages de données remplies. Les contrôles de mise en forme et du tableau (par exemple, les filtres) sont automatiquement appliqués à la plage.
+Créez des tableaux à l’aide de plages remplies de données. Les contrôles de mise en forme et du tableau (par exemple, les filtres) sont automatiquement appliqués à la plage.
 
 L’exemple de code suivant crée un tableau à l’aide des plages de l’exemple précédent.
 
@@ -133,7 +133,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script sur la feuille de calcul avec les données précédentes crée le tableau suivant :
 
-:::image type="content" source="../images/table-sample.png" alt-text="Feuille de calcul contenant un tableau créé depuis l’enregistrement des ventes précédent.":::
+:::image type="content" source="../images/table-sample.png" alt-text="Feuille de calcul contenant un tableau créé depuis l’enregistrement des ventes précédent":::
 
 #### <a name="creating-a-chart"></a>Création d’un graphique
 
@@ -159,7 +159,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script sur la feuille de calcul avec le tableau précédent crée le graphique suivant :
 
-:::image type="content" source="../images/chart-sample.png" alt-text="Histogramme montrant les quantités pour trois des articles présents dans l’enregistrement des ventes précédent.":::
+:::image type="content" source="../images/chart-sample.png" alt-text="Histogramme montrant les quantités pour trois des articles présents dans l’enregistrement des ventes précédent":::
 
 ### <a name="collections-and-other-object-relations"></a>Collections et autres relations d’objets
 
