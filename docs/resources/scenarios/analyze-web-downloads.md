@@ -1,48 +1,39 @@
 ---
-title: 'Exemple de scénario de scripts Office : analyser les téléchargements web'
-description: Exemple qui prend des données de trafic Internet brutes dans un workbook Excel et détermine l'emplacement d'origine, avant d'organiser ces informations dans un tableau.
-ms.date: 12/17/2020
+title: 'Office Exemple de scénario de scripts : analyser les téléchargements web'
+description: Exemple qui prend des données de trafic Internet brutes dans un Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans une table.
+ms.date: 04/27/2021
 localization_priority: Normal
-ms.openlocfilehash: e351cd6c4a12e83a07a2f4ce5678d7aa10625118
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 6c5958e9957ca49c370ae34456236bdd15f41c44
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755034"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232710"
 ---
-# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Exemple de scénario de scripts Office : analyser les téléchargements web
+# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Office Exemple de scénario de scripts : analyser les téléchargements web
 
-Dans ce scénario, vous êtes chargé d'analyser les rapports de téléchargement à partir du site web de votre entreprise. L'objectif de cette analyse est de déterminer si le trafic web vient des États-Unis ou d'autres pays du monde.
+Dans ce scénario, vous êtes chargé d’analyser les rapports de téléchargement à partir du site web de votre entreprise. L’objectif de cette analyse est de déterminer si le trafic web vient des États-Unis ou d’autres pays du monde.
 
-Vos collègues téléchargent les données brutes dans votre workbook. Chaque ensemble de données de chaque semaine possède sa propre feuille de calcul. Il existe également la **feuille de calcul Résumé** avec un tableau et un graphique qui indiquent les tendances d'une semaine à l'autre.
+Vos collègues téléchargent les données brutes dans votre workbook. Chaque ensemble de données de chaque semaine possède sa propre feuille de calcul. Il existe également la **feuille de calcul Résumé** avec un tableau et un graphique qui indiquent les tendances d’une semaine à l’autre.
 
-Vous allez développer un script qui analyse les données de téléchargement hebdomadaires dans la feuille de calcul active. Elle permet d'évaluer l'adresse IP associée à chaque téléchargement et de déterminer si elle provenait ou non des États-Unis. La réponse est insérée dans la feuille de calcul sous la forme d'une valeur booléle (« TRUE » ou « FALSE ») et une mise en forme conditionnelle est appliquée à ces cellules. Les résultats de l'emplacement des adresses IP seront totaux dans la feuille de calcul et copiés dans le tableau récapitulatif.
+Vous allez développer un script qui analyse les données de téléchargement hebdomadaire dans la feuille de calcul active. Elle permet d’évaluer l’adresse IP associée à chaque téléchargement et de déterminer si elle provenait ou non des États-Unis. La réponse est insérée dans la feuille de calcul sous la forme d’une valeur booléle (« TRUE » ou « FALSE ») et une mise en forme conditionnelle est appliquée à ces cellules. Les résultats de l’emplacement des adresses IP seront totaux dans la feuille de calcul et copiés dans le tableau récapitulatif.
 
-## <a name="scripting-skills-covered"></a>Compétences d'écriture de scripts couvertes
+## <a name="scripting-skills-covered"></a>Compétences d’écriture de scripts couvertes
 
-- L'l ment de texte
+- L’l ment de texte
 - Sous-fonctions dans les scripts
 - Mise en forme conditionnelle
 - Tables
 
-## <a name="demo-video"></a>Vidéo de démonstration
-
-Cet exemple a été rétrogradé dans le cadre de l'appel de la communauté des développeurs de applications Office pour février 2020.
-
-> [!VIDEO https://www.youtube.com/embed/vPEqbb7t6-Y?start=154]
-
-> [!NOTE]
-> Le code présenté dans cette vidéo utilise un modèle d'API plus ancien (api [Async de scripts Office).](../../develop/excel-async-model.md) L'exemple présenté sur cette page a été mis à jour, mais le code est légèrement différent de l'enregistrement. Les modifications n'affectent pas le comportement du script ou de l'autre contenu de la démonstration du présentateur.
-
-## <a name="setup-instructions"></a>Instructions d'installation
+## <a name="setup-instructions"></a>Instructions d’installation
 
 1. Téléchargez <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> sur votre OneDrive.
 
-2. Ouvrez le manuel avec Excel pour le web.
+2. Ouvrez le Excel sur le Web.
 
-3. Sous **l'onglet Automatiser,** ouvrez **Tous les scripts.**
+3. Sous **l’onglet Automatiser,** ouvrez **Tous les scripts.**
 
-4. Dans le **volet Des tâches de** l'Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l'éditeur.
+4. Dans le **volet Des tâches de** l’Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -218,18 +209,18 @@ Cet exemple a été rétrogradé dans le cadre de l'appel de la communauté des 
     }
     ```
 
-5. Renommez le script pour **analyser les téléchargements web** et enregistrez-le.
+5. Renommez le script pour **analyser les téléchargements Web** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Accédez à l'une **des feuilles de \* \*** calcul Semaine et exécutez le script **Analyser les téléchargements web.** Le script appliquera la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
+Accédez à l’une **des feuilles de \* \*** calcul Semaine et exécutez le script **Analyser les téléchargements web.** Le script appliquera la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
 
-### <a name="before-running-the-script"></a>Avant d'exécution du script
+### <a name="before-running-the-script"></a>Avant d’exécution du script
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Feuille de calcul qui affiche les données brutes du trafic web.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Feuille de calcul qui affiche les données brutes du trafic web":::
 
-### <a name="after-running-the-script"></a>Après l'exécution du script
+### <a name="after-running-the-script"></a>Après l’exécution du script
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Feuille de calcul qui affiche des informations d'emplacement IP formatées avec les lignes de trafic web précédentes.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Feuille de calcul qui affiche des informations d’emplacement IP formatées avec les lignes de trafic web précédentes":::
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Tableau récapitulatif et graphique récapitulant les feuilles de calcul sur lesquelles le script a été exécuté.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Tableau récapitulatif et graphique récapitulant les feuilles de calcul sur lesquelles le script a été exécuté":::

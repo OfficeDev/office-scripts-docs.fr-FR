@@ -1,26 +1,26 @@
 ---
 title: Gérer le mode de calcul dans Excel
-description: Découvrez comment utiliser Office Scripts pour gérer le mode de calcul dans Excel sur le web.
-ms.date: 03/18/2021
+description: Découvrez comment utiliser Office Scripts pour gérer le mode de calcul dans Excel sur le Web.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 0239437c7b52dca1fd8d1a4fc66bab7965cbd91a
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 34a14874197ffda8487df5e450e3dcab980f7ed5
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571281"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232451"
 ---
 # <a name="manage-calculation-mode-in-excel"></a>Gérer le mode de calcul dans Excel
 
-Cet exemple montre comment utiliser le [mode de calcul](/javascript/api/office-scripts/excelscript/excelscript.calculationmode) et calculer des méthodes dans Excel sur le web à l’aide de Scripts Office. Vous pouvez essayer le script sur n’importe quel fichier Excel.
+Cet exemple montre comment utiliser le [mode de calcul](/javascript/api/office-scripts/excelscript/excelscript.calculationmode) et calculer des méthodes dans Excel sur le Web à l’aide Office scripts. Vous pouvez essayer le script sur n’importe Excel fichier.
 
 ## <a name="scenario"></a>Scénario
 
-Dans Excel sur le web, le mode de calcul d’un fichier peut être contrôlé par programme à l’aide d’API. Les actions suivantes sont possibles à l’aide des scripts Office.
+Dans Excel sur le Web, le mode de calcul d’un fichier peut être contrôlé par programme à l’aide d’API. Les actions suivantes sont possibles à l’aide Office scripts.
 
 1. Obtenir le mode de calcul.
 1. Définissez le mode de calcul.
-1. Calculer des formules Excel pour les fichiers qui sont définies en mode manuel (également appelé recalcul).
+1. Calculez Excel formules pour les fichiers qui sont définies en mode manuel (également appelé recalcul).
 
 ## <a name="sample-code-control-calculation-mode"></a>Exemple de code : mode de calcul de contrôle
 
@@ -38,4 +38,4 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="training-video-manage-calculation-mode"></a>Vidéo de formation : gérer le mode de calcul
 
-[![Regardez une vidéo pas à pas sur la gestion du mode de calcul dans Excel sur le web](../../images/calc-mode-vid.jpg)](https://youtu.be/iw6O8QH01CI "Vidéo pas à pas sur la gestion du mode de calcul dans Excel sur le web")
+[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/iw6O8QH01CI).

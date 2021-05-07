@@ -1,37 +1,37 @@
 ---
-title: 'Exemple de scénario de scripts Office : calculatrice de notes'
-description: Exemple qui détermine le pourcentage et les notes de lettre d'une classe d'étudiants.
+title: 'Office Exemple de scénario de scripts : calculatrice de notes'
+description: Exemple qui détermine le pourcentage et les notes de lettre d’une classe d’étudiants.
 ms.date: 12/17/2020
 localization_priority: Normal
-ms.openlocfilehash: b8c45ad405c06a943c75e76391c1160ecb1bd18e
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: e2ef6e7522fc88219bf6ba40900a1ecceecb263b
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755027"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232696"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a>Exemple de scénario de scripts Office : calculatrice de notes
+# <a name="office-scripts-sample-scenario-grade-calculator"></a>Office Exemple de scénario de scripts : calculatrice de notes
 
-Dans ce scénario, vous êtes un instructeur qui compte les notes de fin de terme de chaque étudiant. You've been entering the scores for their assignments and tests as you go. À présent, il est temps de déterminer les écoles des étudiants.
+Dans ce scénario, vous êtes un instructeur qui compte les notes de fin de terme de chaque étudiant. You’ve been entering the scores for their assignments and tests as you go. À présent, il est temps de déterminer les écoles des étudiants.
 
-Vous allez développer un script qui totale les notes pour chaque catégorie de points. Il affecte ensuite une note de lettre à chaque étudiant en fonction du total. Pour garantir la précision, vous allez ajouter quelques vérifications pour voir si des scores individuels sont trop faibles ou élevés. Si le score d'un étudiant est inférieur à zéro ou supérieur à la valeur de point possible, le script marquera la cellule avec un remplissage rouge et non le total des points de cet étudiant. Il s'agit d'une indication claire des enregistrements que vous devez vérifier. Vous allez également ajouter une mise en forme de base aux notes afin de pouvoir afficher rapidement le haut et le bas du cours.
+Vous allez développer un script qui totale les notes pour chaque catégorie de points. Il affecte ensuite une note de lettre à chaque étudiant en fonction du total. Pour garantir la précision, vous allez ajouter quelques vérifications pour voir si des scores individuels sont trop faibles ou élevés. Si le score d’un étudiant est inférieur à zéro ou supérieur à la valeur de point possible, le script marquera la cellule avec un remplissage rouge et non le total des points de cet étudiant. Il s’agit d’une indication claire des enregistrements que vous devez vérifier. Vous allez également ajouter une mise en forme de base aux notes afin de pouvoir afficher rapidement le haut et le bas du cours.
 
-## <a name="scripting-skills-covered"></a>Compétences d'écriture de scripts couvertes
+## <a name="scripting-skills-covered"></a>Compétences d’écriture de scripts couvertes
 
 - Mise en forme des cellules
 - Vérification des erreurs
 - Expressions régulières
 - Mise en forme conditionnelle
 
-## <a name="setup-instructions"></a>Instructions d'installation
+## <a name="setup-instructions"></a>Instructions d’installation
 
 1. Téléchargez <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> sur votre OneDrive.
 
-2. Ouvrez le manuel avec Excel pour le web.
+2. Ouvrez le Excel sur le Web.
 
-3. Sous **l'onglet Automatiser,** ouvrez **Tous les scripts.**
+3. Sous **l’onglet Automatiser,** ouvrez **Tous les scripts.**
 
-4. Dans le **volet Des tâches de** l'Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l'éditeur.
+4. Dans le **volet Des tâches de** l’Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -174,16 +174,16 @@ Vous allez développer un script qui totale les notes pour chaque catégorie de 
     }
     ```
 
-5. Renommez le script en calculateur **de notes** et enregistrez-le.
+5. Renommez le script en calculateur **de** notes et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Exécutez le script **Calculatrice de** notes sur la seule feuille de calcul. Le script totalera les notes et attribuera à chaque étudiant une note de lettre. Si des notes individuelles ont plus de points que la valeur de l'affectation ou du test, la note incriminée est marquée en rouge et le total n'est pas calculé. En outre, les notes « A » sont mises en surbrillant en vert, tandis que les notes « D » et « F » sont en jaune.
+Exécutez le script **Calculatrice de** notes sur la seule feuille de calcul. Le script totalera les notes et attribuera à chaque étudiant une note de lettre. Si des notes individuelles ont plus de points que la valeur de l’affectation ou du test, la note incriminée est marquée en rouge et le total n’est pas calculé. En outre, les notes « A » sont mises en surbrillant en vert, tandis que les notes « D » et « F » sont en jaune.
 
-### <a name="before-running-the-script"></a>Avant d'exécution du script
+### <a name="before-running-the-script"></a>Avant d’exécution du script
 
-:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Feuille de calcul qui affiche des lignes de scores pour les étudiants.":::
+:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Feuille de calcul qui affiche des lignes de scores pour les étudiants":::
 
-### <a name="after-running-the-script"></a>Après l'exécution du script
+### <a name="after-running-the-script"></a>Après l’exécution du script
 
-:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données des scores des étudiants avec des cellules non valides dans des totaux rouges pour les lignes d'étudiants valides.":::
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données des scores des étudiants avec des cellules non valides dans des totaux rouges pour les lignes d’étudiants valides":::

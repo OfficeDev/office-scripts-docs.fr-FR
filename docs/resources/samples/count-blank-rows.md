@@ -1,14 +1,14 @@
 ---
 title: Compter les lignes vides sur les feuilles
-description: Découvrez comment utiliser les scripts Office pour détecter s'il existe des lignes vides au lieu de données dans les feuilles de calcul, puis signaler le nombre de lignes vierges à utiliser dans un flux Power Automate.
+description: Découvrez comment utiliser des scripts Office pour détecter s’il existe des lignes vides au lieu de données dans des feuilles de calcul, puis signaler le nombre de lignes vierges à utiliser dans un flux Power Automate données.
 ms.date: 03/31/2021
 localization_priority: Normal
-ms.openlocfilehash: 088ab97c686484ca5c13c875b80431ac28d20736
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: db84f2446c168f867c325a05129fe982c9645731
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754830"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232584"
 ---
 # <a name="count-blank-rows-on-sheets"></a>Compter les lignes vides sur les feuilles
 
@@ -22,11 +22,11 @@ Ce projet comprend deux scripts :
 
 _Cette feuille renvoie le nombre de 4 lignes vides_
 
-:::image type="content" source="../../images/blank-rows.png" alt-text="Feuille de calcul affichant des données avec des lignes vides.":::
+:::image type="content" source="../../images/blank-rows.png" alt-text="Feuille de calcul affichant des données avec des lignes vides":::
 
 _Cette feuille renvoie le nombre de 0 lignes vides (toutes les lignes ont des données)_
 
-:::image type="content" source="../../images/no-blank-rows.png" alt-text="Feuille de calcul montrant les données sans lignes vides.":::
+:::image type="content" source="../../images/no-blank-rows.png" alt-text="Feuille de calcul affichant des données sans lignes vides":::
 
 ## <a name="sample-code-count-blank-rows-on-a-given-sheet"></a>Exemple de code : compter les lignes vides sur une feuille donnée
 
@@ -90,6 +90,6 @@ function main(workbook: ExcelScript.Workbook): number
 }
 ```
 
-## <a name="use-with-power-automate"></a>Utilisation avec Power Automate
+## <a name="use-with-power-automate"></a>À utiliser avec Power Automate
 
-:::image type="content" source="../../images/use-in-power-automate.png" alt-text="Flux Power Automate montrant comment configurer pour exécuter un script Office.":::
+:::image type="content" source="../../images/use-in-power-automate.png" alt-text="Flux de Power Automate montrant comment configurer pour exécuter un script Office script":::

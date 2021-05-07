@@ -1,35 +1,35 @@
 ---
-title: Déplacer des lignes entre des tableaux à l'aide de Scripts Office
-description: Découvrez comment déplacer des lignes d'une table à l'autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
-ms.date: 03/30/2021
+title: Déplacer des lignes entre des tableaux à l’aide Office Scripts
+description: Découvrez comment déplacer des lignes d’une table à l’autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 1adaeee1c8307d7775529496df115563831aed4d
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 959fb002b0ba485b43f4de7de3004e1074f768a7
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755041"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232752"
 ---
 # <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a>Déplacer des lignes entre des tableaux en enregistrement des filtres, puis en traitant et réappliquer les filtres
 
 Ce script effectue les opérations suivantes :
 
-* Sélectionne des lignes dans la table source où la valeur d'une colonne est égale à _une valeur._
-* Déplace toutes les lignes sélectionnées dans un autre tableau (cible) d'une autre feuille de calcul.
+* Sélectionne des lignes dans la table source où la valeur d’une colonne est égale à _une valeur._
+* Déplace toutes les lignes sélectionnées dans un autre tableau (cible) d’une autre feuille de calcul.
 * Réapplicité des filtres pertinents sur la table source.
 
-:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Captures d'écran du workbook avant et après":::
+:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Captures d’écran du workbook avant et après":::
 
 Il existe deux scripts dans cette solution. La principale différence est la façon dont les lignes sont sélectionnées.
 
 * Dans la [première variante, les](#sample-code-move-rows-using-table-filter)lignes sont sélectionnées en appliquant le filtre de tableau et en lisant la plage visible.
 * Dans la [seconde,](#sample-code-move-rows-using-range-values)les lignes sont sélectionnées en lisant les valeurs et en extrayant les valeurs de ligne.
 
-## <a name="sample-excel-file"></a>Exemple de fichier Excel
+## <a name="sample-excel-file"></a>Exemple Excel fichier
 
-Téléchargez le fichier <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> utilisé dans cette solution pour l'essayer vous-même !
+Téléchargez le fichier <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> utilisé dans cette solution pour l’essayer vous-même !
 
-## <a name="sample-code-move-rows-using-table-filter"></a>Exemple de code : déplacer des lignes à l'aide d'un filtre de tableau
+## <a name="sample-code-move-rows-using-table-filter"></a>Exemple de code : déplacer des lignes à l’aide d’un filtre de tableau
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -146,7 +146,7 @@ function reApplyFilters(sourceTable: ExcelScript.Table, columnNameFilteredOn: st
 }
 ```
 
-## <a name="sample-code-move-rows-using-range-values"></a>Exemple de code : déplacer des lignes à l'aide de valeurs de plage
+## <a name="sample-code-move-rows-using-range-values"></a>Exemple de code : déplacer des lignes à l’aide de valeurs de plage
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -249,4 +249,4 @@ function reApplyFilters(sourceTable: ExcelScript.Table, columnNameFilteredOn: st
 
 ## <a name="training-video-move-rows-across-tables"></a>Vidéo de formation : déplacer des lignes dans des tableaux
 
-[![Regardez une vidéo pas à pas sur la façon de déplacer des lignes dans des tableaux](../../images/move-rows-filters-vid.jpg)](https://youtu.be/_3t3Pk4i2L0 "Vidéo pas à pas sur le déplacement de lignes dans des tableaux")
+[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/_3t3Pk4i2L0).

@@ -3,29 +3,29 @@ title: Utilisation d’objets JavaScript intégrés dans les scripts Office
 description: Comment appeler des API JavaScript intégrées à partir d’un script Office dans Excel sur le Web.
 ms.date: 07/16/2020
 localization_priority: Normal
-ms.openlocfilehash: 4bb5fb5444887005ececbbfdf0130cba3784e0c4
-ms.sourcegitcommit: 8d549884e68170f808d3d417104a4451a37da83c
+ms.openlocfilehash: e3b36265f235678eee18fbf369058b165da46210
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229595"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232402"
 ---
 # <a name="using-built-in-javascript-objects-in-office-scripts"></a>Utilisation d’objets JavaScript intégrés dans les scripts Office
 
-JavaScript fournit plusieurs objets intégrés que vous pouvez utiliser dans vos scripts Office, qu’il s’agisse de scripts JavaScript ou [dactylographiés](../overview/code-editor-environment.md) (un sur-ensemble de JavaScript). Cet article explique comment utiliser certains objets JavaScript intégrés dans les scripts Office pour Excel sur le Web.
+JavaScript fournit plusieurs objets intégrés que vous pouvez utiliser dans vos scripts Office, que vous mentiez dans JavaScript ou [TypeScript](../overview/code-editor-environment.md) (un sur-ensemble de JavaScript). Cet article explique comment utiliser certains des objets JavaScript intégrés dans Office Scripts pour Excel sur le Web.
 
 > [!NOTE]
-> Pour obtenir la liste complète de tous les objets JavaScript intégrés, consultez l’article [objets intégrés standard](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects) de Mozilla.
+> Pour obtenir la liste complète de tous les objets JavaScript intégrés, voir l’article sur les objets [intégrés Standard](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects) de Mozilla.
 
 ## <a name="array"></a>Tableau
 
-L’objet [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) offre un moyen standardisé de travailler avec des tableaux dans votre script. Bien que les tableaux soient des constructions JavaScript standard, ils sont liés aux scripts Office de deux manières principales : les plages et les collections.
+[L’objet Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) fournit un moyen standard de travailler avec des tableaux dans votre script. Bien que les tableaux soient des constructions JavaScript standard, ils sont liés Office scripts de deux manières principales : plages et collections.
 
-### <a name="working-with-ranges"></a>Utilisation des plages
+### <a name="working-with-ranges"></a>Travailler avec des plages
 
-Les plages contiennent plusieurs tableaux à deux dimensions qui correspondent directement aux cellules de cette plage. Ces tableaux contiennent des informations spécifiques sur chaque cellule de cette plage. Par exemple, `Range.getValues` renvoie toutes les valeurs de ces cellules (avec les lignes et les colonnes du mappage de tableau à deux dimensions sur les lignes et les colonnes de cette sous-section de feuille de calcul). `Range.getFormulas`et `Range.getNumberFormats` sont d’autres méthodes fréquemment utilisées qui retournent des tableaux comme `Range.getValues` .
+Les plages contiennent plusieurs tableaux à deux dimensions qui sont directement map faits sur les cellules de cette plage. Ces tableaux contiennent des informations spécifiques sur chaque cellule de cette plage. Par exemple, renvoie toutes les valeurs de ces cellules (avec les lignes et les colonnes du mappage de tableau à deux dimensions sur les lignes et les colonnes de cette sous-section de feuille `Range.getValues` de calcul). `Range.getFormulas` et `Range.getNumberFormats` sont d’autres méthodes fréquemment utilisées qui retournent des tableaux tels que `Range.getValues` .
 
-Le script suivant recherche dans la plage **a1 : D4** le format de nombre contenant un « $ ». Le script définit la couleur de remplissage de ces cellules sur « jaune ».
+Le script suivant recherche dans la plage **A1:D4** n’importe quel format de nombre contenant un « $ ». Le script définit la couleur de remplissage de ces cellules sur « jaune ».
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -48,14 +48,14 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="working-with-collections"></a>Utilisation des collections
+### <a name="working-with-collections"></a>Travailler avec des collections
 
-De nombreux objets Excel sont contenus dans une collection. La collection est gérée par l’API de scripts Office et exposée sous forme de tableau. Par exemple, toutes les [formes](/javascript/api/office-scripts/excelscript/excelscript.shape) d’une feuille de calcul sont contenues dans un `Shape[]` qui est renvoyé par la `Worksheet.getShapes` méthode. Vous pouvez utiliser ce tableau pour lire des valeurs à partir de la collection, ou pour accéder à des objets spécifiques à partir des méthodes de l’objet parent `get*` .
+De Excel objets sont contenus dans une collection. La collection est gérée par l’API Office Scripts et exposée sous la mesure d’un tableau. Par exemple, toutes [les formes](/javascript/api/office-scripts/excelscript/excelscript.shape) d’une feuille de calcul sont contenues dans une forme `Shape[]` renvoyée par la `Worksheet.getShapes` méthode. Vous pouvez utiliser ce tableau pour lire les valeurs de la collection ou accéder à des objets spécifiques à partir des méthodes de l’objet `get*` parent.
 
 > [!NOTE]
-> N’ajoutez pas ou ne supprimez pas manuellement des objets de ces tableaux de collections. Utilisez les `add` méthodes sur les objets parents et les `delete` méthodes sur les objets de type collection. Par exemple, ajoutez une [table](/javascript/api/office-scripts/excelscript/excelscript.table) à une [feuille de calcul](/javascript/api/office-scripts/excelscript/excelscript.worksheet) avec la `Worksheet.addTable` méthode et supprimez l' `Table` using `Table.delete` .
+> N’ajoutez pas ou ne supprimez pas manuellement des objets de ces tableaux de collections. Utilisez les méthodes sur les objets parents et les méthodes sur les objets `add` `delete` de type collection. Par exemple, ajoutez un [tableau à](/javascript/api/office-scripts/excelscript/excelscript.table) une [feuille de](/javascript/api/office-scripts/excelscript/excelscript.worksheet) calcul avec la méthode `Worksheet.addTable` et supprimez l’utilisation. `Table` `Table.delete`
 
-Le script suivant journalise le type de chaque forme dans la feuille de calcul active.
+Le script suivant enregistre le type de chaque forme dans la feuille de calcul actuelle.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -72,7 +72,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Le script suivant supprime la forme la plus ancienne dans la feuille de calcul active.
+Le script suivant supprime la forme la plus ancienne dans la feuille de calcul actuelle.
 
 ```Typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -90,9 +90,9 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="date"></a>Date
 
-L’objet [Date](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date) fournit une méthode standardisée pour utiliser des dates dans votre script. `Date.now()`génère un objet avec la date et l’heure actuelles, ce qui est utile lors de l’ajout d’horodatages à l’entrée de données de votre script.
+[L’objet Date](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date) fournit un moyen standard de travailler avec les dates dans votre script. `Date.now()` génère un objet avec la date et l’heure actuelles, ce qui est utile lors de l’ajout d’timestamps à l’entrée de données de votre script.
 
-Le script suivant ajoute la date actuelle à la feuille de calcul. À l’aide de la `toLocaleDateString` méthode, Excel reconnaît la valeur comme une date et modifie automatiquement le format numérique de la cellule.
+Le script suivant ajoute la date actuelle à la feuille de calcul. Notez qu’à l’aide de la méthode, Excel la valeur en tant que date et modifie automatiquement le format numérique `toLocaleDateString` de la cellule.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -107,13 +107,13 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-La section [utiliser les dates](../resources/excel-samples.md#dates) des exemples contient davantage de scripts liés à la date.
+La section [Travailler avec les dates](../resources/samples/excel-samples.md#dates) des exemples contient davantage de scripts liés à la date.
 
 ## <a name="math"></a>Mathématiques
 
-L’objet [Math](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math) fournit des méthodes et des constantes pour les opérations mathématiques courantes. Elles offrent de nombreuses fonctions également disponibles dans Excel, sans qu’il soit nécessaire d’utiliser le moteur de calcul du classeur. Cela évite que votre script interroge le classeur, ce qui améliore les performances.
+[L’objet Math](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math) fournit des méthodes et des constantes pour les opérations mathématiques courantes. Celles-ci fournissent de nombreuses fonctions également disponibles dans Excel, sans avoir besoin d’utiliser le moteur de calcul dubook. Cela permet d’éviter à votre script d’avoir à interroger le workbook, ce qui améliore les performances.
 
-Le script suivant utilise `Math.min` pour rechercher et consigner le plus petit nombre de la plage **a1 : D4** . Notez que cet exemple suppose que la plage entière ne contienne que des nombres, et non des chaînes.
+Le script suivant utilise pour rechercher et enregistrer le plus petit nombre dans la plage `Math.min` **A1:D4.** Notez que cet exemple suppose que la plage entière contient uniquement des nombres, et non des chaînes.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -142,9 +142,9 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="use-of-external-javascript-libraries-is-not-supported"></a>L’utilisation de bibliothèques JavaScript externes n’est pas prise en charge
 
-Les scripts Office ne prennent pas en charge l’utilisation de bibliothèques tierces externes. Votre script peut uniquement utiliser les objets JavaScript intégrés et les API de scripts Office.
+Office Les scripts ne supportent pas l’utilisation de bibliothèques externes tierces. Votre script peut uniquement utiliser les objets JavaScript intégrés et les API Office Scripts.
 
 ## <a name="see-also"></a>Voir aussi
 
 - [Objets intégrés standard](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects)
-- [Environnement de l’éditeur de code des scripts Office](../overview/code-editor-environment.md)
+- [Office Environnement d’éditeur de code scripts](../overview/code-editor-environment.md)

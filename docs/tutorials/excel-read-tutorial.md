@@ -3,12 +3,12 @@ title: Lire les données d’un classeur avec les scripts Office d’Excel pour 
 description: Didacticiel des scripts Office sur la lecture de données à partir de classeurs et l’évaluation de ces données dans le script.
 ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: d6321cb91a425da3fd45329d5171f1d5694b2b99
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 979ad949f999f67ee9de750c53ba4690ce6294e6
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754854"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232850"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 
@@ -71,7 +71,7 @@ Dans le reste du didacticiel, nous allons normaliser ces données à l’aide d�
 6. Exécutez le script.
 7. Dans la console, `[Array[1]]` doit s’afficher. Ce n’est pas un nombre, car les plages sont des tableaux de données à deux dimensions. Cette plage à deux dimensions est directement journalisée dans la console. Heureusement, l’éditeur de code vous permet de voir le contenu du tableau.
 8. Lorsqu’un tableau à deux dimensions est journalisé sur la console, il regroupe les valeurs de colonne sous chaque ligne. Développez le journal du tableau en appuyant sur le triangle bleu.
-9. Développez le deuxième niveau du tableau en appuyant sur le triangle bleu nouvellement affiché. Voici ce que vous devez voir :
+9. Développez le deuxième niveau du tableau en appuyant sur le triangle bleu nouvellement affiché. Ceci devrait s’afficher :
 
     :::image type="content" source="../images/tutorial-4.png" alt-text="Journal de la console affichant la sortie « −20,05 », imbriquée sous deux tableaux":::
 
@@ -143,10 +143,10 @@ Maintenant que nous avons vu comment lire et écrire dans une seule cellule, con
 
     Voici ce à quoi doit maintenant ressembler le relevé bancaire :
 
-    :::image type="content" source="../images/tutorial-5.png" alt-text="Une feuille de calcul affichant le relevé bancaire sous la forme d’un tableau mis en forme avec uniquement des valeurs positives":::
+    :::image type="content" source="../images/tutorial-5.png" alt-text="Une feuille de calcul affichant le relevé bancaire sous la forme d’un tableau mis en forme avec des valeurs positives uniquement":::
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Ouvrez l’éditeur de code et testez quelques-uns de nos [Exemples de scripts pour Scripts Office dans Excel pour le web](../resources/excel-samples.md). Vous pouvez également consulter [Principes de base des scripts Office dans Excel pour le web](../develop/scripting-fundamentals.md) pour en savoir plus sur la création de scripts Office.
+Ouvrez l’éditeur de code et testez quelques-uns de nos [Exemples de scripts pour Scripts Office dans Excel pour le web](../resources/samples/excel-samples.md). Vous pouvez également consulter [Principes de base des scripts Office dans Excel pour le web](../develop/scripting-fundamentals.md) pour en savoir plus sur la création de scripts Office.
 
 La prochaine série de didacticiels sur les scripts Office met l’accent sur l’utilisation de scripts Office avec Power Automate. Si vous souhaitez en savoir plus sur les avantages de la combinaison des deux plateformes, veuillez consulter [Exécuter des scripts Office avec Power Automate](../develop/power-automate-integration.md). Vous pouvez également essayer le didacticiel [Appeler des scripts à partir d’un flux manuel Power Automate](excel-power-automate-manual.md) pour créer un flux Power Automate utilisant un script Office.

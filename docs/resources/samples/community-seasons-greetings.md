@@ -1,26 +1,26 @@
 ---
 title: Message d’accueil de saison
-description: Découvrez comment utiliser des scripts Office pour afficher une arborescence d'arbre d'arbre Excel sur le Web.
-ms.date: 04/02/2021
+description: Découvrez comment utiliser des scripts Office pour afficher une arborescence d’arbre d’arbre Excel sur le Web.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: d0f50cf32c3b5c9b098813b3e8dc07dbb4367c25
-ms.sourcegitcommit: 1f003c9924e651600c913d84094506125f1055ab
+ms.openlocfilehash: a328ba66fedc245ff73300d7f47cd339ec87234f
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52026911"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232577"
 ---
 # <a name="seasons-greetings"></a>Message d’accueil de saison
 
-Ce script a été fourni par [Megan Black](https://www.linkedin.com/in/lesblackconsultant/) lors de la période des congés ! Il s'agit d'un script amusant qui affiche une arborescence d'arbre d'arborescence Excel sur le Web l'Office scripts.
+Ce script a été fourni par [Megan Black](https://www.linkedin.com/in/lesblackconsultant/) lors de la période des congés ! Il s’agit d’un script amusant qui affiche une arborescence d’arbre d’arborescence Excel sur le Web l’Office scripts.
 
 Profitez!.
 
-[![Regardez le script de message d'accueil de bienvenue en action](../../images/community-seasons.png)](https://youtu.be/HBiGEkzmkgo "Script de message d'accueil de message d'accueil en action !")
+[Regardez le script de message d’accueil « Les’s IT Blog » en action sur la chaîne YouTube « Les’s IT Blog](https://youtu.be/HBiGEkzmkgo)».
 
 ## <a name="script"></a>Script
 
-Téléchargez le fichier <a href="happy-tree.xlsx">happy-tree.xlsx</a> utilisé dans cette solution pour l'essayer vous-même !
+Téléchargez le fichier <a href="happy-tree.xlsx">happy-tree.xlsx</a> utilisé dans cette solution pour l’essayer vous-même !
 
 ```TypeScript
 /* Original version by Leslie Black.  */

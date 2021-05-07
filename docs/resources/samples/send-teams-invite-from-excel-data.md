@@ -1,23 +1,23 @@
 ---
-title: Envoyer une réunion Teams à partir de données Excel
-description: Découvrez comment utiliser des scripts Office pour envoyer une réunion Teams à partir de données Excel.
-ms.date: 03/30/2021
+title: Envoyer une réunion Teams à partir de Excel données
+description: Découvrez comment utiliser des scripts Office pour envoyer une Teams à partir de Excel données.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 807c9228049504c089c8dafe63a5d9ccaab94399
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: b0a3d5732727fd399fe34f3645336840ba4c156d
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571285"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232731"
 ---
-# <a name="send-teams-meeting-from-excel-data"></a>Envoyer une réunion Teams à partir de données Excel
+# <a name="send-teams-meeting-from-excel-data"></a>Envoyer Teams réunion à partir de Excel données
 
-Cette solution indique comment utiliser des actions Office Scripts et Power Automate pour sélectionner des lignes à partir d’un fichier Excel et l’utiliser pour envoyer une invitation à une réunion Teams, puis mettre à jour Excel.
+Cette solution indique comment utiliser des scripts Office et des actions Power Automate pour sélectionner des lignes dans un fichier Excel et l’utiliser pour envoyer une invitation à une réunion Teams puis mettre à jour Excel.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-* Un recrutement RH gère la planification des entretiens des candidats dans un fichier Excel.
-* Le recrutement doit envoyer l’invitation à la réunion Teams au candidat et aux enquêteurs. Les règles métiers sont à sélectionner :
+* Un recrutement RH gère la planification des entretiens des candidats dans un fichier Excel de travail.
+* Le recrutement doit envoyer l’invitation Teams réunion au candidat et aux enquêteurs. Les règles métiers sont à sélectionner :
 
     (a) Invite uniquement les personnes pour lesquelles l’invitation n’est pas déjà envoyée comme enregistrée dans la colonne de fichier.
 
@@ -27,11 +27,11 @@ Cette solution indique comment utiliser des actions Office Scripts et Power Auto
 
 La solution est en 3 parties :
 
-1. Script Office pour extraire des données d’une table en fonction des conditions et renvoie un tableau d’objets en tant que données JSON.
-1. Les données sont ensuite envoyées à l’action Créer une réunion **Teams teams** pour envoyer des invitations. Envoyez une réunion Teams par instance dans le tableau JSON.
-1. Envoyez les mêmes données JSON à un autre script Office pour mettre à jour l’état de l’invitation.
+1. Office Script pour extraire des données d’une table en fonction des conditions et renvoie un tableau d’objets en tant que données JSON.
+1. Les données sont ensuite envoyées au Teams **créer une** action Teams réunion pour envoyer des invitations. Envoyez une Teams réunion par instance dans le tableau JSON.
+1. Envoyez les mêmes données JSON à un autre Office script pour mettre à jour l’état de l’invitation.
 
-## <a name="sample-excel-file"></a>Exemple de fichier Excel
+## <a name="sample-excel-file"></a>Exemple Excel fichier
 
 Téléchargez le fichier <a href="hr-schedule.xlsx">hr-schedule.xlsx</a> utilisé dans cette solution et testez-le vous-même !
 
@@ -228,6 +228,6 @@ interface InterviewInvite  {
 }
 ```
 
-## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Vidéo de formation : envoyer une réunion Teams à partir de données Excel
+## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Vidéo de formation : envoyer une Teams réunion à partir Excel données
 
-[![Regardez une vidéo pas à pas sur l’envoi d’une réunion Teams à partir de données Excel](../../images/teams-invite-vid.jpg)](https://youtu.be/HyBdx52NOE8 "Vidéo pas à pas sur l’envoi d’une réunion Teams à partir de données Excel")
+[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/HyBdx52NOE8).

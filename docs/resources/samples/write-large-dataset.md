@@ -1,20 +1,20 @@
 ---
 title: Optimisation des performances lors de l’écriture d’un jeu de données de grande taille
-description: Découvrez comment optimiser les performances lors de l’écriture d’un jeu de données de grande taille dans les scripts Office.
-ms.date: 03/04/2021
+description: Découvrez comment optimiser les performances lors de l’écriture d’un jeu de données de grande Office scripts.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 190072e58238be95a2939f73dcda077ed91db848
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: dcbcf156ef624c4c5ce35c44d501286d507d9c40
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571260"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232717"
 ---
 # <a name="performance-optimization-when-writing-a-large-dataset"></a>Optimisation des performances lors de l’écriture d’un jeu de données de grande taille
 
 ## <a name="basic-performance-optimization"></a>Optimisation des performances de base
 
-Pour obtenir des informations de base sur les performances dans Les scripts Office, consultez la [section sur](getting-started.md#basic-performance-considerations) les performances de l’article de mise en place.
+Pour obtenir des informations de base sur les performances dans Office Scripts, voir la [section sur](getting-started.md#basic-performance-considerations) les performances de l’article de mise en place.
 
 ## <a name="sample-code-optimize-performance-of-a-large-dataset"></a>Exemple de code : optimiser les performances d’un jeu de données de grande taille
 
@@ -153,4 +153,4 @@ function getRandomString(length: number): string {
 
 ## <a name="training-video-optimize-performance-when-writing-a-large-dataset"></a>Vidéo de formation : optimiser les performances lors de l’écriture d’un jeu de données de grande taille
 
-[![Regardez une vidéo sur l’optimisation des performances lors de l’écriture d’un jeu de données de grande taille](../../images/largedata-vid.png)](https://youtu.be/BP9Kp0Ltj7U "Vidéo sur l’optimisation des performances lors de l’écriture d’un jeu de données de grande taille")
+[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/BP9Kp0Ltj7U).

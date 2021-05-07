@@ -3,12 +3,12 @@ title: Appeler des scripts à partir d’un flux manuel Power Automate
 description: Un tutoriel sur l’utilisation des scripts Office dans Power Automate via un déclencheur manuel.
 ms.date: 12/28/2020
 localization_priority: Priority
-ms.openlocfilehash: fd3a4758e9d90f5eb40de9c9665c197cfae93740
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 0a5fc93dbad1ee9804840fa11a06b689b7e7abda
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754914"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232871"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow-preview"></a>Appeler des scripts à partir d’un flux manuel Power Automate (préversion)
 
@@ -67,15 +67,15 @@ Power Automate ne peut pas utiliser de [références relatives](../testing/power
 
 2. Dans le menu qui s’affiche sur le côté gauche de l’écran, appuyez sur **Créer**. Cela affiche une liste des moyens de créer de nouveaux flux de travail.
 
-    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton « Créer » de Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton de « Création » de Power Automate":::
 
 3. Dans la section **Démarrer à partir de zéro**, sélectionnez **Flux instantané**. Cela crée un flux de travail activé manuellement.
 
-    :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Option Flux instantané de Power Automate pour créer un nouveau flux de travail":::
+    :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Option de flux instantané de Power Automate pour la création d’un nouveau flux de travail":::
 
 4. Dans la boîte de dialogue qui apparaît, entrez un nom pour votre flux dans la zone de texte **Nom du flux**, sélectionnez **Déclencher manuellement un flux** dans la liste des options sous **Choisir le déclencheur du flux**, puis appuyez sur **Créer**.
 
-    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Option « Déclencher un flux manuellement » de Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Option de « Déclenchement manuel de flux » de Power Automate":::
 
     Notez qu’un flux déclenché manuellement n’est que l’un des nombreux types de flux. Dans le tutoriel suivant, vous allez créer un flux qui s’exécute automatiquement lorsque vous recevez un e-mail.
 

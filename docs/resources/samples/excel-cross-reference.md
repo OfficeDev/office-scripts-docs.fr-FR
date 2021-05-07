@@ -1,28 +1,28 @@
 ---
-title: Renvoi et mise en forme d’un fichier Excel
-description: Découvrez comment utiliser Les scripts Office et Power Automate pour faire référence à un fichier Excel et le mettre en forme.
-ms.date: 03/18/2021
+title: Renvoi et mise en forme d’Excel fichier
+description: Découvrez comment utiliser Office scripts et Power Automate pour faire référence à un fichier Excel format.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 287de604733b7e6a126d0c81cb4e23351e558c61
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 858fe561c1a82f471bc3c0f43d81e457fb02b627
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571272"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232381"
 ---
-# <a name="cross-reference-and-format-an-excel-file"></a>Renvoi et mise en forme d’un fichier Excel
+# <a name="cross-reference-and-format-an-excel-file"></a>Renvoi et mise en forme d’Excel fichier
 
-Cette solution montre comment deux fichiers Excel peuvent être référencés et formatés à l’aide de Scripts Office et de Power Automate.
+Cette solution montre comment deux fichiers Excel peuvent être référencés et formatés à l’aide Office scripts et Power Automate.
 
 Le projet atteint les objectifs suivants :
 
 1. Extrait les données d’événements <a href="events.xlsx">events.xlsx</a> l’aide d’une action de script Exécuter.
-1. Transmet ces données au deuxième fichier Excel contenant les données de transaction d’événements et utilise ces données pour valider de base les données et la mise en forme des données manquantes ou incorrectes à l’aide de Scripts Office.
+1. Transmet ces données au deuxième fichier Excel contenant les données de transaction d’événement et utilise ces données pour valider de base les données et mettre en forme des données manquantes ou incorrectes à l’aide de scripts Office.
 1. Envoie le résultat par courrier électronique à un réviseur.
 
-Pour plus d’informations, voir Référence croisée et mise en forme de [deux fichiers Excel à l’aide de scripts Office.](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
+Pour plus d’informations, voir Référence croisée et mise en forme de deux fichiers [Excel l’aide Office scripts.](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
 
-## <a name="sample-excel-files"></a>Exemples de fichiers Excel
+## <a name="sample-excel-files"></a>Exemples Excel fichiers
 
 Téléchargez les fichiers suivants utilisés dans cette solution pour l’essayer vous-même !
 
@@ -125,6 +125,6 @@ capacity: number
 }
 ```
 
-## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Vidéo de formation : référence croisée et mise en forme d’un fichier Excel
+## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Vidéo de formation : référence croisée et mise en forme d’un Excel de formation
 
-[![Regardez une vidéo pas à pas sur la façon de référencer et de mettre en forme un fichier Excel](../../images/cross-ref-tables-vid.jpg)](https://youtu.be/dVwqBf483qo "Vidéo pas à pas sur la façon de référencer et de mettre en forme un fichier Excel")
+[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/dVwqBf483qo").

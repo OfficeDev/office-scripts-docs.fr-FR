@@ -1,47 +1,47 @@
 ---
-title: Différences entre les scripts Office et les macros VBA
-description: Différences de comportement et d'API entre les scripts Office et les macros VBA Excel.
+title: Différences entre Office scripts et les macros VBA
+description: Différences de comportement et d’API entre Office scripts et Excel macros VBA.
 ms.date: 12/14/2020
 localization_priority: Normal
-ms.openlocfilehash: a56409a5de3eb07876faa88bfbfe78eeca59f70f
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: ca571e2adad81a87b99696a652a3c49209b870ab
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755020"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232843"
 ---
-# <a name="differences-between-office-scripts-and-vba-macros"></a>Différences entre les scripts Office et les macros VBA
+# <a name="differences-between-office-scripts-and-vba-macros"></a>Différences entre Office scripts et les macros VBA
 
-Les scripts Office et les macros VBA ont beaucoup en commun. Elles permettent toutes deux aux utilisateurs d'automatiser des solutions via un enregistreur d'actions facile à utiliser et d'autoriser les modifications de ces enregistrements. Les deux frameworks sont conçus pour permettre aux personnes qui ne se considèrent pas comme des programmeurs de créer de petits programmes dans Excel.
-La différence fondamentale est que les macros VBA sont développées pour les solutions de bureau et que les scripts Office sont conçus avec la prise en charge et la sécurité sur plusieurs plateformes comme principes directeurs. Actuellement, les scripts Office sont uniquement pris en charge dans Excel sur le web.
+Office Les scripts et les macros VBA ont beaucoup en commun. Ils permettent tous deux aux utilisateurs d’automatiser des solutions par le biais d’un enregistreur d’actions facile à utiliser et d’autoriser les modifications de ces enregistrements. Les deux frameworks sont conçus pour permettre aux personnes qui ne se considèrent pas comme des programmeurs de créer de petits programmes dans Excel.
+La différence fondamentale est que les macros VBA sont développées pour les solutions de bureau et que les scripts Office sont conçus avec la prise en charge et la sécurité sur plusieurs plateformes comme principes directeurs. Actuellement, Office scripts sont uniquement pris en charge dans Excel sur le Web.
 
-:::image type="content" source="../images/office-programmability-diagram.png" alt-text="Diagramme à quatre quadrants montrant les domaines d'intérêt pour différentes solutions d'extensibilité Office. Les scripts Office et les macros VBA sont conçus pour aider les utilisateurs finaux à créer des solutions, mais les scripts Office sont conçus pour le web et la collaboration (alors que VBA est destiné au bureau).":::
+:::image type="content" source="../images/office-programmability-diagram.png" alt-text="Diagramme à quatre quadrants montrant les domaines de mise au point pour Office solutions d’extensibilité différentes. Les scripts Office et les macros VBA sont conçus pour aider les utilisateurs finaux à créer des solutions, mais les scripts Office sont conçus pour le web et la collaboration (alors que VBA est destiné au bureau)":::
 
-Cet article décrit les principales différences entre les macros VBA (ainsi que VBA en général) et les scripts Office. Étant donné que les scripts Office sont disponibles uniquement pour Excel, il s'agit du seul hôte abordé ici.
+Cet article décrit les principales différences entre les macros VBA (ainsi que VBA en général) et Office scripts. Étant donné Office scripts sont uniquement disponibles pour Excel, il s’agit du seul hôte abordé ici.
 
 ## <a name="platform-and-ecosystem"></a>Plateforme et écosystème
 
-VBA est conçu pour le bureau et les scripts Office sont conçus pour le web. VBA peut interagir avec le bureau d'un utilisateur pour se connecter à des technologies similaires, telles que COM et OLE. Toutefois, VBA n'offre aucun moyen pratique de faire appel à Internet.
+VBA est conçu pour le bureau et Office scripts sont conçus pour le web. VBA peut interagir avec le bureau d’un utilisateur pour se connecter à des technologies similaires, telles que COM et OLE. Toutefois, VBA n’offre aucun moyen pratique de faire appel à Internet.
 
-Les scripts Office utilisent un runtime universel pour JavaScript. Cela permet un comportement et une accessibilité cohérents, quel que soit l'ordinateur utilisé pour exécuter le script. Ils peuvent également effectuer des appels vers d'autres services web.
+Office Les scripts utilisent un runtime universel pour JavaScript. Cela permet un comportement et une accessibilité cohérents, quel que soit l’ordinateur utilisé pour exécuter le script. Ils peuvent également effectuer des appels vers d’autres services web.
 
 ## <a name="security"></a>Sécurité
 
-Les macros VBA ont la même habilitation de sécurité qu'Excel. Cela leur donne un accès complet à votre bureau. Les scripts Office ont uniquement accès au workbook, et non à l'ordinateur qui héberge le workbook. En outre, aucun jeton d'authentification JavaScript ne peut être partagé avec des scripts. Cela signifie que le script ne possède ni les jetons de l'utilisateur connexion, ni aucune fonctionnalité d'API pour la connexion à un service externe, de sorte qu'il ne peut pas utiliser les jetons existants pour effectuer des appels externes pour le compte de l'utilisateur.
+Les macros VBA ont la même habilitation de sécurité que Excel. Cela leur donne un accès complet à votre bureau. Office Les scripts ont uniquement accès au workbook, et non à l’ordinateur qui héberge le workbook. En outre, aucun jeton d’authentification JavaScript ne peut être partagé avec des scripts. Cela signifie que le script ne possède ni les jetons de l’utilisateur connexion, ni aucune fonctionnalité d’API pour la connexion à un service externe, de sorte qu’il ne peut pas utiliser les jetons existants pour effectuer des appels externes pour le compte de l’utilisateur.
 
-Les administrateurs ont trois options pour les macros VBA : autoriser toutes les macros sur le client, n'autoriser aucune macro sur le client ou autoriser uniquement les macros avec des certificats signés. Ce manque de granularité rend difficile l'isolation d'un seul acteur mauvais. Actuellement, les scripts Office sont soit en cours, soit éteints pour un client. Toutefois, nous travaillons pour donner aux administrateurs davantage de contrôle sur les scripts individuels et les créateurs de scripts.
+Les administrateurs ont trois options pour les macros VBA : autoriser toutes les macros sur le client, n’autoriser aucune macro sur le client ou autoriser uniquement les macros avec des certificats signés. Ce manque de granularité rend difficile l’isolation d’un seul acteur mauvais. Actuellement, Office scripts sont soit en cours, soit éteints pour un client. Toutefois, nous travaillons pour donner aux administrateurs davantage de contrôle sur les scripts individuels et les créateurs de scripts.
 
 ## <a name="coverage"></a>Couverture
 
-Actuellement, VBA offre une couverture plus complète des fonctionnalités Excel, en particulier celles disponibles sur le client de bureau. Les scripts Office couvrent presque tous les scénarios pour Excel sur le web. En outre, au début des nouvelles fonctionnalités sur le web, les scripts Office les ront à la fois pour l'enregistreur d'actions et les API JavaScript.
+Actuellement, VBA offre une couverture plus complète des fonctionnalités Excel, en particulier celles disponibles sur le client de bureau. Office Les scripts couvrent presque tous les scénarios de Excel sur le Web. En outre, à mesure que de nouvelles fonctionnalités sont lancés sur le web, Office Scripts les prendra en charge pour l’enregistreur d’actions et les API JavaScript.
 
-Les scripts Office ne prisent pas en charge les événements de niveau [Excel.](/office/vba/excel/concepts/events-worksheetfunctions-shapes/using-events-with-excel-objects) Les scripts sont exécutés uniquement lorsqu'un utilisateur les démarre manuellement ou lorsqu'un flux Power Automate appelle le script.
+Office Les scripts ne sont pas Excel événements de [niveau supérieur.](/office/vba/excel/concepts/events-worksheetfunctions-shapes/using-events-with-excel-objects) Les scripts sont exécutés uniquement lorsqu’un utilisateur les démarre manuellement ou lorsqu’un flux Power Automate appelle le script.
 
 ## <a name="power-automate"></a>Power Automate
 
-Les scripts Office peuvent être exécutés via Power Automate. Votre workbook peut être mis à jour par le biais de flux programmés ou pilotés par des événements, ce qui vous permet d'automatiser les flux de travail sans même ouvrir Excel. Cela signifie que tant que votre workbook est stocké dans OneDrive (et accessible à Power Automate), un flux peut exécuter vos scripts, que vous et votre organisation utilisez le bureau d'Excel, Mac ou le client web.
+Office Les scripts peuvent être exécutés par le biais Power Automate. Votre workbook peut être mis à jour par le biais de flux programmés ou pilotés par des événements, ce qui vous permet d’automatiser les flux de travail sans même ouvrir Excel. Cela signifie que tant que votre workbook est stocké dans OneDrive (et accessible à Power Automate), un flux peut exécuter vos scripts, que vous et votre organisation utilisez le client de bureau, Mac ou web de Excel.
 
-VBA ne comprend pas de connecteur Power Automate. Tous les scénarios VBA pris en charge impliquent la participation d'un utilisateur à l'exécution de la macro.
+VBA n’a pas de connecteur Power Automate de connexion. Tous les scénarios VBA pris en charge impliquent la participation d’un utilisateur à l’exécution de la macro.
 
 ## <a name="see-also"></a>Voir aussi
 
