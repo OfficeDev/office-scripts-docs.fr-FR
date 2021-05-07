@@ -1,46 +1,46 @@
 ---
 title: Générer un identificateur unique dans un workbook
-description: Découvrez comment utiliser Office Scripts pour générer un identificateur unique et ajouter une ligne à un tableau et une plage.
+description: Découvrez comment utiliser Office scripts pour générer un identificateur unique et ajouter une ligne à un tableau et une plage.
 ms.date: 03/18/2021
 localization_priority: Normal
-ms.openlocfilehash: c75eba551cc1c05426db613c78d41431b5177842
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 62c930bfc638dc46b36daf81b6d1ec976c90a8d0
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754837"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232479"
 ---
-# <a name="generate-a-unique-identifier-in-a-workbook"></a><span data-ttu-id="d14e6-103">Générer un identificateur unique dans un workbook</span><span class="sxs-lookup"><span data-stu-id="d14e6-103">Generate a unique identifier in a workbook</span></span>
+# <a name="generate-a-unique-identifier-in-a-workbook"></a><span data-ttu-id="4356e-103">Générer un identificateur unique dans un workbook</span><span class="sxs-lookup"><span data-stu-id="4356e-103">Generate a unique identifier in a workbook</span></span>
 
-<span data-ttu-id="d14e6-104">Ce scénario permet à un utilisateur de générer un numéro de document unique avec un format spécifique et de l'ajouter en tant qu'entrée à une plage ou un tableau.</span><span class="sxs-lookup"><span data-stu-id="d14e6-104">This scenario helps a user generate a unique document number with a specific format and add it as an entry to a range or table.</span></span> <span data-ttu-id="d14e6-105">La nouvelle entrée ou ligne ajoutée contiendra le numéro de document unique nouvellement généré et quelques autres attributs transmis au script.</span><span class="sxs-lookup"><span data-stu-id="d14e6-105">The new entry or row added will contain the newly generated unique document number and a few other attributes passed to the script.</span></span>
+<span data-ttu-id="4356e-104">Ce scénario permet à un utilisateur de générer un numéro de document unique avec un format spécifique et de l’ajouter en tant qu’entrée à une plage ou un tableau.</span><span class="sxs-lookup"><span data-stu-id="4356e-104">This scenario helps a user generate a unique document number with a specific format and add it as an entry to a range or table.</span></span> <span data-ttu-id="4356e-105">La nouvelle entrée ou ligne ajoutée contiendra le numéro de document unique nouvellement généré et quelques autres attributs transmis au script.</span><span class="sxs-lookup"><span data-stu-id="4356e-105">The new entry or row added will contain the newly generated unique document number and a few other attributes passed to the script.</span></span>
 
-<span data-ttu-id="d14e6-106">Il existe deux versions de l'exemple pour ce scénario.</span><span class="sxs-lookup"><span data-stu-id="d14e6-106">There are two versions of the sample for this scenario.</span></span>
+<span data-ttu-id="4356e-106">Il existe deux versions de l’exemple pour ce scénario.</span><span class="sxs-lookup"><span data-stu-id="4356e-106">There are two versions of the sample for this scenario.</span></span>
 
-* [<span data-ttu-id="d14e6-107">Version 1 : Lire et ajouter une ligne à une feuille de calcul contenant une plage simple</span><span class="sxs-lookup"><span data-stu-id="d14e6-107">Version 1: Read and add a row to a worksheet containing plain range</span></span>](#sample-code-generate-key-and-add-row-to-range)
+* [<span data-ttu-id="4356e-107">Version 1 : Lire et ajouter une ligne à une feuille de calcul contenant une plage simple</span><span class="sxs-lookup"><span data-stu-id="4356e-107">Version 1: Read and add a row to a worksheet containing plain range</span></span>](#sample-code-generate-key-and-add-row-to-range)
 
-    <span data-ttu-id="d14e6-108">_Avant l'ajout de la nouvelle ligne_</span><span class="sxs-lookup"><span data-stu-id="d14e6-108">_Before the new row is added_</span></span>
+    <span data-ttu-id="4356e-108">_Avant l’ajout de la nouvelle ligne_</span><span class="sxs-lookup"><span data-stu-id="4356e-108">_Before the new row is added_</span></span>
 
-    :::image type="content" source="../../images/document-number-generator-range-before.png" alt-text="Feuille de calcul montrant une plage de données avant l'ajout d'une ligne.":::
+    :::image type="content" source="../../images/document-number-generator-range-before.png" alt-text="Feuille de calcul montrant une plage de données avant l’ajout d’une ligne":::
 
-    <span data-ttu-id="d14e6-110">_Une fois la nouvelle ligne ajoutée_</span><span class="sxs-lookup"><span data-stu-id="d14e6-110">_After the new row is added_</span></span>
+    <span data-ttu-id="4356e-110">_Une fois la nouvelle ligne ajoutée_</span><span class="sxs-lookup"><span data-stu-id="4356e-110">_After the new row is added_</span></span>
 
-    :::image type="content" source="../../images/document-number-generator-range-after.png" alt-text="Feuille de calcul montrant une plage de données après l'ajout d'une ligne.":::
+    :::image type="content" source="../../images/document-number-generator-range-after.png" alt-text="Feuille de calcul montrant une plage de données après l’ajout d’une ligne":::
 
-* [<span data-ttu-id="d14e6-112">Version 2 : Lire et ajouter une ligne à un tableau</span><span class="sxs-lookup"><span data-stu-id="d14e6-112">Version 2: Read and add a row to a table</span></span>](#sample-code-generate-key-and-add-row-to-table)
+* [<span data-ttu-id="4356e-112">Version 2 : Lire et ajouter une ligne à un tableau</span><span class="sxs-lookup"><span data-stu-id="4356e-112">Version 2: Read and add a row to a table</span></span>](#sample-code-generate-key-and-add-row-to-table)
 
-    <span data-ttu-id="d14e6-113">_Avant l'ajout de la nouvelle ligne_</span><span class="sxs-lookup"><span data-stu-id="d14e6-113">_Before the new row is added_</span></span>
+    <span data-ttu-id="4356e-113">_Avant l’ajout de la nouvelle ligne_</span><span class="sxs-lookup"><span data-stu-id="4356e-113">_Before the new row is added_</span></span>
 
-    :::image type="content" source="../../images/document-number-generator-table-before.png" alt-text="Feuille de calcul montrant un tableau avant l'ajout d'une ligne.":::
+    :::image type="content" source="../../images/document-number-generator-table-before.png" alt-text="Feuille de calcul montrant un tableau avant l’ajout d’une ligne":::
 
-    <span data-ttu-id="d14e6-115">_Une fois la nouvelle ligne ajoutée_</span><span class="sxs-lookup"><span data-stu-id="d14e6-115">_After the new row is added_</span></span>
+    <span data-ttu-id="4356e-115">_Une fois la nouvelle ligne ajoutée_</span><span class="sxs-lookup"><span data-stu-id="4356e-115">_After the new row is added_</span></span>
 
-    :::image type="content" source="../../images/document-number-generator-table-after.png" alt-text="Feuille de calcul montrant un tableau après l'ajout d'une ligne.":::
+    :::image type="content" source="../../images/document-number-generator-table-after.png" alt-text="Feuille de calcul montrant un tableau après l’ajout d’une ligne":::
 
-## <a name="sample-excel-file"></a><span data-ttu-id="d14e6-117">Exemple de fichier Excel</span><span class="sxs-lookup"><span data-stu-id="d14e6-117">Sample Excel file</span></span>
+## <a name="sample-excel-file"></a><span data-ttu-id="4356e-117">Exemple Excel fichier</span><span class="sxs-lookup"><span data-stu-id="4356e-117">Sample Excel file</span></span>
 
-<span data-ttu-id="d14e6-118">Téléchargez le fichier <a href="document-number-generator.xlsx">document-number-generator.xlsx</a> utilisé dans cette solution pour l'essayer vous-même !</span><span class="sxs-lookup"><span data-stu-id="d14e6-118">Download the file <a href="document-number-generator.xlsx">document-number-generator.xlsx</a> used in this solution to try it out yourself!</span></span>
+<span data-ttu-id="4356e-118">Téléchargez le fichier <a href="document-number-generator.xlsx">document-number-generator.xlsx</a> utilisé dans cette solution pour l’essayer vous-même !</span><span class="sxs-lookup"><span data-stu-id="4356e-118">Download the file <a href="document-number-generator.xlsx">document-number-generator.xlsx</a> used in this solution to try it out yourself!</span></span>
 
-## <a name="sample-code-generate-key-and-add-row-to-range"></a><span data-ttu-id="d14e6-119">Exemple de code : générer une clé et ajouter une ligne à la plage</span><span class="sxs-lookup"><span data-stu-id="d14e6-119">Sample code: Generate key and add row to range</span></span>
+## <a name="sample-code-generate-key-and-add-row-to-range"></a><span data-ttu-id="4356e-119">Exemple de code : générer une clé et ajouter une ligne à la plage</span><span class="sxs-lookup"><span data-stu-id="4356e-119">Sample code: Generate key and add row to range</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, inputString: string): string {
@@ -115,7 +115,7 @@ interface RequestData {
 }
 ```
 
-## <a name="sample-code-generate-key-and-add-row-to-table"></a><span data-ttu-id="d14e6-120">Exemple de code : générer une clé et ajouter une ligne au tableau</span><span class="sxs-lookup"><span data-stu-id="d14e6-120">Sample code: Generate key and add row to table</span></span>
+## <a name="sample-code-generate-key-and-add-row-to-table"></a><span data-ttu-id="4356e-120">Exemple de code : générer une clé et ajouter une ligne au tableau</span><span class="sxs-lookup"><span data-stu-id="4356e-120">Sample code: Generate key and add row to table</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, inputString: string): string {

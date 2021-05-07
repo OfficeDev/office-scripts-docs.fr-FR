@@ -58,15 +58,13 @@ items:
           - name: Informations de base
             items:
               - name: Informations de base
-                href: resources/excel-samples.md
-              - name: Principes de base des plages
-                href: resources/samples/range-basics.md
-          - name: Notions intermédiaires
-            items:
+                href: resources/samples/excel-samples.md
               - name: Ajouter des commentaires
                 href: resources/samples/add-excel-comments.md
               - name: Copier plusieurs tables dans un seul tableau
                 href: resources/samples/copy-tables-combine.md
+          - name: Notions intermédiaires
+            items:
               - name: Compter les lignes vides dans les feuilles de calcul
                 href: resources/samples/count-blank-rows.md
               - name: Recouper et mettre en forme des fichiers Excel

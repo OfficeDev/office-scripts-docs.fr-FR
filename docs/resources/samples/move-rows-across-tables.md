@@ -1,35 +1,35 @@
 ---
-title: Déplacer des lignes entre des tableaux à l'aide de Scripts Office
-description: Découvrez comment déplacer des lignes d'une table à l'autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
-ms.date: 03/30/2021
+title: Déplacer des lignes entre des tableaux à l’aide Office Scripts
+description: Découvrez comment déplacer des lignes d’une table à l’autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 1adaeee1c8307d7775529496df115563831aed4d
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 959fb002b0ba485b43f4de7de3004e1074f768a7
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755041"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232752"
 ---
-# <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a><span data-ttu-id="7ca03-103">Déplacer des lignes entre des tableaux en enregistrement des filtres, puis en traitant et réappliquer les filtres</span><span class="sxs-lookup"><span data-stu-id="7ca03-103">Move rows across tables by saving filters, then processing and reapplying the filters</span></span>
+# <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a><span data-ttu-id="a518a-103">Déplacer des lignes entre des tableaux en enregistrement des filtres, puis en traitant et réappliquer les filtres</span><span class="sxs-lookup"><span data-stu-id="a518a-103">Move rows across tables by saving filters, then processing and reapplying the filters</span></span>
 
-<span data-ttu-id="7ca03-104">Ce script effectue les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="7ca03-104">This script does the following:</span></span>
+<span data-ttu-id="a518a-104">Ce script effectue les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="a518a-104">This script does the following:</span></span>
 
-* <span data-ttu-id="7ca03-105">Sélectionne des lignes dans la table source où la valeur d'une colonne est égale à _une valeur._</span><span class="sxs-lookup"><span data-stu-id="7ca03-105">Selects rows from the source table where the value in a column is equal to _some value_.</span></span>
-* <span data-ttu-id="7ca03-106">Déplace toutes les lignes sélectionnées dans un autre tableau (cible) d'une autre feuille de calcul.</span><span class="sxs-lookup"><span data-stu-id="7ca03-106">Moves all selected rows into another (target) table on another worksheet.</span></span>
-* <span data-ttu-id="7ca03-107">Réapplicité des filtres pertinents sur la table source.</span><span class="sxs-lookup"><span data-stu-id="7ca03-107">Reapplies the relevant filters on the source table.</span></span>
+* <span data-ttu-id="a518a-105">Sélectionne des lignes dans la table source où la valeur d’une colonne est égale à _une valeur._</span><span class="sxs-lookup"><span data-stu-id="a518a-105">Selects rows from the source table where the value in a column is equal to _some value_.</span></span>
+* <span data-ttu-id="a518a-106">Déplace toutes les lignes sélectionnées dans un autre tableau (cible) d’une autre feuille de calcul.</span><span class="sxs-lookup"><span data-stu-id="a518a-106">Moves all selected rows into another (target) table on another worksheet.</span></span>
+* <span data-ttu-id="a518a-107">Réapplicité des filtres pertinents sur la table source.</span><span class="sxs-lookup"><span data-stu-id="a518a-107">Reapplies the relevant filters on the source table.</span></span>
 
-:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Captures d'écran du workbook avant et après":::
+:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Captures d’écran du workbook avant et après":::
 
-<span data-ttu-id="7ca03-109">Il existe deux scripts dans cette solution.</span><span class="sxs-lookup"><span data-stu-id="7ca03-109">There are two scripts in this solution.</span></span> <span data-ttu-id="7ca03-110">La principale différence est la façon dont les lignes sont sélectionnées.</span><span class="sxs-lookup"><span data-stu-id="7ca03-110">The main difference is how the rows are selected.</span></span>
+<span data-ttu-id="a518a-109">Il existe deux scripts dans cette solution.</span><span class="sxs-lookup"><span data-stu-id="a518a-109">There are two scripts in this solution.</span></span> <span data-ttu-id="a518a-110">La principale différence est la façon dont les lignes sont sélectionnées.</span><span class="sxs-lookup"><span data-stu-id="a518a-110">The main difference is how the rows are selected.</span></span>
 
-* <span data-ttu-id="7ca03-111">Dans la [première variante, les](#sample-code-move-rows-using-table-filter)lignes sont sélectionnées en appliquant le filtre de tableau et en lisant la plage visible.</span><span class="sxs-lookup"><span data-stu-id="7ca03-111">In the [first variant](#sample-code-move-rows-using-table-filter), the rows are selected by applying the table filter and reading the visible range.</span></span>
-* <span data-ttu-id="7ca03-112">Dans la [seconde,](#sample-code-move-rows-using-range-values)les lignes sont sélectionnées en lisant les valeurs et en extrayant les valeurs de ligne.</span><span class="sxs-lookup"><span data-stu-id="7ca03-112">In the [second](#sample-code-move-rows-using-range-values), the rows are selected by reading the values and extracting the row values.</span></span>
+* <span data-ttu-id="a518a-111">Dans la [première variante, les](#sample-code-move-rows-using-table-filter)lignes sont sélectionnées en appliquant le filtre de tableau et en lisant la plage visible.</span><span class="sxs-lookup"><span data-stu-id="a518a-111">In the [first variant](#sample-code-move-rows-using-table-filter), the rows are selected by applying the table filter and reading the visible range.</span></span>
+* <span data-ttu-id="a518a-112">Dans la [seconde,](#sample-code-move-rows-using-range-values)les lignes sont sélectionnées en lisant les valeurs et en extrayant les valeurs de ligne.</span><span class="sxs-lookup"><span data-stu-id="a518a-112">In the [second](#sample-code-move-rows-using-range-values), the rows are selected by reading the values and extracting the row values.</span></span>
 
-## <a name="sample-excel-file"></a><span data-ttu-id="7ca03-113">Exemple de fichier Excel</span><span class="sxs-lookup"><span data-stu-id="7ca03-113">Sample Excel file</span></span>
+## <a name="sample-excel-file"></a><span data-ttu-id="a518a-113">Exemple Excel fichier</span><span class="sxs-lookup"><span data-stu-id="a518a-113">Sample Excel file</span></span>
 
-<span data-ttu-id="7ca03-114">Téléchargez le fichier <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> utilisé dans cette solution pour l'essayer vous-même !</span><span class="sxs-lookup"><span data-stu-id="7ca03-114">Download the file <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> used in this solution to try it out yourself!</span></span>
+<span data-ttu-id="a518a-114">Téléchargez le fichier <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> utilisé dans cette solution pour l’essayer vous-même !</span><span class="sxs-lookup"><span data-stu-id="a518a-114">Download the file <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> used in this solution to try it out yourself!</span></span>
 
-## <a name="sample-code-move-rows-using-table-filter"></a><span data-ttu-id="7ca03-115">Exemple de code : déplacer des lignes à l'aide d'un filtre de tableau</span><span class="sxs-lookup"><span data-stu-id="7ca03-115">Sample code: Move rows using table filter</span></span>
+## <a name="sample-code-move-rows-using-table-filter"></a><span data-ttu-id="a518a-115">Exemple de code : déplacer des lignes à l’aide d’un filtre de tableau</span><span class="sxs-lookup"><span data-stu-id="a518a-115">Sample code: Move rows using table filter</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -146,7 +146,7 @@ function reApplyFilters(sourceTable: ExcelScript.Table, columnNameFilteredOn: st
 }
 ```
 
-## <a name="sample-code-move-rows-using-range-values"></a><span data-ttu-id="7ca03-116">Exemple de code : déplacer des lignes à l'aide de valeurs de plage</span><span class="sxs-lookup"><span data-stu-id="7ca03-116">Sample code: Move rows using range values</span></span>
+## <a name="sample-code-move-rows-using-range-values"></a><span data-ttu-id="a518a-116">Exemple de code : déplacer des lignes à l’aide de valeurs de plage</span><span class="sxs-lookup"><span data-stu-id="a518a-116">Sample code: Move rows using range values</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -247,6 +247,6 @@ function reApplyFilters(sourceTable: ExcelScript.Table, columnNameFilteredOn: st
 }
 ```
 
-## <a name="training-video-move-rows-across-tables"></a><span data-ttu-id="7ca03-117">Vidéo de formation : déplacer des lignes dans des tableaux</span><span class="sxs-lookup"><span data-stu-id="7ca03-117">Training video: Move rows across tables</span></span>
+## <a name="training-video-move-rows-across-tables"></a><span data-ttu-id="a518a-117">Vidéo de formation : déplacer des lignes dans des tableaux</span><span class="sxs-lookup"><span data-stu-id="a518a-117">Training video: Move rows across tables</span></span>
 
-<span data-ttu-id="7ca03-118">[![Regardez une vidéo pas à pas sur la façon de déplacer des lignes dans des tableaux](../../images/move-rows-filters-vid.jpg)](https://youtu.be/_3t3Pk4i2L0 "Vidéo pas à pas sur le déplacement de lignes dans des tableaux")</span><span class="sxs-lookup"><span data-stu-id="7ca03-118">[![Watch step-by-step video on how to move rows across tables](../../images/move-rows-filters-vid.jpg)](https://youtu.be/_3t3Pk4i2L0 "Step-by-step video on how to move rows across tables")</span></span>
+<span data-ttu-id="a518a-118">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/_3t3Pk4i2L0).</span><span class="sxs-lookup"><span data-stu-id="a518a-118">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/_3t3Pk4i2L0).</span></span>
