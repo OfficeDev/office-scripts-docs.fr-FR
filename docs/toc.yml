@@ -69,8 +69,6 @@ items:
                 href: resources/samples/count-blank-rows.md
               - name: Recouper et mettre en forme des fichiers Excel
                 href: resources/samples/excel-cross-reference.md
-              - name: Générateur de numéro de document
-                href: resources/samples/document-number-generator.md
               - name: Images de graphique et de tableau par courrier électronique
                 href: resources/samples/email-images-chart-table.md
               - name: Filtrer le tableau et obtenir une plage visible
