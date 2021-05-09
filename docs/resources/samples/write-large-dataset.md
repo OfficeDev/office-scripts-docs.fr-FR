@@ -3,24 +3,24 @@ title: Optimisation des performances lors de l’écriture d’un jeu de donnée
 description: Découvrez comment optimiser les performances lors de l’écriture d’un jeu de données de grande Office scripts.
 ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: dcbcf156ef624c4c5ce35c44d501286d507d9c40
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 9622494378a24db16ea43b5500d6efa156726ff8
+ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232717"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285947"
 ---
-# <a name="performance-optimization-when-writing-a-large-dataset"></a><span data-ttu-id="d7839-103">Optimisation des performances lors de l’écriture d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="d7839-103">Performance optimization when writing a large dataset</span></span>
+# <a name="performance-optimization-when-writing-a-large-dataset"></a><span data-ttu-id="32340-103">Optimisation des performances lors de l’écriture d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="32340-103">Performance optimization when writing a large dataset</span></span>
 
-## <a name="basic-performance-optimization"></a><span data-ttu-id="d7839-104">Optimisation des performances de base</span><span class="sxs-lookup"><span data-stu-id="d7839-104">Basic performance optimization</span></span>
+## <a name="basic-performance-optimization"></a><span data-ttu-id="32340-104">Optimisation des performances de base</span><span class="sxs-lookup"><span data-stu-id="32340-104">Basic performance optimization</span></span>
 
-<span data-ttu-id="d7839-105">Pour obtenir des informations de base sur les performances dans Office Scripts, voir la [section sur](getting-started.md#basic-performance-considerations) les performances de l’article de mise en place.</span><span class="sxs-lookup"><span data-stu-id="d7839-105">For performance basics in Office Scripts, see the [performance section](getting-started.md#basic-performance-considerations) of the Getting Started article.</span></span>
+<span data-ttu-id="32340-105">Pour obtenir des informations de base sur les performances Office Scripts, voir la [section sur](getting-started.md#basic-performance-considerations) les performances de l’article De mise en place.</span><span class="sxs-lookup"><span data-stu-id="32340-105">For performance basics in Office Scripts, see the [performance section](getting-started.md#basic-performance-considerations) of the Getting Started article.</span></span>
 
-## <a name="sample-code-optimize-performance-of-a-large-dataset"></a><span data-ttu-id="d7839-106">Exemple de code : optimiser les performances d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="d7839-106">Sample code: Optimize performance of a large dataset</span></span>
+## <a name="sample-code-optimize-performance-of-a-large-dataset"></a><span data-ttu-id="32340-106">Exemple de code : optimiser les performances d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="32340-106">Sample code: Optimize performance of a large dataset</span></span>
 
-<span data-ttu-id="d7839-107">`setValues()`L’API Range permet de définir les valeurs d’une plage.</span><span class="sxs-lookup"><span data-stu-id="d7839-107">The `setValues()` Range API allows setting the values of a range.</span></span> <span data-ttu-id="d7839-108">Cette API présente des limitations de données en fonction de divers facteurs tels que la taille des données, les paramètres réseau, etc. Pour mettre à jour de manière fiable une grande plage de données, vous devez penser à des mises à jour de données en plus petits blocs.</span><span class="sxs-lookup"><span data-stu-id="d7839-108">This API has data limitations depending on various factors such as data size, network settings, etc. In order to reliably update a large range of data, you'll need to think about doing data updates in smaller chunks.</span></span> <span data-ttu-id="d7839-109">Ce script tente de le faire et écrit les lignes d’une plage en blocs afin que si une grande plage doit être mise à jour, elle peut être effectuée dans des parties plus petites.</span><span class="sxs-lookup"><span data-stu-id="d7839-109">This script attempts to do this and writes rows of a range in chunks so that if a large range needs to be updated, it can be done in smaller parts.</span></span> <span data-ttu-id="d7839-110">**Avertissement**: il n’a pas été testé dans différentes tailles, donc n’ignorez pas cela si vous souhaitez l’utiliser dans votre script.</span><span class="sxs-lookup"><span data-stu-id="d7839-110">**Warning**: It has not been tested across various sizes so be aware of that if you want to use this in your script.</span></span> <span data-ttu-id="d7839-111">Comme nous avons la possibilité de tester, nous allons mettre à jour les résultats concernant son fonctionnement pour différentes tailles de données.</span><span class="sxs-lookup"><span data-stu-id="d7839-111">As we have opportunity to test, we'll update with findings around how it performs for various data sizes.</span></span>
+<span data-ttu-id="32340-107">`setValues()`L’API Range permet de définir les valeurs d’une plage.</span><span class="sxs-lookup"><span data-stu-id="32340-107">The `setValues()` Range API allows setting the values of a range.</span></span> <span data-ttu-id="32340-108">Cette API présente des limitations de données en fonction de divers facteurs tels que la taille des données, les paramètres réseau, etc. Pour mettre à jour de manière fiable une grande plage de données, vous devez penser à des mises à jour de données en plus petits blocs.</span><span class="sxs-lookup"><span data-stu-id="32340-108">This API has data limitations depending on various factors such as data size, network settings, etc. In order to reliably update a large range of data, you'll need to think about doing data updates in smaller chunks.</span></span> <span data-ttu-id="32340-109">Ce script tente de le faire et écrit les lignes d’une plage en blocs afin que si une grande plage doit être mise à jour, elle peut être effectuée en plus petites parties.</span><span class="sxs-lookup"><span data-stu-id="32340-109">This script attempts to do this and writes rows of a range in chunks so that if a large range needs to be updated, it can be done in smaller parts.</span></span> <span data-ttu-id="32340-110">**Avertissement**: il n’a pas été testé dans différentes tailles, donc n’ignorez pas cela si vous souhaitez l’utiliser dans votre script.</span><span class="sxs-lookup"><span data-stu-id="32340-110">**Warning**: It has not been tested across various sizes so be aware of that if you want to use this in your script.</span></span> <span data-ttu-id="32340-111">À mesure que nous avons la possibilité de tester, nous allons mettre à jour les résultats concernant son fonctionnement pour différentes tailles de données.</span><span class="sxs-lookup"><span data-stu-id="32340-111">As we have opportunity to test, we'll update with findings around how it performs for various data sizes.</span></span>
 
-<span data-ttu-id="d7839-112">Ce script sélectionne 1 000 cellules par bloc, mais vous pouvez le remplacer pour tester son fonctionnement.</span><span class="sxs-lookup"><span data-stu-id="d7839-112">This script selects 1K cells per chunk but you can override to test out how it works for you.</span></span> <span data-ttu-id="d7839-113">Il met à jour 100 000 lignes avec 6 colonnes de données.</span><span class="sxs-lookup"><span data-stu-id="d7839-113">It updates 100k rows with 6 columns of data.</span></span> <span data-ttu-id="d7839-114">Exécutez cette information sur une feuille vierge pour l’examiner.</span><span class="sxs-lookup"><span data-stu-id="d7839-114">Run this on a blank sheet to examine.</span></span>
+<span data-ttu-id="32340-112">Ce script sélectionne 1 000 cellules par bloc, mais vous pouvez le remplacer pour tester son fonctionnement.</span><span class="sxs-lookup"><span data-stu-id="32340-112">This script selects 1K cells per chunk but you can override to test out how it works for you.</span></span> <span data-ttu-id="32340-113">Il met à jour 100 000 lignes avec 6 colonnes de données.</span><span class="sxs-lookup"><span data-stu-id="32340-113">It updates 100k rows with 6 columns of data.</span></span> <span data-ttu-id="32340-114">Exécutez cette information sur une feuille vierge pour l’examiner.</span><span class="sxs-lookup"><span data-stu-id="32340-114">Run this on a blank sheet to examine.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -39,10 +39,8 @@ function main(workbook: ExcelScript.Workbook) {
   console.log(`Calling update range function...`);
   const updated = updateRangeInChunks(sheet.getRange("B2"), data);
   if (!updated) {
-    console.log(`Update did not take place or complete. Check and run again.`)
+    console.log(`Update did not take place or complete. Check and run again.`);
   }
-
-  return;
 }
 
 function updateRangeInChunks(
@@ -151,6 +149,6 @@ function getRandomString(length: number): string {
 }
 ```
 
-## <a name="training-video-optimize-performance-when-writing-a-large-dataset"></a><span data-ttu-id="d7839-115">Vidéo de formation : optimiser les performances lors de l’écriture d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="d7839-115">Training video: Optimize performance when writing a large dataset</span></span>
+## <a name="training-video-optimize-performance-when-writing-a-large-dataset"></a><span data-ttu-id="32340-115">Vidéo de formation : optimiser les performances lors de l’écriture d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="32340-115">Training video: Optimize performance when writing a large dataset</span></span>
 
-<span data-ttu-id="d7839-116">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/BP9Kp0Ltj7U).</span><span class="sxs-lookup"><span data-stu-id="d7839-116">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/BP9Kp0Ltj7U).</span></span>
+<span data-ttu-id="32340-116">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/BP9Kp0Ltj7U).</span><span class="sxs-lookup"><span data-stu-id="32340-116">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/BP9Kp0Ltj7U).</span></span>
