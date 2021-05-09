@@ -1,14 +1,14 @@
 ---
-title: Envoyer par e-mail les images d Excel graphique et d’un tableau
+title: Envoyer par courrier électronique les images d Excel graphique et d’un tableau
 description: Découvrez comment utiliser Office scripts et Power Automate pour extraire et envoyer par e-mail les images d’un Excel graphique et d’un tableau.
-ms.date: 04/28/2021
+ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: b49b6670562d117bb3dd6dcf894c54432bc5ceaa
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: f8b52cbf8c19b93c5fc4288fe97775a25e922ab9
+ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232591"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285856"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Utiliser Office scripts et Power Automate pour envoyer des images électroniques d’un graphique et d’un tableau
 
@@ -19,11 +19,11 @@ Cet exemple utilise Office scripts et Power Automate pour créer un graphique. I
 * Calculer pour obtenir les derniers résultats.
 * Créez un graphique.
 * Obtenir des images de graphique et de tableau.
-* Envoyez un e-mail à l’Power Automate.
+* Envoyez un e-mail aux images Power Automate.
 
 _Données d’entrée_
 
-:::image type="content" source="../../images/input-data.png" alt-text="Feuille de calcul montrant une table des données d’entrée":::
+:::image type="content" source="../../images/input-data.png" alt-text="Feuille de calcul montrant un tableau de données d’entrée":::
 
 _Graphique de sortie_
 
@@ -48,13 +48,15 @@ Téléchargez l’exemple <a href="email-chart-table.xlsx">email-chart-table.xls
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReportImages {
-
+  // Recalculate the workbook to ensure all tables and charts are updated.
   workbook.getApplication().calculate(ExcelScript.CalculationType.full);
   
+  // Get the data from the "InvoiceAmounts" table.
   let sheet1 = workbook.getWorksheet("Sheet1");
   const table = workbook.getWorksheet('InvoiceAmounts').getTables()[0];
   const rows = table.getRange().getTexts();
 
+  // Get only the "Customer Name" and "Amount due" columns, then remove the "Total" row.
   const selectColumns = rows.map((row) => {
     return [row[2], row[5]];
   });
@@ -62,27 +64,25 @@ function main(workbook: ExcelScript.Workbook): ReportImages {
   selectColumns.splice(selectColumns.length-1, 1);
   console.log(selectColumns);
 
+  // Delete the "ChartSheet" worksheet if it's present, then recreate it.
   workbook.getWorksheet('ChartSheet')?.delete();
   const chartSheet = workbook.addWorksheet('ChartSheet');
-  const targetRange = updateRange(chartSheet, selectColumns);
 
-  // Insert chart on sheet 'Sheet1'.
+  // Add the selected data to the new worksheet.
+  const targetRange = chartSheet.getRange('A1').getResizedRange(selectColumns.length-1, selectColumns[0].length-1);
+  targetRange.setValues(selectColumns);
+
+  // Insert the chart on sheet 'ChartSheet' at cell "D1".
   let chart_2 = chartSheet.addChart(ExcelScript.ChartType.columnClustered, targetRange);
   chart_2.setPosition('D1');
+
+  // Get images of the chart and table, then return them for a Power Automate flow.
   const chartImage = chart_2.getImage();
   const tableImage = table.getRange().getImage();
-  return {
-    chartImage,
-    tableImage
-  }
+  return {chartImage, tableImage};
 }
 
-function updateRange(sheet: ExcelScript.Worksheet, data: string[][]): ExcelScript.Range {
-  const targetRange = sheet.getRange('A1').getResizedRange(data.length-1, data[0].length-1);
-  targetRange.setValues(data);
-  return targetRange;
-}
-
+// The interface for table and chart images.
 interface ReportImages {
   chartImage: string
   tableImage: string
@@ -105,7 +105,7 @@ Ce flux exécute le script et envoie par e-mail les images renvoyées.
 1. Cet exemple utilise Outlook client de messagerie. Vous pouvez utiliser n’importe quel connecteur de messagerie Power Automate prend en charge, mais le reste des étapes suppose que vous avez choisi Outlook. Ajoutez **une nouvelle étape** qui utilise le connecteur **Office 365 Outlook** et l’action Envoyer et e-mail **(V2).** Utilisez les valeurs suivantes pour l’action :
     * **À**: Votre compte de messagerie de test (ou e-mail personnel)
     * **Objet :** Veuillez consulter les données du rapport
-    * Pour le **champ Corps,** sélectionnez « Affichage de code » `</>` () et entrez ce qui suit :
+    * Pour le **champ Corps,** sélectionnez « Affichage de code » ( `</>` ), puis entrez les entrées suivantes :
 
     ```HTML
     <p>Please review the following report data:<br>

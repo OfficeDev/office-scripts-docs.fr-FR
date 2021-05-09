@@ -3,22 +3,22 @@ title: Optimisation des performances lors de l’écriture d’un jeu de donnée
 description: Découvrez comment optimiser les performances lors de l’écriture d’un jeu de données de grande Office scripts.
 ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: dcbcf156ef624c4c5ce35c44d501286d507d9c40
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 9622494378a24db16ea43b5500d6efa156726ff8
+ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232717"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285947"
 ---
 # <a name="performance-optimization-when-writing-a-large-dataset"></a>Optimisation des performances lors de l’écriture d’un jeu de données de grande taille
 
 ## <a name="basic-performance-optimization"></a>Optimisation des performances de base
 
-Pour obtenir des informations de base sur les performances dans Office Scripts, voir la [section sur](getting-started.md#basic-performance-considerations) les performances de l’article de mise en place.
+Pour obtenir des informations de base sur les performances Office Scripts, voir la [section sur](getting-started.md#basic-performance-considerations) les performances de l’article De mise en place.
 
 ## <a name="sample-code-optimize-performance-of-a-large-dataset"></a>Exemple de code : optimiser les performances d’un jeu de données de grande taille
 
-`setValues()`L’API Range permet de définir les valeurs d’une plage. Cette API présente des limitations de données en fonction de divers facteurs tels que la taille des données, les paramètres réseau, etc. Pour mettre à jour de manière fiable une grande plage de données, vous devez penser à des mises à jour de données en plus petits blocs. Ce script tente de le faire et écrit les lignes d’une plage en blocs afin que si une grande plage doit être mise à jour, elle peut être effectuée dans des parties plus petites. **Avertissement**: il n’a pas été testé dans différentes tailles, donc n’ignorez pas cela si vous souhaitez l’utiliser dans votre script. Comme nous avons la possibilité de tester, nous allons mettre à jour les résultats concernant son fonctionnement pour différentes tailles de données.
+`setValues()`L’API Range permet de définir les valeurs d’une plage. Cette API présente des limitations de données en fonction de divers facteurs tels que la taille des données, les paramètres réseau, etc. Pour mettre à jour de manière fiable une grande plage de données, vous devez penser à des mises à jour de données en plus petits blocs. Ce script tente de le faire et écrit les lignes d’une plage en blocs afin que si une grande plage doit être mise à jour, elle peut être effectuée en plus petites parties. **Avertissement**: il n’a pas été testé dans différentes tailles, donc n’ignorez pas cela si vous souhaitez l’utiliser dans votre script. À mesure que nous avons la possibilité de tester, nous allons mettre à jour les résultats concernant son fonctionnement pour différentes tailles de données.
 
 Ce script sélectionne 1 000 cellules par bloc, mais vous pouvez le remplacer pour tester son fonctionnement. Il met à jour 100 000 lignes avec 6 colonnes de données. Exécutez cette information sur une feuille vierge pour l’examiner.
 
@@ -39,10 +39,8 @@ function main(workbook: ExcelScript.Workbook) {
   console.log(`Calling update range function...`);
   const updated = updateRangeInChunks(sheet.getRange("B2"), data);
   if (!updated) {
-    console.log(`Update did not take place or complete. Check and run again.`)
+    console.log(`Update did not take place or complete. Check and run again.`);
   }
-
-  return;
 }
 
 function updateRangeInChunks(

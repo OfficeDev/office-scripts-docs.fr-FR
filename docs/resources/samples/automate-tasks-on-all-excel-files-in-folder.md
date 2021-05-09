@@ -1,21 +1,21 @@
 ---
 title: Exécuter un script sur tous les fichiers Excel d’un dossier
 description: Découvrez comment exécuter un script sur tous les fichiers Excel dans un dossier sur OneDrive Entreprise.
-ms.date: 04/28/2021
+ms.date: 05/03/2021
 localization_priority: Normal
-ms.openlocfilehash: a6b869e2b346635e2b28fa7c6273c1a86a5bc5c5
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: cfe603f3b7fa0ffc27aa3478b2f54788ad645b3f
+ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232626"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285807"
 ---
 # <a name="run-a-script-on-all-excel-files-in-a-folder"></a>Exécuter un script sur tous les fichiers Excel d’un dossier
 
 Ce projet effectue un ensemble de tâches d’automatisation sur tous les fichiers situés dans un dossier sur OneDrive Entreprise. Il peut également être utilisé sur un SharePoint dossier.
 Il effectue des calculs sur les fichiers Excel, ajoute une mise en forme et insère un [commentaire](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) qui @mentions collègue.
 
-Téléchargez le fichier <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/docs/resources/samples/highlight-alert-excel-files.zip?raw=true">highlight-alert-excel-files.zip,</a>extrayez les fichiers dans un dossier intitulé **Ventes** utilisés dans cet exemple, et essayez-le vous-même !
+Téléchargez le fichier <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/docs/resources/samples/highlight-alert-excel-files.zip?raw=true">highlight-alert-excel-files.zip,</a>extrayez les fichiers dans un dossier intitulé **Ventes** utilisés dans cet exemple et essayez-le vous-même !
 
 ## <a name="sample-code-add-formatting-and-insert-comment"></a>Exemple de code : ajouter une mise en forme et insérer un commentaire
 
@@ -23,16 +23,23 @@ Il s’agit du script qui s’exécute sur chaque workbook individuel.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
+  // Get the table named "Table1" in the workbook.
   let table1 = workbook.getTable("Table1");
+
+  // If the table is empty, end the script.
   const rowCount = table1.getRowCount();
   if (rowCount === 0) {
     return;
   }
+
+  // Force the workbook to be completely recalculated.
   workbook.getApplication().calculate(ExcelScript.CalculationType.full);
 
-  const amountDueCol = table1.getColumnByName('Amount Due');
-  const amountDueValues = amountDueCol.getRangeBetweenHeaderAndTotal().getValues();
+  // Get the "Amount Due" column from the table.
+  const amountDueColumn = table1.getColumnByName('Amount Due');
+  const amountDueValues = amountDueColumn.getRangeBetweenHeaderAndTotal().getValues();
 
+  // Find the highest amount that's due.
   let highestValue = amountDueValues[0][0];
   let row = 0;
   for (let i = 1; i < amountDueValues.length; i++) {
@@ -41,18 +48,17 @@ function main(workbook: ExcelScript.Workbook) {
       row = i;
     }
   }
-  // Set fill color to FFFF00 for range in table Table1 cell in row 0 on column "Amount due".
-  table1.getColumn("Amount due")
-    .getRangeBetweenHeaderAndTotal()
-    .getRow(row)
+
+  let highestAmountDue = table1.getColumn("Amount due").getRangeBetweenHeaderAndTotal().getRow(row);
+
+  // Set the fill color to yellow for the cell with the highest value in the "Amount Due" column.
+  highestAmountDue
     .getFormat()
     .getFill()
     .setColor("FFFF00");
-  let selectedSheet = workbook.getActiveWorksheet();
-  // Insert comment at cell InvoiceAmounts!F2.
-  workbook.addComment(table1.getColumn("Amount due")
-    .getRangeBetweenHeaderAndTotal()
-    .getRow(row), {
+
+  // Insert an @mention comment in the cell.
+  workbook.addComment(highestAmountDue, {
     mentions: [{
       email: "AdeleV@M365x904181.OnMicrosoft.com",
       id: 0,
@@ -82,7 +88,7 @@ Ce flux exécute le script sur chaque classeur dans le dossier « Ventes ».
 1. Sous la **branche Si oui,** ajoutez **le connecteur Excel Online (Entreprise)** avec l’action **Exécuter le script (prévisualisation).** Utilisez les valeurs suivantes pour l’action :
     1. **Emplacement** : OneDrive Entreprise
     1. **Bibliothèque de documents** : OneDrive
-    1. **File**: **ID** (valeur OneDrive’ID de fichier)
+    1. **Fichier**: **ID** (valeur OneDrive’ID de fichier)
     1. **Script**: nom de votre script
 
     :::image type="content" source="../../images/all-files-in-folder-sample-flow-3.png" alt-text="Le connecteur Excel Online (Entreprise) terminé dans Power Automate":::

@@ -1,14 +1,14 @@
 ---
 title: Sortie Excel données en tant que JSON
-description: Découvrez comment sortier Excel données de table en tant que JSON à utiliser dans Power Automate.
-ms.date: 03/18/2021
+description: Découvrez comment Excel données de table en tant que JSON à utiliser dans Power Automate.
+ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: c6b033a68fdbde2b053f65d1a54db58da6c93b2e
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 9b8c0c48b969cfd05750ca4a6703a5ecbb9d18d2
+ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232535"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285814"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Sortie Excel données de table en tant que JSON pour une utilisation Power Automate
 
@@ -20,7 +20,7 @@ _Données de table d’entrée_
 
 Une variante de cet exemple inclut également les liens hypertexte dans l’une des colonnes du tableau. Cela permet d’surfacer des niveaux supplémentaires de données de cellule dans le JSON.
 
-_Données de table d’entrée incluant des liens hypertexte_
+_Données de table d’entrée qui incluent des liens hypertexte_
 
 :::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Feuille de calcul montrant une colonne de données de tableau mise en forme sous forme de liens hypertexte":::
 
@@ -30,7 +30,7 @@ _Boîte de dialogue pour modifier le lien hypertexte_
 
 ## <a name="sample-excel-file"></a>Exemple Excel fichier
 
-Téléchargez le fichier <a href="table-data-with-hyperlinks.xlsx">table-data-with-hyperlinks.xlsx</a> utilisés dans ces exemples et testez-le vous-même !
+Téléchargez le fichier <a href="table-data-with-hyperlinks.xlsx">table-data-with-hyperlinks.xlsx</a> utilisé dans ces exemples et testez-le vous-même !
 
 ## <a name="sample-code-return-table-data-as-json"></a>Exemple de code : renvoyer des données de table en tant que JSON
 
@@ -39,37 +39,44 @@ Téléchargez le fichier <a href="table-data-with-hyperlinks.xlsx">table-data-wi
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): TableData[] {
+  // Get the first table in the "PlainTable" worksheet.
+  // If you know the table name, use `workbook.getTable('TableName')` instead.
   const table = workbook.getWorksheet('PlainTable').getTables()[0];
-  // If you know the table name, you can also do the following:
-  // const table = workbook.getTable('Table13436');
+
+  // Get all the values from the table as text.
   const texts = table.getRange().getTexts();
+
+  // Create an array of JSON objects that match the row structure.
   let returnObjects: TableData[] = [];
   if (table.getRowCount() > 0)  {
     returnObjects = returnObjectFromValues(texts);
-  } 
+  }
+
+  // Log the information and return it for a Power Automate flow.
   console.log(JSON.stringify(returnObjects));  
   return returnObjects
 }
 
+// This function converts a 2D-array of values into a generic JSON object.
+// In this case, we have defined the TableData object, but any similar interface would work.
 function returnObjectFromValues(values: string[][]): TableData[] {
-  let objArray = [];
-  let objKeys: string[] = [];
+  let objectArray = [];
+  let objectKeys: string[] = [];
   for (let i = 0; i < values.length; i++) {
     if (i === 0) {
-      objKeys = values[i]
+      objectKeys = values[i]
       continue;
     }
-    let obj = {}
-    for (let j = 0; j < values[i].length; j++) {
-      obj[objKeys[j]] = values[i][j]
-    }
-    objArray.push(obj);
-  }
-  return objArray as TableData[];
-}
 
-interface BasicObj {
-  [key: string]: string
+    let object = {}
+    for (let j = 0; j < values[i].length; j++) {
+      object[objectKeys[j]] = values[i][j]
+    }
+
+    objectArray.push(object);
+  }
+
+  return objectArray as TableData[];
 }
 
 interface TableData {
@@ -81,7 +88,7 @@ interface TableData {
 }
 ```
 
-### <a name="sample-output"></a>Sortie d’exemple
+### <a name="sample-output-from-the-plaintable-worksheet"></a>Exemple de sortie de la feuille de calcul « PlainTable »
 
 ```json
 [{
@@ -89,49 +96,49 @@ interface TableData {
     "Date": "2020-12-10",
     "Location": "Montgomery",
     "Capacity": "10",
-    "Speakers&quot;: &quot;Debra Berger"
+    "Speakers": "Debra Berger"
 }, {
     "Event ID": "E108",
     "Date": "2020-12-11",
     "Location": "Montgomery",
     "Capacity": "10",
-    "Speakers&quot;: &quot;Delia Dennis"
+    "Speakers": "Delia Dennis"
 }, {
     "Event ID": "E109",
     "Date": "2020-12-12",
     "Location": "Montgomery",
     "Capacity": "10",
-    "Speakers&quot;: &quot;Diego Siciliani"
+    "Speakers": "Diego Siciliani"
 }, {
     "Event ID": "E110",
     "Date": "2020-12-13",
     "Location": "Boise",
     "Capacity": "25",
-    "Speakers&quot;: &quot;Gerhart Moller"
+    "Speakers": "Gerhart Moller"
 }, {
     "Event ID": "E111",
     "Date": "2020-12-14",
     "Location": "Salt Lake City",
     "Capacity": "20",
-    "Speakers&quot;: &quot;Grady Archie"
+    "Speakers": "Grady Archie"
 }, {
     "Event ID": "E112",
     "Date": "2020-12-15",
     "Location": "Fremont",
     "Capacity": "25",
-    "Speakers&quot;: &quot;Irvin Sayers"
+    "Speakers": "Irvin Sayers"
 }, {
     "Event ID": "E113",
     "Date": "2020-12-16",
     "Location": "Salt Lake City",
     "Capacity": "20",
-    "Speakers&quot;: &quot;Isaiah Langer"
+    "Speakers": "Isaiah Langer"
 }, {
     "Event ID": "E114",
     "Date": "2020-12-17",
     "Location": "Salt Lake City",
     "Capacity": "20",
-    "Speakers&quot;: &quot;Johanna Lorenz"
+    "Speakers": "Johanna Lorenz"
 }]
 ```
 
@@ -142,43 +149,47 @@ interface TableData {
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): TableData[] {
+  // Get the first table in the "WithHyperLink" worksheet.
+  // If you know the table name, use `workbook.getTable('TableName')` instead.
   const table = workbook.getWorksheet('WithHyperLink').getTables()[0];
+
+  // Get all the values from the table as text.
   const range = table.getRange();
-  // If you know the table name, you can also do the following:
-  // const table = workbook.getTable('Table13436');
-  const texts = table.getRange().getTexts();
+
+  // Create an array of JSON objects that match the row structure.
   let returnObjects: TableData[] = [];
   if (table.getRowCount() > 0)  {
-    returnObjects = returnObjectFromValues(texts, range);
-  } 
+    returnObjects = returnObjectFromValues(range);
+  }
+
+  // Log the information and return it for a Power Automate flow.
   console.log(JSON.stringify(returnObjects));  
   return returnObjects
 }
 
-function returnObjectFromValues(values: string[][], range: ExcelScript.Range): TableData[] {
-  let objArray = [];
-  let objKeys: string[] = [];
+function returnObjectFromValues(range: ExcelScript.Range): TableData[] {
+  let values = range.getTexts();
+  let objectArray = [];
+  let objectKeys: string[] = [];
   for (let i = 0; i < values.length; i++) {
     if (i === 0) {
-      objKeys = values[i]
+      objectKeys = values[i]
       continue;
     }
-    let obj = {}
+
+    let object = {}
     for (let j = 0; j < values[i].length; j++) {
       // For the 4th column (0 index), extract the hyperlink and use that instead of text. 
       if (j === 4) {
-        obj[objKeys[j]] = range.getCell(i, j).getHyperlink().address;
+        object[objectKeys[j]] = range.getCell(i, j).getHyperlink().address;
       } else {
-        obj[objKeys[j]] = values[i][j];
+        object[objectKeys[j]] = values[i][j];
       }
     }
-    objArray.push(obj);
-  }
-  return objArray as TableData[];
-}
 
-interface BasicObj {
-  [key: string]: string
+    objectArray.push(object);
+  }
+  return objectArray as TableData[];
 }
 
 interface TableData {
@@ -191,7 +202,7 @@ interface TableData {
 }
 ```
 
-### <a name="sample-output"></a>Sortie d’exemple
+### <a name="sample-output-from-the-withhyperlink-worksheet"></a>Exemple de sortie de la feuille de calcul « WithHyperLink »
 
 ```json
 [{
@@ -200,56 +211,56 @@ interface TableData {
     "Location": "Montgomery",
     "Capacity": "10",
     "Search link": "https://www.google.com/search?q=Montgomery",
-    "Speakers&quot;: &quot;Debra Berger"
+    "Speakers": "Debra Berger"
 }, {
     "Event ID": "E108",
     "Date": "2020-12-11",
     "Location": "Montgomery",
     "Capacity": "10",
     "Search link": "https://www.google.com/search?q=Montgomery",
-    "Speakers&quot;: &quot;Delia Dennis"
+    "Speakers": "Delia Dennis"
 }, {
     "Event ID": "E109",
     "Date": "2020-12-12",
     "Location": "Montgomery",
     "Capacity": "10",
     "Search link": "https://www.google.com/search?q=Montgomery",
-    "Speakers&quot;: &quot;Diego Siciliani"
+    "Speakers": "Diego Siciliani"
 }, {
     "Event ID": "E110",
     "Date": "2020-12-13",
     "Location": "Boise",
     "Capacity": "25",
     "Search link": "https://www.google.com/search?q=Boise",
-    "Speakers&quot;: &quot;Gerhart Moller"
+    "Speakers": "Gerhart Moller"
 }, {
     "Event ID": "E111",
     "Date": "2020-12-14",
     "Location": "Salt Lake City",
     "Capacity": "20",
     "Search link": "https://www.google.com/search?q=salt+lake+city",
-    "Speakers&quot;: &quot;Grady Archie"
+    "Speakers": "Grady Archie"
 }, {
     "Event ID": "E112",
     "Date": "2020-12-15",
     "Location": "Fremont",
     "Capacity": "25",
     "Search link": "https://www.google.com/search?q=Fremont",
-    "Speakers&quot;: &quot;Irvin Sayers"
+    "Speakers": "Irvin Sayers"
 }, {
     "Event ID": "E113",
     "Date": "2020-12-16",
     "Location": "Salt Lake City",
     "Capacity": "20",
     "Search link": "https://www.google.com/search?q=salt+lake+city",
-    "Speakers&quot;: &quot;Isaiah Langer"
+    "Speakers": "Isaiah Langer"
 }, {
     "Event ID": "E114",
     "Date": "2020-12-17",
     "Location": "Salt Lake City",
     "Capacity": "20",
     "Search link": "https://www.google.com/search?q=salt+lake+city",
-    "Speakers&quot;: &quot;Johanna Lorenz"
+    "Speakers": "Johanna Lorenz"
 }]
 ```
 
