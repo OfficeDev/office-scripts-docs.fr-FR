@@ -1,98 +1,97 @@
 ---
-title: Optimisation des performances lors de l’écriture d’un jeu de données de grande taille
-description: Découvrez comment optimiser les performances lors de l’écriture d’un jeu de données de grande Office scripts.
-ms.date: 04/28/2021
+title: Ecrire un grand ensemble de données
+description: Découvrez comment diviser un grand ensemble de données en opérations d’écriture plus petites dans Office Scripts.
+ms.date: 05/13/2021
 localization_priority: Normal
-ms.openlocfilehash: 9622494378a24db16ea43b5500d6efa156726ff8
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: 06abb58c61c18620d638ab3eb61ea68398bf20aa
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285947"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545622"
 ---
-# <a name="performance-optimization-when-writing-a-large-dataset"></a><span data-ttu-id="32340-103">Optimisation des performances lors de l’écriture d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="32340-103">Performance optimization when writing a large dataset</span></span>
+# <a name="write-a-large-dataset"></a><span data-ttu-id="a0202-103">Ecrire un grand ensemble de données</span><span class="sxs-lookup"><span data-stu-id="a0202-103">Write a large dataset</span></span>
 
-## <a name="basic-performance-optimization"></a><span data-ttu-id="32340-104">Optimisation des performances de base</span><span class="sxs-lookup"><span data-stu-id="32340-104">Basic performance optimization</span></span>
+<span data-ttu-id="a0202-104">`Range.setValues()`L’API met les données dans une fourchette.</span><span class="sxs-lookup"><span data-stu-id="a0202-104">The `Range.setValues()` API puts data in a range.</span></span> <span data-ttu-id="a0202-105">Cette API a des limites en fonction de divers facteurs, tels que la taille des données et les paramètres réseau.</span><span class="sxs-lookup"><span data-stu-id="a0202-105">This API has limitations depending on various factors, such as data size and network settings.</span></span> <span data-ttu-id="a0202-106">Cela signifie que si vous essayez d’écrire une quantité massive d’informations à un cahier de travail comme une seule opération, vous aurez besoin d’écrire les données en petits lots afin de mettre à jour de manière fiable une [large gamme](../../testing/platform-limits.md).</span><span class="sxs-lookup"><span data-stu-id="a0202-106">This means that if you attempt to write a massive amount of information to a workbook as a single operation, you'll need to write the data in smaller batches in order to reliably update a [large range](../../testing/platform-limits.md).</span></span>
 
-<span data-ttu-id="32340-105">Pour obtenir des informations de base sur les performances Office Scripts, voir la [section sur](getting-started.md#basic-performance-considerations) les performances de l’article De mise en place.</span><span class="sxs-lookup"><span data-stu-id="32340-105">For performance basics in Office Scripts, see the [performance section](getting-started.md#basic-performance-considerations) of the Getting Started article.</span></span>
+<span data-ttu-id="a0202-107">Pour les bases de performance dans Office scripts, veuillez [lire Améliorer les performances de vos scripts Office.](../../develop/web-client-performance.md)</span><span class="sxs-lookup"><span data-stu-id="a0202-107">For performance basics in Office Scripts, please read [Improve the performance of your Office Scripts](../../develop/web-client-performance.md).</span></span>
 
-## <a name="sample-code-optimize-performance-of-a-large-dataset"></a><span data-ttu-id="32340-106">Exemple de code : optimiser les performances d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="32340-106">Sample code: Optimize performance of a large dataset</span></span>
+## <a name="sample-code-write-a-large-dataset"></a><span data-ttu-id="a0202-108">Exemple de code : Ecrire un grand ensemble de données</span><span class="sxs-lookup"><span data-stu-id="a0202-108">Sample code: Write a large dataset</span></span>
 
-<span data-ttu-id="32340-107">`setValues()`L’API Range permet de définir les valeurs d’une plage.</span><span class="sxs-lookup"><span data-stu-id="32340-107">The `setValues()` Range API allows setting the values of a range.</span></span> <span data-ttu-id="32340-108">Cette API présente des limitations de données en fonction de divers facteurs tels que la taille des données, les paramètres réseau, etc. Pour mettre à jour de manière fiable une grande plage de données, vous devez penser à des mises à jour de données en plus petits blocs.</span><span class="sxs-lookup"><span data-stu-id="32340-108">This API has data limitations depending on various factors such as data size, network settings, etc. In order to reliably update a large range of data, you'll need to think about doing data updates in smaller chunks.</span></span> <span data-ttu-id="32340-109">Ce script tente de le faire et écrit les lignes d’une plage en blocs afin que si une grande plage doit être mise à jour, elle peut être effectuée en plus petites parties.</span><span class="sxs-lookup"><span data-stu-id="32340-109">This script attempts to do this and writes rows of a range in chunks so that if a large range needs to be updated, it can be done in smaller parts.</span></span> <span data-ttu-id="32340-110">**Avertissement**: il n’a pas été testé dans différentes tailles, donc n’ignorez pas cela si vous souhaitez l’utiliser dans votre script.</span><span class="sxs-lookup"><span data-stu-id="32340-110">**Warning**: It has not been tested across various sizes so be aware of that if you want to use this in your script.</span></span> <span data-ttu-id="32340-111">À mesure que nous avons la possibilité de tester, nous allons mettre à jour les résultats concernant son fonctionnement pour différentes tailles de données.</span><span class="sxs-lookup"><span data-stu-id="32340-111">As we have opportunity to test, we'll update with findings around how it performs for various data sizes.</span></span>
+<span data-ttu-id="a0202-109">Ce script écrit des lignes d’une gamme en plus petites parties.</span><span class="sxs-lookup"><span data-stu-id="a0202-109">This script writes rows of a range in smaller parts.</span></span> <span data-ttu-id="a0202-110">Il sélectionne 1000 cellules à écrire à la fois.</span><span class="sxs-lookup"><span data-stu-id="a0202-110">It selects 1000 cells to write at a time.</span></span> <span data-ttu-id="a0202-111">Exécutez le script sur une feuille de travail vierge pour voir les lots de mise à jour en action.</span><span class="sxs-lookup"><span data-stu-id="a0202-111">Run the script on a blank worksheet to see the update batches in action.</span></span> <span data-ttu-id="a0202-112">La sortie de la console donne un aperçu supplémentaire de ce qui se passe.</span><span class="sxs-lookup"><span data-stu-id="a0202-112">The console output gives further insight into what's happening.</span></span>
 
-<span data-ttu-id="32340-112">Ce script sélectionne 1 000 cellules par bloc, mais vous pouvez le remplacer pour tester son fonctionnement.</span><span class="sxs-lookup"><span data-stu-id="32340-112">This script selects 1K cells per chunk but you can override to test out how it works for you.</span></span> <span data-ttu-id="32340-113">Il met à jour 100 000 lignes avec 6 colonnes de données.</span><span class="sxs-lookup"><span data-stu-id="32340-113">It updates 100k rows with 6 columns of data.</span></span> <span data-ttu-id="32340-114">Exécutez cette information sur une feuille vierge pour l’examiner.</span><span class="sxs-lookup"><span data-stu-id="32340-114">Run this on a blank sheet to examine.</span></span>
+> [!NOTE]
+> <span data-ttu-id="a0202-113">Vous pouvez modifier le nombre de lignes totales en cours d’écriture en changeant la valeur de `SAMPLE_ROWS` .</span><span class="sxs-lookup"><span data-stu-id="a0202-113">You can change the number of total rows being written by changing the value of `SAMPLE_ROWS`.</span></span> <span data-ttu-id="a0202-114">Vous pouvez modifier le nombre de cellules à écrire comme une seule action en changeant la valeur de `CELLS_IN_BATCH` .</span><span class="sxs-lookup"><span data-stu-id="a0202-114">You can change the number of cells to write as a single action by changing the value of `CELLS_IN_BATCH`.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
+  const SAMPLE_ROWS = 100000;
+  const CELLS_IN_BATCH = 10000;
+
+  // Get the current worksheet.
   const sheet = workbook.getActiveWorksheet();
 
-  let data: (string | number | boolean)[][] = [];
-  // Number of rows in the random data (x 6 columns).
-  const sampleRows = 100000;
-
   console.log(`Generating data...`)
-  // Dynamically generate some random data for testing purpose. 
-  for (let i = 0; i < sampleRows; i++) {
+  let data: (string | number | boolean)[][] = [];
+  // Generate six columns of random data per row. 
+  for (let i = 0; i < SAMPLE_ROWS; i++) {
     data.push([i, ...[getRandomString(5), getRandomString(20), getRandomString(10), Math.random()], "Sample data"]);
   }
 
   console.log(`Calling update range function...`);
-  const updated = updateRangeInChunks(sheet.getRange("B2"), data);
+  const updated = updateRangeInBatches(sheet.getRange("B2"), data, CELLS_IN_BATCH);
   if (!updated) {
     console.log(`Update did not take place or complete. Check and run again.`);
   }
 }
 
-function updateRangeInChunks(
+function updateRangeInBatches(
   startCell: ExcelScript.Range,
   values: (string | boolean | number)[][],
-  cellsInChunk: number = 10000
+  cellsInBatch: number
 ): boolean {
 
   const startTime = new Date().getTime();
-  console.log(`Cells per chunk setting: ${cellsInChunk}`);
-  if (!values) {
-    console.log(`Invalid input values to update.`);
-    return false;
-  }
-  if (values.length === 0 || values[0].length === 0) {
-    console.log(`Empty data -- nothing to update.`);
-    return true;
-  }
-  const totalCells = values.length * values[0].length;
+  console.log(`Cells per batch setting: ${cellsInBatch}`);
 
+  // Determine the total number of cells to write.
+  const totalCells = values.length * values[0].length;
   console.log(`Total cells to update in the target range: ${totalCells}`);
-  if (totalCells <= cellsInChunk) {
-    console.log(`No need to chunk -- updating directly`);
+  if (totalCells <= cellsInBatch) {
+    console.log(`No need to batch -- updating directly`);
     updateTargetRange(startCell, values);
     return true;
   }
 
-  const rowsPerChunk = Math.floor(cellsInChunk / values[0].length);
-  console.log("Rows per chunk: " + rowsPerChunk);
+  // Determine how many rows to write at once.
+  const rowsPerBatch = Math.floor(cellsInBatch / values[0].length);
+  console.log("Rows per batch: " + rowsPerBatch);
   let rowCount = 0;
   let totalRowsUpdated = 0;
-  let chunkCount = 0;
+  let batchCount = 0;
 
+  // Write each batch of rows.
   for (let i = 0; i < values.length; i++) {
     rowCount++;
-    if (rowCount === rowsPerChunk) {
-      chunkCount++;
-      console.log(`Calling update next chunk function. Chunk#: ${chunkCount}`);
-      updateNextChunk(startCell, values, rowsPerChunk, totalRowsUpdated);
-      rowCount = 0;
-      totalRowsUpdated += rowsPerChunk;
-      console.log(`${((totalRowsUpdated / values.length) * 100).toFixed(1)}% Done`);
+    if (rowCount === rowsPerBatch) {
+      batchCount++;
+      console.log(`Calling update next batch function. Batch#: ${batchCount}`);
+      updateNextBatch(startCell, values, rowsPerBatch, totalRowsUpdated);
 
+      // Write a completion percentage to help the user understand the progress.
+      rowCount = 0;
+      totalRowsUpdated += rowsPerBatch;
+      console.log(`${((totalRowsUpdated / values.length) * 100).toFixed(1)}% Done`);
     }
   }
-  console.log(`Updating remaining rows -- last chunk: ${rowCount}`)
+  
+  console.log(`Updating remaining rows -- last batch: ${rowCount}`)
   if (rowCount > 0) {
-    updateNextChunk(startCell, values, rowCount, totalRowsUpdated);
+    updateNextBatch(startCell, values, rowCount, totalRowsUpdated);
   }
 
   let endTime = new Date().getTime();
-  console.log(`Completed ${totalCells} cells update. It took: ${((endTime - startTime) / 1000).toFixed(6)} seconds to complete. ${((((endTime  - startTime) / 1000)) / cellsInChunk).toFixed(8)} seconds per ${cellsInChunk} cells-chunk.`);
+  console.log(`Completed ${totalCells} cells update. It took: ${((endTime - startTime) / 1000).toFixed(6)} seconds to complete. ${((((endTime  - startTime) / 1000)) / cellsInBatch).toFixed(8)} seconds per ${cellsInBatch} cells-batch.`);
 
   return true;
 }
@@ -100,22 +99,20 @@ function updateRangeInChunks(
 /**
  * A helper function that computes the target range and updates. 
  */
-
-function updateNextChunk(
+function updateNextBatch(
   startingCell: ExcelScript.Range,
   data: (string | boolean | number)[][],
-  rowsPerChunk: number,
+  rowsPerBatch: number,
   totalRowsUpdated: number
 ) {
-
   const newStartCell = startingCell.getOffsetRange(totalRowsUpdated, 0);
-  const targetRange = newStartCell.getResizedRange(rowsPerChunk - 1, data[0].length - 1);
-  console.log(`Updating chunk at range ${targetRange.getAddress()}`);
-  const dataToUpdate = data.slice(totalRowsUpdated, totalRowsUpdated + rowsPerChunk);
+  const targetRange = newStartCell.getResizedRange(rowsPerBatch - 1, data[0].length - 1);
+  console.log(`Updating batch at range ${targetRange.getAddress()}`);
+  const dataToUpdate = data.slice(totalRowsUpdated, totalRowsUpdated + rowsPerBatch);
   try {
     targetRange.setValues(dataToUpdate);
   } catch (e) {
-    throw `Error while updating the chunk range: ${JSON.stringify(e)}`;
+    throw `Error while updating the batch range: ${JSON.stringify(e)}`;
   }
   return;
 }
@@ -149,6 +146,6 @@ function getRandomString(length: number): string {
 }
 ```
 
-## <a name="training-video-optimize-performance-when-writing-a-large-dataset"></a><span data-ttu-id="32340-115">Vidéo de formation : optimiser les performances lors de l’écriture d’un jeu de données de grande taille</span><span class="sxs-lookup"><span data-stu-id="32340-115">Training video: Optimize performance when writing a large dataset</span></span>
+## <a name="training-video-write-a-large-dataset"></a><span data-ttu-id="a0202-115">Vidéo de formation : Ecrire un grand ensemble de données</span><span class="sxs-lookup"><span data-stu-id="a0202-115">Training video: Write a large dataset</span></span>
 
-<span data-ttu-id="32340-116">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/BP9Kp0Ltj7U).</span><span class="sxs-lookup"><span data-stu-id="32340-116">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/BP9Kp0Ltj7U).</span></span>
+<span data-ttu-id="a0202-116">[Regardez Sudhi Ramamurthy marcher à travers cet échantillon sur YouTube](https://youtu.be/BP9Kp0Ltj7U).</span><span class="sxs-lookup"><span data-stu-id="a0202-116">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/BP9Kp0Ltj7U).</span></span>

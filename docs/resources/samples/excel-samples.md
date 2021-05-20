@@ -1,32 +1,32 @@
 ---
-title: Scripts de base pour Office scripts dans Excel sur le Web
-description: Collection d’exemples de code à utiliser avec Office scripts dans Excel sur le Web.
-ms.date: 04/28/2021
+title: Scripts de base pour Office scripts en Excel sur le Web
+description: Une collection d’échantillons de code à utiliser avec Office scripts en Excel sur le Web.
+ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: ea0430910aa16ef8a0eed04cf9ebcab7d611ae62
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: f252934a92126212b9520223826b3b2f5161ed57
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52233006"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545758"
 ---
-# <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a><span data-ttu-id="c72fc-103">Scripts de base pour Office scripts dans Excel sur le Web</span><span class="sxs-lookup"><span data-stu-id="c72fc-103">Basic scripts for Office Scripts in Excel on the web</span></span>
+# <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a><span data-ttu-id="48c5a-103">Scripts de base pour Office scripts en Excel sur le Web</span><span class="sxs-lookup"><span data-stu-id="48c5a-103">Basic scripts for Office Scripts in Excel on the web</span></span>
 
-<span data-ttu-id="c72fc-104">Les exemples suivants sont des scripts simples que vous pouvez essayer sur vos propres workbooks.</span><span class="sxs-lookup"><span data-stu-id="c72fc-104">The following samples are simple scripts for you to try on your own workbooks.</span></span> <span data-ttu-id="c72fc-105">Pour les utiliser dans les Excel sur le Web :</span><span class="sxs-lookup"><span data-stu-id="c72fc-105">To use them in Excel on the web:</span></span>
+<span data-ttu-id="48c5a-104">Les échantillons suivants sont des scripts simples pour vous d’essayer sur vos propres cahiers de travail.</span><span class="sxs-lookup"><span data-stu-id="48c5a-104">The following samples are simple scripts for you to try on your own workbooks.</span></span> <span data-ttu-id="48c5a-105">Pour les utiliser en Excel sur le Web :</span><span class="sxs-lookup"><span data-stu-id="48c5a-105">To use them in Excel on the web:</span></span>
 
-1. <span data-ttu-id="c72fc-106">Ouvrez l’onglet **Automatiser**.</span><span class="sxs-lookup"><span data-stu-id="c72fc-106">Open the **Automate** tab.</span></span>
-2. <span data-ttu-id="c72fc-107">Appuyez **sur Éditeur de code.**</span><span class="sxs-lookup"><span data-stu-id="c72fc-107">Press **Code Editor**.</span></span>
-3. <span data-ttu-id="c72fc-108">Appuyez **sur Nouveau script** dans le volet Des tâches de l’Éditeur de code.</span><span class="sxs-lookup"><span data-stu-id="c72fc-108">Press **New Script** in the Code Editor's task pane.</span></span>
-4. <span data-ttu-id="c72fc-109">Remplacez l’intégralité du script par l’exemple de votre choix.</span><span class="sxs-lookup"><span data-stu-id="c72fc-109">Replace the entire script with the sample of your choice.</span></span>
-5. <span data-ttu-id="c72fc-110">Appuyez **sur Exécuter** dans le volet Des tâches de l’Éditeur de code.</span><span class="sxs-lookup"><span data-stu-id="c72fc-110">Press **Run** in the Code Editor's task pane.</span></span>
+1. <span data-ttu-id="48c5a-106">Ouvrez l’onglet **Automatiser**.</span><span class="sxs-lookup"><span data-stu-id="48c5a-106">Open the **Automate** tab.</span></span>
+2. <span data-ttu-id="48c5a-107">Éditeur de **code de presse**.</span><span class="sxs-lookup"><span data-stu-id="48c5a-107">Press **Code Editor**.</span></span>
+3. <span data-ttu-id="48c5a-108">Appuyez **sur Nouveau** Script dans le volet de tâche de l’éditeur de code.</span><span class="sxs-lookup"><span data-stu-id="48c5a-108">Press **New Script** in the Code Editor's task pane.</span></span>
+4. <span data-ttu-id="48c5a-109">Remplacez l’ensemble du script par l’échantillon de votre choix.</span><span class="sxs-lookup"><span data-stu-id="48c5a-109">Replace the entire script with the sample of your choice.</span></span>
+5. <span data-ttu-id="48c5a-110">Appuyez **sur Exécuter** dans le volet de tâche de l’éditeur de code.</span><span class="sxs-lookup"><span data-stu-id="48c5a-110">Press **Run** in the Code Editor's task pane.</span></span>
 
-## <a name="scripting-basics"></a><span data-ttu-id="c72fc-111">Informations de base</span><span class="sxs-lookup"><span data-stu-id="c72fc-111">Scripting basics</span></span>
+## <a name="script-basics"></a><span data-ttu-id="48c5a-111">Bases du script</span><span class="sxs-lookup"><span data-stu-id="48c5a-111">Script basics</span></span>
 
-<span data-ttu-id="c72fc-112">Ces exemples montrent les blocs de construction fondamentaux pour Office scripts.</span><span class="sxs-lookup"><span data-stu-id="c72fc-112">These samples demonstrate fundamental building blocks for Office Scripts.</span></span> <span data-ttu-id="c72fc-113">Ajoutez-les à vos scripts pour étendre votre solution et résoudre les problèmes courants.</span><span class="sxs-lookup"><span data-stu-id="c72fc-113">Add these to your scripts to extend your solution and solve common problems.</span></span>
+<span data-ttu-id="48c5a-112">Ces échantillons démontrent des éléments constitutifs fondamentaux pour Office scripts.</span><span class="sxs-lookup"><span data-stu-id="48c5a-112">These samples demonstrate fundamental building blocks for Office Scripts.</span></span> <span data-ttu-id="48c5a-113">Ajoutez-les à vos scripts pour étendre votre solution et résoudre des problèmes communs.</span><span class="sxs-lookup"><span data-stu-id="48c5a-113">Add these to your scripts to extend your solution and solve common problems.</span></span>
 
-### <a name="read-and-log-one-cell"></a><span data-ttu-id="c72fc-114">Lire et enregistrer une cellule</span><span class="sxs-lookup"><span data-stu-id="c72fc-114">Read and log one cell</span></span>
+### <a name="read-and-log-one-cell"></a><span data-ttu-id="48c5a-114">Lire et enregistrer une cellule</span><span class="sxs-lookup"><span data-stu-id="48c5a-114">Read and log one cell</span></span>
 
-<span data-ttu-id="c72fc-115">Cet exemple lit la valeur de **A1** et l’imprime sur la console.</span><span class="sxs-lookup"><span data-stu-id="c72fc-115">This sample reads the value of **A1** and prints it to the console.</span></span>
+<span data-ttu-id="48c5a-115">Cet échantillon lit la valeur de **A1 et** l’imprime sur la console.</span><span class="sxs-lookup"><span data-stu-id="48c5a-115">This sample reads the value of **A1** and prints it to the console.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -41,9 +41,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="read-the-active-cell"></a><span data-ttu-id="c72fc-116">Lire la cellule active</span><span class="sxs-lookup"><span data-stu-id="c72fc-116">Read the active cell</span></span>
+### <a name="read-the-active-cell"></a><span data-ttu-id="48c5a-116">Lire la cellule active</span><span class="sxs-lookup"><span data-stu-id="48c5a-116">Read the active cell</span></span>
 
-<span data-ttu-id="c72fc-117">Ce script enregistre la valeur de la cellule active active.</span><span class="sxs-lookup"><span data-stu-id="c72fc-117">This script logs the value of the current active cell.</span></span> <span data-ttu-id="c72fc-118">Si plusieurs cellules sont sélectionnées, la cellule située le plus à gauche est enregistrée.</span><span class="sxs-lookup"><span data-stu-id="c72fc-118">If multiple cells are selected, the top-leftmost cell will be logged.</span></span>
+<span data-ttu-id="48c5a-117">Ce script enregistre la valeur de la cellule active actuelle.</span><span class="sxs-lookup"><span data-stu-id="48c5a-117">This script logs the value of the current active cell.</span></span> <span data-ttu-id="48c5a-118">Si plusieurs cellules sont sélectionnées, la cellule la plus à gauche sera enregistrée.</span><span class="sxs-lookup"><span data-stu-id="48c5a-118">If multiple cells are selected, the top-leftmost cell will be logged.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -55,9 +55,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="change-an-adjacent-cell"></a><span data-ttu-id="c72fc-119">Modifier une cellule adjacente</span><span class="sxs-lookup"><span data-stu-id="c72fc-119">Change an adjacent cell</span></span>
+### <a name="change-an-adjacent-cell"></a><span data-ttu-id="48c5a-119">Changer une cellule adjacente</span><span class="sxs-lookup"><span data-stu-id="48c5a-119">Change an adjacent cell</span></span>
 
-<span data-ttu-id="c72fc-120">Ce script obtient des cellules adjacentes à l’aide de références relatives.</span><span class="sxs-lookup"><span data-stu-id="c72fc-120">This script gets adjacent cells using relative references.</span></span> <span data-ttu-id="c72fc-121">Notez que si la cellule active se trouve sur la ligne supérieure, une partie du script échoue, car elle fait référence à la cellule au-dessus de la cellule actuellement sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c72fc-121">Note that if the active cell is on the top row, part of the script fails, because it references the cell above the currently selected one.</span></span>
+<span data-ttu-id="48c5a-120">Ce script obtient des cellules adjacentes en utilisant des références relatives.</span><span class="sxs-lookup"><span data-stu-id="48c5a-120">This script gets adjacent cells using relative references.</span></span> <span data-ttu-id="48c5a-121">Notez que si la cellule active est sur la ligne supérieure, une partie du script échoue, car elle fait référence à la cellule au-dessus de la cellule actuellement sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="48c5a-121">Note that if the active cell is on the top row, part of the script fails, because it references the cell above the currently selected one.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -82,9 +82,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="change-all-adjacent-cells"></a><span data-ttu-id="c72fc-122">Modifier toutes les cellules adjacentes</span><span class="sxs-lookup"><span data-stu-id="c72fc-122">Change all adjacent cells</span></span>
+### <a name="change-all-adjacent-cells"></a><span data-ttu-id="48c5a-122">Changer toutes les cellules adjacentes</span><span class="sxs-lookup"><span data-stu-id="48c5a-122">Change all adjacent cells</span></span>
 
-<span data-ttu-id="c72fc-123">Ce script copie la mise en forme de la cellule active vers les cellules voisines.</span><span class="sxs-lookup"><span data-stu-id="c72fc-123">This script copies the formatting in the active cell to the neighboring cells.</span></span> <span data-ttu-id="c72fc-124">Notez que ce script fonctionne uniquement lorsque la cellule active n’est pas sur un bord de la feuille de calcul.</span><span class="sxs-lookup"><span data-stu-id="c72fc-124">Note that this script only works when the active cell isn't on an edge of the worksheet.</span></span>
+<span data-ttu-id="48c5a-123">Ce script copie le formatage dans la cellule active aux cellules voisines.</span><span class="sxs-lookup"><span data-stu-id="48c5a-123">This script copies the formatting in the active cell to the neighboring cells.</span></span> <span data-ttu-id="48c5a-124">Notez que ce script ne fonctionne que lorsque la cellule active n’est pas sur un bord de la feuille de travail.</span><span class="sxs-lookup"><span data-stu-id="48c5a-124">Note that this script only works when the active cell isn't on an edge of the worksheet.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -105,9 +105,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="change-each-individual-cell-in-a-range"></a><span data-ttu-id="c72fc-125">Modifier chaque cellule individuelle d’une plage</span><span class="sxs-lookup"><span data-stu-id="c72fc-125">Change each individual cell in a range</span></span>
+### <a name="change-each-individual-cell-in-a-range"></a><span data-ttu-id="48c5a-125">Changer chaque cellule dans une plage</span><span class="sxs-lookup"><span data-stu-id="48c5a-125">Change each individual cell in a range</span></span>
 
-<span data-ttu-id="c72fc-126">Ce script s’écrit en boucle sur la plage actuellement sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c72fc-126">This script loops over the currently select range.</span></span> <span data-ttu-id="c72fc-127">Elle permet d’effacer la mise en forme actuelle et de mettre en couleur aléatoire la couleur de remplissage de chaque cellule.</span><span class="sxs-lookup"><span data-stu-id="c72fc-127">It clears the current formatting and sets the fill color in each cell to a random color.</span></span>
+<span data-ttu-id="48c5a-126">Ce script boucle sur la plage actuellement sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="48c5a-126">This script loops over the currently select range.</span></span> <span data-ttu-id="48c5a-127">Il efface le formatage actuel et définit la couleur de remplissage dans chaque cellule à une couleur aléatoire.</span><span class="sxs-lookup"><span data-stu-id="48c5a-127">It clears the current formatting and sets the fill color in each cell to a random color.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -134,9 +134,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="get-groups-of-cells-based-on-special-criteria"></a><span data-ttu-id="c72fc-128">Obtenir des groupes de cellules en fonction de critères spéciaux</span><span class="sxs-lookup"><span data-stu-id="c72fc-128">Get groups of cells based on special criteria</span></span>
+### <a name="get-groups-of-cells-based-on-special-criteria"></a><span data-ttu-id="48c5a-128">Obtenez des groupes de cellules en fonction de critères spéciaux</span><span class="sxs-lookup"><span data-stu-id="48c5a-128">Get groups of cells based on special criteria</span></span>
 
-<span data-ttu-id="c72fc-129">Ce script obtient toutes les cellules vides de la plage utilisée de la feuille de calcul actuelle.</span><span class="sxs-lookup"><span data-stu-id="c72fc-129">This script gets all the blank cells in the current worksheet's used range.</span></span> <span data-ttu-id="c72fc-130">Il met ensuite en évidence toutes ces cellules avec un arrière-plan jaune.</span><span class="sxs-lookup"><span data-stu-id="c72fc-130">It then highlights all those cells with a yellow background.</span></span>
+<span data-ttu-id="48c5a-129">Ce script obtient toutes les cellules vierges dans la plage utilisée de la feuille de travail actuelle.</span><span class="sxs-lookup"><span data-stu-id="48c5a-129">This script gets all the blank cells in the current worksheet's used range.</span></span> <span data-ttu-id="48c5a-130">Il met ensuite en évidence toutes ces cellules avec un fond jaune.</span><span class="sxs-lookup"><span data-stu-id="48c5a-130">It then highlights all those cells with a yellow background.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -151,13 +151,13 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="collections"></a><span data-ttu-id="c72fc-131">Collections</span><span class="sxs-lookup"><span data-stu-id="c72fc-131">Collections</span></span>
+## <a name="collections"></a><span data-ttu-id="48c5a-131">Collections</span><span class="sxs-lookup"><span data-stu-id="48c5a-131">Collections</span></span>
 
-<span data-ttu-id="c72fc-132">Ces exemples fonctionnent avec des collections d’objets dans le workbook.</span><span class="sxs-lookup"><span data-stu-id="c72fc-132">These samples work with collections of objects in the workbook.</span></span>
+<span data-ttu-id="48c5a-132">Ces échantillons fonctionnent avec des collections d’objets dans le cahier de travail.</span><span class="sxs-lookup"><span data-stu-id="48c5a-132">These samples work with collections of objects in the workbook.</span></span>
 
-### <a name="iterating-over-collections"></a><span data-ttu-id="c72fc-133">Iterating over collections</span><span class="sxs-lookup"><span data-stu-id="c72fc-133">Iterating over collections</span></span>
+### <a name="iterate-over-collections"></a><span data-ttu-id="48c5a-133">Itérer sur les collections</span><span class="sxs-lookup"><span data-stu-id="48c5a-133">Iterate over collections</span></span>
 
-<span data-ttu-id="c72fc-134">Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel.</span><span class="sxs-lookup"><span data-stu-id="c72fc-134">This script gets and logs the names of all the worksheets in the workbook.</span></span> <span data-ttu-id="c72fc-135">Il définit également les couleurs de leurs onglets sur une couleur aléatoire.</span><span class="sxs-lookup"><span data-stu-id="c72fc-135">It also sets the their tab colors to a random color.</span></span>
+<span data-ttu-id="48c5a-134">Ce script obtient et enregistre les noms de toutes les feuilles de travail dans le cahier de travail.</span><span class="sxs-lookup"><span data-stu-id="48c5a-134">This script gets and logs the names of all the worksheets in the workbook.</span></span> <span data-ttu-id="48c5a-135">Il définit également les couleurs de leurs onglets à une couleur aléatoire.</span><span class="sxs-lookup"><span data-stu-id="48c5a-135">It also sets the their tab colors to a random color.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -182,9 +182,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="querying-and-deleting-from-a-collection"></a><span data-ttu-id="c72fc-136">Interrogation et suppression d’une collection</span><span class="sxs-lookup"><span data-stu-id="c72fc-136">Querying and deleting from a collection</span></span>
+### <a name="query-and-delete-from-a-collection"></a><span data-ttu-id="48c5a-136">Requête et suppression d’une collection</span><span class="sxs-lookup"><span data-stu-id="48c5a-136">Query and delete from a collection</span></span>
 
-<span data-ttu-id="c72fc-137">Ce script crée une feuille de calcul.</span><span class="sxs-lookup"><span data-stu-id="c72fc-137">This script creates a new worksheet.</span></span> <span data-ttu-id="c72fc-138">Il recherche une copie existante de la feuille de calcul et la supprime avant d’en faire une nouvelle.</span><span class="sxs-lookup"><span data-stu-id="c72fc-138">It checks for an existing copy of the worksheet and deletes it before making a new sheet.</span></span>
+<span data-ttu-id="48c5a-137">Ce script crée une nouvelle feuille de travail.</span><span class="sxs-lookup"><span data-stu-id="48c5a-137">This script creates a new worksheet.</span></span> <span data-ttu-id="48c5a-138">Il vérifie une copie existante de la feuille de travail et la supprime avant de faire une nouvelle feuille.</span><span class="sxs-lookup"><span data-stu-id="48c5a-138">It checks for an existing copy of the worksheet and deletes it before making a new sheet.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -211,11 +211,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="dates"></a><span data-ttu-id="c72fc-139">Dates</span><span class="sxs-lookup"><span data-stu-id="c72fc-139">Dates</span></span>
+## <a name="dates"></a><span data-ttu-id="48c5a-139">Dates</span><span class="sxs-lookup"><span data-stu-id="48c5a-139">Dates</span></span>
 
-<span data-ttu-id="c72fc-140">Les exemples de cette section montrent comment utiliser l’objet [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) JavaScript.</span><span class="sxs-lookup"><span data-stu-id="c72fc-140">The samples in this section show how to use the JavaScript [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) object.</span></span>
+<span data-ttu-id="48c5a-140">Les échantillons de cette section montrent comment utiliser l’objet JavaScript [Date.](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date)</span><span class="sxs-lookup"><span data-stu-id="48c5a-140">The samples in this section show how to use the JavaScript [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) object.</span></span>
 
-<span data-ttu-id="c72fc-141">L’exemple suivant obtient la date et l’heure actuelles, puis écrit ces valeurs dans deux cellules de la feuille de calcul active.</span><span class="sxs-lookup"><span data-stu-id="c72fc-141">The following sample gets the current date and time and then writes those values to two cells in the active worksheet.</span></span>
+<span data-ttu-id="48c5a-141">L’échantillon suivant obtient la date et l’heure actuelles, puis écrit ces valeurs à deux cellules dans la feuille de travail active.</span><span class="sxs-lookup"><span data-stu-id="48c5a-141">The following sample gets the current date and time and then writes those values to two cells in the active worksheet.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -234,7 +234,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-<span data-ttu-id="c72fc-142">L’exemple suivant lit une date stockée dans Excel et la traduit en objet Date JavaScript.</span><span class="sxs-lookup"><span data-stu-id="c72fc-142">The next sample reads a date that's stored in Excel and translates it to a JavaScript Date object.</span></span> <span data-ttu-id="c72fc-143">Il utilise le [numéro de série numérique](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) de la date comme entrée pour la date JavaScript.</span><span class="sxs-lookup"><span data-stu-id="c72fc-143">It uses the [date's numeric serial number](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) as input for the JavaScript Date.</span></span>
+<span data-ttu-id="48c5a-142">L’échantillon suivant lit une date stockée dans Excel et la traduit en objet JavaScript Date.</span><span class="sxs-lookup"><span data-stu-id="48c5a-142">The next sample reads a date that's stored in Excel and translates it to a JavaScript Date object.</span></span> <span data-ttu-id="48c5a-143">Il utilise le [numéro de série numérique de la date comme](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) entrée pour la date JavaScript.</span><span class="sxs-lookup"><span data-stu-id="48c5a-143">It uses the [date's numeric serial number](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) as input for the JavaScript Date.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -248,13 +248,13 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="display-data"></a><span data-ttu-id="c72fc-144">Afficher les données</span><span class="sxs-lookup"><span data-stu-id="c72fc-144">Display data</span></span>
+## <a name="display-data"></a><span data-ttu-id="48c5a-144">Afficher les données</span><span class="sxs-lookup"><span data-stu-id="48c5a-144">Display data</span></span>
 
-<span data-ttu-id="c72fc-145">Ces exemples montrent comment travailler avec des données de feuille de calcul et fournir aux utilisateurs une meilleure vue ou une meilleure organisation.</span><span class="sxs-lookup"><span data-stu-id="c72fc-145">These samples demonstrate how to work with worksheet data and provide users with a better view or organization.</span></span>
+<span data-ttu-id="48c5a-145">Ces échantillons démontrent comment travailler avec les données de la feuille de travail et fournissent aux utilisateurs une meilleure vue ou une meilleure organisation.</span><span class="sxs-lookup"><span data-stu-id="48c5a-145">These samples demonstrate how to work with worksheet data and provide users with a better view or organization.</span></span>
 
-### <a name="apply-conditional-formatting"></a><span data-ttu-id="c72fc-146">Application d’une mise en forme conditionnelle</span><span class="sxs-lookup"><span data-stu-id="c72fc-146">Apply conditional formatting</span></span>
+### <a name="apply-conditional-formatting"></a><span data-ttu-id="48c5a-146">Application d’une mise en forme conditionnelle</span><span class="sxs-lookup"><span data-stu-id="48c5a-146">Apply conditional formatting</span></span>
 
-<span data-ttu-id="c72fc-147">Cet exemple applique une mise en forme conditionnelle à la plage actuellement utilisée dans la feuille de calcul.</span><span class="sxs-lookup"><span data-stu-id="c72fc-147">This sample applies conditional formatting to the currently used range in the worksheet.</span></span> <span data-ttu-id="c72fc-148">La mise en forme conditionnelle est un remplissage vert pour les 10 % de valeurs les plus importantes.</span><span class="sxs-lookup"><span data-stu-id="c72fc-148">The conditional formatting is a green fill for the top 10% of values.</span></span>
+<span data-ttu-id="48c5a-147">Cet exemple applique le formatage conditionnel à la plage actuellement utilisée dans la feuille de travail.</span><span class="sxs-lookup"><span data-stu-id="48c5a-147">This sample applies conditional formatting to the currently used range in the worksheet.</span></span> <span data-ttu-id="48c5a-148">Le formatage conditionnel est un remplissage vert pour les 10% de valeurs les plus élevées.</span><span class="sxs-lookup"><span data-stu-id="48c5a-148">The conditional formatting is a green fill for the top 10% of values.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -274,9 +274,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="create-a-sorted-table"></a><span data-ttu-id="c72fc-149">Créer un tableau trié</span><span class="sxs-lookup"><span data-stu-id="c72fc-149">Create a sorted table</span></span>
+### <a name="create-a-sorted-table"></a><span data-ttu-id="48c5a-149">Créer une table triée</span><span class="sxs-lookup"><span data-stu-id="48c5a-149">Create a sorted table</span></span>
 
-<span data-ttu-id="c72fc-150">Cet exemple crée un tableau à partir de la plage utilisée de la feuille de calcul actuelle, puis le trie en fonction de la première colonne.</span><span class="sxs-lookup"><span data-stu-id="c72fc-150">This sample creates a table from the current worksheet's used range, then sorts it based on the first column.</span></span>
+<span data-ttu-id="48c5a-150">Cet exemple crée une table à partir de la plage utilisée de la feuille de travail actuelle, puis la trie en fonction de la première colonne.</span><span class="sxs-lookup"><span data-stu-id="48c5a-150">This sample creates a table from the current worksheet's used range, then sorts it based on the first column.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -292,11 +292,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="log-the-grand-total-values-from-a-pivottable"></a><span data-ttu-id="c72fc-151">Enregistrer les valeurs « Total total » à partir d’un tableau croisé dynamique</span><span class="sxs-lookup"><span data-stu-id="c72fc-151">Log the "Grand Total" values from a PivotTable</span></span>
+### <a name="log-the-grand-total-values-from-a-pivottable"></a><span data-ttu-id="48c5a-151">Enregistrez les valeurs « Grand Total » à partir d’un PivotTable</span><span class="sxs-lookup"><span data-stu-id="48c5a-151">Log the "Grand Total" values from a PivotTable</span></span>
 
-<span data-ttu-id="c72fc-152">Cet exemple recherche le premier tableau croisé dynamique dans le workbook et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).</span><span class="sxs-lookup"><span data-stu-id="c72fc-152">This sample finds the first PivotTable in the workbook and logs the values in the "Grand Total" cells (as highlighted in green in the image below).</span></span>
+<span data-ttu-id="48c5a-152">Cet exemple trouve le premier PivotTable dans le cahier de travail et enregistre les valeurs dans les cellules « Grand Total » (comme mis en évidence en vert dans l’image ci-dessous).</span><span class="sxs-lookup"><span data-stu-id="48c5a-152">This sample finds the first PivotTable in the workbook and logs the values in the "Grand Total" cells (as highlighted in green in the image below).</span></span>
 
-:::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Tableau croisé dynamique affichant les ventes de fruit avec la ligne Grand Total mise en surbrillante en vert":::
+:::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Un PivotTable affichant les ventes de fruits avec la ligne Grand Total mis en évidence vert":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -320,11 +320,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="use-data-validation-to-create-a-drop-down-list"></a><span data-ttu-id="c72fc-154">Utiliser la validation des données pour créer une liste de listes</span><span class="sxs-lookup"><span data-stu-id="c72fc-154">Use data validation to create a drop-down list</span></span>
+### <a name="create-a-drop-down-list-using-data-validation"></a><span data-ttu-id="48c5a-154">Créer une liste de drop-down à l’aide de la validation des données</span><span class="sxs-lookup"><span data-stu-id="48c5a-154">Create a drop-down list using data validation</span></span>
 
-<span data-ttu-id="c72fc-155">Ce script crée une liste de sélection de listes listes pour une cellule.</span><span class="sxs-lookup"><span data-stu-id="c72fc-155">This script creates a drop-down selection list for a cell.</span></span> <span data-ttu-id="c72fc-156">Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.</span><span class="sxs-lookup"><span data-stu-id="c72fc-156">It uses the existing values of the selected range as the choices for the list.</span></span>
+<span data-ttu-id="48c5a-155">Ce script crée une liste de sélection décrocheuse pour une cellule.</span><span class="sxs-lookup"><span data-stu-id="48c5a-155">This script creates a drop-down selection list for a cell.</span></span> <span data-ttu-id="48c5a-156">Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.</span><span class="sxs-lookup"><span data-stu-id="48c5a-156">It uses the existing values of the selected range as the choices for the list.</span></span>
 
-:::image type="content" source="../../images/sample-data-validation.png" alt-text="Feuille de calcul montrant une plage de trois cellules contenant des choix de couleurs « rouge, bleu, vert » et en de côté, les mêmes choix affichés dans une liste de listes":::
+:::image type="content" source="../../images/sample-data-validation.png" alt-text="Une feuille de travail montrant une gamme de trois cellules contenant des choix de couleurs « rouge, bleu, vert » et à côté de lui, les mêmes choix indiqués dans une liste de drop-down":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -357,13 +357,13 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="formulas"></a><span data-ttu-id="c72fc-158">Formules</span><span class="sxs-lookup"><span data-stu-id="c72fc-158">Formulas</span></span>
+## <a name="formulas"></a><span data-ttu-id="48c5a-158">Formules</span><span class="sxs-lookup"><span data-stu-id="48c5a-158">Formulas</span></span>
 
-<span data-ttu-id="c72fc-159">Ces exemples utilisent Excel formules et montrent comment les utiliser dans des scripts.</span><span class="sxs-lookup"><span data-stu-id="c72fc-159">These samples use Excel formulas and show how to work with them in scripts.</span></span>
+<span data-ttu-id="48c5a-159">Ces échantillons utilisent Excel formules et montrent comment travailler avec eux dans les scripts.</span><span class="sxs-lookup"><span data-stu-id="48c5a-159">These samples use Excel formulas and show how to work with them in scripts.</span></span>
 
-### <a name="single-formula"></a><span data-ttu-id="c72fc-160">Formule unique</span><span class="sxs-lookup"><span data-stu-id="c72fc-160">Single formula</span></span>
+### <a name="single-formula"></a><span data-ttu-id="48c5a-160">Formule unique</span><span class="sxs-lookup"><span data-stu-id="48c5a-160">Single formula</span></span>
 
-<span data-ttu-id="c72fc-161">Ce script définit la formule d’une cellule, puis Excel la formule et la valeur de la cellule séparément.</span><span class="sxs-lookup"><span data-stu-id="c72fc-161">This script sets a cell's formula, then displays how Excel stores the cell's formula and value separately.</span></span>
+<span data-ttu-id="48c5a-161">Ce script définit la formule d’une cellule, puis affiche Excel stocke la formule et la valeur de la cellule séparément.</span><span class="sxs-lookup"><span data-stu-id="48c5a-161">This script sets a cell's formula, then displays how Excel stores the cell's formula and value separately.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -382,9 +382,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="spilling-results-from-a-formula"></a><span data-ttu-id="c72fc-162">Débordement des résultats d’une formule</span><span class="sxs-lookup"><span data-stu-id="c72fc-162">Spilling results from a formula</span></span>
+### <a name="handle-a-spill-error-returned-from-a-formula"></a><span data-ttu-id="48c5a-162">Gérer une erreur `#SPILL!` retournée à partir d’une formule</span><span class="sxs-lookup"><span data-stu-id="48c5a-162">Handle a `#SPILL!` error returned from a formula</span></span>
 
-<span data-ttu-id="c72fc-163">Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE.</span><span class="sxs-lookup"><span data-stu-id="c72fc-163">This script transposes the range "A1:D2" to "A4:B7" by using the TRANSPOSE function.</span></span> <span data-ttu-id="c72fc-164">Si la transpose entraîne une erreur #SPILL, elle permet d’effacer la plage cible et d’appliquer à nouveau la formule.</span><span class="sxs-lookup"><span data-stu-id="c72fc-164">If the transpose results in a #SPILL error, it clears the target range and applies the formula again.</span></span>
+<span data-ttu-id="48c5a-163">Ce script transpose la gamme « A1:D2 » à « A4:B7 » en utilisant la fonction TRANSPOSE.</span><span class="sxs-lookup"><span data-stu-id="48c5a-163">This script transposes the range "A1:D2" to "A4:B7" by using the TRANSPOSE function.</span></span> <span data-ttu-id="48c5a-164">Si la transpose entraîne une `#SPILL` erreur, elle efface la plage cible et applique à nouveau la formule.</span><span class="sxs-lookup"><span data-stu-id="48c5a-164">If the transpose results in a `#SPILL` error, it clears the target range and applies the formula again.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -416,12 +416,12 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="suggest-new-samples"></a><span data-ttu-id="c72fc-165">Suggérer de nouveaux exemples</span><span class="sxs-lookup"><span data-stu-id="c72fc-165">Suggest new samples</span></span>
+## <a name="suggest-new-samples"></a><span data-ttu-id="48c5a-165">Suggérer de nouveaux échantillons</span><span class="sxs-lookup"><span data-stu-id="48c5a-165">Suggest new samples</span></span>
 
-<span data-ttu-id="c72fc-166">Nous vous proposons des suggestions bienvenues pour les nouveaux exemples.</span><span class="sxs-lookup"><span data-stu-id="c72fc-166">We welcome suggestions for new samples.</span></span> <span data-ttu-id="c72fc-167">S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires en bas de la page.</span><span class="sxs-lookup"><span data-stu-id="c72fc-167">If there is a common scenario that would help other script developers, please tell us in the feedback section at the bottom of the page.</span></span>
+<span data-ttu-id="48c5a-166">Nous accueillons favorablement les suggestions de nouveaux échantillons.</span><span class="sxs-lookup"><span data-stu-id="48c5a-166">We welcome suggestions for new samples.</span></span> <span data-ttu-id="48c5a-167">S’il existe un scénario commun qui aiderait d’autres développeurs de scripts, veuillez nous le dire dans la section feedback au bas de la page.</span><span class="sxs-lookup"><span data-stu-id="48c5a-167">If there is a common scenario that would help other script developers, please tell us in the feedback section at the bottom of the page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c72fc-168">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c72fc-168">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48c5a-168">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="48c5a-168">See also</span></span>
 
-* [<span data-ttu-id="c72fc-169">« Principes de base de la plage » de Sudhi Journal sur YouTube</span><span class="sxs-lookup"><span data-stu-id="c72fc-169">Sudhi Ramamurthy's "Range basics" on YouTube</span></span>](https://youtu.be/4emjkOFdLBA)
-* [<span data-ttu-id="c72fc-170">Office Exemples de scripts et scénarios</span><span class="sxs-lookup"><span data-stu-id="c72fc-170">Office Scripts samples and scenarios</span></span>](samples-overview.md)
-* [<span data-ttu-id="c72fc-171">Enregistrer, modifier et créer des scripts Office dans Excel sur le web</span><span class="sxs-lookup"><span data-stu-id="c72fc-171">Record, edit, and create Office Scripts in Excel on the web</span></span>](../../tutorials/excel-tutorial.md)
+* [<span data-ttu-id="48c5a-169">Sudhi Ramamurthy « Range basics » sur YouTube</span><span class="sxs-lookup"><span data-stu-id="48c5a-169">Sudhi Ramamurthy's "Range basics" on YouTube</span></span>](https://youtu.be/4emjkOFdLBA)
+* [<span data-ttu-id="48c5a-170">Office Scripts échantillons et scénarios</span><span class="sxs-lookup"><span data-stu-id="48c5a-170">Office Scripts samples and scenarios</span></span>](samples-overview.md)
+* [<span data-ttu-id="48c5a-171">Enregistrer, modifier et créer des scripts Office dans Excel sur le web</span><span class="sxs-lookup"><span data-stu-id="48c5a-171">Record, edit, and create Office Scripts in Excel on the web</span></span>](../../tutorials/excel-tutorial.md)
