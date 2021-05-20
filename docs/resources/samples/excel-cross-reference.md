@@ -1,35 +1,36 @@
 ---
-title: Renvoi et mise en forme d’Excel fichier
-description: Découvrez comment utiliser Office scripts et Power Automate pour faire référence à un fichier Excel format.
+title: Recoupement et format d’un fichier Excel’eau
+description: Apprenez à utiliser les scripts Office et les Power Automate pour recouper et formater un fichier Excel texte.
 ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: 7cc10787190e7ba8f5984ddda8b3c770eb0f7d8a
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ROBOTS: NOINDEX
+ms.openlocfilehash: f07395eb4e6c77b7aee3776e3252d135bc690a6f
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285905"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545765"
 ---
-# <a name="cross-reference-and-format-an-excel-file"></a>Renvoi et mise en forme d’Excel fichier
+# <a name="cross-reference-and-format-an-excel-file"></a>Recoupement et format d’un fichier Excel’eau
 
-Cette solution montre comment deux fichiers Excel peuvent être référencés et formatés à l’aide Office scripts et Power Automate.
+Cette solution montre comment deux fichiers Excel peuvent être recoupés et formatés à l’aide de scripts Office scripts et de Power Automate.
 
-Le projet atteint les objectifs suivants :
+Le projet réalise les éléments suivants :
 
-1. Extrait les données d’événements <a href="events.xlsx">events.xlsx</a> l’aide d’une action de script Exécuter.
-1. Transmet ces données au deuxième fichier Excel contenant les données de transaction d’événement et utilise ces données pour valider de base les données et mettre en forme des données manquantes ou incorrectes à l’aide de scripts Office.
-1. Envoie le résultat par courrier électronique à un réviseur.
+1. Extrait les données d’événements à <a href="events.xlsx"> partir deevents.xlsx'une </a> action de script Run.
+1. Transmet ces données au deuxième fichier Excel contenant des données de transaction d’événements et utilise ces données pour valider de base les données et formater les données manquantes ou incorrectes à l’aide de scripts Office.
+1. Envoie le résultat par courriel à un examinateur.
 
-Pour plus d’informations, voir Référence croisée et mise en forme de deux fichiers Excel à l’aide [Office scripts.](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
+Pour plus de [détails, consultez Cross Reference et formater deux fichiers Excel à l’aide Office scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535).
 
 ## <a name="sample-excel-files"></a>Exemples Excel fichiers
 
-Téléchargez les fichiers suivants utilisés dans cette solution pour l’essayer vous-même !
+Téléchargez les fichiers suivants utilisés dans cette solution pour l’essayer vous-même!
 
 1. <a href="events.xlsx">events.xlsx</a>
 1. <a href="event-transactions.xlsx">event-transactions.xlsx</a>
 
-## <a name="sample-code-get-event-data"></a>Exemple de code : obtenir des données d’événement
+## <a name="sample-code-get-event-data"></a>Exemple de code : Obtenez des données d’événement
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): EventData[] {
@@ -66,7 +67,7 @@ interface EventData {
 }
 ```
 
-## <a name="sample-code-validate-event-transactions"></a>Exemple de code : valider les transactions d’événement
+## <a name="sample-code-validate-event-transactions"></a>Exemple de code : Valider les transactions événement
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, keys: string): string {
@@ -149,6 +150,6 @@ interface EventData {
 }
 ```
 
-## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Vidéo de formation : référence croisée et mise en forme d’un Excel de formation
+## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Vidéo de formation : Référence croisée et format d’un fichier Excel vidéo
 
-[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/dVwqBf483qo").
+[Regardez Sudhi Ramamurthy marcher à travers cet échantillon sur YouTube](https://youtu.be/dVwqBf483qo").

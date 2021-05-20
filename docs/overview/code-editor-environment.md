@@ -1,41 +1,47 @@
 ---
-title: Environnement de l’éditeur de code des scripts Office
-description: Les conditions préalables et les informations d’environnement pour les scripts Office dans Excel sur le Web.
-ms.date: 07/23/2020
+title: Office Environnement scripts Code Editor
+description: Les conditions préalables et l’information sur l’environnement Office scripts en Excel sur le Web.
+ms.date: 05/10/2021
 localization_priority: Normal
-ms.openlocfilehash: 6a496d6c245879eae60e60b9b0cd6fced9e9259a
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: aa54939826f8dda2a068df0f3fabf0fd3a2c842b
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616695"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545821"
 ---
-# <a name="office-scripts-code-editor-environment"></a>Environnement de l’éditeur de code des scripts Office
+# <a name="office-scripts-code-editor-environment"></a>Office Environnement scripts Code Editor
 
-Les scripts Office sont écrits en écriture manuscrite [ou en JavaScript](#scripting-language-typescript-or-javascript) et utilisent les [API JavaScript de scripts Office](#office-scripts-javascript-api) pour interagir avec un classeur Excel.
+Office Les scripts sont écrits dans TypeScript ou JavaScript et utilisent les API JavaScript Office Scripts pour interagir avec un Excel de travail. L’éditeur de code est basé Visual Studio Code, donc si vous avez utilisé cet environnement avant, vous vous sentirez comme chez vous.
 
-## <a name="scripting-language-typescript-or-javascript"></a>Langage de script : écriture ou JavaScript
+## <a name="scripting-language-typescript-or-javascript"></a>Langage de script : TypeScript ou JavaScript
 
-Les scripts Office sont écrits [en écriture](https://www.typescriptlang.org/docs/home.html) manuscrite ou en [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript). L’enregistreur d’actions génère du code dans la machine à écrire (qui est un sur-ensemble de JavaScript). La documentation sur les scripts Office utilise la machine à écrire, mais si vous êtes plus à l’aise avec JavaScript, vous pouvez l’utiliser à la place.
+Office Les scripts sont écrits dans [TypeScript](https://www.typescriptlang.org/docs/home.html), qui est un superset de [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript). L’enregistreur d’action génère du code dans TypeScript et Office documentation scripts utilise TypeScript. Depuis TypeScript est un superset de JavaScript, tout code de script que vous écrivez dans JavaScript fonctionnera très bien.
 
-Les scripts Office sont principalement des portions de code autonomes. Seule une petite partie de la fonctionnalité d’écriture est utilisée. Par conséquent, vous pouvez modifier les scripts sans avoir à vous familiariser avec les subtilités de la machine à écrire. L’éditeur de code gère également l’installation, la compilation et l’exécution du code, de sorte que vous n’avez pas à vous soucier de tout, à l’exception du script lui-même. Il est possible d’apprendre le langage et de créer des scripts sans connaissance préalable de la programmation. Toutefois, si vous débutez dans la programmation, nous vous recommandons d’apprendre des notions de base avant de procéder à des scripts Office :
+Office Les scripts sont en grande partie des morceaux de code autonomes. Seule une petite partie des fonctionnalités de TypeScript est utilisée. Par conséquent, vous pouvez modifier des scripts sans avoir à apprendre les subtilités de TypeScript. L’éditeur de code gère également l’installation, la compilation et l’exécution du code, de sorte que vous n’avez pas besoin de vous soucier de quoi que ce soit, mais le script lui-même. Il est possible d’apprendre la langue et de créer des scripts sans connaissances préalables en programmation. Toutefois, si vous êtes nouveau dans la programmation, nous vous recommandons d’apprendre certains principes fondamentaux avant de procéder Office scripts :
 
-- Découvrez les notions de base de JavaScript. Vous devez être familiarisé avec les concepts comme les variables, le flux de contrôle, les fonctions et les types de données. [Mozilla offre un didacticiel performant et complet sur JavaScript](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction).
-- En savoir plus sur les types dans la machine à écrire. La méthode dactylographié s’appuie sur JavaScript en s’assurant au moment de la compilation que les types corrects sont utilisés pour les appels et les affectations de méthodes. La documentation de la machine à écrire sur les [interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html), les [classes](https://www.typescriptlang.org/docs/handbook/classes.html), l' [inférence de type](https://www.typescriptlang.org/docs/handbook/type-inference.html)et la [compatibilité des types](https://www.typescriptlang.org/docs/handbook/type-compatibility.html) seront les plus utiles.
+[!INCLUDE [Preview note](../includes/coding-basics-references.md)]
 
-## <a name="office-scripts-javascript-api"></a>API JavaScript pour les scripts Office
+## <a name="office-scripts-javascript-api"></a>Office Scripts JavaScript API
 
-Les scripts Office utilisent une version spécialisée des API JavaScript pour Office pour les [Compléments Office](/office/dev/add-ins/overview/index). Bien qu’il existe des similitudes entre les deux API, vous ne devez pas supposer que le code peut être transféré entre les deux plateformes. Les différences entre les deux plateformes sont décrites dans l’article [différences entre les scripts Office et les compléments Office](../resources/add-ins-differences.md#apis) . Vous pouvez afficher toutes les API disponibles pour votre script dans la [documentation de référence de l’API des scripts Office](/javascript/api/office-scripts/overview).
+Office Les scripts utilisent une version spécialisée des Office API JavaScript pour [Office Add-ins](/office/dev/add-ins/overview/index). Bien qu’il existe des similitudes dans les deux API, vous ne devez pas supposer que le code peut être porté entre les deux plates-formes. Les différences entre les deux plateformes sont décrites dans [les différences entre Office scripts et Office’article Add-ins.](../resources/add-ins-differences.md#apis) Vous pouvez afficher toutes les API disponibles pour votre script dans la [documentation de référence Office Scripts API](/javascript/api/office-scripts/overview).
 
-## <a name="intellisense"></a>Remplissage
+## <a name="external-library-support"></a>Support externe de la bibliothèque
 
-IntelliSense est une fonctionnalité d’éditeur de code qui permet d’éviter les fautes de frappe et de syntaxe lors de la modification de votre script. Il affiche les noms d’objet et de champ possibles en fonction de votre type, ainsi que la documentation en ligne pour chaque API.
+Office Les scripts ne prend pas en charge l’utilisation de bibliothèques JavaScript externes et tierces. Actuellement, vous ne pouvez pas appeler une bibliothèque autre que les Office scripts d’un script. Vous avez toujours accès à [n’importe quel objet JavaScript intégré,](../develop/javascript-objects.md)comme [les mathématiques.](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
-L’éditeur de code Excel utilise le même moteur IntelliSense que Visual Studio code. Pour en savoir plus sur la fonctionnalité, consultez la rubrique [fonctionnalités IntelliSense de Visual Studio code](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features).
+## <a name="intellisense"></a>IntelliSense
 
-## <a name="external-library-support"></a>Prise en charge des bibliothèques externes
+IntelliSense est une fonctionnalité d’éditeur de code qui aide à prévenir les fautes de frappe et les erreurs de syntaxe lorsque vous modifiez votre script. Il affiche les noms d’objets et de champs possibles au fur et à mesure que vous tapez, ainsi que la documentation en ligne pour chaque API.
 
-Les scripts Office ne prennent pas en charge l’utilisation de bibliothèques JavaScript tierces externes. Vous ne pouvez actuellement pas appeler une bibliothèque autre que les API de scripts Office à partir d’un script. Vous avez toujours accès à un [objet JavaScript intégré](../develop/javascript-objects.md), tel que [Math](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math).
+L Excel éditeur de code utilise le même IntelliSense que Visual Studio Code. Pour en savoir plus sur la fonctionnalité, [visitez Visual Studio Code’IntelliSense de l’équipe.](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)
+
+## <a name="keyboard-shortcuts"></a>Raccourcis clavier
+
+La plupart des raccourcis clavier pour Visual Studio Code également dans le Office Scripts Code Editor. Utilisez les FICHIERS PDF suivants pour en savoir plus sur les options disponibles et tirer le meilleur parti de l’éditeur de code :
+
+- [Raccourcis clavier pour macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
+- [Raccourcis clavier pour Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
 ## <a name="see-also"></a>Voir aussi
 

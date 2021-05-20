@@ -1,28 +1,28 @@
 ---
-title: Annuler les modifications apportées en exécutant un script Office
-description: Utilisez l’historique des versions d’Excel sur le Web pour annuler les modifications apportées par l’exécution d’un script.
+title: Annuler les modifications apportées par Office Scripts
+description: Utilisez l’historique de version Excel sur le Web pour annuler les modifications apportées par l’exécution d’un script.
 ms.date: 01/08/2019
 localization_priority: Normal
-ms.openlocfilehash: 17f2d0bc69ce00b80be6db3d89ebb84bf064df98
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: f9f22d4879f8a02c00a5bac9f58d9aa36ae03e38
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700180"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545545"
 ---
-# <a name="undo-the-changes-made-by-running-an-office-script"></a>Annuler les modifications apportées en exécutant un script Office
+# <a name="undo-the-changes-made-by-office-scripts"></a>Annuler les modifications apportées par Office Scripts
 
-Vous ne pouvez pas annuler un script à l’aide de la commande **Annuler** . Au lieu de cela, vous devez restaurer une version antérieure du classeur à partir de votre stockage cloud.
+Vous ne pouvez pas annuler les modifications apportées Excel manuel par un script avec la commande **Excel’undo du** Excel. Au lieu de cela, vous devez restaurer une version précédente du manuel à partir de votre stockage cloud.
 
 ## <a name="version-history"></a>Historique des versions
 
-L’historique des versions d’Office est un moyen simple de restaurer un classeur ancien via l’interface utilisateur Excel. La fonctionnalité ne fonctionne que pour les fichiers stockés dans OneDrive ou SharePoint Online.
+L’historique de la version de Office est un moyen facile de restaurer un ancien manuel à travers l’interface utilisateur Excel’utilisateur. La fonctionnalité ne fonctionne que pour les fichiers stockés dans OneDrive ou SharePoint En ligne.
 
-Dans le classeur Excel dans lequel le script a été exécuté, procédez comme suit pour annuler les effets d’un script Office :
+À partir Excel livre de travail dans lequel le script a été publié, utilisez ces étapes pour annuler les effets :
 
-1. Accédez à**l’historique des versions des****infos** > sur le **fichier** > .
+1. Aller à **l’historique de** la version  >    >  **d’informations de fichier**.
 2. Sélectionnez une version enregistrée avant l’exécution du script.
-3. Appuyez sur la touche **restauration**.
+3. Restauration de **presse**.
 
 ## <a name="see-also"></a>Voir aussi
 
