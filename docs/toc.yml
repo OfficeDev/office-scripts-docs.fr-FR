@@ -1,7 +1,7 @@
 items:
-  - name: "Documentation sur Office\_Scripts"
+  - name: Documentation sur Office Scripts
     href: index.md
-  - name: "Office\_Scripts dans Excel sur le web"
+  - name: Office Scripts dans Excel sur le web
     items:
       - name: Vue d’ensemble
         href: overview/excel.md
@@ -21,6 +21,8 @@ items:
         href: develop/scripting-fundamentals.md
       - name: Concepts
         items:
+          - name: Meilleures pratiques en matière de scripts Office
+            href: develop/best-practices.md
           - name: Objets JavaScript intégrés
             href: develop/javascript-objects.md
           - name: Environnement de l’éditeur de code
@@ -47,7 +49,7 @@ items:
             href: testing/platform-limits.md
           - name: Restrictions TypeScript
             href: develop/typescript-restrictions.md
-          - name: Annuler les effets d’un script Office
+          - name: Annuler les effets des scripts Office
             href: testing/undo.md
           - name: Prise en charge des anciens scripts Office
             href: develop/excel-async-model.md
@@ -61,14 +63,14 @@ items:
                 href: resources/samples/excel-samples.md
               - name: Ajouter des commentaires
                 href: resources/samples/add-excel-comments.md
+              - name: Ajouter des images à un classeur
+                href: resources/samples/add-image-to-workbook.md
               - name: Copier plusieurs tables dans un seul tableau
                 href: resources/samples/copy-tables-combine.md
           - name: Notions intermédiaires
             items:
               - name: Compter les lignes vides dans les feuilles de calcul
                 href: resources/samples/count-blank-rows.md
-              - name: Recouper et mettre en forme des fichiers Excel
-                href: resources/samples/excel-cross-reference.md
               - name: Images de graphique et de tableau par courrier électronique
                 href: resources/samples/email-images-chart-table.md
               - name: Filtrer le tableau et obtenir une plage visible
@@ -83,10 +85,10 @@ items:
                 href: resources/samples/remove-hyperlinks-from-cells.md
               - name: Exécuter un script sur tous les fichiers Excel d’un dossier
                 href: resources/samples/automate-tasks-on-all-excel-files-in-folder.md
-              - name: Envoyer une invitation à Teams à partir de données Excel
-                href: resources/samples/send-teams-invite-from-excel-data.md
-              - name: Utiliser les appels externes de récupération à Office Scripts
+              - name: Utiliser les appels externes de récupération dans les scripts Office
                 href: resources/samples/external-fetch-calls.md
+              - name: Rédiger un grand ensemble de données
+                href: resources/samples/write-large-dataset.md
           - name: Scénarios
             items:
               - name: Analyser les téléchargements web

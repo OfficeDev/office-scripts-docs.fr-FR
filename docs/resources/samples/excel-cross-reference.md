@@ -1,6 +1,6 @@
 ---
-title: Recoupement et format d’un fichier Excel’eau
-description: Apprenez à utiliser les scripts Office et les Power Automate pour recouper et formater un fichier Excel texte.
+title: Renvoi et mise en forme d’Excel fichier
+description: Découvrez comment utiliser Office scripts et Power Automate pour faire référence à un fichier Excel format.
 ms.date: 05/06/2021
 localization_priority: Normal
 ROBOTS: NOINDEX
@@ -11,26 +11,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52545765"
 ---
-# <a name="cross-reference-and-format-an-excel-file"></a><span data-ttu-id="9f699-103">Recoupement et format d’un fichier Excel’eau</span><span class="sxs-lookup"><span data-stu-id="9f699-103">Cross-reference and format an Excel file</span></span>
+# <a name="cross-reference-and-format-an-excel-file"></a><span data-ttu-id="ebcf4-103">Renvoi et mise en forme d’Excel fichier</span><span class="sxs-lookup"><span data-stu-id="ebcf4-103">Cross-reference and format an Excel file</span></span>
 
-<span data-ttu-id="9f699-104">Cette solution montre comment deux fichiers Excel peuvent être recoupés et formatés à l’aide de scripts Office scripts et de Power Automate.</span><span class="sxs-lookup"><span data-stu-id="9f699-104">This solution shows how two Excel files can be cross-referenced and formatted using Office Scripts and Power Automate.</span></span>
+<span data-ttu-id="ebcf4-104">Cette solution montre comment deux fichiers Excel peuvent être référencés et formatés à l’aide Office scripts et Power Automate.</span><span class="sxs-lookup"><span data-stu-id="ebcf4-104">This solution shows how two Excel files can be cross-referenced and formatted using Office Scripts and Power Automate.</span></span>
 
-<span data-ttu-id="9f699-105">Le projet réalise les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="9f699-105">The project achieves the following:</span></span>
+<span data-ttu-id="ebcf4-105">Le projet atteint les objectifs suivants :</span><span class="sxs-lookup"><span data-stu-id="ebcf4-105">The project achieves the following:</span></span>
 
-1. <span data-ttu-id="9f699-106">Extrait les données d’événements à <a href="events.xlsx"> partir deevents.xlsx'une </a> action de script Run.</span><span class="sxs-lookup"><span data-stu-id="9f699-106">Extracts event data from <a href="events.xlsx">events.xlsx</a> using one Run script action.</span></span>
-1. <span data-ttu-id="9f699-107">Transmet ces données au deuxième fichier Excel contenant des données de transaction d’événements et utilise ces données pour valider de base les données et formater les données manquantes ou incorrectes à l’aide de scripts Office.</span><span class="sxs-lookup"><span data-stu-id="9f699-107">Passes that data to the second Excel file containing event transaction data and uses that data to do basic validation of data and formatting of missing or incorrect data using Office Scripts.</span></span>
-1. <span data-ttu-id="9f699-108">Envoie le résultat par courriel à un examinateur.</span><span class="sxs-lookup"><span data-stu-id="9f699-108">Emails the result to a reviewer.</span></span>
+1. <span data-ttu-id="ebcf4-106">Extrait les données d’événements <a href="events.xlsx">events.xlsx</a> l’aide d’une action de script Exécuter.</span><span class="sxs-lookup"><span data-stu-id="ebcf4-106">Extracts event data from <a href="events.xlsx">events.xlsx</a> using one Run script action.</span></span>
+1. <span data-ttu-id="ebcf4-107">Transmet ces données au deuxième fichier Excel contenant les données de transaction d’événement et utilise ces données pour valider de base les données et mettre en forme des données manquantes ou incorrectes à l’aide de scripts Office.</span><span class="sxs-lookup"><span data-stu-id="ebcf4-107">Passes that data to the second Excel file containing event transaction data and uses that data to do basic validation of data and formatting of missing or incorrect data using Office Scripts.</span></span>
+1. <span data-ttu-id="ebcf4-108">Envoie le résultat par courrier électronique à un réviseur.</span><span class="sxs-lookup"><span data-stu-id="ebcf4-108">Emails the result to a reviewer.</span></span>
 
-<span data-ttu-id="9f699-109">Pour plus de [détails, consultez Cross Reference et formater deux fichiers Excel à l’aide Office scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535).</span><span class="sxs-lookup"><span data-stu-id="9f699-109">For further details, see [Cross Reference and formatting two Excel files using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535).</span></span>
+<span data-ttu-id="ebcf4-109">Pour plus d’informations, voir Référence croisée et mise en forme de deux fichiers [Excel l’aide Office scripts.](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)</span><span class="sxs-lookup"><span data-stu-id="ebcf4-109">For further details, see [Cross Reference and formatting two Excel files using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535).</span></span>
 
-## <a name="sample-excel-files"></a><span data-ttu-id="9f699-110">Exemples Excel fichiers</span><span class="sxs-lookup"><span data-stu-id="9f699-110">Sample Excel files</span></span>
+## <a name="sample-excel-files"></a><span data-ttu-id="ebcf4-110">Exemples Excel fichiers</span><span class="sxs-lookup"><span data-stu-id="ebcf4-110">Sample Excel files</span></span>
 
-<span data-ttu-id="9f699-111">Téléchargez les fichiers suivants utilisés dans cette solution pour l’essayer vous-même!</span><span class="sxs-lookup"><span data-stu-id="9f699-111">Download the following files used in this solution to try it out yourself!</span></span>
+<span data-ttu-id="ebcf4-111">Téléchargez les fichiers suivants utilisés dans cette solution pour l’essayer vous-même !</span><span class="sxs-lookup"><span data-stu-id="ebcf4-111">Download the following files used in this solution to try it out yourself!</span></span>
 
-1. <span data-ttu-id="9f699-112"><a href="events.xlsx">events.xlsx</a></span><span class="sxs-lookup"><span data-stu-id="9f699-112"><a href="events.xlsx">events.xlsx</a></span></span>
-1. <span data-ttu-id="9f699-113"><a href="event-transactions.xlsx">event-transactions.xlsx</a></span><span class="sxs-lookup"><span data-stu-id="9f699-113"><a href="event-transactions.xlsx">event-transactions.xlsx</a></span></span>
+1. <span data-ttu-id="ebcf4-112"><a href="events.xlsx">events.xlsx</a></span><span class="sxs-lookup"><span data-stu-id="ebcf4-112"><a href="events.xlsx">events.xlsx</a></span></span>
+1. <span data-ttu-id="ebcf4-113"><a href="event-transactions.xlsx">event-transactions.xlsx</a></span><span class="sxs-lookup"><span data-stu-id="ebcf4-113"><a href="event-transactions.xlsx">event-transactions.xlsx</a></span></span>
 
-## <a name="sample-code-get-event-data"></a><span data-ttu-id="9f699-114">Exemple de code : Obtenez des données d’événement</span><span class="sxs-lookup"><span data-stu-id="9f699-114">Sample code: Get event data</span></span>
+## <a name="sample-code-get-event-data"></a><span data-ttu-id="ebcf4-114">Exemple de code : obtenir des données d’événement</span><span class="sxs-lookup"><span data-stu-id="ebcf4-114">Sample code: Get event data</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): EventData[] {
@@ -67,7 +67,7 @@ interface EventData {
 }
 ```
 
-## <a name="sample-code-validate-event-transactions"></a><span data-ttu-id="9f699-115">Exemple de code : Valider les transactions événement</span><span class="sxs-lookup"><span data-stu-id="9f699-115">Sample code: Validate event transactions</span></span>
+## <a name="sample-code-validate-event-transactions"></a><span data-ttu-id="ebcf4-115">Exemple de code : valider les transactions d’événement</span><span class="sxs-lookup"><span data-stu-id="ebcf4-115">Sample code: Validate event transactions</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, keys: string): string {
@@ -150,6 +150,6 @@ interface EventData {
 }
 ```
 
-## <a name="training-video-cross-reference-and-format-an-excel-file"></a><span data-ttu-id="9f699-116">Vidéo de formation : Référence croisée et format d’un fichier Excel vidéo</span><span class="sxs-lookup"><span data-stu-id="9f699-116">Training video: Cross-reference and format an Excel file</span></span>
+## <a name="training-video-cross-reference-and-format-an-excel-file"></a><span data-ttu-id="ebcf4-116">Vidéo de formation : référence croisée et mise en forme d’un Excel de formation</span><span class="sxs-lookup"><span data-stu-id="ebcf4-116">Training video: Cross-reference and format an Excel file</span></span>
 
-<span data-ttu-id="9f699-117">[Regardez Sudhi Ramamurthy marcher à travers cet échantillon sur YouTube](https://youtu.be/dVwqBf483qo").</span><span class="sxs-lookup"><span data-stu-id="9f699-117">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/dVwqBf483qo").</span></span>
+<span data-ttu-id="ebcf4-117">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/dVwqBf483qo").</span><span class="sxs-lookup"><span data-stu-id="ebcf4-117">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/dVwqBf483qo").</span></span>
