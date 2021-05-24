@@ -1,18 +1,18 @@
 ---
-title: Office Scripts dans Excel sur le web
-description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
-ms.date: 11/13/2020
+title: Office Scripts dans Excel sur le web
+description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
+ms.date: 05/17/2021
 localization_priority: Priority
-ms.openlocfilehash: 233baf33648f5fc8358b2aa8ce063ad5cdd68499
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 36bf679c1778375ad2fb010d34efc88678fd9f57
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232661"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545809"
 ---
-# <a name="office-scripts-in-excel-on-the-web-preview"></a>Office Scripts dans Excel sur le web (Aperçu)
+# <a name="office-scripts-in-excel-on-the-web-preview"></a>Office Scripts dans Excel sur le web (Aperçu)
 
-Office Scripts dans Excel sur le web vous permet d’automatiser vos tâches quotidiennes. Vous pouvez enregistrer les actions Excel avec l’enregistreur d’actions, ce qui crée un script. Vous pouvez également créer et modifier des scripts avec l’éditeur de code. Vos scripts peuvent ensuite être partagés au sein de votre organisation afin que vos collègues puissent également automatiser leurs flux de travail.
+Office Scripts dans Excel sur le web vous permet d’automatiser vos tâches quotidiennes. Vous pouvez enregistrer les actions Excel avec l’enregistreur d’actions, ce qui crée un script linguistique TypeScript. Vous pouvez également créer et modifier des scripts avec l’éditeur de code. Vos scripts peuvent ensuite être partagés au sein de votre organisation afin que vos collègues puissent également automatiser leurs flux de travail.
 
 Cette série de documents vous explique comment utiliser ces outils. Vous allez découvrir comment enregistrer vos actions Excel fréquentes avec l’enregistreur d’actions. Vous découvrirez également comment créer ou mettre à jour vos propres scripts à l’aide de l’éditeur de code.
 
@@ -28,16 +28,16 @@ Pour utiliser les scripts Office, vous devez disposer des éléments suivants.
 
 1. [Excel sur le web](https://www.office.com/launch/excel) (les autres plateformes, telles que le bureau, ne sont pas prises en charge).
 1. OneDrive Entreprise.
-1. Toute licence Microsoft 365 commerciale ou éducative donnant accès aux applications de bureau Microsoft 365, telles que :
+1. Toute licence Microsoft 365 commerciale ou éducative donnant accès aux applications de bureau Microsoft 365, telles que :
 
-    - Applications Microsoft 365 pour les PME
-    - Office 365 Business Premium
-    - Office 365 ProPlus
-    - Office 365 ProPlus pour les appareils
-    - Office 365 Entreprise E3
-    - Office 365 Entreprise E5
-    - Office 365 A3
-    - Office 365 A5
+    - Applications Microsoft 365 pour les PME
+    - Office 365 Business Premium
+    - Office 365 ProPlus
+    - Office 365 ProPlus pour les appareils
+    - Office 365 Entreprise E3
+    - Office 365 Entreprise E5
+    - Office 365 A3
+    - Office 365 A5
 
 > [!NOTE]
 > Si vous répondez à ces critères et que l’onglet **Automatiser** n’apparaît pas, il est possible que votre administrateur ait désactivé la fonctionnalité ou qu’un autre problème se soit produit dans votre environnement. Veuillez suivre les étapes décrites dans [L’onglet Automatiser n’apparaît pas ou les scripts Office ne sont pas disponibles](../testing/troubleshooting.md#automate-tab-not-appearing-or-office-scripts-unavailable) pour commencer à utiliser les scripts Office.
@@ -46,7 +46,7 @@ Pour utiliser les scripts Office, vous devez disposer des éléments suivants.
 
 Les scripts permettent d’enregistrer et de reproduire les actions Excel sur des classeurs et des feuilles de calcul différents. Si votre travail comporte des tâches répétitives, vous pouvez les automatiser facilement à l’aide d’un script Office. Exécutez votre script en appuyant sur un bouton dans Excel ou combinez-le avec Power Automate pour rationaliser l'ensemble de votre flux de travail.
 
-Par exemple, vous débutez votre journée de travail en ouvrant un fichier .csv à partir d’un site de comptabilité dans Excel. Vous consacrez ensuite plusieurs minutes à supprimer les colonnes superflues, à mettre en forme un tableau, à ajouter des formules et à créer un tableau croisé dynamique dans une nouvelle feuille de calcul. Ces actions que vous répétez quotidiennement peuvent être enregistrées une seule fois à l’aide de l’enregistreur d’actions. Dès lors, l’exécution du script se chargera de l’intégralité de la conversion .csv. Non seulement, vous supprimez le risque d’oublier les étapes, mais vous pouvez aussi partager le procédé avec d’autres personnes sans avoir à leur apprendre ce dernier. Les scripts Office automatisent vos tâches courantes afin que vous et votre équipe puissiez être plus efficaces et productifs.
+Par exemple, vous débutez votre journée de travail en ouvrant un fichier .csv à partir d’un site de comptabilité dans Excel. Vous consacrez ensuite plusieurs minutes à supprimer les colonnes superflues, à mettre en forme un tableau, à ajouter des formules et à créer un tableau croisé dynamique dans une nouvelle feuille de calcul. Ces actions que vous répétez quotidiennement peuvent être enregistrées une seule fois à l’aide de l’enregistreur d’actions. Dès lors, l’exécution du script se chargera de l’intégralité de la conversion .csv. Non seulement, vous supprimez le risque d’oublier les étapes, mais vous pouvez aussi partager le procédé avec d’autres personnes sans avoir à leur apprendre ce dernier. Les scripts Office vous permettent d’automatiser vos tâches courantes afin que vous et votre équipe puissiez être plus efficaces et productifs.
 
 ## <a name="action-recorder"></a>Enregistreur d’actions
 
@@ -60,11 +60,13 @@ La fonctionnalité Enregistreur d’actions vous permet d’enregistrer les acti
 
 Tous les scripts enregistrés avec l’enregistreur d’actions peuvent être modifiés via l’éditeur de code. Cela vous permet d’affiner et de personnaliser le script pour l’adapter à vos besoins. Vous pouvez également ajouter une logique et des fonctionnalités qui ne sont pas directement accessibles via l’interface utilisateur d’Excel, comme les instructions conditionnelles (si/sinon) et les boucles.
 
-Un moyen simple de commencer à apprendre les fonctionnalités de Office Scripts consiste à enregistrer les scripts dans Excel sur le web et à afficher le code obtenu. Vous pouvez également suivre nos [tutoriels](../tutorials/excel-tutorial.md) pour découvrir des instructions qui vous guideront de manière plus structurée. 
+Un moyen simple de commencer à apprendre les fonctionnalités de Office Scripts consiste à enregistrer les scripts dans Excel sur le web et à afficher le code obtenu. Vous pouvez également suivre nos [tutoriels](../tutorials/excel-tutorial.md) pour découvrir des instructions qui vous guideront de manière plus structurée. 
+
+Après avoir terminé le didacticiel, lisez [Principes de base de l’écriture de scripts Office dans Excel sur le web](../develop/scripting-fundamentals.md) pour en savoir plus sur l’Éditeur de code et la rédaction et la modification de vos propres scripts. Pour plus d’informations sur l’Éditeur de code et la manière dont votre code script est interprété, lisez [Environnement Éditeur de code des Scripts Office](code-editor-environment.md).
 
 ## <a name="sharing-scripts"></a>Partage de scénarios
 
-:::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du script montrant l'option « Partager avec d'autres dans ce classeur ».":::
+:::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du script montrant l'option « Partager avec d'autres dans ce classeur ».":::
 
 Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un scénario avec d'autres personnes dans un cahier de travail, le scénario est joint au cahier. Vos scénarios sont stockés dans votre OneDrive, et lorsque vous en partagez un, vous créez un lien vers celui-ci dans le cahier de travail que vous avez ouvert.
 
@@ -79,13 +81,13 @@ Si vous souhaitez en savoir plus sur le partage et le non-partage de scripts, ve
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Suivez le [tutoriel sur Office Scripts dans Excel sur le web](../tutorials/excel-tutorial.md) pour découvrir comment créer vos premiers scripts Office.
+Suivez le [tutoriel sur Office Scripts dans Excel sur le web](../tutorials/excel-tutorial.md) pour découvrir comment créer vos premiers scripts Office.
 
 ## <a name="see-also"></a>Voir aussi
 
 - [Principes de base pour la rédaction de scripts Office en Excel sur le web](../develop/scripting-fundamentals.md)
-- [Référence de l'API Office Scripts](/javascript/api/office-scripts/overview)
-- [Dépannage de Office Scripts](../testing/troubleshooting.md)
-- [Paramètres de Office Scripts dans M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
-- [Introduction à Office Scripts dans Excel (sur support.office.com)](https://support.office.com/article/introduction-to-office-scripts-in-excel-9fbe283d-adb8-4f13-a75b-a81c6baf163a)
+- [Référence de l'API Office Scripts](/javascript/api/office-scripts/overview)
+- [Dépannage de Office Scripts](../testing/troubleshooting.md)
+- [Paramètres de Office Scripts dans M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
+- [Introduction à Office Scripts dans Excel (sur support.office.com)](https://support.office.com/article/introduction-to-office-scripts-in-excel-9fbe283d-adb8-4f13-a75b-a81c6baf163a)
 - [Partager des scénarios de bureau en Excel pour le Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)

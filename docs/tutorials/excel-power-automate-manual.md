@@ -1,16 +1,16 @@
 ---
 title: Appeler des scripts à partir d’un flux manuel Power Automate
 description: Un tutoriel sur l’utilisation des scripts Office dans Power Automate via un déclencheur manuel.
-ms.date: 12/28/2020
+ms.date: 05/17/2021
 localization_priority: Priority
-ms.openlocfilehash: 0a5fc93dbad1ee9804840fa11a06b689b7e7abda
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: f4feb14f70c43497f40dae3a521353dfee63c082
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232871"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545828"
 ---
-# <a name="call-scripts-from-a-manual-power-automate-flow-preview"></a>Appeler des scripts à partir d’un flux manuel Power Automate (préversion)
+# <a name="call-scripts-from-a-manual-power-automate-flow"></a>Appeler des scripts à partir d’un flux manuel Power Automate
 
 Ce tutoriel vous apprend à exécuter un script Office pour Excel sur le web via [Power Automate](https://flow.microsoft.com). Vous allez créer un script qui met à jour les valeurs de deux cellules en y indiquant la date et l’heure de son exécution. Vous allez ensuite connecter ce script à un flux Power Automate déclenché manuellement, pour que le script s’exécute à chaque pression sur un bouton dans Power Automate. Après avoir assimilé le modèle de base, vous pourrez développer le flux pour inclure d’autres applications et automatiser davantage votre flux de travail quotidien.
 
@@ -23,7 +23,7 @@ Ce tutoriel vous apprend à exécuter un script Office pour Excel sur le web via
 
 ## <a name="prepare-the-workbook"></a>Préparer le classeur
 
-Power Automate ne peut pas utiliser de [références relatives](../testing/power-automate-troubleshooting.md#avoid-using-relative-references) comme `Workbook.getActiveWorksheet`pour accéder aux composants du classeur. Nous avons donc besoin d’un classeur et d’une feuille de calcul avec des noms cohérents que Power Automate peut référencer.
+Power Automate ne peut pas utiliser de [références relatives](../testing/power-automate-troubleshooting.md#avoid-relative-references) comme `Workbook.getActiveWorksheet`pour accéder aux composants du classeur. Nous avons donc besoin d’un classeur et d’une feuille de calcul avec des noms cohérents que Power Automate peut référencer.
 
 1. Créer un classeur nommé **MyWorkbook**.
 
@@ -67,7 +67,7 @@ Power Automate ne peut pas utiliser de [références relatives](../testing/power
 
 2. Dans le menu qui s’affiche sur le côté gauche de l’écran, appuyez sur **Créer**. Cela affiche une liste des moyens de créer de nouveaux flux de travail.
 
-    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton de « Création » de Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton de « Création » de Power Automate":::
 
 3. Dans la section **Démarrer à partir de zéro**, sélectionnez **Flux instantané**. Cela crée un flux de travail activé manuellement.
 
@@ -75,7 +75,7 @@ Power Automate ne peut pas utiliser de [références relatives](../testing/power
 
 4. Dans la boîte de dialogue qui apparaît, entrez un nom pour votre flux dans la zone de texte **Nom du flux**, sélectionnez **Déclencher manuellement un flux** dans la liste des options sous **Choisir le déclencheur du flux**, puis appuyez sur **Créer**.
 
-    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Option de « Déclenchement manuel de flux » de Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Option de « Déclenchement manuel de flux » de Power Automate":::
 
     Notez qu’un flux déclenché manuellement n’est que l’un des nombreux types de flux. Dans le tutoriel suivant, vous allez créer un flux qui s’exécute automatiquement lorsque vous recevez un e-mail.
 
@@ -85,16 +85,16 @@ Power Automate ne peut pas utiliser de [références relatives](../testing/power
 
     :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Option Excel Online (Business) dans Power Automate":::
 
-7. Sous **Actions**, sélectionnez **Exécuter le script (aperçu)**.
+7. Sous **Actions**, sélectionnez **Exécuter le script**.
 
-    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Option d’action Exécuter un script (aperçu) dans Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Option d’action Exécuter un script dans Power Automate":::
 
-8. Vous allez ensuite sélectionner le classeur et le script à utiliser dans l’étape de flux. À titre de didacticiel, vous allez utiliser le classeur précédemment créé dans OneDrive, mais vous pouvez utiliser n’importe quel classeur dans un site OneDrive ou SharePoint. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
+8. Vous allez ensuite sélectionner le classeur et le script à utiliser dans l’étape de flux. À titre de didacticiel, vous allez utiliser le classeur précédemment créé dans OneDrive, mais vous pouvez utiliser n’importe quel classeur dans un site OneDrive ou SharePoint. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
 
-    - **Emplacement** : OneDrive Entreprise
-    - **Bibliothèque de documents** : OneDrive
-    - **Fichier** : MyWorkbook.xlsx *(choisi via l’Explorateur de fichiers)*
-    - **Script** : Définir la date et l’heure
+    - **Emplacement** : OneDrive Entreprise
+    - **Bibliothèque de documents** : OneDrive
+    - **Fichier** : MyWorkbook.xlsx *(choisi via l’Explorateur de fichiers)*
+    - **Script** : Définir la date et l’heure
 
     :::image type="content" source="../images/power-automate-tutorial-6.png" alt-text="Paramètres du connecteur Power Automate permettant d’exécuter un script":::
 

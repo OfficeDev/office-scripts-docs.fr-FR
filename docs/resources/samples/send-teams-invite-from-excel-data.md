@@ -1,6 +1,6 @@
 ---
-title: Envoyer une réunion Teams à partir Excel données
-description: Découvrez comment utiliser les scripts Office pour envoyer une réunion de Teams à partir Excel données.
+title: Envoyer une réunion Teams à partir de Excel données
+description: Découvrez comment utiliser des scripts Office pour envoyer une Teams à partir de Excel données.
 ms.date: 05/06/2021
 localization_priority: Normal
 ROBOTS: NOINDEX
@@ -11,32 +11,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52545629"
 ---
-# <a name="send-teams-meeting-from-excel-data"></a>Envoyer Teams réunion à partir Excel données
+# <a name="send-teams-meeting-from-excel-data"></a>Envoyer une Teams à partir de Excel données
 
-Cette solution montre comment utiliser les scripts Office et les actions de Power Automate pour sélectionner des lignes à partir d’Excel un fichier et l’utiliser pour envoyer une invitation à une réunion de Teams puis mettre à jour Excel.
+Cette solution indique comment utiliser des scripts Office et des actions de Power Automate pour sélectionner des lignes dans un fichier Excel et l’utiliser pour envoyer une invitation à une réunion Teams puis mettre à jour Excel.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-* Un recruteur rh gère le calendrier d’entrevue des candidats dans un Excel dossier.
-* Le recruteur doit envoyer le Teams réunion inviter le candidat et les intervieweurs. Les règles d’entreprise sont de sélectionner :
+* Un recrutement RH gère la planification des entretiens des candidats dans un fichier Excel de travail.
+* Le recrutement doit envoyer l’invitation Teams réunion au candidat et aux enquêteurs. Les règles métiers sont à sélectionner :
 
-    a) Invite uniquement à ceux pour qui l’invitation n’est pas déjà envoyée comme enregistré dans la colonne de fichiers.
+    (a) Invite uniquement les personnes pour lesquelles l’invitation n’est pas déjà envoyée comme enregistrée dans la colonne de fichier.
 
-    b) Dates d’entrevue à l’avenir (pas de dates antérieures).
+    (b) Dates d’entretien futures (aucune date passée).
 
-* Le recruteur doit mettre à jour le dossier Excel avec la confirmation que toutes les réunions Teams ont été envoyées pour les dossiers admissibles.
+* Le recrutement doit mettre à jour le fichier Excel avec la confirmation que toutes les réunions Teams ont été envoyées pour les enregistrements éligibles.
 
-La solution a 3 parties:
+La solution est en 3 parties :
 
-1. Office Script pour extraire des données d’une table en fonction des conditions et renvoie un éventail d’objets sous forme de données JSON.
-1. Les données sont ensuite envoyées à l’Teams **créer une action Teams réunion** pour envoyer des invitations. Envoyez une Teams par instance dans le tableau JSON.
-1. Envoyez les mêmes données JSON à un autre script Office pour mettre à jour l’état de l’invitation.
+1. Office Script pour extraire des données d’une table en fonction des conditions et renvoie un tableau d’objets en tant que données JSON.
+1. Les données sont ensuite envoyées au Teams **créer une** action Teams réunion pour envoyer des invitations. Envoyez une Teams réunion par instance dans le tableau JSON.
+1. Envoyez les mêmes données JSON à un autre Office script pour mettre à jour l’état de l’invitation.
 
 ## <a name="sample-excel-file"></a>Exemple Excel fichier
 
-Téléchargez le <a href="hr-schedule.xlsx"> fichierhr-schedule.xlsxutilisé </a> dans cette solution et essayez-le vous-même!
+Téléchargez le fichier <a href="hr-schedule.xlsx">hr-schedule.xlsx</a> utilisé dans cette solution et testez-le vous-même !
 
-## <a name="sample-code-select-filtered-rows-from-table-as-json"></a>Exemple de code : Sélectionnez les lignes filtrées à partir de la table comme JSON
+## <a name="sample-code-select-filtered-rows-from-table-as-json"></a>Exemple de code : sélectionner des lignes filtrées dans le tableau en tant que JSON
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): InterviewInvite[] {
@@ -174,7 +174,7 @@ interface InterviewInvite extends BasicObj {
 }
 ```
 
-## <a name="sample-code-mark-as-invited"></a>Exemple de code: Marquer comme invité
+## <a name="sample-code-mark-as-invited"></a>Exemple de code : marquer comme invité
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, completedInvitesString: string) {
@@ -228,6 +228,6 @@ interface InterviewInvite  {
 }
 ```
 
-## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Vidéo de formation : Envoyer une réunion Teams à partir Excel données
+## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Vidéo de formation : envoyer une Teams réunion à partir Excel données
 
-[Regardez Sudhi Ramamurthy marcher à travers cet échantillon sur YouTube](https://youtu.be/HyBdx52NOE8).
+[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/HyBdx52NOE8).

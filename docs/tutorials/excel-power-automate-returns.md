@@ -1,16 +1,16 @@
 ---
 title: Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement
-description: Un didacticiel qui présente comment envoyer des e-mails de rappel en exécutant des scripts Office pour Excel sur le web via Power Automate.
+description: Un didacticiel qui présente comment envoyer des e-mails de rappel en exécutant des scripts Office pour Excel sur le web via Power Automate.
 ms.date: 12/15/2020
 localization_priority: Priority
-ms.openlocfilehash: 54fcfc773d4d2a8d352f7bd22593ac817e7ded0e
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: e7f1051076bf84cfbbec0fcdd72777766dbcf152
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232878"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545001"
 ---
-# <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow-preview"></a>Renvoyer les données d’un scripts vers un flux Power Automate exécuté automatiquement (aperçu)
+# <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement
 
 Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour Excel sur le web en tant qu’élément du flux de travail automatisé [Power Automate](https://flow.microsoft.com). Vous créerez un script qui parcoure un planning et fonctionne avec un flux pour envoyer des courriers de rappel. Ce flux s’exécutera selon un calendrier régulier, fournissant ces rappels à votre place.
 
@@ -46,7 +46,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 1. Nommez le script **Appeler la personne d’astreinte**.
 
-1. Vous devez désormais avoir un script vide. Nous utilisons le script pour obtenir l’adresse e-mail à partir de la feuille de calcul. Modifiez `main` pour renvoyer une chaîne, comme suit :
+1. Vous devez désormais avoir un script vide. Nous utilisons le script pour obtenir l’adresse e-mail à partir de la feuille de calcul. Modifiez `main` pour renvoyer une chaîne, comme suit :
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) : string {
@@ -66,7 +66,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
     let tableValues = table.getRangeBetweenHeaderAndTotal().getValues();
     ```
 
-1. Les dates du tableau sont stockées en utilisant le [Numéro de série de la date d’Excel](https://support.microsoft.com/office/date-systems-in-excel-e7fe7167-48a9-4b96-bb53-5612a800b487). Nous convertissons ces dates en dates JavaScript pour les comparer. Nous ajoutons une fonction d’assistance à notre script. Ajoutez le code suivant à l’extérieur de la fonction`main` :
+1. Les dates du tableau sont stockées en utilisant le [Numéro de série de la date d’Excel](https://support.microsoft.com/office/date-systems-in-excel-e7fe7167-48a9-4b96-bb53-5612a800b487). Nous convertissons ces dates en dates JavaScript pour les comparer. Nous ajoutons une fonction d’assistance à notre script. Ajoutez le code suivant à l’extérieur de la fonction`main` :
 
     ```TypeScript
     // Convert the Excel date to a JavaScript Date object.
@@ -91,7 +91,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
     }
     ```
 
-1. La méthode finale doit ressembler à ce qui suit :
+1. La méthode finale doit ressembler à ce qui suit :
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) : string {
@@ -133,14 +133,14 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 1. Sous la section **Démarrer à partir de zéro**, sélectionnez **Flux cloud planifié**.
 
-    :::image type="content" source="../images/power-automate-return-tutorial-2.png" alt-text="Le bouton Flux cloud planifié dans Power Automate":::
+    :::image type="content" source="../images/power-automate-return-tutorial-2.png" alt-text="Le bouton Flux cloud planifié dans Power Automate":::
 
 1. Nous devons maintenant définir le planning pour ce flux. Notre feuille de calcul a une nouvelle activité d’astreinte démarrant chaque lundi lors du premier semestre de 2021. Définissons le flux à exécuter en premier le lundi matin. Utilisez les options suivantes pour configurer le flux à exécuter chaque semaine le lundi.
 
-    - **Nom de flux** : Avertir la personne d’astreinte
-    - **Début** : 04/01/21 à 01h00
-    - **Répéter tous les** : 1 semaine
-    - **Durant ces journées** : M
+    - **Nom de flux** : Avertir la personne d’astreinte
+    - **Début** : 04/01/21 à 01h00
+    - **Répéter tous les** : 1 semaine
+    - **Durant ces journées** : M
 
     :::image type="content" source="../images/power-automate-return-tutorial-3.png" alt-text="Options d’affichage de la boîte de dialogue « Créer un flux cloud planifié ». Les options incluent le nom du flux, l’ de début, la fréquence de répétition et, un jour de la semaine pour exécuter le flux":::
 
@@ -152,16 +152,16 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
     :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Option Excel Online (Business) dans Power Automate":::
 
-1. Sous **Actions**, sélectionnez **Exécuter le script (aperçu)**.
+1. Sous **Actions**, sélectionnez **Exécuter le script**.
 
-    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Option d’action Exécuter un script (aperçu) dans Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Option d’action Exécuter un script dans Power Automate":::
 
-1. Vous allez ensuite sélectionner le classeur et le script à utiliser dans l’étape de flux. Utilisez le classeur **rotation-des-astreintes.xlsx** que vous avez créé dans votre OneDrive. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
+1. Vous allez ensuite sélectionner le classeur et le script à utiliser dans l’étape de flux. Utilisez le classeur **rotation-des-astreintes.xlsx** que vous avez créé dans votre OneDrive. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
 
-    - **Emplacement** : OneDrive Entreprise
-    - **Bibliothèque de documents** : OneDrive
-    - **Fichier** : rotation-des-astreintes.xlsx *(choisi via l’Explorateur de fichiers)*
-    - **Script** : Obtenir la personne d’astreinte
+    - **Emplacement** : OneDrive Entreprise
+    - **Bibliothèque de documents** : OneDrive
+    - **Fichier** : rotation-des-astreintes.xlsx *(choisi via l’Explorateur de fichiers)*
+    - **Script** : Obtenir la personne d’astreinte
 
     :::image type="content" source="../images/power-automate-return-tutorial-4.png" alt-text="Paramètres du connecteur Power Automate permettant d’exécuter un script":::
 
@@ -180,7 +180,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 Votre flux va s’exécuter chaque lundi matin. Vous pouvez tester le script maintenant en appuyant sur le bouton **Test** dans le coin supérieur droit de l’écran. Sélectionnez **Manuellement** et appuyez sur **Exécuter le test** pour exécuter le flux maintenant et tester le comportement. Vous devrez peut-être octroyer des autorisations à Excel et Outlook pour continuer.
 
-:::image type="content" source="../images/power-automate-return-tutorial-6.png" alt-text="Le bouton de Test de Power Automate":::
+:::image type="content" source="../images/power-automate-return-tutorial-6.png" alt-text="Le bouton de Test de Power Automate":::
 
 > [!TIP]
 > Si votre flux ne parvient pas à envoyer un e-mail, revérifiez dans la feuille de calcul qu’une adresse e-mail valide figure dans la plage de dates actuelle en haut du tableau.

@@ -1,6 +1,6 @@
 ---
 title: Annuler les modifications apportées par Office Scripts
-description: Utilisez l’historique de version Excel sur le Web pour annuler les modifications apportées par l’exécution d’un script.
+description: Utilisez l’historique des versions Excel sur le Web pour annuler les modifications apportées en exécutant un script.
 ms.date: 01/08/2019
 localization_priority: Normal
 ms.openlocfilehash: f9f22d4879f8a02c00a5bac9f58d9aa36ae03e38
@@ -12,17 +12,17 @@ ms.locfileid: "52545545"
 ---
 # <a name="undo-the-changes-made-by-office-scripts"></a>Annuler les modifications apportées par Office Scripts
 
-Vous ne pouvez pas annuler les modifications apportées Excel manuel par un script avec la commande **Excel’undo du** Excel. Au lieu de cela, vous devez restaurer une version précédente du manuel à partir de votre stockage cloud.
+Vous ne pouvez pas annuler les modifications apportées au Excel par un script à l’Excel commande **Annuler** de l’Excel. Au lieu de cela, vous devez restaurer une version précédente du manuel à partir de votre stockage cloud.
 
 ## <a name="version-history"></a>Historique des versions
 
-L’historique de la version de Office est un moyen facile de restaurer un ancien manuel à travers l’interface utilisateur Excel’utilisateur. La fonctionnalité ne fonctionne que pour les fichiers stockés dans OneDrive ou SharePoint En ligne.
+Office’historique des versions de l’utilisateur est un moyen simple de restaurer un ancien Excel’interface utilisateur. La fonctionnalité fonctionne uniquement pour les fichiers stockés dans OneDrive ou SharePoint Online.
 
-À partir Excel livre de travail dans lequel le script a été publié, utilisez ces étapes pour annuler les effets :
+Dans le Excel dans lequel le script a été écrit, utilisez les étapes suivantes pour annuler les effets :
 
-1. Aller à **l’historique de** la version  >    >  **d’informations de fichier**.
+1. Go to **File**  >  **Info**  >  **Version History**.
 2. Sélectionnez une version enregistrée avant l’exécution du script.
-3. Restauration de **presse**.
+3. Appuyez **sur Restaurer.**
 
 ## <a name="see-also"></a>Voir aussi
 

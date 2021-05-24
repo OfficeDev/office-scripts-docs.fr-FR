@@ -3,14 +3,14 @@ title: Transmettre des données à des scripts dans un flux automatique Power Au
 description: Un tutoriel sur l'exécution de scripts Office pour Excel sur le web via Power automate lorsque les messages sont reçus et transmettent les données de flux au script.
 ms.date: 12/28/2020
 localization_priority: Priority
-ms.openlocfilehash: f5ee8ef2243aaf597d6022634248403c57597bd8
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 79686eacf4d38bd5db5e082a9bfb73edc969451d
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232885"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545835"
 ---
-# <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Transmettre des données à des scripts dans un flux automatique Power Automate (Aperçu)
+# <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow"></a>Transmettre des données à des scripts dans un flux automatique Power Automate
 
 Ce tutoriel vous apprend à exécuter un script Office pour Excel sur le web via un flux de travail automatisé [Power Automate](https://flow.microsoft.com). Votre script s’exécute automatiquement chaque fois que vous recevez un courrier électronique, enregistrant les informations du courrier électronique dans un classeur Excel. La possibilité de transférer des données d’autres applications dans un script Office offre une flexibilité et une liberté considérables dans vos processus automatisés.
 
@@ -23,7 +23,7 @@ Ce tutoriel vous apprend à exécuter un script Office pour Excel sur le web via
 
 ## <a name="prepare-the-workbook"></a>Préparer le classeur
 
-Power Automate ne peut pas utiliser de [références relatives](../testing/power-automate-troubleshooting.md#avoid-using-relative-references) comme `Workbook.getActiveWorksheet`pour accéder aux composants du classeur. Nous avons donc besoin d’un classeur et d’une feuille de calcul avec des noms cohérents que Power Automate peut référencer.
+Power Automate ne peut pas utiliser de [références relatives](../testing/power-automate-troubleshooting.md#avoid-relative-references) comme `Workbook.getActiveWorksheet`pour accéder aux composants du classeur. Nous avons donc besoin d’un classeur et d’une feuille de calcul avec des noms cohérents que Power Automate peut référencer.
 
 1. Créer un nouveau classeur appelé **MyWorkbook**.
 
@@ -74,7 +74,7 @@ Créons un script qui enregistre les informations à partir d’un message élec
     }
     ```
 
-3. Le script a besoin d’accéder à la table et au tableau croisé dynamique du classeur. Ajoutez le code suivant dans le corps du script, après l'ouverture `{` :
+3. Le script a besoin d’accéder à la table et au tableau croisé dynamique du classeur. Ajoutez le code suivant dans le corps du script, après l'ouverture `{` :
 
     ```TypeScript
     // Get the email table.
@@ -86,7 +86,7 @@ Créons un script qui enregistre les informations à partir d’un message élec
     let pivotTable = pivotTableWorksheet.getPivotTable("Pivot");
     ```
 
-4. Le paramètre `dateReceived` est de type `string`. Transformons cela en un [`Date` objet](../develop/javascript-objects.md#date) pour pouvoir obtenir facilement le jour de la semaine. Une fois cette opération effectuée, vous devez mapper la valeur numérique du jour à une version plus lisible. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
+4. Le paramètre `dateReceived` est de type `string`. Transformons cela en un [`Date` objet](../develop/javascript-objects.md#date) pour pouvoir obtenir facilement le jour de la semaine. Une fois cette opération effectuée, vous devez mapper la valeur numérique du jour à une version plus lisible. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
 
     ```TypeScript
       // Parse the received date string to determine the day of the week.
@@ -94,7 +94,7 @@ Créons un script qui enregistre les informations à partir d’un message élec
       let dayName = emailDate.toLocaleDateString("en-US", { weekday: 'long' });
     ```
 
-5. La chaîne de `subject` peut inclure la balise de réponse « RE : ». Supprimez-le de la chaîne afin que les messages électroniques d’un même fil de discussion aient le même objet pour le tableau. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
+5. La chaîne de `subject` peut inclure la balise de réponse « RE : ». Supprimez-le de la chaîne afin que les messages électroniques d’un même fil de discussion aient le même objet pour le tableau. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
 
     ```TypeScript
     // Remove the reply tag from the email subject to group emails on the same thread.
@@ -102,14 +102,14 @@ Créons un script qui enregistre les informations à partir d’un message élec
     subjectText = subjectText.replace("RE: ", "");
     ```
 
-6. À présent que les données de courrier électronique ont été formatées à notre gout, ajoutons une ligne au tableau de courrier électronique. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
+6. À présent que les données de courrier électronique ont été formatées à notre gout, ajoutons une ligne au tableau de courrier électronique. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
 
     ```TypeScript
     // Add the parsed text to the table.
     table.addRow(-1, [dateReceived, dayName, from, subjectText]);
     ```
 
-7. Enfin, assurez-vous que le tableau croisé dynamique est actualisé. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
+7. Enfin, assurez-vous que le tableau croisé dynamique est actualisé. Ajoutez le code suivant à la fin de votre script (avant la clôture `}`) :
 
     ```TypeScript
     // Refresh the PivotTable to include the new row.
@@ -156,7 +156,7 @@ function main(
 
 2. Dans le menu qui s’affiche sur le côté gauche de l’écran, appuyez sur **Créer**. Cela affiche une liste des moyens de créer de nouveaux flux de travail.
 
-    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton de création de Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton de création de Power Automate":::
 
 3. Dans la section **Démarrer à partir de zéro**, sélectionnez **Flux automatique**. Cela permet de créer un flux de travail déclenché par un événement, par exemple, la réception d’un courrier électronique.
 
@@ -175,16 +175,16 @@ function main(
 
     :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Option Excel Online (Business) dans Power Automate":::
 
-7. Sous **Actions**, sélectionnez **Exécuter le script (aperçu)**.
+7. Sous **Actions**, sélectionnez **Exécuter le script**.
 
-    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="L’option d’action Exécuter un script (aperçu) dans Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Option d’action Exécuter un script dans Power Automate":::
 
-8. Vous devez ensuite sélectionner le classeur, le script, puis les arguments de saisie de script à utiliser dans l’étape de flux. À titre de didacticiel, vous allez utiliser le classeur précédemment créé dans OneDrive, mais vous pouvez utiliser n’importe quel classeur dans un site OneDrive ou SharePoint. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
+8. Vous devez ensuite sélectionner le classeur, le script, puis les arguments de saisie de script à utiliser dans l’étape de flux. À titre de didacticiel, vous allez utiliser le classeur précédemment créé dans OneDrive, mais vous pouvez utiliser n’importe quel classeur dans un site OneDrive ou SharePoint. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
 
-    - **Emplacement** : OneDrive Entreprise
-    - **Bibliothèque de documents** : OneDrive
-    - **Fichier** : MyWorkbook.xlsx *(choisi via l’Explorateur de fichiers)*
-    - **Script** : Enregistrer l’e-mail
+    - **Emplacement** : OneDrive Entreprise
+    - **Bibliothèque de documents** : OneDrive
+    - **Fichier** : MyWorkbook.xlsx *(choisi via l’Explorateur de fichiers)*
+    - **Script** : Enregistrer l’e-mail
     - **à partir de**: de *(contenu dynamique d’Outlook)*
     - **date de réception**: heure de réception *(contenu dynamique d’Outlook)*
     - **objet**: Objet *(contenu dynamique d’Outlook)*

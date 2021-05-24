@@ -1,6 +1,6 @@
 ---
 title: Prise en charge des appels d’API externes dans Scripts Office
-description: Support et conseils pour faire des appels API externes dans un script Office.
+description: Prise en charge et conseils pour effectuer des appels d’API externes dans Office Script.
 ms.date: 05/17/2021
 localization_priority: Normal
 ms.openlocfilehash: fd6ba0c57bf4cabb2d07421355cacff373f6706c
@@ -12,41 +12,41 @@ ms.locfileid: "52545081"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Prise en charge des appels d’API externes dans Scripts Office
 
-Les auteurs de scripts ne devraient pas s’attendre à un comportement cohérent lors de [l’utilisation d’API](https://developer.mozilla.org/docs/Web/API) externes pendant la phase d’aperçu de la plate-forme. En tant que tel, ne vous fiez pas aux API externes pour les scénarios de script critiques.
+Les auteurs de scripts ne doivent pas s’attendre à un comportement cohérent lors de l’utilisation [d’API](https://developer.mozilla.org/docs/Web/API) externes lors de la phase de prévisualisation de la plateforme. En tant que tel, ne comptez pas sur les API externes pour les scénarios de script critiques.
 
-Les appels vers des API externes ne peuvent être effectués que par le biais de l’application Excel, et non par le biais Power Automate [dans des circonstances normales.](#external-calls-from-power-automate)
+Les appels aux API externes peuvent uniquement être effectués via l’application Excel, et non Power Automate [dans des circonstances normales.](#external-calls-from-power-automate)
 
 > [!CAUTION]
-> Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables. Votre administrateur peut établir une protection pare-feu contre de tels appels.
+> Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables. Votre administrateur peut établir une protection pare-feu contre ces appels.
 
-## <a name="configure-your-script-for-external-calls"></a>Configurez votre script pour des appels externes
+## <a name="configure-your-script-for-external-calls"></a>Configurer votre script pour les appels externes
 
-Les appels externes [sont asynchrones et](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await) exigent que votre script soit marqué comme `async` . Ajoutez le `async` préfixe à votre `main` fonction et qu’il retourne un `Promise` , comme indiqué ici:
+Les appels externes [sont asynchrones](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await) et nécessitent que votre script soit marqué comme `async` . Ajoutez `async` le préfixe à votre fonction et lui `main` renvoyez un , comme illustré ici `Promise` :
 
 ```typescript
 async function main(workbook: ExcelScript.Workbook) : Promise <void>
 ```
 
 > [!NOTE]
-> Les scripts qui retournent d’autres informations peuvent renvoyer `Promise` un de ce type. Par exemple, si votre script doit retourner un `Employee` objet, la signature de retour serait `: Promise <Employee>`
+> Les scripts qui retournent d’autres informations peuvent `Promise` renvoyer un type de ce type. Par exemple, si votre script doit renvoyer un `Employee` objet, la signature de retour sera `: Promise <Employee>`
 
-Vous devrez apprendre les interfaces du service externe pour passer des appels vers ce service. Si vous utilisez ou `fetch` [REST API](https://wikipedia.org/wiki/Representational_state_transfer), vous devez déterminer la structure JSON des données retournées. Pour les entrées et les sorties de votre script, envisagez de faire `interface` un pour correspondre aux structures JSON nécessaires. Cela donne au script plus de sécurité de type. Vous pouvez voir un exemple de cela dans [Using fetch from Office Scripts](../resources/samples/external-fetch-calls.md).
+Vous devez découvrir les interfaces du service externe pour appeler ce service. Si vous utilisez ou des API REST, vous devez déterminer la `fetch` structure JSON des données renvoyées. [](https://wikipedia.org/wiki/Representational_state_transfer) Pour l’entrée et la sortie de votre script, envisagez d’effectuer une correspondance avec `interface` les structures JSON nécessaires. Cela permet au script d’améliorer la sécurité des types. Vous pouvez en voir un exemple dans [l’utilisation de la récupération à partir Office scripts](../resources/samples/external-fetch-calls.md).
 
 ### <a name="limitations-with-external-calls-from-office-scripts"></a>Limitations avec les appels externes de Office Scripts
 
-* Il n’y a aucun moyen de se connecter ou d’utiliser le type de flux d’authentification OAuth2. Toutes les clés et informations d’identification doivent être codées en dur (ou lues à partir d’une autre source).
-* Il n’existe pas d’infrastructure pour stocker les informations d’identification et les clés de l’API. Cela devra être géré par l’utilisateur.
-* Documentez les cookies et `localStorage` les objets ne sont pas pris en `sessionStorage` charge. 
-* Les appels externes peuvent entraîner l’exposition de données sensibles à des paramètres indésirables ou l’entrée de données externes dans des cahiers de travail internes. Votre administrateur peut établir une protection pare-feu contre de tels appels. Assurez-vous de vérifier auprès des politiques locales avant de vous fier aux appels externes.
-* Assurez-vous de vérifier la quantité de débit de données avant de prendre une dépendance. Par exemple, tirer vers le bas l’ensemble de données externes peut ne pas être la meilleure option et au lieu de pagination devrait être utilisé pour obtenir des données en morceaux.
+* Il n’existe aucun moyen de se connecter ou d’utiliser le type de flux d’authentification OAuth2. Toutes les clés et informations d’identification doivent être codées en dur (ou lues à partir d’une autre source).
+* Il n’existe aucune infrastructure pour stocker les informations d’identification et les clés d’API. Il devra être géré par l’utilisateur.
+* Les cookies de document `localStorage` et les objets ne sont pas pris en `sessionStorage` charge. 
+* Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables ou des données externes à mettre dans des workbooks internes. Votre administrateur peut établir une protection pare-feu contre ces appels. Veillez à vérifier les stratégies locales avant de vous appuyer sur des appels externes.
+* Veillez à vérifier la quantité de débit de données avant de prendre une dépendance. Par exemple, il est possible que le fait d’retirer l’intégralité du jeu de données externe ne soit pas la meilleure option et que la pagination soit utilisée pour obtenir des données par blocs.
 
 ## <a name="retrieve-information-with-fetch"></a>Récupérer des informations avec `fetch`
 
-[L’API fetch](https://developer.mozilla.org/docs/Web/API/Fetch_API) récupère des informations auprès de services externes. Il s’agit `async` d’une API, vous devez donc ajuster `main` la signature de votre script. Faire la `main` fonction et lui faire retourner un `async` `Promise<void>` . Vous devez également être sûr de `await` `fetch` `json` l’appel et de la récupération. Cela garantit que ces opérations sont terminées avant la fin du script.
+[L’API de](https://developer.mozilla.org/docs/Web/API/Fetch_API) récupération récupère des informations à partir de services externes. Il s’agit `async` d’une API, vous devez donc ajuster la `main` signature de votre script. Make the `main` function and have it return a `async` `Promise<void>` . Vous devez également être sûr de `await` `fetch` l’appel et de la `json` récupération. Cela garantit que ces opérations sont terminées avant la fin du script.
 
-Toutes les données JSON récupérées par `fetch` doit correspondre à une interface définie dans le script. La valeur retournée doit être attribuée à un type spécifique car [Office scripts ne supportent pas le `any` type](typescript-restrictions.md#no-any-type-in-office-scripts). Vous devez vous référer à la documentation de votre service pour voir quels sont les noms et les types de propriétés retournées. Ensuite, ajoutez l’interface ou les interfaces correspondantes à votre script.
+Toutes les données JSON récupérées par `fetch` doivent correspondre à une interface définie dans le script. La valeur renvoyée doit être affectée à un type spécifique, [car les scripts Office ne le supportent `any` pas.](typescript-restrictions.md#no-any-type-in-office-scripts) Vous devez consulter la documentation de votre service pour voir les noms et les types des propriétés renvoyées. Ensuite, ajoutez l’interface ou les interfaces correspondantes à votre script.
 
-Le script suivant utilise `fetch` pour récupérer les données JSON du serveur de test dans l’URL donnée. Notez `JSONData` l’interface pour stocker les données comme un type correspondant.
+Le script suivant utilise `fetch` pour récupérer les données JSON du serveur de test dans l’URL donnée. Notez `JSONData` l’interface pour stocker les données en tant que type correspondant.
 
 ```TypeScript
 async function main(workbook: ExcelScript.Workbook): Promise<void> {
@@ -72,22 +72,22 @@ interface JSONData {
 }
 ```
 
-### <a name="other-fetch-samples"></a>Autres `fetch` échantillons
+### <a name="other-fetch-samples"></a>Autres `fetch` exemples
 
-* [L’exemple Utiliser des appels externes d’extraction Office scripts](../resources/samples/external-fetch-calls.md) montre comment obtenir des informations de base sur les référentiels de GitHub utilisateur.
-* Le [scénario de l’exemple Office Scripts : Graph données au niveau de l’eau de la NOAA démontrent](../resources/scenarios/noaa-data-fetch.md) que la commande d’extraction est utilisée pour récupérer les enregistrements de la base de données Tides and Currents de la National Oceanic and Atmospheric Administration.
+* L’exemple Utiliser des appels de récupération externe [dans Office Scripts](../resources/samples/external-fetch-calls.md) montre comment obtenir des informations de base sur les référentiels GitHub d’un utilisateur.
+* L’exemple de scénario [Office Scripts](../resources/scenarios/noaa-data-fetch.md) : Graph données au niveau de l’eau de la NOAA illustre la commande de récupération utilisée pour extraire des enregistrements de la base de données Archives et courants de l’administration nationale.
 
 ## <a name="external-calls-from-power-automate"></a>Appels externes de Power Automate
 
-Tout appel API externe échoue lorsqu’un script est exécuté avec Power Automate. Il s’agit d’une différence comportementale entre l’exécution d’un script à travers Excel’application et à travers Power Automate. Assurez-vous de vérifier vos scripts pour de telles références avant de les construire dans un flux.
+Tout appel d’API externe échoue lorsqu’un script est exécuté avec Power Automate. Il s’agit d’une différence de comportement entre l’exécution d’un script via l Excel’application Power Automate. Veillez à vérifier si vos scripts sont de telles références avant de les créer dans un flux.
 
-Vous devrez utiliser HTTP avec [Azure AD ou d’autres](/connectors/webcontents/) actions équivalentes pour extraire des données ou les pousser vers un service externe.
+Vous devez utiliser HTTP avec [Azure AD](/connectors/webcontents/) ou d’autres actions équivalentes pour tirer des données ou les pousser vers un service externe.
 
 > [!WARNING]
-> Les appels externes effectués par l’intermédiaire Power Automate [Excel connecteur en ligne](/connectors/excelonlinebusiness) échouent afin d’aider à maintenir les politiques existantes de prévention des pertes de données. Toutefois, les scripts qui sont exécutés à travers Power Automate sont effectués en dehors de votre organisation, et en dehors des pare-feu de votre organisation. Pour une protection supplémentaire contre les utilisateurs malveillants dans cet environnement externe, votre administrateur peut contrôler l’utilisation Office scripts. Votre administrateur peut désactiver le connecteur Excel En ligne en Power Automate ou désactiver les scripts Office pour Excel sur le Web à travers [les contrôles d’administrateur Office Scripts](/microsoft-365/admin/manage/manage-office-scripts-settings).
+> Les appels externes effectués via le connecteur Power Automate [Excel Online](/connectors/excelonlinebusiness) échouent pour aider à respecter les stratégies de protection contre la perte de données existantes. Toutefois, les scripts exécutés par Power Automate sont effectués en dehors de votre organisation et en dehors des pare-feu de votre organisation. Pour une protection supplémentaire contre les utilisateurs malveillants dans cet environnement externe, votre administrateur peut contrôler l’utilisation Office scripts. Votre administrateur peut désactiver le connecteur Excel Online dans Power Automate ou désactiver les scripts Office pour Excel sur le Web via les contrôles d’administrateur [Office Scripts.](/microsoft-365/admin/manage/manage-office-scripts-settings)
 
 ## <a name="see-also"></a>Voir aussi
 
 * [Utilisation d’objets JavaScript intégrés dans les scripts Office](javascript-objects.md)
 * [Utiliser les appels externes de récupération à Office Scripts](../resources/samples/external-fetch-calls.md)
-* [Office Scénario de l’échantillon scripts : Graph données sur le niveau de l’eau de la NOAA](../resources/scenarios/noaa-data-fetch.md)
+* [Office Exemple de scénario de scripts : Graph données de niveau d’eau à partir de la NOAA](../resources/scenarios/noaa-data-fetch.md)
