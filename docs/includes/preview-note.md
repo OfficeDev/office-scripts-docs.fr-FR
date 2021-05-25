@@ -1,2 +1,0 @@
-> [!NOTE]
-> Les scripts Office dans Excel sur le web sont en Préversion publique public et doivent être activées par votre administrateur. Les fonctionnalités décrites ici peuvent faire l’objet de modifications au fur et à mesure du développement de la fonctionnalité. Vous pouvez envoyer des commentaires sur les scripts Office via le bouton **Aide > Commentaires** dans Excel. Vous pouvez envoyer des commentaires sur la documentation au référentiel GitHub [OfficeDev/Office-scripts-docs](https://github.com/OfficeDev/office-scripts-docs/issues).
