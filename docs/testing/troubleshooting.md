@@ -3,12 +3,12 @@ title: Résoudre les problèmes Office scripts
 description: Conseils et techniques de débogage pour Office scripts, ainsi que des ressources d’aide.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: ff0ac1e63084c7c541d2a4925f1f011d16fa4992
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 04ea0ea5d49d40667d249a6f4f4b109e03362940
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545554"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631700"
 ---
 # <a name="troubleshoot-office-scripts"></a>Résoudre les problèmes Office scripts
 
@@ -84,14 +84,16 @@ Pour plus d’informations sur l’exécution de scripts Power Automate, voir R�
 
 [Stack Overflow est](https://stackoverflow.com/questions/tagged/office-scripts) une communauté de développeurs prêts à vous aider avec les problèmes de codage. Souvent, vous serez en mesure de trouver la solution à votre problème par le biais d’une recherche rapide de stack overflow. Si ce n’est pas le cas, posez votre question et marquez-la avec la balise « office-scripts ». N’oubliez pas de mentionner que vous créez un *script* Office, et non un *Office.*
 
-Si vous rencontrez un problème avec l’API JavaScript Office, créez un problème dans le référentiel [officeDev/office-js](https://github.com/OfficeDev/office-js) GitHub. Les membres de l’équipe produit répondent aux problèmes et fournissent une assistance supplémentaire. La création d’un problème dans le référentiel **OfficeDev/office-js** indique que vous avez trouvé une faille dans la bibliothèque d’API JavaScript Office que l’équipe du produit doit résoudre.
+Pour envoyer une demande de fonctionnalité pour Office Scripts, publiez votre idée sur notre [page](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)Voix utilisateur ou, si la demande de fonctionnalité existe déjà, ajoutez votre vote pour cette demande. N’oubliez pas de déposer la demande sous Excel sur le Web dans la catégorie « Macros, scripts et macros » .
 
-En cas de problème avec l’enregistreur d’actions ou l’éditeur, envoyez des commentaires via le bouton **d'> commentaires** dans Excel.
+En cas de problème avec l’enregistreur d’actions ou l’éditeur, n’hésitez pas à nous le faire savoir. Dans le **menu** ... de l’Éditeur  de code, sélectionnez le bouton Envoyer des commentaires pour partager les problèmes.
+
+:::image type="content" source="../images/code-editor-feedback.png" alt-text="Menu de dépassement de l’Éditeur de code avec le bouton Envoyer des commentaires":::
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Meilleures pratiques dans Office scripts](../develop/best-practices.md)
+- [Meilleures pratiques en matière de scripts Office](../develop/best-practices.md)
 - [Limites de plateforme avec Office scripts](platform-limits.md)
 - [Améliorer les performances de vos scripts Office de gestion](../develop/web-client-performance.md)
 - [Résoudre les Office scripts en cours d’exécution dans PowerAutomate](power-automate-troubleshooting.md)
-- [Annuler les effets des scripts Office scripts](undo.md)
+- [Annuler les effets des scripts Office](undo.md)

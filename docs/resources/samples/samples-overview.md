@@ -1,14 +1,14 @@
 ---
 title: Office Exemples de scripts
 description: Exemples Office scripts et scénarios disponibles.
-ms.date: 05/17/2021
+ms.date: 05/24/2021
 localization_priority: Normal
-ms.openlocfilehash: 0ea9a8a8986681fca0e45784e2923c1d3b34576d
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 6b91e20586faa57c389459b7b8bccf18e5c3bbfa
+ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545708"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639844"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Office Exemples de scripts et scénarios
 
@@ -20,15 +20,13 @@ Dans [les scénarios,](#scenarios)nous avons inclus quelques exemples de scénar
 
 Nous souhaitons également la [bienvenue aux contributions de la communauté.](#community-contributions-and-fun-samples)
 
-[!INCLUDE [Preview note](../../includes/preview-note.md)]
-
 ## <a name="basics"></a>Informations de base
 
 | Project | Détails |
 |---------|---------|
 | [Informations de base](../excel-samples.md) | Ces exemples montrent les blocs de construction fondamentaux pour Office scripts. |
 | [Ajouter des commentaires dans Excel](add-excel-comments.md) | Cet exemple ajoute des commentaires à une cellule, y compris @mentioning un collègue. |
-| [Ajouter des images à un workbook](add-image-to-workbook.md) | Cet exemple ajoute une image à un workbook et copie une image sur plusieurs feuilles.|
+| [Ajouter des images à un classeur](add-image-to-workbook.md) | Cet exemple ajoute une image à un workbook et copie une image sur plusieurs feuilles.|
 | [Copier plusieurs Excel tables dans une seule table](copy-tables-combine.md) | Cet exemple combine les données de plusieurs tables Excel dans une seule table qui inclut toutes les lignes. |
 
 ## <a name="beyond-the-basics"></a>Notions intermédiaires
@@ -46,7 +44,7 @@ Consultez le projet de bout en bout suivant qui automatise des exemples de scén
 | [Sortie Excel données en tant que JSON](get-table-data.md) | Cette solution indique comment Excel données de table en tant que JSON à utiliser dans Power Automate. |
 | [Supprimer des liens hypertexte de chaque cellule d’une Excel de calcul](remove-hyperlinks-from-cells.md) | Cet exemple permet d’effacer tous les liens hypertexte de la feuille de calcul actuelle. |
 | [Exécuter un script sur tous les fichiers Excel d’un dossier](automate-tasks-on-all-excel-files-in-folder.md) | Ce projet effectue un ensemble de tâches d’automatisation sur tous les fichiers situés dans un dossier sur OneDrive Entreprise (peut également être utilisé pour un SharePoint dossier). Il effectue des calculs sur les fichiers Excel, ajoute une mise en forme et insère un commentaire qui @mentions un collègue. |
-| [Écrire un jeu de données de grande taille](write-large-dataset.md) | Cet exemple montre comment envoyer une grande plage en tant que sous-plages plus petites. |
+| [Rédiger un grand ensemble de données](write-large-dataset.md) | Cet exemple montre comment envoyer une grande plage en tant que sous-plages plus petites. |
 
 ## <a name="scenarios"></a>Scénarios
 
@@ -55,7 +53,7 @@ Office Les scripts peuvent automatiser des parties de votre routine quotidienne.
 | Scénario | Détails |
 |---------|---------|
 | [Analyser les téléchargements web](../scenarios/analyze-web-downloads.md) | Ce scénario comprend un script qui permet d’évaluer les enregistrements de trafic web pour déterminer le pays d’origine d’un utilisateur. Il présente les compétences de l’utilisation de sous-sections dans les scripts, de l’application de la mise en forme conditionnelle et de l’utilisation de tableaux. |
-| [Obtenir et représenter graphiquement les données du niveau d'eau auprès de la NOAA](../scenarios/noaa-data-fetch.md) | Ce scénario utilise un script Office pour tirer des données à partir d’une source externe (base de données [NOAA - États-Unis](https://tidesandcurrents.noaa.gov/)et bases de données actuelles) et graphiquer les informations qui en résultent. Il met en évidence les compétences `fetch` d’utilisation pour obtenir des données et utiliser des graphiques. |
+| [Obtenir et représenter graphiquement les données du niveau d'eau auprès de la NOAA](../scenarios/noaa-data-fetch.md) | Ce scénario utilise un script Office pour tirer des données à partir d’une source externe (base de données [NOAA - Banques](https://tidesandcurrents.noaa.gov/)et bases de données actuelles) et graphiquer les informations qui en résultent. Il met en évidence les compétences `fetch` d’utilisation pour obtenir des données et utiliser des graphiques. |
 | [Calculatrice de notes](../scenarios/grade-calculator.md) | Ce scénario propose un script qui valide l’enregistrement d’un instructeur pour les notes de son cours. Il présente les compétences de vérification des erreurs, de mise en forme des cellules et d’expressions régulières. |
 | [Rappels de tâche](../scenarios/task-reminders.md) | Ce scénario utilise un script Office dans un flux Power Automate pour envoyer des rappels à des collègues afin de mettre à jour l’état d’un projet. Il met en évidence les compétences de Power Automate’intégration et le transfert de données vers et depuis des scripts. |
 

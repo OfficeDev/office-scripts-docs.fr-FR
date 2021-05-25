@@ -3,16 +3,16 @@ title: Différences entre les scripts Office et les compléments Office
 description: Les différences de comportement et d’API entre Office scripts et Office des modules.
 ms.date: 06/01/2020
 localization_priority: Normal
-ms.openlocfilehash: 45993d08d85cfceb299216dddbe2e7da9fd2e404
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 5c30406867da05952dedda684f765df5e7a7e53f
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232633"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631677"
 ---
 # <a name="differences-between-office-scripts-and-office-add-ins"></a>Différences entre les scripts Office et les compléments Office
 
-Office Les add-ins et Office scripts ont beaucoup en commun. Ils offrent tous deux un contrôle automatisé d’un Excel de travail une API JavaScript. Toutefois, les API Office Scripts sont une version spécialisée et synchrone de l Office API JavaScript.
+Office Les scripts de Office et de Office ont beaucoup de points communs. Ils offrent tous deux un contrôle automatisé d’un Excel de travail une API JavaScript. Toutefois, les API Office Scripts sont une version spécialisée et synchrone de l Office API JavaScript.
 
 :::image type="content" source="../images/office-programmability-diagram.png" alt-text="Diagramme à quatre quadrants montrant les zones de mise au point pour Office solutions d’extensibilité. Les scripts Office et les applications web Office sont axés sur le web et la collaboration, mais les scripts Office sont pris en compte par les utilisateurs finaux (tandis que les Office web s’adressent aux développeurs professionnels)":::
 
@@ -28,9 +28,7 @@ Office Les scripts sont actuellement uniquement pris en charge par les Excel sur
 
 ## <a name="apis"></a>API
 
-Il n’existe aucune version synchrone des API JavaScript Office pour les Office de recherche. Les API Office scripts standard sont propres à la plateforme et ont de nombreuses optimisations et modifications pour éviter l’utilisation du `load` / `sync` paradigme.
-
-Certaines des API [JavaScript Excel](/javascript/api/excel?view=excel-js-preview&preserve-view=true) sont compatibles avec les API [async Office scripts.](../develop/excel-async-model.md) Certains exemples et blocs de code de add-in peuvent être portés vers des `Excel.run` blocs avec une traduction minimale. Bien que les deux plateformes partagent des fonctionnalités, il existe des lacunes. Les deux principaux ensembles d’API Office les Office les scripts ne sont pas des événements et les API communes.
+Bien que les OFFICE JavaScript pour les Office et les API Office Scripts partagent certaines fonctionnalités, ce sont des plateformes différentes. Les API Office Scripts sont une version optimisée et synchrone du modèle d’API JavaScript Excel. La principale différence est l’utilisation du `load` / `sync` paradigme avec les applications. En outre, les compléments offrent des API pour les événements et un ensemble plus large de fonctionnalités en dehors des Excel, appelés API communes.
 
 ### <a name="events"></a>Événements
 
@@ -42,7 +40,7 @@ Office Les scripts ne peuvent pas utiliser [les API communes.](/javascript/api/o
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Office Scripts dans Excel sur le web](../overview/excel.md)
+- [Office Scripts dans Excel sur le web](../overview/excel.md)
 - [Différences entre Office scripts et les macros VBA](vba-differences.md)
-- [Dépannage de Office Scripts](../testing/troubleshooting.md)
+- [Dépannage de Office Scripts](../testing/troubleshooting.md)
 - [Créer un complément de volet de tâches Excel](/office/dev/add-ins/quickstarts/excel-quickstart-jquery)

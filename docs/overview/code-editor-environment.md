@@ -1,26 +1,26 @@
 ---
 title: Office Environnement d’éditeur de code scripts
 description: Les conditions préalables et les informations d’environnement pour Office scripts dans Excel sur le Web.
-ms.date: 05/10/2021
+ms.date: 05/24/2021
 localization_priority: Normal
-ms.openlocfilehash: aa54939826f8dda2a068df0f3fabf0fd3a2c842b
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: aca97c31ba970617a9fa270021a5b5b976ae4a57
+ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545821"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639879"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Office Environnement d’éditeur de code scripts
 
-Office Les scripts sont écrits en TypeScript ou JavaScript et utilisent les API JavaScript Office Scripts pour interagir avec un Excel de travail. L’Éditeur de code est basé sur Visual Studio Code, donc si vous avez déjà utilisé cet environnement auparavant, vous vous sentirez comme chez vous.
+Office Les scripts sont écrits en TypeScript ou JavaScript et utilisent les API JavaScript Office Scripts pour interagir avec un Excel de travail. L’éditeur de code est basé sur Visual Studio Code, donc si vous avez déjà utilisé cet environnement auparavant, vous vous sentirez comme chez vous.
 
 ## <a name="scripting-language-typescript-or-javascript"></a>Langage de script : TypeScript ou JavaScript
 
-Office Les scripts sont écrits [en TypeScript,](https://www.typescriptlang.org/docs/home.html)qui est un sur-ensemble de [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript). L’enregistreur d’actions génère du code dans TypeScript et la documentation Office Scripts utilise TypeScript. Étant donné que TypeScript est un sur-ensemble de Code JavaScript, tout code de script que vous écrivez en JavaScript fonctionne parfaitement.
+Les scripts Office sont écrits dans [TypeScript](https://www.typescriptlang.org/docs/home.html), qui est un ensemble de scripts [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript). L’enregistreur d’actions génère du code dans TypeScript et la documentation Office Scripts utilise TypeScript. Étant donné que TypeScript est un sur-ensemble de Code JavaScript, tout code de script que vous écrivez en JavaScript fonctionne parfaitement.
 
 Office Les scripts sont en grande partie des éléments de code autonomes. Seule une petite partie des fonctionnalités de TypeScript est utilisée. Par conséquent, vous pouvez modifier des scripts sans avoir à découvrir les complexités de TypeScript. L’éditeur de code gère également l’installation, la compilation et l’exécution du code. Vous n’avez donc pas à vous soucier du script proprement dit. Il est possible d’apprendre le langage et de créer des scripts à l’insu des connaissances de programmation précédentes. Toutefois, si vous débutez dans la programmation, nous vous recommandons d’apprendre quelques principes de base avant de Office scripts :
 
-[!INCLUDE [Preview note](../includes/coding-basics-references.md)]
+[!INCLUDE [Recommended coding resources](../includes/coding-basics-references.md)]
 
 ## <a name="office-scripts-javascript-api"></a>Office Scripts JavaScript API
 
@@ -45,6 +45,6 @@ La plupart des raccourcis clavier pour Visual Studio Code fonctionnent égalemen
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Référence de l'API Office Scripts](/javascript/api/office-scripts/overview)
-- [Dépannage de Office Scripts](../testing/troubleshooting.md)
+- [Référence de l'API Office Scripts](/javascript/api/office-scripts/overview)
+- [Dépannage de Office Scripts](../testing/troubleshooting.md)
 - [Utilisation d’objets JavaScript intégrés dans les scripts Office](../develop/javascript-objects.md)

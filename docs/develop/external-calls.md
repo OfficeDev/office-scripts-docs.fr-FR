@@ -1,23 +1,24 @@
 ---
 title: Prise en charge des appels d’API externes dans Scripts Office
 description: Prise en charge et conseils pour effectuer des appels d’API externes dans Office Script.
-ms.date: 05/17/2021
+ms.date: 05/21/2021
 localization_priority: Normal
-ms.openlocfilehash: fd6ba0c57bf4cabb2d07421355cacff373f6706c
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 5d768b53112473c1774f8fe8257b197ffead4a63
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545081"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631642"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Prise en charge des appels d’API externes dans Scripts Office
 
-Les auteurs de scripts ne doivent pas s’attendre à un comportement cohérent lors de l’utilisation [d’API](https://developer.mozilla.org/docs/Web/API) externes lors de la phase de prévisualisation de la plateforme. En tant que tel, ne comptez pas sur les API externes pour les scénarios de script critiques.
-
-Les appels aux API externes peuvent uniquement être effectués via l’application Excel, et non Power Automate [dans des circonstances normales.](#external-calls-from-power-automate)
+Les scripts prendre en charge les appels à des services externes. Utilisez ces services pour fournir des données et d’autres informations à votre workbook.
 
 > [!CAUTION]
 > Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables. Votre administrateur peut établir une protection pare-feu contre ces appels.
+
+> [!IMPORTANT]
+> Les appels aux API externes peuvent uniquement être effectués via l’application Excel, et non Power Automate [dans des circonstances normales.](#external-calls-from-power-automate)
 
 ## <a name="configure-your-script-for-external-calls"></a>Configurer votre script pour les appels externes
 
@@ -36,7 +37,7 @@ Vous devez découvrir les interfaces du service externe pour appeler ce service.
 
 * Il n’existe aucun moyen de se connecter ou d’utiliser le type de flux d’authentification OAuth2. Toutes les clés et informations d’identification doivent être codées en dur (ou lues à partir d’une autre source).
 * Il n’existe aucune infrastructure pour stocker les informations d’identification et les clés d’API. Il devra être géré par l’utilisateur.
-* Les cookies de document `localStorage` et les objets ne sont pas pris en `sessionStorage` charge. 
+* Les cookies de document `localStorage` et les objets ne sont pas pris en `sessionStorage` charge.
 * Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables ou des données externes à mettre dans des workbooks internes. Votre administrateur peut établir une protection pare-feu contre ces appels. Veillez à vérifier les stratégies locales avant de vous appuyer sur des appels externes.
 * Veillez à vérifier la quantité de débit de données avant de prendre une dépendance. Par exemple, il est possible que le fait d’retirer l’intégralité du jeu de données externe ne soit pas la meilleure option et que la pagination soit utilisée pour obtenir des données par blocs.
 
@@ -89,5 +90,5 @@ Vous devez utiliser HTTP avec [Azure AD](/connectors/webcontents/) ou d’autres
 ## <a name="see-also"></a>Voir aussi
 
 * [Utilisation d’objets JavaScript intégrés dans les scripts Office](javascript-objects.md)
-* [Utiliser les appels externes de récupération à Office Scripts](../resources/samples/external-fetch-calls.md)
+* [Utiliser les appels externes de récupération dans les scripts Office](../resources/samples/external-fetch-calls.md)
 * [Office Exemple de scénario de scripts : Graph données de niveau d’eau à partir de la NOAA](../resources/scenarios/noaa-data-fetch.md)

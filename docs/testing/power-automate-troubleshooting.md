@@ -1,14 +1,14 @@
 ---
 title: Résoudre les problèmes Office scripts en cours d’exécution dans Power Automate
 description: Astuces, les informations de plateforme et les problèmes connus avec l’intégration entre Office scripts et Power Automate.
-ms.date: 05/17/2021
+ms.date: 05/18/2021
 localization_priority: Normal
-ms.openlocfilehash: e26378051c764d97b4e8d748abc85fbe095c7b03
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 3d114b8b9aceb95285ecfc78ddbd868541b9f04c
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545568"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631663"
 ---
 # <a name="troubleshoot-office-scripts-running-in-power-automate"></a>Résoudre les problèmes Office scripts en cours d’exécution dans Power Automate
 
@@ -23,9 +23,9 @@ Power Automate exécute votre script dans le Excel de travail choisi en votre no
 
 Certaines API de référence relative envoient des erreurs Power Automate. D’autres ont un comportement par défaut qui implique l’état d’un utilisateur. Lors de la conception de vos scripts, n’oubliez pas d’utiliser des références absolues pour les feuilles de calcul et les plages. Cela permet à votre Power Automate un flux cohérent, même si les feuilles de calcul sont réorganiser.
 
-### <a name="script-methods-that-fail-when-run-power-automate-flows"></a>Méthodes de script qui échouent lors de l’Power Automate flux
+### <a name="script-methods-that-fail-when-run-in-power-automate-flows"></a>Méthodes de script qui échouent lors de l’Power Automate flux
 
-Les méthodes suivantes lancent une erreur et échouent lorsqu’elles sont appelées à partir d’un script dans Power Automate flux.
+Les méthodes suivantes envoient une erreur et échouent lorsqu’elles sont appelées à partir d’un script dans Power Automate flux.
 
 | Classe | Méthode |
 |--|--|
@@ -45,6 +45,21 @@ Les méthodes suivantes utilisent un comportement par défaut, à la place de l�
 |--|--|--|
 | [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveWorksheet` | Renvoie la première feuille de calcul du manuel ou la feuille de calcul actuellement activée par la `Worksheet.activate` méthode. |
 | [Feuille de calcul](/javascript/api/office-scripts/excelscript/excelscript.worksheet) | `activate` | Marque la feuille de calcul en tant que feuille de calcul active à des fins de `Workbook.getActiveWorksheet` . |
+
+## <a name="data-refresh-not-supported-in-power-automate"></a>L’actualisation des données n’est pas prise en charge dans Power Automate
+
+Office Les scripts ne peuvent pas actualiser les données lorsqu’ils sont exécutés Power Automate. Méthodes telles que `PivotTable.refresh` ne rien faire lorsqu’elles sont appelées dans un flux. En outre, Power Automate ne déclenche pas d’actualisation des données pour les formules qui utilisent des liens de workbook.
+
+### <a name="script-methods-that-do-nothing-when-run-in-power-automate-flows"></a>Méthodes de script qui ne font rien lorsqu’elles sont Power Automate flux
+
+Les méthodes suivantes ne font rien dans un script lorsqu’elles sont appelées Power Automate. Elles sont toujours correctement renvoy es et ne lancent pas d’erreurs.
+
+| Classe | Méthode |
+|--|--|
+| [PivotTable](/javascript/api/office-scripts/excelscript/excelscript.pivottable) | `refresh` |
+| [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `refreshAllDataConnections` |
+| [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `refreshAllPivotTables` |
+| [Feuille de calcul](/javascript/api/office-scripts/excelscript/excelscript.worksheet) | `refreshAllPivotTables` |
 
 ## <a name="select-workbooks-with-the-file-browser-control"></a>Sélectionner des classes avec le contrôle de navigateur de fichiers
 

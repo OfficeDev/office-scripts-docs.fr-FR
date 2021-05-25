@@ -1,14 +1,14 @@
 ---
 title: Office Stockage et propriété des fichiers scripts
 description: Informations sur la façon Office scripts sont stockés dans Microsoft OneDrive et transférés entre les propriétaires.
-ms.date: 05/17/2021
+ms.date: 05/21/2021
 localization_priority: Normal
-ms.openlocfilehash: 556d784dc1fe64873866c49ab2726a4c68abc1a7
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 25683d2b6ac2e8ac47b465b24fa087af83175806
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545800"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631656"
 ---
 # <a name="office-scripts-file-storage-and-ownership"></a>Office Stockage et propriété des fichiers scripts
 
@@ -28,9 +28,18 @@ Office Les scripts sont stockés dans la base de données d’un OneDrive. Ils s
 
 Pendant la modification, les fichiers sont temporairement stockés dans le navigateur. Vous devez enregistrer le script avant de fermer la fenêtre Excel pour l’enregistrer à l’OneDrive emplacement. N’oubliez pas d’enregistrer le fichier après les modifications, sinon ces modifications seront uniquement dans la version du fichier du navigateur.
 
+## <a name="audit-office-scripts-usage-at-the-admin-level"></a>Auditer Office’utilisation des scripts au niveau de l’administrateur
+
+Découvrez les locataires qui utilisent Office scripts avec le journal d’audit dans le centre de conformité. Pour découvrir comment utiliser cet outil, consultez le journal d’audit dans le Centre de [sécurité & conformité.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#search-the-audit-log)
+
+Pour rechercher les personnes qui utilisent Office scripts avec l’outil de recherche, ajoutez le champ Fichier, Dossier `.osts` **ou Site.** Cette opération recherche tous les fichiers avec l’extension Office Scripts. Si une personne de votre organisation a utilisé la fonctionnalité Office Scripts, l’activité de l’utilisateur s’affiche dans les résultats de recherche du journal d’audit.
+
+> [!NOTE]
+> L’exécution d’un script n’est actuellement pas enregistrée. Seules les actions créer, afficher et modifier sont enregistrées.
+
 ## <a name="see-also"></a>Voir aussi
 
 - [Partager des scénarios de bureau en Excel pour le Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)
-- [Dépannage de Office Scripts](../testing/troubleshooting.md)
-- [Paramètres de Office Scripts dans M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
-- [Annuler les effets des scripts Office scripts](../testing/undo.md)
+- [Dépannage de Office Scripts](../testing/troubleshooting.md)
+- [Paramètres de Office Scripts dans M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
+- [Annuler les effets des scripts Office](../testing/undo.md)
