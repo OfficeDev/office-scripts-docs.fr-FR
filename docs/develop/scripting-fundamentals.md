@@ -1,26 +1,24 @@
 ---
 title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
-ms.date: 05/10/2021
+ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: d930c9ee36933cb0458de8cce4f1d1adc7b6a001
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 629e816ea988d6b8ffe5264c701e3a1eba6c6feb
+ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545098"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639893"
 ---
-# <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Principes de base des scripts pour Office Scripts dans Excel sur le web (préversion)
+# <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Principes de base des scripts pour Scripts Office dans Excel sur le web
 
 Cet article vous présente les aspects techniques de Office Scripts. Vous découvrirez comment les objets Excel fonctionnent ensemble et comment l’éditeur de code se synchronise avec un classeur.
-
-[!INCLUDE [Preview note](../includes/preview-note.md)]
 
 ## <a name="typescript-the-language-of-office-scripts"></a>TypeScript : langue des scripts Office
 
 Les scripts Office sont écrits dans [TypeScript](https://www.typescriptlang.org/docs/home.html), qui est un ensemble de scripts [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript). Si vous avez l’expérience JavaScript, vos connaissances seront transférées, car la plupart du code est identique dans les deux langages. Nous vous recommandons d'avoir des connaissances en programmation de niveau débutant avant de vous lancer dans le codage de scripts Office. Les ressources suivantes peuvent vous aider à comprendre l'aspect codage des scripts Office.
 
-[!INCLUDE [Preview note](../includes/coding-basics-references.md)]
+[!INCLUDE [Recommended coding resources](../includes/coding-basics-references.md)]
 
 ## <a name="main-function-the-scripts-starting-point"></a>Fonction `main` : point de départ du script
 
@@ -91,7 +89,7 @@ function main(workbook: ExcelScript.Workbook) {
     let productData = [
         ["Almonds", 6, 7.5],
         ["Coffee", 20, 34.5],
-        ["Chocolate", 10, 9.56],
+        ["Chocolate", 10, 9.54],
     ];
     let dataRange = sheet.getRange("B3:D5");
     dataRange.setValues(productData);
@@ -115,6 +113,32 @@ function main(workbook: ExcelScript.Workbook) {
 L’exécution de ce script crée les données suivantes dans la feuille de calcul active :
 
 :::image type="content" source="../images/range-sample.png" alt-text="Feuille de calcul contenant un enregistrement des ventes composé de lignes de valeurs, d’une colonne de formule et d’en-têtes formatés":::
+
+### <a name="the-types-of-range-values"></a>Les types de valeurs de plage
+
+Chaque cellule possède une valeur. Cette valeur est la valeur sous-jacente entrée dans la cellule, qui peut être différente du texte affiché dans Excel. Par exemple, la cellule affiche la valeur « 02/05/2021 » sous forme de date, mais la valeur réelle est 44318. Cet affichage peut être modifié avec le format Nombre, mais la valeur et le type réels de la cellule ne changent que lorsqu’une nouvelle valeur est définie.
+
+Lorsque vous utilisez la valeur de cellule, il est important d’indiquer à TypeScript la valeur attendue pour la cellule ou la plage. Une cellule contient l’un des types suivants : `string`, `number` ou `boolean`. Pour que votre script traite les valeurs renvoyées comme l’un de ces types, vous devez déclarer le type.
+
+Le script suivant obtient le prix moyen à partir du tableau de l’exemple précédent. Notez le code `priceRange.getValues() as number[][]`. Cela [affirme](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions) que le type de valeurs de plage est un `number[][]`. Toutes les valeurs de ce tableau peuvent ensuite être traitées comme des nombres dans le script.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+  // Get the active worksheet.
+  let sheet = workbook.getActiveWorksheet();
+
+  // Get the "Unit Price" column. 
+  // The result of calling getValues is declared to be a number[][] so that we can perform arithmetic operations.
+  let priceRange = sheet.getRange("D3:D5");
+  let prices = priceRange.getValues() as number[][];
+
+  // Get the average price.
+  let totalPrices = 0;
+  prices.forEach((price) => totalPrices += price[0]);
+  let averagePrice = totalPrices / prices.length;
+  console.log(averagePrice);
+}
+```
 
 ## <a name="charts-tables-and-other-data-objects"></a>Graphiques, tableaux et autres objets de données
 
