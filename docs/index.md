@@ -1,18 +1,18 @@
 ---
 layout: LandingPage
 ms.topic: landing-page
-title: Documentation sur Office Scripts
-description: Des ressources pour découvrir Office Scripts dans Excel sur le web, avec notamment des tutoriels, des articles conceptuels et des exemples de code.
-ms.date: 10/30/2020
+title: Documentation sur Office Scripts
+description: Des ressources pour découvrir Office Scripts dans Excel sur le web, avec notamment des tutoriels, des articles conceptuels et des exemples de code.
+ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: 0d75d1326db0399f64f53b0b25bd6c7b49296e0b
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: baa015f7f6384ccc2cdd7d8a4cbadcbc16167828
+ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232668"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639900"
 ---
-# <a name="office-scripts-documentation-preview"></a>Documentation sur Office Scripts (Aperçu)
+# <a name="office-scripts-documentation"></a>Documentation sur Office Scripts
 
 Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches communes. Explorez les articles suivants pour découvrir comment créer et modifier des scripts Office et automatisez vos tâches dès aujourd’hui.
 
@@ -28,7 +28,7 @@ Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches c
                     </div>
                     <div class="cardText">
                         <h3>Présentation</h3>
-                        <p><a href="overview/excel.md">Découvrez les composants de Office Scripts dans Excel sur le web : l’enregistreur d’actions et l’éditeur de code.</a></p>
+                        <p><a href="overview/excel.md">Découvrez les composants de Office Scripts dans Excel sur le web : l’enregistreur d’actions et l’éditeur de code.</a></p>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches c
                     </div>
                     <div class="cardText">
                         <h3>Principes de base de l’écriture de script</h3>
-                        <p><a href="develop/scripting-fundamentals.md">Découvrez les concepts fondamentaux de l’écriture de scripts avec Office Scripts dans Excel sur le web.</a></p>
+                        <p><a href="develop/scripting-fundamentals.md">Découvrez les concepts fondamentaux de l’écriture de scripts avec Office Scripts dans Excel sur le web.</a></p>
                     </div>
                 </div>
             </div>

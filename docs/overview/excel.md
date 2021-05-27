@@ -1,16 +1,16 @@
 ---
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
-ms.date: 05/17/2021
+ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: 36bf679c1778375ad2fb010d34efc88678fd9f57
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: fe1552ca51e8ef251f029aa11968725ad466a841
+ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545809"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639886"
 ---
-# <a name="office-scripts-in-excel-on-the-web-preview"></a>Office Scripts dans Excel sur le web (Aperçu)
+# <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
 Office Scripts dans Excel sur le web vous permet d’automatiser vos tâches quotidiennes. Vous pouvez enregistrer les actions Excel avec l’enregistreur d’actions, ce qui crée un script linguistique TypeScript. Vous pouvez également créer et modifier des scripts avec l’éditeur de code. Vos scripts peuvent ensuite être partagés au sein de votre organisation afin que vos collègues puissent également automatiser leurs flux de travail.
 
@@ -21,8 +21,6 @@ Cette série de documents vous explique comment utiliser ces outils. Vous allez 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4qdFF]
 
 ## <a name="requirements"></a>Configuration requise
-
-[!INCLUDE [Preview note](../includes/preview-note.md)]
 
 Pour utiliser les scripts Office, vous devez disposer des éléments suivants.
 
@@ -68,7 +66,7 @@ Après avoir terminé le didacticiel, lisez [Principes de base de l’écriture 
 
 :::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du script montrant l'option « Partager avec d'autres dans ce classeur ».":::
 
-Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un scénario avec d'autres personnes dans un cahier de travail, le scénario est joint au cahier. Vos scénarios sont stockés dans votre OneDrive, et lorsque vous en partagez un, vous créez un lien vers celui-ci dans le cahier de travail que vous avez ouvert.
+Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un script dans un classeur partagé, tous les personnes ayant accès au groupe peuvent également afficher et exécuter votre script.
 
 Si vous souhaitez en savoir plus sur le partage et le non-partage de scripts, veuillez consulter l'article [Partage de scripts Office dans Excel pour le web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b).
 
@@ -81,7 +79,7 @@ Si vous souhaitez en savoir plus sur le partage et le non-partage de scripts, ve
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Suivez le [tutoriel sur Office Scripts dans Excel sur le web](../tutorials/excel-tutorial.md) pour découvrir comment créer vos premiers scripts Office.
+Suivez le [tutoriel sur Office Scripts dans Excel sur le web](../tutorials/excel-tutorial.md) pour découvrir comment créer votre premier script.
 
 ## <a name="see-also"></a>Voir aussi
 
