@@ -1,14 +1,14 @@
 ---
 title: Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 description: Didacticiel sur les notions de base des scripts Office, comprenant l’enregistrement de scripts avec l’enregistreur d’actions et l’écriture de données dans un classeur.
-ms.date: 05/17/2021
+ms.date: 05/23/2021
 localization_priority: Priority
-ms.openlocfilehash: 957a36d56af476bafe2c11e7c89a37e79b820cce
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 19cd7bf6c3120d674553d37a36f45d36f46ee852
+ms.sourcegitcommit: 0343e4a9843f7ab6ec99d6ddf955050271b061c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545025"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52655904"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 
@@ -35,7 +35,7 @@ Tout d’abord, il nous faut des données et un petit script de base.
     |Citrons verts |600 |500 |
     |Pamplemousses |900 |700 |
 
-3. Ouvrez l’onglet **Automatiser**. Si vous ne voyez pas l’onglet **Automatiser**, vérifiez dans la section dépassement du ruban en appuyant sur la flèche déroulante vers le bas.
+3. Ouvrez l’onglet **Automatiser**. Si vous ne voyez pas l’onglet **Automatiser**, vérifiez dans la section dépassement du ruban en appuyant sur la flèche déroulante vers le bas. Si vous ne voyez toujours pas l’onglet, suivez les conseils de l’article [Résolution des problèmes de scripts Office](../testing/troubleshooting.md#automate-tab-not-appearing-or-office-scripts-unavailable).
 4. Appuyez sur le bouton **Actions d’enregistrement**.
 5. Sélectionnez les cellules **A2:C2** (la ligne « Oranges ») et choisissez orange comme couleur de remplissage.
 6. Appuyez sur le bouton **Arrêter** pour arrêter l’enregistrement.
