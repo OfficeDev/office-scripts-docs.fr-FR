@@ -1,14 +1,14 @@
 ---
 title: Office Exemples de scripts
 description: Exemples Office scripts et scénarios disponibles.
-ms.date: 05/24/2021
+ms.date: 05/25/2021
 localization_priority: Normal
-ms.openlocfilehash: 6b91e20586faa57c389459b7b8bccf18e5c3bbfa
-ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
+ms.openlocfilehash: aac730fd8a0da76728e4a455339366a75b27a0b2
+ms.sourcegitcommit: 339ecbb9914d54f919e3475018888fb5d00abe89
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639844"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697657"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Office Exemples de scripts et scénarios
 
@@ -48,13 +48,14 @@ Consultez le projet de bout en bout suivant qui automatise des exemples de scén
 
 ## <a name="scenarios"></a>Scénarios
 
-Office Les scripts peuvent automatiser des parties de votre routine quotidienne. Ces tâches quotidiennes existent souvent dans des écosystèmes uniques, avec des Excel de travail qui sont spécifiquement mis en place. Ces exemples de scénarios plus importants montrent ces cas d’utilisation réels. Ils incluent les scripts Office et les workbooks, afin que vous pouvez voir le scénario de bout en bout.
+Office Les scripts peuvent automatiser des parties de votre routine quotidienne. Ces tâches quotidiennes existent souvent dans des écosystèmes uniques, avec des Excel de travail qui sont spécifiquement mis en place. Ces exemples de scénarios plus importants montrent ces cas d’utilisation réels. Elles incluent les scripts Office et les workbooks, afin que vous pouvez voir le scénario de bout en bout.
 
 | Scénario | Détails |
 |---------|---------|
-| [Analyser les téléchargements web](../scenarios/analyze-web-downloads.md) | Ce scénario comprend un script qui permet d’évaluer les enregistrements de trafic web pour déterminer le pays d’origine d’un utilisateur. Il présente les compétences de l’utilisation de sous-sections dans les scripts, de l’application de la mise en forme conditionnelle et de l’utilisation de tableaux. |
-| [Obtenir et représenter graphiquement les données du niveau d'eau auprès de la NOAA](../scenarios/noaa-data-fetch.md) | Ce scénario utilise un script Office pour tirer des données à partir d’une source externe (base de données [NOAA - Banques](https://tidesandcurrents.noaa.gov/)et bases de données actuelles) et graphiquer les informations qui en résultent. Il met en évidence les compétences `fetch` d’utilisation pour obtenir des données et utiliser des graphiques. |
+| [Analyser les téléchargements web](../scenarios/analyze-web-downloads.md) | Ce scénario comprend un script qui permet d’évaluer les enregistrements de trafic web pour déterminer le pays d’origine d’un utilisateur. Il présente les compétences de l’utilisation de sous-sections dans les scripts, de l’application d’une mise en forme conditionnelle et de l’utilisation de tableaux. |
+| [Obtenir et représenter graphiquement les données du niveau d'eau auprès de la NOAA](../scenarios/noaa-data-fetch.md) | Ce scénario utilise un script Office pour tirer des données à partir d’une source externe (base de données [NOAA - États-Unis](https://tidesandcurrents.noaa.gov/)et bases de données actuelles) et graphiquer les informations qui en résultent. Il met en évidence les compétences `fetch` d’utilisation pour obtenir des données et utiliser des graphiques. |
 | [Calculatrice de notes](../scenarios/grade-calculator.md) | Ce scénario propose un script qui valide l’enregistrement d’un instructeur pour les notes de son cours. Il présente les compétences de vérification des erreurs, de mise en forme des cellules et d’expressions régulières. |
+| [Planifier des entretiens dans Teams](../scenarios/schedule-interviews-in-teams.md) | Ce scénario montre comment utiliser une feuille de calcul Excel pour gérer les heures de réunion et créer un flux vers les réunions de planification dans Teams. |
 | [Rappels de tâche](../scenarios/task-reminders.md) | Ce scénario utilise un script Office dans un flux Power Automate pour envoyer des rappels à des collègues afin de mettre à jour l’état d’un projet. Il met en évidence les compétences de Power Automate’intégration et le transfert de données vers et depuis des scripts. |
 
 ## <a name="community-contributions-and-fun-samples"></a>Community contributions et des exemples de divertissement
