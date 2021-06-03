@@ -1,14 +1,14 @@
 ---
 title: Office Environnement d’éditeur de code scripts
 description: Les conditions préalables et les informations d’environnement pour Office scripts dans Excel sur le Web.
-ms.date: 05/24/2021
+ms.date: 05/27/2021
 localization_priority: Normal
-ms.openlocfilehash: aca97c31ba970617a9fa270021a5b5b976ae4a57
-ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
+ms.openlocfilehash: 2334b0f98dfe03d97c35e6d1f54eeb45c06a134c
+ms.sourcegitcommit: c75f71b8abde962e922927a18145dd1d9b361b05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639879"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52731140"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Office Environnement d’éditeur de code scripts
 
@@ -32,9 +32,15 @@ Office Les scripts ne prend pas en charge l’utilisation de bibliothèques Java
 
 ## <a name="intellisense"></a>IntelliSense
 
-IntelliSense est une fonctionnalité d’éditeur de code qui permet d’éviter les erreurs de typage et de syntaxe lorsque vous modifiez votre script. Il affiche les noms d’objets et de champs possibles au cours de la tape, ainsi que la documentation inline pour chaque API.
+IntelliSense est un ensemble de fonctionnalités d’éditeur de code qui vous aident à écrire du code. Il fournit la mise en surbrillance automatique, la mise en surbrillance des erreurs de syntaxe et la documentation de l’API en ligne.
 
-L Excel’éditeur de code utilise le même moteur de IntelliSense que Visual Studio Code. Pour en savoir plus sur la fonctionnalité, [consultez Visual Studio Code’IntelliSense fonctionnalités.](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)
+IntelliSense suggestions à mesure que vous tapez, similaire au texte suggéré dans Excel. Appuyer sur la touche de tabulation ou d’entrée insère le membre suggéré. Déclenchez IntelliSense à l’emplacement actuel du curseur en appuyant sur les touches Ctrl+Espace. Ces suggestions sont particulièrement utiles lors de l’exécution d’une méthode. La signature de méthode affichée par IntelliSense contient une liste d’arguments dont elle a besoin, le type de chaque argument, qu’un argument donné soit obligatoire ou facultatif, et le type de retour de la méthode.
+
+Placez le curseur sur une méthode, une classe ou un autre objet code pour voir plus d’informations. Pointez sur une erreur de syntaxe ou une suggestion de code, représentée par une ligne rouge ou jaune, pour voir des suggestions sur la façon de résoudre le problème. Souvent, IntelliSense fournit une option « Correctif rapide » pour modifier automatiquement le code.
+
+:::image type="content" source="../images/implicit-any-editor-message.png" alt-text="Message d’erreur dans le texte de pointeur de l’éditeur de code avec un bouton « Correctif rapide »":::
+
+L Office’éditeur de code scripts utilise le même moteur de IntelliSense que Visual Studio Code. Pour en savoir plus sur la fonctionnalité, [consultez Visual Studio Code’IntelliSense fonctionnalités.](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)
 
 ## <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
