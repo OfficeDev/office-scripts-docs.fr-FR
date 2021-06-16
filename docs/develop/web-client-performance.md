@@ -3,12 +3,12 @@ title: Améliorer les performances de vos scripts Office de gestion
 description: Créez des scripts plus rapides en comprenant la communication entre le Excel et votre script.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 512e2108cb81cf9ac8ae98980951d5d01b3d2de9
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: a5bd879625b9c3bac0caa621dde312f7c961dd5c
+ms.sourcegitcommit: 2aaf7dc527cb6c9f1206550b2c5745280503b2a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52544990"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52957699"
 ---
 # <a name="improve-the-performance-of-your-office-scripts"></a>Améliorer les performances de vos scripts Office de gestion
 
@@ -100,7 +100,7 @@ La journalisation de la console est un outil vital [pour le débogage de vos scr
 
 ## <a name="case-by-case-help"></a>Aide au cas par cas
 
-À mesure que la plateforme Office Scripts s’étend [](/adaptive-cards)pour fonctionner avec [Power Automate,](https://flow.microsoft.com/)les cartes adaptatives et d’autres fonctionnalités entre produits, les détails de la communication de script-workbook deviennent plus complexes. Si vous avez besoin d’aide pour accélérer l’exécuter, [contactez-vous](/answers/topics/office-scripts-dev.html)via Microsoft Q&A . N’oubliez pas de baliser votre question avec « office-scripts-dev » afin que les experts la trouvent et vous aident.
+À mesure que la plateforme Office Scripts s’étend [](/adaptive-cards)pour fonctionner avec [Power Automate,](https://flow.microsoft.com/)les cartes adaptatives et d’autres fonctionnalités entre produits, les détails de la communication de script-workbook deviennent plus complexes. Si vous avez besoin d’aide pour accélérer l’exécuter, [contactez-vous](/answers/topics/office-scripts-excel-dev.html)via Microsoft Q&A . N’oubliez pas de baliser votre question avec « office-scripts-dev » afin que les experts la trouvent et vous aident.
 
 ## <a name="see-also"></a>Voir aussi
 
