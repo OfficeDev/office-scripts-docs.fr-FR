@@ -3,16 +3,16 @@ title: Planifier des entretiens dans Teams
 description: Découvrez comment utiliser des scripts Office pour envoyer une Teams à partir de Excel données.
 ms.date: 05/25/2021
 localization_priority: Normal
-ms.openlocfilehash: f93d9ceca6603ddb9e7123a393787fcf54597cca
-ms.sourcegitcommit: 339ecbb9914d54f919e3475018888fb5d00abe89
+ms.openlocfilehash: 66dae536c4a51ff3e028f06bf3aef3c7509d83bb
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52697776"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074430"
 ---
 # <a name="office-scripts-sample-scenario-schedule-interviews-in-teams"></a>Office Exemple de scénario de scripts : planifier des entretiens dans Teams
 
-Dans ce scénario, vous êtes un recrutement RH qui planifiera des réunions d’entretien avec des candidats Teams. Vous gérez la planification des entretiens des candidats dans Excel fichier. Vous devez envoyer l’invitation Teams réunion au candidat et aux intervieweurs. Vous devez ensuite mettre à jour le fichier Excel avec la confirmation que Teams réunions ont été envoyées.
+Dans ce scénario, vous êtes un recrutement RH qui planifiera des réunions d’entretien avec des candidats Teams. Vous gérez le planning d’entretien des candidats dans Excel fichier. Vous devez envoyer l’invitation Teams réunion au candidat et aux intervieweurs. Vous devez ensuite mettre à jour le fichier Excel avec la confirmation que Teams réunions ont été envoyées.
 
 La solution possède trois étapes qui sont combinées en une seule Power Automate flux.
 
@@ -140,7 +140,7 @@ interface InterviewInvite {
     1. **Emplacement** : OneDrive Entreprise
     1. **Bibliothèque de documents** : OneDrive
     1. **Fichier**: hr-interviews.xlsx *(choisi via le navigateur de fichiers)*
-    1. **Script**: Planifier des entretiens Capture d’écran du connecteur :::image type="content" source="../../images/schedule-interviews-1.png" alt-text="Excel Online (Entreprise)"::: pour obtenir des données d’entretien à partir du Power Automate
+    1. **Script**: Planifier des entretiens Capture d’écran du connecteur :::image type="content" source="../../images/schedule-interviews-1.png" alt-text="Excel Online (Entreprise)"::: pour obtenir des données d’entretien à partir du Power Automate.
 1. Ajoutez **une nouvelle étape** qui utilise l’action Créer Teams **réunion.** Lorsque vous sélectionnez du contenu dynamique à partir du connecteur Excel, une application à chaque **bloc** est générée pour votre flux. Terminez le connecteur avec les valeurs suivantes.
     1. **ID de calendrier**: Calendrier
     1. **Objet**: Contoso Interview
@@ -148,13 +148,13 @@ interface InterviewInvite {
     1. **Fuseau horaire**: heure standard du Pacifique
     1. **Heure de** début **: StartTime** (valeur Excel)
     1. **Heure de fin** **: FinishTime** (valeur Excel)
-    1. **Participants obligatoires**: **CandidateEmail** ; **ScreenshotEmail** (les valeurs Excel) Capture d’écran du connecteur Teams terminé pour planifier des :::image type="content" source="../../images/schedule-interviews-2.png" alt-text="réunions dans Power Automate":::
-1. Dans le même **bloc Appliquer à chaque** bloc, ajoutez un autre connecteur Excel Online **(Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs ci-après.
+    1. **Participants obligatoires**: **CandidateEmail** ; **ScreenshotEmail** (les valeurs Excel) Capture d’écran du connecteur Teams terminé pour planifier des réunions :::image type="content" source="../../images/schedule-interviews-2.png" alt-text="dans Power Automate.":::
+1. Dans le même **bloc, ajoutez** un autre connecteur **Excel Online (Entreprise)** avec l’action **exécuter le script.** Utilisez les valeurs ci-après.
     1. **Emplacement** : OneDrive Entreprise
     1. **Bibliothèque de documents** : OneDrive
     1. **Fichier**: hr-interviews.xlsx *(choisi via le navigateur de fichiers)*
     1. **Script**: enregistrer les invitations envoyées
-    1. **invite :** **résultat (valeur** Excel) Capture d’écran du connecteur :::image type="content" source="../../images/schedule-interviews-3.png" alt-text="Excel Online (Entreprise)"::: terminé pour enregistrer que les invitations ont été envoyées dans Power Automate
+    1. **invite :** **résultat (valeur** Excel) Capture d’écran du connecteur Excel Online (Entreprise) terminé pour enregistrer que les invitations ont été :::image type="content" source="../../images/schedule-interviews-3.png" alt-text="envoyées dans Power Automate.":::
 1. Enregistrez le flux et testez-le.
 
 ## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Vidéo de formation : envoyer une Teams réunion à partir Excel données

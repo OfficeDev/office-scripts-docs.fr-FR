@@ -3,12 +3,12 @@ title: Sortie Excel données en tant que JSON
 description: Découvrez comment Excel données de table en tant que JSON à utiliser dans Power Automate.
 ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: 9b8c0c48b969cfd05750ca4a6703a5ecbb9d18d2
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: fefeda4f7e60880758f8f01e03f437a70c4111d4
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285814"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074570"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Sortie Excel données de table en tant que JSON pour une utilisation Power Automate
 
@@ -16,17 +16,17 @@ Excel données de table peuvent être représentées sous la forme d’un tablea
 
 _Données de table d’entrée_
 
-:::image type="content" source="../../images/table-input.png" alt-text="Feuille de calcul affichant les données d’une table d’entrée":::
+:::image type="content" source="../../images/table-input.png" alt-text="Feuille de calcul montrant les données de table d’entrée.":::
 
 Une variante de cet exemple inclut également les liens hypertexte dans l’une des colonnes du tableau. Cela permet d’surfacer des niveaux supplémentaires de données de cellule dans le JSON.
 
 _Données de table d’entrée qui incluent des liens hypertexte_
 
-:::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Feuille de calcul montrant une colonne de données de tableau mise en forme sous forme de liens hypertexte":::
+:::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Feuille de calcul montrant une colonne de données de tableau mise en forme sous forme de liens hypertexte.":::
 
 _Boîte de dialogue pour modifier le lien hypertexte_
 
-:::image type="content" source="../../images/table-hyperlink-edit.png" alt-text="Boîte de dialogue Modifier le lien hypertexte affichant les options de modification des liens hypertexte":::
+:::image type="content" source="../../images/table-hyperlink-edit.png" alt-text="Boîte de dialogue Modifier le lien hypertexte affichant les options de modification des liens hypertexte.":::
 
 ## <a name="sample-excel-file"></a>Exemple Excel fichier
 

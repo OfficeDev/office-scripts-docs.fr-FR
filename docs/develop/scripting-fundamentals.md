@@ -3,12 +3,12 @@ title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: 629e816ea988d6b8ffe5264c701e3a1eba6c6feb
-ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
+ms.openlocfilehash: 9c3c10e283e40f1e719e73106bcdacfcff44dbc9
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639893"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074507"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Principes de base des scripts pour Scripts Office dans Excel sur le web
 
@@ -112,7 +112,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script crée les données suivantes dans la feuille de calcul active :
 
-:::image type="content" source="../images/range-sample.png" alt-text="Feuille de calcul contenant un enregistrement des ventes composé de lignes de valeurs, d’une colonne de formule et d’en-têtes formatés":::
+:::image type="content" source="../images/range-sample.png" alt-text="Feuille de calcul contenant un enregistrement des ventes composé de lignes de valeurs, d’une colonne de formule et d’en-têtes formatés.":::
 
 ### <a name="the-types-of-range-values"></a>Les types de valeurs de plage
 
@@ -162,7 +162,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script sur la feuille de calcul avec les données précédentes crée le tableau suivant :
 
-:::image type="content" source="../images/table-sample.png" alt-text="Feuille de calcul contenant un tableau créé depuis l’enregistrement des ventes précédent":::
+:::image type="content" source="../images/table-sample.png" alt-text="Feuille de calcul contenant un tableau créé depuis l’enregistrement des ventes précédent.":::
 
 ### <a name="create-a-chart"></a>Création d’un graphique (chart)
 
@@ -188,7 +188,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 L’exécution de ce script sur la feuille de calcul avec le tableau précédent crée le graphique suivant :
 
-:::image type="content" source="../images/chart-sample.png" alt-text="Histogramme montrant les quantités pour trois des articles présents dans l’enregistrement des ventes précédent":::
+:::image type="content" source="../images/chart-sample.png" alt-text="Histogramme montrant les quantités pour trois des articles présents dans l’enregistrement des ventes précédent.":::
 
 ## <a name="collections"></a>Collections
 

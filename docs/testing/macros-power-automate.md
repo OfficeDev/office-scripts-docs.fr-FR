@@ -3,12 +3,12 @@ title: Utiliser des fichiers macro dans Power Automate flux
 description: Découvrez comment utiliser des fichiers macro ou xlsm dans Power Automate flux.
 ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: b232a1d31a7ff6e28016c5e28fd8a83c8d3f1859
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 91e11424e4220a3e1f80cdd2711d05f219016147
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232654"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074640"
 ---
 # <a name="how-to-use-macro-files-in-power-automate-flows"></a>Comment utiliser des fichiers macro dans les flux Power Automate flux
 
@@ -20,7 +20,7 @@ Toutefois, les fichiers macro ne peuvent pas être sélectionnés dans la liste 
 
 Pour contourner ce problème, vous pouvez inclure l’action « Obtenir les métadonnées de fichier » (OneDrive ou SharePoint) et utiliser la propriété ID dans l’action « Exécuter le script », comme illustré dans la capture d’écran suivante.
 
-:::image type="content" source="../images/xlsm-in-pa.png" alt-text="L’Power Automate exécuter l’action de script montrant le fichier macro sélectionné et aucune erreur de script d’exécuter":::
+:::image type="content" source="../images/xlsm-in-pa.png" alt-text="L’Power Automate exécuter une action de script montrant le fichier macro sélectionné et aucune erreur de script Exécuter.":::
 
 > [!NOTE]
 > Certains xlSM (en particulier ceux avec des contrôles ActiveX/formulaire) peuvent ne pas fonctionner dans le connecteur Excel en ligne. Veillez à tester avant de déployer votre solution.

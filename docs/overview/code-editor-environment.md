@@ -3,16 +3,16 @@ title: Office Environnement d’éditeur de code scripts
 description: Les conditions préalables et les informations d’environnement pour Office scripts dans Excel sur le Web.
 ms.date: 05/27/2021
 localization_priority: Normal
-ms.openlocfilehash: 2334b0f98dfe03d97c35e6d1f54eeb45c06a134c
-ms.sourcegitcommit: c75f71b8abde962e922927a18145dd1d9b361b05
+ms.openlocfilehash: 4a8adc03e372bc769fb44b1c4e3e98c7a4531756
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52731140"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074465"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Office Environnement d’éditeur de code scripts
 
-Office Les scripts sont écrits en TypeScript ou JavaScript et utilisent les API JavaScript Office Scripts pour interagir avec un Excel de travail. L’éditeur de code est basé sur Visual Studio Code, donc si vous avez déjà utilisé cet environnement auparavant, vous vous sentirez comme chez vous.
+Office Les scripts sont écrits en TypeScript ou JavaScript et utilisent les API JavaScript Office Scripts pour interagir avec un Excel de travail. L’Éditeur de code est basé sur Visual Studio Code, donc si vous avez déjà utilisé cet environnement auparavant, vous vous sentirez comme chez vous.
 
 ## <a name="scripting-language-typescript-or-javascript"></a>Langage de script : TypeScript ou JavaScript
 
@@ -38,7 +38,7 @@ IntelliSense suggestions à mesure que vous tapez, similaire au texte suggéré 
 
 Placez le curseur sur une méthode, une classe ou un autre objet code pour voir plus d’informations. Pointez sur une erreur de syntaxe ou une suggestion de code, représentée par une ligne rouge ou jaune, pour voir des suggestions sur la façon de résoudre le problème. Souvent, IntelliSense fournit une option « Correctif rapide » pour modifier automatiquement le code.
 
-:::image type="content" source="../images/implicit-any-editor-message.png" alt-text="Message d’erreur dans le texte de pointeur de l’éditeur de code avec un bouton « Correctif rapide »":::
+:::image type="content" source="../images/implicit-any-editor-message.png" alt-text="Message d’erreur dans le texte de pointeur de l’éditeur de code avec un bouton « Correctif rapide ».":::
 
 L Office’éditeur de code scripts utilise le même moteur de IntelliSense que Visual Studio Code. Pour en savoir plus sur la fonctionnalité, [consultez Visual Studio Code’IntelliSense fonctionnalités.](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)
 

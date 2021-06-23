@@ -1,14 +1,14 @@
 ---
-title: Déplacer des lignes entre des tableaux à l’aide Office scripts
+title: Déplacer des lignes entre des tableaux à l’aide Office Scripts
 description: Découvrez comment déplacer des lignes d’une table à l’autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
 ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: 02fa99ff0444924bd2d44ad4fa421fe66fbd7272
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: c850ed055457f6733694027469a96a87e74ef66a
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285940"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074451"
 ---
 # <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a>Déplacer des lignes entre les tables en enregistrer les filtres, puis en traitant et réappliquer les filtres
 
@@ -18,7 +18,7 @@ Ce script effectue les opérations suivantes :
 * Déplace toutes les lignes sélectionnées dans un autre tableau (cible) d’une autre feuille de calcul.
 * Réapplicité des filtres pertinents sur la table source.
 
-:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Captures d’écran du workbook avant et après":::
+:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Captures d’écran du workbook avant et après.":::
 
 ## <a name="sample-excel-file"></a>Exemple Excel fichier
 

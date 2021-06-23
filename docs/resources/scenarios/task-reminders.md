@@ -3,12 +3,12 @@ title: 'Office Exemple de scénario de scripts : rappels de tâches automatisés
 description: Un exemple qui utilise des Power Automate et des cartes adaptatives automatise les rappels de tâches dans une feuille de calcul de gestion de projet.
 ms.date: 11/30/2020
 localization_priority: Normal
-ms.openlocfilehash: c254a627da8442c0974263908a41275182740b6e
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 1297f10e45c515079994d659378331fc4a2be744
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545601"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074661"
 ---
 # <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Office Exemple de scénario de scripts : rappels de tâches automatisés
 
@@ -26,7 +26,7 @@ Vous allez créer un flux Power Automate message aux personnes dont les champs d
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software). Vous aurez besoin des deux associés au compte que vous utilisez pour développer Office Scripts. Pour un accès gratuit à un abonnement Microsoft Développeur pour en savoir plus sur ces applications et travailler avec celles-ci, envisagez de rejoindre le programme [Microsoft 365 développeur microsoft.](https://developer.microsoft.com/microsoft-365/dev-program)
+Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software). Vous aurez besoin des deux associés au compte que vous utilisez pour le développement de Office scripts. Pour obtenir un accès gratuit à un abonnement Microsoft Développeur pour en savoir plus sur ces applications et travailler avec celles-ci, envisagez de rejoindre le programme [Microsoft 365 développeur microsoft.](https://developer.microsoft.com/microsoft-365/dev-program)
 
 ## <a name="setup-instructions"></a>Instructions d’installation
 
@@ -36,7 +36,7 @@ Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft 
 
 3. Sous **l’onglet Automatiser,** ouvrez **Tous les scripts.**
 
-4. Tout d’abord, nous avons besoin d’un script pour obtenir tous les employés dont les rapports d’état sont manquants dans la feuille de calcul. Dans le **volet Des tâches de** l’Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l’éditeur.
+4. Tout d’abord, nous avons besoin d’un script pour obtenir tous les employés dont les rapports d’état sont manquants dans la feuille de calcul. Dans le **volet Des tâches de l’Éditeur** de code, appuyez **sur Nouveau script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     /**
@@ -89,7 +89,7 @@ Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft 
 
 5. Enregistrez le script avec le nom **Get People**.
 
-6. Ensuite, nous avons besoin d’un second script pour traiter les cartes de rapport d’état et placer les nouvelles informations dans la feuille de calcul. Dans le **volet Des tâches de** l’Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l’éditeur.
+6. Ensuite, nous avons besoin d’un second script pour traiter les cartes de rapport d’état et placer les nouvelles informations dans la feuille de calcul. Dans le **volet Des tâches de l’Éditeur** de code, appuyez **sur Nouveau script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     /**
@@ -154,14 +154,14 @@ Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft 
 
 10. Choose **Manually trigger a flow** from the options and press **Create**.
 
-11. Le flux doit appeler le script **Obtenir des** personnes pour obtenir tous les employés avec des champs d’état vides. Appuyez **sur Nouvelle étape** et **sélectionnez Excel Online (Entreprise).** Sous **Actions,** **sélectionnez Exécuter le script.** Fournissez les entrées suivantes pour l’étape de flux :
+11. Le flux doit appeler le script **Obtenir des** personnes pour obtenir tous les employés avec des champs d’état vides. Appuyez **sur Nouvelle étape** et **sélectionnez Excel Online (Entreprise).** Sous **Actions**, sélectionnez **Exécuter le script**. Fournissez les entrées suivantes pour l’étape de flux :
 
-    - **Emplacement** : OneDrive Entreprise
-    - **Bibliothèque de documents** : OneDrive
+    - **Emplacement** : OneDrive Entreprise
+    - **Bibliothèque de documents** : OneDrive
     - **Fichier**: task-reminders.xlsx *(choisi via le navigateur de fichiers)*
     - **Script**: obtenir des personnes
 
-    :::image type="content" source="../../images/scenario-task-reminders-first-flow-step.png" alt-text="Flux de Power Automate montrant la première étape de flux de script d’exécuter":::
+    :::image type="content" source="../../images/scenario-task-reminders-first-flow-step.png" alt-text="Le flux Power Automate montrant la première étape du flux de script d’exécuter.":::
 
 12. Ensuite, le flux doit traiter chaque employé dans le tableau renvoyé par le script. Appuyez **sur Nouvelle étape** et sélectionnez Publier une carte **adaptative à un utilisateur Teams et attendez une réponse.**
 
@@ -213,16 +213,16 @@ Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft 
     - **Message de mise à** jour : merci d’avoir envoyé votre rapport d’état. Votre réponse a été ajoutée avec succès à la feuille de calcul.
     - **Doit mettre à jour la carte**: Oui
 
-16. Dans le **bloc Appliquer à chaque** bloc, après avoir publié une carte adaptative à un utilisateur **Teams** et attendre une réponse, appuyez sur Ajouter **une action.** Sélectionnez **Excel Online (Entreprise).** Sous **Actions,** **sélectionnez Exécuter le script.** Fournissez les entrées suivantes pour l’étape de flux :
+16. Dans le **bloc Appliquer à chaque** bloc, après avoir publié une carte adaptative à un utilisateur **Teams** et attendre une réponse, appuyez sur Ajouter **une action.** Sélectionnez **Excel Online (Entreprise).** Sous **Actions**, sélectionnez **Exécuter le script**. Fournissez les entrées suivantes pour l’étape de flux :
 
-    - **Emplacement** : OneDrive Entreprise
-    - **Bibliothèque de documents** : OneDrive
+    - **Emplacement** : OneDrive Entreprise
+    - **Bibliothèque de documents** : OneDrive
     - **Fichier**: task-reminders.xlsx *(choisi via le navigateur de fichiers)*
-    - **Script**: enregistrer l’état
+    - **Script**: Enregistrer l’état
     - **senderEmail**: e-mail *(contenu dynamique de Excel)*
     - **statusReportResponse**: réponse *(contenu dynamique de Teams)*
 
-    :::image type="content" source="../../images/scenario-task-reminders-last-flow-step.png" alt-text="Flux Power Automate montrant l’application à chaque étape":::
+    :::image type="content" source="../../images/scenario-task-reminders-last-flow-step.png" alt-text="Le Power Automate flux montrant l’application à chaque étape.":::
 
 17. Enregistrez le flux.
 
@@ -234,12 +234,12 @@ Vous pouvez sélectionner **Test** à partir du concepteur de flux ou exécuter 
 
 ### <a name="before-running-the-flow"></a>Avant d’exécution du flux
 
-:::image type="content" source="../../images/scenario-task-reminders-spreadsheet-before.png" alt-text="Feuille de calcul avec un rapport d’état contenant une entrée d’état manquante":::
+:::image type="content" source="../../images/scenario-task-reminders-spreadsheet-before.png" alt-text="Feuille de calcul avec un rapport d’état contenant une entrée d’état manquante.":::
 
 ### <a name="receiving-the-adaptive-card"></a>Réception de la carte adaptative
 
-:::image type="content" source="../../images/scenario-task-reminders-adaptive-card.png" alt-text="Une carte adaptative dans Teams demande de mise à jour de l’état à l’employé":::
+:::image type="content" source="../../images/scenario-task-reminders-adaptive-card.png" alt-text="Une carte adaptative dans Teams demande à l’employé une mise à jour de l’état.":::
 
 ### <a name="after-running-the-flow"></a>Après l’exécution du flux
 
-:::image type="content" source="../../images/scenario-task-reminders-spreadsheet-after.png" alt-text="Feuille de calcul avec un rapport d’état avec une entrée d’état maintenant remplie":::
+:::image type="content" source="../../images/scenario-task-reminders-spreadsheet-after.png" alt-text="Feuille de calcul avec un rapport d’état avec une entrée d’état maintenant remplie.":::

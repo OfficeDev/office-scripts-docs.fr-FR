@@ -3,12 +3,12 @@ title: Résoudre les problèmes Office scripts en cours d’exécution dans Powe
 description: Astuces, les informations de plateforme et les problèmes connus avec l’intégration entre Office scripts et Power Automate.
 ms.date: 05/18/2021
 localization_priority: Normal
-ms.openlocfilehash: 3d114b8b9aceb95285ecfc78ddbd868541b9f04c
-ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
+ms.openlocfilehash: 7ba128314c0d632a3e77792b7ee545bfb7dca71d
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52631663"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074633"
 ---
 # <a name="troubleshoot-office-scripts-running-in-power-automate"></a>Résoudre les problèmes Office scripts en cours d’exécution dans Power Automate
 
@@ -63,9 +63,9 @@ Les méthodes suivantes ne font rien dans un script lorsqu’elles sont appelée
 
 ## <a name="select-workbooks-with-the-file-browser-control"></a>Sélectionner des classes avec le contrôle de navigateur de fichiers
 
-Lors de la création **de l’étape** exécuter le script d Power Automate flux, vous devez sélectionner le workbook qui fait partie du flux. Utilisez le navigateur de fichiers pour sélectionner votre classer, au lieu de taper manuellement le nom du classer.
+Lors de la création **de l’étape** d’Power Automate script d’un flux d’Power Automate, vous devez sélectionner le workbook qui fait partie du flux. Utilisez le navigateur de fichiers pour sélectionner votre classez, au lieu de taper manuellement le nom du classer.
 
-:::image type="content" source="../images/power-automate-file-browser.png" alt-text="L’Power Automate exécuter l’action de script affichant l’option Afficher le navigateur de fichier du s picker":::
+:::image type="content" source="../images/power-automate-file-browser.png" alt-text="L’Power Automate exécuter une action de script montrant l’option Afficher le navigateur de fichier du s picker.":::
 
 Pour plus de contexte sur la limitation Power Automate et une discussion sur les solutions de contournement potentielles pour la sélection dynamique de workbooks, voir ce thread dans le microsoft [Power Automate Community](https://powerusers.microsoft.com/t5/Power-Automate-Ideas/Allow-for-dynamic-quot-file-quot-value-for-excel-quot-get-a-row/idi-p/103091#).
 
@@ -73,10 +73,10 @@ Pour plus de contexte sur la limitation Power Automate et une discussion sur les
 
 Excel fichiers n’ont pas d’emplacement ou de fuseau horaire inhérents. Chaque fois qu’un utilisateur ouvre le manuel, sa session utilise le fuseau horaire local de cet utilisateur pour les calculs de date. Power Automate utilise toujours l’UTC.
 
-Si votre script utilise des dates ou des heures, il peut y avoir des différences de comportement lorsque le script est testé localement par rapport au moment où il est exécuté Power Automate. Power Automate vous permet de convertir, de mettre en forme et d’ajuster les temps. Voir [Utilisation](https://flow.microsoft.com/blog/working-with-dates-and-times/) des dates et heures dans vos flux pour obtenir des instructions sur l’utilisation de ces fonctions dans Power Automate and [ `main` Parameters: Pass data to a script to](../develop/power-automate-integration.md#main-parameters-pass-data-to-a-script) learn how to provide that time information for the script.
+Si votre script utilise des dates ou des heures, il peut y avoir des différences de comportement lorsque le script est testé localement par rapport au moment où il est exécuté Power Automate. Power Automate vous permet de convertir, de mettre en forme et d’ajuster les temps. Voir [Utilisation](https://flow.microsoft.com/blog/working-with-dates-and-times/) des dates et heures à l’intérieur de vos flux pour obtenir des instructions sur l’utilisation de ces fonctions dans Power Automate and [ `main` Parameters: Pass data to a script to](../develop/power-automate-integration.md#main-parameters-pass-data-to-a-script) learn how to provide that time information for the script.
 
 ## <a name="see-also"></a>Voir aussi
 
 - [Résoudre les problèmes Office scripts](troubleshooting.md)
 - [Exécuter Office scripts avec Power Automate](../develop/power-automate-integration.md)
-- [Excel Documentation de référence du connecteur en ligne (Entreprise)](/connectors/excelonlinebusiness/)
+- [Excel Documentation de référence sur le connecteur en ligne (Entreprise)](/connectors/excelonlinebusiness/)

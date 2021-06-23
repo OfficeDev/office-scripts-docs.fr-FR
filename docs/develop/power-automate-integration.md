@@ -3,12 +3,12 @@ title: Exécuter Office scripts avec Power Automate
 description: Comment obtenir des scripts Office pour Excel sur le Web un flux de travail Power Automate de travail.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 7562a2b2359cde67a9a47e0640515018fe23ac35
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 96b07501e07383ace5ff88a8bc6b64ef145ebd5e
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545039"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074423"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter Office scripts avec Power Automate
 
@@ -22,7 +22,7 @@ Pour commencer à combiner Power Automate et Office scripts, suivez le didactici
 
 ## <a name="excel-online-business-connector"></a>Excel Connecteur En ligne (Entreprise)
 
-[Les connecteurs](/connectors/connectors) sont les ponts entre Power Automate applications. Le [connecteur Excel Online (Entreprise)](/connectors/excelonlinebusiness) permet à vos flux d’accéder Excel de travail. L’action « Exécuter le script » vous permet d’appeler Office script accessible via le livre de travail sélectionné. Vous pouvez également donner à vos scripts des paramètres d’entrée afin que les données soient fournies par le flux ou que votre script retourne des informations pour les étapes ultérieures du flux.
+[Les connecteurs](/connectors/connectors) sont les ponts entre Power Automate applications. Le [connecteur Excel Online (Entreprise)](/connectors/excelonlinebusiness) permet à vos flux d’accéder à Excel de travail. L’action « Exécuter le script » vous permet d’appeler Office script accessible via le livre de travail sélectionné. Vous pouvez également donner à vos scripts des paramètres d’entrée afin que les données soient fournies par le flux ou que votre script retourne des informations pour les étapes ultérieures du flux.
 
 > [!IMPORTANT]
 > L’action « Exécuter le script » donne aux utilisateurs du connecteur Excel un accès significatif à votre workbook et à ses données. En outre, il existe des risques de sécurité avec les scripts qui font des appels d’API externes, comme expliqué dans les appels externes de [Power Automate](external-calls.md). Si votre administrateur est préoccupé par l’exposition de données hautement sensibles, il peut désactiver le connecteur Excel Online ou restreindre l’accès aux scripts Office par le biais des contrôles d’administrateur [Office Scripts](/microsoft-365/admin/manage/manage-office-scripts-settings).
@@ -89,7 +89,7 @@ Les scripts peuvent renvoyer des données à partir du workbook à utiliser en t
 
 2. Les types Union utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
 
-3. Les types de tableau sont autorisés s’ils sont de type `string` `number` , ou `boolean` . Ils sont également autorisés si le type est une union prise en charge ou un type littéral pris en charge.
+3. Les types de tableau sont autorisés s’ils sont de type `string` `number` , ou `boolean` . Elles sont également autorisées si le type est une union prise en charge ou un type littéral pris en charge.
 
 4. Les types d’objets utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
 
@@ -99,7 +99,7 @@ Les scripts peuvent renvoyer des données à partir du workbook à utiliser en t
 
 La capture d’écran suivante montre un flux Power Automate qui est déclenché chaque fois [qu’un](https://github.com/) problème GitHub de sécurité vous est affecté. Le flux exécute un script qui ajoute le problème à une table dans un Excel de travail. S’il existe cinq problèmes ou plus dans ce tableau, le flux envoie un rappel par courrier électronique.
 
-:::image type="content" source="../images/power-automate-parameter-return-sample.png" alt-text="Éditeur Power Automate de flux affichant l’exemple de flux":::
+:::image type="content" source="../images/power-automate-parameter-return-sample.png" alt-text="Éditeur Power Automate de flux affichant l’exemple de flux.":::
 
 La fonction du script spécifie l’ID de problème et le titre du problème en tant que paramètres d’entrée, et le script renvoie le nombre de lignes dans le `main` tableau des problèmes.
 
@@ -129,4 +129,4 @@ function main(
 - [Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement](../tutorials/excel-power-automate-returns.md)
 - [Informations de dépannage pour les Power Automate avec Office scripts](../testing/power-automate-troubleshooting.md)
 - [Prise en main de Power Automate](/power-automate/getting-started)
-- [Excel Documentation de référence sur le connecteur en ligne (Entreprise)](/connectors/excelonlinebusiness/)
+- [Excel Documentation de référence du connecteur en ligne (Entreprise)](/connectors/excelonlinebusiness/)
