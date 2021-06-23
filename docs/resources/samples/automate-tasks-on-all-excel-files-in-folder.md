@@ -3,23 +3,23 @@ title: Exécuter un script sur tous les fichiers Excel d’un dossier
 description: Découvrez comment exécuter un script sur tous les fichiers Excel dans un dossier sur OneDrive Entreprise.
 ms.date: 05/03/2021
 localization_priority: Normal
-ms.openlocfilehash: fb9a4deb01b52ef031cb1ba3400bd6f10de9d9f5
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 83e091a8b009bac577da9ed53dcf4139c1b845c9
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545789"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074584"
 ---
-# <a name="run-a-script-on-all-excel-files-in-a-folder"></a><span data-ttu-id="a47d6-103">Exécuter un script sur tous les fichiers Excel d’un dossier</span><span class="sxs-lookup"><span data-stu-id="a47d6-103">Run a script on all Excel files in a folder</span></span>
+# <a name="run-a-script-on-all-excel-files-in-a-folder"></a><span data-ttu-id="464ec-103">Exécuter un script sur tous les fichiers Excel d’un dossier</span><span class="sxs-lookup"><span data-stu-id="464ec-103">Run a script on all Excel files in a folder</span></span>
 
-<span data-ttu-id="a47d6-104">Ce projet effectue un ensemble de tâches d’automatisation sur tous les fichiers situés dans un dossier sur OneDrive Entreprise.</span><span class="sxs-lookup"><span data-stu-id="a47d6-104">This project performs a set of automation tasks on all files situated in a folder on OneDrive for Business.</span></span> <span data-ttu-id="a47d6-105">Il peut également être utilisé sur un SharePoint dossier.</span><span class="sxs-lookup"><span data-stu-id="a47d6-105">It could also be used on a SharePoint folder.</span></span>
-<span data-ttu-id="a47d6-106">Il effectue des calculs sur les fichiers Excel, ajoute une mise en forme et insère un [commentaire](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) qui @mentions collègue.</span><span class="sxs-lookup"><span data-stu-id="a47d6-106">It performs calculations on the Excel files, adds formatting, and inserts a comment that [@mentions](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) a colleague.</span></span>
+<span data-ttu-id="464ec-104">Ce projet effectue un ensemble de tâches d’automatisation sur tous les fichiers situés dans un dossier sur OneDrive Entreprise.</span><span class="sxs-lookup"><span data-stu-id="464ec-104">This project performs a set of automation tasks on all files situated in a folder on OneDrive for Business.</span></span> <span data-ttu-id="464ec-105">Il peut également être utilisé sur un SharePoint dossier.</span><span class="sxs-lookup"><span data-stu-id="464ec-105">It could also be used on a SharePoint folder.</span></span>
+<span data-ttu-id="464ec-106">Il effectue des calculs sur les fichiers Excel, ajoute une mise en forme et insère un [commentaire](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) qui @mentions collègue.</span><span class="sxs-lookup"><span data-stu-id="464ec-106">It performs calculations on the Excel files, adds formatting, and inserts a comment that [@mentions](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) a colleague.</span></span>
 
-<span data-ttu-id="a47d6-107">Téléchargez le fichier <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/docs/resources/samples/highlight-alert-excel-files.zip?raw=true">highlight-alert-excel-files.zip,</a>extrayez les fichiers dans un dossier intitulé **Ventes** utilisés dans cet exemple et essayez-le vous-même !</span><span class="sxs-lookup"><span data-stu-id="a47d6-107">Download the file <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/docs/resources/samples/highlight-alert-excel-files.zip?raw=true">highlight-alert-excel-files.zip</a>, extract the files to a folder titled **Sales** used in this sample, and try it out yourself!</span></span>
+<span data-ttu-id="464ec-107">Téléchargez le fichier <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/docs/resources/samples/highlight-alert-excel-files.zip?raw=true">highlight-alert-excel-files.zip,</a>extrayez les fichiers dans un dossier intitulé **Ventes** utilisés dans cet exemple, et essayez-le vous-même !</span><span class="sxs-lookup"><span data-stu-id="464ec-107">Download the file <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/docs/resources/samples/highlight-alert-excel-files.zip?raw=true">highlight-alert-excel-files.zip</a>, extract the files to a folder titled **Sales** used in this sample, and try it out yourself!</span></span>
 
-## <a name="sample-code-add-formatting-and-insert-comment"></a><span data-ttu-id="a47d6-108">Exemple de code : ajouter une mise en forme et insérer un commentaire</span><span class="sxs-lookup"><span data-stu-id="a47d6-108">Sample code: Add formatting and insert comment</span></span>
+## <a name="sample-code-add-formatting-and-insert-comment"></a><span data-ttu-id="464ec-108">Exemple de code : ajouter une mise en forme et insérer un commentaire</span><span class="sxs-lookup"><span data-stu-id="464ec-108">Sample code: Add formatting and insert comment</span></span>
 
-<span data-ttu-id="a47d6-109">Il s’agit du script qui s’exécute sur chaque workbook individuel.</span><span class="sxs-lookup"><span data-stu-id="a47d6-109">This is the script that runs on each individual workbook.</span></span>
+<span data-ttu-id="464ec-109">Il s’agit du script qui s’exécute sur chaque workbook individuel.</span><span class="sxs-lookup"><span data-stu-id="464ec-109">This is the script that runs on each individual workbook.</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -69,31 +69,31 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="power-automate-flow-run-the-script-on-every-workbook-in-the-folder"></a><span data-ttu-id="a47d6-110">Power Automate flux : exécuter le script sur chaque classeur du dossier</span><span class="sxs-lookup"><span data-stu-id="a47d6-110">Power Automate flow: Run the script on every workbook in the folder</span></span>
+## <a name="power-automate-flow-run-the-script-on-every-workbook-in-the-folder"></a><span data-ttu-id="464ec-110">Power Automate flux : exécuter le script sur chaque classeur du dossier</span><span class="sxs-lookup"><span data-stu-id="464ec-110">Power Automate flow: Run the script on every workbook in the folder</span></span>
 
-<span data-ttu-id="a47d6-111">Ce flux exécute le script sur chaque classeur dans le dossier « Ventes ».</span><span class="sxs-lookup"><span data-stu-id="a47d6-111">This flow runs the script on every workbook in the "Sales" folder.</span></span>
+<span data-ttu-id="464ec-111">Ce flux exécute le script sur chaque classeur dans le dossier « Ventes ».</span><span class="sxs-lookup"><span data-stu-id="464ec-111">This flow runs the script on every workbook in the "Sales" folder.</span></span>
 
-1. <span data-ttu-id="a47d6-112">Créez un **flux de cloud instantané.**</span><span class="sxs-lookup"><span data-stu-id="a47d6-112">Create a new **Instant cloud flow**.</span></span>
-1. <span data-ttu-id="a47d6-113">Sélectionnez **Déclencher manuellement un flux et** appuyez sur **Créer.**</span><span class="sxs-lookup"><span data-stu-id="a47d6-113">Select **Manually trigger a flow** and press **Create**.</span></span>
-1. <span data-ttu-id="a47d6-114">Ajoutez **une nouvelle étape qui** utilise le connecteur **OneDrive Entreprise** et les fichiers de liste **dans l’action de** dossier.</span><span class="sxs-lookup"><span data-stu-id="a47d6-114">Add a **New step** that uses the **OneDrive for Business** connector and the **List files in folder** action.</span></span>
+1. <span data-ttu-id="464ec-112">Créez un **flux de cloud instantané.**</span><span class="sxs-lookup"><span data-stu-id="464ec-112">Create a new **Instant cloud flow**.</span></span>
+1. <span data-ttu-id="464ec-113">Sélectionnez **Déclencher manuellement un flux et** appuyez sur **Créer.**</span><span class="sxs-lookup"><span data-stu-id="464ec-113">Select **Manually trigger a flow** and press **Create**.</span></span>
+1. <span data-ttu-id="464ec-114">Ajoutez **une nouvelle étape qui** utilise le connecteur **OneDrive Entreprise** et les fichiers de liste **dans l’action de** dossier.</span><span class="sxs-lookup"><span data-stu-id="464ec-114">Add a **New step** that uses the **OneDrive for Business** connector and the **List files in folder** action.</span></span>
 
-    :::image type="content" source="../../images/all-files-in-folder-sample-flow-1.png" alt-text="Connecteur de OneDrive Entreprise terminé dans Power Automate":::
-1. <span data-ttu-id="a47d6-116">Sélectionnez le dossier « Ventes » avec les classeurs extraits.</span><span class="sxs-lookup"><span data-stu-id="a47d6-116">Select the "Sales" folder with the extracted workbooks.</span></span>
-1. <span data-ttu-id="a47d6-117">Pour vous assurer que seuls les workbooks sont sélectionnés, choisissez **Nouvelle étape,** puis **sélectionnez Condition** et définissez les valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="a47d6-117">To ensure only workbooks are selected, choose **New step**, then select **Condition** and set the following values:</span></span>
-    1. <span data-ttu-id="a47d6-118">**Nom** (valeur OneDrive nom de fichier)</span><span class="sxs-lookup"><span data-stu-id="a47d6-118">**Name** (the OneDrive file name value)</span></span>
-    1. <span data-ttu-id="a47d6-119">« se termine par »</span><span class="sxs-lookup"><span data-stu-id="a47d6-119">"ends with"</span></span>
-    1. <span data-ttu-id="a47d6-120">« xlsx ».</span><span class="sxs-lookup"><span data-stu-id="a47d6-120">"xlsx".</span></span>
+    :::image type="content" source="../../images/all-files-in-folder-sample-flow-1.png" alt-text="Connecteur de OneDrive Entreprise terminé dans Power Automate.":::
+1. <span data-ttu-id="464ec-116">Sélectionnez le dossier « Ventes » avec les classeurs extraits.</span><span class="sxs-lookup"><span data-stu-id="464ec-116">Select the "Sales" folder with the extracted workbooks.</span></span>
+1. <span data-ttu-id="464ec-117">Pour vous assurer que seuls les workbooks sont sélectionnés, choisissez **Nouvelle étape,** puis **sélectionnez Condition** et définissez les valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="464ec-117">To ensure only workbooks are selected, choose **New step**, then select **Condition** and set the following values:</span></span>
+    1. <span data-ttu-id="464ec-118">**Nom** (valeur OneDrive nom de fichier)</span><span class="sxs-lookup"><span data-stu-id="464ec-118">**Name** (the OneDrive file name value)</span></span>
+    1. <span data-ttu-id="464ec-119">« se termine par »</span><span class="sxs-lookup"><span data-stu-id="464ec-119">"ends with"</span></span>
+    1. <span data-ttu-id="464ec-120">« xlsx ».</span><span class="sxs-lookup"><span data-stu-id="464ec-120">"xlsx".</span></span>
 
-    :::image type="content" source="../../images/all-files-in-folder-sample-flow-2.png" alt-text="Le bloc Power Automate condition qui applique les actions suivantes à chaque fichier":::
-1. <span data-ttu-id="a47d6-122">Sous la **branche Si oui,** ajoutez **le connecteur Excel Online (Entreprise)** avec l’action **de script Exécuter.**</span><span class="sxs-lookup"><span data-stu-id="a47d6-122">Under the **If yes** branch, add the **Excel Online (Business)** connector with the **Run script** action.</span></span> <span data-ttu-id="a47d6-123">Utilisez les valeurs suivantes pour l’action :</span><span class="sxs-lookup"><span data-stu-id="a47d6-123">Use the following values for the action:</span></span>
-    1. <span data-ttu-id="a47d6-124">**Emplacement** : OneDrive Entreprise</span><span class="sxs-lookup"><span data-stu-id="a47d6-124">**Location**: OneDrive for Business</span></span>
-    1. <span data-ttu-id="a47d6-125">**Bibliothèque de documents** : OneDrive</span><span class="sxs-lookup"><span data-stu-id="a47d6-125">**Document Library**: OneDrive</span></span>
-    1. <span data-ttu-id="a47d6-126">**Fichier**: **ID** (valeur OneDrive’ID de fichier)</span><span class="sxs-lookup"><span data-stu-id="a47d6-126">**File**: **Id** (the OneDrive file ID value)</span></span>
-    1. <span data-ttu-id="a47d6-127">**Script**: nom de votre script</span><span class="sxs-lookup"><span data-stu-id="a47d6-127">**Script**: Your script name</span></span>
+    :::image type="content" source="../../images/all-files-in-folder-sample-flow-2.png" alt-text="Le Power Automate condition qui applique les actions suivantes à chaque fichier.":::
+1. <span data-ttu-id="464ec-122">Sous la **branche Si oui,** ajoutez **le connecteur Excel Online (Entreprise)** avec l’action **de script Exécuter.**</span><span class="sxs-lookup"><span data-stu-id="464ec-122">Under the **If yes** branch, add the **Excel Online (Business)** connector with the **Run script** action.</span></span> <span data-ttu-id="464ec-123">Utilisez les valeurs suivantes pour l’action :</span><span class="sxs-lookup"><span data-stu-id="464ec-123">Use the following values for the action:</span></span>
+    1. <span data-ttu-id="464ec-124">**Emplacement** : OneDrive Entreprise</span><span class="sxs-lookup"><span data-stu-id="464ec-124">**Location**: OneDrive for Business</span></span>
+    1. <span data-ttu-id="464ec-125">**Bibliothèque de documents** : OneDrive</span><span class="sxs-lookup"><span data-stu-id="464ec-125">**Document Library**: OneDrive</span></span>
+    1. <span data-ttu-id="464ec-126">**File**: **ID** (valeur OneDrive’ID de fichier)</span><span class="sxs-lookup"><span data-stu-id="464ec-126">**File**: **Id** (the OneDrive file ID value)</span></span>
+    1. <span data-ttu-id="464ec-127">**Script**: nom de votre script</span><span class="sxs-lookup"><span data-stu-id="464ec-127">**Script**: Your script name</span></span>
 
-    :::image type="content" source="../../images/all-files-in-folder-sample-flow-3.png" alt-text="Le connecteur Excel Online (Entreprise) terminé dans Power Automate":::
-1. <span data-ttu-id="a47d6-129">Enregistrez le flux et testez-le.</span><span class="sxs-lookup"><span data-stu-id="a47d6-129">Save the flow and try it out.</span></span>
+    :::image type="content" source="../../images/all-files-in-folder-sample-flow-3.png" alt-text="Le connecteur Excel Online (Entreprise) dans Power Automate.":::
+1. <span data-ttu-id="464ec-129">Enregistrez le flux et testez-le.</span><span class="sxs-lookup"><span data-stu-id="464ec-129">Save the flow and try it out.</span></span>
 
-## <a name="training-video-run-a-script-on-all-excel-files-in-a-folder"></a><span data-ttu-id="a47d6-130">Vidéo de formation : exécuter un script sur tous Excel fichiers d’un dossier</span><span class="sxs-lookup"><span data-stu-id="a47d6-130">Training video: Run a script on all Excel files in a folder</span></span>
+## <a name="training-video-run-a-script-on-all-excel-files-in-a-folder"></a><span data-ttu-id="464ec-130">Vidéo de formation : exécuter un script sur tous Excel fichiers d’un dossier</span><span class="sxs-lookup"><span data-stu-id="464ec-130">Training video: Run a script on all Excel files in a folder</span></span>
 
-<span data-ttu-id="a47d6-131">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/xMg711o7k6w).</span><span class="sxs-lookup"><span data-stu-id="a47d6-131">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/xMg711o7k6w).</span></span>
+<span data-ttu-id="464ec-131">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/xMg711o7k6w).</span><span class="sxs-lookup"><span data-stu-id="464ec-131">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/xMg711o7k6w).</span></span>
