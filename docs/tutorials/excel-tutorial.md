@@ -3,12 +3,12 @@ title: Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 description: Didacticiel sur les notions de base des scripts Office, comprenant l’enregistrement de scripts avec l’enregistreur d’actions et l’écriture de données dans un classeur.
 ms.date: 05/23/2021
 localization_priority: Priority
-ms.openlocfilehash: 19cd7bf6c3120d674553d37a36f45d36f46ee852
-ms.sourcegitcommit: 0343e4a9843f7ab6ec99d6ddf955050271b061c7
+ms.openlocfilehash: f9290a3d7dc723b72bfb4913171052472f2361c5
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52655904"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074668"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 
@@ -71,7 +71,7 @@ Le script précédent a coloré la ligne « Oranges » en orange. Nous allons aj
 
 4. Testez le script en appuyant sur **Exécuter**. Voici ce à quoi votre feuille de calcul doit maintenant ressembler :
 
-    :::image type="content" source="../images/tutorial-2.png" alt-text="Feuille de calcul affichant la ligne des données de ventes de fruits avec la ligne « Oranges » mise en évidence par la couleur orange et la ligne « Citrons » par la couleur jaune.":::
+    :::image type="content" source="../images/tutorial-2.png" alt-text="Feuille de calcul affichant la ligne des données de ventes de fruits avec la ligne « Oranges » mise en évidence par la couleur orange et la ligne « Citrons » par la  couleur jaune.":::
 
 ## <a name="create-a-table"></a>Créer un tableau
 
@@ -104,7 +104,7 @@ Nous allons convertir les données de ventes de fruits en tableau. Nous allons u
 
     Les tableaux comportent un objet `TableSort`, accessible via la méthode `Table.getSort`. Vous pouvez appliquer des critères de tri à cet objet. La méthode `apply` prend un tableau d’objets `SortField`. Dans notre cas, ne disposant que d’un seul critère de tri, nous utiliserons un seul `SortField`. `key: 0` définit la colonne ayant les valeurs de définition de tri sur « 0 » (la première colonne du tableau, **A** dans notre cas). `ascending: true` trie les données dans un ordre croissant (et non dans un ordre décroissant).
 
-3. Exécutez le script. Un tableau come ceci devrait s’afficher :
+3. Exécutez le script. Vous devriez voir un tableau comme celui-ci :
 
     :::image type="content" source="../images/tutorial-3.png" alt-text="Feuille de calcul affichant la table de ventes des fruits triées.":::
 
