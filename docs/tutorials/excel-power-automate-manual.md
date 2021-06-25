@@ -3,12 +3,12 @@ title: Appeler des scripts à partir d’un flux manuel Power Automate
 description: Un tutoriel sur l’utilisation des scripts Office dans Power Automate via un déclencheur manuel.
 ms.date: 05/17/2021
 localization_priority: Priority
-ms.openlocfilehash: f4feb14f70c43497f40dae3a521353dfee63c082
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 6da852fd93599753592ea61eef443ef674ead8ef
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545828"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074500"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow"></a>Appeler des scripts à partir d’un flux manuel Power Automate
 
@@ -67,15 +67,15 @@ Power Automate ne peut pas utiliser de [références relatives](../testing/power
 
 2. Dans le menu qui s’affiche sur le côté gauche de l’écran, appuyez sur **Créer**. Cela affiche une liste des moyens de créer de nouveaux flux de travail.
 
-    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton de « Création » de Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Bouton « Créer » de Power Automate":::
 
 3. Dans la section **Démarrer à partir de zéro**, sélectionnez **Flux instantané**. Cela crée un flux de travail activé manuellement.
 
-    :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Option de flux instantané de Power Automate pour la création d’un nouveau flux de travail":::
+    :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Option Flux instantané de Power Automate pour créer un nouveau flux de travail":::
 
 4. Dans la boîte de dialogue qui apparaît, entrez un nom pour votre flux dans la zone de texte **Nom du flux**, sélectionnez **Déclencher manuellement un flux** dans la liste des options sous **Choisir le déclencheur du flux**, puis appuyez sur **Créer**.
 
-    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Option de « Déclenchement manuel de flux » de Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Option « Déclencher un flux manuellement » de Power Automate":::
 
     Notez qu’un flux déclenché manuellement n’est que l’un des nombreux types de flux. Dans le tutoriel suivant, vous allez créer un flux qui s’exécute automatiquement lorsque vous recevez un e-mail.
 
@@ -83,11 +83,11 @@ Power Automate ne peut pas utiliser de [références relatives](../testing/power
 
 6. Sélectionnez l’onglet **Standard**, puis sélectionnez **Excel Online (Business)**.
 
-    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Option Excel Online (Business) dans Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Option Excel en ligne (Business) dans Power Automate. ":::
 
 7. Sous **Actions**, sélectionnez **Exécuter le script**.
 
-    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Option d’action Exécuter un script dans Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Option Excel en ligne (Business) dans Power Automate. ":::
 
 8. Vous allez ensuite sélectionner le classeur et le script à utiliser dans l’étape de flux. À titre de didacticiel, vous allez utiliser le classeur précédemment créé dans OneDrive, mais vous pouvez utiliser n’importe quel classeur dans un site OneDrive ou SharePoint. Spécifiez les paramètres suivants pour le connecteur **Exécuter le script** :
 
@@ -122,7 +122,7 @@ Votre flux est maintenant prêt à être exécuté via Power Automate. Vous pouv
 
 7. Actualisez la page pour voir les résultats de Power Automate. Si l’opération est réussie, accédez au classeur pour voir les cellules mises à jour. Si l’opération a échoué, vérifiez les paramètres du flux et exécutez-le une deuxième fois.
 
-    :::image type="content" source="../images/power-automate-tutorial-9.png" alt-text="Production Power Automate indiquant une exécution de flux réussie":::
+    :::image type="content" source="../images/power-automate-tutorial-9.png" alt-text="Sortie de Power Automate montrant une exécution réussie du flux":::
 
 ## <a name="next-steps"></a>Étapes suivantes
 
