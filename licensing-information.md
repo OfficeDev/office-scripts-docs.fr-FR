@@ -1,7 +1,7 @@
 NOTICES AND INFORMATION Do Not Translate or Localize
 
 Ce logiciel intègre du matériel provenant de tiers.
-Microsoft met certains codes open source à disposition sur , ou vous pouvez envoyer une commande de chèque ou d’argent pour US $5,00, y compris le nom du produit, le nom du composant open source, la plateforme et le numéro de version, pour https://3rdpartysource.microsoft.com :
+Microsoft met certains codes open source à disposition à l’adresse , ou vous pouvez envoyer une commande de chèque ou d’argent pour 5,00 dollars américains, y compris le nom du produit, le nom du composant open source, la plateforme et le numéro de version, pour https://3rdpartysource.microsoft.com :
 
 Source Code Compliance Team Microsoft Corporation One Microsoft Way Redmond, WA 98052 USA
 
@@ -210,7 +210,7 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
 
     « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
 
-    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plusieurs des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
+    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
 
     « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
 
@@ -220,19 +220,19 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
 
     « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
 
-    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, la dérivée Works n’inclut pas les travaux qui restent séparables à partir des interfaces des travaux et des dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
 
     La « contribution » signifie toute œuvre de création, y compris la version d’origine du travail et toute modification ou ajout à cette fonction ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du droit d’auteur. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le licenseur ou pour son compte dans le but de discuter et d’améliorer le travail , mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du copyright comme « Pas une contribution ».
 
     « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
 
- 2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés de, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
+ 2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
 
  3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, gratuite, irrévocable (sauf dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par un tel contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contributions avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet sur une entité (y compris une réclamation croisée ou une demande reconventionnelle dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou d’un brevet de contributeur, alors toutes les licences de brevet accordées à vous en vertu de la présent licence pour ce travail doivent s’interrompre à la date à laquelle un tel litige est déposé.
 
  4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
 
-    (a) Vous devez fournir une copie de cette licence à tous les autres destinataires de la licence Work ou Derivative Works ; et
+    (a) Vous devez donner à d’autres destinataires de la licence Work ou Derivative Works une copie de cette licence ; et
 
     (b) Tous les fichiers modifiés doivent porter des notifications importantes indiquant que vous avez modifié les fichiers ; et
 
@@ -283,7 +283,7 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
 
     « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
 
-    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plusieurs des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
+    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
 
     « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
 
@@ -293,13 +293,13 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
 
     « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
 
-    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, la dérivée Works n’inclut pas les travaux qui restent séparables à partir des interfaces des travaux et des dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
 
     La « contribution » signifie toute œuvre de création, y compris la version d’origine du travail et toute modification ou ajout à cette fonction ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du droit d’auteur. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le licenseur ou pour son compte dans le but de discuter et d’améliorer le travail , mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du copyright comme « Pas une contribution ».
 
     « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
 
- 2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés de, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
+ 2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
 
  3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, gratuite, irrévocable (sauf dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par un tel contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contributions avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet sur une entité (y compris une réclamation croisée ou une demande reconventionnelle dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou d’un brevet de contributeur, alors toutes les licences de brevet accordées à vous en vertu de la présent licence pour ce travail doivent s’interrompre à la date à laquelle un tel litige est déposé.
 
@@ -425,7 +425,7 @@ typescript 4.0.3 - Apache-2.0 https://www.typescriptlang.org/
 
 (c) par l’octroi de droits d’auteur W3C. I Copyright (c) 2018 WHATWG (c) Microsoft Corporation.
 (c) Korporatsiia Maikrosoft Copyright (c) Microsoft Corporation.
-Copyright (c) 1991-2017 Unicode, Inc. (c) Microsoft Corporation. Alle Rechte (c) Microsoft Corporation. Bao Dr Suo Copyright (c) 2018 The Khronos Group Inc. (c) Microsoft Corporation. Zuo Quan Suo Copyright (c) YEAR W3C(r) (MIT, CASIM, Domaineo, Beihang). ClauseS D’EXCLUSION DE RESPONSABILITÉ CE TRAVAIL EST FOURNI COMME
+Copyright (c) 1991-2017 Unicode, Inc. (c) Microsoft Corporation. Alle Rechte (c) Microsoft Corporation. Bao Licence Suo Copyright (c) 2018 The Khronos Group Inc. (c) Microsoft Corporation. Zuo Quan Suo Copyright (c) YEAR W3C(r) (MIT, CASIM, Domaineo, Beihang). ClauseS D’EXCLUSION DE RESPONSABILITÉ CE TRAVAIL EST FOURNI COMME
 
 Licence Apache
 
@@ -469,7 +469,7 @@ Les fichiers modifiés doivent porter des notifications importantes indiquant qu
 
 Vous devez conserver, sous la forme source de n’importe quelle dérivée works que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
 
-Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de la dérivée Works, au moins dans l’un des endroits suivants : dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence. Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
+Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exclusion des notifications qui ne concernent aucune partie de la dérivée works, au moins l’un des endroits suivants : dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence. Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
 
 5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans le Travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires. En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
 
@@ -653,7 +653,7 @@ CETTE GARANTIE EST FOURNIE PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES CONTRI
 
 ---------------------------------------------------------
 
-domutils 1.5.1 - BSD-2-Clause https://github.com/FB55/domutils
+domutils 1.7.0 - BSD-2-Clause https://github.com/FB55/domutils#readme
 
 Copyright (c) Felix Bohm
 
@@ -672,7 +672,7 @@ CETTE GARANTIE EST FOURNIE PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES CONTRI
 
 ---------------------------------------------------------
 
-domutils 1.7.0 - BSD-2-Clause https://github.com/FB55/domutils#readme
+domutils 1.5.1 - BSD-2-Clause https://github.com/FB55/domutils
 
 Copyright (c) Felix Bohm
 
@@ -771,7 +771,7 @@ CETTE GARANTIE EST FOURNIE PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES CONTRI
 
 eslint-scope 4.0.3 - BSD-2-Clause http://github.com/eslint/eslint-scope
 
-Copyright (c) 2015 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013 Alex Semel <hi@alexanderseville.com> Copyright (c) 2014 Thiago de Arruda <tpadilha84@gmail.com> Copyright (c) 2012-2014 Yusuke Copyright JS Foundation et d’autres <utatane.tea@gmail.com> contributeurs, https://js.foundation Copyright (c) 2012-2013 YusukePé (twitter) et d’autres contributeurs.
+Copyright (c) 2015 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013 Alex Semel <hi@alexanderseville.com> Copyright (c) 2014 Thiago de Arruda <tpadilha84@gmail.com> Copyright (c) 2012-2014 Yusuke Copyright JS Foundation et d’autres <utatane.tea@gmail.com> contributeurs, https://js.foundation Copyright (c) 2012-2013 YusukePé (twitter).
 
 Copyright JS Foundation et d’autres contributeurs, https://js.foundation Copyright (C) 2012-2013 Yusuke Contrôle (twitter : @Constellation) et d’autres contributeurs.
 
@@ -825,7 +825,7 @@ CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORAT
 
 estraverse 4.3.0 - BSD-2-Clause https://github.com/estools/estraverse
 
-Copyright (c) 2014 Yusuke Copyright <utatane.tea@gmail.com> (c) 2012 A copyright Hidayat <ariya.hidayat@gmail.com> (c) 2012-2013 Yusuke Copyright <utatane.tea@gmail.com> (c) 2012-2016 Yusuke You (http://github.com/Constellation)
+Copyright (c) 2014 Yusuke <utatane.tea@gmail.com> Copyright (c) 2012 A copyright Hidayat <ariya.hidayat@gmail.com> (c) 2012-2013 Yusuke Copyright <utatane.tea@gmail.com> (c) 2012-2016 Yusuke You (http://github.com/Constellation)
 
 La redistribution et l’utilisation dans les formulaires sources et binaires, avec ou sans modification, sont autorisées à condition que les conditions suivantes soient remplies :
 
@@ -1082,7 +1082,7 @@ La redistribution et l’utilisation dans les formulaires sources et binaires, a
 * Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
 * Les noms des collaborateurs ne peuvent pas être utilisés pour approuver ou promouvoir des produits dérivés de ce logiciel sans autorisation écrite préalable spécifique.
 
-CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, JURIDIQUES OU CONSÉQUENTS (Y COMPRIS, MAIS SANS S’Y LIMITER, L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SELON TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT D’UNE QUELCONQUE FAÇON D’UTILISER CET OFTWARE, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
+CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, JURIDIQUES OU CONSÉQUENTS (Y COMPRIS, MAIS SANS S’Y LIMITER, L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT D’UNE QUELCONQUE FAÇON D’UTILISER CET OFTWARE, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
 
 
 ---------------------------------------------------------
@@ -1112,9 +1112,9 @@ CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORAT
 
 filesize 3.6.1 - BSD-3-Clause https://filesizejs.com/
 
-Copyright (c) 2018 Copyright (c) 2018, Copyright Copyright 2018, Copyright Duligan <jason.mulligan@avoidwork.com>
+Copyright (c) 2018 Copyright (c) 2018, Copyright Duligan <jason.mulligan@avoidwork.com>
 
-Copyright (c) 2018, Droits réservés à Copyright (c).
+Copyright (c) 2018, Droits réservés à Jean-Jean-Ligan All.
 
 La redistribution et l’utilisation dans les formulaires sources et binaires, avec ou sans modification, sont autorisées à condition que les conditions suivantes soient remplies :
 
@@ -1122,7 +1122,7 @@ La redistribution et l’utilisation dans les formulaires sources et binaires, a
 
 * Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
 
-* Ni le nom de filesize, ni le nom de ses collaborateurs ne peuvent être utilisés pour approuver ou promouvoir des produits dérivés de ce logiciel sans autorisation écrite préalable spécifique.
+* Ni le nom de filesize ni le nom de ses collaborateurs ne peuvent être utilisés pour approuver ou promouvoir des produits dérivés de ce logiciel sans autorisation écrite préalable spécifique.
 
 CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
 
@@ -1197,6 +1197,28 @@ CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORAT
 
 ---------------------------------------------------------
 
+source-map 0.6.1 - BSD-3-Clause https://github.com/mozilla/source-map
+
+Copyright 2011 The Closure Compiler Copyright 2011 Mozilla Foundation and contributors Copyright 2014 Mozilla Foundation and contributors Copyright 2009-2011 Mozilla Foundation and contributors Copyright (c) 2009-2011, Mozilla Foundation and contributors
+
+
+Copyright (c) 2009-2011, Mozilla Foundation et contributeurs Tous droits réservés.
+
+La redistribution et l’utilisation dans les formulaires sources et binaires, avec ou sans modification, sont autorisées à condition que les conditions suivantes soient remplies :
+
+* Les redistributions du code source doivent conserver la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante.
+
+* Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
+
+* Ni les noms de Mozilla Foundation ni les noms des collaborateurs de projet ne peuvent être utilisés pour approuver ou promouvoir des produits dérivés de ce logiciel sans autorisation écrite préalable spécifique.
+
+CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
 source-map 0.5.7 - BSD-3-Clause https://github.com/mozilla/source-map
 
 Copyright 2011 The Closure Compiler Copyright 2011 Mozilla Foundation and contributors Copyright 2014 Mozilla Foundation and contributors Copyright 2009-2011 Mozilla Foundation and contributors Copyright (c) 2009-2011, Mozilla Foundation and contributors
@@ -1220,28 +1242,6 @@ CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORAT
 ---------------------------------------------------------
 
 source-map 0.7.3 - BSD-3-Clause https://github.com/mozilla/source-map
-
-Copyright 2011 The Closure Compiler Copyright 2011 Mozilla Foundation and contributors Copyright 2014 Mozilla Foundation and contributors Copyright 2009-2011 Mozilla Foundation and contributors Copyright (c) 2009-2011, Mozilla Foundation and contributors
-
-
-Copyright (c) 2009-2011, Mozilla Foundation et contributeurs Tous droits réservés.
-
-La redistribution et l’utilisation dans les formulaires sources et binaires, avec ou sans modification, sont autorisées à condition que les conditions suivantes soient remplies :
-
-* Les redistributions du code source doivent conserver la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante.
-
-* Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
-
-* Ni les noms de Mozilla Foundation ni les noms des collaborateurs de projet ne peuvent être utilisés pour approuver ou promouvoir des produits dérivés de ce logiciel sans autorisation écrite préalable spécifique.
-
-CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-source-map 0.6.1 - BSD-3-Clause https://github.com/mozilla/source-map
 
 Copyright 2011 The Closure Compiler Copyright 2011 Mozilla Foundation and contributors Copyright 2014 Mozilla Foundation and contributors Copyright 2009-2011 Mozilla Foundation and contributors Copyright (c) 2009-2011, Mozilla Foundation and contributors
 
@@ -1530,7 +1530,7 @@ Certains propriétaires souhaitent donner définitivement ces droits à un trava
 
 2. Renonciation. Dans la mesure du possible, mais pas dans le respect de la loi applicable, Il s’agit de manière overtly, complète, permanente, irrévocable et inconditionnelle d’abandons, d’abandons et d’abandons de tous les droits d’auteur et droits connexes, ainsi que des revendications et causes d’action associées, qu’elles soient maintenant connues ou inconnues (y compris les revendications existantes et futures et les causes d’action), dans le Travail (i) dans tous les territoires du monde , (ii) pour la durée maximale fournie par la loi ou la convention applicable (y compris les extensions de temps futures), (iii) dans tout support actuel ou futur et pour un nombre quelconque de copies, et (iv) à quelque fin que ce soit, y compris sans limitation à des fins commerciales, publicitaires ou promotionnelles (la « renonciation »). Il rend la renonciation au bénéfice de chaque membre du grand public et des successeurs et successeurs de Celui-ci, tout en présiliant que cette renonciation ne soit pas soumise à la révocation, à la révocation, à l’annulation, à l’arrêt ou à toute autre action légale ou d’abandon pour interrompre l’exercice silencieux du travail par le public comme l’indique la déclaration d’objet express de Cette personne.
 
-3. Auto-service de licence publique. Si une partie de la renonciation pour une raison quelconque est jugée juridiquement non valide ou inefficace en vertu de la loi applicable, la renonciation doit être conservée dans la mesure maximale autorisée en tenant compte de la déclaration d’objet express de Cette personne. En outre, dans la mesure où la renonciation est de ce fait jugée, Elle accorde à chaque personne concernée une licence gratuite, non transférable, non transférable, non sous-licence, non exclusive, irrévocable et inconditionnelle pour exercer ses droits d’auteur et ses droits connexes dans le travail (i) dans tous les territoires du monde entier, (ii) pour la durée maximale prévue par la loi ou la convention applicable (y compris les prochaines extensions de temps) , (iii) dans n’importe quel support actuel ou futur et pour un nombre quelconque de copies, et (iv) à quelque fin que ce soit, y compris sans limitation à des fins commerciales, publicitaires ou promotionnelles (la « licence »). La licence est considérée comme effective à compter de la date à laquelle cc0 a été appliquée par Soné au travail. Si une partie de la licence pour une raison quelconque est jugée juridiquement non valide ou inefficace en vertu de la loi applicable, une invalidité partielle ou un manque d’efficacité ne peut pas invalider le reste de la licence, et dans ce cas, Elle s’assure en l’occurrence qu’elle n’exercera (i) aucun de ses droits d’auteur et droits connexes restants dans le travail ou (ii) déclare toute revendication et causes d’action associées en ce qui concerne le travail , dans les deux cas, contrairement à l’instruction express de l’objet de Cette fonction.
+3. Auto-service de licence publique. Si une partie de la renonciation pour une raison quelconque est jugée juridiquement non valide ou inefficace en vertu de la loi applicable, la renonciation doit être conservée dans la mesure maximale autorisée en tenant compte de la déclaration d’objet express de Cette personne. En outre, dans la mesure où la renonciation est de ce fait jugée, Elle accorde à chaque personne concernée une licence gratuite, non transférable, non transférable, non sous-licence, non exclusive, irrévocable et inconditionnelle pour exercer ses droits d’auteur et ses droits connexes dans le travail (i) dans tous les territoires du monde entier, (ii) pour la durée maximale prévue par la loi ou la convention applicable (y compris les prochaines extensions de temps) , (iii) dans n’importe quel support actuel ou futur et pour n’importe quel nombre de copies, et (iv) à quelque fin que ce soit, y compris sans limitation à des fins commerciales, publicitaires ou promotionnelles (la « licence »). La licence est considérée comme effective à compter de la date à laquelle cc0 a été appliquée par Soné au travail. Si une partie de la licence pour une raison quelconque est jugée juridiquement non valide ou inefficace en vertu de la loi applicable, une invalidité partielle ou un manque d’efficacité ne peut pas invalider le reste de la licence, et dans ce cas, Elle s’assure en l’occurrence qu’elle n’exercera (i) aucun de ses droits d’auteur et droits connexes restants dans le travail ou (ii) déclare toute revendication et causes d’action associées en ce qui concerne le travail , dans les deux cas, contrairement à l’instruction express de l’objectif de L'
 
 4. Limitations et clauses d’exclusion de responsabilité.
 
@@ -1538,7 +1538,7 @@ Certains propriétaires souhaitent donner définitivement ces droits à un trava
 
   b. Cette fonction offre le travail en l’état et n’effectue aucune représentation ou garantie de quelque type que ce soit concernant le travail, express, implicite, statutaire ou autre, y compris sans limitation de garanties de titre, de qualité de marché, d’aptitude à une finalité particulière, de non-contrefaçon ou d’absence de défauts latents ou autres, de précision ou de présence ou d’absence d’erreurs, qu’elles soient ou non découvrables. , le tout dans la mesure du possible en vertu de la loi applicable.
 
-  c. Il se dé décharge de la responsabilité de l’effacement des droits d’autres personnes qui peuvent s’appliquer au travail ou à toute utilisation de celle-ci, y compris sans limitation les droits d’auteur et les droits connexes d’une personne dans le travail. En outre, Il se dé décharge de la responsabilité d’obtenir les consentements, autorisations ou autres droits nécessaires à toute utilisation du travail.
+  c. Il se dé décharge de la responsabilité de l’effacement des droits d’autres personnes qui peuvent s’appliquer au travail ou à toute utilisation, y compris sans limitation les droits d’auteur et les droits connexes d’une personne dans le travail. En outre, Il se dé décharge de la responsabilité d’obtenir les consentements, autorisations ou autres droits nécessaires à toute utilisation du travail.
 
   d. Celui-ci comprend et reconnaît que Creative Commons n’est pas partie à ce document et n’a aucune obligation en ce qui concerne ce CC0 ou l’utilisation du travail.
 
@@ -1560,7 +1560,7 @@ Les lois de la plupart des juridictions dans le monde entier confèrent automati
 
 Certains propriétaires souhaitent donner définitivement ces droits à un travail dans le but de contribuer à une commune de œuvres créatives, culturelles et scientifiques (« Commons ») que le public peut fiablement et sans craindre de réclamations ultérieures d’infraction s’appuient sur, modifient, incorporent dans d’autres travaux, réutilisent et redistribuent aussi librement que possible sous n’importe quelle forme et à n’importe quelle fin , y compris sans limitation à des fins commerciales. Ces propriétaires peuvent contribuer à la Commune pour promouvoir l’idéal d’une culture gratuite et la production supplémentaire de œuvres créatives, culturelles et scientifiques, ou pour gagner une réputation ou une meilleure distribution de leur travail, en partie grâce à l’utilisation et aux efforts d’autres personnes.
 
-À ces fins et/ou à d’autres fins et motivations, et sans attente de considération ou de compensation supplémentaire, la personne associant CC0 à un travail (le « Escompté »), dans la mesure où elle est propriétaire des droits d’auteur et des droits connexes dans le travail, choisit volontairement d’appliquer cc0 au travail et de distribuer publiquement le travail dans ses conditions, avec connaissance de ses droits d’auteur et droits connexes dans le travail et de la signification et de l’effet juridique prévu de CC0 sur ces droits.
+À ces fins et/ou à d’autres fins et motivations, et sans attente de considération ou de compensation supplémentaire, la personne associant CC0 à un travail (le « Domaine ») dans la mesure où elle est propriétaire des droits d’auteur et des droits connexes dans le travail, choisit volontairement d’appliquer cc0 au travail et de distribuer publiquement le travail dans ses conditions, avec connaissance de ses droits d’auteur et droits connexes dans le travail et de la signification et l’effet juridique prévu de CC0 sur ces droits.
 
 1. Droits d’auteur et droits connexes. Un travail disponible sous CC0 peut être protégé par des droits d’auteur et des droits connexes ou voisins ( « Droits d’auteur et droits connexes »). Les droits d’auteur et les droits connexes incluent, sans s’y limiter, les informations suivantes :
 
@@ -1578,9 +1578,9 @@ Certains propriétaires souhaitent donner définitivement ces droits à un trava
 
   vii. d’autres droits similaires, équivalents ou correspondants dans le monde entier en fonction de la loi ou de la convention applicable, et de toute implémentation nationale.
 
-2. Renonciation. Dans la mesure le plus largement autorisée par la loi applicable, mais pas dans le respect de la loi applicable, Elle parvient à annuler, totalement, définitivement, irrévocablement et sans condition, l’abandon et l’ensemble des droits d’auteur et des droits connexes, ainsi que les revendications et causes d’action associées, qu’elles soient maintenant connues ou inconnues (y compris les revendications et causes d’action existantes et futures), dans le Travail (i) dans tous les territoires du monde , (ii) pour la durée maximale fournie par la loi ou la convention applicable (y compris les extensions de temps futures), (iii) dans tout support actuel ou futur et pour un nombre quelconque de copies, et (iv) à quelque fin que ce soit, y compris sans limitation à des fins commerciales, publicitaires ou promotionnelles (la « renonciation »). Il rend la renonciation au bénéfice de chaque membre du grand public et des successeurs et successeurs de Celui-ci, tout en présiliant que cette renonciation ne soit pas soumise à la révocation, à la révocation, à l’annulation, à l’arrêt ou à toute autre action légale ou d’abandon pour interrompre l’exercice silencieux du travail par le public comme l’indique la déclaration d’objet express de Cette personne.
+2. Renonciation. Dans la mesure du possible, mais pas dans le respect de la loi applicable, Il s’agit de manière overtly, complète, permanente, irrévocable et inconditionnelle d’abandons, d’abandons et d’abandons de tous les droits d’auteur et droits connexes, ainsi que des revendications et causes d’action associées, qu’elles soient maintenant connues ou inconnues (y compris les revendications existantes et futures et les causes d’action), dans le Travail (i) dans tous les territoires du monde , (ii) pour la durée maximale fournie par la loi ou la convention applicable (y compris les extensions de temps futures), (iii) dans tout support actuel ou futur et pour un nombre quelconque de copies, et (iv) à quelque fin que ce soit, y compris sans limitation à des fins commerciales, publicitaires ou promotionnelles (la « renonciation »). Il rend la renonciation au bénéfice de chaque membre du grand public et des successeurs et successeurs de Celui-ci, tout en présiliant que cette renonciation ne soit pas soumise à la révocation, à la révocation, à l’annulation, à l’arrêt ou à toute autre action légale ou d’abandon pour interrompre l’exercice silencieux du travail par le public comme l’indique la déclaration d’objet express de Cette personne.
 
-3. Auto-service de licence publique. Si une partie de la renonciation pour une raison quelconque est jugée juridiquement non valide ou inefficace en vertu de la loi applicable, la renonciation doit être conservée dans la mesure maximale autorisée en tenant compte de la déclaration d’objet express de Cette personne. En outre, dans la mesure où la renonciation est de ce fait jugée, Elle accorde à chaque personne concernée une licence gratuite, non transférable, non transférable, non sous-licence, non exclusive, irrévocable et inconditionnelle pour exercer ses droits d’auteur et ses droits connexes dans le travail (i) dans tous les territoires du monde entier, (ii) pour la durée maximale prévue par la loi ou la convention applicable (y compris les prochaines extensions de temps) , (iii) dans n’importe quel support actuel ou futur et pour un nombre quelconque de copies, et (iv) à quelque fin que ce soit, y compris sans limitation à des fins commerciales, publicitaires ou promotionnelles (la « licence »). La licence est considérée comme effective à compter de la date à laquelle cc0 a été appliquée par Soné au travail. Si une partie de la licence pour une raison quelconque est jugée juridiquement non valide ou inefficace en vertu de la loi applicable, une invalidité partielle ou un manque d’efficacité ne peut pas invalider le reste de la licence, et dans ce cas, Elle s’assure en l’occurrence qu’elle n’exercera (i) aucun de ses droits d’auteur et droits connexes restants dans le travail ou (ii) déclare toute revendication et causes d’action associées en ce qui concerne le travail , dans les deux cas, contrairement à l’instruction express de l’objet de Cette fonction.
+3. Auto-service de licence publique. Si une partie de la renonciation pour une raison quelconque est jugée juridiquement non valide ou inefficace en vertu de la loi applicable, la renonciation doit être conservée dans la mesure maximale autorisée en tenant compte de la déclaration d’objet express de Cette personne. En outre, dans la mesure où la renonciation est de ce fait jugée, Elle accorde à chaque personne concernée une licence gratuite, non transférable, non transférable, non sous-licence, non exclusive, irrévocable et inconditionnelle pour exercer ses droits d’auteur et ses droits connexes dans le travail (i) dans tous les territoires du monde entier, (ii) pour la durée maximale prévue par la loi ou la convention applicable (y compris les prochaines extensions de temps) , (iii) dans n’importe quel support actuel ou futur et pour n’importe quel nombre de copies, et (iv) à quelque fin que ce soit, y compris sans limitation à des fins commerciales, publicitaires ou promotionnelles (la « licence »). La licence est considérée comme effective à compter de la date à laquelle cc0 a été appliquée par Soné au travail. Si une partie de la licence pour une raison quelconque est jugée juridiquement non valide ou inefficace en vertu de la loi applicable, une invalidité partielle ou un manque d’efficacité ne peut pas invalider le reste de la licence, et dans ce cas, Elle s’assure en l’occurrence qu’elle n’exercera (i) aucun de ses droits d’auteur et droits connexes restants dans le travail ou (ii) déclare toute revendication et causes d’action associées en ce qui concerne le travail , dans les deux cas, contrairement à l’instruction express de l’objectif de L'
 
 4. Limitations et clauses d’exclusion de responsabilité.
 
@@ -1588,7 +1588,7 @@ Certains propriétaires souhaitent donner définitivement ces droits à un trava
 
   b. Cette fonction offre le travail en l’état et n’effectue aucune représentation ou garantie de quelque type que ce soit concernant le travail, express, implicite, statutaire ou autre, y compris sans limitation de garanties de titre, de qualité de marché, d’aptitude à une finalité particulière, de non-contrefaçon ou d’absence de défauts latents ou autres, de précision ou de présence ou d’absence d’erreurs, qu’elles soient ou non découvrables. , le tout dans la mesure du possible en vertu de la loi applicable.
 
-  c. Il se dé décharge de la responsabilité de l’effacement des droits d’autres personnes qui peuvent s’appliquer au travail ou à toute utilisation de celle-ci, y compris sans limitation les droits d’auteur et les droits connexes d’une personne dans le travail. En outre, Il se dé décharge de la responsabilité d’obtenir les consentements, autorisations ou autres droits nécessaires à toute utilisation du travail.
+  c. Il se dé décharge de la responsabilité de l’effacement des droits d’autres personnes qui peuvent s’appliquer au travail ou à toute utilisation, y compris sans limitation les droits d’auteur et les droits connexes d’une personne dans le travail. En outre, Il se dé décharge de la responsabilité d’obtenir les consentements, autorisations ou autres droits nécessaires à toute utilisation du travail.
 
   d. Celui-ci comprend et reconnaît que Creative Commons n’est pas partie à ce document et n’a aucune obligation en ce qui concerne ce CC0 ou l’utilisation du travail.
 
@@ -2326,7 +2326,7 @@ Attribution 4.0 International
 
 =======================================================================
 
-Creative Commons Corporation (« Creative Commons ») n’est pas un cabinet d’avocats et ne fournit pas de services juridiques ni de conseils juridiques. La distribution de licences publiques Creative Commons ne crée pas de relation client-avocat ou autre. Creative Commons met ses licences et les informations connexes à disposition « en l’l’espace ». Creative Commons ne donne aucune garantie concernant ses licences, tout document sous licence dans ses conditions générales ou toute information connexe. Creative Commons se dé décharge de toutes les responsabilités pour les dommages résultant de leur utilisation dans la mesure du possible.
+Creative Commons Corporation (« Creative Commons ») n’est pas un cabinet d’avocats et ne fournit pas de services juridiques ni de conseils juridiques. La distribution de licences publiques Creative Commons ne crée pas de relation client-avocat ou autre. Creative Commons met ses licences et les informations connexes à disposition « en l’l’espace ». Creative Commons n’offre aucune garantie concernant ses licences, tout document sous licence dans ses conditions générales ou toute information connexe. Creative Commons se dé décharge de toutes les responsabilités pour les dommages résultant de leur utilisation dans la mesure du possible.
 
 Utilisation de licences publiques Creative Commons
 
@@ -2382,7 +2382,7 @@ Section 1 : Définitions.
 
   e. Les exceptions et limitations signifient un usage équitable, une gestion équitable et/ou toute autre exception ou limitation aux droits d’auteur et aux droits similaires qui s’appliquent à votre utilisation du matériel sous licence.
 
-  f. Les documents sous licence désignent le travail, la base de données ou tout autre matériel, à laquelle le licenseur a appliqué cette licence publique.
+  f. Les documents sous licence désignent le travail, la base de données ou tout autre document à laquelle le licenseur a appliqué cette licence publique.
 
   g. Les droits sous licence signifient les droits qui vous sont accordés sous réserve des termes et conditions de cette licence publique, qui sont limités à tous les droits d’auteur et droits similaires qui s’appliquent à votre utilisation du matériel sous licence et que le concédant a l’autorisation de concéder une licence.
 
@@ -2538,7 +2538,7 @@ Pour éviter de doute, cette section 4 complète et ne remplace pas vos obligati
 
 Section 5 : clause d’exclusion de garanties et limitation de responsabilité.
 
-  a. SAUF S’IL EST AUTREMENT EFFECTUÉ SÉPARÉMENT PAR LE LICENSOR, DANS LA MESURE DU POSSIBLE, LE LICENSOR PROPOSE LES DOCUMENTS SOUS LICENCE TELS QU’ILS SONT ET TELS QU’ILS SONT DISPONIBLES, ET N’EFFECTUE AUCUNE REPRÉSENTATION OU GARANTIE DE QUELQUE TYPE QUE CE SOIT CONCERNANT LE MATÉRIEL SOUS LICENCE, QU’IL SOIT EXPRESS, IMPLICITE, STATUTAIRE OU AUTRE. CELA INCLUT, SANS LIMITATION, LES GARANTIES DE TITRE, DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER, DE NON-CONTREFAÇON, D’ABSENCE DE DÉFAUTS LATENTS OU AUTRES, DE PRÉCISION OU DE PRÉSENCE OU D’ABSENCE D’ERREURS, QU’ELLES SOIENT CONNUES OU NON OU DÉCOUVRABLES. LORSQUE LES CLAUSES D’EXCLUSION DE GARANTIE NE SONT PAS AUTORISÉES EN TOTALITÉ OU EN PARTIE, CETTE CLAUSE D’EXCLUSION DE RESPONSABILITÉ PEUT NE PAS VOUS ÊTRE APPLICABLE.
+  a. SAUF S’IL EST AUTREMENT EFFECTUÉ SÉPARÉMENT PAR LE LICENSOR, DANS LA MESURE DU POSSIBLE, LE LICENSOR PROPOSE LES DOCUMENTS SOUS LICENCE TELS QU’ILS SONT ET TELS QU’ILS SONT DISPONIBLES, ET N’EFFECTUE AUCUNE REPRÉSENTATION OU GARANTIE DE QUELQUE TYPE QUE CE SOIT CONCERNANT LE MATÉRIEL SOUS LICENCE, QU’IL SOIT EXPRESS, IMPLICITE, STATUTAIRE OU AUTRE. CELA INCLUT, SANS LIMITATION, LES GARANTIES DE TITRE, DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER, DE NON-CONTREFAÇON, D’ABSENCE DE DÉFAUTS LATENTS OU AUTRES, DE PRÉCISION OU DE PRÉSENCE OU D’ABSENCE D’ERREURS, QU’ELLES SOIENT CONNUES OU NON OU DÉCOUVRABLES. LORSQUE LES CLAUSES D’EXCLUSION DE RESPONSABILITÉ DES GARANTIES NE SONT PAS AUTORISÉES EN TOTALITÉ OU EN PARTIE, CETTE CLAUSE D’EXCLUSION DE RESPONSABILITÉ PEUT NE PAS VOUS ÊTRE APPLICABLE.
 
   b. DANS LA MESURE DU POSSIBLE, EN AUCUN CAS LE CONCÉDANT NE VOUS SERA RESPONSABLE DE TOUTE LOI JURIDIQUE (Y COMPRIS, SANS LIMITATION, NÉGLIGENCE) OU POUR TOUT AUTRE TYPE DIRECT, SPÉCIAL, INDIRECT, INCIDENTAL, INDIRECT, DROIT, PRODUCTION OU AUTRES PERTES, COÛTS, DÉPENSES OU DOMMAGES RÉSULTANT DE CETTE LICENCE PUBLIQUE OU DE L’UTILISATION DU MATÉRIEL SOUS LICENCE, MÊME SI LE CONCÉDANT A ÉTÉ INFORMÉ DE LA POSSIBILITÉ DE TELLES PERTES. , COÛTS, DÉPENSES OU DOMMAGES. LORSQU’UNE LIMITATION DE RESPONSABILITÉ N’EST PAS AUTORISÉE EN TOTALITÉ OU EN PARTIE, CETTE LIMITATION PEUT NE PAS VOUS ÊTRE APPLICABLE.
 
@@ -3449,7 +3449,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARA
 
 semver 5.7.1 - ISC https://github.com/npm/node-semver#readme
 
-Copyright Copyright Copyright Z. Copyright Copyright Copyright Z.Bacueter Copyright (c) Copyright Z.Queueter and Contributors
+Copyright Copyright Copyright Z. Copyright Copyright Copyright Z. Copyright (c) Copyright (c) Copyright Z.Queueter and Contributors
 
 Licence ISC
 
@@ -3498,7 +3498,7 @@ LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET LE TITULAIRE DU DROIT D’AUTEUR
 
 ---------------------------------------------------------
 
-type 2.0.0 - ISC https://github.com/medikoo/type#readme
+type 1.2.0 - ISC https://github.com/medikoo/type#readme
 
 Copyright (c) 2019,Queusz Nowak, medikoo, medikoo.com
 
@@ -3515,7 +3515,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARA
 
 ---------------------------------------------------------
 
-type 1.2.0 - ISC https://github.com/medikoo/type#readme
+type 2.0.0 - ISC https://github.com/medikoo/type#readme
 
 Copyright (c) 2019,Queusz Nowak, medikoo, medikoo.com
 
@@ -4323,7 +4323,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-@types/office-js-preview 1.0.224 - MIT https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/office-js-preview
+@types/office-js-preview 1.0.226 - MIT https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/office-js-preview
 
 Copyright (c) Microsoft Corporation.
 
@@ -5073,7 +5073,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 ajv 6.12.2 - MIT https://github.com/epoberezkin/ajv
 
 (c) 2011 Me Court.
-Copyright 2011 - Copyright Court.
+Copyright 2011 - Cour DeNtrese.
 Copyright (c) 2015-2017 Evgeny Poberezkin
 
 La licence MIT (MIT)
@@ -5166,7 +5166,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-ansi-regex 4.1.0 - MIT https://github.com/chalk/ansi-regex#readme
+ansi-regex 3.0.0 - MIT https://github.com/chalk/ansi-regex#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -5204,7 +5204,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-ansi-regex 3.0.0 - MIT https://github.com/chalk/ansi-regex#readme
+ansi-regex 4.1.0 - MIT https://github.com/chalk/ansi-regex#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -6134,7 +6134,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 buffer 4.9.2 - MIT https://github.com/feross/buffer
 
 Copyright (c) Feross Importedijeh et d’autres collaborateurs.
-Copyright (c) Feross Premiergidijeh ( http://feross.org) et autres contributeurs.
+Copyright (c) Feross Importedijeh ( http://feross.org) , et d’autres contributeurs.
 
 La licence MIT (MIT)
 
@@ -6470,24 +6470,6 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-idar 2.1.8 - MIT https://github.com/paulmillr/chokidar
-
-Copyright (c) 2012-2019 PaulÉry ( https://paulmillr.com) & Elan
-
-Licence MIT
-
-Copyright (c) <year><copyright holders>
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
----------------------------------------------------------
-
----------------------------------------------------------
-
 idar 3.4.0 - MIT https://github.com/paulmillr/chokidar
 
 (c) Paul Copyright <https://paulmillr.com> (c) 2012-2019 PaulÉry ( https://paulmillr.com) , Elan Copyrighter
@@ -6502,6 +6484,24 @@ La notification de copyright ci-dessus et cette notification d’autorisation do
 
 LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+idar 2.1.8 - MIT https://github.com/paulmillr/chokidar
+
+Copyright (c) 2012-2019 PaulÉry ( https://paulmillr.com) & Elan
+
+Licence MIT
+
+Copyright (c) <year><copyright holders>
+
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -6684,7 +6684,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 color-convert 1.9.3 - MIT https://github.com/Qix-/color-convert#readme
 
-Copyright (c) 2011-2016, PrésidentSyreur et DomaineDessin.
+Copyright (c) 2011-2016, PropriétéSyr et Domaine Domaine.
 Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
 
 Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
@@ -6705,7 +6705,7 @@ color-name 1.1.3 - MIT https://github.com/dfcreative/color-name
 
 Copyright (c) 2015 Dmitry Ivanov
 
-La licence MIT (MIT) Copyright (c) 2015
+The MIT License (MIT) Copyright (c) 2015 Dmitry Ivanov
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -6735,7 +6735,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-commander 2.17.1 - MIT https://github.com/tj/commander.js#readme
+commander 2.19.0 - MIT https://github.com/tj/commander.js#readme
 
 Copyright (c) 2011 TJ Holowayway <tj@vision-media.ca>
 
@@ -6755,7 +6755,7 @@ EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONS
 
 ---------------------------------------------------------
 
-commander 2.19.0 - MIT https://github.com/tj/commander.js#readme
+commander 2.17.1 - MIT https://github.com/tj/commander.js#readme
 
 Copyright (c) 2011 TJ Holowayway <tj@vision-media.ca>
 
@@ -7123,7 +7123,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 crypto-browserify 3.12.0 - MIT https://github.com/crypto-browserify/crypto-browserify
 
-Copyright (c) 2013 Paul Tarr Copyright Paul Johnson 2000 - 2002. D’autres contributeurs ImporteNtErr, Andrew Kepert, Ydnar, Lostinet
+Copyright (c) 2013 Copyright Paul Johnson 2000 - 2002. D’autres contributeurs ImporteNtErr, Andrew Kepert, Ydnar, Lostinet
 
 Licence MIT
 
@@ -7194,7 +7194,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-cssesc 3.0.0 - MIT https://mths.be/cssesc
+cssesc 2.0.0 - MIT https://mths.be/cssesc
 
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
@@ -7211,7 +7211,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-cssesc 2.0.0 - MIT https://mths.be/cssesc
+cssesc 3.0.0 - MIT https://mths.be/cssesc
 
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
@@ -7455,6 +7455,26 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
+debug 4.1.1 - MIT https://github.com/visionmedia/debug#readme
+
+Copyright (c) 2014 TJ Holoway copyright <tj@vision-media.ca> (c) 2014-2017 TJ Holoway pc <tj@vision-media.ca>
+
+(Licence MIT)
+
+Copyright (c) 2014 TJ Holowaypher <tj@vision-media.ca>
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le logiciel), de traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et d’autoriser les personnes à qui le logiciel est fourni à le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
 debug 2.6.9 - MIT https://github.com/visionmedia/debug#readme
 
 Copyright (c) 2014 TJ Holoway copyright <tj@vision-media.ca> (c) 2014-2016 TJ Holoway pc <tj@vision-media.ca>
@@ -7476,26 +7496,6 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y
 ---------------------------------------------------------
 
 debug 3.2.6 - MIT https://github.com/visionmedia/debug#readme
-
-Copyright (c) 2014 TJ Holoway copyright <tj@vision-media.ca> (c) 2014-2017 TJ Holoway pc <tj@vision-media.ca>
-
-(Licence MIT)
-
-Copyright (c) 2014 TJ Holowaypher <tj@vision-media.ca>
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le logiciel), de traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et d’autoriser les personnes à qui le logiciel est fourni à le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-debug 4.1.1 - MIT https://github.com/visionmedia/debug#readme
 
 Copyright (c) 2014 TJ Holoway copyright <tj@vision-media.ca> (c) 2014-2017 TJ Holoway pc <tj@vision-media.ca>
 
@@ -7552,26 +7552,6 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-define-property 2.0.2 - MIT https://github.com/jonschlinkert/define-property
-
-Copyright (c) 2015-2018, Jon Schlinkert.
-Copyright (c) 2018, Jon Schlinkert ( https://github.com/jonschlinkert) .
-
-La licence MIT (MIT)
-
-Copyright (c) 2015-2018, Jon Schlinkert.
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
 define-property 1.0.0 - MIT https://github.com/jonschlinkert/define-property
 
 Copyright (c) 2015, 2017, Jon Schlinkert.
@@ -7599,6 +7579,26 @@ Copyright (c) 2015 Jon Schlinkert Copyright (c) 2015, Jon Schlinkert.
 La licence MIT (MIT)
 
 Copyright (c) 2015, Jon Schlinkert.
+
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+define-property 2.0.2 - MIT https://github.com/jonschlinkert/define-property
+
+Copyright (c) 2015-2018, Jon Schlinkert.
+Copyright (c) 2018, Jon Schlinkert ( https://github.com/jonschlinkert) .
+
+La licence MIT (MIT)
+
+Copyright (c) 2015-2018, Jon Schlinkert.
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -8358,11 +8358,11 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-find-up 3.0.0 - MIT https://github.com/sindresorhus/find-up#readme
+find-up 2.1.0 - MIT https://github.com/sindresorhus/find-up#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Licence MIT
+La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -8377,11 +8377,11 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-find-up 2.1.0 - MIT https://github.com/sindresorhus/find-up#readme
+find-up 3.0.0 - MIT https://github.com/sindresorhus/find-up#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-La licence MIT (MIT)
+Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -8592,7 +8592,7 @@ fs-extra 7.0.1 - MIT https://github.com/jprichardson/node-fs-extra
 
 Copyright (c) 2011-2017 JP Copyright (c) 2011-2017 JP Copyright ( https://github.com/jprichardson) c) 2014-2016 Copyright Me@jongleberry.com and Contributors
 
-(La licence MIT)
+(Licence MIT)
 
 Copyright (c) 2011-2017 JP Jpg
 
@@ -8611,7 +8611,7 @@ fs-extra 4.0.3 - MIT https://github.com/jprichardson/node-fs-extra
 
 Copyright (c) 2011-2017 JP Copyright (c) 2011-2017 JP Copyright ( https://github.com/jprichardson) c) 2014-2016 Copyright Me@jongleberry.com and Contributors
 
-(La licence MIT)
+(Licence MIT)
 
 Copyright (c) 2011-2017 JP Jpg
 
@@ -8933,15 +8933,14 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-has-values 0.1.4 - MIT https://github.com/jonschlinkert/has-values
+has-values 1.0.0 - MIT https://github.com/jonschlinkert/has-values
 
-Copyright (c) 2014-2015, Jon Schlinkert.
-Copyright (c) 2014-2016, Jon Schlinkert.
-Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2014-2015, 2017, Jon Schlinkert.
+Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 La licence MIT (MIT)
 
-Copyright (c) 2014-2016, Jon Schlinkert.
+Copyright (c) 2014-2017, Jon Schlinkert
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -8954,14 +8953,15 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-has-values 1.0.0 - MIT https://github.com/jonschlinkert/has-values
+has-values 0.1.4 - MIT https://github.com/jonschlinkert/has-values
 
-Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2014-2015, 2017, Jon Schlinkert.
-Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-2015, Jon Schlinkert.
+Copyright (c) 2014-2016, Jon Schlinkert.
+Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 La licence MIT (MIT)
 
-Copyright (c) 2014-2017, Jon Schlinkert
+Copyright (c) 2014-2016, Jon Schlinkert.
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -9415,7 +9415,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 inquirer 6.5.0 - MIT https://github.com/SBoudrias/Inquirer.js#readme
 
-Copyright (c) 2012 Copyright (c) 2016 Pierre Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+Copyright (c) 2012 Michel Boudrias Copyright (c) 2016 Copyright Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
 
 Copyright (c) 2012 Simon Boudrias
 
@@ -9467,26 +9467,6 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-accessor-descriptor 1.0.0 - MIT https://github.com/jonschlinkert/is-accessor-descriptor
-
-Copyright (c) 2015-2017, Jon Schlinkert.
-Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
-
-La licence MIT (MIT)
-
-Copyright (c) 2015-2017, Jon Schlinkert.
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
 is-accessor-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-accessor-descriptor
 
 Copyright (c) 2015, Jon Schlinkert.
@@ -9507,19 +9487,21 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-isarray 0.0.1 - MIT https://github.com/juliangruber/isarray
+is-accessor-descriptor 1.0.0 - MIT https://github.com/jonschlinkert/is-accessor-descriptor
 
-Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
+Copyright (c) 2015-2017, Jon Schlinkert.
+Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
-Licence MIT
+La licence MIT (MIT)
 
-Copyright (c) <year><copyright holders>
+Copyright (c) 2015-2017, Jon Schlinkert.
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
 LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
 
 ---------------------------------------------------------
 
@@ -9543,7 +9525,25 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-arrayish 0.3.2 - MIT https://github.com/qix-/node-is-arrayish#readme
+isarray 0.0.1 - MIT https://github.com/juliangruber/isarray
+
+Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
+
+Licence MIT
+
+Copyright (c) <year><copyright holders>
+
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+is-arrayish 0.2.1 - MIT https://github.com/qix-/node-is-arrayish#readme
 
 Copyright (c) 2015 JD Ballard
 
@@ -9562,7 +9562,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-arrayish 0.2.1 - MIT https://github.com/qix-/node-is-arrayish#readme
+is-arrayish 0.3.2 - MIT https://github.com/qix-/node-is-arrayish#readme
 
 Copyright (c) 2015 JD Ballard
 
@@ -9737,7 +9737,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-descriptor 1.0.2 - MIT https://github.com/jonschlinkert/is-descriptor
+is-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-descriptor
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
@@ -9756,7 +9756,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-descriptor
+is-descriptor 1.0.2 - MIT https://github.com/jonschlinkert/is-descriptor
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
@@ -9931,14 +9931,14 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-number 7.0.0 - MIT https://github.com/jonschlinkert/is-number
+is-number 3.0.0 - MIT https://github.com/jonschlinkert/is-number
 
-Copyright (c) 2014-present, Jon Schlinkert.
-Copyright (c) 2018, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-2016, Jon Schlinkert Copyright (c) 2014-2015, Jon Schlinkert.
+Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 La licence MIT (MIT)
 
-Copyright (c) 2014-present, Jon Schlinkert.
+Copyright (c) 2014-2016, Jon Schlinkert
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -9951,14 +9951,14 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-number 3.0.0 - MIT https://github.com/jonschlinkert/is-number
+is-number 7.0.0 - MIT https://github.com/jonschlinkert/is-number
 
-Copyright (c) 2014-2016, Jon Schlinkert Copyright (c) 2014-2015, Jon Schlinkert.
-Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-present, Jon Schlinkert.
+Copyright (c) 2018, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 La licence MIT (MIT)
 
-Copyright (c) 2014-2016, Jon Schlinkert
+Copyright (c) 2014-present, Jon Schlinkert.
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -10313,12 +10313,15 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-json3 3.3.0 - MIT http://bestiejs.github.io/json3
+json3 3.3.3 - MIT https://bestiejs.github.io/json3
 
-Copyright (c) 2012-2014 Kit Cambridge. http://kitcambridge.be Copyright 2012-2014, Kit Cambridge http://kit.mit-license.org
+Copyright (c) 2013-2015 Benjamin Tan. https://d10.github.io Copyright (c) 2012-2015 Kit Cambridge. http://kitcambridge.be Copyright 2012-2015, Kit Cambridge, Benjamin Tan http://kit.mit-license.org (c) 2012-2015 http://kitcambridge.be/ ' Kit Cambridge, https://d10.github.io/ ' Benjamin Tan
 
-Copyright (c) 2012-2014 Kit Cambridge.
+Copyright (c) 2012-2015 Kit Cambridge.
 http://kitcambridge.be/
+
+Copyright (c) 2013-2015 Benjamin Tan.
+https://d10.github.io/
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -10330,15 +10333,12 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-json3 3.3.3 - MIT https://bestiejs.github.io/json3
+json3 3.3.0 - MIT http://bestiejs.github.io/json3
 
-Copyright (c) 2013-2015 Benjamin Tan. https://d10.github.io Copyright (c) 2012-2015 Kit Cambridge. http://kitcambridge.be Copyright 2012-2015, Kit Cambridge, Benjamin Tan http://kit.mit-license.org (c) 2012-2015 http://kitcambridge.be/ ' Kit Cambridge, https://d10.github.io/ ' Benjamin Tan
+Copyright (c) 2012-2014 Kit Cambridge. http://kitcambridge.be Copyright 2012-2014, Kit Cambridge http://kit.mit-license.org
 
-Copyright (c) 2012-2015 Kit Cambridge.
+Copyright (c) 2012-2014 Kit Cambridge.
 http://kitcambridge.be/
-
-Copyright (c) 2013-2015 Benjamin Tan.
-https://d10.github.io/
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -10461,25 +10461,6 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-js-tokens 3.0.2 - MIT https://github.com/lydell/js-tokens#readme
-
-Copyright 2014, 2015, 2016, 2017 Ly copyright (c) 2014, 2015, 2016, 2017 Ly prochain
-
-La licence MIT (MIT)
-
-Copyright (c) 2014, 2015, 2016, 2017 Simon Lydell
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
 js-tokens 4.0.0 - MIT https://github.com/lydell/js-tokens#readme
 
 Copyright 2014, 2015, 2016, 2017, 2018 Ly copyright (c) 2014, 2015, 2016, 2017, 2018
@@ -10499,13 +10480,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-js-yaml 3.14.0 - MIT https://github.com/nodeca/js-yaml
+js-tokens 3.0.2 - MIT https://github.com/lydell/js-tokens#readme
 
-Copyright (c) 2011-2015 par Vitaly Puzrin
+Copyright 2014, 2015, 2016, 2017 Ly copyright (c) 2014, 2015, 2016, 2017 Ly prochain
 
-(Licence MIT)
+La licence MIT (MIT)
 
-Copyright (C) 2011-2015 par Vitaly Puzrin
+Copyright (c) 2014, 2015, 2016, 2017 Simon Lydell
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -10518,13 +10499,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-type de 4.0.0 - MIT https://github.com/jonschlinkert/kind-of
+js-yaml 3.14.0 - MIT https://github.com/nodeca/js-yaml
 
-Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2011-2015 par Vitaly Puzrin
 
-La licence MIT (MIT)
+(Licence MIT)
 
-Copyright (c) 2014-2017, Jon Schlinkert
+Copyright (C) 2011-2015 par Vitaly Puzrin
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -10558,6 +10539,25 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 ---------------------------------------------------------
 
 type de 3.2.2 - MIT https://github.com/jonschlinkert/kind-of
+
+Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
+
+La licence MIT (MIT)
+
+Copyright (c) 2014-2017, Jon Schlinkert
+
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+type de 4.0.0 - MIT https://github.com/jonschlinkert/kind-of
 
 Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
@@ -10633,24 +10633,6 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-loader-utils 1.4.0 - MIT https://github.com/webpack/loader-utils#readme
-
-Copyright JS Foundation et d’autres contributeurs
-
-Copyright JS Foundation et d’autres contributeurs
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le logiciel), de traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et d’autoriser les personnes à qui le logiciel est fourni à le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT.
-EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
 loader-utils 1.2.3 - MIT https://github.com/webpack/loader-utils#readme
 
 Copyright JS Foundation et d’autres contributeurs
@@ -10669,11 +10651,29 @@ EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONS
 
 ---------------------------------------------------------
 
-locate-path 3.0.0 - MIT https://github.com/sindresorhus/locate-path#readme
+loader-utils 1.4.0 - MIT https://github.com/webpack/loader-utils#readme
+
+Copyright JS Foundation et d’autres contributeurs
+
+Copyright JS Foundation et d’autres contributeurs
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le logiciel), de traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et d’autoriser les personnes à qui le logiciel est fourni à le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT.
+EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+locate-path 2.0.0 - MIT https://github.com/sindresorhus/locate-path#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Licence MIT
+La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -10688,11 +10688,11 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-locate-path 2.0.0 - MIT https://github.com/sindresorhus/locate-path#readme
+locate-path 3.0.0 - MIT https://github.com/sindresorhus/locate-path#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-La licence MIT (MIT)
+Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -11725,11 +11725,11 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-normalize-url 1.9.1 - MIT https://github.com/sindresorhus/normalize-url#readme
+normalize-url 3.3.0 - MIT https://github.com/sindresorhus/normalize-url#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-La licence MIT (MIT)
+Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -11744,11 +11744,11 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-normalize-url 3.3.0 - MIT https://github.com/sindresorhus/normalize-url#readme
+normalize-url 1.9.1 - MIT https://github.com/sindresorhus/normalize-url#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Licence MIT
+La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -11939,7 +11939,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-object-keys 0.5.0 - MIT https://github.com/ljharb/object-keys
+object-keys 1.1.1 - MIT https://github.com/ljharb/object-keys#readme
 
 Copyright (c) 2013 Jordan Harband
 
@@ -11957,7 +11957,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-object-keys 1.1.1 - MIT https://github.com/ljharb/object-keys#readme
+object-keys 0.5.0 - MIT https://github.com/ljharb/object-keys
 
 Copyright (c) 2013 Jordan Harband
 
@@ -12324,7 +12324,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 path-parse 1.0.6 - MIT https://github.com/jbgutierrez/path-parse#readme
 
-Copyright (c) 2015 Domaine Blanco (c) Domaine Blanco (http://jbgutierrez.info)
+Copyright (c) 2015 Domaine Blanco (c) Copyright Blanco (http://jbgutierrez.info)
 
 La licence MIT (MIT)
 
@@ -13506,7 +13506,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-postcss-value-parser 4.1.0 - MIT https://github.com/TrySound/postcss-value-parser
+postcss-value-parser 3.3.1 - MIT https://github.com/TrySound/postcss-value-parser
 
 (c) Domaine d’auteur (c) Domaine d’auteur (c) <trysound@yandex.ru>
 
@@ -13523,7 +13523,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-postcss-value-parser 3.3.1 - MIT https://github.com/TrySound/postcss-value-parser
+postcss-value-parser 4.1.0 - MIT https://github.com/TrySound/postcss-value-parser
 
 (c) Domaine d’auteur (c) Domaine d’auteur (c) <trysound@yandex.ru>
 
@@ -14337,7 +14337,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-redux 4.0.5 - MIT http://redux.js.org/
+redux 4.0.1 - MIT http://redux.js.org/
 
 Copyright (c) DanQuelov présent en 2015
 
@@ -14356,7 +14356,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-redux 4.0.1 - MIT http://redux.js.org/
+redux 4.0.5 - MIT http://redux.js.org/
 
 Copyright (c) DanQuelov présent en 2015
 
@@ -14431,6 +14431,25 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
+regenerator-runtime 0.11.1 - MIT
+
+
+Copyright (c) 2014-present, Facebook, Inc.
+
+Licence MIT
+
+Copyright (c) <year><copyright holders>
+
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
 regenerator-runtime 0.13.5 - MIT
 
 
@@ -14446,25 +14465,6 @@ La notification de copyright ci-dessus et cette notification d’autorisation do
 
 LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-regenerator-runtime 0.11.1 - MIT
-
-
-Copyright (c) 2014-present, Facebook, Inc.
-
-Licence MIT
-
-Copyright (c) <year><copyright holders>
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -14978,7 +14978,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-schema-utils 1.0.0 - MIT https://github.com/webpack-contrib/schema-utils
+schema-utils 0.4.7 - MIT https://github.com/webpack-contrib/schema-utils
 
 Copyright JS Foundation et d’autres contributeurs
 
@@ -14996,7 +14996,7 @@ EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONS
 
 ---------------------------------------------------------
 
-schema-utils 0.4.7 - MIT https://github.com/webpack-contrib/schema-utils
+schema-utils 1.0.0 - MIT https://github.com/webpack-contrib/schema-utils
 
 Copyright JS Foundation et d’autres contributeurs
 
@@ -15390,7 +15390,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 stable 0.1.8 - MIT https://github.com/Two-Screen/stable#readme
 
-(c) 2018 : Octets et contributeurs.
+(c) 2018 - Octets et contributeurs.
 Copyright (c) 2018 - Octets et contributeurs.
 
 Licence MIT
@@ -15615,7 +15615,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-string_decoder 1.3.0 - MIT https://github.com/nodejs/string_decoder
+string_decoder 1.1.1 - MIT https://github.com/nodejs/string_decoder
 
 Copyright Joyent, Inc. et d’autres contributeurs Node.
 
@@ -15646,7 +15646,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-string_decoder 1.1.1 - MIT https://github.com/nodejs/string_decoder
+string_decoder 1.3.0 - MIT https://github.com/nodejs/string_decoder
 
 Copyright Joyent, Inc. et d’autres contributeurs Node.
 
@@ -15696,6 +15696,25 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
+strip-ansi 3.0.1 - MIT https://github.com/chalk/strip-ansi
+
+(c) Sindre Sorhus ( http://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+La licence MIT (MIT)
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
 strip-ansi 4.0.0 - MIT https://github.com/chalk/strip-ansi#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -15720,25 +15739,6 @@ strip-ansi 5.2.0 - MIT https://github.com/chalk/strip-ansi#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
 Licence MIT
-
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-strip-ansi 3.0.1 - MIT https://github.com/chalk/strip-ansi
-
-(c) Sindre Sorhus ( http://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -15794,9 +15794,9 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 stylehacks 4.0.3 - MIT https://github.com/cssnano/cssnano
 
-(c) Ben http://beneb.info) Quéz ( Copyright (c) Ben Quéz <beneb.info@gmail.com> (http://beneb.info)
+(c) Ben http://beneb.info) Quézy ( Copyright (c) Ben Quézy <beneb.info@gmail.com> (http://beneb.info)
 
-Copyright (c) Ben Quéz <beneb.info@gmail.com> (http://beneb.info)
+Copyright (c) Ben Quézy <beneb.info@gmail.com> (http://beneb.info)
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -15809,7 +15809,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-chargeur de style 1.0.0 - MIT https://github.com/webpack-contrib/style-loader
+style-loader 1.0.0 - MIT https://github.com/webpack-contrib/style-loader
 
 Copyright JS Foundation et d’autres contributeurs
 
@@ -15863,7 +15863,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-supports-color 6.1.0 - MIT https://github.com/chalk/supports-color#readme
+supports-color 5.5.0 - MIT https://github.com/chalk/supports-color#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -15882,7 +15882,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-supports-color 5.5.0 - MIT https://github.com/chalk/supports-color#readme
+supports-color 6.1.0 - MIT https://github.com/chalk/supports-color#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -16709,7 +16709,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-util 0.10.3 - MIT https://github.com/defunctzombie/node-util
+util 0.11.1 - MIT https://github.com/defunctzombie/node-util
 
 Copyright Joyent, Inc. et d’autres contributeurs Node.
 
@@ -16725,7 +16725,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-util 0.11.1 - MIT https://github.com/defunctzombie/node-util
+util 0.10.3 - MIT https://github.com/defunctzombie/node-util
 
 Copyright Joyent, Inc. et d’autres contributeurs Node.
 

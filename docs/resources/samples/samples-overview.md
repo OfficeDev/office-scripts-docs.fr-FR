@@ -3,12 +3,12 @@ title: Office Exemples de scripts
 description: Exemples Office scripts et scénarios disponibles.
 ms.date: 05/25/2021
 localization_priority: Normal
-ms.openlocfilehash: aac730fd8a0da76728e4a455339366a75b27a0b2
-ms.sourcegitcommit: 339ecbb9914d54f919e3475018888fb5d00abe89
+ms.openlocfilehash: 1b7e9cdd9e23f57d59e5e878a37b50afb63965fd
+ms.sourcegitcommit: a063b3faf6c1b7c294bd6a73e46845b352f2a22d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52697657"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53202850"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Office Exemples de scripts et scénarios
 
@@ -35,6 +35,7 @@ Consultez le projet de bout en bout suivant qui automatise des exemples de scén
 
 | Project | Détails |
 |---------|---------|
+| [Workbooks de référence croisée](excel-cross-reference.md) | Cet exemple utilise Office scripts et Power Automate pour référencer et valider des informations dans différents workbooks. |
 | [Compter les lignes vides dans une feuille spécifique ou dans toutes les feuilles](count-blank-rows.md) | Cet exemple détecte s’il existe des lignes vides dans les feuilles où vous prévoyez la présence de données, puis indique le nombre de lignes vides à utiliser dans un flux Power Automate données. |
 | [Images de tableau et de graphique de courrier électronique](email-images-chart-table.md) | Cet exemple utilise des Office scripts et des actions Power Automate pour créer un graphique et envoyer ce graphique en tant qu’image par courrier électronique. |
 | [Appels de récupération externe](external-fetch-calls.md) | Cet exemple utilise `fetch` pour obtenir des informations à partir GitHub pour le script. |
@@ -48,14 +49,14 @@ Consultez le projet de bout en bout suivant qui automatise des exemples de scén
 
 ## <a name="scenarios"></a>Scénarios
 
-Office Les scripts peuvent automatiser des parties de votre routine quotidienne. Ces tâches quotidiennes existent souvent dans des écosystèmes uniques, avec des Excel de travail qui sont spécifiquement mis en place. Ces exemples de scénarios plus importants montrent ces cas d’utilisation réels. Elles incluent les scripts Office et les workbooks, afin que vous pouvez voir le scénario de bout en bout.
+Office Les scripts peuvent automatiser des parties de votre routine quotidienne. Ces tâches quotidiennes existent souvent dans des écosystèmes uniques, avec des Excel de travail qui sont spécifiquement mis en place. Ces exemples de scénarios plus importants montrent ces cas d’utilisation réels. Ils incluent les scripts Office et les workbooks, afin que vous pouvez voir le scénario de bout en bout.
 
 | Scénario | Détails |
 |---------|---------|
-| [Analyser les téléchargements web](../scenarios/analyze-web-downloads.md) | Ce scénario comprend un script qui permet d’évaluer les enregistrements de trafic web pour déterminer le pays d’origine d’un utilisateur. Il présente les compétences de l’utilisation de sous-sections dans les scripts, de l’application d’une mise en forme conditionnelle et de l’utilisation de tableaux. |
+| [Analyser les téléchargements web](../scenarios/analyze-web-downloads.md) | Ce scénario comprend un script qui permet d’évaluer les enregistrements de trafic web pour déterminer le pays d’origine d’un utilisateur. Il présente les compétences de l’utilisation de sous-sections dans les scripts, de l’application de la mise en forme conditionnelle et de l’utilisation de tableaux. |
 | [Obtenir et représenter graphiquement les données du niveau d'eau auprès de la NOAA](../scenarios/noaa-data-fetch.md) | Ce scénario utilise un script Office pour tirer des données à partir d’une source externe (base de données [NOAA - États-Unis](https://tidesandcurrents.noaa.gov/)et bases de données actuelles) et graphiquer les informations qui en résultent. Il met en évidence les compétences `fetch` d’utilisation pour obtenir des données et utiliser des graphiques. |
 | [Calculatrice de notes](../scenarios/grade-calculator.md) | Ce scénario propose un script qui valide l’enregistrement d’un instructeur pour les notes de son cours. Il présente les compétences de vérification des erreurs, de mise en forme des cellules et d’expressions régulières. |
-| [Planifier des entretiens dans Teams](../scenarios/schedule-interviews-in-teams.md) | Ce scénario montre comment utiliser une feuille de calcul Excel pour gérer les heures de réunion et créer un flux vers les réunions de planification dans Teams. |
+| [Planifier des entretiens dans Teams](../scenarios/schedule-interviews-in-teams.md) | Ce scénario montre comment utiliser une feuille de calcul Excel pour gérer les heures de réunion et créer un flux pour planifier des réunions dans Teams. |
 | [Rappels de tâche](../scenarios/task-reminders.md) | Ce scénario utilise un script Office dans un flux Power Automate pour envoyer des rappels à des collègues afin de mettre à jour l’état d’un projet. Il met en évidence les compétences de Power Automate’intégration et le transfert de données vers et depuis des scripts. |
 
 ## <a name="community-contributions-and-fun-samples"></a>Community contributions et des exemples de divertissement
@@ -67,7 +68,7 @@ Les [contributions](https://github.com/OfficeDev/office-scripts-docs/blob/master
 | [Jeu de vie](https://techcommunity.microsoft.com/t5/excel-blog/ready-player-zero/ba-p/2246208) | Le blog « Ready Player Zero » de Yutao Président sur le Community tech Excel [](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)inclut un script pour modéliser Le jeu de vie de John Conway. |
 | [Animation de message d’accueil de message d’accueil](community-seasons-greetings.md) | Ce script a été fourni par [Megan Black](https://www.linkedin.com/in/lesblackconsultant/) lors de la période des congés ! Il s’agit d’un script amusant qui montre une arborescence de Noël agréable dans Excel sur le Web à l’aide Office scripts. |
 
-## <a name="try-it-out"></a>Try it out
+## <a name="try-it-out"></a>Essayez
 
 Ces exemples sont open source. Essayez-les vous-même. Vous aurez besoin d’un compte scolaire ou scolaire Ou de travail Microsoft avec une licence d’Microsoft 365 (E3 ou supérieur). Il vous suffit de vous y rendre pour https://office.com vous inscrire à votre compte et commencer.
 

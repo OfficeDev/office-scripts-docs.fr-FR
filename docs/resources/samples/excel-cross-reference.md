@@ -1,42 +1,37 @@
 ---
-title: Renvoi et mise en forme d’Excel fichier
+title: Renvoi de fichiers Excel avec des Power Automate
 description: Découvrez comment utiliser Office scripts et Power Automate pour faire référence à un fichier Excel format.
-ms.date: 05/06/2021
+ms.date: 06/25/2021
 localization_priority: Normal
-ROBOTS: NOINDEX
-ms.openlocfilehash: f07395eb4e6c77b7aee3776e3252d135bc690a6f
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 89c4a5fa5dcff21681fa20cd4118447d39d9b6da
+ms.sourcegitcommit: a063b3faf6c1b7c294bd6a73e46845b352f2a22d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545765"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53202868"
 ---
-# <a name="cross-reference-and-format-an-excel-file"></a>Renvoi et mise en forme d’Excel fichier
+# <a name="cross-reference-excel-files-with-power-automate"></a>Renvoi de fichiers Excel avec des Power Automate
 
-Cette solution montre comment deux fichiers Excel peuvent être référencés et formatés à l’aide Office scripts et Power Automate.
+Cette solution montre comment comparer des données entre deux fichiers Excel pour rechercher des incohérences. Il utilise Office scripts pour analyser les données et Power Automate pour communiquer entre les workbooks.
 
-Le projet atteint les objectifs suivants :
+## <a name="example-scenario"></a>Exemple de scénario
 
-1. Extrait les données d’événements <a href="events.xlsx">events.xlsx</a> l’aide d’une action de script Exécuter.
-1. Transmet ces données au deuxième fichier Excel contenant les données de transaction d’événement et utilise ces données pour valider de base les données et mettre en forme des données manquantes ou incorrectes à l’aide de scripts Office.
-1. Envoie le résultat par courrier électronique à un réviseur.
-
-Pour plus d’informations, voir Référence croisée et mise en forme de deux fichiers [Excel l’aide Office scripts.](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
+Vous êtes un coordinateur d’événements qui est en train de planifier des haut-parleurs pour les conférences à venir. Vous conservez les données d’événement dans une feuille de calcul et les inscriptions du haut-parleur dans une autre. Pour vous assurer que les deux workbooks sont synchronisés, vous utilisez un flux avec Office scripts pour mettre en évidence les problèmes potentiels.
 
 ## <a name="sample-excel-files"></a>Exemples Excel fichiers
 
 Téléchargez les fichiers suivants utilisés dans cette solution pour l’essayer vous-même !
 
-1. <a href="events.xlsx">events.xlsx</a>
-1. <a href="event-transactions.xlsx">event-transactions.xlsx</a>
+1. <a href="event-data.xlsx">event-data.xlsx</a>
+1. <a href="speaker-registrations.xlsx">speaker-registrations.xlsx</a>
 
 ## <a name="sample-code-get-event-data"></a>Exemple de code : obtenir des données d’événement
 
 ```TypeScript
-function main(workbook: ExcelScript.Workbook): EventData[] {
+function main(workbook: ExcelScript.Workbook): string {
   // Get the first table in the "Keys" worksheet.
   let table = workbook.getWorksheet('Keys').getTables()[0];
-  
+
   // Get the rows in the event table.
   let range = table.getRangeBetweenHeaderAndTotal();
   let rows = range.getValues();
@@ -44,30 +39,31 @@ function main(workbook: ExcelScript.Workbook): EventData[] {
   // Save each row as an EventData object. This lets them be passed through Power Automate.
   let records: EventData[] = [];
   for (let row of rows) {
-      let [event, date, location, capacity] = row;
-      records.push({
-          event: event as string,
-          date: date as number, 
-          location: location as string,
-          capacity: capacity as number
-      })
+    let [eventId, date, location, capacity] = row;
+    records.push({
+      eventId: eventId as string,
+      date: date as number,
+      location: location as string,
+      capacity: capacity as number
+    })
   }
 
   // Log the event data to the console and return it for a flow.
-  console.log(JSON.stringify(records));
-  return records;
+  let stringResult = JSON.stringify(records);
+  console.log(stringResult);
+  return stringResult;
 }
 
 // An interface representing a row of event data.
 interface EventData {
-  event: string
+  eventId: string
   date: number
   location: string
   capacity: number
 }
 ```
 
-## <a name="sample-code-validate-event-transactions"></a>Exemple de code : valider les transactions d’événement
+## <a name="sample-code-validate-speaker-registrations"></a>Exemple de code : valider les inscriptions des haut-parleurs
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, keys: string): string {
@@ -77,44 +73,35 @@ function main(workbook: ExcelScript.Workbook, keys: string): string {
   // Clear the existing formatting in the table.
   let range = table.getRangeBetweenHeaderAndTotal();
   range.clear(ExcelScript.ClearApplyTo.formats);
-    
- // Apply some basic formatting for readability.
-  table.getColumnByName('Date').getRangeBetweenHeaderAndTotal().setNumberFormatLocal("yyyy-mm-dd;@");
-  table.getColumnByName('Capacity').getRangeBetweenHeaderAndTotal().getFormat()
-    .setHorizontalAlignment(ExcelScript.HorizontalAlignment.center);
 
   // Compare the data in the table to the keys passed into the script.
   let keysObject = JSON.parse(keys) as EventData[];
+  let speakerSlotsRemaining = keysObject.map(value => value.capacity);
   let overallMatch = true;
 
-  // Iterate over every row.
+  // Iterate over every row looking for differences from the other worksheet.
   let rows = range.getValues();
   for (let i = 0; i < rows.length; i++) {
     let row = rows[i];
-    let [event, date, location, capacity] = row;
+    let [eventId, date, location, capacity] = row;
     let match = false;
 
     // Look at each key provided for a matching Event ID.
-    for (let keyObject of keysObject) {
-      if (keyObject.event === event) {
+    for (let keyIndex = 0; keyIndex < keysObject.length; keyIndex++) {
+      let event = keysObject[keyIndex];
+      if (event.eventId === eventId) {
         match = true;
-
+        speakerSlotsRemaining[keyIndex]--;
         // If there's a match on the event ID, look for things that don't match and highlight them.
-        if (keyObject.date !== date) {
+        if (event.date !== date) {
           overallMatch = false;
           range.getCell(i, 1).getFormat()
             .getFill()
             .setColor("FFFF00");
         }
-        if (keyObject.location !== location) {
+        if (event.location !== location) {
           overallMatch = false;
           range.getCell(i, 2).getFormat()
-            .getFill()
-            .setColor("FFFF00");
-        }
-        if (keyObject.capacity !== capacity) {
-          overallMatch = false;
-          range.getCell(i, 3).getFormat()
             .getFill()
             .setColor("FFFF00");
         }
@@ -128,28 +115,58 @@ function main(workbook: ExcelScript.Workbook, keys: string): string {
       overallMatch = false;
       range.getCell(i, 0).getFormat()
         .getFill()
-        .setColor("FFFF00");      
-    }  
+        .setColor("FFFF00");
+    }
   }
+
+  
 
   // Choose a message to send to the user.
   let returnString = "All the data is in the right order.";
   if (overallMatch === false) {
     returnString = "Mismatch found. Data requires your review.";
+  } else if (speakerSlotsRemaining.find(remaining => remaining < 0)){
+    returnString = "Event potentially overbooked. Please review."
   }
+
   console.log("Returning: " + returnString);
   return returnString;
 }
 
 // An interface representing a row of event data.
 interface EventData {
-  event: string
+  eventId: string
   date: number
   location: string
   capacity: number
 }
 ```
 
-## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Vidéo de formation : référence croisée et mise en forme d’un Excel de formation
+## <a name="power-automate-flow-check-for-inconsistencies-across-the-workbooks"></a>Power Automate flux de travail : vérifier les incohérences entre les workbooks
 
-[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/dVwqBf483qo").
+Ce flux extrait les informations d’événement du premier workbook et utilise ces données pour valider le second.
+
+1. Connectez-Power Automate et créez un flux **de cloud instantané.** [](https://flow.microsoft.com)
+1. Sélectionnez **Déclencher manuellement un flux et** appuyez sur **Créer.**
+1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action :
+    * **Emplacement** : OneDrive Entreprise
+    * **Bibliothèque de documents** : OneDrive
+    * **Fichier**: event-data.xlsx ([sélectionné avec le sélecateur de fichiers](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
+    * **Script**: obtenir des données d’événement
+
+    :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Le connecteur Excel Online (Entreprise) pour le premier script dans Power Automate.":::
+
+1. Ajoutez une deuxième **étape nouvelle** qui utilise le connecteur Excel **Online (Entreprise)** avec l’action **exécuter le script.** Utilisez les valeurs suivantes pour l’action :
+    * **Emplacement** : OneDrive Entreprise
+    * **Bibliothèque de documents** : OneDrive
+    * **Fichier**: speaker-registration.xlsx ([sélectionné avec le sélecateur de fichiers](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
+    * **Script :** valider l’inscription du haut-parleur
+
+    :::image type="content" source="../../images/cross-reference-flow-2.png" alt-text="Le connecteur Excel Online (Entreprise) pour le deuxième script dans Power Automate.":::
+1. Cet exemple utilise Outlook client de messagerie. Vous pouvez utiliser n’importe quel connecteur de messagerie Power Automate prend en charge. Ajoutez **une nouvelle étape** qui utilise le connecteur **Office 365 Outlook** et l’action Envoyer et e-mail **(V2).** Utilisez les valeurs suivantes pour l’action :
+    * **À**: Votre compte de messagerie de test (ou e-mail personnel)
+    * **Objet**: Résultats de validation d’événement
+    * **Body**: result (_dynamic content from Run script **2**_)
+
+    :::image type="content" source="../../images/cross-reference-flow-3.png" alt-text="Connecteur de Office 365 Outlook terminé dans Power Automate.":::
+1. Enregistrez le flux, puis **sélectionnez Tester** pour l’essayer. Vous devriez recevoir un e-mail vous disant « Insérez une insérialisation trouvée. Les données nécessitent votre révision. » Cela indique qu’il existe des différences entre les lignes dans **speaker-registrations.xlsx** et les lignes **dansevent-data.xlsx**. Ouvrez **speaker-registrations.xlsx** pour voir plusieurs cellules mises en surbrillation, où il existe des problèmes potentiels avec les listes d’inscription du haut-parleur.
