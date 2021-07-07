@@ -1,14 +1,14 @@
 ---
 title: Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement
 description: Un didacticiel qui présente comment envoyer des e-mails de rappel en exécutant des scripts Office pour Excel sur le web via Power Automate.
-ms.date: 12/15/2020
+ms.date: 06/29/2021
 localization_priority: Priority
-ms.openlocfilehash: 6c1041ede630319f75ccdad453734828eaa8bd3d
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 6c94ba4382f9d481c0064e89b5f7afa147ab23f4
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074675"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314001"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement
 
@@ -127,7 +127,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 1. Connectez-vous au site [Power Automate](https://flow.microsoft.com).
 
-1. Dans le menu qui s’affiche sur le côté gauche de l’écran, appuyez sur **Créer**. Cela affiche une liste des moyens de créer de nouveaux flux de travail.
+1. Dans le menu qui s’affiche sur le côté gauche de l’écran, sélectionnez **Créer**. Cela affiche une liste des moyens de créer de nouveaux flux de travail.
 
     :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Le bouton Créer dans Power Automate":::
 
@@ -144,13 +144,13 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
     :::image type="content" source="../images/power-automate-return-tutorial-3.png" alt-text="Options d’affichage de la boîte de dialogue « Créer un flux cloud planifié ». Les options incluent le nom du flux, l’ de début, la fréquence de répétition et, un jour de la semaine pour exécuter le flux.":::
 
-1. Appuyez sur **Créer**.
+1. Sélectionnez **Créer**.
 
-1. Appuyez sur **Nouvelle étape**.
+1. Sélectionnez **Nouvelle étape**.
 
 1. Sélectionnez l’onglet **Standard**, puis sélectionnez **Excel Online (Business)**.
 
-    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Option Excel en ligne (Business) dans Power Automate. ":::
+    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Option Excel en ligne (Business) dans Power Automate.":::
 
 1. Sous **Actions**, sélectionnez **Exécuter le script**.
 
@@ -165,7 +165,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
     :::image type="content" source="../images/power-automate-return-tutorial-4.png" alt-text="Les paramètres du connecteur Power Automate pour l’exécution d’un script.":::
 
-1. Appuyez sur **Nouvelle étape**.
+1. Sélectionnez **Nouvelle étape**.
 
 1. Nous allons terminer le flux en envoyant un e-mail de rappel. Sélectionnez **Envoyer un e-mail (V2)** en utilisant la barre de recherche du connecteur. Utilisez le contrôle **Ajouter du contenu dynamique** pour ajouter l’adresse e-mail renvoyée par le script. Cette action va étiqueter **résultat** avec l’icône Excel à côté. Vous pouvez fournir tout objet et corps de texte de votre choix.
 
@@ -174,11 +174,11 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
     > [!NOTE]
     > Ce didacticiel utilise Outlook. N’hésitez pas à utiliser votre service de messagerie préféré, même si certaines options peuvent être différentes.
 
-1. Appuyez sur **Enregistrer**.
+1. Sélectionnez **Enregistrer**.
 
 ## <a name="test-the-script-in-power-automate"></a>Tester le script dans Power Automate
 
-Votre flux va s’exécuter chaque lundi matin. Vous pouvez tester le script maintenant en appuyant sur le bouton **Test** dans le coin supérieur droit de l’écran. Sélectionnez **Manuellement** et appuyez sur **Exécuter le test** pour exécuter le flux maintenant et tester le comportement. Vous devrez peut-être octroyer des autorisations à Excel et Outlook pour continuer.
+Votre flux va s’exécuter chaque lundi matin. Vous pouvez tester le script maintenant en sélectionnant le bouton **Test** dans le coin supérieur droit de l’écran. Sélectionnez **Manuellement** et sélectionnez **Exécuter le test** pour exécuter le flux maintenant et tester le comportement. Vous devrez peut-être octroyer des autorisations à Excel et Outlook pour continuer.
 
 :::image type="content" source="../images/power-automate-return-tutorial-6.png" alt-text="Le bouton de Test de Power Automate":::
 

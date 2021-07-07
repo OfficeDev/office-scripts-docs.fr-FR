@@ -1,14 +1,14 @@
 ---
 title: Filtrer Excel tableau et obtenir une plage visible
 description: Découvrez comment utiliser des scripts Office pour filtrer un tableau Excel et obtenir la plage visible en tant que tableau d’objets.
-ms.date: 05/06/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 196e39ffdfb7e6ff2d0898802665d3c2eccc7dbe
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: b19b826f95c7e7aeb331130fde05afaafe500c3d
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285793"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313952"
 ---
 # <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtrer Excel tableau et obtenir une plage visible en tant qu’objet JSON
 
@@ -20,11 +20,11 @@ Cet exemple filtre un tableau Excel et renvoie la plage visible en tant qu’obj
 * Extraire la plage visible après le filtrage.
 * Assemblez et renvoyer un objet avec une [structure JSON spécifique.](#sample-json)
 
+## <a name="sample-excel-file"></a>Exemple Excel fichier
+
+Téléchargez <a href="table-filter.xlsx">table-filter.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+
 ## <a name="sample-code-filter-a-table-and-get-visible-range"></a>Exemple de code : filtrer un tableau et obtenir une plage visible
-
-Le script suivant filtre un tableau et obtient la plage visible.
-
-Téléchargez l’exemple <a href="table-filter.xlsx">table-filter.xlsx</a> fichier et utilisez-le avec ce script pour l’essayer vous-même !
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReturnTemplate {
@@ -90,7 +90,7 @@ interface ReturnTemplate {
 
 ### <a name="sample-json"></a>Exemple de JSON
 
-Chaque clé représente une valeur unique d’un tableau. Chaque instance de tableau représente la ligne visible lorsque le filtre correspondant est appliqué.
+Chaque clé représente une valeur unique d’une table. Chaque instance de tableau représente la ligne visible lorsque le filtre correspondant est appliqué.
 
 ```json
 {

@@ -1,14 +1,14 @@
 ---
 title: 'Office Exemple de scénario de scripts : calculatrice de notes'
 description: Exemple qui détermine le pourcentage et les notes de lettre d’une classe d’étudiants.
-ms.date: 12/17/2020
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: e2ef6e7522fc88219bf6ba40900a1ecceecb263b
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 2d98e68f37418ade238a707cb74cc7ccf47e8f59
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232696"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313791"
 ---
 # <a name="office-scripts-sample-scenario-grade-calculator"></a>Office Exemple de scénario de scripts : calculatrice de notes
 
@@ -27,11 +27,9 @@ Vous allez développer un script qui totale les notes pour chaque catégorie de 
 
 1. Téléchargez <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> sur votre OneDrive.
 
-2. Ouvrez le Excel sur le Web.
+1. Ouvrez le Excel sur le Web.
 
-3. Sous **l’onglet Automatiser,** ouvrez **Tous les scripts.**
-
-4. Dans le **volet Des tâches de** l’Éditeur de code, appuyez sur Nouveau **script** et collez le script suivant dans l’éditeur.
+1. Sous **l’onglet Automatiser,** sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -174,7 +172,7 @@ Vous allez développer un script qui totale les notes pour chaque catégorie de 
     }
     ```
 
-5. Renommez le script en calculateur **de** notes et enregistrez-le.
+1. Renommez le script en calculateur **de notes** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
@@ -182,8 +180,8 @@ Exécutez le script **Calculatrice de** notes sur la seule feuille de calcul. Le
 
 ### <a name="before-running-the-script"></a>Avant d’exécution du script
 
-:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Feuille de calcul qui affiche des lignes de scores pour les étudiants":::
+:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Feuille de calcul qui affiche des lignes de scores pour les étudiants.":::
 
 ### <a name="after-running-the-script"></a>Après l’exécution du script
 
-:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données des scores des étudiants avec des cellules non valides dans des totaux rouges pour les lignes d’étudiants valides":::
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données de score de l’étudiant avec des cellules non valides dans des totaux rouges pour les lignes d’étudiants valides.":::

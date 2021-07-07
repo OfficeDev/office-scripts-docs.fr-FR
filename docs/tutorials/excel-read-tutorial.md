@@ -3,12 +3,12 @@ title: Lire les données d’un classeur avec les scripts Office d’Excel pour 
 description: Didacticiel des scripts Office sur la lecture de données à partir de classeurs et l’évaluation de ces données dans le script.
 ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: aa05533f0d7cd3b53e4eb616ae3216d672d026f9
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 38a8c64fcf0ed998049c2b95c6d4ede148b6925b
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074689"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313987"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 
@@ -70,8 +70,8 @@ Dans le reste du didacticiel, nous allons normaliser ces données à l’aide d�
 
 6. Exécutez le script.
 7. Dans la console, `[Array[1]]` doit s’afficher. Ce n’est pas un nombre, car les plages sont des tableaux de données à deux dimensions. Cette plage à deux dimensions est directement journalisée dans la console. Heureusement, l’éditeur de code vous permet de voir le contenu du tableau.
-8. Lorsqu’un tableau à deux dimensions est journalisé sur la console, il regroupe les valeurs de colonne sous chaque ligne. Développez le journal du tableau en appuyant sur le triangle bleu.
-9. Développez le deuxième niveau du tableau en appuyant sur le triangle bleu nouvellement révélé. Vous devriez maintenant voir ceci :
+8. Lorsqu’un tableau à deux dimensions est journalisé sur la console, il regroupe les valeurs de colonne sous chaque ligne. Développez le journal du tableau en sélectionnant le triangle bleu.
+9. Développez le deuxième niveau du tableau en sélectionnant le triangle bleu nouvellement révélé. Vous devriez maintenant voir ceci :
 
     :::image type="content" source="../images/tutorial-4.png" alt-text="Journal de la console affichant la sortie « −20,05 », imbriquée dans deux tableaux.":::
 

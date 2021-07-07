@@ -1,14 +1,14 @@
 ---
 title: Envoyer par courrier électronique les images d Excel graphique et d’un tableau
 description: Découvrez comment utiliser Office scripts et Power Automate pour extraire et envoyer par e-mail les images d’un Excel graphique et d’un tableau.
-ms.date: 05/06/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 5eb20025462614d62774ae6c088bdf397dcfb39d
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 50bc65c82df7f5fc68dbebf942c4f607bb6af60a
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074591"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313840"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Utiliser Office scripts et Power Automate pour envoyer des images électroniques d’un graphique et d’un tableau
 
@@ -40,11 +40,11 @@ Cette solution est en deux parties :
 1. [Un script Office pour calculer et extraire Excel graphique et tableau](#sample-code-calculate-and-extract-excel-chart-and-table)
 1. Un flux Power Automate pour appeler le script et envoyer par courrier électronique les résultats. Pour obtenir un exemple sur la procédure à suivre, voir Créer un flux de travail automatisé [avec Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).
 
+## <a name="sample-excel-file"></a>Exemple Excel fichier
+
+Téléchargez <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+
 ## <a name="sample-code-calculate-and-extract-excel-chart-and-table"></a>Exemple de code : calculer et extraire Excel graphique et tableau
-
-Le script suivant calcule et extrait un Excel graphique et un tableau.
-
-Téléchargez l’exemple <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> fichier et utilisez-le avec ce script pour l’essayer vous-même !
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReportImages {
@@ -94,7 +94,7 @@ interface ReportImages {
 Ce flux exécute le script et envoie par e-mail les images renvoyées.
 
 1. Créez un **flux de cloud instantané.**
-1. Sélectionnez **Déclencher manuellement un flux et** appuyez sur **Créer.**
+1. Sélectionnez **Déclencher manuellement un flux,** puis **sélectionnez Créer.**
 1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l’action **exécuter le script.** Utilisez les valeurs suivantes pour l’action :
     * **Emplacement** : OneDrive Entreprise
     * **Bibliothèque de documents** : OneDrive
@@ -122,7 +122,7 @@ Ce flux exécute le script et envoie par e-mail les images renvoyées.
     ```
 
     :::image type="content" source="../../images/email-chart-sample-flow-2.png" alt-text="Connecteur de Office 365 Outlook terminé dans Power Automate.":::
-1. Enregistrez le flux et testez-le.
+1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 
 ## <a name="training-video-extract-and-email-images-of-chart-and-table"></a>Vidéo de formation : extraire et envoyer des images par courrier électronique à un graphique et un tableau
 

@@ -1,14 +1,14 @@
 ---
 title: Planifier des entretiens dans Teams
 description: Découvrez comment utiliser des scripts Office pour envoyer une Teams à partir de Excel données.
-ms.date: 05/25/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 66dae536c4a51ff3e028f06bf3aef3c7509d83bb
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: cb24da12637add805d86da4d07ce878509c6a5f6
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074430"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313728"
 ---
 # <a name="office-scripts-sample-scenario-schedule-interviews-in-teams"></a>Office Exemple de scénario de scripts : planifier des entretiens dans Teams
 
@@ -32,7 +32,7 @@ Téléchargez le fichier <a href="hr-schedule.xlsx">hr-schedule.xlsx</a> utilis�
 
 ## <a name="sample-code-extract-table-data-to-schedule-invites"></a>Exemple de code : extraire des données de table pour planifier des invitations
 
-Nommez ce script **Schedule Interviews** pour le flux.
+Ajoutez ce script à votre collection de scripts. Nommez-le **Planifier des entretiens** pour le flux.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): InterviewInvite[] {
@@ -93,7 +93,7 @@ interface InterviewInvite {
 
 ## <a name="sample-code-mark-rows-as-invited"></a>Exemple de code : marquer les lignes comme invitées
 
-Nommez ce script **Enregistrer les invitations envoyées** pour le flux.
+Ajoutez ce script à votre collection de scripts. Nommez-le **Enregistrer les invitations envoyées** pour le flux.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, invites: InterviewInvite[]) {
@@ -135,7 +135,7 @@ interface InterviewInvite {
 ## <a name="sample-flow-run-the-interview-scheduling-scripts-and-send-the-teams-meetings"></a>Exemple de flux : exécuter les scripts de planification d’entretien et envoyer Teams réunions
 
 1. Créez un **flux de cloud instantané.**
-1. Sélectionnez **Déclencher manuellement un flux et** appuyez sur **Créer.**
+1. Sélectionnez **Déclencher manuellement un flux,** puis **sélectionnez Créer.**
 1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** et l’action **de script Exécuter.** Terminez le connecteur avec les valeurs suivantes.
     1. **Emplacement** : OneDrive Entreprise
     1. **Bibliothèque de documents** : OneDrive
@@ -154,8 +154,8 @@ interface InterviewInvite {
     1. **Bibliothèque de documents** : OneDrive
     1. **Fichier**: hr-interviews.xlsx *(choisi via le navigateur de fichiers)*
     1. **Script**: enregistrer les invitations envoyées
-    1. **invite :** **résultat (valeur** Excel) Capture d’écran du connecteur Excel Online (Entreprise) terminé pour enregistrer que les invitations ont été :::image type="content" source="../../images/schedule-interviews-3.png" alt-text="envoyées dans Power Automate.":::
-1. Enregistrez le flux et testez-le.
+    1. **invites**: **résultat** (valeur Excel) Capture d’écran du connecteur Excel Online (Entreprise) terminé pour enregistrer que les invitations ont été :::image type="content" source="../../images/schedule-interviews-3.png" alt-text="envoyées dans Power Automate.":::
+1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 
 ## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Vidéo de formation : envoyer une Teams réunion à partir Excel données
 

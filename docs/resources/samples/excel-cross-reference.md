@@ -1,14 +1,14 @@
 ---
 title: Renvoi de fichiers Excel avec des Power Automate
 description: Découvrez comment utiliser Office scripts et Power Automate pour faire référence à un fichier Excel format.
-ms.date: 06/25/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 89c4a5fa5dcff21681fa20cd4118447d39d9b6da
-ms.sourcegitcommit: a063b3faf6c1b7c294bd6a73e46845b352f2a22d
+ms.openlocfilehash: 0776ce49cacecfa15339cc7c0cd4866daad789ff
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53202868"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313959"
 ---
 # <a name="cross-reference-excel-files-with-power-automate"></a>Renvoi de fichiers Excel avec des Power Automate
 
@@ -20,10 +20,12 @@ Vous êtes un coordinateur d’événements qui est en train de planifier des ha
 
 ## <a name="sample-excel-files"></a>Exemples Excel fichiers
 
-Téléchargez les fichiers suivants utilisés dans cette solution pour l’essayer vous-même !
+Téléchargez les fichiers suivants pour obtenir des workbooks prêts à l’emploi pour l’exemple.
 
 1. <a href="event-data.xlsx">event-data.xlsx</a>
 1. <a href="speaker-registrations.xlsx">speaker-registrations.xlsx</a>
+
+Ajoutez les scripts suivants pour essayer l’exemple vous-même !
 
 ## <a name="sample-code-get-event-data"></a>Exemple de code : obtenir des données d’événement
 
@@ -147,7 +149,7 @@ interface EventData {
 Ce flux extrait les informations d’événement du premier workbook et utilise ces données pour valider le second.
 
 1. Connectez-Power Automate et créez un flux **de cloud instantané.** [](https://flow.microsoft.com)
-1. Sélectionnez **Déclencher manuellement un flux et** appuyez sur **Créer.**
+1. Sélectionnez **Déclencher manuellement un flux,** puis **sélectionnez Créer.**
 1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action :
     * **Emplacement** : OneDrive Entreprise
     * **Bibliothèque de documents** : OneDrive
@@ -169,4 +171,5 @@ Ce flux extrait les informations d’événement du premier workbook et utilise 
     * **Body**: result (_dynamic content from Run script **2**_)
 
     :::image type="content" source="../../images/cross-reference-flow-3.png" alt-text="Connecteur de Office 365 Outlook terminé dans Power Automate.":::
-1. Enregistrez le flux, puis **sélectionnez Tester** pour l’essayer. Vous devriez recevoir un e-mail vous disant « Insérez une insérialisation trouvée. Les données nécessitent votre révision. » Cela indique qu’il existe des différences entre les lignes dans **speaker-registrations.xlsx** et les lignes **dansevent-data.xlsx**. Ouvrez **speaker-registrations.xlsx** pour voir plusieurs cellules mises en surbrillation, où il existe des problèmes potentiels avec les listes d’inscription du haut-parleur.
+1. Enregistrez le flux. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+1. Vous devriez recevoir un e-mail vous disant « Insérez une insérialisation trouvée. Les données nécessitent votre révision. » Cela indique qu’il existe des différences entre les lignes dans **speaker-registrations.xlsx** et les lignes **dansevent-data.xlsx**. Ouvrez **speaker-registrations.xlsx** pour voir plusieurs cellules mises en surbrillation, où il existe des problèmes potentiels avec les listes d’inscription du haut-parleur.

@@ -3,12 +3,12 @@ title: Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 description: Didacticiel sur les notions de base des scripts Office, comprenant l’enregistrement de scripts avec l’enregistreur d’actions et l’écriture de données dans un classeur.
 ms.date: 05/23/2021
 localization_priority: Priority
-ms.openlocfilehash: f9290a3d7dc723b72bfb4913171052472f2361c5
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 6bcf603211aa07920e99178c35c6f405224c29bd
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074668"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313924"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 
@@ -35,10 +35,10 @@ Tout d’abord, il nous faut des données et un petit script de base.
     |Citrons verts |600 |500 |
     |Pamplemousses |900 |700 |
 
-3. Ouvrez l’onglet **Automatiser**. Si vous ne voyez pas l’onglet **Automatiser**, vérifiez dans la section dépassement du ruban en appuyant sur la flèche déroulante vers le bas. Si vous ne voyez toujours pas l’onglet, suivez les conseils de l’article [Résolution des problèmes de scripts Office](../testing/troubleshooting.md#automate-tab-not-appearing-or-office-scripts-unavailable).
-4. Appuyez sur le bouton **Actions d’enregistrement**.
+3. Ouvrez l’onglet **Automatiser**. Si vous ne voyez pas l’onglet **Automatiser**, vérifiez dans la section dépassement du ruban en sélectionnant la flèche déroulante vers le bas. Si vous ne voyez toujours pas l’onglet, suivez les conseils de l’article [Résolution des problèmes de scripts Office](../testing/troubleshooting.md#automate-tab-not-appearing-or-office-scripts-unavailable).
+4. Sélectionnez le bouton **Actions d’enregistrement**.
 5. Sélectionnez les cellules **A2:C2** (la ligne « Oranges ») et choisissez orange comme couleur de remplissage.
-6. Appuyez sur le bouton **Arrêter** pour arrêter l’enregistrement.
+6. Arrêtez l’enregistrement en sélectionnant le bouton **Arrêter** .
 
     Voici ce à quoi votre feuille de calcul doit ressembler (les couleurs peuvent être différentes) :
 
@@ -48,7 +48,7 @@ Tout d’abord, il nous faut des données et un petit script de base.
 
 Le script précédent a coloré la ligne « Oranges » en orange. Nous allons ajouter une ligne jaune pour « Citrons ».
 
-1. Depuis le volet **Détails** à présent ouvert, appuyez sur le bouton **Modifier**.
+1. Depuis le volet **Détails** à présent ouvert, sélectionnez le bouton **Modifier**.
 2. Un code similaire à celui-ci doit apparaître :
 
     ```TypeScript
@@ -69,7 +69,7 @@ Le script précédent a coloré la ligne « Oranges » en orange. Nous allons aj
     selectedSheet.getRange("A3:C3").getFormat().getFill().setColor("yellow");
     ```
 
-4. Testez le script en appuyant sur **Exécuter**. Voici ce à quoi votre feuille de calcul doit maintenant ressembler :
+4. Testez le script en sélectionnant **Exécuter**. Voici ce à quoi votre feuille de calcul doit maintenant ressembler :
 
     :::image type="content" source="../images/tutorial-2.png" alt-text="Feuille de calcul affichant la ligne des données de ventes de fruits avec la ligne « Oranges » mise en évidence par la couleur orange et la ligne « Citrons » par la  couleur jaune.":::
 

@@ -1,14 +1,14 @@
 ---
 title: 'Office Exemple de scénario de scripts : analyser les téléchargements web'
 description: Exemple qui prend des données de trafic Internet brutes dans un Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans une table.
-ms.date: 04/27/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: bdd6b43290e5432d87c4a85a35fbaf32967fbf03
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: ec7ccd2a4f534be825ee4aa358f5d81becc53937
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074458"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313931"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Office Exemple de scénario de scripts : analyser les téléchargements web
 
@@ -29,11 +29,9 @@ Vous allez développer un script qui analyse les données de téléchargement he
 
 1. Téléchargez <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> sur votre OneDrive.
 
-2. Ouvrez le Excel sur le Web.
+1. Ouvrez le Excel sur le Web.
 
-3. Sous **l’onglet Automatiser,** ouvrez **Tous les scripts.**
-
-4. Dans le **volet Des tâches de l’Éditeur** de code, appuyez **sur Nouveau script** et collez le script suivant dans l’éditeur.
+1. Sous **l’onglet Automatiser,** sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -209,11 +207,11 @@ Vous allez développer un script qui analyse les données de téléchargement he
     }
     ```
 
-5. Renommez le script pour **analyser les téléchargements web** et enregistrez-le.
+1. Renommez le script pour **analyser les téléchargements web** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Accédez à l’une **des feuilles de \* \*** calcul Semaine et exécutez le script **Analyser les téléchargements web.** Le script appliquera la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
+Accédez à l’une **des feuilles de \* \*** calcul Semaine et exécutez le script **Analyser les téléchargements web.** Le script applique la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
 
 ### <a name="before-running-the-script"></a>Avant d’exécution du script
 

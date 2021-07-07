@@ -1,14 +1,14 @@
 ---
 title: Différences entre les scripts Office et les compléments Office
 description: Les différences de comportement et d’API entre Office scripts et Office des modules.
-ms.date: 06/02/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 17d66e37c7bf2b1263c0232bb0afb3ee4d29aa36
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: c45fa12369ed8333df0c8f85a2b49900e7079eba
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074563"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313917"
 ---
 # <a name="differences-between-office-scripts-and-office-add-ins"></a>Différences entre les scripts Office et les compléments Office
 
@@ -16,7 +16,7 @@ Comprendre les différences entre Office scripts et les Office pour savoir quand
 
 :::image type="content" source="../images/office-programmability-diagram.png" alt-text="Diagramme à quatre quadrants montrant les zones de mise au point pour Office solutions d’extensibilité. Les scripts Office et les applications web Office sont axés sur le web et la collaboration, mais les scripts Office sont pris en compte par les utilisateurs finaux (tandis que les Office web add-ins ciblent les développeurs professionnels).":::
 
-Office Les scripts s’exécutent jusqu’à la fin avec un bouton manuel ou à l’étape de [Power Automate](https://flow.microsoft.com/), tandis que les Office se poursuivent en fonction de la façon dont ils sont configurés. Par exemple, vous pouvez configurer un Office pour qu’il continue à s’exécute même lorsque son volet Des tâches est fermé. Cela signifie que les Office de gestion conservent l’état au cours d’une session, tandis que Office Scripts ne conservent pas d’état interne entre les séquences. Si la solution que vous construisez nécessite un état de mise à jour, vous devez consulter la [documentation](/office/dev/add-ins) des Office pour en savoir plus sur les Office de développement.
+Office Les scripts s’exécutent jusqu’à la fin avec un bouton manuel ou à l’étape de [Power Automate](https://flow.microsoft.com/), tandis que les Office des modules peuvent continuer à s’exécuter en fonction de leur configuration. Par exemple, vous pouvez configurer un Office pour qu’il continue à s’exécute même lorsque son volet Des tâches est fermé. Cela signifie que les Office de gestion conservent l’état au cours d’une session, tandis que Office Scripts ne conservent pas d’état interne entre les séquences. Si la solution que vous construisez nécessite un état de mise à jour, vous devez consulter la [documentation](/office/dev/add-ins) des Office pour en savoir plus sur les Office de développement.
 
 Le reste de cet article décrit les principales différences entre les Office et Office scripts.
 
@@ -32,7 +32,7 @@ Bien que les OFFICE JavaScript pour les Office et les API Office Scripts partage
 
 ### <a name="events"></a>Événements
 
-Office Les scripts ne supportent pas les événements au niveau du [workbook.](/office/dev/add-ins/excel/excel-add-ins-events) Les scripts sont déclenchés  par les utilisateurs qui appuient sur le bouton Exécuter d’un script ou par le biais Power Automate. Chaque script exécute le code dans une seule `main` méthode, puis se termine.
+Office Les scripts ne supportent pas les événements au niveau du [workbook.](/office/dev/add-ins/excel/excel-add-ins-events) Les scripts sont déclenchés par  les utilisateurs qui sélectionnent le bouton Exécuter pour un script ou par le biais de Power Automate. Chaque script exécute le code dans une seule `main` méthode, puis se termine.
 
 ### <a name="common-apis"></a>API courantes
 

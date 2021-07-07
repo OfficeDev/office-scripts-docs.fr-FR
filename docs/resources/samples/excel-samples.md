@@ -1,28 +1,27 @@
 ---
 title: Scripts de base pour Office scripts dans Excel sur le Web
 description: Collection d’exemples de code à utiliser avec Office scripts dans Excel sur le Web.
-ms.date: 05/17/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 3bf3bd5acd10bc5999db4746a2ed62af85237e48
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 3aaaa7fe8769f6dcd658ae91c577956b56033051
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074556"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313938"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Scripts de base pour Office scripts dans Excel sur le Web
 
 Les exemples suivants sont des scripts simples que vous pouvez essayer sur vos propres workbooks. Pour les utiliser dans Excel sur le Web :
 
 1. Ouvrez l’onglet **Automatiser**.
-2. Appuyez **sur Éditeur de code.**
-3. Appuyez **sur Nouveau script** dans le volet Des tâches de l’Éditeur de code.
-4. Remplacez l’intégralité du script par l’exemple de votre choix.
-5. Appuyez **sur Exécuter** dans le volet Des tâches de l’Éditeur de code.
+1. Sélectionnez **Nouveau script**.
+1. Remplacez l’intégralité du script par l’exemple de votre choix.
+1. Sélectionnez **Exécuter** dans le volet Des tâches de l’Éditeur de code.
 
 ## <a name="script-basics"></a>Principes de base des scripts
 
-Ces exemples montrent les blocs de construction fondamentaux pour Office scripts. Ajoutez-les à vos scripts pour étendre votre solution et résoudre les problèmes courants.
+Ces exemples montrent les blocs de construction fondamentaux pour Office scripts. Développez ces scripts pour étendre votre solution et résoudre les problèmes courants.
 
 ### <a name="read-and-log-one-cell"></a>Lire et enregistrer une cellule
 
@@ -157,7 +156,7 @@ Ces exemples fonctionnent avec des collections d’objets dans le workbook.
 
 ### <a name="iterate-over-collections"></a>Itérer sur les collections
 
-Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel. Il définit également les couleurs de leurs onglets sur une couleur aléatoire.
+Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel. Il définit également les couleurs de leur onglet sur une couleur aléatoire.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -294,7 +293,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="log-the-grand-total-values-from-a-pivottable"></a>Enregistrer les valeurs « Total total » à partir d’un tableau croisé dynamique
 
-Cet exemple recherche le premier tableau croisé dynamique dans le workbook et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).
+Cet exemple recherche le premier tableau croisé dynamique dans le manuel et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).
 
 :::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Tableau croisé dynamique affichant les ventes de fruit avec la ligne Grand Total mise en surbrillante en vert.":::
 
@@ -384,7 +383,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="handle-a-spill-error-returned-from-a-formula"></a>Gérer une `#SPILL!` erreur renvoyée par une formule
 
-Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose entraîne une erreur, elle permet d’effacer la plage `#SPILL` cible et d’appliquer à nouveau la formule.
+Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose entraîne une erreur, elle permet d’effacer la `#SPILL` plage cible et d’appliquer à nouveau la formule.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -418,7 +417,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="suggest-new-samples"></a>Suggérer de nouveaux exemples
 
-Nous vous proposons des suggestions bienvenues pour les nouveaux exemples. S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires en bas de la page.
+Nous vous souhaitons la bienvenue pour les nouveaux exemples. S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires en bas de la page.
 
 ## <a name="see-also"></a>Voir aussi
 
