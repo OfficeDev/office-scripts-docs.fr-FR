@@ -1,30 +1,30 @@
 ---
 title: Filtrer Excel tableau et obtenir une plage visible
 description: Découvrez comment utiliser des scripts Office pour filtrer un tableau Excel et obtenir la plage visible en tant que tableau d’objets.
-ms.date: 05/06/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 196e39ffdfb7e6ff2d0898802665d3c2eccc7dbe
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: b19b826f95c7e7aeb331130fde05afaafe500c3d
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285793"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313952"
 ---
-# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a><span data-ttu-id="fa3b5-103">Filtrer Excel tableau et obtenir une plage visible en tant qu’objet JSON</span><span class="sxs-lookup"><span data-stu-id="fa3b5-103">Filter Excel table and get visible range as a JSON object</span></span>
+# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a><span data-ttu-id="dee57-103">Filtrer Excel tableau et obtenir une plage visible en tant qu’objet JSON</span><span class="sxs-lookup"><span data-stu-id="dee57-103">Filter Excel table and get visible range as a JSON object</span></span>
 
-<span data-ttu-id="fa3b5-104">Cet exemple filtre un tableau Excel et renvoie la plage visible en tant qu’objet JSON.</span><span class="sxs-lookup"><span data-stu-id="fa3b5-104">This sample filters an Excel table and returns the visible range as a JSON object.</span></span> <span data-ttu-id="fa3b5-105">Ce JSON peut être fourni à un flux Power Automate dans le cadre d’une solution plus grande.</span><span class="sxs-lookup"><span data-stu-id="fa3b5-105">This JSON could be provided to a Power Automate flow as part of a larger solution.</span></span>
+<span data-ttu-id="dee57-104">Cet exemple filtre un tableau Excel et renvoie la plage visible en tant qu’objet JSON.</span><span class="sxs-lookup"><span data-stu-id="dee57-104">This sample filters an Excel table and returns the visible range as a JSON object.</span></span> <span data-ttu-id="dee57-105">Ce JSON peut être fourni à un flux Power Automate dans le cadre d’une solution plus grande.</span><span class="sxs-lookup"><span data-stu-id="dee57-105">This JSON could be provided to a Power Automate flow as part of a larger solution.</span></span>
 
-## <a name="example-scenario"></a><span data-ttu-id="fa3b5-106">Exemple de scénario</span><span class="sxs-lookup"><span data-stu-id="fa3b5-106">Example scenario</span></span>
+## <a name="example-scenario"></a><span data-ttu-id="dee57-106">Exemple de scénario</span><span class="sxs-lookup"><span data-stu-id="dee57-106">Example scenario</span></span>
 
-* <span data-ttu-id="fa3b5-107">Appliquer un filtre à une colonne de tableau.</span><span class="sxs-lookup"><span data-stu-id="fa3b5-107">Apply a filter to a table column.</span></span>
-* <span data-ttu-id="fa3b5-108">Extraire la plage visible après le filtrage.</span><span class="sxs-lookup"><span data-stu-id="fa3b5-108">Extract the visible range after filtering.</span></span>
-* <span data-ttu-id="fa3b5-109">Assemblez et renvoyer un objet avec une [structure JSON spécifique.](#sample-json)</span><span class="sxs-lookup"><span data-stu-id="fa3b5-109">Assemble and return an object with a [specific JSON structure](#sample-json).</span></span>
+* <span data-ttu-id="dee57-107">Appliquer un filtre à une colonne de tableau.</span><span class="sxs-lookup"><span data-stu-id="dee57-107">Apply a filter to a table column.</span></span>
+* <span data-ttu-id="dee57-108">Extraire la plage visible après le filtrage.</span><span class="sxs-lookup"><span data-stu-id="dee57-108">Extract the visible range after filtering.</span></span>
+* <span data-ttu-id="dee57-109">Assemblez et renvoyer un objet avec une [structure JSON spécifique.](#sample-json)</span><span class="sxs-lookup"><span data-stu-id="dee57-109">Assemble and return an object with a [specific JSON structure](#sample-json).</span></span>
 
-## <a name="sample-code-filter-a-table-and-get-visible-range"></a><span data-ttu-id="fa3b5-110">Exemple de code : filtrer un tableau et obtenir une plage visible</span><span class="sxs-lookup"><span data-stu-id="fa3b5-110">Sample code: Filter a table and get visible range</span></span>
+## <a name="sample-excel-file"></a><span data-ttu-id="dee57-110">Exemple Excel fichier</span><span class="sxs-lookup"><span data-stu-id="dee57-110">Sample Excel file</span></span>
 
-<span data-ttu-id="fa3b5-111">Le script suivant filtre un tableau et obtient la plage visible.</span><span class="sxs-lookup"><span data-stu-id="fa3b5-111">The following script filters a table and gets the visible range.</span></span>
+<span data-ttu-id="dee57-111">Téléchargez <a href="table-filter.xlsx">table-filter.xlsx</a> pour un livre de travail prêt à l’emploi.</span><span class="sxs-lookup"><span data-stu-id="dee57-111">Download <a href="table-filter.xlsx">table-filter.xlsx</a> for a ready-to-use workbook.</span></span> <span data-ttu-id="dee57-112">Ajoutez le script suivant pour essayer l’exemple vous-même !</span><span class="sxs-lookup"><span data-stu-id="dee57-112">Add the following script to try the sample yourself!</span></span>
 
-<span data-ttu-id="fa3b5-112">Téléchargez l’exemple <a href="table-filter.xlsx">table-filter.xlsx</a> fichier et utilisez-le avec ce script pour l’essayer vous-même !</span><span class="sxs-lookup"><span data-stu-id="fa3b5-112">Download the sample file <a href="table-filter.xlsx">table-filter.xlsx</a> and use it with this script to try it out yourself!</span></span>
+## <a name="sample-code-filter-a-table-and-get-visible-range"></a><span data-ttu-id="dee57-113">Exemple de code : filtrer un tableau et obtenir une plage visible</span><span class="sxs-lookup"><span data-stu-id="dee57-113">Sample code: Filter a table and get visible range</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReturnTemplate {
@@ -88,9 +88,9 @@ interface ReturnTemplate {
 }
 ```
 
-### <a name="sample-json"></a><span data-ttu-id="fa3b5-113">Exemple de JSON</span><span class="sxs-lookup"><span data-stu-id="fa3b5-113">Sample JSON</span></span>
+### <a name="sample-json"></a><span data-ttu-id="dee57-114">Exemple de JSON</span><span class="sxs-lookup"><span data-stu-id="dee57-114">Sample JSON</span></span>
 
-<span data-ttu-id="fa3b5-114">Chaque clé représente une valeur unique d’un tableau.</span><span class="sxs-lookup"><span data-stu-id="fa3b5-114">Each key represents a unique value of a table.</span></span> <span data-ttu-id="fa3b5-115">Chaque instance de tableau représente la ligne visible lorsque le filtre correspondant est appliqué.</span><span class="sxs-lookup"><span data-stu-id="fa3b5-115">Each array instance represents the row that is visible when the corresponding filter is applied.</span></span>
+<span data-ttu-id="dee57-115">Chaque clé représente une valeur unique d’une table.</span><span class="sxs-lookup"><span data-stu-id="dee57-115">Each key represents a unique value of a table.</span></span> <span data-ttu-id="dee57-116">Chaque instance de tableau représente la ligne visible lorsque le filtre correspondant est appliqué.</span><span class="sxs-lookup"><span data-stu-id="dee57-116">Each array instance represents the row that is visible when the corresponding filter is applied.</span></span>
 
 ```json
 {
@@ -136,6 +136,6 @@ interface ReturnTemplate {
 }
 ```
 
-## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a><span data-ttu-id="fa3b5-116">Vidéo de formation : filtrer un tableau Excel et obtenir la plage visible</span><span class="sxs-lookup"><span data-stu-id="fa3b5-116">Training video: Filter an Excel table and get the visible range</span></span>
+## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a><span data-ttu-id="dee57-117">Vidéo de formation : filtrer un tableau Excel et obtenir la plage visible</span><span class="sxs-lookup"><span data-stu-id="dee57-117">Training video: Filter an Excel table and get the visible range</span></span>
 
-<span data-ttu-id="fa3b5-117">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/Mv7BrvPq84A).</span><span class="sxs-lookup"><span data-stu-id="fa3b5-117">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/Mv7BrvPq84A).</span></span>
+<span data-ttu-id="dee57-118">[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/Mv7BrvPq84A).</span><span class="sxs-lookup"><span data-stu-id="dee57-118">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/Mv7BrvPq84A).</span></span>
