@@ -1,14 +1,14 @@
 ---
 title: Ajouter des images à un classeur
 description: Découvrez comment utiliser Office scripts pour ajouter une image à un workbook et la copier sur plusieurs feuilles.
-ms.date: 06/29/2021
+ms.date: 07/12/2021
 localization_priority: Normal
-ms.openlocfilehash: 2ae77ca1295cf6e55443789506242d9cf888f9a1
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 993444aa328356f872db90d1b9d2403bf28be4de
+ms.sourcegitcommit: a86b91c7e104bb7c26efd56de53b9e3976a34828
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313903"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394415"
 ---
 # <a name="add-images-to-a-workbook"></a>Ajouter des images à un classeur
 
@@ -16,9 +16,9 @@ Cet exemple montre comment utiliser des images à l’aide d’Office script dan
 
 ## <a name="scenario"></a>Scénario
 
-Les images vous aident à utiliser la branding, l’identité visuelle et les modèles. Ils contribuent à faire d’un workbook plus qu’un simple tableau.
+Les images vous aident à utiliser la branding, l’identité visuelle et les modèles. Ils aident à faire d’un workbook plus qu’une simple table de jeux.
 
-Le premier exemple copie une image d’une feuille de calcul vers une autre. Cela peut être utilisé pour placer le logo de votre entreprise à la même position sur chaque feuille.
+Le premier exemple copie une image d’une feuille de calcul vers une autre. Cela peut être utilisé pour placer le logo de votre entreprise dans la même position sur chaque feuille.
 
 Le deuxième exemple copie une image à partir d’une URL. Cela peut être utilisé pour copier les photos qu’un collègue a stockées dans un dossier partagé dans un classeur associé.
 
@@ -26,7 +26,7 @@ Le deuxième exemple copie une image à partir d’une URL. Cela peut être util
 
 Téléchargez <a href="add-images.xlsx">add-images.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez les scripts suivants et essayez l’exemple vous-même !
 
-## <a name="sample-code-copy-an-image-across-worksheets"></a>Exemple de code : copier une image sur plusieurs feuilles de calcul
+## <a name="sample-code-copy-an-image-across-worksheets"></a>Exemple de code : copier une image dans plusieurs feuilles de calcul
 
 ```TypeScript
 /**
@@ -67,7 +67,7 @@ async function main(workbook: ExcelScript.Workbook) {
   const image = convertToBase64(data);
 
   // Add the image to a worksheet.
-  workbook.getWorksheet("WebSheet").addImage(image)
+  workbook.getWorksheet("WebSheet").addImage(image);
 }
 
 /**
@@ -78,7 +78,7 @@ function convertToBase64(input: ArrayBuffer) {
   const count = uInt8Array.length;
 
   // Allocate the necessary space up front.
-  const charCodeArray = new Array(count) 
+  const charCodeArray = new Array(count) as string[];
   
   // Convert every entry in the array to a character.
   for (let i = count; i >= 0; i--) { 
