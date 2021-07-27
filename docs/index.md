@@ -5,12 +5,12 @@ title: Documentation sur Office Scripts
 description: Des ressources pour découvrir Office Scripts dans Excel sur le web, avec notamment des tutoriels, des articles conceptuels et des exemples de code.
 ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: baa015f7f6384ccc2cdd7d8a4cbadcbc16167828
-ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
+ms.openlocfilehash: 095fffbc0b92f4efb5dcdcde1cd5970d6fd3c3f1
+ms.sourcegitcommit: de25e0657e7404bb780851b52633222bc3f80e52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639900"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53529217"
 ---
 # <a name="office-scripts-documentation"></a>Documentation sur Office Scripts
 
@@ -129,11 +129,11 @@ Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches c
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <a href="https://stackoverflow.com/questions/tagged/office-scripts" target="_blank"><img src="images/index-landing-page/i_support.svg" alt="API questions" /></a>
+                            <a href="/answers/topics/office-scripts-excel-dev.html" target="_blank"><img src="images/index-landing-page/i_support.svg" alt="API questions" /></a>
                         </div>
                     </div>
                     <div class="cardText">
-                        <a href="https://stackoverflow.com/questions/tagged/office-scripts" target="_blank"><h3>Poser des questions</h3></a>
+                        <a href="/answers/topics/office-scripts-excel-dev.html" target="_blank"><h3>Poser des questions</h3></a>
                     </div>
                 </div>
             </div>

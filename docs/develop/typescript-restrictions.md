@@ -1,14 +1,14 @@
 ---
 title: Restrictions TypeScript dans Office scripts
 description: Les spécificités du compilateur TypeScript et du linter utilisés par l’éditeur de code Office Scripts.
-ms.date: 05/24/2021
+ms.date: 07/14/2021
 localization_priority: Normal
-ms.openlocfilehash: 0bc6b4c0acaf9bb42f8200a0850dd7254632f965
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 530314b624ef4674de60e5cfac7735c90044fb56
+ms.sourcegitcommit: de25e0657e7404bb780851b52633222bc3f80e52
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074444"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53529224"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>Restrictions TypeScript dans Office scripts
 
@@ -54,7 +54,7 @@ Office Les API scripts ne peuvent pas être utilisées dans les cas suivants :
 
 ## <a name="eval-is-not-supported"></a>`eval` n’est pas pris en charge
 
-La fonction [d’val](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/eval) JavaScript n’est pas prise en charge pour des raisons de sécurité.
+La fonction [d’eval](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/eval) JavaScript n’est pas prise en charge pour des raisons de sécurité.
 
 ## <a name="restricted-identifers"></a>Identifers restreints
 
@@ -79,6 +79,31 @@ let filteredArray = myArray.filter((x) => {
     return x % 2 === 0;
   });
 */
+```
+
+## <a name="unions-of-excelscript-types-and-user-defined-types-arent-supported"></a>Les `ExcelScript` syndicats de types et les types définis par l’utilisateur ne sont pas pris en charge
+
+Office Les scripts sont convertis au moment de l’runtime de blocs de code synchrones en blocs de code asynchrone. La communication avec le workbook par le biais [de promesses](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) est masquée par le créateur du script. Cette conversion ne prend pas en charge les [types d’union](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) qui incluent des `ExcelScript` types et des types définis par l’utilisateur. Dans ce cas, le script est renvoyé au script, mais le compilateur de script Office ne l’attend pas et le créateur du script ne peut pas interagir avec `Promise` le `Promise` .
+
+L’exemple de code suivant montre une union non prise en service entre `ExcelScript.Table` et une `MyTable` interface personnalisée.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+  const selectedSheet = workbook.getActiveWorksheet();
+
+  // This union is not supported.
+  const tableOrMyTable: ExcelScript.Table | MyTable = selectedSheet.getTables()[0];
+
+  // `getName` returns a promise that can't be resolved by the script.
+  const name = tableOrMyTable.getName();
+
+  // This logs "{}" instead of the table name.
+  console.log(name);
+}
+
+interface MyTable {
+  getName(): string
+}
 ```
 
 ## <a name="performance-warnings"></a>Avertissements de performances
