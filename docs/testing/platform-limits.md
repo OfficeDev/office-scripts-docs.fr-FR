@@ -3,12 +3,12 @@ title: Limites et exigences de plateforme avec Office scripts
 description: Limites de ressources et prise en charge du navigateur pour Office scripts lorsqu’ils sont utilisés avec Excel sur le Web
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 7e81aaf2f96faeb67c815814fe3b7f1795651318
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 8b7afa02f73476e6e98f231a7a7162ad87607b37
+ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772357"
 ---
 # <a name="platform-limits-and-requirements-with-office-scripts"></a>Limites et exigences de plateforme avec Office scripts
 
@@ -45,11 +45,11 @@ Excel sur le Web présente les limitations suivantes lors de l’appel au workbo
 - Les demandes et réponses sont limitées à **5 Mo.**
 - Une plage est limitée à **cinq millions de cellules.**
 
-Si vous rencontrez des erreurs lorsque vous traitez des jeux de données volumineux, essayez d’utiliser plusieurs plages plus petites plutôt que des plages plus grandes. Pour obtenir un exemple, [consultez l’exemple Écrire un jeu de données](../resources/samples/write-large-dataset.md) de grande taille. Vous pouvez également utiliser des API telles [que Range.getSpecialCells](/javascript/api/office-scripts/excelscript/excelscript.range#getspecialcells-celltype--cellvaluetype-) pour cibler des cellules spécifiques au lieu de grandes plages.
+Si vous rencontrez des erreurs lorsque vous traitez des jeux de données volumineux, essayez d’utiliser plusieurs plages plus petites plutôt que des plages plus grandes. Pour obtenir un exemple, [consultez l’exemple Écrire un jeu de données](../resources/samples/write-large-dataset.md) de grande taille. Vous pouvez également utiliser des API telles [que Range.getSpecialCells](/javascript/api/office-scripts/excelscript/excelscript.range#getSpecialCells_cellType__cellValueType_) pour cibler des cellules spécifiques au lieu de grandes plages.
 
 ### <a name="power-automate"></a>Power Automate
 
-Lorsque vous utilisez Office scripts avec Power Automate, chaque utilisateur est limité à **400** appels à l’action Exécuter le script par jour. Cette limite est réinitialisée à 00h00 UTC.
+Lorsque vous utilisez Office scripts avec Power Automate, chaque utilisateur est limité à **400 appels** à l’action Exécuter le script par jour. Cette limite est réinitialisée à 00h00 UTC.
 
 La plateforme Power Automate a également des limitations d’utilisation, qui sont présentes dans les articles suivants :
 
@@ -59,6 +59,6 @@ La plateforme Power Automate a également des limitations d’utilisation, qui s
 ## <a name="see-also"></a>Voir aussi
 
 - [Résoudre les problèmes Office scripts](troubleshooting.md)
-- [Annuler les effets des scripts Office scripts](undo.md)
+- [Annuler les effets des scripts Office](undo.md)
 - [Améliorer les performances de vos scripts Office de gestion](../develop/web-client-performance.md)
 - [Principes de base des scripts Office scripts dans Excel sur le Web](../develop/scripting-fundamentals.md)

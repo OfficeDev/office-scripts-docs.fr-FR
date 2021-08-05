@@ -1,14 +1,14 @@
 ---
-title: Envoyer par courrier électronique les images d Excel graphique et d’un tableau
+title: Envoyer par e-mail les images d Excel graphique et d’un tableau
 description: Découvrez comment utiliser Office scripts et Power Automate pour extraire et envoyer par e-mail les images d’un Excel graphique et d’un tableau.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 50bc65c82df7f5fc68dbebf942c4f607bb6af60a
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 003769d026eb07f9bade44a40770f6309ee52b8a
+ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772329"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Utiliser Office scripts et Power Automate pour envoyer des images électroniques d’un graphique et d’un tableau
 
@@ -19,7 +19,7 @@ Cet exemple utilise Office scripts et Power Automate pour créer un graphique. I
 * Calculer pour obtenir les derniers résultats.
 * Créez un graphique.
 * Obtenir des images de graphique et de tableau.
-* Envoyez un e-mail aux images Power Automate.
+* Envoyez un e-mail à l’Power Automate.
 
 _Données d’entrée_
 
@@ -95,17 +95,17 @@ Ce flux exécute le script et envoie par e-mail les images renvoyées.
 
 1. Créez un **flux de cloud instantané.**
 1. Sélectionnez **Déclencher manuellement un flux,** puis **sélectionnez Créer.**
-1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l’action **exécuter le script.** Utilisez les valeurs suivantes pour l’action :
+1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action.
     * **Emplacement** : OneDrive Entreprise
     * **Bibliothèque de documents** : OneDrive
     * **Fichier**: votre classeur [(sélectionné avec le sélecateur de fichiers)](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control)
     * **Script**: nom de votre script
 
     :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Le connecteur Excel Online (Entreprise) dans Power Automate.":::
-1. Cet exemple utilise Outlook client de messagerie. Vous pouvez utiliser n’importe quel connecteur de messagerie Power Automate prend en charge, mais le reste des étapes suppose que vous avez choisi Outlook. Ajoutez **une nouvelle étape** qui utilise le connecteur **Office 365 Outlook** et l’action Envoyer et e-mail **(V2).** Utilisez les valeurs suivantes pour l’action :
+1. Cet exemple utilise Outlook client de messagerie. Vous pouvez utiliser n’importe quel connecteur de messagerie Power Automate prend en charge, mais le reste des étapes suppose que vous avez choisi Outlook. Ajoutez **une nouvelle étape** qui utilise le connecteur **Office 365 Outlook** et l’action Envoyer et e-mail **(V2).** Utilisez les valeurs suivantes pour l’action.
     * **À**: Votre compte de messagerie de test (ou e-mail personnel)
     * **Objet :** Veuillez consulter les données du rapport
-    * Pour le **champ Corps,** sélectionnez « Affichage de code » ( `</>` ), puis entrez les entrées suivantes :
+    * Pour le **champ Corps,** sélectionnez « Affichage de code » `</>` () et entrez ce qui suit :
 
     ```HTML
     <p>Please review the following report data:<br>
@@ -122,7 +122,7 @@ Ce flux exécute le script et envoie par e-mail les images renvoyées.
     ```
 
     :::image type="content" source="../../images/email-chart-sample-flow-2.png" alt-text="Connecteur de Office 365 Outlook terminé dans Power Automate.":::
-1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 
 ## <a name="training-video-extract-and-email-images-of-chart-and-table"></a>Vidéo de formation : extraire et envoyer des images par courrier électronique à un graphique et un tableau
 

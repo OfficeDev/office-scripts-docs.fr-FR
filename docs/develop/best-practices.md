@@ -1,16 +1,16 @@
 ---
-title: Meilleures pratiques dans Office scripts
+title: Meilleures pratiques en matière de scripts Office
 description: Comment éviter les problèmes courants et écrire des Office scripts fiables qui peuvent gérer des données ou des entrées inattendues.
 ms.date: 05/10/2021
 localization_priority: Normal
-ms.openlocfilehash: 0697e6fd1fa8f437a4a585d938254deb5a05f20c
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 45dd40ad2f88aecbf66db2a623d92ca81f73657c
+ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52546024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772308"
 ---
-# <a name="best-practices-in-office-scripts"></a>Meilleures pratiques dans Office scripts
+# <a name="best-practices-in-office-scripts"></a>Meilleures pratiques en matière de scripts Office
 
 Ces modèles et pratiques sont conçus pour aider vos scripts à s’exécuter correctement à chaque fois. Utilisez-les pour éviter les pièges courants lorsque vous commencez à automatiser Excel flux de travail.
 
@@ -79,7 +79,7 @@ function main(workbook: ExcelScript.Workbook) {
   // Continue....
 }
 
-function inputPresent( workbook: ExcelScript.Workbook): boolean {
+function inputPresent(workbook: ExcelScript.Workbook): boolean {
   // These tables must be in the workbook for the script.
   const TargetTableName = 'Table1';
   const SourceTableName = 'Table2';
@@ -170,7 +170,7 @@ try {
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Dépannage de Office Scripts](../testing/troubleshooting.md)
+- [Dépannage de Office Scripts](../testing/troubleshooting.md)
 - [Informations de dépannage pour les Power Automate avec Office scripts](../testing/power-automate-troubleshooting.md)
 - [Limites de plateforme avec Office scripts](../testing/platform-limits.md)
 - [Améliorer les performances de vos scripts Office de gestion](web-client-performance.md)

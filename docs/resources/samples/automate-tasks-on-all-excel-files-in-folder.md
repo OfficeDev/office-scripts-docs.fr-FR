@@ -3,12 +3,12 @@ title: Exécuter un script sur tous les fichiers Excel d’un dossier
 description: Découvrez comment exécuter un script sur tous les fichiers Excel dans un dossier sur OneDrive Entreprise.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: bf9c0c486dacced5c3017b267ea65dfd215a5197
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: a595c31c9e0fa7066d6e18aff4d3778f727714b6
+ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313896"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772322"
 ---
 # <a name="run-a-script-on-all-excel-files-in-a-folder"></a>Exécuter un script sur tous les fichiers Excel d’un dossier
 
@@ -81,20 +81,20 @@ Ce flux exécute le script sur chaque classeur dans le dossier « Ventes ».
 
     :::image type="content" source="../../images/all-files-in-folder-sample-flow-1.png" alt-text="Connecteur de OneDrive Entreprise terminé dans Power Automate.":::
 1. Sélectionnez le dossier « Ventes » avec les classeurs extraits.
-1. Pour vous assurer que seuls les workbooks sont sélectionnés, choisissez **Nouvelle étape,** puis **sélectionnez Condition** et définissez les valeurs suivantes :
+1. Pour vous assurer que seuls les workbooks sont sélectionnés, choisissez **Nouvelle étape,** puis **sélectionnez Condition**. Utilisez les valeurs suivantes pour la condition.
     1. **Nom** (valeur OneDrive nom de fichier)
     1. « se termine par »
-    1. « xlsx ».
+    1. « xlsx »
 
     :::image type="content" source="../../images/all-files-in-folder-sample-flow-2.png" alt-text="Le Power Automate condition qui applique les actions suivantes à chaque fichier.":::
-1. Sous la **branche Si oui,** ajoutez **le connecteur Excel Online (Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action :
+1. Sous la **branche Si oui,** ajoutez **le connecteur Excel Online (Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action.
     1. **Emplacement** : OneDrive Entreprise
     1. **Bibliothèque de documents** : OneDrive
-    1. **Fichier**: **ID** (valeur OneDrive’ID de fichier)
+    1. **File**: **ID** (valeur OneDrive’ID de fichier)
     1. **Script**: nom de votre script
 
     :::image type="content" source="../../images/all-files-in-folder-sample-flow-3.png" alt-text="Le connecteur Excel Online (Entreprise) dans Power Automate.":::
-1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 
 ## <a name="training-video-run-a-script-on-all-excel-files-in-a-folder"></a>Vidéo de formation : exécuter un script sur tous Excel fichiers d’un dossier
 

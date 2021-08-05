@@ -3,12 +3,12 @@ title: Renvoi de fichiers Excel avec des Power Automate
 description: Découvrez comment utiliser Office scripts et Power Automate pour faire référence à un fichier Excel format.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 0776ce49cacecfa15339cc7c0cd4866daad789ff
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 3ee3b7851773384c9a51a041c0e93c70accbab7d
+ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772315"
 ---
 # <a name="cross-reference-excel-files-with-power-automate"></a>Renvoi de fichiers Excel avec des Power Automate
 
@@ -150,7 +150,7 @@ Ce flux extrait les informations d’événement du premier workbook et utilise 
 
 1. Connectez-Power Automate et créez un flux **de cloud instantané.** [](https://flow.microsoft.com)
 1. Sélectionnez **Déclencher manuellement un flux,** puis **sélectionnez Créer.**
-1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action :
+1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action.
     * **Emplacement** : OneDrive Entreprise
     * **Bibliothèque de documents** : OneDrive
     * **Fichier**: event-data.xlsx ([sélectionné avec le sélecateur de fichiers](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
@@ -158,18 +158,18 @@ Ce flux extrait les informations d’événement du premier workbook et utilise 
 
     :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Le connecteur Excel Online (Entreprise) pour le premier script dans Power Automate.":::
 
-1. Ajoutez une deuxième **étape nouvelle** qui utilise le connecteur Excel **Online (Entreprise)** avec l’action **exécuter le script.** Utilisez les valeurs suivantes pour l’action :
+1. Ajoutez une deuxième **étape nouvelle** qui utilise le connecteur Excel **Online (Entreprise)** avec l’action **exécuter le script.** Utilisez les valeurs suivantes pour l’action.
     * **Emplacement** : OneDrive Entreprise
     * **Bibliothèque de documents** : OneDrive
     * **Fichier**: speaker-registration.xlsx ([sélectionné avec le sélecateur de fichiers](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Script :** valider l’inscription du haut-parleur
 
     :::image type="content" source="../../images/cross-reference-flow-2.png" alt-text="Le connecteur Excel Online (Entreprise) pour le deuxième script dans Power Automate.":::
-1. Cet exemple utilise Outlook client de messagerie. Vous pouvez utiliser n’importe quel connecteur de messagerie Power Automate prend en charge. Ajoutez **une nouvelle étape** qui utilise le connecteur **Office 365 Outlook** et l’action Envoyer et e-mail **(V2).** Utilisez les valeurs suivantes pour l’action :
+1. Cet exemple utilise Outlook client de messagerie. Vous pouvez utiliser n’importe quel connecteur de messagerie Power Automate prend en charge. Ajoutez **une nouvelle étape** qui utilise le connecteur **Office 365 Outlook** et l’action Envoyer et e-mail **(V2).** Utilisez les valeurs suivantes pour l’action.
     * **À**: Votre compte de messagerie de test (ou e-mail personnel)
     * **Objet**: Résultats de validation d’événement
     * **Body**: result (_dynamic content from Run script **2**_)
 
     :::image type="content" source="../../images/cross-reference-flow-3.png" alt-text="Connecteur de Office 365 Outlook terminé dans Power Automate.":::
-1. Enregistrez le flux. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+1. Enregistrez le flux. Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 1. Vous devriez recevoir un e-mail vous disant « Insérez une insérialisation trouvée. Les données nécessitent votre révision. » Cela indique qu’il existe des différences entre les lignes dans **speaker-registrations.xlsx** et les lignes **dansevent-data.xlsx**. Ouvrez **speaker-registrations.xlsx** pour voir plusieurs cellules mises en surbrillation, où il existe des problèmes potentiels avec les listes d’inscription du haut-parleur.
