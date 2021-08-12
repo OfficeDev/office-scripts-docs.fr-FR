@@ -3,12 +3,12 @@ title: Restrictions TypeScript dans Office scripts
 description: Les spécificités du compilateur TypeScript et du linter utilisés par l’éditeur de code Office Scripts.
 ms.date: 07/14/2021
 localization_priority: Normal
-ms.openlocfilehash: 530314b624ef4674de60e5cfac7735c90044fb56
-ms.sourcegitcommit: de25e0657e7404bb780851b52633222bc3f80e52
+ms.openlocfilehash: ea7b9e34b09409fbe7b4cfdab221a59d50246773167fbe6d1c64bbd61fd0b2df
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53529224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847039"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>Restrictions TypeScript dans Office scripts
 
@@ -16,11 +16,11 @@ Office Les scripts utilisent le langage TypeScript. Dans la plupart des cas, tou
 
 ## <a name="no-any-type-in-office-scripts"></a>Aucun type « any » dans Office Scripts
 
-[L’écriture](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) de types est facultative dans TypeScript, car les types peuvent être déduits. Toutefois, Office Scripts nécessite qu’une variable ne puisse pas être [de type n’importe quel](https://www.typescriptlang.org/docs/handbook/basic-types.html#any). Les scripts explicites et implicites ne sont pas `any` autorisés Office scripts. Ces cas sont signalés comme des erreurs.
+[L’écriture](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) de types est facultative dans TypeScript, car les types peuvent être déduits. Toutefois, Office Scripts requiert qu’une variable ne puisse pas être [de type n’importe quel](https://www.typescriptlang.org/docs/handbook/basic-types.html#any). Les scripts explicites et implicites ne sont pas `any` autorisés Office scripts. Ces cas sont signalés comme des erreurs.
 
 ### <a name="explicit-any"></a>Explicite `any`
 
-Vous ne pouvez pas déclarer explicitement une variable de type Office `any` scripts (c’est-à-dire, `let value: any;` ). Le `any` type provoque des problèmes lorsqu’il est Excel. Par exemple, il `Range` faut savoir qu’une valeur est `string` un , ou `number` `boolean` . Vous recevrez une erreur au moment de la compilation (une erreur avant l’exécution du script) si une variable est explicitement définie en tant que `any` type dans le script.
+Vous ne pouvez pas déclarer explicitement une variable de type Office `any` scripts (c’est-à-dire, `let value: any;` ). Le `any` type provoque des problèmes lorsqu’il est Excel. Par exemple, il `Range` faut savoir qu’une valeur est `string` une , ou `number` `boolean` . Vous recevrez une erreur au moment de la compilation (une erreur avant l’exécution du script) si une variable est explicitement définie en tant que `any` type dans le script.
 
 :::image type="content" source="../images/explicit-any-editor-message.png" alt-text="Message explicite « any » dans le texte de pointeur de l’éditeur de code.":::
 
@@ -54,7 +54,7 @@ Office Les API scripts ne peuvent pas être utilisées dans les cas suivants :
 
 ## <a name="eval-is-not-supported"></a>`eval` n’est pas pris en charge
 
-La fonction [d’eval](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/eval) JavaScript n’est pas prise en charge pour des raisons de sécurité.
+La fonction [d’val](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/eval) JavaScript n’est pas prise en charge pour des raisons de sécurité.
 
 ## <a name="restricted-identifers"></a>Identifers restreints
 

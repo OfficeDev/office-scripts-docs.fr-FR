@@ -3,12 +3,12 @@ title: Filtrer Excel tableau et obtenir une plage visible
 description: Découvrez comment utiliser des scripts Office pour filtrer un tableau Excel et obtenir la plage visible en tant que tableau d’objets.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: b19b826f95c7e7aeb331130fde05afaafe500c3d
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: ea4a96882aa3e16dac9ced22c4944d06c2fdcdfd88d202a69643e24a6a39f239
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847590"
 ---
 # <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtrer Excel tableau et obtenir une plage visible en tant qu’objet JSON
 

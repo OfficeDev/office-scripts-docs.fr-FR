@@ -3,16 +3,16 @@ title: Ajouter des commentaires dans Excel
 description: Découvrez comment utiliser Office scripts pour ajouter des commentaires dans une feuille de calcul.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 77e308d020281c71751e2652f8dbaec00c263e44
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: b57b4112f2092dd83872f63854a8156b2a19384ac1d86a44ab2d9df4e6b7ff7e
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847099"
 ---
 # <a name="add-comments-in-excel"></a>Ajouter des commentaires dans Excel
 
-Cet exemple montre comment ajouter des commentaires à une cellule, y compris [@mentioning](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) un collègue.
+Cet exemple montre comment ajouter des commentaires à une cellule, y compris [@mentioning](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) collègue.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 

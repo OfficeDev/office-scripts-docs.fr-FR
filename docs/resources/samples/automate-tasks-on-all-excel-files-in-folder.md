@@ -3,12 +3,12 @@ title: Exécuter un script sur tous les fichiers Excel d’un dossier
 description: Découvrez comment exécuter un script sur tous les fichiers Excel dans un dossier sur OneDrive Entreprise.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: a595c31c9e0fa7066d6e18aff4d3778f727714b6
-ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
+ms.openlocfilehash: fad1483fbcddaf541874630e8a4e5a06faa784627d44d17ea2ab7ca0af1550a4
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847403"
 ---
 # <a name="run-a-script-on-all-excel-files-in-a-folder"></a>Exécuter un script sur tous les fichiers Excel d’un dossier
 
@@ -90,11 +90,11 @@ Ce flux exécute le script sur chaque classeur dans le dossier « Ventes ».
 1. Sous la **branche Si oui,** ajoutez **le connecteur Excel Online (Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action.
     1. **Emplacement** : OneDrive Entreprise
     1. **Bibliothèque de documents** : OneDrive
-    1. **File**: **ID** (valeur OneDrive’ID de fichier)
+    1. **Fichier**: **ID** (valeur OneDrive’ID de fichier)
     1. **Script**: nom de votre script
 
     :::image type="content" source="../../images/all-files-in-folder-sample-flow-3.png" alt-text="Le connecteur Excel Online (Entreprise) dans Power Automate.":::
-1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 
 ## <a name="training-video-run-a-script-on-all-excel-files-in-a-folder"></a>Vidéo de formation : exécuter un script sur tous Excel fichiers d’un dossier
 

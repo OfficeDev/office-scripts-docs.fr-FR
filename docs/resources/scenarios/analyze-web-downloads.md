@@ -3,12 +3,12 @@ title: 'Office Exemple de scénario de scripts : analyser les téléchargements 
 description: Exemple qui prend des données de trafic Internet brutes dans un Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans une table.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: ec7ccd2a4f534be825ee4aa358f5d81becc53937
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: a3ad957492184e358015d6fed5e3850a55f153b6722d1cd02ee8e4f5b2e39f93
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846323"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Office Exemple de scénario de scripts : analyser les téléchargements web
 
@@ -23,7 +23,7 @@ Vous allez développer un script qui analyse les données de téléchargement he
 - L’l ment de texte
 - Sous-fonctions dans les scripts
 - Mise en forme conditionnelle
-- Tables
+- Tableaux
 
 ## <a name="setup-instructions"></a>Instructions d’installation
 
@@ -207,11 +207,11 @@ Vous allez développer un script qui analyse les données de téléchargement he
     }
     ```
 
-1. Renommez le script pour **analyser les téléchargements web** et enregistrez-le.
+1. Renommez le script pour **analyser les téléchargements Web** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Accédez à l’une **des feuilles de \* \*** calcul Semaine et exécutez le script **Analyser les téléchargements web.** Le script applique la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
+Accédez à l’une **des feuilles de \* \*** calcul Semaine et exécutez le script **Analyser les téléchargements web.** Le script appliquera la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
 
 ### <a name="before-running-the-script"></a>Avant d’exécution du script
 

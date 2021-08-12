@@ -3,12 +3,12 @@ title: Différences entre Office scripts et les macros VBA
 description: Différences de comportement et d’API entre Office scripts et Excel macros VBA.
 ms.date: 05/21/2021
 localization_priority: Normal
-ms.openlocfilehash: c934b546834e018e5bac1da4d90043eb3bb52e63
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 0d94607902fa62e07ce378b94ec3b9c328937e16535b1882b6cad5bd76212b33
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847267"
 ---
 # <a name="differences-between-office-scripts-and-vba-macros"></a>Différences entre Office scripts et les macros VBA
 
@@ -21,7 +21,7 @@ Cet article décrit les principales différences entre les macros VBA (ainsi que
 
 ## <a name="platform-and-ecosystem"></a>Plateforme et écosystème
 
-VBA est conçu pour le bureau et Office scripts sont conçus pour le web. VBA peut interagir avec le bureau d’un utilisateur pour se connecter à des technologies similaires, telles que COM et OLE. Toutefois, VBA n’offre aucun moyen pratique de faire appel à Internet.
+VBA est conçu pour le bureau et Office scripts sont conçus pour le web. VBA peut interagir avec le bureau d’un utilisateur pour se connecter à des technologies similaires, telles que COM et OLE. Toutefois, VBA ne dispose d’aucun moyen pratique pour appeler Internet.
 
 Office Les scripts utilisent un runtime universel pour JavaScript. Cela permet un comportement et une accessibilité cohérents, quel que soit l’ordinateur utilisé pour exécuter le script. Ils peuvent également effectuer des appels vers d’autres services web.
 
@@ -43,7 +43,7 @@ Office Les scripts peuvent être exécutés par le biais Power Automate. Votre w
 
 VBA n’a pas de connecteur Power Automate de connexion. Tous les scénarios VBA pris en charge impliquent qu’un utilisateur participe à l’exécution de la macro.
 
-Essayez les [scripts d’appel à partir d’un didacticiel Power Automate flux](../tutorials/excel-power-automate-manual.md) de travail pour commencer à apprendre à Power Automate. Vous pouvez également consulter l’exemple de rappels de tâches [automatisés](scenarios/task-reminders.md) pour voir Office scripts connectés à Teams via Power Automate dans un scénario réel.
+Essayez les scripts d’appel à partir d’un [didacticiel Power Automate flux](../tutorials/excel-power-automate-manual.md) de travail pour commencer à apprendre à Power Automate. Vous pouvez également consulter l’exemple de rappels de tâches [automatisés](scenarios/task-reminders.md) pour voir Office scripts connectés à Teams via Power Automate dans un scénario réel.
 
 ## <a name="see-also"></a>Voir aussi
 

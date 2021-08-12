@@ -3,12 +3,12 @@ title: Exécuter Office scripts avec Power Automate
 description: Comment obtenir des scripts Office pour Excel sur le Web un flux de travail Power Automate de travail.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 96b07501e07383ace5ff88a8bc6b64ef145ebd5e
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 61b43904cbc46b97a0102230c9c87c1051edd1516668f42fbded63c53c958de9
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846518"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter Office scripts avec Power Automate
 
@@ -22,7 +22,7 @@ Pour commencer à combiner Power Automate et Office scripts, suivez le didactici
 
 ## <a name="excel-online-business-connector"></a>Excel Connecteur En ligne (Entreprise)
 
-[Les connecteurs](/connectors/connectors) sont les ponts entre Power Automate applications. Le [connecteur Excel Online (Entreprise)](/connectors/excelonlinebusiness) permet à vos flux d’accéder à Excel de travail. L’action « Exécuter le script » vous permet d’appeler Office script accessible via le livre de travail sélectionné. Vous pouvez également donner à vos scripts des paramètres d’entrée afin que les données soient fournies par le flux ou que votre script retourne des informations pour les étapes ultérieures du flux.
+[Les connecteurs](/connectors/connectors) sont les ponts entre Power Automate applications. Le [connecteur Excel Online (Entreprise)](/connectors/excelonlinebusiness) permet à vos flux d’accéder Excel de travail. L’action « Exécuter le script » vous permet d’appeler Office script accessible via le livre de travail sélectionné. Vous pouvez également donner à vos scripts des paramètres d’entrée afin que les données soient fournies par le flux ou que votre script retourne des informations pour les étapes ultérieures du flux.
 
 > [!IMPORTANT]
 > L’action « Exécuter le script » donne aux utilisateurs du connecteur Excel un accès significatif à votre workbook et à ses données. En outre, il existe des risques de sécurité avec les scripts qui font des appels d’API externes, comme expliqué dans les appels externes de [Power Automate](external-calls.md). Si votre administrateur est préoccupé par l’exposition de données hautement sensibles, il peut désactiver le connecteur Excel Online ou restreindre l’accès aux scripts Office par le biais des contrôles d’administrateur [Office Scripts](/microsoft-365/admin/manage/manage-office-scripts-settings).
@@ -32,7 +32,7 @@ Pour commencer à combiner Power Automate et Office scripts, suivez le didactici
 Power Automate vous permet de passer des éléments de données entre les étapes de votre flux. Les scripts peuvent être configurés pour accepter les types d’informations dont vous avez besoin et renvoyer tout ce dont vous avez besoin dans votre flux de travail. L’entrée de votre script est spécifiée en ajoutant des paramètres à la `main` fonction (en plus de `workbook: ExcelScript.Workbook` ). La sortie du script est déclarée en ajoutant un type de retour à `main` .
 
 > [!NOTE]
-> Lorsque vous créez un bloc « Exécuter un script » dans votre flux, les paramètres acceptés et les types renvoyés sont remplis. Si vous modifiez les paramètres ou renvoyez des types de votre script, vous devrez revenir au bloc « Exécuter le script » de votre flux. Cela garantit que les données sont en cours d’analyse correctement.
+> Lorsque vous créez un bloc « Exécuter un script » dans votre flux, les paramètres acceptés et les types renvoyés sont remplis. Si vous modifiez les paramètres ou renvoyez des types de votre script, vous devez redéfaire le bloc « Exécuter le script » de votre flux. Cela garantit que les données sont en cours d’analyse correctement.
 
 Les sections suivantes couvrent les détails de l’entrée et de la sortie pour les scripts utilisés dans Power Automate. Si vous souhaitez une approche pratique de l’apprentissage de cette rubrique, essayez de transmettre des données aux [scripts](../tutorials/excel-power-automate-trigger.md) dans un didacticiel de flux Power Automate exécuté automatiquement ou explorez l’exemple de scénario de [rappels](../resources/scenarios/task-reminders.md) de tâches automatisés.
 
@@ -42,7 +42,7 @@ Toutes les entrées de script sont spécifiées en tant que paramètres supplém
 
 Lorsque vous configurez un flux dans Power Automate, vous pouvez spécifier une entrée de script en tant que valeurs statiques, [expressions](/power-automate/use-expressions-in-conditions)ou contenu dynamique. Pour plus d’informations sur le connecteur d’un service individuel, voir la [documentation Power Automate Connector.](/connectors/)
 
-Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, prenons en compte les `main` limites et restrictions suivantes.
+Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, prenons en compte les restrictions et les `main` allocations suivantes.
 
 1. Le premier paramètre doit être de type `ExcelScript.Workbook` . Son nom de paramètre n’a pas d’importance.
 
@@ -71,7 +71,7 @@ Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, p
     }
     ```
 
-8. L’interface ou la définition de classe des objets doit être définie dans le script. Un objet peut également être défini de manière anonyme en ligne, comme dans l’exemple suivant :
+8. L’interface ou la définition de classe des objets doit être définie dans le script. Un objet peut également être défini de manière inline anonyme, comme dans l’exemple suivant :
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook): {name: string, email: string}
@@ -85,11 +85,11 @@ Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, p
 
 Les scripts peuvent renvoyer des données à partir du workbook à utiliser en tant que contenu dynamique dans Power Automate flux. Comme pour les paramètres d’entrée, Power Automate des restrictions sur le type de retour.
 
-1. Les types `string` de `number` base, , et sont pris `boolean` en `void` `undefined` charge.
+1. Les types `string` de base , , et sont pris en `number` `boolean` `void` `undefined` charge.
 
 2. Les types Union utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
 
-3. Les types de tableau sont autorisés s’ils sont de type `string` `number` , ou `boolean` . Elles sont également autorisées si le type est une union prise en charge ou un type littéral pris en charge.
+3. Les types de tableau sont autorisés s’ils sont de type `string` `number` , ou `boolean` . Ils sont également autorisés si le type est une union prise en charge ou un type littéral pris en charge.
 
 4. Les types d’objets utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
 
@@ -97,7 +97,7 @@ Les scripts peuvent renvoyer des données à partir du workbook à utiliser en t
 
 ## <a name="example"></a>Exemple
 
-La capture d’écran suivante montre un flux Power Automate qui est déclenché chaque fois [qu’un](https://github.com/) problème GitHub de sécurité vous est affecté. Le flux exécute un script qui ajoute le problème à une table dans un Excel de travail. S’il existe cinq problèmes ou plus dans ce tableau, le flux envoie un rappel par courrier électronique.
+La capture d’écran suivante montre Power Automate flux de données qui est déclenché chaque fois [qu’un GitHub](https://github.com/) est affecté. Le flux exécute un script qui ajoute le problème à une table dans un Excel de travail. S’il existe cinq problèmes ou plus dans ce tableau, le flux envoie un rappel par courrier électronique.
 
 :::image type="content" source="../images/power-automate-parameter-return-sample.png" alt-text="Éditeur Power Automate de flux affichant l’exemple de flux.":::
 

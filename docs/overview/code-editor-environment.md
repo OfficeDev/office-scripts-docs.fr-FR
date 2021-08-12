@@ -3,12 +3,12 @@ title: Office Environnement d’éditeur de code scripts
 description: Les conditions préalables et les informations d’environnement pour Office scripts dans Excel sur le Web.
 ms.date: 05/27/2021
 localization_priority: Normal
-ms.openlocfilehash: 4a8adc03e372bc769fb44b1c4e3e98c7a4531756
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 5b2f7afa193dc71e13a3d6763c9e8ff8344ee3e8be18e7e996f8431e03510509
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847092"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Office Environnement d’éditeur de code scripts
 
@@ -34,7 +34,7 @@ Office Les scripts ne prend pas en charge l’utilisation de bibliothèques Java
 
 IntelliSense est un ensemble de fonctionnalités d’éditeur de code qui vous aident à écrire du code. Il fournit la mise en surbrillance automatique, la mise en surbrillance des erreurs de syntaxe et la documentation de l’API en ligne.
 
-IntelliSense suggestions à mesure que vous tapez, similaire au texte suggéré dans Excel. Appuyer sur la touche de tabulation ou d’entrée insère le membre suggéré. Déclenchez IntelliSense à l’emplacement actuel du curseur en appuyant sur les touches Ctrl+Espace. Ces suggestions sont particulièrement utiles lors de l’exécution d’une méthode. La signature de méthode affichée par IntelliSense contient une liste d’arguments dont elle a besoin, le type de chaque argument, qu’un argument donné soit obligatoire ou facultatif, et le type de retour de la méthode.
+IntelliSense suggestions que vous tapez, similaires au texte suggéré dans Excel. Appuyer sur la touche de tabulation ou d’entrée insère le membre suggéré. Déclenchez IntelliSense à l’emplacement actuel du curseur en appuyant sur les touches Ctrl+Espace. Ces suggestions sont particulièrement utiles lors de l’exécution d’une méthode. La signature de méthode affichée par IntelliSense contient une liste d’arguments dont elle a besoin, le type de chaque argument, qu’un argument donné soit obligatoire ou facultatif, et le type de retour de la méthode.
 
 Placez le curseur sur une méthode, une classe ou un autre objet code pour voir plus d’informations. Pointez sur une erreur de syntaxe ou une suggestion de code, représentée par une ligne rouge ou jaune, pour voir des suggestions sur la façon de résoudre le problème. Souvent, IntelliSense fournit une option « Correctif rapide » pour modifier automatiquement le code.
 

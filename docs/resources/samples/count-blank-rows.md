@@ -3,12 +3,12 @@ title: Compter les lignes vides sur les feuilles
 description: Découvrez comment utiliser des scripts Office pour détecter s’il existe des lignes vides au lieu de données dans des feuilles de calcul, puis signaler le nombre de lignes vierges à utiliser dans un flux Power Automate données.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: e5b60779d2ca2de5f4cf4e03ddd6ff7372515ad6
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 1aea3670d1bc0b50d7a7dd8d55124049c8871b413b7400b7eaf44df714e94f79
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846983"
 ---
 # <a name="count-blank-rows-on-sheets"></a>Compter les lignes vides sur les feuilles
 

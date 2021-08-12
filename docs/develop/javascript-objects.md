@@ -3,12 +3,12 @@ title: Utilisation d’objets JavaScript intégrés dans les scripts Office
 description: Comment appeler des API JavaScript intégrées à partir d’un script Office dans Excel sur le Web.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 680dd326e357bd06e2fc66cba5bd6745bbd33c24
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 6c15daf0429009d289a17e604caf51b807510442bf6e6fa6e42c85d7457f6164
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846609"
 ---
 # <a name="use-built-in-javascript-objects-in-office-scripts"></a>Utiliser des objets JavaScript intégrés dans Office scripts
 
@@ -19,7 +19,7 @@ JavaScript fournit plusieurs objets intégrés que vous pouvez utiliser dans vos
 
 ## <a name="array"></a>Tableau
 
-[L’objet Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) fournit un moyen standard de travailler avec des tableaux dans votre script. Bien que les tableaux soient des constructions JavaScript standard, ils sont liés Office scripts de deux manières principales : les plages et les collections.
+[L’objet Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) fournit un moyen standard de travailler avec des tableaux dans votre script. Bien que les tableaux soient des constructions JavaScript standard, ils sont liés Office scripts de deux manières principales : plages et collections.
 
 ### <a name="work-with-ranges"></a>Travailler avec des plages
 
@@ -111,7 +111,7 @@ La section [Travailler avec les dates](../resources/samples/excel-samples.md#dat
 
 ## <a name="math"></a>Mathématiques
 
-[L’objet Math](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math) fournit des méthodes et des constantes pour les opérations mathématiques courantes. Celles-ci fournissent de nombreuses fonctions également disponibles dans Excel, sans avoir à utiliser le moteur de calcul du workbook. Cela permet d’éviter à votre script d’avoir à interroger le workbook, ce qui améliore les performances.
+[L’objet Math](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math) fournit des méthodes et des constantes pour les opérations mathématiques courantes. Celles-ci fournissent de nombreuses fonctions également disponibles dans Excel, sans avoir besoin d’utiliser le moteur de calcul dubook. Cela permet d’éviter à votre script d’avoir à interroger le workbook, ce qui améliore les performances.
 
 Le script suivant utilise pour rechercher et enregistrer le plus petit nombre dans la plage `Math.min` **A1:D4.** Notez que cet exemple suppose que la plage entière contient uniquement des nombres, et non des chaînes.
 

@@ -3,16 +3,16 @@ title: Scripts de base pour Office scripts dans Excel sur le Web
 description: Collection d’exemples de code à utiliser avec Office scripts dans Excel sur le Web.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 3aaaa7fe8769f6dcd658ae91c577956b56033051
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 6d74d55556feb93e0f49da375b3c7896d439663f7f922e4ae135b6fdc6a40197
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847544"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Scripts de base pour Office scripts dans Excel sur le Web
 
-Les exemples suivants sont des scripts simples que vous pouvez essayer sur vos propres workbooks. Pour les utiliser dans Excel sur le Web :
+Les exemples suivants sont des scripts simples que vous pouvez essayer sur vos propres workbooks. Pour les utiliser dans les Excel sur le Web :
 
 1. Ouvrez l’onglet **Automatiser**.
 1. Sélectionnez **Nouveau script**.
@@ -293,7 +293,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="log-the-grand-total-values-from-a-pivottable"></a>Enregistrer les valeurs « Total total » à partir d’un tableau croisé dynamique
 
-Cet exemple recherche le premier tableau croisé dynamique dans le manuel et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).
+Cet exemple recherche le premier tableau croisé dynamique dans le workbook et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).
 
 :::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Tableau croisé dynamique affichant les ventes de fruit avec la ligne Grand Total mise en surbrillante en vert.":::
 
@@ -321,7 +321,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="create-a-drop-down-list-using-data-validation"></a>Créer une liste de listes listes à l’aide de la validation des données
 
-Ce script crée une liste de sélection pour une cellule. Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.
+Ce script crée une liste de sélection de listes listes pour une cellule. Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.
 
 :::image type="content" source="../../images/sample-data-validation.png" alt-text="Feuille de calcul montrant une plage de trois cellules contenant des choix de couleur « rouge, bleu, vert » et en de côté, les mêmes choix affichés dans une liste liste.":::
 
@@ -383,7 +383,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="handle-a-spill-error-returned-from-a-formula"></a>Gérer une `#SPILL!` erreur renvoyée par une formule
 
-Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose entraîne une erreur, elle permet d’effacer la `#SPILL` plage cible et d’appliquer à nouveau la formule.
+Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose entraîne une erreur, elle permet d’effacer la plage `#SPILL` cible et d’appliquer à nouveau la formule.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {

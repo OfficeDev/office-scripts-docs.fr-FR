@@ -3,12 +3,12 @@ title: Résoudre les problèmes Office scripts
 description: Conseils et techniques de débogage pour Office scripts, ainsi que des ressources d’aide.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 251ad72588422a86c52c81666164c2c4bd79bdb5
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 4e5fbdfa9314f98ec68dfa35a8b599598cfd4eafb18d428b6431850a562caba0
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847614"
 ---
 # <a name="troubleshoot-office-scripts"></a>Résoudre les problèmes Office scripts
 
@@ -27,7 +27,7 @@ Les erreurs et avertissements au moment de la compilation sont initialement affi
 
 :::image type="content" source="../images/explicit-any-editor-message.png" alt-text="Erreur de compilateur affichée dans le texte de pointeur de l’éditeur de code.":::
 
-Vous pouvez également voir des soulignements d’avertissement orange et des messages d’information gris. Celles-ci indiquent des suggestions de performances ou d’autres possibilités dans le cas où le script peut avoir des effets involontaires. Ces avertissements doivent être examinés attentivement avant de les ignorer.
+Vous pouvez également voir des soulignements d’avertissement orange et des messages d’information gris. Celles-ci indiquent des suggestions de performances ou d’autres possibilités où le script peut avoir des effets involontaires. Ces avertissements doivent être examinés attentivement avant de les ignorer.
 
 ### <a name="runtime-errors"></a>Erreurs d’runtime
 
@@ -61,11 +61,11 @@ console.log("Logging myRange's address.");
 console.log(myRange.getAddress());
 ```
 
-Les chaînes transmises sont affichées dans la console de journalisation de l’éditeur de code, en `console.log` bas du volet Des tâches. Les journaux se  trouvent sous l’onglet Sortie, bien que l’onglet soit automatiquement mis au point lors de l’écriture d’un journal.
+Les chaînes transmises sont affichées dans la console de journalisation de l’éditeur de code, en `console.log` bas du volet Des tâches. Les journaux se  trouvent sous l’onglet Sortie, même si l’onglet prend automatiquement le focus lors de l’écriture d’un journal.
 
 Les journaux n’affectent pas le workbook.
 
-## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Automatiser l’onglet qui n’apparaît pas ou Office scripts indisponibles
+## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>L’onglet Automatiser n’apparaît pas ou Office scripts indisponibles
 
 Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l’onglet **Automatiser** qui n’apparaît pas dans Excel sur le Web.
 

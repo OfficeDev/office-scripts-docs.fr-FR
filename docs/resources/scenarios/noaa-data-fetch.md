@@ -3,12 +3,12 @@ title: 'Office Exemple de scénario de scripts : Graph données de niveau d’ea
 description: Exemple qui extrait des données JSON d’une base de données NOAA et les utilise pour créer un graphique.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: aca2a966e6a0588c597d6f01f52f2c73354de0c1
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: a85078e08356aaf00702f35785146141b366a058925c3ba89ba040b46bc8d405
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847024"
 ---
 # <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Office Exemple de scénario de scripts : extraire et graphiquer des données au niveau de l’eau à partir de la NOAA
 
@@ -113,7 +113,7 @@ Vous allez développer un script qui utilise la commande pour interroger la base
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Sur n’importe quelle feuille de calcul, exécutez le script **NOAA Water Level Chart.** Le script récupère les données de niveau d’eau du 25 décembre 2020 au 27 décembre 2020. Les variables au début du script peuvent être modifiées pour utiliser des dates différentes ou `const` obtenir des informations de station différentes. [L’API CO-OPS pour](https://api.tidesandcurrents.noaa.gov/api/prod/) la récupération des données décrit comment obtenir toutes ces données.
+Sur n’importe quelle feuille de calcul, exécutez le script **NOAA Water Level Chart.** Le script récupère les données de niveau d’eau du 25 décembre 2020 au 27 décembre 2020. Les variables au début du script peuvent être modifiées pour utiliser des dates différentes ou `const` obtenir des informations de station différentes. [L’API CO-OPS pour la](https://api.tidesandcurrents.noaa.gov/api/prod/) récupération des données décrit comment obtenir toutes ces données.
 
 ### <a name="after-running-the-script"></a>Après l’exécution du script
 

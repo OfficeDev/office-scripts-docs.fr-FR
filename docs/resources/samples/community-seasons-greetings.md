@@ -1,14 +1,14 @@
 ---
 title: Message d’accueil de saison
 description: Découvrez comment utiliser des scripts Office pour afficher une arborescence d’arbre d’arbre Excel sur le Web.
-ms.date: 04/28/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: a328ba66fedc245ff73300d7f47cd339ec87234f
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 3474a3e4a87257bba75132b029b57b0c28c922d1b901cda10068d5998d895c53
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846602"
 ---
 # <a name="seasons-greetings"></a>Message d’accueil de saison
 
@@ -16,11 +16,11 @@ Ce script a été fourni par [Megan Black](https://www.linkedin.com/in/lesblackc
 
 Profitez!.
 
-[Regardez le script de message d’accueil « Les’s IT Blog » en action sur la chaîne YouTube « Les’s IT Blog](https://youtu.be/HBiGEkzmkgo)».
+[Regardez le script de message d’accueil](https://youtu.be/HBiGEkzmkgo)de bienvenue en action sur la chaîne YouTube « Les’s IT Blog ».
 
 ## <a name="script"></a>Script
 
-Téléchargez le fichier <a href="happy-tree.xlsx">happy-tree.xlsx</a> utilisé dans cette solution pour l’essayer vous-même !
+Téléchargez <a href="happy-tree.xlsx">happy-tree.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
 
 ```TypeScript
 /* Original version by Leslie Black.  */

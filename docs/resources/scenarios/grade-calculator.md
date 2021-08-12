@@ -3,12 +3,12 @@ title: 'Office Exemple de scénario de scripts : calculatrice de notes'
 description: Exemple qui détermine le pourcentage et les notes de lettre d’une classe d’étudiants.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 2d98e68f37418ade238a707cb74cc7ccf47e8f59
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 9cef386939ee0740911247e4d494d0b19155577b03d275d026a433e2990d1a61
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847277"
 ---
 # <a name="office-scripts-sample-scenario-grade-calculator"></a>Office Exemple de scénario de scripts : calculatrice de notes
 
@@ -184,4 +184,4 @@ Exécutez le script **Calculatrice de** notes sur la seule feuille de calcul. Le
 
 ### <a name="after-running-the-script"></a>Après l’exécution du script
 
-:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données de score de l’étudiant avec des cellules non valides dans des totaux rouges pour les lignes d’étudiants valides.":::
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données des scores des étudiants avec des cellules non valides dans des totaux rouges pour les lignes d’étudiants valides.":::

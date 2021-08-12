@@ -1,14 +1,14 @@
 ---
 title: Combiner les données de plusieurs tables Excel dans une seule table
 description: Découvrez comment utiliser Office scripts pour combiner les données de plusieurs tables Excel dans une seule table.
-ms.date: 05/03/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 2b9bb4d0db2ddd67e1cba10dbff707c59ea27501
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: f8285ac2302ef30de66c2bdbfb9277f83a3a75690d59a1e9cb066f544eeffb19
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846973"
 ---
 # <a name="combine-data-from-multiple-excel-tables-into-a-single-table"></a>Combiner les données de plusieurs tables Excel dans une seule table
 
@@ -19,9 +19,11 @@ Il existe deux variantes de ce script :
 1. Le [premier script](#sample-code-combine-data-from-multiple-excel-tables-into-a-single-table) combine toutes les tables du Excel fichier.
 1. Le [deuxième script obtient](#sample-code-combine-data-from-multiple-excel-tables-in-select-worksheets-into-a-single-table) de manière sélective les tableaux d’un ensemble de feuilles de calcul.
 
-## <a name="sample-code-combine-data-from-multiple-excel-tables-into-a-single-table"></a>Exemple de code : combiner les données de plusieurs tables Excel dans une seule table
+## <a name="sample-excel-file"></a>Exemple Excel fichier
 
-Téléchargez l’exemple <a href="tables-copy.xlsx">tables-copy.xlsx</a> fichier et utilisez-le avec le script suivant pour l’essayer vous-même !
+Téléchargez <a href="tables-copy.xlsx">tables-copy.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez les scripts suivants pour essayer l’exemple vous-même !
+
+## <a name="sample-code-combine-data-from-multiple-excel-tables-into-a-single-table"></a>Exemple de code : combiner les données de plusieurs tables Excel dans une seule table
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {

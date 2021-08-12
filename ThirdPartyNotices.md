@@ -1,10 +1,10 @@
-## <a name="legal-notices"></a>Mentions légales
-Microsoft et tous les contributeurs vous accordent une licence à la documentation Microsoft et à d’autres contenus de ce référentiel sous la [licence publique internationale 4,0 de Creative](https://creativecommons.org/licenses/by/4.0/legalcode), d’attribution de contenu, voir le fichier de [licence](LICENSE) et vous accorder une licence à tout code dans le référentiel sous la [licence MIT](https://opensource.org/licenses/MIT), consultez le fichier de [Code de licence](LICENSE-CODE) .
+## <a name="legal-notices"></a>Avis juridiques
+Microsoft et tous les collaborateurs vous accordent une licence pour la documentation Microsoft et d’autres contenus dans ce référentiel sous la licence publique internationale [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/legalcode), consultez le fichier [LICENSE](LICENSE) et accordez-vous une licence pour tout code dans le référentiel sous la licence [MIT](https://opensource.org/licenses/MIT), consultez le fichier [LICENSE-CODE.](LICENSE-CODE)
 
-Microsoft, Windows, Microsoft Azure et/ou d’autres produits et services Microsoft mentionnés dans la documentation peuvent être des marques ou des marques déposées de Microsoft aux États-Unis et/ou dans d’autres pays.
-Les licences pour ce projet ne vous permettent pas de vous accorder des droits d’utilisation des noms, logos ou marques de Microsoft.
-Les conseils de la marque générale de Microsoft sont http://go.microsoft.com/fwlink/?LinkID=254653disponibles à l’adresse.
+Microsoft, Windows, Microsoft Azure et/ou d’autres produits et services Microsoft référencés dans la documentation peuvent être des marques ou des marques déposées de Microsoft aux États-Unis et/ou dans d’autres pays.
+Les licences de ce projet ne vous accordent pas le droit d’utiliser des noms, des logos ou des marques Microsoft.
+Microsoft’s general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653 .
 
-Vous trouverez des informations sur la confidentialité à l’adresse suivante :https://privacy.microsoft.com/en-us/
+Les informations de confidentialité sont disponibles à l' https://privacy.microsoft.com/en-us/
 
-Microsoft et tous les contributeurs réservent tous les droits, qu’ils soient sous leurs droits d’auteur, brevets ou marques de sous-traitants, par implication, estoppel ou autre.
+Microsoft et les collaborateurs se réservent tous les autres droits, que ce soit sous leurs droits d’auteur, brevets ou marques respectives, que ce soit par implication, par défaut ou autrement.

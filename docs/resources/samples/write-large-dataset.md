@@ -1,16 +1,16 @@
 ---
-title: Écrire un jeu de données de grande taille
+title: Rédiger un grand ensemble de données
 description: Découvrez comment fractionner un jeu de données de grande taille en opérations d’écriture plus petites Office scripts.
 ms.date: 05/13/2021
 localization_priority: Normal
-ms.openlocfilehash: 06abb58c61c18620d638ab3eb61ea68398bf20aa
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: ec058bb1e3aabea52b0127c26b4c4a1352914fb575105ff4a90f82b222d6251d
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847583"
 ---
-# <a name="write-a-large-dataset"></a>Écrire un jeu de données de grande taille
+# <a name="write-a-large-dataset"></a>Rédiger un grand ensemble de données
 
 `Range.setValues()`L’API place les données dans une plage. Cette API présente des limitations en fonction de différents facteurs, tels que la taille des données et les paramètres réseau. Cela signifie que si vous essayez d’écrire une grande quantité d’informations dans un workbook en une seule opération, vous devrez écrire les données par lots plus petits afin de mettre à jour de manière fiable une grande plage [.](../../testing/platform-limits.md)
 
@@ -146,6 +146,6 @@ function getRandomString(length: number): string {
 }
 ```
 
-## <a name="training-video-write-a-large-dataset"></a>Vidéo de formation : Écrire un jeu de données de grande taille
+## <a name="training-video-write-a-large-dataset"></a>Vidéo de formation : écrire un jeu de données de grande taille
 
 [Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/BP9Kp0Ltj7U).

@@ -3,16 +3,16 @@ title: Supprimer des liens hypertexte de chaque cellule d’une Excel de calcul
 description: Découvrez comment utiliser des scripts Office pour supprimer des liens hypertexte de chaque cellule d’une Excel de calcul.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: dc33eb639edac8ada29824a53440031942e59179
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 498d55ea1ee7926ab124d00795825660005c5e38e73ed5d90fe8f9208a583908
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847428"
 ---
 # <a name="remove-hyperlinks-from-each-cell-in-an-excel-worksheet"></a>Supprimer des liens hypertexte de chaque cellule d’une Excel de calcul
 
- Cet exemple permet d’effacer tous les liens hypertexte de la feuille de calcul actuelle. Il parcourt la feuille de calcul et s’il existe un lien hypertexte associé à la cellule, il effacera le lien hypertexte tout en conservant la valeur de la cellule telle quelle. Enregistre également le temps qu’il faut pour effectuer la traversée.
+ Cet exemple permet d’effacer tous les liens hypertexte de la feuille de calcul actuelle. Il parcourt la feuille de calcul et, s’il existe un lien hypertexte associé à la cellule, il effacera le lien hypertexte tout en conservant la valeur de la cellule telle quelle. Enregistre également le temps qu’il faut pour effectuer la traversée.
 
 > [!NOTE]
 > Cela fonctionne uniquement si le nombre de cellules est < 10 000.
