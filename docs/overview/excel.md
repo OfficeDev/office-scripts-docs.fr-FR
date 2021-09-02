@@ -3,12 +3,12 @@ title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
 ms.date: 07/04/2021
 localization_priority: Priority
-ms.openlocfilehash: 30058bb2e372e4ad0e344de6202462a744f4e65df9964a8b2329f8b3e0cc27f1
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.openlocfilehash: f64adc3604dbaf9ac98563cb9eaf8068286bfeeb
+ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847076"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862081"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
@@ -68,7 +68,7 @@ Après avoir terminé le didacticiel, lisez [Principes de base de l’écriture 
 
 Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un script dans un classeur partagé, tous les personnes ayant accès au groupe peuvent également afficher et exécuter votre script.
 
-Si vous souhaitez en savoir plus sur le partage et le non-partage de scripts, veuillez consulter l'article [Partage de scripts Office dans Excel pour le web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b).
+Si vous souhaitez en savoir plus sur le partage et le non-partage de scripts, veuillez consulter l'article [Partage de scripts Office dans Excel pour le web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b).
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur le stockage des scripts dans votre espace OneDrive, veuillez consulter la rubrique [Stockage et propriété des fichiers de scripts Office](script-storage.md).
@@ -87,7 +87,6 @@ Suivez le [tutoriel sur Office Scripts dans Excel sur le web](../tutorials/excel
 - [Référence de l'API Office Scripts](/javascript/api/office-scripts/overview)
 - [Dépannage de Office Scripts](../testing/troubleshooting.md)
 - [Paramètres de Office Scripts dans M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
-- [Introduction à Office Scripts dans Excel (sur support.office.com)](https://support.office.com/article/introduction-to-office-scripts-in-excel-9fbe283d-adb8-4f13-a75b-a81c6baf163a)
-- [Partager des scénarios de bureau en Excel pour le Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)
+- [Introduction à Office Scripts dans Excel](https://support.microsoft.com/office/9fbe283d-adb8-4f13-a75b-a81c6baf163a)
+- [Partager des scénarios de bureau en Excel pour le Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b)
 - [Centre de développement de scripts Office](https://developer.microsoft.com/office-scripts)
-

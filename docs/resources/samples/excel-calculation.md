@@ -3,12 +3,12 @@ title: Gérer le mode de calcul dans Excel
 description: Découvrez comment utiliser Office Scripts pour gérer le mode de calcul dans Excel sur le Web.
 ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: d33c4f21b21333ccefe26effc3df70235978b480a999364793e9a45d21dfba7f
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.openlocfilehash: ee43c3c0477f0d70078cae271081bc5e1e008960
+ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846707"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862151"
 ---
 # <a name="manage-calculation-mode-in-excel"></a>Gérer le mode de calcul dans Excel
 
@@ -18,7 +18,7 @@ Cet exemple montre comment utiliser le [mode de calcul](/javascript/api/office-s
 
 Le recalcul des workbooks avec un grand nombre de formules peut prendre un certain temps. Au lieu de laisser Excel contrôler le moment où les calculs ont lieu, vous pouvez les gérer dans le cadre de votre script. Cela permet d’améliorer les performances dans certains scénarios.
 
-L’exemple de script définit le mode de calcul sur manuel. Cela signifie que le workbook ne recalcule les formules que lorsque le script l’indique (ou que vous calculez manuellement via [l’interface utilisateur).](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4) Le script affiche ensuite le mode de calcul actuel et recalcule entièrement le workbook entier.
+L’exemple de script définit le mode de calcul sur manuel. Cela signifie que le workbook ne recalcule les formules que lorsque le script l’indique (ou que vous calculez manuellement via [l’interface utilisateur).](https://support.microsoft.com/office/73fc7dac-91cf-4d36-86e8-67124f6bcce4) Le script affiche ensuite le mode de calcul actuel et recalcule entièrement le workbook entier.
 
 ## <a name="sample-code-control-calculation-mode"></a>Exemple de code : mode de calcul de contrôle
 

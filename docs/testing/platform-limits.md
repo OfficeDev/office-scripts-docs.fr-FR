@@ -3,12 +3,12 @@ title: Limites et exigences de plateforme avec Office scripts
 description: Limites de ressources et prise en charge du navigateur pour Office scripts lorsqu’ils sont utilisés avec Excel sur le Web
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: e6a9baa7adac438c88767ae9b4138cc0a6b31f1c5b05ca74ad8b0a50b079075b
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.openlocfilehash: e60a7ecd00237bb704819d04b90e1d9ac974d4a6
+ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847397"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862228"
 ---
 # <a name="platform-limits-and-requirements-with-office-scripts"></a>Limites et exigences de plateforme avec Office scripts
 
@@ -30,7 +30,7 @@ Votre navigateur a besoin de cookies tiers activés pour afficher l’onglet **A
 #### <a name="instructions-for-adjusting-cookie-settings-in-popular-browsers"></a>Instructions d’ajustement des paramètres de cookie dans les navigateurs populaires
 
 - [Chrome](https://support.google.com/chrome/answer/95647)
-- [Microsoft Edge](https://support.microsoft.com/microsoft-edge/temporarily-allow-cookies-and-site-data-in-microsoft-edge-597f04f2-c0ce-f08c-7c2b-541086362bd2)
+- [Microsoft Edge](https://support.microsoft.com/microsoft-edge/597f04f2-c0ce-f08c-7c2b-541086362bd2)
 - [Firefox](https://support.mozilla.org/kb/disable-third-party-cookies)
 - [Safari](https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac)
 
@@ -49,7 +49,7 @@ Si vous rencontrez des erreurs lorsque vous traitez des jeux de données volumin
 
 ### <a name="power-automate"></a>Power Automate
 
-Lorsque vous utilisez Office scripts avec Power Automate, chaque utilisateur est limité à **400** appels à l’action Exécuter le script par jour. Cette limite est réinitialisée à 00h00 UTC.
+Lorsque vous utilisez Office scripts avec Power Automate, chaque utilisateur est limité à **400 appels** à l’action Exécuter le script par jour. Cette limite est réinitialisée à 00h00 UTC.
 
 La plateforme Power Automate a également des limitations d’utilisation, qui sont présentes dans les articles suivants :
 

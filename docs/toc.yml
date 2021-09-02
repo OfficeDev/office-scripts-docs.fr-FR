@@ -67,6 +67,8 @@ items:
                 href: resources/samples/copy-tables-combine.md
           - name: Notions intermédiaires
             items:
+              - name: Convertir des fichiers CSV
+                href: resources/samples/convert-csv.md
               - name: Feuilles de calcul de référence croisée
                 href: resources/samples/excel-cross-reference.md
               - name: Compter les lignes vides dans les feuilles de calcul
