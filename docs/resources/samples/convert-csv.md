@@ -3,12 +3,12 @@ title: Convertir des fichiers CSV en Excel de travail
 description: Découvrez comment utiliser des scripts Office et des Power Automate pour créer des .xlsx à partir .csv fichiers.
 ms.date: 07/19/2021
 localization_priority: Normal
-ms.openlocfilehash: 0208453c1c60c5458e8f5e3978fe930d5b81377b90d402df738097c653665a2c
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.openlocfilehash: d67be06dc038fc22215426e5f7143e0af9ba9f0c
+ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847502"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862196"
 ---
 # <a name="convert-csv-files-to-excel-workbooks"></a>Convertir des fichiers CSV en Excel de travail
 
@@ -61,7 +61,7 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 }
 ```
 
-## <a name="power-automate-flow-create-new-xlsx-files"></a>Power Automate flux : créer des fichiers .xlsx de données
+## <a name="power-automate-flow-create-new-xlsx-files"></a>Power Automate flux : créer des fichiers .xlsx fichiers
 
 1. Connectez-Power Automate et créez un **flux cloud programmé.** [](https://flow.microsoft.com)
 1. Définissez le flux sur **Répéter tous les** « 1 » « Jour », puis sélectionnez **Créer.**
@@ -75,7 +75,7 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 
     :::image type="content" source="../../images/convert-csv-flow-2.png" alt-text="Connecteur de OneDrive Entreprise terminé dans Power Automate.":::
 1. Ajoutez une condition de sorte que le flux fonctionne uniquement sur .csv fichiers. Ajoutez **une nouvelle étape** qui est le contrôle **condition.** Utilisez les valeurs suivantes pour la **condition**.
-    * **Choose a value**: *Name* (dynamic content from List files **in folder**). Notez que ce contenu dynamique   a plusieurs résultats, donc un contrôle Appliquer à chaque valeur entoure la **condition**.
+    * **Choose a value**: *Name* (dynamic content from List files **in folder**). Notez que ce contenu dynamique a plusieurs résultats, donc un contrôle **Appliquer**  à chaque valeur entoure la **condition**.
     * **se termine par** (à partir de la liste liste
     * **Choisissez une valeur**: .csv
 
@@ -86,7 +86,7 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 1. Faites le nouveau fichier .xlsx, en utilisant le modèle Excel en tant que contenu de base. Ajoutez **une nouvelle étape** qui utilise le connecteur **OneDrive Entreprise** et l’action Créer **un** fichier. Utilisez les valeurs ci-après.
     * **Chemin d’accès du** dossier : /output
     * **Nom de fichier** *: nom sans extension*.xlsx (choisissez  le nom sans contenu dynamique *d’extension* dans les fichiers de liste du dossier et tapez manuellement « .xlsx » après celui-ci)
-    * **Contenu du fichier**: *contenu de fichier* (contenu dynamique à partir du modèle Get **Excel)**
+    * **Contenu du fichier**: *contenu de fichier* (contenu dynamique à partir de Get Excel **template)**
 
      :::image type="content" source="../../images/convert-csv-flow-4.png" alt-text="Le fichier Obtenir .csv et créer des étapes de fichier du flux Power Automate flux.":::
 1. Exécutez le script pour copier des données dans le nouveau workbook. Ajoutez **le connecteur Excel Online (Entreprise)** avec l’action de script **Exécuter.** Utilisez les valeurs suivantes pour l’action.
@@ -97,5 +97,5 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
     * **csv**: *contenu de fichier* (contenu dynamique à partir de Get .csv **fichier**)
 
     :::image type="content" source="../../images/convert-csv-flow-5.png" alt-text="Le connecteur Excel Online (Entreprise) dans Power Automate.":::
-1. Enregistrez le flux. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+1. Enregistrez le flux. Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 1. Vous devez trouver de nouveaux .xlsx dans le dossier « sortie », ainsi que les fichiers .csv d’origine. Les nouveaux workbooks contiennent les mêmes données que les fichiers CSV.

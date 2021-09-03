@@ -3,12 +3,12 @@ title: Renvoyer les données d’un script vers un flux Power Automate exécuté
 description: Un didacticiel qui présente comment envoyer des e-mails de rappel en exécutant des scripts Office pour Excel sur le web via Power Automate.
 ms.date: 06/29/2021
 localization_priority: Priority
-ms.openlocfilehash: c928ca612e08098c85307e22185e2240f47a5adcdfe028815c4dd837b4501c9f
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.openlocfilehash: 5c021a4d146fc2c0f13c7d7ab560107a1bf5c335
+ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846424"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862221"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement
 
@@ -66,7 +66,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
     let tableValues = table.getRangeBetweenHeaderAndTotal().getValues();
     ```
 
-1. Les dates du tableau sont stockées en utilisant le [Numéro de série de la date d’Excel](https://support.microsoft.com/office/date-systems-in-excel-e7fe7167-48a9-4b96-bb53-5612a800b487). Nous convertissons ces dates en dates JavaScript pour les comparer. Nous ajoutons une fonction d’assistance à notre script. Ajoutez le code suivant à l’extérieur de la fonction`main` :
+1. Les dates du tableau sont stockées en utilisant le [Numéro de série de la date d’Excel](https://support.microsoft.com/office/e7fe7167-48a9-4b96-bb53-5612a800b487). Nous convertissons ces dates en dates JavaScript pour les comparer. Nous ajoutons une fonction d’assistance à notre script. Ajoutez le code suivant à l’extérieur de la fonction`main` :
 
     ```TypeScript
     // Convert the Excel date to a JavaScript Date object.
