@@ -2,13 +2,13 @@
 title: Résoudre les problèmes Office scripts
 description: Conseils et techniques de débogage pour Office scripts, ainsi que des ressources d’aide.
 ms.date: 05/17/2021
-localization_priority: Normal
-ms.openlocfilehash: 4e5fbdfa9314f98ec68dfa35a8b599598cfd4eafb18d428b6431850a562caba0
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 8ea133afdf302994126e8051d275d03b938df370
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847614"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59333978"
 ---
 # <a name="troubleshoot-office-scripts"></a>Résoudre les problèmes Office scripts
 
@@ -23,7 +23,7 @@ Office Les erreurs de script se classent dans l’une des deux catégories suiva
 
 ### <a name="compile-time-errors"></a>Erreurs au moment de la compilation
 
-Les erreurs et avertissements au moment de la compilation sont initialement affichés dans l’éditeur de code. Ces éléments sont affichés par les soulignements ondulés rouges dans l’éditeur. Ils sont également affichés sous l’onglet **Problèmes** en bas du volet Des tâches de l’Éditeur de code. La sélection de l’erreur donne plus de détails sur le problème et suggère des solutions. Les erreurs de compilation doivent être traitées avant l’exécution du script.
+Les erreurs et avertissements au moment de la compilation sont initialement affichés dans l’Éditeur de code. Ces éléments sont affichés par les soulignements ondulés rouges dans l’éditeur. Ils sont également affichés sous l’onglet **Problèmes** en bas du volet Des tâches de l’Éditeur de code. La sélection de l’erreur donne plus de détails sur le problème et suggère des solutions. Les erreurs de compilation doivent être traitées avant l’exécution du script.
 
 :::image type="content" source="../images/explicit-any-editor-message.png" alt-text="Erreur de compilateur affichée dans le texte de pointeur de l’éditeur de code.":::
 
@@ -61,18 +61,18 @@ console.log("Logging myRange's address.");
 console.log(myRange.getAddress());
 ```
 
-Les chaînes transmises sont affichées dans la console de journalisation de l’éditeur de code, en `console.log` bas du volet Des tâches. Les journaux se  trouvent sous l’onglet Sortie, même si l’onglet prend automatiquement le focus lors de l’écriture d’un journal.
+Les chaînes transmises sont affichées dans la console de journalisation de l’éditeur de code, en `console.log` bas du volet Des tâches. Les journaux se  trouvent sous l’onglet Sortie, bien que l’onglet soit automatiquement mis au point lors de l’écriture d’un journal.
 
 Les journaux n’affectent pas le workbook.
 
-## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>L’onglet Automatiser n’apparaît pas ou Office scripts indisponibles
+## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Automatiser l’onglet qui n’apparaît pas ou Office scripts indisponibles
 
 Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l’onglet **Automatiser** qui n’apparaît pas dans Excel sur le Web.
 
 1. [Assurez-vous que votre licence Microsoft 365 inclut Office scripts.](../overview/excel.md#requirements)
 1. [Vérifiez que votre navigateur est pris en charge.](platform-limits.md#browser-support)
 1. [Assurez-vous que les cookies tiers sont activés.](platform-limits.md#third-party-cookies)
-1. [Assurez-vous que votre administrateur n’a pas désactivé Office scripts dans le Centre d’administration Microsoft 365](/microsoft-365/admin/manage/manage-office-scripts-settings).
+1. [Assurez-vous que votre administrateur n’a pas désactivé Office scripts dans le Centre d'administration Microsoft 365](/microsoft-365/admin/manage/manage-office-scripts-settings).
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
@@ -82,9 +82,9 @@ Pour plus d’informations sur l’exécution de scripts Power Automate, voir R�
 
 ## <a name="help-resources"></a>Ressources d’aide
 
-[Stack Overflow est](https://stackoverflow.com/questions/tagged/office-scripts) une communauté de développeurs prêts à vous aider avec les problèmes de codage. Souvent, vous serez en mesure de trouver la solution à votre problème par le biais d’une recherche rapide de stack overflow. Si ce n’est pas le cas, posez votre question et marquez-la avec la balise « office-scripts ». N’oubliez pas de mentionner que vous créez un *script* Office, et non un *Office.*
+[Stack Overflow est](https://stackoverflow.com/questions/tagged/office-scripts) une communauté de développeurs prêts à vous aider avec les problèmes de codage. Souvent, vous serez en mesure de trouver la solution à votre problème par le biais d’une recherche rapide de stack overflow. Si ce n’est pas le cas, posez votre question et marquez-la avec la balise « office-scripts ». N’oubliez pas de mentionner que vous créez un *script Office,* et non un *Office.*
 
-Pour envoyer une demande de fonctionnalité pour Office Scripts, publiez votre idée sur notre [page Voix](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)utilisateur ou, si la demande de fonctionnalité existe déjà, ajoutez votre vote pour cette demande. N’oubliez pas de déposer la demande sous Excel sur le Web dans la catégorie « Macros, scripts et macros » .
+Pour envoyer une demande de fonctionnalité pour Office Scripts, publiez votre idée sur notre [page](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)Voix utilisateur ou, si la demande de fonctionnalité existe déjà, ajoutez votre vote pour cette demande. N’oubliez pas de déposer la demande sous Excel sur le Web dans la catégorie « Macros, scripts et macros » .
 
 En cas de problème avec l’enregistreur d’actions ou l’éditeur, n’hésitez pas à nous le faire savoir. Dans le **menu** ... de l’Éditeur  de code, sélectionnez le bouton Envoyer des commentaires pour partager les problèmes.
 

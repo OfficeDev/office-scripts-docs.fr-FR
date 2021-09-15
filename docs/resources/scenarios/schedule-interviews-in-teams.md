@@ -2,17 +2,17 @@
 title: Planifier des entretiens dans Teams
 description: Découvrez comment utiliser des scripts Office pour envoyer une Teams à partir de Excel données.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 20a6eed884cc82224af8b14ccde4a64ac3a3e8dae8e69b030e51ab7217254d85
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 143b2018824f82c329692909d9a7d1ba10c2485f
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846484"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330869"
 ---
 # <a name="office-scripts-sample-scenario-schedule-interviews-in-teams"></a>Office Exemple de scénario de scripts : planifier des entretiens dans Teams
 
-Dans ce scénario, vous êtes un recrutement RH qui planifiera des réunions d’entretien avec des candidats Teams. Vous gérez le planning d’entretien des candidats dans Excel fichier. Vous devez envoyer l’invitation Teams réunion au candidat et aux intervieweurs. Vous devez ensuite mettre à jour le fichier Excel avec la confirmation que Teams réunions ont été envoyées.
+Dans ce scénario, vous êtes un recrutement RH qui planifiera des réunions d’entretien avec des candidats Teams. Vous gérez la planification des entretiens des candidats dans Excel fichier. Vous devez envoyer l’invitation Teams réunion au candidat et aux intervieweurs. Vous devez ensuite mettre à jour le fichier Excel avec la confirmation que Teams réunions ont été envoyées.
 
 La solution possède trois étapes qui sont combinées en une seule Power Automate flux.
 
@@ -155,7 +155,7 @@ interface InterviewInvite {
     1. **Fichier**: hr-interviews.xlsx *(choisi via le navigateur de fichiers)*
     1. **Script**: enregistrer les invitations envoyées
     1. **invite :** **résultat (valeur** Excel) Capture d’écran du connecteur Excel Online (Entreprise) terminé pour enregistrer que les invitations ont été :::image type="content" source="../../images/schedule-interviews-3.png" alt-text="envoyées dans Power Automate.":::
-1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+1. Enregistrez le flux et testez-le. Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 
 ## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Vidéo de formation : envoyer une Teams réunion à partir Excel données
 

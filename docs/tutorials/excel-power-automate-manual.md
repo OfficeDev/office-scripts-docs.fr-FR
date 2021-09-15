@@ -2,13 +2,13 @@
 title: Appeler des scripts à partir d’un flux manuel Power Automate
 description: Un tutoriel sur l’utilisation des scripts Office dans Power Automate via un déclencheur manuel.
 ms.date: 06/29/2021
-localization_priority: Priority
-ms.openlocfilehash: 7244e3b637e21d66bdc83fda2c0cd23b8445a3a6f38a35b0bc3c35cfa8a58440
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: high
+ms.openlocfilehash: 506481c8b5ee1ae94a4e0a7fc926abc62ba7c5f9
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847662"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330862"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow"></a>Appeler des scripts à partir d’un flux manuel Power Automate
 

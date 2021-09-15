@@ -2,19 +2,19 @@
 title: Effacer le filtre de colonne de tableau en fonction de l’emplacement des cellules actives
 description: Découvrez comment effacer le filtre de colonne de tableau en fonction de l’emplacement des cellules actives.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 5815ae9f40ec1c529bbdc19575239e94712479d3db8a8c602cc33a270538811c
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: bb01292017a027e41230d786337b5bf53293a20c
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847565"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59332984"
 ---
 # <a name="clear-table-column-filter-based-on-active-cell-location"></a>Effacer le filtre de colonne de tableau en fonction de l’emplacement des cellules actives
 
 Cet exemple permet d’effacer le filtre de colonne de tableau en fonction de l’emplacement de la cellule active. Le script détecte si la cellule fait partie d’un tableau, détermine la colonne de tableau et clears any filter that are applied on it.
 
-Si vous souhaitez en savoir plus sur l’enregistrement du filtre avant de l’effacer (et appliquer à nouveau ultérieurement), voir Déplacer des lignes dans les tableaux en enregistreant des [filtres](move-rows-across-tables.md), un exemple plus avancé.
+Si vous souhaitez en savoir plus sur la façon d’enregistrer le filtre avant de l’effacer (et de le réapplager ultérieurement), voir Déplacer des lignes dans les tableaux en enregistreant des [filtres](move-rows-across-tables.md), un exemple plus avancé.
 
 _Avant d’effacer le filtre de colonne (notez la cellule active)_
 

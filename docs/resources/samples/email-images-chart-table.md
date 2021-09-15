@@ -1,14 +1,14 @@
 ---
-title: Envoyer par courrier électronique les images d Excel graphique et d’un tableau
+title: Envoyer par e-mail les images d Excel graphique et d’un tableau
 description: Découvrez comment utiliser Office scripts et Power Automate pour extraire et envoyer par e-mail les images d’un Excel graphique et d’un tableau.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 1fffd81426c8850cb605e2dbc0f9bf023a4a3692c12f8bd7c8dcc9ec45236ab8
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 63a4bdb16bdf5923bf49f26fcba163fc3f0b7354
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846732"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59335066"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Utiliser Office scripts et Power Automate pour envoyer des images électroniques d’un graphique et d’un tableau
 
@@ -19,7 +19,7 @@ Cet exemple utilise Office scripts et Power Automate pour créer un graphique. I
 * Calculer pour obtenir les derniers résultats.
 * Créez un graphique.
 * Obtenir des images de graphique et de tableau.
-* Envoyez un e-mail aux images Power Automate.
+* Envoyez un e-mail à l’Power Automate.
 
 _Données d’entrée_
 

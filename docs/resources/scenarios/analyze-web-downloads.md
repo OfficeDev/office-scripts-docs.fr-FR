@@ -2,13 +2,13 @@
 title: 'Office Exemple de scénario de scripts : analyser les téléchargements web'
 description: Exemple qui prend des données de trafic Internet brutes dans un Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans une table.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: a3ad957492184e358015d6fed5e3850a55f153b6722d1cd02ee8e4f5b2e39f93
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: c1d7948ef2d87c0bb76ea0bd40f9c9e2823d45f1
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846323"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59337235"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Office Exemple de scénario de scripts : analyser les téléchargements web
 
@@ -16,7 +16,7 @@ Dans ce scénario, vous êtes chargé d’analyser les rapports de téléchargem
 
 Vos collègues téléchargent les données brutes dans votre workbook. Chaque ensemble de données de chaque semaine possède sa propre feuille de calcul. Il existe également la **feuille de calcul Résumé** avec un tableau et un graphique qui indiquent les tendances d’une semaine à l’autre.
 
-Vous allez développer un script qui analyse les données de téléchargement hebdomadaires dans la feuille de calcul active. Elle permet d’évaluer l’adresse IP associée à chaque téléchargement et de déterminer si elle provenait ou non des États-Unis. La réponse est insérée dans la feuille de calcul sous la forme d’une valeur booléle (« TRUE » ou « FALSE ») et une mise en forme conditionnelle est appliquée à ces cellules. Les résultats de l’emplacement des adresses IP seront totaux dans la feuille de calcul et copiés dans le tableau récapitulatif.
+Vous allez développer un script qui analyse les données de téléchargement hebdomadaire dans la feuille de calcul active. Elle permet d’évaluer l’adresse IP associée à chaque téléchargement et de déterminer si elle provenait ou non des États-Unis. La réponse est insérée dans la feuille de calcul sous la forme d’une valeur booléle (« TRUE » ou « FALSE ») et une mise en forme conditionnelle est appliquée à ces cellules. Les résultats de l’emplacement des adresses IP seront totaux dans la feuille de calcul et copiés dans le tableau récapitulatif.
 
 ## <a name="scripting-skills-covered"></a>Compétences d’écriture de scripts couvertes
 

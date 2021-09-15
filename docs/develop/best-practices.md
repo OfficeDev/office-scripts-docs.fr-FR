@@ -2,13 +2,13 @@
 title: Meilleures pratiques en matière de scripts Office
 description: Comment éviter les problèmes courants et écrire des Office scripts fiables qui peuvent gérer des données ou des entrées inattendues.
 ms.date: 05/10/2021
-localization_priority: Normal
-ms.openlocfilehash: cdea3583120109cda05c05cb7c4f908e929bbff0d37e615b1820f67b57fbe24f
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 49075d52587a1d2c4ed06fc2939aebc7081d4ddb
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846616"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59327839"
 ---
 # <a name="best-practices-in-office-scripts"></a>Meilleures pratiques en matière de scripts Office
 
@@ -16,7 +16,7 @@ Ces modèles et pratiques sont conçus pour aider vos scripts à s’exécuter c
 
 ## <a name="verify-an-object-is-present"></a>Vérifier la présence d’un objet
 
-Les scripts s’appuient souvent sur une feuille de calcul ou une table en cours de présence dans le workbook. Toutefois, ils peuvent être renommés ou supprimés entre les séquences de script. En vérifiant si ces tables ou feuilles de calcul existent avant d’y appeler des méthodes, vous pouvez vous assurer que le script ne se termine pas brusquement.
+Les scripts s’appuient souvent sur une feuille de calcul ou une table en cours de présence dans le workbook. Toutefois, ils peuvent être renommés ou supprimés entre les séquences de script. En vérifiant si ces tableaux ou feuilles de calcul existent avant d’y appeler des méthodes, vous pouvez vous assurer que le script ne se termine pas brusquement.
 
 L’exemple de code suivant vérifie si la feuille de calcul « Index » est présente dans le manuel. Si la feuille de calcul est présente, le script obtient une plage et continue. S’il n’est pas présent, le script enregistre un message d’erreur personnalisé.
 
@@ -102,7 +102,7 @@ function inputPresent(workbook: ExcelScript.Workbook): boolean {
 
 Une [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) instruction indique qu’une erreur inattendue s’est produite. Il termine immédiatement le code. En grande partie, vous n’avez pas besoin de `throw` le faire à partir de votre script. En règle générale, le script informe automatiquement l’utilisateur que le script n’a pas réussi à s’exécuter en raison d’un problème. Dans la plupart des cas, il suffit de terminer le script avec un message d’erreur et `return` une instruction de la `main` fonction.
 
-Toutefois, si votre script s’exécute dans le cadre d’Power Automate flux, vous pouvez arrêter le flux de continuer. Une `throw` instruction arrête le script et indique au flux de s’arrêter également.
+Toutefois, si votre script s’exécute dans le cadre d’un flux Power Automate, vous pouvez arrêter le flux de continuer. Une `throw` instruction arrête le script et indique au flux de s’arrêter également.
 
 Le script suivant montre comment utiliser `throw` l’instruction dans notre exemple de vérification de table.
 

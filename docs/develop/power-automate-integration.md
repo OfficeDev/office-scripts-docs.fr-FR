@@ -2,13 +2,13 @@
 title: Exécuter Office scripts avec Power Automate
 description: Comment obtenir des scripts Office pour Excel sur le Web un flux de travail Power Automate de travail.
 ms.date: 05/17/2021
-localization_priority: Normal
-ms.openlocfilehash: 61b43904cbc46b97a0102230c9c87c1051edd1516668f42fbded63c53c958de9
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: b5bddae61961a56699f99111f71c4f152382f7c6
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846518"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59327867"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter Office scripts avec Power Automate
 
@@ -32,7 +32,7 @@ Pour commencer à combiner Power Automate et Office scripts, suivez le didactici
 Power Automate vous permet de passer des éléments de données entre les étapes de votre flux. Les scripts peuvent être configurés pour accepter les types d’informations dont vous avez besoin et renvoyer tout ce dont vous avez besoin dans votre flux de travail. L’entrée de votre script est spécifiée en ajoutant des paramètres à la `main` fonction (en plus de `workbook: ExcelScript.Workbook` ). La sortie du script est déclarée en ajoutant un type de retour à `main` .
 
 > [!NOTE]
-> Lorsque vous créez un bloc « Exécuter un script » dans votre flux, les paramètres acceptés et les types renvoyés sont remplis. Si vous modifiez les paramètres ou renvoyez des types de votre script, vous devez redéfaire le bloc « Exécuter le script » de votre flux. Cela garantit que les données sont en cours d’analyse correctement.
+> Lorsque vous créez un bloc « Exécuter un script » dans votre flux, les paramètres acceptés et les types renvoyés sont remplis. Si vous modifiez les paramètres ou renvoyez des types de votre script, vous devrez revenir au bloc « Exécuter le script » de votre flux. Cela garantit que les données sont en cours d’analyse correctement.
 
 Les sections suivantes couvrent les détails de l’entrée et de la sortie pour les scripts utilisés dans Power Automate. Si vous souhaitez une approche pratique de l’apprentissage de cette rubrique, essayez de transmettre des données aux [scripts](../tutorials/excel-power-automate-trigger.md) dans un didacticiel de flux Power Automate exécuté automatiquement ou explorez l’exemple de scénario de [rappels](../resources/scenarios/task-reminders.md) de tâches automatisés.
 
@@ -42,7 +42,7 @@ Toutes les entrées de script sont spécifiées en tant que paramètres supplém
 
 Lorsque vous configurez un flux dans Power Automate, vous pouvez spécifier une entrée de script en tant que valeurs statiques, [expressions](/power-automate/use-expressions-in-conditions)ou contenu dynamique. Pour plus d’informations sur le connecteur d’un service individuel, voir la [documentation Power Automate Connector.](/connectors/)
 
-Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, prenons en compte les restrictions et les `main` allocations suivantes.
+Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, prenons en compte les `main` limites et restrictions suivantes.
 
 1. Le premier paramètre doit être de type `ExcelScript.Workbook` . Son nom de paramètre n’a pas d’importance.
 
@@ -71,7 +71,7 @@ Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, p
     }
     ```
 
-8. L’interface ou la définition de classe des objets doit être définie dans le script. Un objet peut également être défini de manière inline anonyme, comme dans l’exemple suivant :
+8. L’interface ou la définition de classe des objets doit être définie dans le script. Un objet peut également être défini de manière anonyme en ligne, comme dans l’exemple suivant :
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook): {name: string, email: string}
@@ -85,7 +85,7 @@ Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, p
 
 Les scripts peuvent renvoyer des données à partir du workbook à utiliser en tant que contenu dynamique dans Power Automate flux. Comme pour les paramètres d’entrée, Power Automate des restrictions sur le type de retour.
 
-1. Les types `string` de base , , et sont pris en `number` `boolean` `void` `undefined` charge.
+1. Les types `string` de `number` base, , et sont pris `boolean` en `void` `undefined` charge.
 
 2. Les types Union utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
 
@@ -97,7 +97,7 @@ Les scripts peuvent renvoyer des données à partir du workbook à utiliser en t
 
 ## <a name="example"></a>Exemple
 
-La capture d’écran suivante montre Power Automate flux de données qui est déclenché chaque fois [qu’un GitHub](https://github.com/) est affecté. Le flux exécute un script qui ajoute le problème à une table dans un Excel de travail. S’il existe cinq problèmes ou plus dans ce tableau, le flux envoie un rappel par courrier électronique.
+La capture d’écran suivante montre un flux Power Automate qui est déclenché chaque fois [qu’un](https://github.com/) problème GitHub de sécurité vous est affecté. Le flux exécute un script qui ajoute le problème à une table dans un Excel de travail. S’il existe cinq problèmes ou plus dans ce tableau, le flux envoie un rappel par courrier électronique.
 
 :::image type="content" source="../images/power-automate-parameter-return-sample.png" alt-text="Éditeur Power Automate de flux affichant l’exemple de flux.":::
 
@@ -129,4 +129,4 @@ function main(
 - [Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement](../tutorials/excel-power-automate-returns.md)
 - [Informations de dépannage pour les Power Automate avec Office scripts](../testing/power-automate-troubleshooting.md)
 - [Prise en main de Power Automate](/power-automate/getting-started)
-- [Excel Documentation de référence du connecteur en ligne (Entreprise)](/connectors/excelonlinebusiness/)
+- [Excel Documentation de référence sur le connecteur en ligne (Entreprise)](/connectors/excelonlinebusiness/)

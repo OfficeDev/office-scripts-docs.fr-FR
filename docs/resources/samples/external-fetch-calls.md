@@ -2,19 +2,19 @@
 title: Utiliser les appels externes de récupération dans les scripts Office
 description: Découvrez comment effectuer des appels d’API externes dans Office scripts.
 ms.date: 05/14/2021
-localization_priority: Normal
-ms.openlocfilehash: 46e83e290224d03cdb1f87eeb6215e2fb9510189c210a7dfa330f438ced0a53e
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: d957e0536e8574681f2ec752f23f9e6ba07f5fd2
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847528"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59335747"
 ---
 # <a name="use-external-fetch-calls-in-office-scripts"></a>Utiliser les appels externes de récupération dans les scripts Office
 
 Ce script obtient des informations de base sur les référentiels GitHub d’un utilisateur. Il montre comment utiliser `fetch` dans un scénario simple. Pour plus d’informations sur l’utilisation ou d’autres appels externes, lisez la prise en charge des appels d’API externes `fetch` [dans Office Scripts](../../develop/external-calls.md)
 
-Vous pouvez en savoir plus sur les API GItHub utilisées dans la référence GitHub [API.](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user) Vous pouvez également voir la sortie d’appel d’API brute en vous rendant dans un navigateur web (n’oubliez pas de remplacer l’espace réservé {USERNAME} par votre `https://api.github.com/users/{USERNAME}/repos` ID de GitHub).
+Vous pouvez en savoir plus sur les API GItHub utilisées dans la référence GitHub [API.](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user) Vous pouvez également voir la sortie d’appel d’API brute en visitant un navigateur web (n’oubliez pas de remplacer l’espace réservé {USERNAME} par votre `https://api.github.com/users/{USERNAME}/repos` ID GitHub).
 
 ![Obtenir un exemple d’informations sur les référentiels](../../images/git.png)
 

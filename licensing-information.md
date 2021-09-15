@@ -520,6 +520,103 @@ Sauf condition requise par la loi applicable ou accepté par écrit, les logicie
 
 ---------------------------------------------------------
 
+atob 2.1.2 - Apache-2.0 OR MIT OR (Apache-2.0 AND MIT) https://git.coolaj86.com/coolaj86/atob.js.git
+
+Copyright 2015 AJ ONeal Copyright (c) 2015 AJ ONeal copyright 2012-2018 AJ ONeal
+
+À votre option, vous pouvez choisir l’une des licences suivantes :
+
+  * La licence MIT (MIT)
+  * Licence Apache 2.0 (Apache-2.0)
+
+
+La licence MIT (MIT)
+
+Copyright (c) 2015 AJ ONeal
+
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   CONDITIONS GÉNÉRALES D’UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
+
+   1. Définitions.
+
+      « Licence » désigne les conditions d’utilisation, de reproduction et de distribution telles que définies par les sections 1 à 9 du présent document.
+
+      « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
+
+      « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
+
+      « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
+
+      Le formulaire « Source » doit être le formulaire préféré pour apporter des modifications, y compris, mais sans s’y limiter, au code source logiciel, à la source de documentation et aux fichiers de configuration.
+
+      Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de médias.
+
+      « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
+
+      « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+
+      La « contribution » signifie toute œuvre de création, y compris la version d’origine du travail et toute modification ou ajout à cette fonction ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du droit d’auteur. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
+
+      « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
+
+   2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
+
+   3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, gratuite, irrévocable (sauf dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par un tel contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contributions avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet sur une entité (y compris une réclamation croisée ou une demande reconventionnelle dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou d’un brevet de contributeur, alors toutes les licences de brevet accordées à vous en vertu de la présent licence pour ce travail doivent s’interrompre à la date à laquelle un tel litige est déposé.
+
+   4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
+
+      (a) Vous devez donner à d’autres destinataires de la licence Work ou Derivative Works une copie de cette licence ; et
+
+      (b) Tous les fichiers modifiés doivent porter des notifications importantes indiquant que vous avez modifié les fichiers ; et
+
+      (c) Vous devez conserver, sous la forme source des dérivés que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
+
+      (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de la dérivée works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
+
+      Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
+
+   5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans le Travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires.
+      En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
+
+   6. Marques. Cette licence n’accorde pas l’autorisation d’utiliser les noms commerciaux, les marques de commerce, les marques de service ou les noms de produit du licenseur, sauf si nécessaire pour une utilisation raisonnable et raisonnable pour décrire l’origine du travail et reproduire le contenu du fichier NOTICE.
+
+   7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES OU CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
+
+   8. Limitation of Liability. En aucun cas et en l’absence de théorie juridique, qu’il s’agisse d’un délit (y compris une négligence), d’un contrat ou d’une autre nature, sauf s’il est requis par le droit applicable (tels que des actes délibérés et volontaires) ou accepté par écrit, tout collaborateur est responsable de vous dommages, y compris les dommages directs, indirects, spéciaux, incidents ou résultants de tout caractère résultant de cette licence ou de son utilisation ou de son incapacité à utiliser le travail (y compris, mais pas limité aux dommages pour perte de clientèle, arrêt de travail, défaillance ou dysfonctionnement de l’ordinateur, ou tout ou partie des autres dommages ou pertes commerciaux), même si ce collaborateur a été informé de la possibilité de tels dommages.
+
+   9. Accepter la garantie ou une responsabilité supplémentaire. Lors de la redistribuation des travaux ou des dérivés, vous pouvez choisir de proposer et de facturer des frais pour l’acceptation du support, de la garantie, de l’indemnisation ou d’autres obligations de responsabilité et/ou droits conformes à la licence. Toutefois, lorsque vous acceptez de telles obligations, vous pouvez agir uniquement en votre nom et en votre seule responsabilité, et non au nom d’un autre collaborateur, et uniquement si vous acceptez d’indemniser, de défendre et de mettre en attente chaque collaborateur sans risque pour toute responsabilité encourue par ou les réclamations contre ce collaborateur pour la raison de votre acceptation d’une telle garantie ou d’une responsabilité supplémentaire.
+
+   FIN DES CONDITIONS GÉNÉRALES
+
+   ANNEXE : Comment appliquer la licence Apache à votre travail.
+
+      Pour appliquer la licence Apache à votre travail, attachez l’avis réutilisable suivant, avec les champs entre crochets » remplacés par vos propres informations {} d’identification. (N’incluez pas les crochets !)  Le texte doit être inclus dans la syntaxe de commentaire appropriée pour le format de fichier. Nous vous recommandons également d’inclure un nom de fichier ou de classe et une description de l’objectif sur la même « page imprimée » que l’avis de copyright pour faciliter l’identification dans les archives tierces.
+
+   Copyright 2015 AJ ONeal
+
+   Licence sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
+   Vous pouvez obtenir une copie de la licence à l'
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement.
+   Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
 css-select 1.2.0 - BSD-2-Clause https://github.com/fb55/css-select#readme
 
 Copyright (c) Felix Bohm
@@ -4323,7 +4420,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-@types/office-js-preview 1.0.239 - MIT https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/office-js-preview
+@types/office-js-preview 1.0.242 - MIT https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/office-js-preview
 
 
 Licence MIT
@@ -5861,7 +5958,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-bn.js 4.11.9 - MIT https://github.com/indutny/bn.js
+bn.js 5.1.2 - MIT https://github.com/indutny/bn.js
 
 Copyright Fedor Indutny, 2015.
 
@@ -5879,7 +5976,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-bn.js 5.1.2 - MIT https://github.com/indutny/bn.js
+bn.js 4.11.9 - MIT https://github.com/indutny/bn.js
 
 Copyright Fedor Indutny, 2015.
 
@@ -9542,7 +9639,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-arrayish 0.3.2 - MIT https://github.com/qix-/node-is-arrayish#readme
+is-arrayish 0.2.1 - MIT https://github.com/qix-/node-is-arrayish#readme
 
 Copyright (c) 2015 JD Ballard
 
@@ -9561,7 +9658,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-arrayish 0.2.1 - MIT https://github.com/qix-/node-is-arrayish#readme
+is-arrayish 0.3.2 - MIT https://github.com/qix-/node-is-arrayish#readme
 
 Copyright (c) 2015 JD Ballard
 
@@ -10312,12 +10409,15 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-json3 3.3.0 - MIT http://bestiejs.github.io/json3
+json3 3.3.3 - MIT https://bestiejs.github.io/json3
 
-Copyright (c) 2012-2014 Kit Cambridge. http://kitcambridge.be Copyright 2012-2014, Kit Cambridge http://kit.mit-license.org
+Copyright (c) 2013-2015 Benjamin Tan. https://d10.github.io Copyright (c) 2012-2015 Kit Cambridge. http://kitcambridge.be Copyright 2012-2015, Kit Cambridge, Benjamin Tan http://kit.mit-license.org (c) 2012-2015 http://kitcambridge.be/ ' Kit Cambridge, https://d10.github.io/ ' Benjamin Tan
 
-Copyright (c) 2012-2014 Kit Cambridge.
+Copyright (c) 2012-2015 Kit Cambridge.
 http://kitcambridge.be/
+
+Copyright (c) 2013-2015 Benjamin Tan.
+https://d10.github.io/
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -10329,15 +10429,12 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-json3 3.3.3 - MIT https://bestiejs.github.io/json3
+json3 3.3.0 - MIT http://bestiejs.github.io/json3
 
-Copyright (c) 2013-2015 Benjamin Tan. https://d10.github.io Copyright (c) 2012-2015 Kit Cambridge. http://kitcambridge.be Copyright 2012-2015, Kit Cambridge, Benjamin Tan http://kit.mit-license.org (c) 2012-2015 http://kitcambridge.be/ ' Kit Cambridge, https://d10.github.io/ ' Benjamin Tan
+Copyright (c) 2012-2014 Kit Cambridge. http://kitcambridge.be Copyright 2012-2014, Kit Cambridge http://kit.mit-license.org
 
-Copyright (c) 2012-2015 Kit Cambridge.
+Copyright (c) 2012-2014 Kit Cambridge.
 http://kitcambridge.be/
-
-Copyright (c) 2013-2015 Benjamin Tan.
-https://d10.github.io/
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -11396,7 +11493,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-monaco-editor 0.20.0 - MIT https://github.com/Microsoft/monaco-editor#readme
+monaco-editor 0.18.1 - MIT https://github.com/Microsoft/monaco-editor#readme
 
 Copyright (c) 2015 Copyright (c) Jostale Copyright (c) 2014 Copyright Hakes Copyright (c) Artyom Shalhalkov.
 Copyright (c) 2015 David Copyright (c) 2014 Copyright (c) 2014 Copyright (c) 2015 Copyrights Bevacqua Copyright (c) Microsoft Corporation.
@@ -11422,7 +11519,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-monaco-editor 0.18.1 - MIT https://github.com/Microsoft/monaco-editor#readme
+monaco-editor 0.20.0 - MIT https://github.com/Microsoft/monaco-editor#readme
 
 Copyright (c) 2015 Copyright (c) Jostale Copyright (c) 2014 Copyright Hakes Copyright (c) Artyom Shalhalkov.
 Copyright (c) 2015 David Copyright (c) 2014 Copyright (c) 2014 Copyright (c) 2015 Copyrights Bevacqua Copyright (c) Microsoft Corporation.
@@ -12606,7 +12703,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-postcss 7.0.14 - MIT https://postcss.org/
+postcss 7.0.32 - MIT https://postcss.org/
 
 Copyright 2013 Andnick Sitnik <andrey@sitnik.ru>
 
@@ -12625,7 +12722,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-postcss 7.0.32 - MIT https://postcss.org/
+postcss 7.0.14 - MIT https://postcss.org/
 
 Copyright 2013 Andnick Sitnik <andrey@sitnik.ru>
 
@@ -14232,13 +14329,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-readdirp 2.2.1 - MIT https://github.com/paulmillr/readdirp
+readdirp 3.4.0 - MIT https://github.com/paulmillr/readdirp
 
-Copyright (c) 2012-2015 Thorsten Lorenz
+Copyright (c) 2012-2019 Domaineéz, Paul Copyright https://paulmillr.com) (c) 2012-2019 <https://paulmillr.com>
 
-Ce logiciel est publié sous la licence MIT :
+Licence MIT
 
-Copyright (c) 2012-2015 Thorsten Lorenz
+Copyright (c) 2012-2019https://paulmillr.com)
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -14251,13 +14348,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-readdirp 3.4.0 - MIT https://github.com/paulmillr/readdirp
+readdirp 2.2.1 - MIT https://github.com/paulmillr/readdirp
 
-Copyright (c) 2012-2019 Domaineéz, Paul Copyright https://paulmillr.com) (c) 2012-2019 <https://paulmillr.com>
+Copyright (c) 2012-2015 Thorsten Lorenz
 
-Licence MIT
+Ce logiciel est publié sous la licence MIT :
 
-Copyright (c) 2012-2019https://paulmillr.com)
+Copyright (c) 2012-2015 Thorsten Lorenz
 
 L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
@@ -15814,7 +15911,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-supports-color 6.1.0 - MIT https://github.com/chalk/supports-color#readme
+supports-color 5.5.0 - MIT https://github.com/chalk/supports-color#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -15833,7 +15930,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-supports-color 5.5.0 - MIT https://github.com/chalk/supports-color#readme
+supports-color 6.1.0 - MIT https://github.com/chalk/supports-color#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -17432,103 +17529,6 @@ L’autorisation est accordée, gratuitement, à toute personne qui obtient une 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
 LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-atob 2.1.2 - MIT OR Apache-2.0 https://git.coolaj86.com/coolaj86/atob.js.git
-
-Copyright 2015 AJ ONeal Copyright (c) 2015 AJ ONeal copyright 2012-2018 AJ ONeal
-
-À votre option, vous pouvez choisir l’une des licences suivantes :
-
-  * La licence MIT (MIT)
-  * Licence Apache 2.0 (Apache-2.0)
-
-
-La licence MIT (MIT)
-
-Copyright (c) 2015 AJ ONeal
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter les logiciels sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
-
-   CONDITIONS GÉNÉRALES D’UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
-
-   1. Définitions.
-
-      « Licence » désigne les conditions d’utilisation, de reproduction et de distribution telles que définies par les sections 1 à 9 du présent document.
-
-      « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
-
-      « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
-
-      « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
-
-      Le formulaire « Source » doit être le formulaire préféré pour apporter des modifications, y compris, mais sans s’y limiter, au code source logiciel, à la source de documentation et aux fichiers de configuration.
-
-      Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de médias.
-
-      « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
-
-      « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
-
-      La « contribution » signifie toute œuvre de création, y compris la version d’origine du travail et toute modification ou ajout à cette fonction ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du droit d’auteur. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
-
-      « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
-
-   2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
-
-   3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, gratuite, irrévocable (sauf dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par un tel contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contributions avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet sur une entité (y compris une réclamation croisée ou une demande reconventionnelle dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou d’un brevet de contributeur, alors toutes les licences de brevet accordées à vous en vertu de la présent licence pour ce travail doivent s’interrompre à la date à laquelle un tel litige est déposé.
-
-   4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
-
-      (a) Vous devez donner à d’autres destinataires de la licence Work ou Derivative Works une copie de cette licence ; et
-
-      (b) Tous les fichiers modifiés doivent porter des notifications importantes indiquant que vous avez modifié les fichiers ; et
-
-      (c) Vous devez conserver, sous la forme source des dérivés que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
-
-      (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de la dérivée works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
-
-      Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
-
-   5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans le Travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires.
-      En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
-
-   6. Marques. Cette licence n’accorde pas l’autorisation d’utiliser les noms commerciaux, les marques de commerce, les marques de service ou les noms de produit du licenseur, sauf si nécessaire pour une utilisation raisonnable et raisonnable pour décrire l’origine du travail et reproduire le contenu du fichier NOTICE.
-
-   7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES OU CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
-
-   8. Limitation of Liability. En aucun cas et en l’absence de théorie juridique, qu’il s’agisse d’un délit (y compris une négligence), d’un contrat ou d’une autre nature, sauf s’il est requis par le droit applicable (tels que des actes délibérés et volontaires) ou accepté par écrit, tout collaborateur est responsable de vous dommages, y compris les dommages directs, indirects, spéciaux, incidents ou résultants de tout caractère résultant de cette licence ou de son utilisation ou de son incapacité à utiliser le travail (y compris, mais pas limité aux dommages pour perte de clientèle, arrêt de travail, défaillance ou dysfonctionnement de l’ordinateur, ou tout ou partie des autres dommages ou pertes commerciaux), même si ce collaborateur a été informé de la possibilité de tels dommages.
-
-   9. Accepter la garantie ou une responsabilité supplémentaire. Lors de la redistribuation des travaux ou des dérivés, vous pouvez choisir de proposer et de facturer des frais pour l’acceptation du support, de la garantie, de l’indemnisation ou d’autres obligations de responsabilité et/ou droits conformes à la licence. Toutefois, lorsque vous acceptez de telles obligations, vous pouvez agir uniquement en votre nom et en votre seule responsabilité, et non au nom d’un autre collaborateur, et uniquement si vous acceptez d’indemniser, de défendre et de mettre en attente chaque collaborateur sans risque pour toute responsabilité encourue par ou les réclamations contre ce collaborateur pour la raison de votre acceptation d’une telle garantie ou d’une responsabilité supplémentaire.
-
-   FIN DES CONDITIONS GÉNÉRALES
-
-   ANNEXE : Comment appliquer la licence Apache à votre travail.
-
-      Pour appliquer la licence Apache à votre travail, attachez l’avis réutilisable suivant, avec les champs entre crochets » remplacés par vos propres informations {} d’identification. (N’incluez pas les crochets !)  Le texte doit être inclus dans la syntaxe de commentaire appropriée pour le format de fichier. Nous vous recommandons également d’inclure un nom de fichier ou de classe et une description de l’objectif sur la même « page imprimée » que l’avis de copyright pour faciliter l’identification dans les archives tierces.
-
-   Copyright 2015 AJ ONeal
-
-   Licence sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
-   Vous pouvez obtenir une copie de la licence à l'
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement.
-   Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
 
 
 ---------------------------------------------------------

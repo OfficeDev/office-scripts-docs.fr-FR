@@ -2,13 +2,13 @@
 title: Rédiger un grand ensemble de données
 description: Découvrez comment fractionner un jeu de données de grande taille en opérations d’écriture plus petites Office scripts.
 ms.date: 05/13/2021
-localization_priority: Normal
-ms.openlocfilehash: ec058bb1e3aabea52b0127c26b4c4a1352914fb575105ff4a90f82b222d6251d
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 1b37c5892c3b5f9ba26bfc2cdf8b30db321751d3
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847583"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330582"
 ---
 # <a name="write-a-large-dataset"></a>Rédiger un grand ensemble de données
 
@@ -18,7 +18,7 @@ Pour obtenir des informations de base sur les performances Office scripts, veuil
 
 ## <a name="sample-code-write-a-large-dataset"></a>Exemple de code : écrire un jeu de données de grande taille
 
-Ce script écrit les lignes d’une plage dans des parties plus petites. Il sélectionne 1 000 cellules à écrire à la fois. Exécutez le script sur une feuille de calcul vide pour voir les lots de mise à jour en action. La sortie de la console fournit des informations supplémentaires sur ce qui se passe.
+Ce script écrit les lignes d’une plage dans des parties plus petites. Il sélectionne 1 000 cellules à écrire à la fois. Exécutez le script sur une feuille de calcul vide pour voir les lots de mise à jour en action. La sortie de la console donne plus d’informations sur ce qui se passe.
 
 > [!NOTE]
 > Vous pouvez modifier le nombre total de lignes écrites en modifiant la valeur de `SAMPLE_ROWS` . Vous pouvez modifier le nombre de cellules à écrire en tant qu’action unique en modifiant la valeur de `CELLS_IN_BATCH` .
@@ -146,6 +146,6 @@ function getRandomString(length: number): string {
 }
 ```
 
-## <a name="training-video-write-a-large-dataset"></a>Vidéo de formation : écrire un jeu de données de grande taille
+## <a name="training-video-write-a-large-dataset"></a>Vidéo de formation : Écrire un jeu de données de grande taille
 
 [Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/BP9Kp0Ltj7U).

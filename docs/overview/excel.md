@@ -2,13 +2,13 @@
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
 ms.date: 07/04/2021
-localization_priority: Priority
-ms.openlocfilehash: f64adc3604dbaf9ac98563cb9eaf8068286bfeeb
-ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
+ms.localizationpriority: high
+ms.openlocfilehash: 056bf4bb489739d4062dcf422aded2dcc7fc5aa8
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862081"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59332879"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 

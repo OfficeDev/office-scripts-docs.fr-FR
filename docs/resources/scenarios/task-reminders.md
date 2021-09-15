@@ -2,13 +2,13 @@
 title: 'Office Exemple de scénario de scripts : rappels de tâches automatisés'
 description: Un exemple qui utilise des Power Automate et des cartes adaptatives automatise les rappels de tâches dans une feuille de calcul de gestion de projet.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 8e9ddebd6ab8f061a623f646000a722c3a95ba0d255fd8bac42cda6172078879
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: a2d4701fb7a42953de669c84dbb93104d199d5b8
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846359"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330047"
 ---
 # <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Office Exemple de scénario de scripts : rappels de tâches automatisés
 
@@ -24,9 +24,9 @@ Vous allez créer un flux Power Automate message aux personnes dont les champs d
 - Teams Cartes adaptatives
 - Tableaux
 
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Prerequisites
 
-Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software). Vous aurez besoin des deux associés au compte que vous utilisez pour le développement de Office scripts. Pour un accès gratuit à un abonnement Microsoft Développeur pour en savoir plus sur ces applications et travailler avec celles-ci, envisagez de rejoindre le programme [Microsoft 365 développeur microsoft.](https://developer.microsoft.com/microsoft-365/dev-program)
+Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software). Vous aurez besoin des deux associés au compte que vous utilisez pour le développement de Office scripts. Pour obtenir un accès gratuit à un abonnement Microsoft Développeur pour en savoir plus sur ces applications et travailler avec celles-ci, envisagez de rejoindre le programme [Microsoft 365 développeur microsoft.](https://developer.microsoft.com/microsoft-365/dev-program)
 
 ## <a name="setup-instructions"></a>Instructions d’installation
 
@@ -211,13 +211,13 @@ Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft 
     - **Message de mise à** jour : merci d’avoir envoyé votre rapport d’état. Votre réponse a été ajoutée avec succès à la feuille de calcul.
     - **Doit mettre à jour la carte**: Oui
 
-1. In the **Apply to each** block, following the Post an Adaptive Card to a Teams user and wait for a **response**, select Add **an action**. Sélectionnez **Excel Online (Entreprise).** Sous **Actions**, sélectionnez **Exécuter le script**. Fournissez les entrées suivantes pour l’étape de flux :
+1. Dans le **bloc Appliquer à chaque** bloc, après publier une carte adaptative à un utilisateur **Teams** et attendre une réponse, **sélectionnez Ajouter une action.** Sélectionnez **Excel Online (Entreprise).** Sous **Actions**, sélectionnez **Exécuter le script**. Fournissez les entrées suivantes pour l’étape de flux :
 
     - **Emplacement** : OneDrive Entreprise
     - **Bibliothèque de documents** : OneDrive
     - **Fichier**: task-reminders.xlsx *(choisi via le navigateur de fichiers)*
     - **Script**: Enregistrer l’état
-    - **senderEmail**: courrier *électronique (contenu dynamique de Excel)*
+    - **senderEmail**: e-mail *(contenu dynamique de Excel)*
     - **statusReportResponse**: réponse *(contenu dynamique de Teams)*
 
     :::image type="content" source="../../images/scenario-task-reminders-last-flow-step.png" alt-text="Le Power Automate flux montrant l’application à chaque étape.":::
@@ -226,7 +226,7 @@ Ce scénario utilise [Power Automate](https://flow.microsoft.com) et [Microsoft 
 
 ## <a name="running-the-flow"></a>Exécution du flux
 
-Pour tester le flux, assurez-vous que les lignes de tableau dont l’état est vide utilisent une adresse de messagerie liée à un compte Teams (vous devez probablement utiliser votre propre adresse e-mail lors du test). Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+Pour tester le flux, assurez-vous que les lignes de tableau dont l’état est vide utilisent une adresse de messagerie liée à un compte Teams (vous devez probablement utiliser votre propre adresse e-mail lors du test). Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
 
 Vous devez recevoir une carte adaptative de Power Automate à Teams. Une fois que vous avez rempli le champ d’état dans la carte, le flux continue et met à jour la feuille de calcul avec l’état que vous fournissez.
 

@@ -1,14 +1,14 @@
 ---
 title: Sortie Excel données en tant que JSON
-description: Découvrez comment Excel données de table en tant que JSON à utiliser dans Power Automate.
+description: Découvrez comment sortier Excel données de table en tant que JSON à utiliser dans Power Automate.
 ms.date: 07/22/2021
-localization_priority: Normal
-ms.openlocfilehash: 503f60e59ec565e644b9c02b9e4b436011662a8910432783752d86396a51a8b9
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 2b613f41618594f6f38634e4126ab8f616f1f3f4
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847452"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59332107"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Sortie Excel données de table en tant que JSON pour une utilisation Power Automate
 
@@ -20,7 +20,7 @@ _Données de table d’entrée_
 
 Une variante de cet exemple inclut également les liens hypertexte dans l’une des colonnes du tableau. Cela permet d’surfacer des niveaux supplémentaires de données de cellule dans le JSON.
 
-_Données de table d’entrée qui incluent des liens hypertexte_
+_Données de table d’entrée incluant des liens hypertexte_
 
 :::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Feuille de calcul montrant une colonne de données de tableau mise en forme sous forme de liens hypertexte.":::
 

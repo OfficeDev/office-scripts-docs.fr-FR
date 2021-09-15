@@ -1,14 +1,14 @@
 ---
 title: Prise en charge des appels d’API externes dans Scripts Office
-description: Prise en charge et conseils pour effectuer des appels d’API externes dans Office script.
+description: Prise en charge et conseils pour effectuer des appels d’API externes dans Office Script.
 ms.date: 05/21/2021
-localization_priority: Normal
-ms.openlocfilehash: ece8c13bd2c665734e35d16c046ca58e52df564465a4df8989d90d887d897307
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 14b98e49907ff989684eceb9509edf56a1a72d9e
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846623"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59332051"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Prise en charge des appels d’API externes dans Scripts Office
 
@@ -38,7 +38,7 @@ Vous devez découvrir les interfaces du service externe pour appeler ce service.
 * Il n’existe aucun moyen de se connecter ou d’utiliser le type de flux d’authentification OAuth2. Toutes les clés et informations d’identification doivent être codées en dur (ou lues à partir d’une autre source).
 * Il n’existe aucune infrastructure pour stocker les informations d’identification et les clés d’API. Il devra être géré par l’utilisateur.
 * Les cookies de document `localStorage` et les objets ne sont pas pris en `sessionStorage` charge.
-* Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables ou des données externes à entrer dans des workbooks internes. Votre administrateur peut établir une protection pare-feu contre ces appels. Veillez à vérifier les stratégies locales avant de vous appuyer sur des appels externes.
+* Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables ou des données externes à mettre dans des workbooks internes. Votre administrateur peut établir une protection pare-feu contre ces appels. Veillez à vérifier les stratégies locales avant de vous appuyer sur des appels externes.
 * Veillez à vérifier la quantité de débit de données avant de prendre une dépendance. Par exemple, il est possible que le fait d’retirer l’intégralité du jeu de données externe ne soit pas la meilleure option et que la pagination soit utilisée pour obtenir des données par blocs.
 
 ## <a name="retrieve-information-with-fetch"></a>Récupérer des informations avec `fetch`

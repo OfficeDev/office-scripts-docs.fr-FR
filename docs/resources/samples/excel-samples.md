@@ -2,13 +2,13 @@
 title: Scripts de base pour Office scripts dans Excel sur le Web
 description: Collection d’exemples de code à utiliser avec Office scripts dans Excel sur le Web.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 6d74d55556feb93e0f49da375b3c7896d439663f7f922e4ae135b6fdc6a40197
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: c0e852ba2afcc37f5921ff0b2256df0769535f6e
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847544"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330736"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Scripts de base pour Office scripts dans Excel sur le Web
 
@@ -156,7 +156,7 @@ Ces exemples fonctionnent avec des collections d’objets dans le workbook.
 
 ### <a name="iterate-over-collections"></a>Itérer sur les collections
 
-Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel. Il définit également les couleurs de leur onglet sur une couleur aléatoire.
+Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel. Il définit également les couleurs de leurs onglets sur une couleur aléatoire.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -323,7 +323,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Ce script crée une liste de sélection de listes listes pour une cellule. Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.
 
-:::image type="content" source="../../images/sample-data-validation.png" alt-text="Feuille de calcul montrant une plage de trois cellules contenant des choix de couleur « rouge, bleu, vert » et en de côté, les mêmes choix affichés dans une liste liste.":::
+:::image type="content" source="../../images/sample-data-validation.png" alt-text="Feuille de calcul montrant une plage de trois cellules contenant des choix de couleur « rouge, bleu, vert » et en de côté, les mêmes choix affichés dans une liste de listes.":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -417,7 +417,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="suggest-new-samples"></a>Suggérer de nouveaux exemples
 
-Nous vous souhaitons la bienvenue pour les nouveaux exemples. S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires en bas de la page.
+Nous vous proposons des suggestions bienvenues pour les nouveaux exemples. S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires en bas de la page.
 
 ## <a name="see-also"></a>Voir aussi
 
