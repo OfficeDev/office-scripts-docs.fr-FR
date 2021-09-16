@@ -69,6 +69,8 @@ items:
                 href: resources/samples/copy-tables-combine.md
           - name: Notions intermédiaires
             items:
+              - name: Combiner des feuilles de calcul dans un seul classeur
+                href: resources/samples/combine-worksheets-into-single-workbook.md
               - name: Convertir des fichiers CSV
                 href: resources/samples/convert-csv.md
               - name: Feuilles de calcul de référence croisée
