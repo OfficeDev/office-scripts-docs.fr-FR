@@ -1,14 +1,14 @@
 ---
 title: Résoudre les problèmes Office scripts
 description: Conseils et techniques de débogage pour Office scripts, ainsi que des ressources d’aide.
-ms.date: 05/17/2021
+ms.date: 09/15/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 8ea133afdf302994126e8051d275d03b938df370
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 5229490e2487974f751456ef63004bcb27f7b09c
+ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59333978"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447484"
 ---
 # <a name="troubleshoot-office-scripts"></a>Résoudre les problèmes Office scripts
 
@@ -23,11 +23,11 @@ Office Les erreurs de script se classent dans l’une des deux catégories suiva
 
 ### <a name="compile-time-errors"></a>Erreurs au moment de la compilation
 
-Les erreurs et avertissements au moment de la compilation sont initialement affichés dans l’Éditeur de code. Ces éléments sont affichés par les soulignements ondulés rouges dans l’éditeur. Ils sont également affichés sous l’onglet **Problèmes** en bas du volet Des tâches de l’Éditeur de code. La sélection de l’erreur donne plus de détails sur le problème et suggère des solutions. Les erreurs de compilation doivent être traitées avant l’exécution du script.
+Les erreurs et avertissements au moment de la compilation sont initialement affichés dans l’éditeur de code. Ces éléments sont affichés par les soulignements ondulés rouges dans l’éditeur. Ils sont également affichés sous l’onglet **Problèmes** en bas du volet Des tâches de l’Éditeur de code. La sélection de l’erreur donne plus de détails sur le problème et suggère des solutions. Les erreurs de compilation doivent être traitées avant l’exécution du script.
 
 :::image type="content" source="../images/explicit-any-editor-message.png" alt-text="Erreur de compilateur affichée dans le texte de pointeur de l’éditeur de code.":::
 
-Vous pouvez également voir des soulignements d’avertissement orange et des messages d’information gris. Celles-ci indiquent des suggestions de performances ou d’autres possibilités où le script peut avoir des effets involontaires. Ces avertissements doivent être examinés attentivement avant de les ignorer.
+Vous pouvez également voir des soulignements d’avertissement orange et des messages d’information gris. Celles-ci indiquent des suggestions de performances ou d’autres possibilités dans le cas où le script peut avoir des effets involontaires. Ces avertissements doivent être examinés attentivement avant de les ignorer.
 
 ### <a name="runtime-errors"></a>Erreurs d’runtime
 
@@ -61,7 +61,7 @@ console.log("Logging myRange's address.");
 console.log(myRange.getAddress());
 ```
 
-Les chaînes transmises sont affichées dans la console de journalisation de l’éditeur de code, en `console.log` bas du volet Des tâches. Les journaux se  trouvent sous l’onglet Sortie, bien que l’onglet soit automatiquement mis au point lors de l’écriture d’un journal.
+Les chaînes transmises sont affichées dans la console de journalisation de l’éditeur de code, en `console.log` bas du volet Des tâches. Les journaux se  trouvent sous l’onglet Sortie, même si l’onglet prend automatiquement le focus lors de l’écriture d’un journal.
 
 Les journaux n’affectent pas le workbook.
 
@@ -84,9 +84,7 @@ Pour plus d’informations sur l’exécution de scripts Power Automate, voir R�
 
 [Stack Overflow est](https://stackoverflow.com/questions/tagged/office-scripts) une communauté de développeurs prêts à vous aider avec les problèmes de codage. Souvent, vous serez en mesure de trouver la solution à votre problème par le biais d’une recherche rapide de stack overflow. Si ce n’est pas le cas, posez votre question et marquez-la avec la balise « office-scripts ». N’oubliez pas de mentionner que vous créez un *script Office,* et non un *Office.*
 
-Pour envoyer une demande de fonctionnalité pour Office Scripts, publiez votre idée sur notre [page](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)Voix utilisateur ou, si la demande de fonctionnalité existe déjà, ajoutez votre vote pour cette demande. N’oubliez pas de déposer la demande sous Excel sur le Web dans la catégorie « Macros, scripts et macros » .
-
-En cas de problème avec l’enregistreur d’actions ou l’éditeur, n’hésitez pas à nous le faire savoir. Dans le **menu** ... de l’Éditeur  de code, sélectionnez le bouton Envoyer des commentaires pour partager les problèmes.
+Pour envoyer une demande de fonctionnalité Office scripts ou signaler un problème avec la fonctionnalité, utilisez le bouton de commentaires dans l’Éditeur de code. Dans le menu Plus **d’options (...)** de  l’Éditeur de code, sélectionnez le bouton Envoyer des commentaires pour partager vos besoins en fonctionnalités et d’autres expériences.
 
 :::image type="content" source="../images/code-editor-feedback.png" alt-text="Menu de dépassement de l’Éditeur de code avec le bouton Envoyer des commentaires.":::
 

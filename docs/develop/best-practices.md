@@ -3,12 +3,12 @@ title: Meilleures pratiques en matière de scripts Office
 description: Comment éviter les problèmes courants et écrire des Office scripts fiables qui peuvent gérer des données ou des entrées inattendues.
 ms.date: 05/10/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 49075d52587a1d2c4ed06fc2939aebc7081d4ddb
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: c37559c978a04bd99fff044674b2f64b7758438b
+ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59327839"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447459"
 ---
 # <a name="best-practices-in-office-scripts"></a>Meilleures pratiques en matière de scripts Office
 
@@ -60,11 +60,11 @@ function main(workbook: ExcelScript.Workbook) {
     return;
   }
 
-  // Continue....
+  // Continue...
 }
 ```
 
-Si la vérification se produit dans une fonction distincte, vous devez quand même mettre fin au script en émettant `return` l’instruction à partir de la `main` fonction. Le retour à partir de la sous-section ne termine pas le script.
+Si la vérification se produit dans une fonction distincte, vous devez quand même mettre fin au script en émettant `return` l’instruction à partir de la `main` fonction. Le retour à partir de la sous-partie ne termine pas le script.
 
 Le script suivant a le même comportement que le précédent. La différence est que la `main` fonction appelle la fonction pour tout `inputPresent` vérifier. `inputPresent` renvoie un booléen ( `true` ou ) pour indiquer si toutes les `false` entrées requises sont présentes. La `main` fonction utilise ce type booléen pour décider de poursuivre ou de mettre fin au script.
 
@@ -76,7 +76,7 @@ function main(workbook: ExcelScript.Workbook) {
     return;
   }
 
-  // Continue....
+  // Continue...
 }
 
 function inputPresent(workbook: ExcelScript.Workbook): boolean {
@@ -136,7 +136,7 @@ range.setValues(someLargeValues);
 
 Si `someLargeValues` la taille est supérieure à Excel sur le Web, l’appel `setValues()` échoue. Le script échoue également avec une erreur [d’runtime.](../testing/troubleshooting.md#runtime-errors) L’instruction permet à votre script de reconnaître cette condition, sans terminer immédiatement le `try...catch` script et afficher l’erreur par défaut.
 
-Une approche pour offrir à l’utilisateur du script une meilleure expérience consiste à lui présenter un message d’erreur personnalisé. L’extrait de code suivant montre une instruction consignant plus d’informations sur les `try...catch` erreurs pour mieux aider le lecteur.
+Une approche pour offrir à l’utilisateur du script une meilleure expérience consiste à lui présenter un message d’erreur personnalisé. L’extrait de code suivant montre une instruction consignant plus d’informations sur les erreurs `try...catch` pour mieux aider le lecteur.
 
 ```TypeScript
 try {
@@ -148,7 +148,7 @@ try {
 }
 ```
 
-Une autre approche de traitement des erreurs consiste à avoir un comportement de retour qui gère le cas d’erreur. L’extrait de code suivant utilise le bloc pour essayer une autre méthode qui décompose la mise à jour en plus petites parties `catch` et évite l’erreur.
+Une autre approche de traitement des erreurs consiste à avoir un comportement de retour qui gère le cas d’erreur. L’extrait de code suivant utilise le bloc pour essayer une autre méthode décomposer la mise à jour en plus petites parties `catch` et éviter l’erreur.
 
 > [!TIP]
 > Pour obtenir un exemple complet sur la mise à jour d’une grande plage, voir [Écrire un jeu de données de grande taille.](../resources/samples/write-large-dataset.md)

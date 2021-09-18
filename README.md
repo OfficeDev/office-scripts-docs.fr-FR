@@ -25,7 +25,7 @@ Si votre problème n’est pas lié à la documentation Office Scripts, publiez-
 
 - Pour poser une question sur la conception de scripts Office ou de l’API Office.js qui exécute Office Scripts, publiez votre question sur Stack Overflow et marquez-la avec la balise « office-scripts » ( https://stackoverflow.com/questions/tagged/office-scripts) .
 - Pour signaler un problème avec l’API Office.js, créez le problème dans le référentiel [OfficeDev/office-js,](https://github.com/OfficeDev/office-js)que les membres de l’équipe produit surveillent pour les problèmes signalés par le client.
-- Pour envoyer une demande de fonctionnalité pour les scripts Office, publiez votre idée sur notre [page](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)Voix utilisateur, ou si la demande de fonctionnalité existe déjà, ajoutez votre vote pour celui-ci, ou si la demande de fonctionnalité existe déjà, ajoutez votre vote pour elle. N’oubliez pas de déposer la demande sous Excel sur le Web dans la catégorie « Macros, scripts et macros » .
+- Pour envoyer une demande de fonctionnalité pour Office scripts, utilisez le bouton commentaires dans l’Éditeur de code. Dans le menu Plus **d’options (...)** de  l’Éditeur de code, sélectionnez le bouton Envoyer des commentaires pour partager vos besoins en fonctionnalités et d’autres expériences.
 
 ## <a name="copyright"></a>Copyright
 

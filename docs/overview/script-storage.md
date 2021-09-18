@@ -3,18 +3,18 @@ title: Office Stockage et propriété des fichiers scripts
 description: Informations sur la façon Office scripts sont stockés dans Microsoft OneDrive et transférés entre les propriétaires.
 ms.date: 06/04/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 2a404818ad5eb118467d5ad98c8921c5f3ea29fe
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 6b82fc041c97288feefa85f2a9c9efeab0cb5705
+ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59326862"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447449"
 ---
 # <a name="office-scripts-file-storage-and-ownership"></a>Office Stockage et propriété des fichiers scripts
 
-Office Les scripts sont stockés en tant que fichiers **.osts** dans votre Microsoft OneDrive. Ils sont stockés séparément à partir d’un workbook. Pour accorder l’accès à d’autres personnes, [partagez le script avec un Excel de travail.](excel.md#sharing-scripts) Cela signifie que vous liez le script au fichier, et non que vous l’attachez. Toute personne qui a accès au fichier Excel peut également afficher, exécuter ou effectuer une copie du script.
+Office Les scripts sont stockés en tant que fichiers **.osts** dans votre Microsoft OneDrive. Ils sont stockés séparément à partir d’un workbook. Pour accorder l’accès à d’autres personnes, [partagez le script avec un Excel de travail.](excel.md#share-scripts) Cela signifie que vous liez le script au fichier, et non que vous l’attachez. Toute personne qui a accès au fichier Excel peut également afficher, exécuter ou effectuer une copie du script.
 
-Sauf si vous partagez vos scripts, personne d’autre ne peut y accéder. Vos paramètres OneDrive contrôlent l’accès partagé et les autorisations pour tous les fichiers **.osts** de script, indépendamment des paramètres Excel de script. Les scripts ne peuvent pas être liés à partir d’un disque local ou d’emplacements cloud personnalisés. Office Les scripts reconnaissent et exécutent un script uniquement s’il est dans votre dossier OneDrive ou partagé avec le classeur.
+Sauf si vous partagez vos scripts, personne d’autre ne peut y accéder. Vos OneDrive contrôlent l’accès partagé et les autorisations pour tous les fichiers **.osts** de script, indépendamment des paramètres Excel de script. Les scripts ne peuvent pas être liés à partir d’un disque local ou d’emplacements cloud personnalisés. Office Les scripts reconnaissent et exécutent un script uniquement s’il est dans votre dossier OneDrive ou partagé avec le classeur.
 
 ## <a name="file-storage"></a>Stockage de fichiers
 

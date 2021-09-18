@@ -1,14 +1,14 @@
 ---
 title: Convertir des fichiers CSV en Excel de travail
-description: Découvrez comment utiliser des scripts Office et des Power Automate pour créer des .xlsx à partir .csv fichiers.
+description: Découvrez comment utiliser Office scripts et Power Automate pour créer des .xlsx à partir .csv fichiers.
 ms.date: 07/19/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: ecfc4d143cbaf10b9ea5f02881751f2c4fa28853
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 213c6caab1d1b20d566aa0e79630c1a9b50554f7
+ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59333432"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447477"
 ---
 # <a name="convert-csv-files-to-excel-workbooks"></a>Convertir des fichiers CSV en Excel de travail
 
@@ -61,13 +61,13 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 }
 ```
 
-## <a name="power-automate-flow-create-new-xlsx-files"></a>Power Automate flux : créer des fichiers .xlsx fichiers
+## <a name="power-automate-flow-create-new-xlsx-files"></a>Power Automate flux : créer des fichiers .xlsx de données
 
 1. Connectez-Power Automate et créez un **flux cloud programmé.** [](https://flow.microsoft.com)
 1. Définissez le flux sur **Répéter tous les** « 1 » « Jour », puis sélectionnez **Créer.**
 1. Obtenez le modèle Excel fichier. Il s’agit de la base de tous les fichiers .csv convertis. Ajoutez **une nouvelle étape** qui utilise le connecteur **OneDrive Entreprise** et l’action Obtenir le **contenu du** fichier. Indiquez le chemin d’accès au fichier « Template.xlsx ».
     * **Fichier**: /output/Template.xlsx
-1. Renommez **l’étape** Obtenir le contenu du fichier en allant dans le menu **...** de cette étape (dans le coin supérieur droit du connecteur) et en sélectionnant l’option **Renommer.** Modifiez le nom de l’étape en « Obtenir Excel modèle ».
+1. Renommez  l’étape Obtenir le contenu du fichier en allant dans le menu Pour obtenir le contenu **du fichier(...)** de cette étape (dans le coin supérieur droit du connecteur) et en sélectionnant l’option **Renommer.** Modifiez le nom de l’étape en « Obtenir Excel modèle ».
 
      :::image type="content" source="../../images/convert-csv-flow-1.png" alt-text="Le connecteur OneDrive Entreprise terminé dans Power Automate, renommé get Excel template.":::
 1. Obtenez tous les fichiers dans le dossier « sortie ». Ajoutez **une nouvelle étape qui** utilise le connecteur **OneDrive Entreprise** et les fichiers de liste **dans l’action de** dossier. Fournissez le chemin d’accès du dossier qui contient .csv fichiers.
@@ -75,7 +75,7 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 
     :::image type="content" source="../../images/convert-csv-flow-2.png" alt-text="Connecteur de OneDrive Entreprise terminé dans Power Automate.":::
 1. Ajoutez une condition de sorte que le flux fonctionne uniquement sur .csv fichiers. Ajoutez **une nouvelle étape** qui est le contrôle **condition.** Utilisez les valeurs suivantes pour la **condition**.
-    * **Choose a value**: *Name* (dynamic content from List files **in folder**). Notez que ce contenu dynamique a plusieurs résultats, donc un contrôle **Appliquer**  à chaque valeur entoure la **condition**.
+    * **Choose a value**: *Name* (dynamic content from List files **in folder**). Notez que ce contenu dynamique   a plusieurs résultats, donc un contrôle Appliquer à chaque valeur entoure la **condition**.
     * **se termine par** (à partir de la liste liste
     * **Choisissez une valeur**: .csv
 
@@ -86,7 +86,7 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 1. Faites le nouveau fichier .xlsx, en utilisant le modèle Excel en tant que contenu de base. Ajoutez **une nouvelle étape** qui utilise le connecteur **OneDrive Entreprise** et l’action Créer **un** fichier. Utilisez les valeurs ci-après.
     * **Chemin d’accès du** dossier : /output
     * **Nom de fichier** *: nom sans extension*.xlsx (choisissez  le nom sans contenu dynamique *d’extension* dans les fichiers de liste du dossier et tapez manuellement « .xlsx » après celui-ci)
-    * **Contenu du fichier**: *contenu de fichier* (contenu dynamique à partir de Get Excel **template)**
+    * **Contenu du fichier**: *contenu de fichier* (contenu dynamique à partir du modèle Get **Excel)**
 
      :::image type="content" source="../../images/convert-csv-flow-4.png" alt-text="Le fichier Obtenir .csv et créer des étapes de fichier du flux Power Automate flux.":::
 1. Exécutez le script pour copier des données dans le nouveau workbook. Ajoutez **le connecteur Excel Online (Entreprise)** avec l’action de script **Exécuter.** Utilisez les valeurs suivantes pour l’action.
