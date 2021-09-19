@@ -1,14 +1,14 @@
 ---
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
-ms.date: 07/04/2021
+ms.date: 09/17/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 056bf4bb489739d4062dcf422aded2dcc7fc5aa8
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 5b33f4b15733a0e053b7e5fa7ba1051b382f22ca
+ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59332879"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447502"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
@@ -62,7 +62,7 @@ Un moyen simple de commencer à apprendre les fonctionnalités de Office Scripts
 
 Après avoir terminé le didacticiel, lisez [Principes de base de l’écriture de scripts Office dans Excel sur le web](../develop/scripting-fundamentals.md) pour en savoir plus sur l’Éditeur de code et la rédaction et la modification de vos propres scripts. Pour plus d’informations sur l’Éditeur de code et la manière dont votre code script est interprété, lisez [Environnement Éditeur de code des Scripts Office](code-editor-environment.md).
 
-## <a name="sharing-scripts"></a>Partage de scénarios
+## <a name="share-scripts"></a>Partager des scripts
 
 :::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du scénario montrant l'option « Partager avec d'autres dans ce cahier de travail ».":::
 
@@ -73,7 +73,19 @@ Si vous souhaitez en savoir plus sur le partage et le non-partage de scripts, ve
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur le stockage des scripts dans votre espace OneDrive, veuillez consulter la rubrique [Stockage et propriété des fichiers de scripts Office](script-storage.md).
 
-## <a name="connecting-office-scripts-to-power-automate"></a>Connecter les scripts Office à Power Automate
+### <a name="create-script-buttons-preview"></a>Créer des boutons de script (aperçu)
+
+[!INCLUDE [Public preview](../includes/preview-note.md)]
+
+Aidez vos collègues à trouver et exécuter vos scripts en ajoutant des boutons de script à un workbook. Avec n’importe quel script, sélectionnez le menu Plus **d’options (...)** dans la page Détails du script ou dans le volet Des tâches de l’Éditeur de code, puis sélectionnez **Bouton Ajouter.** Cela crée un bouton dans le workbook qui exécute le script associé lorsqu’il est sélectionné. Il partage également le script avec le workbook, de sorte que tous les personnes particulièrement autorisées à écrire sur le workbook peuvent utiliser votre automatisation utile.
+
+La capture d’écran suivante montre la **page détails du script** pour un script intitulé Créer un rapport et l’option **Ajouter un bouton** dans le menu Plus **d’options (...)** est mise en évidence.
+
+:::image type="content" source="../images/add-button.png" alt-text="Option « Ajouter un bouton » dans le menu de la page Détails du script.":::
+
+Pour arrêter le partage d’un script via un bouton, allez dans le menu Plus **d’options (...)** dans la page Détails du script et sélectionnez **Arrêter le partage.** Cela supprime tous les boutons qui exécutent le script. La suppression d’un seul bouton supprime le script de ce bouton, même si l’opération est annulée ou si le bouton est coupé et enfoncé.
+
+## <a name="connect-office-scripts-to-power-automate"></a>Connecter les scripts Office à Power Automate
 
 [Automatisation de la puissance](https://flow.microsoft.com/) est un service qui vous aide à créer des flux de travail automatisés entre plusieurs applications et services. Les Office Scripts peuvent être utilisés dans ces flux de travail, ce qui vous permet de contrôler vos scénarios en dehors du cahier de travail. Vous pouvez exécuter vos scénarios selon un calendrier, les déclencher en réponse à des courriels, et bien plus encore. Visitez le [Exécutez des scénarios Office en Excel sur le web avec Power Automate](../tutorials/excel-power-automate-manual.md) pour apprendre les bases de la connexion de ces services d'automatisation.
 
