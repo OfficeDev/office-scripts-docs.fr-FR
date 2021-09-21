@@ -1,16 +1,16 @@
 ---
 title: Combiner des workbooks dans un seul et même workbook
 description: Découvrez comment utiliser Office scripts et Power Automate pour créer des feuilles de calcul de fusion à partir d’autres feuilles de calcul dans un seul et même workbook.
-ms.date: 09/03/2021
+ms.date: 09/17/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 6d2c9492e0e2164fe34cff21d92f3df4c9bee3fe
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: ffb0fd13cf587184aec87ade36e5e0e661043b94
+ms.sourcegitcommit: c23816babcc628b52f6d8aaa4b6342e04e83a5bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59337946"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460784"
 ---
-# <a name="combine-worksheets-into-a-single-workbook"></a>Combiner des feuilles de calcul dans un seul et même workbook
+# <a name="combine-worksheets-into-a-single-workbook"></a>Combiner des feuilles de calcul dans un seul classeur
 
 Cet exemple montre comment tirer des données de plusieurs workbooks dans un seul et centralisé. Il utilise deux scripts : l’un pour récupérer des informations à partir d’un workbook et l’autre pour créer des feuilles de calcul avec ces informations. Il combine les scripts dans un flux Power Automate qui agit sur un dossier OneDrive entier.
 
@@ -101,11 +101,11 @@ interface WorksheetData {
     * **Fichier**: votre fichier
     * **Script**: ajouter des feuilles de calcul
     * **workbookName**: *Nom* (contenu dynamique des fichiers **de liste dans le dossier)**
-    * **worksheetInformation**: *result* (dynamic content from **Run script)**
+    * **worksheetInformation** (après avoir  sélectionné le bouton Basculer vers l’ensemble du tableau, voir la remarque suivant l’image suivante) : résultat *(contenu* dynamique à partir du **script Exécuter)**
 
     :::image type="content" source="../../images/combine-worksheets-flow-2.png" alt-text="Les deux actions de script Exécuter à l’intérieur de l’application à chaque contrôle.":::
     > [!NOTE]
-    > Sélectionnez **le commutateur pour entrer le bouton de tableau** entier pour ajouter l’objet tableau directement, au lieu d’éléments individuels pour le tableau.
+    > Sélectionnez **le bouton Basculer pour entrer l’intégralité** du tableau afin d’ajouter l’objet tableau directement, au lieu d’éléments individuels pour le tableau.
     >
     > :::image type="content" source="../../images/combine-worksheets-flow-3.png" alt-text="Bouton à basculer pour entrer un tableau entier dans une zone de saisie de champ de contrôle.":::
 1. Enregistrez le flux. Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
