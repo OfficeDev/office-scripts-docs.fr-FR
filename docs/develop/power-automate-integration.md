@@ -1,14 +1,14 @@
 ---
 title: Exécuter Office scripts avec Power Automate
 description: Comment obtenir des scripts Office pour Excel sur le Web un flux de travail Power Automate de travail.
-ms.date: 05/17/2021
+ms.date: 11/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: b5bddae61961a56699f99111f71c4f152382f7c6
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 1a335944230011bc8f5967004b7394f3f5958321
+ms.sourcegitcommit: 634ad2061e683ae1032c1e0b55b00ac577adc34f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59327867"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60725596"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter Office scripts avec Power Automate
 
@@ -42,21 +42,23 @@ Toutes les entrées de script sont spécifiées en tant que paramètres supplém
 
 Lorsque vous configurez un flux dans Power Automate, vous pouvez spécifier une entrée de script en tant que valeurs statiques, [expressions](/power-automate/use-expressions-in-conditions)ou contenu dynamique. Pour plus d’informations sur le connecteur d’un service individuel, voir la [documentation Power Automate Connector.](/connectors/)
 
-Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, prenons en compte les `main` limites et restrictions suivantes.
+Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, prenons en compte les restrictions et les `main` allocations suivantes.
 
 1. Le premier paramètre doit être de type `ExcelScript.Workbook` . Son nom de paramètre n’a pas d’importance.
 
-2. Chaque paramètre doit avoir un type (par `string` exemple, ou `number` ).
+1. Chaque paramètre doit avoir un type (par `string` exemple, ou `number` ).
 
-3. Les types `string` de base , , , et sont pris en `number` `boolean` `unknown` `object` `undefined` charge.
+1. Les types `string` de base , , , et sont pris en `number` `boolean` `unknown` `object` `undefined` charge.
 
-4. Les tableaux des types de base répertoriés précédemment sont pris en charge.
+1. Les tableaux ( ) des types de base répertoriés précédemment `[]` sont pris en charge.
+    > [!IMPORTANT]
+    > Notez que l’objet `Array<T>` n’est pas un type de paramètre pris en charge.
 
-5. Les tableaux imbrmbrés sont pris en charge en tant que paramètres (mais pas en tant que types de retour).
+1. Les tableaux imbrmbrés sont pris en charge en tant que paramètres (mais pas en tant que types de retour).
 
-6. Les types Union sont autorisés s’il s’agit d’une union de littéraux appartenant à un seul type (par `"Left" | "Right"` exemple). Les personnes d’un type pris en charge avec undefined sont également pris en charge (par `string | undefined` exemple).
+1. Les types Union sont autorisés s’il s’agit d’une union de littéraux appartenant à un seul type (par `"Left" | "Right"` exemple). Les personnes d’un type pris en charge avec undefined sont également pris en charge (par `string | undefined` exemple).
 
-7. Les types d’objets sont autorisés s’ils contiennent des propriétés de type , , tableaux pris `string` en charge ou autres objets pris en `number` `boolean` charge. L’exemple suivant montre les objets imbrmbrés pris en charge en tant que types de paramètres :
+1. Les types d’objets sont autorisés s’ils contiennent des propriétés de type , , tableaux pris `string` en charge ou autres objets pris en `number` `boolean` charge. L’exemple suivant montre les objets imbrmbrés pris en charge en tant que types de paramètres :
 
     ```TypeScript
     // Office Scripts can return an Employee object because Position only contains strings and numbers.
@@ -71,15 +73,15 @@ Lorsque vous ajoutez des paramètres d’entrée à la fonction d’un script, p
     }
     ```
 
-8. L’interface ou la définition de classe des objets doit être définie dans le script. Un objet peut également être défini de manière anonyme en ligne, comme dans l’exemple suivant :
+1. L’interface ou la définition de classe des objets doit être définie dans le script. Un objet peut également être défini de manière anonyme en ligne, comme dans l’exemple suivant :
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook): {name: string, email: string}
     ```
 
-9. Les paramètres facultatifs sont autorisés et peuvent être indiqués en tant que tels à l’aide du modificateur facultatif `?` (par exemple, `function main(workbook: ExcelScript.Workbook, Name?: string)` ).
+1. Les paramètres facultatifs sont autorisés et peuvent être indiqués en tant que tels à l’aide du modificateur facultatif `?` (par exemple, `function main(workbook: ExcelScript.Workbook, Name?: string)` ).
 
-10. Les valeurs de paramètre par défaut sont autorisées (par `async function main(workbook: ExcelScript.Workbook, Name: string = 'Jane Doe')` exemple.
+1. Les valeurs de paramètre par défaut sont autorisées (par `async function main(workbook: ExcelScript.Workbook, Name: string = 'Jane Doe')` exemple.
 
 ### <a name="return-data-from-a-script"></a>Renvoyer des données à partir d’un script
 
@@ -87,17 +89,19 @@ Les scripts peuvent renvoyer des données à partir du workbook à utiliser en t
 
 1. Les types `string` de `number` base, , et sont pris `boolean` en `void` `undefined` charge.
 
-2. Les types Union utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
+1. Les types Union utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
 
-3. Les types de tableau sont autorisés s’ils sont de type `string` `number` , ou `boolean` . Ils sont également autorisés si le type est une union prise en charge ou un type littéral pris en charge.
+1. Les types de tableau ( `[]` ) sont autorisés s’ils sont de type `string` , ou `number` `boolean` . Ils sont également autorisés si le type est une union prise en charge ou un type littéral pris en charge.
+    > [!IMPORTANT]
+    > Notez que l’objet `Array<T>` n’est pas un type de retour pris en charge.
 
-4. Les types d’objets utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
+1. Les types d’objets utilisés comme types de retour suivent les mêmes restrictions que lorsqu’ils sont utilisés comme paramètres de script.
 
-5. La saisie implicite est prise en charge, même si elle doit respecter les mêmes règles qu’un type défini.
+1. La saisie implicite est prise en charge, même si elle doit respecter les mêmes règles qu’un type défini.
 
 ## <a name="example"></a>Exemple
 
-La capture d’écran suivante montre un flux Power Automate qui est déclenché chaque fois [qu’un](https://github.com/) problème GitHub de sécurité vous est affecté. Le flux exécute un script qui ajoute le problème à une table dans un Excel de travail. S’il existe cinq problèmes ou plus dans ce tableau, le flux envoie un rappel par courrier électronique.
+La capture d’écran suivante montre Power Automate flux de données qui est déclenché chaque fois [qu’un GitHub](https://github.com/) est affecté. Le flux exécute un script qui ajoute le problème à une table dans un Excel de travail. S’il existe cinq problèmes ou plus dans ce tableau, le flux envoie un rappel par courrier électronique.
 
 :::image type="content" source="../images/power-automate-parameter-return-sample.png" alt-text="Éditeur Power Automate de flux affichant l’exemple de flux.":::
 
