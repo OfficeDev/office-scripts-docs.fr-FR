@@ -1,7 +1,7 @@
 NOTICES AND INFORMATION Do Not Translate or Localize
 
 Ce logiciel intègre du matériel provenant de tiers.
-Microsoft met certains codes open source à disposition sur , ou vous pouvez envoyer une commande de chèque ou d’argent pour US $5,00, y compris le nom du produit, le nom du composant open source, la plateforme et le numéro de version, pour https://3rdpartysource.microsoft.com :
+Microsoft met certains codes open source à disposition à l’adresse , ou vous pouvez envoyer une commande de chèque ou d’argent pour 5,00 dollars américains, y compris le nom du produit, le nom du composant open source, la plateforme et le numéro de version, pour https://3rdpartysource.microsoft.com :
 
 Source Code Compliance Team Microsoft Corporation One Microsoft Way Redmond, WA 98052 USA
 
@@ -43,11 +43,11 @@ Copyright 2010-2019 James Coglan
 
 Copyright 2010-2019 James Coglan
 
-Sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence. Vous pouvez obtenir une copie de la licence à l'
+Licence sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence. Vous pouvez obtenir une copie de la licence à l'
 
     http://www.apache.org/licenses/LICENSE-2.0
 
-Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement. Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
+Sauf s’il est requis par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués « EN L’ÉTAT », sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement. Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
 
 
 ---------------------------------------------------------
@@ -71,25 +71,25 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
 
     « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
 
-    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui font l’objet d’un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
+    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
 
     « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
 
     Le formulaire « Source » doit être le formulaire préféré pour apporter des modifications, y compris, mais sans s’y limiter, au code source logiciel, à la source de documentation et aux fichiers de configuration.
 
-    Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de supports.
+    Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de médias.
 
     « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
 
-    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions éditoriales, annotations, élaborations ou autres modifications représentent, dans l’ensemble, une œuvre d’origine de la création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, la dérivée Works n’inclut pas les travaux qui restent séparables à partir des interfaces des travaux et des dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
 
-    La « contribution » signifie toute action de création, y compris la version d’origine du travail et toute modification ou ajout à ce travail ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du copyright. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
+    La « contribution » signifie toute œuvre de création, y compris la version d’origine du travail et toute modification ou ajout à cette fonction ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du droit d’auteur. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
 
     « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
 
  2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
 
- 3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
+ 3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec  travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
 
  4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
 
@@ -122,85 +122,12 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
 
  Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
 
- Sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
+ Licence sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
  Vous pouvez obtenir une copie de la licence à l'
 
      http://www.apache.org/licenses/LICENSE-2.0
 
- Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement.
- Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
- 
-
-
-                               Apache License
-                         Version 2.0, January 2004
-                      http://www.apache.org/licenses/
-
- CONDITIONS GÉNÉRALES D’UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
-
- 1. Définitions.
-
-    « Licence » désigne les conditions d’utilisation, de reproduction et de distribution telles que définies par les sections 1 à 9 du présent document.
-
-    « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
-
-    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui font l’objet d’un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
-
-    « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
-
-    Le formulaire « Source » doit être le formulaire préféré pour apporter des modifications, y compris, mais sans s’y limiter, au code source logiciel, à la source de documentation et aux fichiers de configuration.
-
-    Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de supports.
-
-    « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
-
-    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions éditoriales, annotations, élaborations ou autres modifications représentent, dans l’ensemble, une œuvre d’origine de la création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
-
-    La « contribution » signifie toute action de création, y compris la version d’origine du travail et toute modification ou ajout à ce travail ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du copyright. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
-
-    « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
-
- 2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
-
- 3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
-
- 4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
-
-    (a) Vous devez donner à d’autres destinataires de la licence Work ou Derivative Works une copie de cette licence ; et
-
-    (b) Tous les fichiers modifiés doivent porter des notifications importantes indiquant que vous avez modifié les fichiers ; et
-
-    (c) Vous devez conserver, sous la forme source des dérivés que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
-
-    (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de la dérivée works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
-
-    Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
-
- 5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans Le travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires.
-    En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
-
- 6. Marques. Cette licence n’accorde pas l’autorisation d’utiliser les noms commerciaux, les marques de commerce, les marques de service ou les noms de produit du licenseur, sauf si nécessaire pour une utilisation raisonnable et raisonnable pour décrire l’origine du travail et reproduire le contenu du fichier NOTICE.
-
- 7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES OU CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
-
- 8. Limitation of Liability. En aucun cas et en l’absence de théorie juridique, qu’il s’agisse d’un délit (y compris une négligence), d’un contrat ou d’une autre nature, sauf s’il est requis par le droit applicable (tels que des actes délibérés et volontaires) ou accepté par écrit, tout collaborateur est responsable de vous dommages, y compris les dommages directs, indirects, spéciaux, incidents ou résultants de tout caractère résultant de cette licence ou de son utilisation ou de son incapacité à utiliser le travail (y compris, mais pas limité aux dommages pour perte de clientèle, arrêt de travail, défaillance ou dysfonctionnement de l’ordinateur, ou tout ou partie des autres dommages ou pertes commerciaux), même si ce collaborateur a été informé de la possibilité de tels dommages.
-
- 9. Accepter la garantie ou une responsabilité supplémentaire. Lors de la redistribuation des travaux ou des dérivés, vous pouvez choisir de proposer et de facturer des frais pour l’acceptation du support, de la garantie, de l’indemnisation ou d’autres obligations de responsabilité et/ou droits conformes à la licence. Toutefois, lorsque vous acceptez de telles obligations, vous pouvez agir uniquement en votre nom et en votre seule responsabilité, et non au nom d’un autre collaborateur, et uniquement si vous acceptez d’indemniser, de défendre et de mettre en attente chaque collaborateur sans risque pour toute responsabilité encourue par ou les réclamations contre ce collaborateur pour la raison de votre acceptation d’une telle garantie ou d’une responsabilité supplémentaire.
-
- FIN DES CONDITIONS GÉNÉRALES
-
- ANNEXE : Comment appliquer la licence Apache à votre travail.
-
-    Pour appliquer la licence Apache à votre travail, attachez l’avis réutilisable suivant, avec les champs entre crochets « [] » remplacés par vos propres informations d’identification. (N’incluez pas les crochets !)  Le texte doit être inclus dans la syntaxe de commentaire appropriée pour le format de fichier. Nous vous recommandons également d’inclure un nom de fichier ou de classe et une description de l’objectif sur la même « page imprimée » que l’avis de copyright pour faciliter l’identification dans les archives tierces.
-
- Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
-
- Sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
- Vous pouvez obtenir une copie de la licence à l'
-
-     http://www.apache.org/licenses/LICENSE-2.0
-
- Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement.
+ Sauf s’il est requis par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués « EN L’ÉTAT », sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement.
  Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
  
 
@@ -227,15 +154,15 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
 
     « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
 
-    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, la dérivée Works n’inclut pas les travaux qui restent séparables à partir des interfaces des travaux et des dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
 
-    La « contribution » signifie toute action de création, y compris la version d’origine du travail et toute modification ou ajout à ce travail ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du copyright. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
+    La « contribution » signifie toute œuvre de création, y compris la version d’origine du travail et toute modification ou ajout à cette fonction ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du droit d’auteur. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
 
     « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
 
  2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
 
- 3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet sur une entité (y compris une réclamation croisée ou une demande reconventionnelle dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou d’un brevet de contributeur, alors toutes les licences de brevet accordées à vous en vertu de la présent licence pour ce travail doivent s’interrompre à la date à laquelle un tel litige est déposé.
+ 3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec  travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
 
  4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
 
@@ -246,79 +173,6 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
     (c) Vous devez conserver, sous la forme source des dérivés que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
 
     (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de la dérivée works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
-
-    Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
-
- 5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans Le travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires.
-    En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
-
- 6. Marques. Cette licence n’accorde pas l’autorisation d’utiliser les noms commerciaux, les marques de commerce, les marques de service ou les noms de produit du licenseur, sauf si nécessaire pour une utilisation raisonnable et raisonnable pour décrire l’origine du travail et reproduire le contenu du fichier NOTICE.
-
- 7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES OU CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
-
- 8. Limitation of Liability. En aucun cas et en l’absence de théorie juridique, qu’il s’agisse d’un délit (y compris une négligence), d’un contrat ou d’une autre nature, sauf s’il est requis par le droit applicable (tels que des actes délibérés et volontaires) ou accepté par écrit, tout collaborateur est responsable de vous dommages, y compris les dommages directs, indirects, spéciaux, incidents ou résultants de tout caractère résultant de cette licence ou de son utilisation ou de son incapacité à utiliser le travail (y compris, mais pas limité aux dommages pour perte de clientèle, arrêt de travail, défaillance ou dysfonctionnement de l’ordinateur, ou tout ou partie des autres dommages ou pertes commerciaux), même si ce collaborateur a été informé de la possibilité de tels dommages.
-
- 9. Accepter la garantie ou une responsabilité supplémentaire. Lors de la redistribuation des travaux ou des dérivés, vous pouvez choisir de proposer et de facturer des frais pour l’acceptation du support, de la garantie, de l’indemnisation ou d’autres obligations de responsabilité et/ou droits conformes à la licence. Toutefois, lorsque vous acceptez de telles obligations, vous pouvez agir uniquement en votre nom et en votre seule responsabilité, et non au nom d’un autre collaborateur, et uniquement si vous acceptez d’indemniser, de défendre et de mettre en attente chaque collaborateur sans risque pour toute responsabilité encourue par ou les réclamations contre ce collaborateur pour la raison de votre acceptation d’une telle garantie ou d’une responsabilité supplémentaire.
-
- FIN DES CONDITIONS GÉNÉRALES
-
- ANNEXE : Comment appliquer la licence Apache à votre travail.
-
-    Pour appliquer la licence Apache à votre travail, attachez l’avis réutilisable suivant, avec les champs entre crochets « [] » remplacés par vos propres informations d’identification. (N’incluez pas les crochets !)  Le texte doit être inclus dans la syntaxe de commentaire appropriée pour le format de fichier. Nous vous recommandons également d’inclure un nom de fichier ou de classe et une description de l’objectif sur la même « page imprimée » que l’avis de copyright pour faciliter l’identification dans les archives tierces.
-
- Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
-
- Sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
- Vous pouvez obtenir une copie de la licence à l'
-
-     http://www.apache.org/licenses/LICENSE-2.0
-
- Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement.
- Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
- 
-
-
-                               Apache License
-                         Version 2.0, January 2004
-                      http://www.apache.org/licenses/
-
- CONDITIONS GÉNÉRALES D’UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
-
- 1. Définitions.
-
-    « Licence » désigne les conditions d’utilisation, de reproduction et de distribution telles que définies par les sections 1 à 9 du présent document.
-
-    « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
-
-    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
-
-    « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
-
-    Le formulaire « Source » doit être le formulaire préféré pour apporter des modifications, y compris, mais sans s’y limiter, au code source logiciel, à la source de documentation et aux fichiers de configuration.
-
-    Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de médias.
-
-    « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
-
-    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
-
-    La « contribution » signifie toute action de création, y compris la version d’origine du travail et toute modification ou ajout à ce travail ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du copyright. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
-
-    « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
-
- 2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
-
- 3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, gratuite, irrévocable (sauf dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par un tel contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contributions avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet sur une entité (y compris une réclamation croisée ou une demande reconventionnelle dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou d’un brevet de contributeur, alors toutes les licences de brevet accordées à vous en vertu de la présent licence pour ce travail doivent s’interrompre à la date à laquelle un tel litige est déposé.
-
- 4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
-
-    (a) Vous devez fournir une copie de cette licence à tous les autres destinataires de la licence Work ou Derivative Works ; et
-
-    (b) Tous les fichiers modifiés doivent porter des notifications importantes indiquant que vous avez modifié les fichiers ; et
-
-    (c) Vous devez conserver, sous la forme source des dérivés que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
-
-    (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de La dérivée Works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
 
     Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
 
@@ -351,6 +205,152 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contrib
  
 
 
+                               Apache License
+                         Version 2.0, January 2004
+                      http://www.apache.org/licenses/
+
+ CONDITIONS GÉNÉRALES D’UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
+
+ 1. Définitions.
+
+    « Licence » désigne les conditions d’utilisation, de reproduction et de distribution telles que définies par les sections 1 à 9 du présent document.
+
+    « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
+
+    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui font l’objet d’un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
+
+    « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
+
+    Le formulaire « Source » doit être le formulaire préféré pour apporter des modifications, y compris, mais sans s’y limiter, au code source logiciel, à la source de documentation et aux fichiers de configuration.
+
+    Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de médias.
+
+    « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
+
+    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, la dérivée Works n’inclut pas les travaux qui restent séparables à partir des interfaces des travaux et des dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+
+    La « contribution » signifie toute action de création, y compris la version d’origine du travail et toute modification ou ajout à ce travail ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du copyright. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
+
+    « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
+
+ 2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés de, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
+
+ 3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec  travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
+
+ 4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
+
+    (a) Vous devez donner à d’autres destinataires de la licence Work ou Derivative Works une copie de cette licence ; et
+
+    (b) Tous les fichiers modifiés doivent porter des notifications importantes indiquant que vous avez modifié les fichiers ; et
+
+    (c) Vous devez conserver, sous la forme source des dérivés que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
+
+    (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de la dérivée works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
+
+    Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
+
+ 5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans le Travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires.
+    En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
+
+ 6. Marques. Cette licence n’accorde pas l’autorisation d’utiliser les noms commerciaux, les marques de commerce, les marques de service ou les noms de produit du licenseur, sauf si nécessaire pour une utilisation raisonnable et raisonnable pour décrire l’origine du travail et reproduire le contenu du fichier NOTICE.
+
+ 7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
+
+ 8. Limitation of Liability. En aucun cas et en l’absence de théorie juridique, qu’il s’agisse d’un délit (y compris une négligence), d’un contrat ou d’une autre nature, sauf s’il est requis par le droit applicable (tels que des actes délibérés et volontaires) ou accepté par écrit, tout collaborateur est responsable de vous dommages, y compris les dommages directs, indirects, spéciaux, incidents ou résultants de tout caractère résultant de cette licence ou de son utilisation ou de son incapacité à utiliser le travail (y compris, mais pas limité aux dommages pour perte de clientèle, arrêt de travail, défaillance ou dysfonctionnement de l’ordinateur, ou tout ou partie des autres dommages ou pertes commerciaux), même si ce collaborateur a été informé de la possibilité de tels dommages.
+
+ 9. Accepter la garantie ou une responsabilité supplémentaire. Lors de la redistribuation des travaux ou des dérivés, vous pouvez choisir de proposer et de facturer des frais pour l’acceptation du support, de la garantie, de l’indemnisation ou d’autres obligations de responsabilité et/ou droits conformes à la licence. Toutefois, lorsque vous acceptez de telles obligations, vous pouvez agir uniquement en votre nom et en votre seule responsabilité, et non au nom d’un autre collaborateur, et uniquement si vous acceptez d’indemniser, de défendre et de maintenir chaque collaborateur sans danger pour toute responsabilité encourue par un tel collaborateur ou les réclamations qui lui sont imposées pour la raison de votre acceptation d’une telle garantie ou d’une responsabilité supplémentaire.
+
+ FIN DES CONDITIONS GÉNÉRALES
+
+ ANNEXE : Comment appliquer la licence Apache à votre travail.
+
+    Pour appliquer la licence Apache à votre travail, attachez l’avis réutilisable suivant, avec les champs entre crochets « [] » remplacés par vos propres informations d’identification. (N’incluez pas les crochets !)  Le texte doit être inclus dans la syntaxe de commentaire appropriée pour le format de fichier. Nous vous recommandons également d’inclure un nom de fichier ou de classe et une description de l’objectif sur la même « page imprimée » que l’avis de copyright pour faciliter l’identification dans les archives tierces.
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+
+ Sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
+ Vous pouvez obtenir une copie de la licence à l'
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement.
+ Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
+ 
+
+
+                               Apache License
+                         Version 2.0, January 2004
+                      http://www.apache.org/licenses/
+
+ CONDITIONS GÉNÉRALES D’UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
+
+ 1. Définitions.
+
+    « Licence » désigne les conditions d’utilisation, de reproduction et de distribution telles que définies par les sections 1 à 9 du présent document.
+
+    « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
+
+    « Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui font l’objet d’un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
+
+    « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
+
+    Le formulaire « Source » doit être le formulaire préféré pour apporter des modifications, y compris, mais sans s’y limiter, au code source logiciel, à la source de documentation et aux fichiers de configuration.
+
+    Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de médias.
+
+    « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
+
+    « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, la dérivée Works n’inclut pas les travaux qui restent séparables à partir des interfaces des travaux et des dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+
+    La « contribution » signifie toute action de création, y compris la version d’origine du travail et toute modification ou ajout à ce travail ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du copyright. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
+
+    « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
+
+ 2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés de, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
+
+ 3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec  travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
+
+ 4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
+
+    (a) Vous devez donner à d’autres destinataires de la licence Work ou Derivative Works une copie de cette licence ; et
+
+    (b) Tous les fichiers modifiés doivent porter des notifications importantes indiquant que vous avez modifié les fichiers ; et
+
+    (c) Vous devez conserver, sous la forme source des dérivés que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
+
+    (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de La dérivée Works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
+
+    Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
+
+ 5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans Le travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires.
+    En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
+
+ 6. Marques. Cette licence n’accorde pas l’autorisation d’utiliser les noms commerciaux, les marques de commerce, les marques de service ou les noms de produit du licenseur, sauf si nécessaire pour une utilisation raisonnable et raisonnable pour décrire l’origine du travail et reproduire le contenu du fichier NOTICE.
+
+ 7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES OU CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
+
+ 8. Limitation of Liability. En aucun cas et en l’absence de théorie juridique, qu’il s’agisse d’un délit (y compris une négligence), d’un contrat ou d’une autre nature, sauf s’il est requis par le droit applicable (tels que des actes délibérés et volontaires) ou accepté par écrit, tout collaborateur est responsable de vous dommages, y compris les dommages directs, indirects, spéciaux, incidents ou résultants de tout caractère résultant de cette licence ou de son utilisation ou de son incapacité à utiliser le travail (y compris, mais pas limité aux dommages pour perte de clientèle, arrêt de travail, défaillance ou dysfonctionnement de l’ordinateur, ou tout ou partie des autres dommages ou pertes commerciaux), même si ce collaborateur a été informé de la possibilité de tels dommages.
+
+ 9. Accepter la garantie ou une responsabilité supplémentaire. Lors de la redistribuation des travaux ou des dérivés, vous pouvez choisir de proposer et de facturer des frais pour l’acceptation du support, de la garantie, de l’indemnisation ou d’autres obligations de responsabilité et/ou droits conformes à la licence. Toutefois, lorsque vous acceptez de telles obligations, vous pouvez agir uniquement en votre nom et en votre seule responsabilité, et non au nom d’un autre collaborateur, et uniquement si vous acceptez d’indemniser, de défendre et de mettre en attente chaque collaborateur sans risque pour toute responsabilité encourue par ou les réclamations contre ce collaborateur pour la raison de votre acceptation d’une telle garantie ou d’une responsabilité supplémentaire.
+
+ FIN DES CONDITIONS GÉNÉRALES
+
+ ANNEXE : Comment appliquer la licence Apache à votre travail.
+
+    Pour appliquer la licence Apache à votre travail, attachez l’avis réutilisable suivant, avec les champs entre crochets « [] » remplacés par vos propres informations d’identification. (N’incluez pas les crochets !)  Le texte doit être inclus dans la syntaxe de commentaire appropriée pour le format de fichier. Nous vous recommandons également d’inclure un nom de fichier ou de classe et une description de l’objectif sur la même « page imprimée » que l’avis de copyright pour faciliter l’identification dans les archives tierces.
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+
+ Licence sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
+ Vous pouvez obtenir une copie de la licence à l'
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Sauf s’il est requis par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués « EN L’ÉTAT », sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement.
+ Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
+ 
+
+
 ---------------------------------------------------------
 
 ---------------------------------------------------------
@@ -375,25 +375,25 @@ CONDITIONS GÉNÉRALES D’UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
 
 « Licensor » signifie le propriétaire ou l’entité de copyright autorisé par le propriétaire du copyright qui accorde la licence.
 
-« Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui font l’objet d’un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
+« Entité juridique » signifie l’union de l’entité agissante et de toutes les autres entités qui contrôlent, sont contrôlées par cette entité ou qui sont sous un contrôle commun avec cette entité. Pour les besoins de cette définition, « contrôle » signifie (i) la puissance, directe ou indirecte, qui entraîne la direction ou la gestion de cette entité, que ce soit par contrat ou autrement, ou (ii) la propriété de 50 % (50 %) ou plus des partages en suspens, ou (iii) la propriété bénéfique de cette entité.
 
 « Vous » (ou « Votre ») signifie une personne ou une entité juridique qui exerce des autorisations accordées par la licence.
 
 Le formulaire « Source » doit être le formulaire préféré pour apporter des modifications, y compris, mais sans s’y limiter, au code source logiciel, à la source de documentation et aux fichiers de configuration.
 
-Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de supports.
+Le formulaire « Object » signifie tout formulaire résultant d’une transformation mécanique ou d’une traduction d’un formulaire Source, y compris, mais sans s’y limiter, du code objet compilé, de la documentation générée et des conversions vers d’autres types de médias.
 
 « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
 
-« Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions éditoriales, annotations, élaborations ou autres modifications représentent, dans l’ensemble, une œuvre d’origine de la création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+« Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, la dérivée Works n’inclut pas les travaux qui restent séparables à partir des interfaces des travaux et des dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
 
-La « contribution » signifie toute action de création, y compris la version d’origine du travail et toute modification ou ajout à ce travail ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du copyright. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
+La « contribution » signifie toute œuvre de création, y compris la version d’origine du travail et toute modification ou ajout à cette fonction ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du droit d’auteur. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
 
 « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
 
-2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés de, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
+2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
 
-3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, gratuite, irrévocable (sauf dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par un tel contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contributions avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet sur une entité (y compris une réclamation croisée ou une demande reconventionnelle dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou d’un brevet de contributeur, alors toutes les licences de brevet accordées à vous en vertu de la présent licence pour ce travail doivent s’interrompre à la date à laquelle un tel litige est déposé.
+3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec  travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
 
 4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
 
@@ -405,15 +405,15 @@ Vous devez conserver, sous la forme source de n’importe quelle dérivée works
 
 Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de la dérivée Works, au moins dans l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence. Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
 
-5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans le Travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires. En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
+5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans Le travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires. En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
 
 6. Marques. Cette licence n’accorde pas l’autorisation d’utiliser les noms commerciaux, les marques de commerce, les marques de service ou les noms de produit du licenseur, sauf si nécessaire pour une utilisation raisonnable et raisonnable pour décrire l’origine du travail et reproduire le contenu du fichier NOTICE.
 
-7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
+7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES OU CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
 
 8. Limitation of Liability. En aucun cas et en l’absence de théorie juridique, qu’il s’agisse d’un délit (y compris une négligence), d’un contrat ou d’une autre nature, sauf s’il est requis par le droit applicable (tels que des actes délibérés et volontaires) ou accepté par écrit, tout collaborateur est responsable de vous dommages, y compris les dommages directs, indirects, spéciaux, incidents ou résultants de tout caractère résultant de cette licence ou de son utilisation ou de son incapacité à utiliser le travail (y compris, mais pas limité aux dommages pour perte de clientèle, arrêt de travail, défaillance ou dysfonctionnement de l’ordinateur, ou tout ou partie des autres dommages ou pertes commerciaux), même si ce collaborateur a été informé de la possibilité de tels dommages.
 
-9. Accepter la garantie ou une responsabilité supplémentaire. Lors de la redistribuation des travaux ou des dérivés, vous pouvez choisir de proposer et de facturer des frais pour l’acceptation du support, de la garantie, de l’indemnisation ou d’autres obligations de responsabilité et/ou droits conformes à la licence. Toutefois, lorsque vous acceptez de telles obligations, vous pouvez agir uniquement en votre nom et en votre seule responsabilité, et non au nom d’un autre collaborateur, et uniquement si vous acceptez d’indemniser, de défendre et de maintenir chaque collaborateur sans danger pour toute responsabilité encourue par un tel collaborateur ou les réclamations qui lui sont imposées pour la raison de votre acceptation d’une telle garantie ou d’une responsabilité supplémentaire.
+9. Accepter la garantie ou une responsabilité supplémentaire. Lors de la redistribuation des travaux ou des dérivés, vous pouvez choisir de proposer et de facturer des frais pour l’acceptation du support, de la garantie, de l’indemnisation ou d’autres obligations de responsabilité et/ou droits conformes à la licence. Toutefois, lorsque vous acceptez de telles obligations, vous pouvez agir uniquement en votre nom et en votre seule responsabilité, et non au nom d’un autre collaborateur, et uniquement si vous acceptez d’indemniser, de défendre et de mettre en attente chaque collaborateur sans risque pour toute responsabilité encourue par ou les réclamations contre ce collaborateur pour la raison de votre acceptation d’une telle garantie ou d’une responsabilité supplémentaire.
 
 FIN DES CONDITIONS GÉNÉRALES
 
@@ -427,11 +427,11 @@ websocket-driver 0.7.4 - Apache-2.0 https://github.com/faye/websocket-driver-nod
 
 Copyright 2010-2020 James Coglan
 
-Sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence. Vous pouvez obtenir une copie de la licence à l'
+Licence sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence. Vous pouvez obtenir une copie de la licence à l'
 
     http://www.apache.org/licenses/LICENSE-2.0
 
-Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement. Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
+Sauf s’il est requis par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués « EN L’ÉTAT », sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement. Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
 
 
 ---------------------------------------------------------
@@ -443,11 +443,11 @@ websocket-extensions 0.1.4 - Apache-2.0 http://github.com/faye/websocket-extensi
 
 Copyright 2014-2020 James Coglan
 
-Sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence. Vous pouvez obtenir une copie de la licence à l'
+Licence sous licence Apache, version 2.0 (licence) ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence. Vous pouvez obtenir une copie de la licence à l'
 
     http://www.apache.org/licenses/LICENSE-2.0
 
-Sauf condition requise par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués en L’état, sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement. Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
+Sauf s’il est requis par la loi applicable ou accepté par écrit, les logiciels distribués sous la licence sont distribués « EN L’ÉTAT », sans GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement. Consultez la licence pour la langue spécifique qui régit les autorisations et les limitations dans le cadre de la licence.
 
 
 ---------------------------------------------------------
@@ -497,15 +497,15 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
       « Travail » signifie l’œuvre de la auteur, qu’elle soit au formulaire Source ou Objet, rendue disponible sous la licence, comme indiqué par une notification de copyright incluse ou jointe au travail (un exemple est fourni dans l’Annexe ci-dessous).
 
-      « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions éditoriales, annotations, élaborations ou autres modifications représentent, dans l’ensemble, une œuvre d’origine de la création. Pour les besoins de la licence, La dérivée works n’inclut pas les travaux qui restent séparables à partir des interfaces de travail et de dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
+      « Dérivées » signifie toute œuvre, sous forme source ou objet, basée (ou dérivée de) sur le travail et pour laquelle les révisions, annotations, élaborations ou autres modifications éditoriales représentent, dans l’ensemble, une œuvre originale de création. Pour les besoins de la licence, la dérivée Works n’inclut pas les travaux qui restent séparables à partir des interfaces des travaux et des dérivés, ni simplement les liaisons (ou liaisons par nom) aux interfaces de ces travaux et de ces travaux dérivés.
 
       La « contribution » signifie toute œuvre de création, y compris la version d’origine du travail et toute modification ou ajout à cette fonction ou à cette dérivée, qui est intentionnellement soumise au licenseur pour être incluse dans le travail par le propriétaire du copyright ou par une personne ou une entité juridique autorisée à soumettre au nom du propriétaire du droit d’auteur. Dans le cadre de cette définition, « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au licenseur ou à ses représentants, y compris, mais sans s’y limiter, la communication sur les listes de diffusion électroniques, les systèmes de contrôle de code source et les systèmes de suivi des problèmes gérés par le concédant ou pour son compte dans le but de discuter et d’améliorer le travail,  mais en excluant les communications marquées de manière visible ou désignées par écrit par le propriétaire du droit d’auteur comme « Pas une contribution ».
 
       « Collaborateur » signifie licenseur et toute entité individuelle ou juridique au nom de laquelle une contribution a été reçue par le licenseur et incorporée par la suite dans le travail.
 
-   2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, non exclusive, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
+   2. Octroi d’une licence de copyright. Sous réserve des termes et conditions de cette licence, chaque collaborateur vous accorde une licence de copyright perpétuelle, internationale, gratuite, gratuite et irrévocable pour reproduire, préparer les produits dérivés de, les afficher publiquement, effectuer publiquement, sous-licence et distribuer le travail et ces dérivés sous forme source ou objet.
 
-   3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
+   3. Octroi d’une licence de brevet. Sous réserve des conditions générales de cette licence, chaque collaborateur vous accorde par la présente une licence de brevet perpétuelle, internationale, non exclusive, gratuite, sans droit d’auteur, irrévocable (sauf indiqué dans la présente section) pour obtenir, avoir, utiliser, proposer de vendre, vendre, importer et transférer le travail, où cette licence s’applique uniquement aux réclamations de brevet concédant une licence par ce contributeur qui sont nécessairement enfreintes par leur ou leurs contribution(s) seule(s) ou par combinaison de leurs contribution(s) avec  travail auquel ces contribution(s) ont été envoyées. Si vous insérez un litige de brevet à l’encontre d’une entité (y compris une réclamation croisée ou une contre-demande dans le cadre d’une action en justice) en présimant que le travail ou une contribution incorporée dans le travail constitue une violation directe ou de brevet de contributeur, les licences de brevet accordées à vous en vertu de la présent licence pour ce travail se terminent à la date à laquelle un tel litige est déposé.
 
    4. Redistribution. Vous pouvez reproduire et distribuer des copies des travaux ou des dérivés de celui-ci dans n’importe quel moyen, avec ou sans modifications, et sous la forme source ou objet, à condition que vous répondiez aux conditions suivantes :
 
@@ -515,16 +515,16 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
       (c) Vous devez conserver, sous la forme source des dérivés que vous distribuez, toutes les notifications de copyright, de brevet, de marque et d’attribution du formulaire Source du travail, à l’exclusion des avis qui ne concernent aucune partie de la dérivée Works ; et
 
-      (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de La dérivée Works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
+      (d) Si le travail inclut un fichier texte « NOTICE » dans le cadre de sa distribution, tous les travaux dérivés que vous distribuez doivent inclure une copie lisible des notifications d’attribution contenues dans ce fichier NOTICE, à l’exception des notifications qui ne concernent aucune partie de la dérivée works, au moins l’un des endroits suivants :  dans un fichier texte NOTICE distribué dans le cadre de la dérivée Works ; dans le formulaire ou la documentation source, s’il est fourni avec la dérivée Works ; ou, dans un affichage généré par la dérivée Works, si et où ces notifications tierces apparaissent normalement. Le contenu du fichier NOTICE est uniquement à des fins d’information et ne modifie pas la licence. Vous pouvez ajouter vos propres notifications d’attribution au sein de Derivative Works que vous distribuez, en même temps ou en tant qu’ajout au texte NOTICE à partir du travail, à condition que ces notifications d’attribution supplémentaires ne peuvent pas être interprétées comme modifiant la licence.
 
       Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et peut fournir des conditions et conditions supplémentaires ou différentes pour l’utilisation, la reproduction ou la distribution de vos modifications, ou pour tout autre type de dérivés fonctionne dans son ensemble, à condition que votre utilisation, reproduction et distribution du travail soit conforme aux conditions de la licence.
 
-   5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans Le travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires.
+   5. Envoi de contributions. Sauf mention explicite, toute contribution envoyée intentionnellement pour être incluse dans le Travail par vous au concédant du licence est soumise aux termes et conditions de la licence, sans conditions supplémentaires.
       En ne respectant pas les conditions ci-dessus, rien ne doit précéder ou modifier les termes d’un contrat de licence distinct que vous avez peut-être exécuté avec licensor concernant ces contributions.
 
    6. Marques. Cette licence n’accorde pas l’autorisation d’utiliser les noms commerciaux, les marques de commerce, les marques de service ou les noms de produit du licenseur, sauf si nécessaire pour une utilisation raisonnable et raisonnable pour décrire l’origine du travail et reproduire le contenu du fichier NOTICE.
 
-   7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES OU CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
+   7. Clause d’exclusion de garantie. Sauf s’il est requis par la loi applicable ou accepté par écrit, licensor fournit le travail (et chaque collaborateur fournit ses contributions) sur une base « EN L’ÉTAT », SANS GARANTIES NI CONDITIONS DE QUELQUE TYPE que ce soit, expressément ou implicitement, y compris, sans limitation, toute garantie ou condition de TITRE, NON-CONTREFAÇON, QUALITÉ DE MARCHÉ ou FORME À UN USAGE PARTICULIER. Vous êtes le seul responsable de déterminer le caractère approprié de l’utilisation ou de la redistribuation du travail et assumez les risques associés à l’exercice des autorisations dans le cadre de cette licence.
 
    8. Limitation of Liability. En aucun cas et en l’absence de théorie juridique, qu’il s’agisse d’un délit (y compris une négligence), d’un contrat ou d’une autre nature, sauf s’il est requis par le droit applicable (tels que des actes délibérés et volontaires) ou accepté par écrit, tout collaborateur est responsable de vous dommages, y compris les dommages directs, indirects, spéciaux, incidents ou résultants de tout caractère résultant de cette licence ou de son utilisation ou de son incapacité à utiliser le travail (y compris, mais pas limité aux dommages pour perte de clientèle, arrêt de travail, défaillance ou dysfonctionnement de l’ordinateur, ou tout ou partie des autres dommages ou pertes commerciaux), même si ce collaborateur a été informé de la possibilité de tels dommages.
 
@@ -563,7 +563,7 @@ La redistribution et l’utilisation dans les formulaires sources et binaires, a
 
 * Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
 
-CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE HYPOTHÈSE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
+CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
 
 
 ---------------------------------------------------------
@@ -583,7 +583,7 @@ La redistribution et l’utilisation dans les formulaires sources et binaires, a
 
 * Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
 
-CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE HYPOTHÈSE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
+CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
 
 
 
@@ -593,14 +593,14 @@ CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORAT
 
 esutils 2.0.3 - BSD-2-Clause https://github.com/estools/esutils
 
-Copyright (c) 2014 Copyright <ifaaan@gmail.com> (c) 2013 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013-2014 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013 Yusuke Copyright (c) 2013 Yusuke You (http://github.com/Constellation)
+Copyright (c) 2014 Niknik <ifaaan@gmail.com> copyright (c) 2013 Yusuke <utatane.tea@gmail.com> Copyright (c) 2013-2014 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013 Yusuke You (http://github.com/Constellation)
 
 La redistribution et l’utilisation dans les formulaires sources et binaires, avec ou sans modification, sont autorisées à condition que les conditions suivantes soient remplies :
 
   * Les redistributions du code source doivent conserver la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante.
   * Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
 
-CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, IL N’EST RESPONSABLE DES DOMMAGES <COPYRIGHT HOLDER> DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, JURIDIQUES OU CONSÉQUENCENELS (Y COMPRIS, MAIS SANS S’Y LIMITER, L’ACQUISITION DE BIENS OU SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE HYPOTHÈSE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
+CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, IL N’EST RESPONSABLE DES DOMMAGES <COPYRIGHT HOLDER> DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, JURIDIQUES OU CONSÉQUENCENELS (Y COMPRIS, MAIS SANS S’Y LIMITER, L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
 
 
 ---------------------------------------------------------
@@ -619,7 +619,7 @@ La redistribution et l’utilisation dans les formulaires sources et binaires, a
 
    2. Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
 
-CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE HYPOTHÈSE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
+CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
 
 ---------------------------------------------------------
 
@@ -628,7 +628,7 @@ CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORAT
 uri-js 4.2.2 - BSD-2-Clause https://github.com/garycourt/uri-js
 
 (c) 2011 Me Court.
-Copyright 2011 - Copyright Court.
+Copyright 2011 - Cour DeNtrese.
 Copyright (c) 2008 Copyright Copyright (c) 2009 John Resig, Jffer Zaefferer
 
 Copyright (c) <year> <owner> . Tous droits réservés.
@@ -649,7 +649,7 @@ filesize 3.6.1 - BSD-3-Clause https://filesizejs.com/
 
 Copyright (c) 2018 Copyright (c) 2018, Copyright Duligan <jason.mulligan@avoidwork.com>
 
-Copyright (c) 2018, Droits réservés à Copyright (c).
+Copyright (c) 2018, Droits réservés à Jean-Jean-Ligan All.
 
 La redistribution et l’utilisation dans les formulaires sources et binaires, avec ou sans modification, sont autorisées à condition que les conditions suivantes soient remplies :
 
@@ -657,7 +657,7 @@ La redistribution et l’utilisation dans les formulaires sources et binaires, a
 
 * Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
 
-* Ni le nom de filesize ni le nom de ses collaborateurs ne peuvent être utilisés pour approuver ou promouvoir des produits dérivés de ce logiciel sans autorisation écrite préalable spécifique.
+* Ni le nom de filesize, ni le nom de ses collaborateurs ne peuvent être utilisés pour approuver ou promouvoir des produits dérivés de ce logiciel sans autorisation écrite préalable spécifique.
 
 CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE TITULAIRE DU DROIT D’AUTEUR OU LES COLLABORATEURS NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE HYPOTHÈSE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
 
@@ -683,19 +683,19 @@ La redistribution et l’utilisation de ce logiciel dans les formulaires sources
   * Les redistributions sous forme binaire doivent reproduire la notification de copyright ci-dessus, cette liste de conditions et la clause d’exclusion de responsabilité suivante dans la documentation et/ou d’autres documents fournis avec la distribution.
   * Ni le nom de Yahoo! Inc. ni les noms des collaborateurs YUI peuvent être utilisés pour approuver ou promouvoir des produits dérivés de ce logiciel sans autorisation écrite préalable spécifique de Yahoo! Inc.
 
-CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE PROPRIÉTAIRE OU LES COLLABORATEURS DU DROIT D’AUTEUR NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
+CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORATEURS « EN L’ÉTAT », AINSI QUE TOUTE GARANTIE EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ ET D’APTITUDE À UN USAGE PARTICULIER SONT DISCLAIMED. EN AUCUN CAS, LE PROPRIÉTAIRE OU LES COLLABORATEURS DU DROIT D’AUTEUR NE SONT RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, INCIDENTS, SPÉCIAUX, PARTICULIERS OU INDIRECTS (Y COMPRIS, MAIS SANS S’Y LIMITER, DE L’ACHAT DE BIENS OU DE SERVICES DE SUBSTITUTION ; PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES ; OU INTERRUPTION DE L’ENTREPRISE) TOUTEFOIS PROVOQUÉE ET SUR TOUTE HYPOTHÈSE DE RESPONSABILITÉ, QUE CE SOIT EN MATIÈRE DE CONTRAT, DE RESPONSABILITÉ STRICTE OU DE DÉLIT (Y COMPRIS DE NÉGLIGENCE OU AUTRE) RÉSULTANT DE QUELQUE MANIÈRE QUE CE SOIT D’UTILISER CE LOGICIEL, MÊME SI ELLE EST INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
 
 
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 
-source-map 0.5.7 - BSD-3-Clause https://github.com/mozilla/source-map
+source-map 0.6.1 - BSD-3-Clause https://github.com/mozilla/source-map
 
 Copyright 2011 The Closure Compiler Copyright 2011 Mozilla Foundation and contributors Copyright 2014 Mozilla Foundation and contributors Copyright 2009-2011 Mozilla Foundation and contributors Copyright (c) 2009-2011, Mozilla Foundation and contributors
 
 
-Copyright (c) 2009-2011, Mozilla Foundation et collaborateurs Tous droits réservés.
+Copyright (c) 2009-2011, Mozilla Foundation et contributeurs Tous droits réservés.
 
 La redistribution et l’utilisation dans les formulaires sources et binaires, avec ou sans modification, sont autorisées à condition que les conditions suivantes soient remplies :
 
@@ -712,12 +712,12 @@ CE LOGICIEL EST FOURNI PAR LES TITULAIRES DE DROITS D’AUTEUR ET LES COLLABORAT
 
 ---------------------------------------------------------
 
-source-map 0.6.1 - BSD-3-Clause https://github.com/mozilla/source-map
+source-map 0.5.7 - BSD-3-Clause https://github.com/mozilla/source-map
 
 Copyright 2011 The Closure Compiler Copyright 2011 Mozilla Foundation and contributors Copyright 2014 Mozilla Foundation and contributors Copyright 2009-2011 Mozilla Foundation and contributors Copyright (c) 2009-2011, Mozilla Foundation and contributors
 
 
-Copyright (c) 2009-2011, Mozilla Foundation et collaborateurs Tous droits réservés.
+Copyright (c) 2009-2011, Mozilla Foundation et contributeurs Tous droits réservés.
 
 La redistribution et l’utilisation dans les formulaires sources et binaires, avec ou sans modification, sont autorisées à condition que les conditions suivantes soient remplies :
 
@@ -745,7 +745,7 @@ Creative Commons Corporation (« Creative Commons ») n’est pas un cabinet d�
 
 Utilisation de licences publiques Creative Commons
 
-Les licences publiques Creative Commons fournissent un ensemble standard de conditions générales que les créateurs et autres titulaires de droits peuvent utiliser pour partager des œuvres d’origine de la création et d’autres documents soumis à des droits d’auteur et certains autres droits spécifiés dans la licence publique ci-dessous. Les considérations suivantes sont uniquement à des fins d’information, ne sont pas exhaustives et ne font pas partie de nos licences.
+Les licences publiques Creative Commons fournissent un ensemble standard de conditions générales que les créateurs et autres titulaires de droits peuvent utiliser pour partager des œuvres originales de création et d’autres documents soumis à des droits d’auteur et certains autres droits spécifiés dans la licence publique ci-dessous. Les considérations suivantes sont uniquement à des fins d’information, ne sont pas exhaustives et ne font pas partie de nos licences.
 
      Considerations for licensors: Our public licenses are
      intended for use by those authorized to give the public
@@ -787,17 +787,17 @@ En exercez les droits sous licence (définis ci-dessous), vous acceptez et accep
 
 Section 1 : Définitions.
 
-  a. Les documents adaptés sont des documents soumis à des droits d’auteur et des droits similaires dérivés ou basés sur le matériel sous licence et dans lesquels les documents sous licence sont traduits, modifiés, organisés, transformés ou modifiés d’une manière nécessitant une autorisation en vertu des droits d’auteur et des droits similaires détenus par le concédant. Dans le cadre de cette licence publique, où le matériel sous licence est un travail musical, des performances ou un enregistrement audio, le matériel adapté est toujours produit lorsque le matériel sous licence est synchronisé dans une relation synchronisée avec une image mobile.
+  a. Les documents adaptés sont des documents soumis à des droits d’auteur et des droits similaires dérivés ou basés sur le matériel sous licence et dans lesquels les documents sous licence sont traduits, modifiés, organisés, transformés ou modifiés d’une manière nécessitant une autorisation en vertu du droit d’auteur et des droits similaires détenus par le concédant. Dans le cadre de cette licence publique, où le matériel sous licence est un travail, des performances ou un enregistrement audio, le matériel adapté est toujours produit lorsque le matériel sous licence est synchronisé dans une relation synchronisée avec une image mobile.
 
   b. La licence de l’adaptateur signifie la licence que vous appliquez à vos droits d’auteur et droits similaires dans vos contributions au matériel adapté conformément aux termes et conditions de cette licence publique.
 
-  c. Les droits d’auteur et droits similaires signifient des droits d’auteur et/ou des droits similaires étroitement liés aux droits d’auteur, y compris, sans limitation, les performances, la diffusion, l’enregistrement audio et les droits de base de données Sui Generis, sans prendre en compte la façon dont les droits sont étiquetés ou classés. Aux fins de cette licence publique, les droits spécifiés dans la section 2(b)(1)-(2) ne sont pas droits d’auteur et droits similaires.
+  c. Droits d’auteur et droits similaires signifient des droits d’auteur et/ou des droits similaires étroitement liés au droit d’auteur, y compris, sans limitation, les performances, la diffusion, l’enregistrement audio et les droits de base de données Sui Generis, sans prendre en compte la façon dont les droits sont étiquetés ou classés. Aux fins de cette licence publique, les droits spécifiés dans la section 2(b)(1)-(2) ne sont pas droits d’auteur et droits similaires.
 
   d. Les mesures technologiques effectives signifient les mesures qui, en l’absence d’autorité appropriée, ne peuvent pas être contournées par les lois qui respectent les obligations imposées par l’article 11 de la convention de copyright de la WIPO adoptée le 20 décembre 1996 et/ou des accords internationaux similaires.
 
   e. Les exceptions et limitations signifient un usage équitable, une gestion équitable et/ou toute autre exception ou limitation aux droits d’auteur et aux droits similaires qui s’appliquent à votre utilisation du matériel sous licence.
 
-  f. Les documents sous licence désignent le travail, la base de données ou tout autre matériel, à laquelle le licenseur a appliqué cette licence publique.
+  f. Les documents sous licence désignent le travail, la base de données ou tout autre document à laquelle le licenseur a appliqué cette licence publique.
 
   g. Les droits sous licence signifient les droits qui vous sont accordés sous réserve des termes et conditions de cette licence publique, qui sont limités à tous les droits d’auteur et droits similaires qui s’appliquent à votre utilisation du matériel sous licence et que le concédant a l’autorisation de concéder une licence.
 
@@ -953,7 +953,7 @@ Pour éviter de doute, cette section 4 complète et ne remplace pas vos obligati
 
 Section 5 :- Clause d’exclusion de garanties et limitation de responsabilité.
 
-  a. SAUF S’IL EST AUTREMENT EFFECTUÉ SÉPARÉMENT PAR LE LICENSOR, DANS LA MESURE DU POSSIBLE, LE LICENSOR PROPOSE LES DOCUMENTS SOUS LICENCE TELS QU’ILS SONT ET TELS QU’ILS SONT DISPONIBLES, ET N’EFFECTUE AUCUNE REPRÉSENTATION OU GARANTIE DE QUELQUE TYPE QUE CE SOIT CONCERNANT LE MATÉRIEL SOUS LICENCE, QU’IL SOIT EXPRESS, IMPLICITE, STATUTAIRE OU AUTRE. CELA INCLUT, SANS LIMITATION, LES GARANTIES DE TITRE, DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER, DE NON-CONTREFAÇON, D’ABSENCE DE DÉFAUTS LATENTS OU AUTRES, DE PRÉCISION OU DE PRÉSENCE OU D’ABSENCE D’ERREURS, QU’ELLES SOIENT CONNUES OU NON OU DÉCOUVRABLES. LORSQUE LES CLAUSES D’EXCLUSION DE GARANTIE NE SONT PAS AUTORISÉES EN TOTALITÉ OU EN PARTIE, CETTE CLAUSE D’EXCLUSION DE RESPONSABILITÉ PEUT NE PAS VOUS ÊTRE APPLICABLE.
+  a. SAUF S’IL EST AUTREMENT EFFECTUÉ SÉPARÉMENT PAR LE LICENSOR, DANS LA MESURE DU POSSIBLE, LE LICENSOR PROPOSE LES DOCUMENTS SOUS LICENCE TELS QU’ILS SONT ET TELS QU’ILS SONT DISPONIBLES, ET N’EFFECTUE AUCUNE REPRÉSENTATION OU GARANTIE DE QUELQUE TYPE QUE CE SOIT CONCERNANT LE MATÉRIEL SOUS LICENCE, QU’IL SOIT EXPRESS, IMPLICITE, STATUTAIRE OU AUTRE. CELA INCLUT, SANS LIMITATION, LES GARANTIES DE TITRE, DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER, DE NON-CONTREFAÇON, D’ABSENCE DE DÉFAUTS LATENTS OU AUTRES, DE PRÉCISION OU DE PRÉSENCE OU D’ABSENCE D’ERREURS, QU’ELLES SOIENT CONNUES OU NON OU DÉCOUVRABLES. LORSQUE LES CLAUSES D’EXCLUSION DE RESPONSABILITÉ DES GARANTIES NE SONT PAS AUTORISÉES EN TOTALITÉ OU EN PARTIE, CETTE CLAUSE D’EXCLUSION DE RESPONSABILITÉ PEUT NE PAS VOUS ÊTRE APPLICABLE.
 
   b. DANS LA MESURE DU POSSIBLE, EN AUCUN CAS LE CONCÉDANT NE VOUS SERA RESPONSABLE DE TOUTE LOI JURIDIQUE (Y COMPRIS, SANS LIMITATION, NÉGLIGENCE) OU POUR TOUT AUTRE TYPE DIRECT, SPÉCIAL, INDIRECT, INCIDENTAL, INDIRECT, CONSÉQUENCENEL, DROIT, PRODUCTION OU AUTRES PERTES, COÛTS, DÉPENSES OU DOMMAGES RÉSULTANT DE CETTE LICENCE PUBLIQUE OU DE L’UTILISATION DU MATÉRIEL SOUS LICENCE, MÊME SI LE CONCÉDANT A ÉTÉ INFORMÉ DE LA POSSIBILITÉ DE TELLES PERTES,  COÛTS, DÉPENSES OU DOMMAGES. LORSQU’UNE LIMITATION DE RESPONSABILITÉ N’EST PAS AUTORISÉE EN TOTALITÉ OU EN PARTIE, CETTE LIMITATION PEUT NE PAS VOUS ÊTRE APPLICABLE.
 
@@ -976,7 +976,7 @@ Section 6 :- Terme et résiliation.
      right the Licensor may have to seek remedies for Your violations
      of this Public License.
 
-  c. Pour éviter tout doute, le licenseur peut également proposer le matériel sous licence dans des conditions distinctes ou arrêter la distribution du matériel sous licence à tout moment . Toutefois, cette utilisation ne met pas fin à cette licence publique.
+  c. Pour éviter tout doute, le licenseur peut également proposer le matériel sous licence dans des conditions distinctes ou arrêter la distribution du matériel sous licence à tout moment ; Toutefois, cette utilisation ne met pas fin à cette licence publique.
 
   d. Les sections 1, 5, 6, 7 et 8 survit à la résiliation de cette licence publique.
 
@@ -1001,7 +1001,7 @@ Section 8 -- Interprétation.
 
 =======================================================================
 
-Creative Commons n’est pas partie à ses licences publiques. Nonobstant, Creative Commons peut être en droit d’appliquer l’une de ses licences publiques au matériel qu’elle publie et, dans ces cas-là, elle sera considérée comme le « licenseur ». Le texte des licences publiques Creative Commons est dédié au domaine public sous le domaine public cc0 Domaine. À l’exception de l’objectif limité d’indiquer que du contenu est partagé sous une licence publique Creative Commons ou comme autrement autorisé par les stratégies Creative Commons publiées sur creativecommons.org/policies, Creative Commons n’autorise pas l’utilisation de la marque « Creative Commons » ou de toute autre marque ou logo de Creative Commons sans son consentement écrit préalable, y compris,  sans limitation, en relation avec des modifications non autorisées apportées à l’une de ses licences publiques ou à toute autre disposition, accords ou accords concernant l’utilisation de documents sous licence. Pour éviter tout doute, ce paragraphe ne fait pas partie des licences publiques.
+Creative Commons n’est pas partie à ses licences publiques. Nonobstant, Creative Commons peut être en droit d’appliquer l’une de ses licences publiques au matériel qu’elle publie et, dans ces cas-là, elle sera considérée comme le « licenseur ». Le texte des licences publiques Creative Commons est dédié au domaine public sous le domaine public cc0 Domaine. À l’exception de l’objectif limité d’indiquer que du contenu est partagé sous une licence publique Creative Commons ou comme autrement autorisé par les stratégies Creative Commons publiées sur creativecommons.org/policies, Creative Commons n’autorise pas l’utilisation de la marque « Creative Commons » ou de toute autre marque ou logo de Creative Commons sans son consentement écrit préalable, y compris,  sans limitation, en relation avec des modifications non autorisées apportées à l’une de ses licences publiques ou à toute autre disposition, accord ou accord concernant l’utilisation de matériel sous licence. Pour éviter tout doute, ce paragraphe ne fait pas partie des licences publiques.
 
 Creative Commons peut être contacté à l’creativecommons.org.
 
@@ -1012,15 +1012,15 @@ Creative Commons peut être contacté à l’creativecommons.org.
 
 anymatch 2.0.0 - ISC https://github.com/micromatch/anymatch
 
-Copyright (c) 2014 Elan Copyrighter
+Copyright (c) 2014 ElanLierer
 
 Licence ISC
 
-Copyright (c) 2014 Elan Copyrighter
+Copyright (c) 2014 ElanLierer
 
-L’autorisation d’utiliser, de copier, de modifier et/ou de distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
+L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1033,9 +1033,9 @@ Copyright (c) 2015, Ilya Rad copyright (c) <ilya@burstcreations.com>
 
 Copyright (c) 2015, Ilya Rad copyright (c) <ilya@burstcreations.com>
 
-L’autorisation d’utiliser, de copier, de modifier et/ou de distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
+L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1050,9 +1050,9 @@ Licence ISC
 
 Copyright (c) 2017, Jakob Domaineguel
 
-L’autorisation d’utiliser, de copier, de modifier et/ou de distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
+L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1065,9 +1065,9 @@ Copyright 2018 Valkévrier
 
 Copyright 2018 Valkévrier
 
-L’autorisation d’utiliser, de copier, de modifier et/ou de distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
+L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1076,15 +1076,15 @@ LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES G
 
 fs.realpath 1.0.0 - ISC https://github.com/isaacs/fs.realpath#readme
 
-Copyright (c) Importe Z. Copyright Joyent, Inc. et d’autres contributeurs node.
+Copyright (c) Importe Z. Copyright Joyent, Inc. et d’autres collaborateurs node.
 
 Licence ISC
 
-Copyright (c) Copyright Z.Queueter et Contributors
+Copyright (c) Copyright Z.Bacueter and Contributors
 
-L’autorisation d’utiliser, de copier, de modifier et/ou de distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
+L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 ----
 
@@ -1098,7 +1098,7 @@ La licence du nœud suit, également incluse dans l’en-tête `old.js` qui cont
 
   La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-  LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+  LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1107,19 +1107,19 @@ La licence du nœud suit, également incluse dans l’en-tête `old.js` qui cont
 
 glob 7.1.6 - ISC https://github.com/isaacs/node-glob#readme
 
-Copyright (c) Copyright Z.Queueter et Contributors
+Copyright (c) Copyright Z.Bacueter and Contributors
 
 Licence ISC
 
-Copyright (c) Copyright Z.Queueter et Contributors
+Copyright (c) Copyright Z.Bacueter and Contributors
 
-L’autorisation d’utiliser, de copier, de modifier et/ou de distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
+L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 ## <a name="glob-logo"></a>Glob Logo
 
-Logo de Glob créé par ContrôleSi , sous licence <http://tanyabrassie.com/> Creative Commons Attribution-ShareAlike 4.0 International License https://creativecommons.org/licenses/by-sa/4.0/
+Logo de Glob créé par Contrôlessie , sous licence <http://tanyabrassie.com/> Creative Commons Attribution-ShareAlike 4.0 International License https://creativecommons.org/licenses/by-sa/4.0/
 
 
 ---------------------------------------------------------
@@ -1128,15 +1128,15 @@ Logo de Glob créé par ContrôleSi , sous licence <http://tanyabrassie.com/> Cr
 
 glob-parent 3.1.0 - ISC https://github.com/es128/glob-parent
 
-Copyright (c) 2015 Elan Copyrighter
+Copyright (c) 2015 Elan Shanker
 
 Licence ISC
 
-Copyright (c) 2015 Elan Copyrighter
+Copyright (c) 2015 Elan Shanker
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1153,7 +1153,7 @@ Copyright (c) Importe Z. Copyrightueter, Ben Noordières et Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1170,7 +1170,7 @@ Copyright (c) Copyright Z.Bacueter
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1187,7 +1187,7 @@ Copyright (c) Copyright Z.Bacueter
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 
@@ -1205,7 +1205,7 @@ Copyright (c) Copyright Z.Bacueter and Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1222,7 +1222,7 @@ Copyright (c) Copyright Z.Bacueter and Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1239,7 +1239,7 @@ Copyright (c) Copyright Z.Bacueter and Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1256,7 +1256,7 @@ Copyright (c) Copyright Z.Bacueter and Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1273,7 +1273,7 @@ Copyright (c) Copyright Z.Bacueter and Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1285,7 +1285,7 @@ remove-trailing-separator 1.1.0 - ISC https://github.com/darsain/remove-trailing
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -1301,7 +1301,7 @@ Copyright (c) Copyright Z.Bacueter and Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1318,7 +1318,7 @@ Copyright (c) 2015, Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1335,7 +1335,7 @@ Copyright (c) Copyright Z.Bacueter and Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1352,7 +1352,7 @@ Copyright (c) Copyright Z.Bacueter and Contributors
 
 L’autorisation d’utiliser, copier, modifier et/ou distribuer ce logiciel dans n’importe quel but avec ou sans frais est accordée par la présente, à condition que la notification de copyright ci-dessus et cette notification d’autorisation apparaissent dans toutes les copies.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QU’IL EST » ET L’AUTEUR DÉLAIMA TOUTES LES GARANTIES CONCERNANT CE LOGICIEL, Y COMPRIS TOUTES LES GARANTIES IMPLICITES DE QUALITÉ ET DE QUALITÉ. EN AUCUN CAS, L’AUTEUR NE PEUT ÊTRE RESPONSABLE DE DOMMAGES SPÉCIAUX, DIRECTS, INDIRECTS OU INDIRECTS, OU DE TOUT DOMMAGE RÉSULTANT DE LA PERTE D’UTILISATION, DE DONNÉES OU DE BÉNÉFICES, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, DE NÉGLIGENCE OU D’UNE AUTRE ACTION MALVEILLANTE, RÉSULTANT OU EN LIEN AVEC L’UTILISATION OU L’EXÉCUTION DE CE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1380,13 +1380,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/code-frame 7.10.1 - MIT https://babeljs.io/
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1399,13 +1399,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/générateur 7.10.2 - MIT https://babeljs.io/
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1418,13 +1418,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/helper-annotate-as-pure 7.10.1 - MIT https://github.com/babel/babel#readme
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1437,13 +1437,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/helper-function-name 7.10.1 - MIT https://github.com/babel/babel#readme
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1456,13 +1456,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/helper-get-function-arity 7.10.1 - MIT https://github.com/babel/babel#readme
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1475,13 +1475,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/helper-module-imports 7.10.1 - MIT https://babeljs.io/
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1494,13 +1494,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/helper-split-export-declaration 7.10.1 - MIT https://github.com/babel/babel#readme
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1513,13 +1513,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/helper-validator-identifier 7.10.1 - MIT https://github.com/babel/babel#readme
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1532,13 +1532,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/highlight 7.10.1 - MIT https://babeljs.io/
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1555,7 +1555,7 @@ Copyright (c) 2012-2014 par différents contributeurs
 
 Copyright (C) 2012-2014 par différents contributeurs (voir AUTHORS)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1568,13 +1568,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/runtime 7.10.2 - MIT https://babeljs.io/docs/en/next/babel-runtime
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1587,13 +1587,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/modèle 7.10.1 - MIT https://babeljs.io/
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -1606,17 +1606,17 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 @babel/traverse 7.10.1 - MIT https://babeljs.io/
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
 Licence MIT
 
-Copyright (c) Édition 2014 - présents à LasOY et d’autres contributeurs
+Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1631,11 +1631,11 @@ Licence MIT
 
 Copyright (c) Édition 2014 - présents à LaSo Et autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1651,11 +1651,11 @@ Licence MIT
 
 Copyright (c) Team and other contributors
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1671,11 +1671,11 @@ Licence MIT
 
 Copyright (c) Team and other contributors
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1691,11 +1691,11 @@ Licence MIT
 
 Copyright (c) Team and other contributors
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -1717,7 +1717,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1742,7 +1742,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1766,7 +1766,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1778,7 +1778,7 @@ Remarque : l’utilisation des polices et des icônes référencés dans Fluent�
 @fluentui/font-icons-mdl2 8.1.12 - MIT https://github.com/microsoft/fluentui#readme
 
 
-Fluent Interface utilisateur React - icônes
+Fluent interface utilisateur React - icônes
 
 Copyright (c) Microsoft Corporation
 
@@ -1790,7 +1790,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1814,7 +1814,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1839,7 +1839,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1864,7 +1864,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1877,7 +1877,7 @@ Remarque : l’utilisation des polices et des icônes référencés dans Fluent�
 
 Copyright (c) Microsoft Corporation
 
-Fluent Interface utilisateur React - merge-styles
+Fluent’interface utilisateur React - merge-styles
 
 Copyright (c) Microsoft Corporation
 
@@ -1889,7 +1889,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1915,7 +1915,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fabric-assets-license
 
@@ -1939,7 +1939,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1964,7 +1964,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -1989,7 +1989,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2014,7 +2014,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2026,7 +2026,7 @@ Remarque : l’utilisation des polices et des icônes référencés dans Fluent�
 @fluentui/style-utilities 8.3.3 - MIT https://github.com/microsoft/fluentui#readme
 
 
-Fluent Interface utilisateur React - Utilitaires de style
+Fluent interface utilisateur React - Utilitaires de style
 
 Copyright (c) Microsoft Corporation
 
@@ -2038,7 +2038,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2063,7 +2063,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2088,7 +2088,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2101,7 +2101,7 @@ Remarque : l’utilisation des polices et des icônes référencés dans Fluent�
 
 Copyright (c) Microsoft Corporation
 
-Fluent Interface utilisateur React - utilitaires
+Fluent interface utilisateur React - utilitaires
 
 Copyright (c) Microsoft Corporation
 
@@ -2113,7 +2113,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2133,11 +2133,11 @@ Copyright (c) Microsoft Corporation. Tous droits réservés.
 
 Licence MIT
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -2151,11 +2151,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2016 James Messinger
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 .
 
@@ -2171,11 +2171,11 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -2189,11 +2189,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Yassine Eliquéfi
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -2209,11 +2209,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Yassine Eliquéfi
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -2229,11 +2229,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Yassine Eliquéfi
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -2249,11 +2249,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Yassine Eliquéfi
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -2269,11 +2269,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Yassine Eliquéfi
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -2289,11 +2289,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Yassine Eliquéfi
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -2309,11 +2309,11 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -2323,7 +2323,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 Copyright (c) Microsoft Corporation.
 
-Fluent Interface utilisateur React - merge-styles
+Fluent’interface utilisateur React - merge-styles
 
 Copyright (c) Microsoft Corporation
 
@@ -2335,7 +2335,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2360,7 +2360,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2373,7 +2373,7 @@ Remarque : l’utilisation des polices et des icônes référencés dans Fluent�
 
 Copyright (c) Microsoft Corporation
 
-Fluent Interface utilisateur React - stylisme
+Fluent’interface utilisateur React style
 
 Copyright (c) Microsoft Corporation
 
@@ -2385,7 +2385,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2398,7 +2398,7 @@ Remarque : l’utilisation des polices et des icônes référencés dans Fluent�
 
 Copyright (c) Microsoft Corporation
 
-Fluent Interface utilisateur React - utilitaires
+Fluent interface utilisateur React - utilitaires
 
 Copyright (c) Microsoft Corporation
 
@@ -2410,7 +2410,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI EN L’ÉTAT, SANS GARANTIE DE QUELQUE TYPE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 Remarque : l’utilisation des polices et des icônes référencés dans Fluent’interface utilisateur React est soumise aux termes répertoriés à l’articlehttps://aka.ms/fluentui-assets-license
 
@@ -2427,7 +2427,7 @@ Ce logiciel est sous licence mit.
 
 Copyright (C) 2013 - 2014 fengmk2 <fengmk2@gmail.com> Copyright (C) 2015 - 2016 node-modules
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2441,14 +2441,14 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 ajv 6.12.2 - MIT https://github.com/epoberezkin/ajv
 
 (c) 2011 Me Court.
-Copyright 2011 - Copyright Court.
+Copyright 2011 - Cour DeNtrese.
 Copyright (c) 2015-2017 Evgeny Poberezkin
 
 La licence MIT (MIT)
 
 Copyright (c) 2015-2017 Evgeny Poberezkin
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2468,7 +2468,7 @@ Licence MIT
 
 Copyright (c) 2017 Evgeny Poberezkin
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2487,7 +2487,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016 Evgeny Poberezkin
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2506,7 +2506,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2525,26 +2525,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-ansi-regex 4.1.0 - MIT https://github.com/chalk/ansi-regex#readme
-
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-Licence MIT
-
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2563,11 +2544,30 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
 LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+ansi-regex 4.1.0 - MIT https://github.com/chalk/ansi-regex#readme
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+Licence MIT
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2582,11 +2582,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2601,11 +2601,11 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2620,11 +2620,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2639,11 +2639,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2659,11 +2659,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2016, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2679,11 +2679,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2699,11 +2699,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2718,11 +2718,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2738,11 +2738,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2016, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2757,11 +2757,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -2776,11 +2776,11 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -2793,7 +2793,7 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2812,7 +2812,7 @@ Licence MIT
 
 Copyright (c) Édition 2016 - Présents à LasOyv et Maximilian Stoib
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2831,7 +2831,7 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2849,7 +2849,7 @@ Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 
 Copyright (c) 2013 Julian Julian@juliangruber.com &lt;&gt;
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2869,7 +2869,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2888,7 +2888,7 @@ La licence MIT (Dont).
 
 Copyright (c) 2018 Michael Mc copyright
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2909,7 +2909,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2924,11 +2924,11 @@ bindings 1.5.0 - MIT https://github.com/TooTallNate/node-bindings
 
 Copyright (c) 2012 Nathan Rajlich <nathan@tootallnate.net>
 
-(Licence MIT)
+(La licence MIT)
 
 Copyright (c) 2012 Rajlich &lt; nathan@tootallnate.net&gt;
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2948,7 +2948,7 @@ Licence MIT
 
 Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2968,7 +2968,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2018, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -2987,7 +2987,7 @@ La licence MIT (MIT)
 
 Copyright 2014 Andatrice Sitnik <andrey@sitnik.ru> et d’autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -3006,7 +3006,7 @@ La licence MIT (MIT)
 
 Copyright 2014 Andnick Sitnik <andrey@sitnik.ru>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -3026,11 +3026,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -3044,11 +3044,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Eric McÉné
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -3061,11 +3061,11 @@ camelize 1.0.0 - MIT https://github.com/substack/camelize
 
 Ce logiciel est publié sous la licence MIT :
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -3080,11 +3080,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -3099,11 +3099,11 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -3116,11 +3116,11 @@ Copyright (c) 2018 Dmitry Shirokov
 
 Copyright (C) 2018 Dmitry Shirokov
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -3135,11 +3135,11 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -3154,11 +3154,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015, 2017-2018, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -3173,11 +3173,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -3193,11 +3193,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015, 2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -3210,11 +3210,11 @@ Copyright (c) 2012 Heather Arthur
 
 Copyright (c) 2012 Heather Arthur
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -3224,16 +3224,16 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 color-convert 1.9.3 - MIT https://github.com/Qix-/color-convert#readme
 
-Copyright (c) 2011-2016, PrésidentSyreur et DomaineDessin.
+Copyright (c) 2011-2016, PropriétéSyr et Domaine Domaine.
 Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
 
 Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -3245,13 +3245,13 @@ color-name 1.1.3 - MIT https://github.com/dfcreative/color-name
 
 Copyright (c) 2015 Dmitry Ivanov
 
-La licence MIT (MIT) Copyright (c) 2015
+The MIT License (MIT) Copyright (c) 2015 Dmitry Ivanov
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -3263,7 +3263,7 @@ Copyright (c) 2011 Heather Arthur <fayearthur@gmail.com>
 
 Copyright (c) 2011 Heather Arthur <fayearthur@gmail.com>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -3279,9 +3279,9 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 Copyright (c) 2014 Component
 
-(La licence MIT)
+(Licence MIT)
 
-Copyright (c) 2014 Component contributors <dev@component.io>
+Collaborateurs du composant Copyright (c) 2014 <dev@component.io>
 
 L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -3402,19 +3402,39 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
+debug 4.1.1 - MIT https://github.com/visionmedia/debug#readme
+
+Copyright (c) 2014 TJ Holoway copyright <tj@vision-media.ca> (c) 2014-2017 TJ Holoway pc <tj@vision-media.ca>
+
+(Licence MIT)
+
+Copyright (c) 2014 TJ Holowaypher <tj@vision-media.ca>
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
 debug 2.6.9 - MIT https://github.com/visionmedia/debug#readme
 
 Copyright (c) 2014 TJ Holoway copyright <tj@vision-media.ca> (c) 2014-2016 TJ Holoway pc <tj@vision-media.ca>
 
-(La licence MIT)
+(Licence MIT)
 
 Copyright (c) 2014 TJ Holowaypher <tj@vision-media.ca>
 
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -3426,35 +3446,15 @@ debug 3.2.6 - MIT https://github.com/visionmedia/debug#readme
 
 Copyright (c) 2014 TJ Holoway copyright <tj@vision-media.ca> (c) 2014-2017 TJ Holoway pc <tj@vision-media.ca>
 
-(La licence MIT)
+(Licence MIT)
 
 Copyright (c) 2014 TJ Holowaypher <tj@vision-media.ca>
 
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-debug 4.1.1 - MIT https://github.com/visionmedia/debug#readme
-
-Copyright (c) 2014 TJ Holoway copyright <tj@vision-media.ca> (c) 2014-2017 TJ Holoway pc <tj@vision-media.ca>
-
-(La licence MIT)
-
-Copyright (c) 2014 TJ Holowaypher <tj@vision-media.ca>
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -3602,7 +3602,7 @@ La licence MIT (MIT)
 
 Copyright © 2015 Kiko Bats
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -3621,7 +3621,7 @@ La licence MIT (MIT)
 
 Copyright © 2015 Kiko Bats
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -3788,11 +3788,11 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 fast-glob 2.2.7 - MIT https://github.com/mrmlnc/fast-glob#readme
 
-Copyright (c) Domaineéochkin
+Copyright (c) Domainedesochkin
 
 La licence MIT (MIT)
 
-Copyright (c) Domaineéochkin
+Copyright (c) Domainedesochkin
 
 L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -3853,7 +3853,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION.
 EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
@@ -3987,7 +3987,7 @@ Copyright (c) 2010-2014 Domaine Dunkel (c) 2014 par Domaine Dunkel <pip@pipobscu
 
 Copyright (C) 2010-2014 Philipp Dunkel
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4006,11 +4006,11 @@ Copyright (c) 2011-2017 JP Copyright (c) 2011-2017 JP Copyright ( https://github
 
 Copyright (c) 2011-2017 JP Jpg
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -4026,7 +4026,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2016, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4047,7 +4047,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 -present, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4068,7 +4068,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 -present, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4087,7 +4087,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4106,7 +4106,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4125,7 +4125,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4144,7 +4144,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4163,7 +4163,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4183,7 +4183,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4207,7 +4207,27 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+has-values 1.0.0 - MIT https://github.com/jonschlinkert/has-values
+
+Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2014-2015, 2017, Jon Schlinkert.
+Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
+
+La licence MIT (MIT)
+
+Copyright (c) 2014-2017, Jon Schlinkert
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -4228,27 +4248,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-has-values 1.0.0 - MIT https://github.com/jonschlinkert/has-values
-
-Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2014-2015, 2017, Jon Schlinkert.
-Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
-
-La licence MIT (MIT)
-
-Copyright (c) 2014-2017, Jon Schlinkert
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -4267,7 +4267,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -4285,7 +4285,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 Certains fichiers du dossier tests sont issus de joyent/node et mscedex/io.js, une bifurcation nodejs/io.js :
@@ -4300,7 +4300,7 @@ Certains fichiers du dossier tests sont issus de joyent/node et mscedex/io.js, u
 
   La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-  LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+  LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
   """
 
 - tests/laboratoire/tests/* tests/parallèle/* tests/testpy/* tests/common.js tests/test.py tests/utils.py
@@ -4315,7 +4315,7 @@ Certains fichiers du dossier tests sont issus de joyent/node et mscedex/io.js, u
 
   La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-  LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+  LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
   """
 
   Cette licence s’applique à des parties de Node.js provenant du https://github.com/joyent/node référentiel :
@@ -4325,7 +4325,7 @@ Certains fichiers du dossier tests sont issus de joyent/node et mscedex/io.js, u
 
   La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-  LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+  LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
   """
   
 
@@ -4344,7 +4344,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -4363,7 +4363,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -4381,7 +4381,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -4398,7 +4398,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -4432,7 +4432,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4452,7 +4452,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4471,7 +4471,7 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4489,7 +4489,7 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4507,7 +4507,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 JD Ballard
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4526,7 +4526,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4545,7 +4545,7 @@ La licence MIT (MIT)
 
 Copyright (c) Feross Premiergidijeh
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4565,7 +4565,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4585,31 +4585,12 @@ La licence MIT (MIT)
 
 Copyright (c) 2015, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
 LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-is-descriptor 1.0.2 - MIT https://github.com/jonschlinkert/is-descriptor
-
-Copyright (c) 2015-2017, Jon Schlinkert.
-Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
-
-La licence MIT (MIT)
-
-Copyright (c) 2015-2017, Jon Schlinkert.
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -4624,7 +4605,26 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+is-descriptor 1.0.2 - MIT https://github.com/jonschlinkert/is-descriptor
+
+Copyright (c) 2015-2017, Jon Schlinkert.
+Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
+
+La licence MIT (MIT)
+
+Copyright (c) 2015-2017, Jon Schlinkert.
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4729,14 +4729,14 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-glob 4.0.1 - MIT https://github.com/micromatch/is-glob
+is-glob 3.1.0 - MIT https://github.com/jonschlinkert/is-glob
 
-Copyright (c) 2014-2017, Jon Schlinkert.
-Copyright (c) 2019, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-2016, Jon Schlinkert.
+Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 La licence MIT (MIT)
 
-Copyright (c) 2014-2017, Jon Schlinkert.
+Copyright (c) 2014-2016, Jon Schlinkert.
 
 L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -4749,14 +4749,14 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-is-glob 3.1.0 - MIT https://github.com/jonschlinkert/is-glob
+is-glob 4.0.1 - MIT https://github.com/micromatch/is-glob
 
-Copyright (c) 2014-2016, Jon Schlinkert.
-Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-2017, Jon Schlinkert.
+Copyright (c) 2019, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 La licence MIT (MIT)
 
-Copyright (c) 2014-2016, Jon Schlinkert.
+Copyright (c) 2014-2017, Jon Schlinkert.
 
 L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -4875,7 +4875,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-present, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4894,7 +4894,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4913,7 +4913,7 @@ Licence MIT
 
 Copyright (c) 2018 Luca Ban - Mesqueeb
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4931,7 +4931,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016 W.Y.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4951,7 +4951,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2018, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4970,7 +4970,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -4987,7 +4987,7 @@ Copyright Mathias Bynens <https://mathiasbynens.be/>
 
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5008,7 +5008,7 @@ http://kitcambridge.be/
 Copyright (c) 2013-2015 Benjamin Tan.
 https://d10.github.io/
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5026,7 +5026,7 @@ Licence MIT
 
 Copyright (c) 2012-2018 Aseem Ki copyright, [etc.]
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5051,7 +5051,7 @@ L’autorisation est accordée, gratuitement, à toute personne qui obtient une 
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5066,7 +5066,7 @@ Licence MIT
 
 Copyright (c) 2017 Evgeny Poberezkin
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5085,11 +5085,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014, 2015, 2016, 2017, 2018 Propriétés
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5104,30 +5104,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014, 2015, 2016, 2017 Simon Lydell
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-type de 4.0.0 - MIT https://github.com/jonschlinkert/kind-of
-
-Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
-
-La licence MIT (MIT)
-
-Copyright (c) 2014-2017, Jon Schlinkert
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5143,11 +5124,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5162,11 +5143,30 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+type de 4.0.0 - MIT https://github.com/jonschlinkert/kind-of
+
+Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
+
+La licence MIT (MIT)
+
+Copyright (c) 2014-2017, Jon Schlinkert
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5181,29 +5181,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-loader-utils 1.4.0 - MIT https://github.com/webpack/loader-utils#readme
-
-Copyright JS Foundation et d’autres contributeurs
-
-Copyright JS Foundation et d’autres contributeurs
-
-L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT.
-EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5220,8 +5202,26 @@ L’autorisation est accordée, gratuitement, à toute personne qui obtient une 
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT.
-EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION.
+EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+loader-utils 1.4.0 - MIT https://github.com/webpack/loader-utils#readme
+
+Copyright JS Foundation et d’autres contributeurs
+
+Copyright JS Foundation et d’autres contributeurs
+
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION.
+EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5236,11 +5236,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5255,11 +5255,11 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5280,11 +5280,11 @@ La licence suivante s’applique à toutes les parties de ce logiciel, sauf comm
 
 ====
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ====
 
@@ -5309,11 +5309,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Andres Sér <zertosh@gmail.com>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5334,7 +5334,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5353,7 +5353,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5372,7 +5372,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -5389,7 +5389,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5408,7 +5408,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5427,7 +5427,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5447,7 +5447,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5466,7 +5466,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5485,7 +5485,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5501,7 +5501,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5521,7 +5521,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5547,7 +5547,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5556,8 +5556,8 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 monaco-editor 0.20.0 - MIT https://github.com/Microsoft/monaco-editor#readme
 
-Copyright (c) 2015 Copyright (c) Jostale Copyright (c) 2014 Copyright Hakes Copyright (c) Artyom Shalhalkov.
-Copyright (c) 2015 David Copyright (c) 2014 Copyright (c) 2015 Copyright (c) 2015 Copyrights Bevacqua Copyright (c) Microsoft Corporation.
+Copyright (c) 2015 Copyright (c) Jos copyright Copyright (c) 2014 Hakes Copyright (c) Artyom Shalhalkov.
+Copyright (c) 2015 David Copyright (c) 2014 Copyright (c) 2014 Copyright (c) 2015 Copyrights Bevacqua Copyright (c) Microsoft Corporation.
 Copyright (c) 2008 Microsoft Corporation Copyright (c) David Éditions II, owensd.io.
 Copyright Drifty Co. http://drifty.com/ .
 Copyright (c) 2016 : présentez Microsoft Corporation Copyright Joyent, Inc. et d’autres collaborateurs Node.
@@ -5569,7 +5569,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016 - présenter Microsoft Corporation
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5588,7 +5588,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016 Zeit, Inc.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5607,7 +5607,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016 Zeit, Inc.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5620,7 +5620,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 2.14.1 - MIT https://github.com/nodejs/nan#readme
 
-Copyright (c) 2018 MEMBERS WG Copyright (c) 2018 CONTRIBUTORs COPYRIGHT Joyent, Inc. and other Node contributors.
+Copyright (c) 2018 COPYRIGHT WG Members Copyright (c) 2018 CONTRIBUTORs Copyright Joyent, Inc. and other Node contributors.
 Contributeurs COPYRIGHT (c) 2018 - Rod Vagg <https://github.com/rvagg>
 
 <a name="the-mit-license-mit"></a>La licence MIT (MIT)
@@ -5629,9 +5629,9 @@ Contributeurs COPYRIGHT (c) 2018 - Rod Vagg <https://github.com/rvagg>
 <a name="copyright-c-2018-nan-contributors"></a>Contributeurs COPYRIGHT (c) 2018
 -----------------------------------
 
-*Contributeurs DE LAS répertoriés à l' <https://github.com/nodejs/nan#contributors>*
+*CONTRIBUTEURs répertoriés à l' <https://github.com/nodejs/nan#contributors>*
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5651,7 +5651,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016-2018, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5670,7 +5670,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2018 Tobias Reich
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5689,7 +5689,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016 David Frank
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5709,7 +5709,7 @@ Licence MIT
 
 Copyright (c) 2017 Copyrighty Rubanov (https://github.com/chicoxyzzy)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5729,7 +5729,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5749,7 +5749,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2018, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -5770,11 +5770,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2016, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5789,11 +5789,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5808,11 +5808,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2016, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5828,11 +5828,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015, 2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5847,11 +5847,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5866,11 +5866,11 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5885,11 +5885,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Unshift.io, PrincipaloutSemier, the Contributors.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -5905,11 +5905,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5924,11 +5924,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5944,11 +5944,11 @@ La licence MIT (MIT)
 
 Copyright (c) Elan Copyrighter et Node.js collaborateurs. Tous droits réservés.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5963,11 +5963,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -5982,11 +5982,11 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6001,7 +6001,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6014,13 +6014,13 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 path-parse 1.0.6 - MIT https://github.com/jbgutierrez/path-parse#readme
 
-Copyright (c) 2015 Domaine Blanco (c) Copyright Blanco (http://jbgutierrez.info)
+Copyright (c) 2015 Domaine Blanco (c) Domaine Blanco (http://jbgutierrez.info)
 
 La licence MIT (MIT)
 
 Copyright (c) 2015 Domaine Blanco
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6039,7 +6039,7 @@ La licence MIT (MIT)
 
 Copyright (c) 201 hello@blakeembrey.com 4
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6058,7 +6058,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6077,7 +6077,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6096,7 +6096,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6115,7 +6115,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6134,7 +6134,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6153,7 +6153,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6172,7 +6172,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6191,7 +6191,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6210,7 +6210,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016-2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6225,9 +6225,9 @@ postcss-value-parser 3.3.1 - MIT https://github.com/TrySound/postcss-value-parse
 
 (c) Domaine d’auteur (c) Domaine d’auteur (c) <trysound@yandex.ru>
 
-Copyright (c) ); <trysound@yandex.ru>
+Copyright (c) Bogdan Chadkin <trysound@yandex.ru>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6244,11 +6244,11 @@ Copyright (c) 2015 Calvin Metcalf
 
 # <a name="copyright-c-2015-calvin-metcalf"></a>Copyright (c) 2015 Calvin Metcalf
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-**LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.**
+**LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.**
 
 
 ---------------------------------------------------------
@@ -6265,7 +6265,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -6283,7 +6283,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6302,7 +6302,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6321,7 +6321,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6338,7 +6338,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6357,7 +6357,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 
@@ -6377,7 +6377,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6396,7 +6396,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6415,7 +6415,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6434,7 +6434,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6457,7 +6457,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6476,7 +6476,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6491,11 +6491,11 @@ La licence MIT (MIT)
 
 Copyright (c) DanQuelov présent en 2015
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6510,11 +6510,11 @@ Licence MIT
 
 Copyright (c) React Training 2016-2018
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6529,11 +6529,11 @@ Licence MIT
 
 Copyright (c) React Training 2016-2018
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6548,21 +6548,21 @@ Node.js licence d’utilisation est la suivante :
 
 « « » Copyright Node.js contributeurs. Tous droits réservés.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 """
 
 Cette licence s’applique à des parties de Node.js provenant du https://github.com/joyent/node référentiel :
 
 « « » Copyright Joyent, Inc. et d’autres collaborateurs node. Tous droits réservés.
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 """
 
 
@@ -6578,21 +6578,21 @@ Node.js licence d’utilisation est la suivante :
 
 « « » Copyright Node.js contributeurs. Tous droits réservés.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 """
 
 Cette licence s’applique à des parties de Node.js provenant du https://github.com/joyent/node référentiel :
 
 « « » Copyright Joyent, Inc. et d’autres collaborateurs node. Tous droits réservés.
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 """
 
 
@@ -6608,11 +6608,11 @@ Ce logiciel est publié sous la licence MIT :
 
 Copyright (c) 2012-2015 Thorsten Lorenz
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6626,30 +6626,11 @@ La licence MIT (MIT)
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-redux 4.0.5 - MIT http://redux.js.org/
-
-Copyright (c) DanQuelov présent en 2015
-
-La licence MIT (MIT)
-
-Copyright (c) DanQuelov présent en 2015
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6664,11 +6645,30 @@ La licence MIT (MIT)
 
 Copyright (c) DanQuelov présent en 2015
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+redux 4.0.5 - MIT http://redux.js.org/
+
+Copyright (c) DanQuelov présent en 2015
+
+La licence MIT (MIT)
+
+Copyright (c) DanQuelov présent en 2015
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -6682,11 +6682,11 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -6700,7 +6700,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Yassine Eliquéfi
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6721,7 +6721,7 @@ Licence MIT
 
 Copyright (c) 2014-present, Facebook, Inc.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6741,7 +6741,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2016, 2018, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6761,7 +6761,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 -present, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6782,7 +6782,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2014-2016, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6801,7 +6801,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015 Unshift.io, PrincipaloutSemier, the Contributors.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6821,7 +6821,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2018 Reselect Contributors
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6840,7 +6840,7 @@ Licence MIT
 
 Copyright (c) 2012 James Halliday
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6859,7 +6859,7 @@ Licence MIT
 
 Copyright (c) Michael Domaine 2016-2018
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6878,7 +6878,7 @@ La licence MIT (MIT)
 
 Copyright (c) 2013 Simon Lydell
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6897,7 +6897,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -6914,7 +6914,7 @@ Copyright (c) 2011 par Roly Fentanes
 
 Copyright (C) 2011 par Roly Fentanes
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7042,11 +7042,11 @@ Copyright JS Foundation et d’autres contributeurs
 
 Copyright JS Foundation et d’autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION.
 EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
@@ -7060,11 +7060,11 @@ Copyright JS Foundation et d’autres contributeurs
 
 Copyright JS Foundation et d’autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION.
 EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
@@ -7175,11 +7175,11 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -7194,11 +7194,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2016, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7213,11 +7213,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7232,11 +7232,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7251,11 +7251,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2011-2018 Les auteurs sockjs-client.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7270,11 +7270,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014, 2015, 2016, 2017, 2018, 2019 Édition Ly copyright (c) 2019 COPYRIGHT
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7289,11 +7289,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014 Simon Lydell
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7309,11 +7309,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7328,42 +7328,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2016, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-string_decoder 1.3.0 - MIT https://github.com/nodejs/string_decoder
-
-Copyright Joyent, Inc. et d’autres contributeurs Node.
-
-Node.js licence d’utilisation est la suivante :
-
-« « » Copyright Node.js contributeurs. Tous droits réservés.
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-"""
-
-Cette licence s’applique à des parties de Node.js provenant du https://github.com/joyent/node référentiel :
-
-« « » Copyright Joyent, Inc. et d’autres collaborateurs node. Tous droits réservés.
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-"""
-
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7378,17 +7347,48 @@ Node.js licence d’utilisation est la suivante :
 
 « « » Copyright Node.js contributeurs. Tous droits réservés.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 """
 
 Cette licence s’applique à des parties de Node.js provenant du https://github.com/joyent/node référentiel :
 
 « « » Copyright Joyent, Inc. et d’autres collaborateurs node. Tous droits réservés.
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+"""
+
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+string_decoder 1.3.0 - MIT https://github.com/nodejs/string_decoder
+
+Copyright Joyent, Inc. et d’autres contributeurs Node.
+
+Node.js licence d’utilisation est la suivante :
+
+« « » Copyright Node.js contributeurs. Tous droits réservés.
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+"""
+
+Cette licence s’applique à des parties de Node.js provenant du https://github.com/joyent/node référentiel :
+
+« « » Copyright Joyent, Inc. et d’autres collaborateurs node. Tous droits réservés.
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7409,7 +7409,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7428,26 +7428,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
-
-La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
-
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-strip-ansi 5.2.0 - MIT https://github.com/chalk/strip-ansi#readme
-
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-Licence MIT
-
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7466,7 +7447,26 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
+
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+strip-ansi 5.2.0 - MIT https://github.com/chalk/strip-ansi#readme
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+Licence MIT
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7485,7 +7485,7 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7503,7 +7503,7 @@ Licence MIT
 
 Copyright (c) 2016 Sultan Tarimo
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7521,7 +7521,7 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7531,15 +7531,15 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-supports-color 6.1.0 - MIT https://github.com/chalk/supports-color#readme
+supports-color 2.0.0 - MIT https://github.com/chalk/supports-color
+
+(c) Sindre Sorhus ( http://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Licence MIT
-
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7558,7 +7558,7 @@ Licence MIT
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7569,15 +7569,15 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 ---------------------------------------------------------
 
-supports-color 2.0.0 - MIT https://github.com/chalk/supports-color
-
-(c) Sindre Sorhus ( http://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-La licence MIT (MIT)
+supports-color 6.1.0 - MIT https://github.com/chalk/supports-color#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+Licence MIT
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7596,7 +7596,7 @@ La licence MIT (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com) Copyright (c) Ben Lesh <ben@benlesh.com>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7615,7 +7615,7 @@ Licence MIT
 
 Copyright (c) @sokra
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
@@ -7631,11 +7631,11 @@ text-table 0.2.0 - MIT https://github.com/substack/text-table
 
 Ce logiciel est publié sous la licence MIT :
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7650,11 +7650,11 @@ Licence MIT
 
 Copyright (c) 2011 Dominic Tarr
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7669,11 +7669,11 @@ Licence MIT
 
 Copyright (c) 2019 Alexander Reardon
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -7688,11 +7688,11 @@ Licence MIT
 
 Copyright (c) 2019 Alexander Reardon
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -7706,11 +7706,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2014 RADSZI István
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7725,11 +7725,11 @@ Licence MIT
 
 Copyright (c) 2014 Petka Antonov 2015 Sindre Sorhus
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7745,11 +7745,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2016, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7765,11 +7765,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2016-2018, Jon Schlinkert.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7785,11 +7785,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7804,11 +7804,11 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -7816,17 +7816,17 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 typesafe-actions 3.4.0 - MIT https://github.com/piotrwitek/typesafe-actions
 
-Copyright (c) 2017 Piotr Copyright (c) 2017 PiotrEk <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
+Copyright (c) Piotr Copyright (c) 2017 Piotr Copyright (c) 2017 PiotrEk <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
 
 Licence MIT
 
 Copyright (c) 2017 PiotrEk <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7841,11 +7841,11 @@ Copyright (c) 2018 Hoang Van Khi
 
 Copyright © 2018 Hoàng Văn Khải
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -7913,15 +7913,15 @@ universalify 0.1.2 - MIT https://github.com/RyanZim/universalify#readme
 
 Copyright (c) 2017, Ryan Centre <opensrc@ryanzim.com>
 
-(Licence MIT)
+(La licence MIT)
 
 Copyright (c) 2017, Ryan Centre <opensrc@ryanzim.com>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -8047,7 +8047,7 @@ util-deprecate 1.0.2 - MIT https://github.com/TooTallNate/util-deprecate
 
 Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
 
-(Licence MIT)
+(La licence MIT)
 
 Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
 
@@ -8064,7 +8064,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 uuid 3.3.2 - MIT https://github.com/kelektiv/node-uuid#readme
 
-Copyright 2011, Copyright Tschan https://blueimp.net (c) 2010-2016 Robert Kieffer et d’autres collaborateurs Copyright (c) Paul Johnson 1999 - 2009 Autres contributeurs Andrew Kepert, Ydnar, Lostinet
+Copyright 2011, Copyright Tschan https://blueimp.net (c) 2010-2016 Robert Kieffer et autres contributeurs Copyright (c) Paul Johnson 1999 - 2009 Autres contributeurs Importe ImporteNt, Andrew Kepert, Ydnar, Lostinet
 
 La licence MIT (MIT)
 
@@ -8083,7 +8083,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 uuid 3.4.0 - MIT https://github.com/uuidjs/uuid#readme
 
-Copyright 2011, Copyright Tschan https://blueimp.net (c) 2010-2016 Robert Kieffer et d’autres collaborateurs Copyright (c) Paul Johnson 1999 - 2009 Autres contributeurs Andrew Kepert, Ydnar, Lostinet
+Copyright 2011, Copyright Tschan https://blueimp.net (c) 2010-2016 Robert Kieffer et autres contributeurs Copyright (c) Paul Johnson 1999 - 2009 Autres contributeurs Importe ImporteNt, Andrew Kepert, Ydnar, Lostinet
 
 La licence MIT (MIT)
 
@@ -8093,7 +8093,7 @@ L’autorisation est accordée, gratuitement, à toute personne obtenant une cop
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -8108,11 +8108,11 @@ Licence MIT
 
 Copyright (c) <year> <copyright holders>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 ---------------------------------------------------------
 
@@ -8126,11 +8126,11 @@ Licence MIT
 
 Copyright (c) Michael Domaine 2016-2018
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -8143,11 +8143,11 @@ Copyright (c) 2014-2016 GitHub, Inc.
 
 Copyright (c) 2014-2016 GitHub, Inc.
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -8160,12 +8160,12 @@ Copyright JS Foundation et d’autres contributeurs
 
 Copyright JS Foundation et d’autres contributeurs
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel », pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le logiciel) pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT.
-EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « TEL QUEL » SANS GARANTIE, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET DE NON-UTILISATION.
+EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
@@ -8180,11 +8180,11 @@ La licence MIT (MIT)
 
 Copyright (c) 2016 Christian Speckner <cnspeckn@googlemail.com>
 
-L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
+L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est associé de le faire,  sous réserve des conditions suivantes :
 
 La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties importantes du logiciel.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE OBLIGATION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE SOIT, EXPRESS OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ, D’APTITUDE À UN USAGE PARTICULIER ET NON D’INFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’UNE RÉCLAMATION, D’UN DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D’UNE ACTION DE CONTRAT, D’UN DÉLIT OU D’UNE AUTRE ACTION, RÉSULTANT OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES OPÉRATIONS DANS LE LOGICIEL.
 
 
 ---------------------------------------------------------
