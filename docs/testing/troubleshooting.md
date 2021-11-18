@@ -1,22 +1,25 @@
 ---
 title: Résoudre les problèmes Office scripts
 description: Conseils et techniques de débogage pour Office scripts, ainsi que des ressources d’aide.
-ms.date: 09/15/2021
+ms.date: 11/11/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 5229490e2487974f751456ef63004bcb27f7b09c
-ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
+ms.openlocfilehash: 2c43d0e4b1f4fd5675397fd79eaab1345ae39b98
+ms.sourcegitcommit: 24a6b8ae0cc57a0307fbc9b3e87432f1f4a92263
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447484"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064201"
 ---
 # <a name="troubleshoot-office-scripts"></a>Résoudre les problèmes Office scripts
 
 Lorsque vous développez Office scripts, vous pouvez faire des erreurs. C'est bon. Vous avez les outils nécessaires pour trouver les problèmes et faire fonctionner parfaitement vos scripts.
 
+> [!NOTE]
+> Pour obtenir des conseils de dépannage spécifiques Office scripts avec Power Automate, voir Résolution des problèmes Office [scripts en](power-automate-troubleshooting.md)cours d’exécution dans Power Automate .
+
 ## <a name="types-of-errors"></a>Types d’erreurs
 
-Office Les erreurs de script se classent dans l’une des deux catégories suivantes :
+Office scripts se classent dans l’une des deux catégories suivantes :
 
 * Erreurs ou avertissements au moment de la compilation
 * Erreurs d’runtime
@@ -65,7 +68,7 @@ Les chaînes transmises sont affichées dans la console de journalisation de l�
 
 Les journaux n’affectent pas le workbook.
 
-## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Automatiser l’onglet qui n’apparaît pas ou Office scripts indisponibles
+## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>L’onglet Automatiser n’apparaît pas ou Office scripts indisponibles
 
 Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l’onglet **Automatiser** qui n’apparaît pas dans Excel sur le Web.
 
@@ -76,17 +79,9 @@ Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l�
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
-## <a name="troubleshoot-scripts-in-power-automate"></a>Résoudre les problèmes de scripts dans Power Automate
-
-Pour plus d’informations sur l’exécution de scripts Power Automate, voir Résolution des problèmes Office [scripts en](power-automate-troubleshooting.md)cours d’exécution dans Power Automate .
-
 ## <a name="help-resources"></a>Ressources d’aide
 
-[Stack Overflow est](https://stackoverflow.com/questions/tagged/office-scripts) une communauté de développeurs prêts à vous aider avec les problèmes de codage. Souvent, vous serez en mesure de trouver la solution à votre problème par le biais d’une recherche rapide de stack overflow. Si ce n’est pas le cas, posez votre question et marquez-la avec la balise « office-scripts ». N’oubliez pas de mentionner que vous créez un *script Office,* et non un *Office.*
-
-Pour envoyer une demande de fonctionnalité Office scripts ou signaler un problème avec la fonctionnalité, utilisez le bouton de commentaires dans l’Éditeur de code. Dans le menu Plus **d’options (...)** de  l’Éditeur de code, sélectionnez le bouton Envoyer des commentaires pour partager vos besoins en fonctionnalités et d’autres expériences.
-
-:::image type="content" source="../images/code-editor-feedback.png" alt-text="Menu de dépassement de l’Éditeur de code avec le bouton Envoyer des commentaires.":::
+[Stack Overflow est](https://stackoverflow.com/questions/tagged/office-scripts) une communauté de développeurs prêts à vous aider avec les problèmes de codage. Souvent, vous serez en mesure de trouver la solution à votre problème par le biais d’une recherche rapide de stack overflow. Si ce n’est pas le cas, posez votre question et marquez-la avec la balise « office-scripts ». N’oubliez pas de mentionner que vous créez un *script* Office, et non un *Office.*
 
 ## <a name="see-also"></a>Voir aussi
 

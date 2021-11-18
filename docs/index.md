@@ -5,18 +5,18 @@ title: Documentation sur Office Scripts
 description: Des ressources pour découvrir Office Scripts dans Excel sur le web, avec notamment des tutoriels, des articles conceptuels et des exemples de code.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 4f8840404d13da483e40d719fa96b5ed154d80fa
-ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
+ms.openlocfilehash: c3e1c95886ebef3bf34a73a374372e84be91117d
+ms.sourcegitcommit: 24a6b8ae0cc57a0307fbc9b3e87432f1f4a92263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447512"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064189"
 ---
 # <a name="office-scripts-documentation"></a>Documentation sur Office Scripts
 
 Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches communes. Explorez les articles suivants pour découvrir comment créer et modifier des scripts Office et automatisez vos tâches dès aujourd’hui.
 
-<ul class="panelContent cardsF cols cols3">
+<ul class="panelContent cardsF cols cols3 rows2">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -74,7 +74,7 @@ Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches c
 
 <h2>Autres ressources</h2>
 <p>Utilisez les ressources suivantes si vous souhaitez en savoir plus sur les API utilisées par les scripts Office pour interagir avec les classeurs dans Excel sur le web, poser des questions ou demander des fonctionnalités pour les scripts Office dans Excel sur le web.</p>
-<ul class="panelContent cardsF cols cols3">
+<ul class="panelContent cardsF cols cols3 rows2">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -113,6 +113,22 @@ Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches c
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
+                            <a href="develop/power-automate-integration.md" target="_blank"><img src="images/index-landing-page/i_architecture.svg" alt="Integrate with Power Automate"/></a>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <a href="develop/power-automate-integration.md" target="_blank"><h3>Intégration avec Power Automate</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
                             <a href="/microsoft-365/admin/manage/manage-office-scripts-settings" target="_blank"><img src="images/index-landing-page/i_upgrade.svg" alt="Admin settings"/></a>
                         </div>
                     </div>
@@ -129,11 +145,11 @@ Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches c
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <a href="/answers/topics/office-scripts-excel-dev.html" target="_blank"><img src="images/index-landing-page/i_support.svg" alt="API questions" /></a>
+                            <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/licensing-information.md" target="_blank"><img src="images/index-landing-page/i_library.svg" alt="Licensing information" /></a>
                         </div>
                     </div>
                     <div class="cardText">
-                        <a href="/answers/topics/office-scripts-excel-dev.html" target="_blank"><h3>Poser des questions</h3></a>
+                        <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/licensing-information.md" target="_blank"><h3>Informations de licence</h3></a>
                     </div>
                 </div>
             </div>
@@ -145,11 +161,11 @@ Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches c
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/licensing-information.md" target="_blank"><img src="images/index-landing-page/i_library.svg" alt="Licensing information" /></a>
+                            <a href="/answers/topics/office-scripts-excel-dev.html" target="_blank"><img src="images/index-landing-page/i_support.svg" alt="API questions" /></a>
                         </div>
                     </div>
                     <div class="cardText">
-                        <a href="https://github.com/OfficeDev/office-scripts-docs/blob/master/licensing-information.md" target="_blank"><h3>Informations de licence</h3></a>
+                        <a href="/answers/topics/office-scripts-excel-dev.html" target="_blank"><h3>Poser des questions</h3></a>
                     </div>
                 </div>
             </div>
