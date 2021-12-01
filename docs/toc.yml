@@ -27,10 +27,6 @@ items:
             href: develop/javascript-objects.md
           - name: Environnement de l’éditeur de code
             href: overview/code-editor-environment.md
-          - name: Différences entre les scripts Office et les macros VBA
-            href: resources/vba-differences.md
-          - name: Différences entre les scripts Office et les compléments Office
-            href: resources/add-ins-differences.md
           - name: Prise en charge des appels d’API externes dans Scripts Office
             href: develop/external-calls.md
           - name: Stockage et propriété des fichiers
@@ -111,3 +107,11 @@ items:
             items:
               - name: Message d’accueil de saison
                 href: resources/samples/community-seasons-greetings.md
+      - name: Scripts Office et autres plateformes
+        items:
+          - name: Différences entre les scripts Office et les macros VBA
+            href: resources/vba-differences.md
+          - name: Différences entre les scripts Office et les compléments Office
+            href: resources/add-ins-differences.md
+          - name: Quand utiliser des scripts Power Query ou Office
+            href: resources/power-query-differences.md
