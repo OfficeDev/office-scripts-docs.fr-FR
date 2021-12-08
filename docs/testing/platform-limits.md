@@ -3,12 +3,12 @@ title: Limites et exigences de plateforme avec Office scripts
 description: Limites de ressources et prise en charge du navigateur pour Office scripts lorsqu’ils sont utilisés avec Excel sur le Web
 ms.date: 05/17/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 2140ebf249af76447f64efae7fd2008e781bf815
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 6db32cd1c72850f02ee9e2a714c1a0a3bccd727d
+ms.sourcegitcommit: ea9c3685a7407a07acf802705f4f44fb007c7825
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59327874"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61333490"
 ---
 # <a name="platform-limits-and-requirements-with-office-scripts"></a>Limites et exigences de plateforme avec Office scripts
 
@@ -16,7 +16,7 @@ Certaines limitations de plateforme sont à prendre en compte lors du développe
 
 ## <a name="browser-support"></a>Prise en charge du navigateur
 
-Office Les scripts fonctionnent dans n’importe quel navigateur qui [prend en charge Office sur le Web](https://support.microsoft.com/office/ad1303e0-a318-47aa-b409-d3a5eb44e452). Toutefois, certaines fonctionnalités JavaScript ne sont pas pris en charge dans Internet Explorer 11 (IE 11). Toutes les fonctionnalités introduites dans [ES6](https://www.w3schools.com/Js/js_es6.asp) ou une ultérieure ne fonctionnent pas avec IE 11. Si les membres de votre organisation utilisent toujours ce navigateur, n’oubliez pas de tester vos scripts dans cet environnement lors de leur partage.
+Office scripts fonctionnent dans n’importe quel navigateur qui [prend en charge Office sur le Web](https://support.microsoft.com/office/ad1303e0-a318-47aa-b409-d3a5eb44e452). Toutefois, certaines fonctionnalités JavaScript ne sont pas pris en charge dans Internet Explorer 11 (IE 11). Toutes les fonctionnalités introduites dans [ES6](https://www.w3schools.com/Js/js_es6.asp) ou une ultérieure ne fonctionnent pas avec IE 11. Si les membres de votre organisation utilisent toujours ce navigateur, n’oubliez pas de tester vos scripts dans cet environnement lors de leur partage.
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
@@ -40,7 +40,7 @@ Il existe des limites sur le nombre Excel données peuvent être transférées e
 
 ### <a name="excel"></a>Excel
 
-Excel sur le Web présente les limitations suivantes lors de l’appel au workbook via un script :
+Excel sur le Web présente les limitations suivantes lors de l’appel au workbook par le biais d’un script :
 
 - Les demandes et réponses sont limitées à **5 Mo.**
 - Une plage est limitée à **cinq millions de cellules.**
@@ -49,7 +49,7 @@ Si vous rencontrez des erreurs lorsque vous traitez des jeux de données volumin
 
 ### <a name="power-automate"></a>Power Automate
 
-Lorsque vous utilisez Office scripts avec Power Automate, chaque utilisateur est limité à **400 appels** à l’action Exécuter le script par jour. Cette limite est réinitialisée à 00h00 UTC.
+Lorsque vous utilisez Office scripts avec Power Automate, chaque utilisateur est limité à **800** appels à l’action Exécuter le script par jour. Cette limite est réinitialisée à 00h00 UTC.
 
 La plateforme Power Automate a également des limitations d’utilisation, qui sont présentes dans les articles suivants :
 
