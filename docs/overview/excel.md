@@ -1,14 +1,15 @@
 ---
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
+ms.topic: overview
 ms.date: 09/17/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 5b33f4b15733a0e053b7e5fa7ba1051b382f22ca
-ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
+ms.openlocfilehash: 8fdb39b2e0dd35cd09d5d8c65b17d6ee3f8fd08d
+ms.sourcegitcommit: 1e561d245d9ab7f2529a1b071b1fa0326e37c4ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447502"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513635"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
@@ -32,7 +33,7 @@ Pour utiliser les scripts Office, vous devez disposer des éléments suivants.
     - Office 365 Business Premium
     - Office 365 ProPlus
     - Office 365 ProPlus pour les appareils
-    - Office 365 Entreprise E3
+    - Office 365 Entreprise E3
     - Office 365 Entreprise E5
     - Office 365 A3
     - Office 365 A5
