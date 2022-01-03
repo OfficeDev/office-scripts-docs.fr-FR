@@ -1,22 +1,28 @@
 ---
 title: Meilleures pratiques en matière de scripts Office
 description: Comment éviter les problèmes courants et écrire des Office scripts fiables qui peuvent gérer des données ou des entrées inattendues.
-ms.date: 05/10/2021
+ms.date: 12/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: c37559c978a04bd99fff044674b2f64b7758438b
-ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
+ms.openlocfilehash: 19b10cf6ea778f109edeb74fa5995628bb8bf632
+ms.sourcegitcommit: c62567dc1188527511e4618d3e04e26580d4bb44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447459"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "61659193"
 ---
 # <a name="best-practices-in-office-scripts"></a>Meilleures pratiques en matière de scripts Office
 
 Ces modèles et pratiques sont conçus pour aider vos scripts à s’exécuter correctement à chaque fois. Utilisez-les pour éviter les pièges courants lorsque vous commencez à automatiser Excel flux de travail.
 
+## <a name="use-the-action-recorder-to-learn-new-features"></a>Utiliser l’enregistreur d’actions pour découvrir de nouvelles fonctionnalités
+
+Excel fait beaucoup d’choses. La plupart d’entre eux peuvent être scriptés. L’enregistreur d’actions enregistre Excel actions et les traduit en code. Il s’agit du moyen le plus simple de découvrir comment les différentes fonctionnalités fonctionnent Office scripts. Si vous avez besoin de code pour une action spécifique, basculez vers l’enregistreur d’actions, effectuez les actions, sélectionnez Copier en tant que **code** et collez le code résultant dans votre script.
+
+:::image type="content" source="../images/action-recorder-copy-code.png" alt-text="Volet Des tâches de l’Enregistreur d’actions avec le bouton « Copier en tant que code » mis en évidence.":::
+
 ## <a name="verify-an-object-is-present"></a>Vérifier la présence d’un objet
 
-Les scripts s’appuient souvent sur une feuille de calcul ou une table en cours de présence dans le workbook. Toutefois, ils peuvent être renommés ou supprimés entre les séquences de script. En vérifiant si ces tableaux ou feuilles de calcul existent avant d’y appeler des méthodes, vous pouvez vous assurer que le script ne se termine pas brusquement.
+Les scripts s’appuient souvent sur une feuille de calcul ou une table en cours de présence dans le workbook. Toutefois, ils peuvent être renommés ou supprimés entre les séquences de script. En vérifiant si ces tables ou feuilles de calcul existent avant d’y appeler des méthodes, vous pouvez vous assurer que le script ne se termine pas brusquement.
 
 L’exemple de code suivant vérifie si la feuille de calcul « Index » est présente dans le manuel. Si la feuille de calcul est présente, le script obtient une plage et continue. S’il n’est pas présent, le script enregistre un message d’erreur personnalisé.
 
@@ -102,7 +108,7 @@ function inputPresent(workbook: ExcelScript.Workbook): boolean {
 
 Une [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) instruction indique qu’une erreur inattendue s’est produite. Il termine immédiatement le code. En grande partie, vous n’avez pas besoin de `throw` le faire à partir de votre script. En règle générale, le script informe automatiquement l’utilisateur que le script n’a pas réussi à s’exécuter en raison d’un problème. Dans la plupart des cas, il suffit de terminer le script avec un message d’erreur et `return` une instruction de la `main` fonction.
 
-Toutefois, si votre script s’exécute dans le cadre d’un flux Power Automate, vous pouvez arrêter le flux de continuer. Une `throw` instruction arrête le script et indique au flux de s’arrêter également.
+Toutefois, si votre script s’exécute dans le cadre d’Power Automate flux, vous pouvez arrêter le flux de continuer. Une `throw` instruction arrête le script et indique au flux de s’arrêter également.
 
 Le script suivant montre comment utiliser `throw` l’instruction dans notre exemple de vérification de table.
 
