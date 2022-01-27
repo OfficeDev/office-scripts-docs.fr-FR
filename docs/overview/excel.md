@@ -4,12 +4,12 @@ description: Une brève introduction sur l’enregistreur d’actions et l’éd
 ms.topic: overview
 ms.date: 12/29/2021
 ms.localizationpriority: high
-ms.openlocfilehash: baf1957fc476279e1c1e53ebe568dabe1498a4ee
-ms.sourcegitcommit: c62567dc1188527511e4618d3e04e26580d4bb44
+ms.openlocfilehash: 0d06bbc386f0a9189fe1abd3b25b72a43c2ac7bd
+ms.sourcegitcommit: 161229492c85f3519c899573cf5022140026e7b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61659178"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62220378"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
@@ -72,7 +72,7 @@ Nos [didacticiels](../tutorials/excel-tutorial.md) proposent un apprentissage gu
 
 Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un script dans un classeur partagé, tous les personnes ayant accès au groupe peuvent également afficher et exécuter votre script.
 
-Si vous souhaitez en savoir plus sur le partage et le non-partage de scripts, veuillez consulter l'article [Partage de scripts Office dans Excel pour le web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b).
+Pour plus d’informations sur le partage et le partage de scripts, voir [Sharing Office Scripts in Excel for the Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b).
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur le stockage des scripts dans votre espace OneDrive, veuillez consulter la rubrique [Stockage et propriété des fichiers de scripts Office](script-storage.md).

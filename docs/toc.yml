@@ -63,6 +63,8 @@ items:
                 href: resources/samples/add-image-to-workbook.md
               - name: Copier plusieurs tables dans un seul tableau
                 href: resources/samples/copy-tables-combine.md
+              - name: Créer une table des matières de classeur
+                href: resources/samples/table-of-contents.md
           - name: Notions intermédiaires
             items:
               - name: Combiner des feuilles de calcul dans un seul classeur
