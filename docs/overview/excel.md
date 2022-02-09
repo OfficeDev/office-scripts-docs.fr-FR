@@ -2,14 +2,14 @@
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
 ms.topic: overview
-ms.date: 12/29/2021
+ms.date: 02/04/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 0d06bbc386f0a9189fe1abd3b25b72a43c2ac7bd
-ms.sourcegitcommit: 161229492c85f3519c899573cf5022140026e7b8
+ms.openlocfilehash: b4222d4f3d99ccd26dde534659681a5919088450
+ms.sourcegitcommit: b84d4c8dd31335e4e39b0da6ad25fd528cb9d8f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62220378"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462532"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
@@ -77,15 +77,22 @@ Pour plus d’informations sur le partage et le partage de scripts, voir [Sharin
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur le stockage des scripts dans votre espace OneDrive, veuillez consulter la rubrique [Stockage et propriété des fichiers de scripts Office](script-storage.md).
 
-### <a name="create-script-buttons-preview"></a>Créer des boutons de script (aperçu)
+### <a name="create-script-buttons"></a>Créer des boutons de script
 
-[!INCLUDE [Public preview](../includes/preview-note.md)]
+[!INCLUDE [Rollout information](../includes/rollout-note.md)]
+
+:::image type="content" source="../images/run-from-button.png" alt-text="Un bouton de la feuille de calcul qui exécute un script lorsque l’utilisateur clique dessus.":::
 
 Aidez vos collègues à trouver et exécuter vos scripts en ajoutant des boutons de script à un workbook. Avec n’importe quel script, sélectionnez le menu Plus **d’options (...)** dans la page Détails du script ou dans le volet Des tâches de l’Éditeur de code, puis sélectionnez **Bouton Ajouter.** Cela crée un bouton dans le workbook qui exécute le script associé lorsqu’il est sélectionné. Il partage également le script avec le workbook, de sorte que tous les personnes particulièrement autorisées à écrire sur le workbook peuvent utiliser votre automatisation utile.
 
 La capture d’écran suivante montre la **page détails du script** pour un script intitulé Créer un rapport et l’option **Ajouter un bouton** dans le menu Plus **d’options (...)** est mise en évidence.
 
 :::image type="content" source="../images/add-button.png" alt-text="Option « Ajouter un bouton » dans le menu de la page Détails du script.":::
+
+Ces boutons de script fonctionnent également sur Windows. Créez le bouton dans Excel sur le web pour que les utilisateurs sous Windows puissent exécuter votre script en appuyant sur un bouton. Veuillez noter que seule l’exécution du bouton est prise en charge sous Windows. Si vous devez modifier le script, vous devez le faire via l’application web.
+
+> [!NOTE]
+> Pour utiliser cette fonctionnalité sous Windows, vous devez disposer d’une copie d’Excel connectée à un abonnement Microsoft 365. Les plateformes non prises en charge ou les versions antérieures d’Office affichent la forme utilisée pour le bouton de script, mais il n’est pas cliquable.
 
 Pour arrêter le partage d’un script via un bouton, allez dans le menu Plus **d’options (...)** dans la page Détails du script et sélectionnez **Arrêter le partage.** Cela supprime tous les boutons qui exécutent le script. La suppression d’un seul bouton supprime le script de ce bouton, même si l’opération est annulée ou si le bouton est coupé et enfoncé.
 
