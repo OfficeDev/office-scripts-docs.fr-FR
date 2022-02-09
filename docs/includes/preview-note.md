@@ -1,2 +1,0 @@
-> [!NOTE]
-> Cette fonctionnalité est actuellement en préversion. Les fonctionnalités d’aperçu peuvent faire l’objet de changements en fonction des commentaires. Il se peut qu’elles ne soient pas disponibles pour tous les utilisateurs d’Office avant leur publication.
