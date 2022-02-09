@@ -1,14 +1,14 @@
 ---
 title: Limites et exigences de plateforme avec Office scripts
-description: Limites de ressources et prise en charge du navigateur pour Office scripts lorsqu’ils sont utilisés avec Excel sur le Web
-ms.date: 12/14/2021
+description: Limites de ressources et prise en charge du navigateur pour Office scripts lorsqu’ils sont utilisés avec Excel sur le Web.
+ms.date: 01/31/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: e0c2c8108bb36dc979b33e195cdc0e0e17a586ba
-ms.sourcegitcommit: 1e561d245d9ab7f2529a1b071b1fa0326e37c4ca
+ms.openlocfilehash: 385248e5c62ed3dbf2827105b3097ef27e5187a7
+ms.sourcegitcommit: b84d4c8dd31335e4e39b0da6ad25fd528cb9d8f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513628"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462501"
 ---
 # <a name="platform-limits-and-requirements-with-office-scripts"></a>Limites et exigences de plateforme avec Office scripts
 
@@ -22,7 +22,7 @@ Office scripts fonctionnent dans n’importe quel navigateur qui [prend en charg
 
 ### <a name="third-party-cookies"></a>Cookies tiers
 
-Votre navigateur a besoin de cookies tiers activés pour afficher l’onglet **Automatiser** dans Excel sur le Web. Vérifiez les paramètres de votre navigateur si l’onglet n’est pas affiché. Si vous utilisez une session de navigateur privé, vous devrez peut-être activer ce paramètre à chaque fois.
+Votre navigateur a besoin de cookies tiers activés pour afficher **l’onglet Automatiser** dans Excel sur le Web. Vérifiez les paramètres de votre navigateur si l’onglet n’est pas affiché. Si vous utilisez une session de navigateur privé, vous devrez peut-être activer ce paramètre à chaque fois.
 
 > [!NOTE]
 > Certains navigateurs font référence à ce paramètre en tant que « tous les cookies », au lieu de « cookies tiers ».
@@ -42,14 +42,14 @@ Il existe des limites sur le nombre Excel données peuvent être transférées e
 
 Excel sur le Web présente les limitations suivantes lors de l’appel au workbook par le biais d’un script :
 
-- Les demandes et réponses sont limitées à **5 Mo.**
-- Une plage est limitée à **cinq millions de cellules.**
+- Les demandes et les réponses sont limitées **à 5 Mo**.
+- Une plage est limitée à **cinq millions de cellules**.
 
-Si vous rencontrez des erreurs lorsque vous traitez des jeux de données volumineux, essayez d’utiliser plusieurs plages plus petites plutôt que des plages plus grandes. Pour obtenir un exemple, [consultez l’exemple Écrire un jeu de données](../resources/samples/write-large-dataset.md) de grande taille. Vous pouvez également utiliser des API telles [que Range.getSpecialCells](/javascript/api/office-scripts/excelscript/excelscript.range#getSpecialCells_cellType__cellValueType_) pour cibler des cellules spécifiques au lieu de grandes plages.
+Si vous rencontrez des erreurs lorsque vous traitez des jeux de données volumineux, essayez d’utiliser plusieurs plages plus petites plutôt que des plages plus grandes. Pour obtenir un exemple, [consultez l’exemple Écrire un jeu de données de grande](../resources/samples/write-large-dataset.md) taille. Vous pouvez également utiliser des API telles [que Range.getSpecialCells](/javascript/api/office-scripts/excelscript/excelscript.range#excelscript-excelscript-range-getspecialcells-member(1)) pour cibler des cellules spécifiques au lieu de grandes plages.
 
 ### <a name="power-automate"></a>Power Automate
 
-Lorsque vous utilisez Office scripts avec Power Automate, chaque utilisateur est limité à **800** appels à l’action Exécuter le script par jour. Cette limite est réinitialisée à 00h00 UTC.
+Lorsque vous utilisez Office scripts avec Power Automate, chaque utilisateur est limité à **1 600 appels par jour à l’action Exécuter le script**. Cette limite est réinitialisée à 00h00 UTC.
 
 La plateforme Power Automate a également des limitations d’utilisation, qui sont présentes dans les articles suivants.
 
@@ -57,7 +57,7 @@ La plateforme Power Automate a également des limitations d’utilisation, qui s
 - [Problèmes connus et limitations pour le connecteur Excel Online (Entreprise)](/connectors/excelonlinebusiness/#known-issues-and-limitations)
 
 > [!NOTE]
-> Si vous avez un script de longue durée, n’ignorez pas le délai [d’Power Automate 120 secondes.](/power-automate/limits-and-config#timeout) Vous devez optimiser votre [script](../develop/web-client-performance.md) ou fractionner votre automatisation Excel en plusieurs scripts.
+> Si vous avez un script de longue durée, n’ignorez pas le délai [d’Power Automate 120 secondes](/power-automate/limits-and-config#timeout). Vous devez optimiser votre [script](../develop/web-client-performance.md) ou fractionner votre automatisation Excel en plusieurs scripts.
 
 ## <a name="see-also"></a>Voir aussi
 
