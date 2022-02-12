@@ -2,14 +2,14 @@
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
 ms.topic: overview
-ms.date: 02/04/2022
+ms.date: 02/08/2022
 ms.localizationpriority: high
-ms.openlocfilehash: b4222d4f3d99ccd26dde534659681a5919088450
-ms.sourcegitcommit: b84d4c8dd31335e4e39b0da6ad25fd528cb9d8f3
+ms.openlocfilehash: 7c6027386bf8953d6bd260979ad96e7195a2b786
+ms.sourcegitcommit: fce857e91be769c62685d90290acf75cc54d3ef9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462532"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62517880"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
@@ -79,8 +79,6 @@ Pour plus d’informations sur le partage et le partage de scripts, voir [Sharin
 
 ### <a name="create-script-buttons"></a>Créer des boutons de script
 
-[!INCLUDE [Rollout information](../includes/rollout-note.md)]
-
 :::image type="content" source="../images/run-from-button.png" alt-text="Un bouton de la feuille de calcul qui exécute un script lorsque l’utilisateur clique dessus.":::
 
 Aidez vos collègues à trouver et exécuter vos scripts en ajoutant des boutons de script à un workbook. Avec n’importe quel script, sélectionnez le menu Plus **d’options (...)** dans la page Détails du script ou dans le volet Des tâches de l’Éditeur de code, puis sélectionnez **Bouton Ajouter.** Cela crée un bouton dans le workbook qui exécute le script associé lorsqu’il est sélectionné. Il partage également le script avec le workbook, de sorte que tous les personnes particulièrement autorisées à écrire sur le workbook peuvent utiliser votre automatisation utile.
@@ -92,7 +90,7 @@ La capture d’écran suivante montre la **page détails du script** pour un scr
 Ces boutons de script fonctionnent également sur Windows. Créez le bouton dans Excel sur le web pour que les utilisateurs sous Windows puissent exécuter votre script en appuyant sur un bouton. Veuillez noter que seule l’exécution du bouton est prise en charge sous Windows. Si vous devez modifier le script, vous devez le faire via l’application web.
 
 > [!NOTE]
-> Pour utiliser cette fonctionnalité sous Windows, vous devez disposer d’une copie d’Excel connectée à un abonnement Microsoft 365. Les plateformes non prises en charge ou les versions antérieures d’Office affichent la forme utilisée pour le bouton de script, mais il n’est pas cliquable.
+> Cette fonctionnalité est en cours de déploiement pour les utilisateurs disposant d’un abonnement Microsoft 365 et n’est pas disponible pour tout le monde. Elle est lentement diffusée pour un plus grand nombre d’utilisateurs afin de s’assurer qu’elle fonctionne comme prévu. Cette fonctionnalité peut faire l’objet de changements en fonction de vos commentaires. Les plateformes non prises en charge ou les versions d’Office sans la fonctionnalité afficheront la forme utilisée pour le bouton de script, mais le bouton ne serait pas être cliqué.
 
 Pour arrêter le partage d’un script via un bouton, allez dans le menu Plus **d’options (...)** dans la page Détails du script et sélectionnez **Arrêter le partage.** Cela supprime tous les boutons qui exécutent le script. La suppression d’un seul bouton supprime le script de ce bouton, même si l’opération est annulée ou si le bouton est coupé et enfoncé.
 
