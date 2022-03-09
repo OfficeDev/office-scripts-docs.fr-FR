@@ -31,6 +31,8 @@ items:
             href: develop/external-calls.md
           - name: Stockage et propriété des fichiers
             href: overview/script-storage.md
+          - name: Exécuter des scripts avec des boutons
+            href: develop/script-buttons.md
           - name: Exécuter des scripts avec Power Automate
             href: develop/power-automate-integration.md
           - name: Utiliser des fichiers macro dans les flux Power Automate

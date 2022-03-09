@@ -2,14 +2,14 @@
 title: Office Scripts dans Excel sur le web
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
 ms.topic: overview
-ms.date: 02/08/2022
+ms.date: 02/25/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 7c6027386bf8953d6bd260979ad96e7195a2b786
-ms.sourcegitcommit: fce857e91be769c62685d90290acf75cc54d3ef9
+ms.openlocfilehash: 88c5c6179b1f459e2e20e6dd0dcd80d71829c714
+ms.sourcegitcommit: 49f527a7f54aba00e843ad4a92385af59c1d7bfa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62517880"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63352141"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
@@ -66,33 +66,18 @@ Tous les scripts enregistrés avec l’enregistreur d’actions peuvent être mo
 
 Nos [didacticiels](../tutorials/excel-tutorial.md) proposent un apprentissage guidé et structuré des fonctionnalités des scripts Office. Après avoir terminé les didacticiels, lisez [Principes de base des scripts pour les scripts Office dans Excel sur le web](../develop/scripting-fundamentals.md) pour en savoir plus sur l’éditeur de code et sur la rédaction et la modification de vos propres scripts. Pour plus d’informations sur l’Éditeur de code et la manière dont votre code script est interprété, lisez [Environnement Éditeur de code des Scripts Office](code-editor-environment.md).
 
-## <a name="share-scripts"></a>Partager des scripts
+## <a name="share-office-scripts"></a>Partager des Scripts Office
+
+Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un script dans un classeur partagé, tous les personnes ayant accès au groupe peuvent également afficher et exécuter votre script. Pour plus d’informations sur le partage et le partage de scripts, voir [Sharing Office Scripts in Excel for the Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b).
 
 :::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du scénario montrant l'option « Partager avec d'autres dans ce cahier de travail ».":::
 
-Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un script dans un classeur partagé, tous les personnes ayant accès au groupe peuvent également afficher et exécuter votre script.
+Ajoutez des boutons qui exécutent des scripts pour aider vos collègues à découvrir vos solutions précieuses. En savoir plus sur les boutons de script dans [Exécuter Scripts avec des boutons](../develop/script-buttons.md).
 
-Pour plus d’informations sur le partage et le partage de scripts, voir [Sharing Office Scripts in Excel for the Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b).
+:::image type="content" source="../images/add-button.png" alt-text="Un bouton de la feuille de calcul qui exécute un script lorsque l’utilisateur clique dessus.":::
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur le stockage des scripts dans votre espace OneDrive, veuillez consulter la rubrique [Stockage et propriété des fichiers de scripts Office](script-storage.md).
-
-### <a name="create-script-buttons"></a>Créer des boutons de script
-
-:::image type="content" source="../images/run-from-button.png" alt-text="Un bouton de la feuille de calcul qui exécute un script lorsque l’utilisateur clique dessus.":::
-
-Aidez vos collègues à trouver et exécuter vos scripts en ajoutant des boutons de script à un workbook. Avec n’importe quel script, sélectionnez le menu Plus **d’options (...)** dans la page Détails du script ou dans le volet Des tâches de l’Éditeur de code, puis sélectionnez **Bouton Ajouter.** Cela crée un bouton dans le workbook qui exécute le script associé lorsqu’il est sélectionné. Il partage également le script avec le workbook, de sorte que tous les personnes particulièrement autorisées à écrire sur le workbook peuvent utiliser votre automatisation utile.
-
-La capture d’écran suivante montre la **page détails du script** pour un script intitulé Créer un rapport et l’option **Ajouter un bouton** dans le menu Plus **d’options (...)** est mise en évidence.
-
-:::image type="content" source="../images/add-button.png" alt-text="Option « Ajouter un bouton » dans le menu de la page Détails du script.":::
-
-Ces boutons de script fonctionnent également sur Windows. Créez le bouton dans Excel sur le web pour que les utilisateurs sous Windows puissent exécuter votre script en appuyant sur un bouton. Veuillez noter que seule l’exécution du bouton est prise en charge sous Windows. Si vous devez modifier le script, vous devez le faire via l’application web.
-
-> [!NOTE]
-> Cette fonctionnalité est en cours de déploiement pour les utilisateurs disposant d’un abonnement Microsoft 365 et n’est pas disponible pour tout le monde. Elle est lentement diffusée pour un plus grand nombre d’utilisateurs afin de s’assurer qu’elle fonctionne comme prévu. Cette fonctionnalité peut faire l’objet de changements en fonction de vos commentaires. Les plateformes non prises en charge ou les versions d’Office sans la fonctionnalité afficheront la forme utilisée pour le bouton de script, mais le bouton ne serait pas être cliqué.
-
-Pour arrêter le partage d’un script via un bouton, allez dans le menu Plus **d’options (...)** dans la page Détails du script et sélectionnez **Arrêter le partage.** Cela supprime tous les boutons qui exécutent le script. La suppression d’un seul bouton supprime le script de ce bouton, même si l’opération est annulée ou si le bouton est coupé et enfoncé.
 
 ## <a name="connect-office-scripts-to-power-automate"></a>Connecter les scripts Office à Power Automate
 
