@@ -2369,7 +2369,7 @@ Remarque : l’utilisation des polices et des icônes référencés dans Fluent�
 
 ---------------------------------------------------------
 
-@uifabric/stylisme 7.19.1 - MIT https://github.com/microsoft/fluentui#readme
+@uifabric/styling 7.19.1 - MIT https://github.com/microsoft/fluentui#readme
 
 Copyright (c) Microsoft Corporation
 
@@ -2903,7 +2903,7 @@ EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONS
 
 binary-extensions 1.13.1 - MIT https://github.com/sindresorhus/binary-extensions#readme
 
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com) (c) Sindre Sorhus (https://sindresorhus.com), Paulhus (https://paulmillr.com)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com) (c) Sindre Sorhus (https://sindresorhus.com), Paul (https://paulmillr.com)
 
 Licence MIT
 
@@ -4000,7 +4000,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 fs-extra 7.0.1 - MIT https://github.com/jprichardson/node-fs-extra
 
-Copyright (c) 2011-2017 JP Copyright (c) 2011-2017 JP Copyright (https://github.com/jprichardson) c) 2014-2016 Me@jongleberry.com and Contributors
+Copyright (c) 2011-2017 JP Copyright (c) 2011-2017 JP Copyright (https://github.com/jprichardson) c) 2014-2016 Copyright Me@jongleberry.com and Contributors
 
 (La licence MIT)
 
@@ -4294,7 +4294,7 @@ Certains fichiers du dossier tests sont issus de joyent/node et mscedex/io.js, u
 
   Ce fichier est issu de https://github.com/mscdex/io.js/blob/js-http-parser/test/pummel/test-http-parser-durability.js modifications effectuées par Jan Schär (jscissr).
 
-  « « » Copyright io.js contributeurs. Tous droits réservés.
+  « « » Copyright io.js collaborateurs. Tous droits réservés.
 
   L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -4307,9 +4307,9 @@ Certains fichiers du dossier tests sont issus de joyent/node et mscedex/io.js, u
 
   Ces fichiers sont issus https://github.com/nodejs/node de modifications apportées par Jan Schär (jscissr).
 
-  Node.js licence d’utilisation est la suivante :
+  Node.js une licence d’utilisation est la suivante :
   
-  « « » Copyright Node.js contributeurs. Tous droits réservés.
+  « « » Copyright Node.js collaborateurs. Tous droits réservés.
 
   L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -5268,11 +5268,11 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 lodash 4.17.15 - MIT https://lodash.com/
 
-Copyright OpenJS Foundation et d’autres contributeurs <https://openjsf.org/> Copyright Copyright Copyright Ashkenas, DocumentCloud et Investigation Reporter & Editors copyright Investigations Ashkenas, DocumentCloud and Investigat Reporter & Editors <http://underscorejs.org/>
+Copyright OpenJS Foundation et d’autres contributeurs <https://openjsf.org/> Copyright Copyright Copyright Ashkenas, DocumentCloud et Investigation Reporter & Editors copyright Copyright Investigations Ashkenas, DocumentCloud and Investigat Reporter & Editors <http://underscorejs.org/>
 
 Copyright OpenJS Foundation et autres contributeurs <https://openjsf.org/>
 
-Sur la base Underscore.js, copyright Copyright Ashkenas, DocumentCloud and Investigat Reporter & Editors <http://underscorejs.org/>
+Sur la base de Underscore.js, copyright Copyright Investigations Ashkenas, DocumentCloud et Investigation & Editors <http://underscorejs.org/>
 
 Ce logiciel se compose de contributions volontaires de nombreux individus. Pour obtenir l’historique exact des contribution, consultez l’historique des révisions disponible à l’emplacement https://github.com/lodash/lodash
 
@@ -5294,7 +5294,7 @@ CC0 : http://creativecommons.org/publicdomain/zero/1.0/
 
 ====
 
-Les fichiers situés dans les répertoires node_modules des fournisseurs sont des bibliothèques conservées en externe utilisées par ce logiciel qui ont leurs propres licences ; Nous vous recommandons de les lire, car leurs termes peuvent différer des termes ci-dessus.
+Les fichiers situés dans le node_modules et les répertoires des fournisseurs sont des bibliothèques conservées en externe utilisées par ce logiciel qui ont leurs propres licences ; Nous vous recommandons de les lire, car leurs termes peuvent différer des termes ci-dessus.
 
 
 ---------------------------------------------------------
@@ -5879,7 +5879,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 original 1.0.2 - MIT https://github.com/unshiftio/original#readme
 
-Copyright (c) 2015 Unshift.io, Domaineémier
+Copyright (c) 2015 Unshift.io, Domainedesemier
 
 La licence MIT (MIT)
 
@@ -6347,7 +6347,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 querystringify 2.1.1 - MIT https://github.com/unshiftio/querystringify
 
-Copyright (c) 2015 Unshift.io, Domaineémier
+Copyright (c) 2015 Unshift.io, Domainedesemier
 
 La licence MIT (MIT)
 
@@ -6544,9 +6544,9 @@ readable-stream 2.3.7 - MIT https://github.com/nodejs/readable-stream#readme
 
 Copyright Joyent, Inc. et d’autres contributeurs Node.
 
-Node.js licence d’utilisation est la suivante :
+Node.js une licence d’utilisation est la suivante :
 
-« « » Copyright Node.js contributeurs. Tous droits réservés.
+« « » Copyright Node.js collaborateurs. Tous droits réservés.
 
 L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -6574,9 +6574,9 @@ readable-stream 3.6.0 - MIT https://github.com/nodejs/readable-stream#readme
 
 Copyright Joyent, Inc. et d’autres contributeurs Node.
 
-Node.js licence d’utilisation est la suivante :
+Node.js une licence d’utilisation est la suivante :
 
-« « » Copyright Node.js contributeurs. Tous droits réservés.
+« « » Copyright Node.js collaborateurs. Tous droits réservés.
 
 L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -6795,7 +6795,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 requires-port 1.0.0 - MIT https://github.com/unshiftio/requires-port
 
-Copyright (c) 2015 Unshift.io, Domaineémier
+Copyright (c) 2015 Unshift.io, Domainedesemier
 
 La licence MIT (MIT)
 
@@ -7343,9 +7343,9 @@ string_decoder 1.1.1 - MIT https://github.com/nodejs/string_decoder
 
 Copyright Joyent, Inc. et d’autres contributeurs Node.
 
-Node.js licence d’utilisation est la suivante :
+Node.js une licence d’utilisation est la suivante :
 
-« « » Copyright Node.js contributeurs. Tous droits réservés.
+« « » Copyright Node.js collaborateurs. Tous droits réservés.
 
 L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -7374,9 +7374,9 @@ string_decoder 1.3.0 - MIT https://github.com/nodejs/string_decoder
 
 Copyright Joyent, Inc. et d’autres contributeurs Node.
 
-Node.js licence d’utilisation est la suivante :
+Node.js une licence d’utilisation est la suivante :
 
-« « » Copyright Node.js contributeurs. Tous droits réservés.
+« « » Copyright Node.js collaborateurs. Tous droits réservés.
 
 L’autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associés (le « logiciel ») pour traiter le logiciel sans restriction, y compris sans limitation les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du logiciel, et pour permettre aux personnes à qui le logiciel est fourni de le faire,  sous réserve des conditions suivantes :
 
@@ -7986,7 +7986,7 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 url-parse 1.4.7 - MIT https://github.com/unshiftio/url-parse#readme
 
-Copyright (c) 2015 Unshift.io, Domaineémier
+Copyright (c) 2015 Unshift.io, Domainedesemier
 
 La licence MIT (MIT)
 
@@ -8188,4 +8188,3 @@ LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE DE QUELQUE SORTE QUE CE
 
 
 ---------------------------------------------------------
-

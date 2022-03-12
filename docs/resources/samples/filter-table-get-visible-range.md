@@ -1,14 +1,14 @@
 ---
 title: Filtrer Excel tableau et obtenir une plage visible
-description: Découvrez comment utiliser des scripts Office pour filtrer un tableau Excel et obtenir la plage visible en tant que tableau d’objets.
-ms.date: 06/29/2021
+description: Découvrez comment utiliser des scripts Office pour filtrer un tableau Excel et obtenir la plage visible sous la mesure d’un tableau d’objets.
+ms.date: 03/10/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 35c769ff1d5a088b652833826d41ecad2c317465
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 752566aae1f5e64748e9a7a4c33447129905be22
+ms.sourcegitcommit: 79ce4fad6d284b1aa71f5ad6d2938d9ad6a09fee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59333061"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63459653"
 ---
 # <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtrer Excel tableau et obtenir une plage visible en tant qu’objet JSON
 
@@ -18,11 +18,11 @@ Cet exemple filtre un tableau Excel et renvoie la plage visible en tant qu’obj
 
 * Appliquer un filtre à une colonne de tableau.
 * Extraire la plage visible après le filtrage.
-* Assemblez et renvoyer un objet avec une [structure JSON spécifique.](#sample-json)
+* Assemblez et renvoyer un objet avec une [structure JSON spécifique](#sample-json).
 
 ## <a name="sample-excel-file"></a>Exemple Excel fichier
 
-Téléchargez <a href="table-filter.xlsx">table-filter.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+<a href="table-filter.xlsx"> Téléchargeztable-filter.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
 
 ## <a name="sample-code-filter-a-table-and-get-visible-range"></a>Exemple de code : filtrer un tableau et obtenir une plage visible
 
@@ -60,7 +60,7 @@ function main(workbook: ExcelScript.Workbook): ReturnTemplate {
 
 // This function converts a 2D-array of values into a generic JSON object.
 function returnObjectFromValues(values: string[][]): BasicObject[] {
-  let objectArray = [];
+  let objectArray: BasicObject[] = [];
   let objectKeys: string[] = [];
   for (let i = 0; i < values.length; i++) {
     if (i === 0) {
@@ -90,7 +90,7 @@ interface ReturnTemplate {
 
 ### <a name="sample-json"></a>Exemple de JSON
 
-Chaque clé représente une valeur unique d’un tableau. Chaque instance de tableau représente la ligne visible lorsque le filtre correspondant est appliqué.
+Chaque clé représente une valeur unique d’une table. Chaque instance de tableau représente la ligne visible lorsque le filtre correspondant est appliqué.
 
 ```json
 {
