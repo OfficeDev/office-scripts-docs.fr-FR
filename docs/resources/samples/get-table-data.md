@@ -1,38 +1,32 @@
 ---
 title: Sortie Excel données en tant que JSON
-description: Découvrez comment sortier Excel données de table en tant que JSON à utiliser dans Power Automate.
-ms.date: 07/22/2021
+description: Découvrez comment Excel données de table en tant que JSON à utiliser dans Power Automate.
+ms.date: 03/18/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 2b613f41618594f6f38634e4126ab8f616f1f3f4
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: d6f15b9b59a2dfe1c74caa11c748f5f52c4ef35e
+ms.sourcegitcommit: 62a62351a0a15a658f93336269f3f50767ca6b62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59332107"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63746351"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Sortie Excel données de table en tant que JSON pour une utilisation Power Automate
 
 Excel données de table peuvent être représentées sous la forme d’un tableau d’objets sous la forme de JSON. Chaque objet représente une ligne dans le tableau. Cela permet d’extraire les données Excel dans un format cohérent visible par l’utilisateur. Les données peuvent ensuite être données à d’autres systèmes via Power Automate flux.
 
-_Données de table d’entrée_
+## <a name="sample-excel-file"></a>Exemple Excel fichier
+
+Téléchargez le <a href="table-data-with-hyperlinks.xlsx"> fichiertable-data-with-hyperlinks.xlsx</a> pour un classez prêt à l’emploi.
 
 :::image type="content" source="../../images/table-input.png" alt-text="Feuille de calcul montrant les données de table d’entrée.":::
 
 Une variante de cet exemple inclut également les liens hypertexte dans l’une des colonnes du tableau. Cela permet d’surfacer des niveaux supplémentaires de données de cellule dans le JSON.
 
-_Données de table d’entrée incluant des liens hypertexte_
-
 :::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Feuille de calcul montrant une colonne de données de tableau mise en forme sous forme de liens hypertexte.":::
 
-_Boîte de dialogue pour modifier le lien hypertexte_
-
-:::image type="content" source="../../images/table-hyperlink-edit.png" alt-text="Boîte de dialogue Modifier le lien hypertexte affichant les options de modification des liens hypertexte.":::
-
-## <a name="sample-excel-file"></a>Exemple Excel fichier
-
-Téléchargez le <a href="table-data-with-hyperlinks.xlsx"> fichiertable-data-with-hyperlinks.xlsx</a> pour un classez prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
-
 ## <a name="sample-code-return-table-data-as-json"></a>Exemple de code : renvoyer des données de table en tant que JSON
+
+Ajoutez le script suivant pour essayer l’exemple vous-même !
 
 > [!NOTE]
 > Vous pouvez modifier la `interface TableData` structure de façon à ce qu’elle corresponde à vos colonnes de tableau. Notez que pour les noms de colonnes avec des espaces, n’oubliez pas de placer votre clé entre guillemets, comme dans `"Event ID"` l’exemple.
@@ -266,4 +260,4 @@ interface TableData {
 
 ## <a name="use-in-power-automate"></a>À utiliser dans Power Automate
 
-Pour savoir comment utiliser un tel script dans Power Automate, voir Créer un flux de travail automatisé [avec Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).
+Pour savoir comment utiliser un tel script dans Power Automate, voir Créer un flux [de travail automatisé avec Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).
