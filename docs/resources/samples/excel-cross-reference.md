@@ -3,12 +3,12 @@ title: Renvoi de fichiers Excel avec des Power Automate
 description: Découvrez comment utiliser Office scripts et Power Automate pour faire référence à un fichier Excel format.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: adeb84140cb9884309c9f37854a29fc4d59b17ed
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 13ba6c8ba6f9232554ea6cfd5f98c308ea981683
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59332977"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585484"
 ---
 # <a name="cross-reference-excel-files-with-power-automate"></a>Renvoi de fichiers Excel avec des Power Automate
 
@@ -148,28 +148,28 @@ interface EventData {
 
 Ce flux extrait les informations d’événement du premier workbook et utilise ces données pour valider le second.
 
-1. Connectez-Power Automate et créez un flux **de cloud instantané.** [](https://flow.microsoft.com)
-1. Sélectionnez **Déclencher manuellement un flux,** puis **sélectionnez Créer.**
-1. Ajoutez **une nouvelle étape** qui utilise le connecteur Excel Online **(Entreprise)** avec l’action **de script Exécuter.** Utilisez les valeurs suivantes pour l’action.
+1. [Connectez-Power Automate](https://flow.microsoft.com) et créez un flux **de cloud instantané**.
+1. **Sélectionnez Déclencher manuellement un flux,** puis **sélectionnez Créer**.
+1. Ajoutez **une nouvelle étape** qui utilise **le connecteur Excel Online (Entreprise)** avec l’action **exécuter le script**. Utilisez les valeurs suivantes pour l’action.
     * **Emplacement** : OneDrive Entreprise
     * **Bibliothèque de documents** : OneDrive
-    * **Fichier**: event-data.xlsx ([sélectionné avec le sélecateur de fichiers](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
-    * **Script**: obtenir des données d’événement
+    * **Fichier** : event-data.xlsx ([sélectionné avec le sélecateur de fichiers](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
+    * **Script :** obtenir des données d’événement
 
     :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Le connecteur Excel Online (Entreprise) pour le premier script dans Power Automate.":::
 
-1. Ajoutez une deuxième **étape nouvelle** qui utilise le connecteur Excel **Online (Entreprise)** avec l’action **exécuter le script.** Utilisez les valeurs suivantes pour l’action.
+1. Ajoutez une deuxième **étape nouvelle** qui utilise **le connecteur Excel Online (Entreprise)** avec l’action **exécuter le script**. Utilisez les valeurs suivantes pour l’action.
     * **Emplacement** : OneDrive Entreprise
     * **Bibliothèque de documents** : OneDrive
-    * **Fichier**: speaker-registration.xlsx ([sélectionné avec le sélecateur de fichiers](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
+    * **Fichier** : speaker-registration.xlsx ([sélectionné avec le sélecateur de fichiers](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Script :** valider l’inscription du haut-parleur
 
     :::image type="content" source="../../images/cross-reference-flow-2.png" alt-text="Le connecteur Excel Online (Entreprise) pour le deuxième script dans Power Automate.":::
-1. Cet exemple utilise Outlook client de messagerie. Vous pouvez utiliser n’importe quel connecteur de messagerie Power Automate prend en charge. Ajoutez **une nouvelle étape** qui utilise le connecteur **Office 365 Outlook** et l’action Envoyer et e-mail **(V2).** Utilisez les valeurs suivantes pour l’action.
-    * **À**: Votre compte de messagerie de test (ou e-mail personnel)
-    * **Objet**: Résultats de validation d’événement
-    * **Body**: result (_dynamic content from Run script **2**_)
+1. Cet exemple utilise Outlook client de messagerie. Vous pouvez utiliser n’importe quel connecteur de messagerie Power Automate prend en charge. Ajoutez **une nouvelle étape** qui utilise le **connecteur Office 365 Outlook** et l’action Envoyer et **e-mail (V2**). Utilisez les valeurs suivantes pour l’action.
+    * **À** : Votre compte de messagerie de test (ou e-mail personnel)
+    * **Objet :** Résultats de validation d’événement
+    * **Body**: result (_dynamic content from **Run script 2**_)
 
     :::image type="content" source="../../images/cross-reference-flow-3.png" alt-text="Connecteur de Office 365 Outlook terminé dans Power Automate.":::
-1. Enregistrez le flux. Utilisez le **bouton Test** sur la page de l’éditeur de flux ou exécutez le flux dans votre onglet **Mes flux.** N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
-1. Vous devriez recevoir un e-mail vous disant « Insérez une insérialisation trouvée. Les données nécessitent votre révision. » Cela indique qu’il existe des différences entre les lignes dans **speaker-registrations.xlsx** et les lignes **dansevent-data.xlsx**. Ouvrez **speaker-registrations.xlsx** pour voir plusieurs cellules mises en surbrillation, où il existe des problèmes potentiels avec les listes d’inscription du haut-parleur.
+1. Enregistrez le flux. Utilisez le **bouton Test** dans la page d’éditeur de flux ou exécutez le flux dans votre **onglet Mes flux** . N’oubliez pas d’autoriser l’accès lorsque vous y êtes invité.
+1. Vous devriez recevoir un e-mail vous disant « Insérez une insérialisation trouvée. Les données nécessitent votre révision. » Cela indique qu’il existe des différences entre les lignes de **speaker-registrations.xlsxet les** lignes dans **event-data.xlsx**. **Ouvrezspeaker-registrations.xlsx** pour voir plusieurs cellules mises en surbrillation, où il existe des problèmes potentiels avec les listes d’inscription du haut-parleur.

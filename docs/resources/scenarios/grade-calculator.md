@@ -1,16 +1,16 @@
 ---
-title: 'Office Exemple de scénario de scripts : calculatrice de notes'
+title: 'Office exemple de scénario scripts : calculatrice de notes'
 description: Exemple qui détermine le pourcentage et les notes de lettre d’une classe d’étudiants.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 9036c12cd05e96932171cc0aefdce8eed1cc988e
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: fd9009633e4a89e3b236f765543123b3995b9f47
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59334209"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585442"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a>Office Exemple de scénario de scripts : calculatrice de notes
+# <a name="office-scripts-sample-scenario-grade-calculator"></a>Office exemple de scénario scripts : calculatrice de notes
 
 Dans ce scénario, vous êtes un instructeur qui compte les notes de fin de terme de chaque étudiant. You’ve been entering the scores for their assignments and tests as you go. À présent, il est temps de déterminer les écoles des étudiants.
 
@@ -25,11 +25,11 @@ Vous allez développer un script qui totale les notes pour chaque catégorie de 
 
 ## <a name="setup-instructions"></a>Instructions d’installation
 
-1. Téléchargez <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> sur votre OneDrive.
+1. <a href="grade-calculator.xlsx"> Téléchargezgrade-calculator.xlsx</a> sur votre OneDrive.
 
 1. Ouvrez le Excel sur le Web.
 
-1. Sous **l’onglet Automatiser,** sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
+1. Sous **l’onglet Automatiser** , sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -172,7 +172,7 @@ Vous allez développer un script qui totale les notes pour chaque catégorie de 
     }
     ```
 
-1. Renommez le script en calculateur **de** notes et enregistrez-le.
+1. Renommez le script en calculateur **de notes** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
@@ -184,4 +184,4 @@ Exécutez le script **Calculatrice de** notes sur la seule feuille de calcul. Le
 
 ### <a name="after-running-the-script"></a>Après l’exécution du script
 
-:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données des scores des étudiants avec des cellules non valides dans des totaux rouges pour les lignes d’étudiants valides.":::
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Feuille de calcul qui affiche les données de score de l’étudiant avec des cellules non valides dans des totaux rouges pour les lignes d’étudiants valides.":::

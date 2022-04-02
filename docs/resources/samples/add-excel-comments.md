@@ -3,16 +3,16 @@ title: Ajouter des commentaires dans Excel
 description: Découvrez comment utiliser Office scripts pour ajouter des commentaires dans une feuille de calcul.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 3ff9d56934520a98dd1de7d31077396294bde29d
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 101f07fd2f1abcd4120585162dc2b77b8aece91a
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59332396"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585596"
 ---
 # <a name="add-comments-in-excel"></a>Ajouter des commentaires dans Excel
 
-Cet exemple montre comment ajouter des commentaires à une cellule, y compris [@mentioning](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) collègue.
+Cet exemple montre comment ajouter des commentaires à une cellule, y compris [@mentioning](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) un collègue.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
@@ -28,7 +28,7 @@ Cet exemple montre comment ajouter des commentaires à une cellule, y compris [@
 
 ## <a name="sample-excel-file"></a>Exemple Excel fichier
 
-Téléchargez <a href="excel-comments.xlsx">excel-comments.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+<a href="excel-comments.xlsx"> Téléchargezexcel-comments.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
 
 ## <a name="sample-code-add-comments"></a>Exemple de code : ajouter des commentaires
 

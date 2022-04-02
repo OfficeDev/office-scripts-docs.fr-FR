@@ -1,14 +1,14 @@
 ---
 title: Scripts de base pour Office scripts dans Excel sur le Web
 description: Collection d’exemples de code à utiliser avec Office scripts dans Excel sur le Web.
-ms.date: 06/29/2021
+ms.date: 03/24/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: c0e852ba2afcc37f5921ff0b2256df0769535f6e
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 853b00349b246e74765eb2959b4926fad42f07c5
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59330736"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585869"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Scripts de base pour Office scripts dans Excel sur le Web
 
@@ -17,7 +17,7 @@ Les exemples suivants sont des scripts simples que vous pouvez essayer sur vos p
 1. Ouvrez l’onglet **Automatiser**.
 1. Sélectionnez **Nouveau script**.
 1. Remplacez l’intégralité du script par l’exemple de votre choix.
-1. Sélectionnez **Exécuter** dans le volet Des tâches de l’Éditeur de code.
+1. **Sélectionnez Exécuter** dans le volet Des tâches de l’Éditeur de code.
 
 ## <a name="script-basics"></a>Principes de base des scripts
 
@@ -156,7 +156,7 @@ Ces exemples fonctionnent avec des collections d’objets dans le workbook.
 
 ### <a name="iterate-over-collections"></a>Itérer sur les collections
 
-Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel. Il définit également les couleurs de leurs onglets sur une couleur aléatoire.
+Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel. Il définit également les couleurs de leur onglet sur une couleur aléatoire.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -233,7 +233,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-L’exemple suivant lit une date stockée dans Excel et la traduit en objet Date JavaScript. Il utilise le [numéro de série numérique](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) de la date comme entrée pour la date JavaScript.
+L’exemple suivant lit une date stockée dans Excel et la traduit en objet Date JavaScript. Il utilise le numéro de série numérique de la date comme entrée pour la date JavaScript. Ce numéro de série est décrit dans l’article [de la fonction NOW(](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) ).
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -293,7 +293,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="log-the-grand-total-values-from-a-pivottable"></a>Enregistrer les valeurs « Total total » à partir d’un tableau croisé dynamique
 
-Cet exemple recherche le premier tableau croisé dynamique dans le workbook et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).
+Cet exemple recherche le premier tableau croisé dynamique dans le manuel et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).
 
 :::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Tableau croisé dynamique affichant les ventes de fruit avec la ligne Grand Total mise en surbrillante en vert.":::
 
@@ -321,9 +321,9 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="create-a-drop-down-list-using-data-validation"></a>Créer une liste de listes listes à l’aide de la validation des données
 
-Ce script crée une liste de sélection de listes listes pour une cellule. Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.
+Ce script crée une liste de sélection pour une cellule. Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.
 
-:::image type="content" source="../../images/sample-data-validation.png" alt-text="Feuille de calcul montrant une plage de trois cellules contenant des choix de couleur « rouge, bleu, vert » et en de côté, les mêmes choix affichés dans une liste de listes.":::
+:::image type="content" source="../../images/sample-data-validation.png" alt-text="Feuille de calcul montrant une plage de trois cellules contenant des choix de couleur « rouge, bleu, vert » et en de côté, les mêmes choix affichés dans une liste liste.":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -362,7 +362,7 @@ Ces exemples utilisent Excel formules et montrent comment les utiliser dans des 
 
 ### <a name="single-formula"></a>Formule unique
 
-Ce script définit la formule d’une cellule, puis Excel la formule et la valeur de la cellule séparément.
+Ce script définit la formule d’une cellule, puis montre comment Excel la formule et la valeur de la cellule séparément.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -381,9 +381,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="handle-a-spill-error-returned-from-a-formula"></a>Gérer une `#SPILL!` erreur renvoyée par une formule
+### <a name="handle-a-spill-error-returned-from-a-formula"></a>Gérer une erreur `#SPILL!` renvoyée par une formule
 
-Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose entraîne une erreur, elle permet d’effacer la plage `#SPILL` cible et d’appliquer à nouveau la formule.
+Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose entraîne une `#SPILL` erreur, elle permet d’effacer la plage cible et d’appliquer à nouveau la formule.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -417,10 +417,10 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="suggest-new-samples"></a>Suggérer de nouveaux exemples
 
-Nous vous proposons des suggestions bienvenues pour les nouveaux exemples. S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires en bas de la page.
+Nous vous souhaitons la bienvenue pour les nouveaux exemples. S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires en bas de la page.
 
 ## <a name="see-also"></a>Voir aussi
 
 * [« Principes de base de la plage » de Sudhi Journal sur YouTube](https://youtu.be/4emjkOFdLBA)
-* [Office Exemples de scripts et scénarios](samples-overview.md)
+* [Office scénarios et exemples de scripts](samples-overview.md)
 * [Enregistrer, modifier et créer des scripts Office dans Excel sur le web](../../tutorials/excel-tutorial.md)

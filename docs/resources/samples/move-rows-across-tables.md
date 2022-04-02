@@ -1,20 +1,20 @@
 ---
-title: Déplacer des lignes entre des tableaux à l’aide Office Scripts
+title: Déplacer des lignes entre des tableaux à l’aide Office scripts
 description: Découvrez comment déplacer des lignes d’une table à l’autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: bffdb17516016d159e61586c116d764f7bb8f3fc
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 9780cd79a55dcb5cd2e039b5198232358b3b1413
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59334968"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585477"
 ---
 # <a name="move-rows-across-tables"></a>Déplacer des lignes dans des tableaux
 
 Ce script effectue les opérations suivantes :
 
-* Sélectionne des lignes dans la table source où la valeur d’une colonne est égale à une valeur `FILTER_VALUE` (dans le script).
+* Sélectionne des lignes dans la table source où la valeur d’une colonne est égale à une valeur (`FILTER_VALUE` dans le script).
 * Déplace toutes les lignes sélectionnées dans le tableau cible dans une autre feuille de calcul.
 * Réapplicité les filtres pertinents dans la table source.
 

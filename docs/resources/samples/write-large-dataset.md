@@ -3,25 +3,25 @@ title: Rédiger un grand ensemble de données
 description: Découvrez comment fractionner un jeu de données de grande taille en opérations d’écriture plus petites Office scripts.
 ms.date: 05/13/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 1b37c5892c3b5f9ba26bfc2cdf8b30db321751d3
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 0702ae5465caf91f5581cbdb79ca75a65e83adbc
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59330582"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585925"
 ---
 # <a name="write-a-large-dataset"></a>Rédiger un grand ensemble de données
 
-`Range.setValues()`L’API place les données dans une plage. Cette API présente des limitations en fonction de différents facteurs, tels que la taille des données et les paramètres réseau. Cela signifie que si vous essayez d’écrire une grande quantité d’informations dans un workbook en une seule opération, vous devrez écrire les données par lots plus petits afin de mettre à jour de manière fiable une grande plage [.](../../testing/platform-limits.md)
+L’API `Range.setValues()` place les données dans une plage. Cette API présente des limitations en fonction de différents facteurs, tels que la taille des données et les paramètres réseau. Cela signifie que si vous essayez d’écrire une grande quantité d’informations dans un workbook en une seule opération, vous devrez écrire les données par lots plus petits afin de mettre à jour de manière fiable une grande [plage.](../../testing/platform-limits.md)
 
-Pour obtenir des informations de base sur les performances Office scripts, veuillez lire Améliorer les performances de [vos scripts Office.](../../develop/web-client-performance.md)
+Pour obtenir des informations de base sur les performances Office scripts, veuillez lire Améliorer les [performances de Office scripts.](../../develop/web-client-performance.md)
 
 ## <a name="sample-code-write-a-large-dataset"></a>Exemple de code : écrire un jeu de données de grande taille
 
-Ce script écrit les lignes d’une plage dans des parties plus petites. Il sélectionne 1 000 cellules à écrire à la fois. Exécutez le script sur une feuille de calcul vide pour voir les lots de mise à jour en action. La sortie de la console donne plus d’informations sur ce qui se passe.
+Ce script écrit les lignes d’une plage dans des parties plus petites. Il sélectionne 1 000 cellules à écrire à la fois. Exécutez le script sur une feuille de calcul vide pour voir les lots de mise à jour en action. La sortie de la console fournit des informations supplémentaires sur ce qui se passe.
 
 > [!NOTE]
-> Vous pouvez modifier le nombre total de lignes écrites en modifiant la valeur de `SAMPLE_ROWS` . Vous pouvez modifier le nombre de cellules à écrire en tant qu’action unique en modifiant la valeur de `CELLS_IN_BATCH` .
+> Vous pouvez modifier le nombre total de lignes écrites en modifiant la valeur de `SAMPLE_ROWS`. Vous pouvez modifier le nombre de cellules à écrire en tant qu’action unique en modifiant la valeur de `CELLS_IN_BATCH`.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -146,6 +146,6 @@ function getRandomString(length: number): string {
 }
 ```
 
-## <a name="training-video-write-a-large-dataset"></a>Vidéo de formation : Écrire un jeu de données de grande taille
+## <a name="training-video-write-a-large-dataset"></a>Vidéo de formation : écrire un jeu de données de grande taille
 
 [Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/BP9Kp0Ltj7U).

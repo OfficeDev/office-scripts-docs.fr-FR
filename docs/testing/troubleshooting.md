@@ -3,19 +3,19 @@ title: Résoudre les problèmes Office scripts
 description: Conseils et techniques de débogage pour Office scripts, ainsi que des ressources d’aide.
 ms.date: 11/11/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 2c43d0e4b1f4fd5675397fd79eaab1345ae39b98
-ms.sourcegitcommit: 24a6b8ae0cc57a0307fbc9b3e87432f1f4a92263
+ms.openlocfilehash: 2a4514aa55550311223cf6fa1179541a37e37f56
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61064201"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586044"
 ---
 # <a name="troubleshoot-office-scripts"></a>Résoudre les problèmes Office scripts
 
 Lorsque vous développez Office scripts, vous pouvez faire des erreurs. C'est bon. Vous avez les outils nécessaires pour trouver les problèmes et faire fonctionner parfaitement vos scripts.
 
 > [!NOTE]
-> Pour obtenir des conseils de dépannage spécifiques Office scripts avec Power Automate, voir Résolution des problèmes Office [scripts en](power-automate-troubleshooting.md)cours d’exécution dans Power Automate .
+> Pour obtenir des conseils de dépannage spécifiques Office scripts avec Power Automate, voir Résolution des problèmes Office [scripts en](power-automate-troubleshooting.md) cours d’exécution dans Power Automate.
 
 ## <a name="types-of-errors"></a>Types d’erreurs
 
@@ -49,7 +49,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Les erreurs de compilation et d’runtime affichent des messages d’erreur dans la console lorsqu’un script s’exécute. Ils donnent un numéro de ligne où le problème s’est produits. N’oubliez pas que la cause première d’un problème peut être une ligne de code différente de ce qui est indiqué dans la console.
 
-L’image suivante montre la sortie de la console pour [l’erreur `any` ](../develop/typescript-restrictions.md) explicite du compilateur. Notez le texte `[5, 16]` au début de la chaîne d’erreur. Cela indique que l’erreur se trouve sur la ligne 5, en commençant au caractère 16.
+L’image suivante montre la sortie de la console pour [l’erreur `any`](../develop/typescript-restrictions.md) explicite du compilateur. Notez le texte `[5, 16]` au début de la chaîne d’erreur. Cela indique que l’erreur se trouve sur la ligne 5, en commençant au caractère 16.
 :::image type="content" source="../images/explicit-any-error-message.png" alt-text="Console de l’éditeur de code affichant un message d’erreur explicite « tout ».":::
 
 L’image suivante montre la sortie de la console pour une erreur d’runtime. Ici, le script tente d’ajouter une feuille de calcul avec le nom d’une feuille de calcul existante. Là encore, notez la « ligne 2 » précédant l’erreur pour afficher la ligne à examiner.
@@ -57,31 +57,31 @@ L’image suivante montre la sortie de la console pour une erreur d’runtime. I
 
 ## <a name="console-logs"></a>Journaux de la console
 
-Imprime les messages à l’écran avec `console.log` l’instruction. Ces journaux peuvent vous montrer la valeur actuelle des variables ou les chemins de code qui sont déclenchés. Pour ce faire, `console.log` appelez avec n’importe quel objet en tant que paramètre. En règle générale, `string` il s’agit du type le plus simple à lire dans la console.
+Imprime les messages à l’écran avec l’instruction `console.log` . Ces journaux peuvent vous montrer la valeur actuelle des variables ou les chemins de code qui sont déclenchés. Pour ce faire, appelez `console.log` avec n’importe quel objet en tant que paramètre. En règle générale, il `string` s’agit du type le plus simple à lire dans la console.
 
 ```TypeScript
 console.log("Logging myRange's address.");
 console.log(myRange.getAddress());
 ```
 
-Les chaînes transmises sont affichées dans la console de journalisation de l’éditeur de code, en `console.log` bas du volet Des tâches. Les journaux se  trouvent sous l’onglet Sortie, même si l’onglet prend automatiquement le focus lors de l’écriture d’un journal.
+Les chaînes transmises `console.log` sont affichées dans la console de journalisation de l’éditeur de code, en bas du volet Des tâches. Les journaux se trouvent **sous l’onglet** Sortie, même si l’onglet prend automatiquement le focus lors de l’écriture d’un journal.
 
 Les journaux n’affectent pas le workbook.
 
-## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>L’onglet Automatiser n’apparaît pas ou Office scripts indisponibles
+## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Automatiser l’onglet qui n’apparaît pas ou Office scripts indisponibles
 
 Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l’onglet **Automatiser** qui n’apparaît pas dans Excel sur le Web.
 
 1. [Assurez-vous que votre licence Microsoft 365 inclut Office scripts.](../overview/excel.md#requirements)
-1. [Vérifiez que votre navigateur est pris en charge.](platform-limits.md#browser-support)
-1. [Assurez-vous que les cookies tiers sont activés.](platform-limits.md#third-party-cookies)
+1. [Vérifiez que votre navigateur est pris en charge](platform-limits.md#browser-support).
+1. [Assurez-vous que les cookies tiers sont activés](platform-limits.md#third-party-cookies).
 1. [Assurez-vous que votre administrateur n’a pas désactivé Office scripts dans le Centre d'administration Microsoft 365](/microsoft-365/admin/manage/manage-office-scripts-settings).
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
 ## <a name="help-resources"></a>Ressources d’aide
 
-[Stack Overflow est](https://stackoverflow.com/questions/tagged/office-scripts) une communauté de développeurs prêts à vous aider avec les problèmes de codage. Souvent, vous serez en mesure de trouver la solution à votre problème par le biais d’une recherche rapide de stack overflow. Si ce n’est pas le cas, posez votre question et marquez-la avec la balise « office-scripts ». N’oubliez pas de mentionner que vous créez un *script* Office, et non un *Office.*
+[Stack Overflow est](https://stackoverflow.com/questions/tagged/office-scripts) une communauté de développeurs prêts à vous aider avec les problèmes de codage. Souvent, vous serez en mesure de trouver la solution à votre problème par le biais d’une recherche rapide de stack overflow. Si ce n’est pas le cas, posez votre question et marquez-la avec la balise « office-scripts ». N’oubliez pas de mentionner que vous créez un *script Office,* et non un Office *de script*.
 
 ## <a name="see-also"></a>Voir aussi
 

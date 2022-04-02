@@ -1,18 +1,18 @@
 ---
-title: 'Office exemple de scénario de scripts : analyser les téléchargements web'
+title: 'exemple Office scripts : analyser les téléchargements web'
 description: Exemple qui prend des données de trafic Internet brutes dans un Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans une table.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: ad889e75d5f2e4b8af4379c3875b43ff8e1beda6
-ms.sourcegitcommit: ea9c3685a7407a07acf802705f4f44fb007c7825
+ms.openlocfilehash: 9d2d0ba302c72d4ca1f1aaad5e9cee5ba40d64e9
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61333497"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585490"
 ---
-# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Office exemple de scénario de scripts : analyser les téléchargements web
+# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>exemple Office scripts : analyser les téléchargements web
 
-Dans ce scénario, vous êtes chargé d’analyser les rapports de téléchargement à partir du site web de votre entreprise. L’objectif de cette analyse est de déterminer si le trafic web vient des États-Unis ou d’autres pays du monde.
+Dans ce scénario, vous êtes chargé d’analyser les rapports de téléchargement à partir du site web de votre entreprise. L’objectif de cette analyse est de déterminer si le trafic web vient du États-Unis ou d’autres pays du monde.
 
 Vos collègues téléchargent les données brutes dans votre workbook. Chaque ensemble de données de chaque semaine possède sa propre feuille de calcul. Il existe également la **feuille de calcul Résumé** avec un tableau et un graphique qui indiquent les tendances d’une semaine à l’autre.
 
@@ -27,11 +27,11 @@ Vous allez développer un script qui analyse les données de téléchargement he
 
 ## <a name="setup-instructions"></a>Instructions d’installation
 
-1. Téléchargez <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> sur votre OneDrive.
+1. <a href="analyze-web-downloads.xlsx"> Téléchargezanalyze-web-downloads.xlsx</a> sur votre OneDrive.
 
 1. Ouvrez le Excel sur le Web.
 
-1. Sous **l’onglet Automatiser,** sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
+1. Sous **l’onglet Automatiser** , sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -211,7 +211,7 @@ Vous allez développer un script qui analyse les données de téléchargement he
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Accédez à l’une **des feuilles de \* \*** calcul Semaine et exécutez le script **Analyser les téléchargements web.** Le script applique la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
+Accédez à l’une **des feuilles de calcul Semaine\*\*** et exécutez le script **Analyser les téléchargements web** . Le script applique la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
 
 ### <a name="before-running-the-script"></a>Avant d’exécution du script
 

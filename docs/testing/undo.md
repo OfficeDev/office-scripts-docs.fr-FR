@@ -3,16 +3,16 @@ title: Annuler les modifications apportées par Office Scripts
 description: Utilisez l’historique des versions Excel sur le Web pour annuler les modifications apportées en exécutant un script.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4a97191d0215f35839895ea7198470f5e626d407
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 8d8a86a2361f7a5eb58cd3900b488df57d889770
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59335514"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586023"
 ---
 # <a name="undo-the-changes-made-by-office-scripts"></a>Annuler les modifications apportées par Office Scripts
 
-Vous ne pouvez pas annuler les modifications apportées au Excel par un script à l’Excel commande **Annuler** de l’Excel. Au lieu de cela, vous devez restaurer une version précédente du manuel à partir de votre stockage cloud.
+Vous ne pouvez pas annuler les modifications apportées au Excel de travail par un script à l’Excel commande **Annuler** de l’Excel. Au lieu de cela, vous devez restaurer une version précédente du manuel à partir de votre stockage cloud.
 
 ## <a name="version-history"></a>Historique des versions
 
@@ -20,9 +20,9 @@ Office’historique des versions de l’utilisateur est un moyen simple de resta
 
 Dans le Excel dans lequel le script a été écrit, utilisez les étapes suivantes pour annuler les effets :
 
-1. Go to **File**  >  **Info**  >  **Version History**.
+1. Go to **FileInfoVersion** >  >  **History**.
 2. Sélectionnez une version enregistrée avant l’exécution du script.
-3. Sélectionnez **Restaurer.**
+3. Sélectionnez **Restaurer**.
 
 ## <a name="see-also"></a>Voir aussi
 

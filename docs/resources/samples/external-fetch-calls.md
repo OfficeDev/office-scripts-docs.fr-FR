@@ -3,18 +3,18 @@ title: Utiliser les appels externes de récupération dans les scripts Office
 description: Découvrez comment effectuer des appels d’API externes dans Office scripts.
 ms.date: 05/14/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: d957e0536e8574681f2ec752f23f9e6ba07f5fd2
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: feff9d49f9f50f14fd83b1864568df8dab02d417
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59335747"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585526"
 ---
 # <a name="use-external-fetch-calls-in-office-scripts"></a>Utiliser les appels externes de récupération dans les scripts Office
 
-Ce script obtient des informations de base sur les référentiels GitHub d’un utilisateur. Il montre comment utiliser `fetch` dans un scénario simple. Pour plus d’informations sur l’utilisation ou d’autres appels externes, lisez la prise en charge des appels d’API externes `fetch` [dans Office Scripts](../../develop/external-calls.md)
+Ce script obtient des informations de base sur les référentiels GitHub d’un utilisateur. Il montre comment utiliser dans `fetch` un scénario simple. Pour plus d’informations sur l’utilisation `fetch` ou d’autres appels externes, lisez la prise en charge des appels d’API externes [dans Office Scripts](../../develop/external-calls.md)
 
-Vous pouvez en savoir plus sur les API GItHub utilisées dans la référence GitHub [API.](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user) Vous pouvez également voir la sortie d’appel d’API brute en visitant un navigateur web (n’oubliez pas de remplacer l’espace réservé {USERNAME} par votre `https://api.github.com/users/{USERNAME}/repos` ID GitHub).
+Vous pouvez en savoir plus sur les API GItHub utilisées dans la référence GitHub [API.](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user) Vous pouvez également voir la sortie d’appel d’API `https://api.github.com/users/{USERNAME}/repos` brute en vous rendant dans un navigateur web (n’oubliez pas de remplacer l’espace réservé {USERNAME} par votre ID GitHub).
 
 ![Obtenir un exemple d’informations sur les référentiels](../../images/git.png)
 

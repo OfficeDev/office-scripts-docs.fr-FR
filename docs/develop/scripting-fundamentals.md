@@ -3,12 +3,12 @@ title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 090b5b71a9becf76186e852198fdee0e5c040866
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: e2ba7eaa956f2009c9017bbfd1f390f56eb9008e
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59326890"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585722"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Principes de base des scripts pour Scripts Office dans Excel sur le web
 
@@ -63,7 +63,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="ranges"></a>Plages
 
-Une plage est un groupe de cellules contiguës dans le classeur. Les scripts utilisent généralement la notation de style A1 (par exemple : **B3** pour la cellule unique de la colonne **B** et de la ligne **3** ou **C2:F4** pour les cellules des colonnes **C** à **F** et des lignes **2** à **4**) pour définir les plages.
+Une plage est un groupe de cellules contiguës dans le classeur. Les scripts utilisent généralement la notation de style A1 (par exemple, **B3** pour la cellule unique dans la colonne **B** et ligne **3** ou **C2:F4** pour les cellules des colonnes **C** à **F** et les lignes **2** via **4**) pour définir des plages.
 
 Les plages ont trois propriétés principales : valeurs, formules et format. Ces propriétés obtiennent ou définissent les valeurs des cellules, les formules à évaluer et la mise en forme visuelle des cellules. Ils sont accessibles via `getValues`, `getFormulas`et `getFormat`. Les valeurs et les formules peuvent être modifiées avec `setValues` et `setFormulas`, tandis que le format est un objet `RangeFormat` composé de plusieurs objets de plus petite taille définis individuellement.
 
@@ -240,7 +240,7 @@ function main(workbook: ExcelScript.Workbook) {
 ```
 
 > [!TIP]
-> La plupart des objets Excel ont une méthode `setName`. Cela vous donne un moyen facile d'accéder aux objets Excel plus tard dans le script ou dans d'autres scripts pour le même classeur.
+> La plupart des objets Excel ont une méthode `setName` . Cela vous permet d’accéder facilement aux objets Excel plus loin dans le script ou dans d’autres scripts pour le même classeur.
 
 ### <a name="verify-an-object-exists-in-the-collection"></a>Vérifier l’existence d’un objet dans la collection
 

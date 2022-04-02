@@ -3,12 +3,12 @@ title: Meilleures pratiques en matière de scripts Office
 description: Comment éviter les problèmes courants et écrire des Office scripts fiables qui peuvent gérer des données ou des entrées inattendues.
 ms.date: 12/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 19b10cf6ea778f109edeb74fa5995628bb8bf632
-ms.sourcegitcommit: c62567dc1188527511e4618d3e04e26580d4bb44
+ms.openlocfilehash: 689196e1a0ca70c999ec8048de64190cbfe75581
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61659193"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585764"
 ---
 # <a name="best-practices-in-office-scripts"></a>Meilleures pratiques en matière de scripts Office
 
@@ -18,7 +18,7 @@ Ces modèles et pratiques sont conçus pour aider vos scripts à s’exécuter c
 
 Excel fait beaucoup d’choses. La plupart d’entre eux peuvent être scriptés. L’enregistreur d’actions enregistre Excel actions et les traduit en code. Il s’agit du moyen le plus simple de découvrir comment les différentes fonctionnalités fonctionnent Office scripts. Si vous avez besoin de code pour une action spécifique, basculez vers l’enregistreur d’actions, effectuez les actions, sélectionnez Copier en tant que **code** et collez le code résultant dans votre script.
 
-:::image type="content" source="../images/action-recorder-copy-code.png" alt-text="Volet Des tâches de l’Enregistreur d’actions avec le bouton « Copier en tant que code » mis en évidence.":::
+:::image type="content" source="../images/action-recorder-copy-code.png" alt-text="Volet des tâches de l’enregistreur d’actions avec le bouton « Copier en tant que code » en surbrillance.":::
 
 ## <a name="verify-an-object-is-present"></a>Vérifier la présence d’un objet
 
@@ -48,7 +48,7 @@ workbook.getWorksheet('Index')?.delete();
 
 Assurez-vous que toutes vos feuilles de calcul, tableaux, formes et autres objets sont présents avant de travailler sur les données. À l’aide du modèle précédent, vérifiez si tout se trouve dans le workbook et correspond à vos attentes. Le fait de le faire avant l’écriture de données garantit que votre script ne laisse pas le workbook dans un état partiel.
 
-Le script suivant requiert la présence de deux tables nommées « Table1 » et « Table2 ». Le script vérifie d’abord si les tables sont présentes, puis se termine par l’instruction et un message approprié `return` si ce n’est pas le cas.
+Le script suivant requiert la présence de deux tables nommées « Table1 » et « Table2 ». Le script vérifie d’abord si les tables `return` sont présentes, puis se termine par l’instruction et un message approprié si ce n’est pas le cas.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -72,7 +72,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Si la vérification se produit dans une fonction distincte, vous devez quand même mettre fin au script en émettant `return` l’instruction à partir de la `main` fonction. Le retour à partir de la sous-partie ne termine pas le script.
 
-Le script suivant a le même comportement que le précédent. La différence est que la `main` fonction appelle la fonction pour tout `inputPresent` vérifier. `inputPresent` renvoie un booléen ( `true` ou ) pour indiquer si toutes les `false` entrées requises sont présentes. La `main` fonction utilise ce type booléen pour décider de poursuivre ou de mettre fin au script.
+Le script suivant a le même comportement que le précédent. La différence est que la fonction `main` appelle la `inputPresent` fonction pour tout vérifier. `inputPresent` renvoie un booléen (`true` ou `false`) pour indiquer si toutes les entrées requises sont présentes. La `main` fonction utilise ce type booléen pour décider de poursuivre ou de mettre fin au script.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -106,11 +106,11 @@ function inputPresent(workbook: ExcelScript.Workbook): boolean {
 
 ## <a name="when-to-use-a-throw-statement"></a>Quand utiliser une `throw` instruction
 
-Une [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) instruction indique qu’une erreur inattendue s’est produite. Il termine immédiatement le code. En grande partie, vous n’avez pas besoin de `throw` le faire à partir de votre script. En règle générale, le script informe automatiquement l’utilisateur que le script n’a pas réussi à s’exécuter en raison d’un problème. Dans la plupart des cas, il suffit de terminer le script avec un message d’erreur et `return` une instruction de la `main` fonction.
+Une [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) instruction indique qu’une erreur inattendue s’est produite. Il termine immédiatement le code. En grande partie, vous n’avez pas besoin de le `throw` faire à partir de votre script. En règle générale, le script informe automatiquement l’utilisateur que le script n’a pas réussi à s’exécuter en raison d’un problème. Dans la plupart des cas, il suffit de terminer le script avec un message d’erreur et une `return` instruction de la `main` fonction.
 
-Toutefois, si votre script s’exécute dans le cadre d’Power Automate flux, vous pouvez arrêter le flux de continuer. Une `throw` instruction arrête le script et indique au flux de s’arrêter également.
+Toutefois, si votre script s’exécute dans le cadre d’Power Automate flux, vous voudrez peut-être arrêter le flux de continuer. Une `throw` instruction arrête le script et indique au flux de s’arrêter également.
 
-Le script suivant montre comment utiliser `throw` l’instruction dans notre exemple de vérification de table.
+Le script suivant montre comment utiliser l’instruction `throw` dans notre exemple de vérification de table.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -132,7 +132,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="when-to-use-a-trycatch-statement"></a>Quand utiliser une `try...catch` instruction
 
-L’instruction permet de détecter si un appel [`try...catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) d’API échoue et de continuer à l’exécution du script.
+L’instruction [`try...catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) permet de détecter si un appel d’API échoue et de continuer à l’exécution du script.
 
 Prenons l’extrait de code suivant qui effectue une mise à jour de données importante sur une plage.
 
@@ -140,9 +140,9 @@ Prenons l’extrait de code suivant qui effectue une mise à jour de données im
 range.setValues(someLargeValues);
 ```
 
-Si `someLargeValues` la taille est supérieure à Excel sur le Web, l’appel `setValues()` échoue. Le script échoue également avec une erreur [d’runtime.](../testing/troubleshooting.md#runtime-errors) L’instruction permet à votre script de reconnaître cette condition, sans terminer immédiatement le `try...catch` script et afficher l’erreur par défaut.
+Si `someLargeValues` la taille est supérieure Excel sur le Web peut gérer, l’appel `setValues()` échoue. Le script échoue également avec une [erreur d’runtime](../testing/troubleshooting.md#runtime-errors). L’instruction `try...catch` permet à votre script de reconnaître cette condition, sans terminer immédiatement le script et afficher l’erreur par défaut.
 
-Une approche pour offrir à l’utilisateur du script une meilleure expérience consiste à lui présenter un message d’erreur personnalisé. L’extrait de code suivant montre une instruction consignant plus d’informations sur les erreurs `try...catch` pour mieux aider le lecteur.
+Une approche pour offrir à l’utilisateur du script une meilleure expérience consiste à lui présenter un message d’erreur personnalisé. L’extrait de code suivant montre une instruction `try...catch` consignant plus d’informations sur les erreurs pour mieux aider le lecteur.
 
 ```TypeScript
 try {
@@ -154,10 +154,10 @@ try {
 }
 ```
 
-Une autre approche de traitement des erreurs consiste à avoir un comportement de retour qui gère le cas d’erreur. L’extrait de code suivant utilise le bloc pour essayer une autre méthode décomposer la mise à jour en plus petites parties `catch` et éviter l’erreur.
+Une autre approche de traitement des erreurs consiste à avoir un comportement de retour qui gère le cas d’erreur. L’extrait de code suivant utilise `catch` le bloc pour essayer une autre méthode décomposer la mise à jour en plus petites parties et éviter l’erreur.
 
 > [!TIP]
-> Pour obtenir un exemple complet sur la mise à jour d’une grande plage, voir [Écrire un jeu de données de grande taille.](../resources/samples/write-large-dataset.md)
+> Pour obtenir un exemple complet sur la mise à jour d’une grande plage, voir [Écrire un jeu de données de grande taille](../resources/samples/write-large-dataset.md).
 
 ```TypeScript
 try {
@@ -172,7 +172,7 @@ try {
 ```
 
 > [!NOTE]
-> `try...catch`L’utilisation à l’intérieur ou autour d’une boucle ralentit votre script. Pour plus d’informations sur les performances, voir [Éviter d’utiliser `try...catch` des blocs.](web-client-performance.md#avoid-using-trycatch-blocks-in-or-surrounding-loops)
+> L’utilisation `try...catch` à l’intérieur ou autour d’une boucle ralentit votre script. Pour plus d’informations sur les performances, voir [Éviter d’utiliser des `try...catch` blocs](web-client-performance.md#avoid-using-trycatch-blocks-in-or-surrounding-loops).
 
 ## <a name="see-also"></a>Voir aussi
 

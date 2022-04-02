@@ -3,18 +3,18 @@ title: Effacer le filtre de colonne de tableau en fonction de l’emplacement de
 description: Découvrez comment effacer le filtre de colonne de tableau en fonction de l’emplacement des cellules actives.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: bb01292017a027e41230d786337b5bf53293a20c
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: c52f1a3501318a479744abc6f2aa15cfaf3f9ded
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59332984"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585582"
 ---
 # <a name="clear-table-column-filter-based-on-active-cell-location"></a>Effacer le filtre de colonne de tableau en fonction de l’emplacement des cellules actives
 
 Cet exemple permet d’effacer le filtre de colonne de tableau en fonction de l’emplacement de la cellule active. Le script détecte si la cellule fait partie d’un tableau, détermine la colonne de tableau et clears any filter that are applied on it.
 
-Si vous souhaitez en savoir plus sur la façon d’enregistrer le filtre avant de l’effacer (et de le réapplager ultérieurement), voir Déplacer des lignes dans les tableaux en enregistreant des [filtres](move-rows-across-tables.md), un exemple plus avancé.
+Si vous souhaitez en savoir plus sur l’enregistrement du filtre avant de l’effacer (et appliquer à nouveau ultérieurement), voir Déplacer des lignes dans les tableaux en enregistreant des [filtres](move-rows-across-tables.md), un exemple plus avancé.
 
 _Avant d’effacer le filtre de colonne (notez la cellule active)_
 
@@ -26,11 +26,11 @@ _Après l’effacement du filtre de colonne_
 
 ## <a name="sample-excel-file"></a>Exemple Excel fichier
 
-Téléchargez <a href="table-with-filter.xlsx">table-with-filter.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+<a href="table-with-filter.xlsx"> Téléchargeztable-with-filter.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
 
 ## <a name="sample-code-clear-table-column-filter-based-on-active-cell"></a>Exemple de code : effacer le filtre de colonne de tableau en fonction de la cellule active
 
-Le script suivant permet d’effacer le filtre de colonne de tableau en fonction de l’emplacement des cellules actives et peut être appliqué à Excel fichier avec un tableau.
+Le script suivant permet d’effacer le filtre de colonne de tableau en fonction de l’emplacement des cellules actives et peut être appliqué à Excel fichier avec une table.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {

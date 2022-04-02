@@ -3,12 +3,12 @@ title: Exécuter Office scripts avec Power Automate
 description: Comment obtenir des scripts Office pour Excel sur le Web un flux de travail Power Automate de travail.
 ms.date: 03/08/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: f7358b79248974ddb548b54437422670a37531bf
-ms.sourcegitcommit: 79ce4fad6d284b1aa71f5ad6d2938d9ad6a09fee
+ms.openlocfilehash: dbf65086e564b20ca0fc3a4dc1c527188540be6b
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459619"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585750"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter Office scripts avec Power Automate
 
@@ -16,7 +16,7 @@ ms.locfileid: "63459619"
 
 ## <a name="get-started"></a>Prise en main
 
-Si vous débutez avec Power Automate, nous vous recommandons de consulter La mise en [Power Automate.](/power-automate/getting-started) Vous y découvrirez toutes les possibilités d’automatisation disponibles. Les documents présentés ici se concentrent sur Office l’Power Automate scripts et sur la façon dont cela peut vous aider à améliorer Excel expérience utilisateur.
+Si vous n’êtes pas Power Automate, nous vous recommandons de visiter Démarrage [avec Power Automate](/power-automate/getting-started). Vous y découvrirez toutes les possibilités d’automatisation disponibles. Les documents présentés ici se concentrent sur Office l’Power Automate scripts et sur la façon dont cela peut vous aider à améliorer Excel expérience utilisateur.
 
 Pour commencer à combiner Power Automate et Office scripts, suivez le didacticiel Commencer à utiliser des [scripts avec Power Automate](../tutorials/excel-power-automate-manual.md). Cela vous montre comment créer un flux qui appelle un script simple. Une fois que vous avez terminé ce didacticiel et passé les données aux [scripts](../tutorials/excel-power-automate-trigger.md) dans un didacticiel de flux Power Automate exécuté automatiquement, revenir ici pour obtenir des informations détaillées sur la connexion de scripts Office à des flux Power Automate.
 

@@ -3,12 +3,12 @@ title: Appeler des scripts à partir d’un flux manuel Power Automate
 description: Un tutoriel sur l’utilisation des scripts Office dans Power Automate via un déclencheur manuel.
 ms.date: 06/29/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 506481c8b5ee1ae94a4e0a7fc926abc62ba7c5f9
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: e926540976dc066b3f07620c1e710dfa3abc7660
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59330862"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585939"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow"></a>Appeler des scripts à partir d’un flux manuel Power Automate
 
@@ -100,7 +100,7 @@ Power Automate ne peut pas utiliser de [références relatives](../testing/power
 
 9. Sélectionnez **Enregistrer**.
 
-Votre flux est maintenant prêt à être exécuté via Power Automate. Vous pouvez le tester à l’aide du bouton **Tester** dans l’éditeur de flux ou suivre les étapes restantes du tutoriel pour exécuter le flux à partir de votre collection de flux.
+Votre flux est désormais prêt à être exécuté via Power Automate. Vous pouvez le tester à l’aide du bouton **Tester** dans l’éditeur de flux ou suivre les étapes restantes du tutoriel pour exécuter le flux à partir de votre collection de flux.
 
 ## <a name="run-the-script-through-power-automate"></a>Exécuter le script via Power Automate
 

@@ -1,16 +1,16 @@
 ---
-title: Créer une table des matières de workbook
+title: Créer une table des matières de classeur
 description: Découvrez comment créer une table des matières avec des liens vers chaque feuille de calcul.
 ms.date: 01/20/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 658143e9e1e6a43cff19eac36abeec88310cda25
-ms.sourcegitcommit: 161229492c85f3519c899573cf5022140026e7b8
+ms.openlocfilehash: b2d69609514c2e1e87f9c0590ea10152fc7d5e7d
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62220417"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585519"
 ---
-# <a name="create-a-workbook-table-of-contents"></a>Créer une table des matières de workbook
+# <a name="create-a-workbook-table-of-contents"></a>Créer une table des matières de classeur
 
 Cet exemple montre comment créer une table des matières pour le workbook. Chaque entrée de la table des matières est un lien hypertexte vers l’une des feuilles de calcul du manuel.
 
@@ -18,7 +18,7 @@ Cet exemple montre comment créer une table des matières pour le workbook. Chaq
 
 ## <a name="sample-excel-file"></a>Exemple Excel fichier
 
-Téléchargez <a href="table-of-contents.xlsx">table-of-contents.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant et essayez l’exemple vous-même !
+<a href="table-of-contents.xlsx"> Téléchargeztable-of-contents.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant et essayez l’exemple vous-même !
 
 ## <a name="sample-code-create-a-workbook-table-of-contents"></a>Exemple de code : créer une table des matières de workbook
 

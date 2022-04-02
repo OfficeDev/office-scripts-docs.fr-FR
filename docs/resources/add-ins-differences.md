@@ -1,22 +1,22 @@
 ---
 title: Différences entre les scripts Office et les compléments Office
 description: Les différences de comportement et d’API entre Office scripts et Office des modules.
-ms.date: 01/24/2022
+ms.date: 02/04/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: f4422203911aeb1b2667856991bc7a006070ee97
-ms.sourcegitcommit: 9e7111b183c7117e05f38b1b13050b5397476d74
+ms.openlocfilehash: 018d210208bc78da894678d21e368864522cb83e
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62319162"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585606"
 ---
 # <a name="differences-between-office-scripts-and-office-add-ins"></a>Différences entre les scripts Office et les compléments Office
 
 Comprendre les différences entre Office scripts et les Office pour savoir quand les utiliser. Office scripts sont conçus pour être créés rapidement par toute personne cherchant à améliorer son flux de travail. Office s’intègrent à l’interface utilisateur Office pour une expérience plus interactive via les boutons du ruban et les volets Des tâches. Office peuvent également développer des fonctions intégrées Excel en fournissant des fonctions personnalisées.
 
-:::image type="content" source="../images/office-programmability-diagram.png" alt-text="Diagramme à quatre quadrants montrant les zones de mise au point pour Office solutions d’extensibilité. Les scripts Office et les applications web Office sont axés sur le web et la collaboration, mais les scripts Office sont pris en compte par les utilisateurs finaux (tandis que les Office web add-ins ciblent les développeurs professionnels).":::
+:::image type="content" source="../images/office-programmability-diagram.png" alt-text="Diagramme à quatre quadrants montrant les zones de mise au point pour Office solutions d’extensibilité. Les scripts Office et les applications web Office sont axés sur le web et la collaboration, mais les scripts Office sont pris en compte par les utilisateurs finaux (tandis que les Office web s’adressent aux développeurs professionnels).":::
 
-Office scripts s’exécutent jusqu’à la fin avec un bouton manuel ou une étape dans [Power Automate](https://flow.microsoft.com/), tandis que les Office se poursuivent en fonction de leur configuration. Par exemple, vous pouvez configurer un Office pour qu’il continue à s’exécute même lorsque son volet Des tâches est fermé. Cela signifie que les Office de gestion conservent l’état au cours d’une session, tandis que Office Scripts ne conservent pas d’état interne entre les séquences. Si la solution que vous construisez nécessite un état maintenu, vous devez consulter la [documentation](/office/dev/add-ins) des Office pour en savoir plus sur les Office de développement.
+Office scripts s’exécutent jusqu’à la fin avec un bouton manuel ou une étape dans [Power Automate](https://flow.microsoft.com/), tandis que les Office de scripts continuent à s’exécuter en fonction de leur configuration. Par exemple, vous pouvez configurer un Office pour qu’il continue à s’exécute même lorsque son volet Des tâches est fermé. Cela signifie que les Office de gestion conservent l’état au cours d’une session, tandis que Office Scripts ne conservent pas d’état interne entre les séquences. Si la solution que vous construisez nécessite un état de mise à jour, vous devez consulter la [documentation](/office/dev/add-ins) des Office pour en savoir plus sur les Office de développement.
 
 Le reste de cet article décrit les principales différences entre les Office et Office scripts.
 
@@ -26,7 +26,7 @@ Office sont des modules de plateforme croisée. Ils fonctionnent sur Windows de 
 
 Office scripts sont actuellement uniquement pris en charge par les Excel sur le Web. L’enregistrement, la modification et la gestion des scripts sont effectués sur la plateforme web.
 
-### <a name="script-support-for-excel-on-windows-preview"></a>Prise en charge des scripts Excel sur Windows (prévisualisation)
+### <a name="script-support-for-excel-on-windows"></a>Prise en charge des scripts Excel sur Windows
 
 [!INCLUDE [Run-from-button support](../includes/run-from-button-desktop-support.md)]
 
@@ -40,7 +40,7 @@ Office scripts ne sont pas en charge les événements au niveau du [workbook](/o
 
 ### <a name="common-apis"></a>API courantes
 
-Office scripts ne peuvent pas utiliser [les API communes](/javascript/api/office). Si vous avez besoin d’une authentification, de fenêtres de boîte de dialogue ou d’autres fonctionnalités uniquement pris en charge par les API communes, vous devrez probablement créer un module de Office au lieu d’un script Office.
+Office scripts ne peuvent pas utiliser [les API communes](/javascript/api/office). Si vous avez besoin d’une authentification, de fenêtres de boîte de dialogue ou d’autres fonctionnalités uniquement pris en charge par les API communes, vous devrez probablement créer un add-in Office au lieu d’un script Office.
 
 ## <a name="see-also"></a>Voir aussi
 
