@@ -1,14 +1,14 @@
 ---
 title: Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement
 description: Un didacticiel qui présente comment envoyer des e-mails de rappel en exécutant des scripts Office pour Excel sur le web via Power Automate.
-ms.date: 06/29/2021
+ms.date: 04/12/2022
 ms.localizationpriority: high
-ms.openlocfilehash: e100fac263dee8f1f39529bd83610576e68eb2e6
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 7d232b4688132532dd2bc029588d6244a4a64ef8
+ms.sourcegitcommit: 8bcd743bebfacafa548b936ca99ad6d4918e7bcd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64586051"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64826687"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement
 
@@ -135,10 +135,10 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
     :::image type="content" source="../images/power-automate-return-tutorial-2.png" alt-text="Le bouton Flux cloud programmé dans Power Automate.":::
 
-1. Nous devons maintenant définir le planning pour ce flux. Notre feuille de calcul a une nouvelle activité d’astreinte démarrant chaque lundi lors du premier semestre de 2021. Définissons le flux à exécuter en premier le lundi matin. Utilisez les options suivantes pour configurer le flux à exécuter chaque semaine le lundi.
+1. Nous devons maintenant définir le planning pour ce flux. Notre feuille de calcul comporte une nouvelle affectation sur appel qui commence tous les lundis du premier semestre 2022. Définissons le flux à exécuter en premier le lundi matin. Utilisez les options suivantes pour configurer le flux à exécuter chaque semaine le lundi.
 
     - **Nom de flux** : Avertir la personne d’astreinte
-    - **Début** : 04/01/21 à 01h00
+    - **Début** : 03/01/22 à 01h00
     - **Répéter tous les** : 1 semaine
     - **Durant ces journées** : M
 
