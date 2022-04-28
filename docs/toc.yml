@@ -37,6 +37,8 @@ items:
             href: develop/power-automate-integration.md
           - name: Utiliser des fichiers .xlsm dans Power Automate flux
             href: develop/macros-power-automate.md
+          - name: Utiliser un tableau croisé dynamique
+            href: develop/pivottables.md
       - name: Résolution des problèmes
         items:
           - name: Concepts de base de la résolution des problèmes

@@ -3,12 +3,12 @@ title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: e2ba7eaa956f2009c9017bbfd1f390f56eb9008e
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 633772655ca9346055d33682c36f35a5a8610cc8
+ms.sourcegitcommit: 4e3d3aa25fe4e604b806fbe72310b7a84ee72624
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585722"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65077042"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Principes de base des scripts pour Scripts Office dans Excel sur le web
 
@@ -319,11 +319,14 @@ La [Documentation de référence de l’API Office Scripts](/javascript/api/offi
 - [Classeur](/javascript/api/office-scripts/excelscript/excelscript.workbook)
 - [Feuille de calcul](/javascript/api/office-scripts/excelscript/excelscript.worksheet)
 
+Pour plus d’informations spécifiques au modèle objet de tableau croisé dynamique, consultez [Utiliser des tableaux croisés dynamiques dans les scripts Office](pivottables.md).
+
 ## <a name="see-also"></a>Voir aussi
 
 - [Enregistrer, modifier et créer des scripts Office dans Excel sur le web](../tutorials/excel-tutorial.md)
 - [Lire les données d’un classeur avec les scripts Office dans Excel sur le web](../tutorials/excel-read-tutorial.md)
 - [Référence de l'API Office Scripts](/javascript/api/office-scripts/overview)
+- [Utiliser des tableaux croisés dynamiques dans des scripts Office](pivottables.md)
 - [Utilisation d’objets JavaScript intégrés dans les scripts Office](javascript-objects.md)
 - [Meilleures pratiques en matière de scripts Office](best-practices.md)
 - [Centre de développement de scripts Office](https://developer.microsoft.com/office-scripts)
