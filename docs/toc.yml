@@ -111,6 +111,8 @@ items:
                 href: resources/scenarios/task-reminders.md
           - name: Contributions de la communauté
             items:
+              - name: Bouton Horloge perforée
+                href: resources/scenarios/punch-clock.md
               - name: Message d’accueil de saison
                 href: resources/samples/community-seasons-greetings.md
       - name: Scripts Office et autres plateformes
