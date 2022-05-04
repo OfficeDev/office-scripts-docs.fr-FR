@@ -1,2 +1,0 @@
-> [!NOTE]
-> Cette fonctionnalité est en cours de déploiement et n’est pas disponible pour tout le monde. Elle est lentement diffusée pour un plus grand nombre d’utilisateurs afin de s’assurer qu’elle fonctionne comme prévu. Cette fonctionnalité peut faire l’objet de changements en fonction de vos commentaires.
