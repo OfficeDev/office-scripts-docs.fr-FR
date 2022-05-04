@@ -4,12 +4,12 @@ description: Une brève introduction sur l’enregistreur d’actions et l’éd
 ms.topic: overview
 ms.date: 02/25/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 6e2370d71d7452490243ab492705b8bf037b7115
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 3c5423344bb1d0f619ea1933a2681dc7e5fd8ba1
+ms.sourcegitcommit: f1550e457c220a2d1498907e925768aba0c36dc3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585652"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187230"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
 
@@ -70,7 +70,7 @@ Nos [didacticiels](../tutorials/excel-tutorial.md) proposent un apprentissage gu
 
 Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un classeur Excel. Lorsque vous partagez un script dans un classeur partagé, tous les personnes ayant accès au groupe peuvent également afficher et exécuter votre script. Pour plus d’informations sur le partage et le partage de scripts, voir [Sharing Office Scripts in Excel for the Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b).
 
-:::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du scénario montrant l'option « Partager avec d'autres dans ce cahier de travail ».":::
+:::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du script affichant l'option « Partager avec d'autres dans ce cahier de travail ».":::
 
 Ajoutez des boutons qui exécutent des scripts pour aider vos collègues à découvrir vos solutions précieuses. En savoir plus sur les boutons de script dans [Exécuter Scripts avec des boutons](../develop/script-buttons.md).
 
