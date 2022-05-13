@@ -3,12 +3,12 @@ title: Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 description: Didacticiel sur les notions de base des scripts Office, comprenant l’enregistrement de scripts avec l’enregistreur d’actions et l’écriture de données dans un classeur.
 ms.date: 05/23/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 15f55eff0d042f862d6607099882ad123369e676
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 30caa66787bce9c4341069461ea54ef3c63d9601
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585820"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393627"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Enregistrer, modifier, créer des scripts Office dans Excel pour le web
 
@@ -61,7 +61,7 @@ Le script précédent a coloré la ligne « Oranges » en orange. Nous allons aj
 
     Ce code extrait la feuille de calcul actuelle du classeur. Il définit ensuite la couleur de remplissage de la plage **A2:C2**.
 
-    Les plages jouent un rôle fondamental dans les scripts Office d’Excel pour le web. Une plage est un bloc de cellules contiguës de forme rectangulaire qui contient des valeurs, des formules ou des formats. Les plages constituent la structure de base faite de cellules par laquelle vous effectuerez des tâches de script.
+    Les plages sont un élément fondamental des scripts Office dans Excel. Une plage est un bloc de cellules contiguës de forme rectangulaire qui contient des valeurs, des formules ou des formats. Les plages constituent la structure de base faite de cellules par laquelle vous effectuerez des tâches de script.
 
 3. Ajoutez la ligne suivante à la fin du script (entre l’emplacement où le `color` se trouve et le `}` de clôture) :
 

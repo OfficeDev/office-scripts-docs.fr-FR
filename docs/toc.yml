@@ -1,7 +1,7 @@
 items:
   - name: Documentation sur Office Scripts
     href: index.md
-  - name: Office Scripts dans Excel sur le web
+  - name: Scripts Office dans Excel
     items:
       - name: Vue d’ensemble
         href: overview/excel.md

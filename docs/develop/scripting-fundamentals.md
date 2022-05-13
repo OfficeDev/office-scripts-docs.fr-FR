@@ -3,16 +3,16 @@ title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 633772655ca9346055d33682c36f35a5a8610cc8
-ms.sourcegitcommit: 4e3d3aa25fe4e604b806fbe72310b7a84ee72624
+ms.openlocfilehash: bd51f814de60da8006413096f4d6aad125f78fab
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65077042"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393599"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Principes de base des scripts pour Scripts Office dans Excel sur le web
 
-Cet article vous présente les aspects techniques de Office Scripts. Vous découvrirez comment les objets Excel fonctionnent ensemble et comment l’éditeur de code se synchronise avec un classeur.
+Cet article vous présente les aspects techniques de Office Scripts. Vous allez découvrir les parties essentielles du code script basé sur TypeScript et la manière dont les objets et les API d'Excel fonctionnent ensemble.
 
 ## <a name="typescript-the-language-of-office-scripts"></a>TypeScript : langue des scripts Office
 
@@ -194,7 +194,7 @@ L’exécution de ce script sur la feuille de calcul avec le tableau précédent
 
 Lorsqu’un objet Excel possède une collection d’un ou plusieurs objets du même type, il les stocke dans un tableau. Par exemple, un objet `Workbook` contient un `Worksheet[]`. Ce tableau est accessible à la méthode `Workbook.getWorksheets()`. Les méthodes `get` au pluriel, telles que `Worksheet.getCharts()`, renvoient l'ensemble de la collection d'objets sous forme de tableau. Vous pouvez voir ce modèle dans toutes les API Scripts Office : l’objet `Worksheet` possède une méthode `getTables()` qui renvoie un `Table[]`, l’objet `Table` possède une méthode `getColumns()` qui renvoie une `TableColumn[]`, ainsi de suite.
 
-Le tableau retourné est un tableau normal, donc toutes les opérations normales sur les tableaux sont disponibles pour votre script. Vous pouvez également accéder aux objets individuels dans la collection à l’aide de la valeur d’index de tableau. Par exemple, `workbook.getTables()[0]` renvoie la première table de la collection. Pour plus d’informations sur l’utilisation de la fonctionnalité de tableau intégrée avec l’infrastructure Scripts Office, consultez [Utilisation des collections](javascript-objects.md#work-with-collections). 
+Le tableau retourné est un tableau normal, donc toutes les opérations normales sur les tableaux sont disponibles pour votre script. Vous pouvez également accéder aux objets individuels dans la collection à l’aide de la valeur d’index de tableau. Par exemple, `workbook.getTables()[0]` renvoie la première table de la collection. Pour plus d’informations sur l’utilisation de la fonctionnalité de tableau intégrée avec l’infrastructure Scripts Office, consultez [Utilisation des collections](javascript-objects.md#work-with-collections).
 
 Les objets individuels sont également accessibles à partir de la collection par le biais d'une méthode `get`. Les méthodes `get` qui sont singulières, comme `Worksheet.getTable(name)`, renvoient un seul objet et nécessitent un ID ou un nom pour l'objet spécifique. Cet ID ou nom est généralement indiqué par le script ou l’interface utilisateur d’Excel.
 

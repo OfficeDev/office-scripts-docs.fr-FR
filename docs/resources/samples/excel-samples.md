@@ -1,31 +1,32 @@
 ---
-title: Scripts de base pour Office scripts dans Excel sur le Web
-description: Collection d’exemples de code à utiliser avec Office scripts dans Excel sur le Web.
+title: Scripts de base pour les scripts Office dans Excel
+description: Collection d’exemples de code à utiliser avec Office Scripts dans Excel.
 ms.date: 03/24/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 853b00349b246e74765eb2959b4926fad42f07c5
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 8e28026b7a3498d477cce8b6dc5940da33a30f53
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585869"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393655"
 ---
-# <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Scripts de base pour Office scripts dans Excel sur le Web
+# <a name="basic-scripts-for-office-scripts-in-excel"></a>Scripts de base pour les scripts Office dans Excel
 
-Les exemples suivants sont des scripts simples que vous pouvez essayer sur vos propres workbooks. Pour les utiliser dans les Excel sur le Web :
+Les exemples suivants sont des scripts simples que vous pouvez essayer sur vos propres classeurs. Pour les utiliser dans Excel :
 
+1. Ouvrez un classeur dans Excel sur le Web.
 1. Ouvrez l’onglet **Automatiser**.
 1. Sélectionnez **Nouveau script**.
 1. Remplacez l’intégralité du script par l’exemple de votre choix.
-1. **Sélectionnez Exécuter** dans le volet Des tâches de l’Éditeur de code.
+1. Sélectionnez **Exécuter** dans le volet Office de l’éditeur de code.
 
-## <a name="script-basics"></a>Principes de base des scripts
+## <a name="script-basics"></a>Concepts de base du script
 
-Ces exemples montrent les blocs de construction fondamentaux pour Office scripts. Développez ces scripts pour étendre votre solution et résoudre les problèmes courants.
+Ces exemples illustrent les blocs de construction fondamentaux des scripts Office. Développez ces scripts pour étendre votre solution et résoudre les problèmes courants.
 
-### <a name="read-and-log-one-cell"></a>Lire et enregistrer une cellule
+### <a name="read-and-log-one-cell"></a>Lire et journaliser une cellule
 
-Cet exemple lit la valeur de **A1** et l’imprime sur la console.
+Cet exemple lit la valeur de **A1** et l’imprime dans la console.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -42,7 +43,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="read-the-active-cell"></a>Lire la cellule active
 
-Ce script enregistre la valeur de la cellule active active. Si plusieurs cellules sont sélectionnées, la cellule située le plus à gauche est enregistrée.
+Ce script enregistre la valeur de la cellule active actuelle. Si plusieurs cellules sont sélectionnées, la cellule la plus à gauche est journalisée.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -56,7 +57,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-an-adjacent-cell"></a>Modifier une cellule adjacente
 
-Ce script obtient des cellules adjacentes à l’aide de références relatives. Notez que si la cellule active se trouve sur la ligne supérieure, une partie du script échoue, car elle fait référence à la cellule au-dessus de la cellule actuellement sélectionnée.
+Ce script obtient les cellules adjacentes à l’aide de références relatives. Notez que si la cellule active se trouve sur la ligne supérieure, une partie du script échoue, car elle fait référence à la cellule située au-dessus de la cellule actuellement sélectionnée.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -83,7 +84,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-all-adjacent-cells"></a>Modifier toutes les cellules adjacentes
 
-Ce script copie la mise en forme de la cellule active vers les cellules voisines. Notez que ce script fonctionne uniquement lorsque la cellule active n’est pas sur un bord de la feuille de calcul.
+Ce script copie la mise en forme de la cellule active dans les cellules voisines. Notez que ce script fonctionne uniquement lorsque la cellule active n’est pas sur un bord de la feuille de calcul.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -106,7 +107,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-each-individual-cell-in-a-range"></a>Modifier chaque cellule individuelle d’une plage
 
-Ce script s’écrit en boucle sur la plage actuellement sélectionnée. Elle permet d’effacer la mise en forme actuelle et de mettre en couleur aléatoire la couleur de remplissage de chaque cellule.
+Ce script effectue une boucle sur la plage actuellement sélectionnée. Il efface la mise en forme actuelle et définit la couleur de remplissage de chaque cellule sur une couleur aléatoire.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -135,7 +136,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="get-groups-of-cells-based-on-special-criteria"></a>Obtenir des groupes de cellules en fonction de critères spéciaux
 
-Ce script obtient toutes les cellules vides de la plage utilisée de la feuille de calcul actuelle. Il met ensuite en évidence toutes ces cellules avec un arrière-plan jaune.
+Ce script obtient toutes les cellules vides de la plage utilisée de la feuille de calcul actuelle. Il met ensuite en surbrillance toutes ces cellules avec un arrière-plan jaune.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -152,11 +153,11 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="collections"></a>Collections
 
-Ces exemples fonctionnent avec des collections d’objets dans le workbook.
+Ces exemples fonctionnent avec des collections d’objets dans le classeur.
 
-### <a name="iterate-over-collections"></a>Itérer sur les collections
+### <a name="iterate-over-collections"></a>Itérer sur des collections
 
-Ce script obtient et enregistre les noms de toutes les feuilles de calcul du manuel. Il définit également les couleurs de leur onglet sur une couleur aléatoire.
+Ce script obtient et journalise les noms de toutes les feuilles de calcul du classeur. Il définit également les couleurs de leur onglet sur une couleur aléatoire.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -183,7 +184,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="query-and-delete-from-a-collection"></a>Interroger et supprimer d’une collection
 
-Ce script crée une feuille de calcul. Il recherche une copie existante de la feuille de calcul et la supprime avant d’en faire une nouvelle.
+Ce script crée une feuille de calcul. Il recherche une copie existante de la feuille de calcul et la supprime avant de créer une nouvelle feuille.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -212,7 +213,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="dates"></a>Dates
 
-Les exemples de cette section montrent comment utiliser l’objet [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) JavaScript.
+Les exemples de cette section montrent comment utiliser [l’objet Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) JavaScript.
 
 L’exemple suivant obtient la date et l’heure actuelles, puis écrit ces valeurs dans deux cellules de la feuille de calcul active.
 
@@ -233,7 +234,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-L’exemple suivant lit une date stockée dans Excel et la traduit en objet Date JavaScript. Il utilise le numéro de série numérique de la date comme entrée pour la date JavaScript. Ce numéro de série est décrit dans l’article [de la fonction NOW(](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) ).
+L’exemple suivant lit une date stockée dans Excel et la traduit en objet Date JavaScript. Il utilise le numéro de série numérique de la date comme entrée pour la date JavaScript. Ce numéro de série est décrit dans l’article de [la fonction NOW().](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46)
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -249,11 +250,11 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="display-data"></a>Afficher les données
 
-Ces exemples montrent comment travailler avec des données de feuille de calcul et fournir aux utilisateurs une meilleure vue ou une meilleure organisation.
+Ces exemples montrent comment utiliser des données de feuille de calcul et fournir aux utilisateurs une meilleure vue ou une meilleure organisation.
 
 ### <a name="apply-conditional-formatting"></a>Application d’une mise en forme conditionnelle
 
-Cet exemple applique une mise en forme conditionnelle à la plage actuellement utilisée dans la feuille de calcul. La mise en forme conditionnelle est un remplissage vert pour les 10 % de valeurs les plus importantes.
+Cet exemple applique la mise en forme conditionnelle à la plage actuellement utilisée dans la feuille de calcul. La mise en forme conditionnelle est un remplissage vert pour les 10 % de valeurs les plus élevées.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -273,9 +274,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="create-a-sorted-table"></a>Créer un tableau trié
+### <a name="create-a-sorted-table"></a>Créer une table triée
 
-Cet exemple crée un tableau à partir de la plage utilisée de la feuille de calcul actuelle, puis le trie en fonction de la première colonne.
+Cet exemple crée une table à partir de la plage utilisée de la feuille de calcul actuelle, puis le trie en fonction de la première colonne.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -291,11 +292,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="log-the-grand-total-values-from-a-pivottable"></a>Enregistrer les valeurs « Total total » à partir d’un tableau croisé dynamique
+### <a name="log-the-grand-total-values-from-a-pivottable"></a>Journaliser les valeurs « Total général » à partir d’un tableau croisé dynamique
 
-Cet exemple recherche le premier tableau croisé dynamique dans le manuel et enregistre les valeurs dans les cellules « Grand Total » (comme indiqué en vert dans l’image ci-dessous).
+Cet exemple recherche le premier tableau croisé dynamique dans le classeur et consigne les valeurs dans les cellules « Total général » (comme indiqué en vert dans l’image ci-dessous).
 
-:::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Tableau croisé dynamique affichant les ventes de fruit avec la ligne Grand Total mise en surbrillante en vert.":::
+:::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Tableau croisé dynamique affichant les ventes de fruits avec la ligne Grand Total mise en surbrillance en vert.":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -319,11 +320,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="create-a-drop-down-list-using-data-validation"></a>Créer une liste de listes listes à l’aide de la validation des données
+### <a name="create-a-drop-down-list-using-data-validation"></a>Créer une liste déroulante à l’aide de la validation des données
 
-Ce script crée une liste de sélection pour une cellule. Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.
+Ce script crée une liste déroulante de sélection pour une cellule. Il utilise les valeurs existantes de la plage sélectionnée comme choix pour la liste.
 
-:::image type="content" source="../../images/sample-data-validation.png" alt-text="Feuille de calcul montrant une plage de trois cellules contenant des choix de couleur « rouge, bleu, vert » et en de côté, les mêmes choix affichés dans une liste liste.":::
+:::image type="content" source="../../images/sample-data-validation.png" alt-text="Feuille de calcul montrant une plage de trois cellules contenant des choix de couleurs « rouge, bleu, vert » et en regard de celle-ci, les mêmes choix que ceux indiqués dans une liste déroulante.":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -362,7 +363,7 @@ Ces exemples utilisent Excel formules et montrent comment les utiliser dans des 
 
 ### <a name="single-formula"></a>Formule unique
 
-Ce script définit la formule d’une cellule, puis montre comment Excel la formule et la valeur de la cellule séparément.
+Ce script définit la formule d’une cellule, puis affiche la façon dont Excel stocke séparément la formule et la valeur de la cellule.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -381,9 +382,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="handle-a-spill-error-returned-from-a-formula"></a>Gérer une erreur `#SPILL!` renvoyée par une formule
+### <a name="handle-a-spill-error-returned-from-a-formula"></a>Gérer une `#SPILL!` erreur retournée à partir d’une formule
 
-Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose entraîne une `#SPILL` erreur, elle permet d’effacer la plage cible et d’appliquer à nouveau la formule.
+Ce script transpose la plage « A1:D2 » en « A4:B7 » à l’aide de la fonction TRANSPOSE. Si la transpose génère une `#SPILL` erreur, elle efface la plage cible et applique à nouveau la formule.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -417,10 +418,10 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="suggest-new-samples"></a>Suggérer de nouveaux exemples
 
-Nous vous souhaitons la bienvenue pour les nouveaux exemples. S’il existe un scénario courant qui pourrait aider d’autres développeurs de scripts, n’hésitez pas à nous en faire part dans la section commentaires en bas de la page.
+Nous vous invitons à vous proposer de nouveaux exemples. S’il existe un scénario courant qui aiderait d’autres développeurs de scripts, veuillez nous le dire dans la section commentaires en bas de la page.
 
 ## <a name="see-also"></a>Voir aussi
 
-* [« Principes de base de la plage » de Sudhi Journal sur YouTube](https://youtu.be/4emjkOFdLBA)
-* [Office scénarios et exemples de scripts](samples-overview.md)
+* [« Range basics » de Sudhi Ramamurthy sur YouTube](https://youtu.be/4emjkOFdLBA)
+* [exemples et scénarios de scripts Office](samples-overview.md)
 * [Enregistrer, modifier et créer des scripts Office dans Excel sur le web](../../tutorials/excel-tutorial.md)
