@@ -3,12 +3,12 @@ title: Lire les données d’un classeur avec les scripts Office d’Excel pour 
 description: Didacticiel des scripts Office sur la lecture de données à partir de classeurs et l’évaluation de ces données dans le script.
 ms.date: 01/06/2021
 ms.localizationpriority: high
-ms.openlocfilehash: c1bc867b6df91a7dedde4020177ed87682d060f9
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: d4378e1b4c851a1a2cf072b0eabb3d3d765bc234
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64586037"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393641"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 
@@ -147,6 +147,6 @@ Maintenant que nous avons vu comment lire et écrire dans une seule cellule, con
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Ouvrez l’éditeur de code et testez quelques-uns de nos [Exemples de scripts pour Scripts Office dans Excel pour le web](../resources/samples/excel-samples.md). Vous pouvez également consulter [Principes de base des scripts Office dans Excel pour le web](../develop/scripting-fundamentals.md) pour en savoir plus sur la création de scripts Office.
+[Ouvrez l’éditeur de code et essayez quelques-uns de nos exemples de scripts pour Scripts Office dans Excel](../resources/samples/excel-samples.md). Vous pouvez également consulter [Principes de base des scripts Office dans Excel pour le web](../develop/scripting-fundamentals.md) pour en savoir plus sur la création de scripts Office.
 
 La prochaine série de didacticiels sur les Scripts Office se concentrent sur l’utilisation de Scripts Office avec Power Automate. Si vous souhaitez en savoir plus sur les avantages de la combinaison des deux plateformes, veuillez consulter [Exécuter des Scripts Office avec Power Automate](../develop/power-automate-integration.md). Vous pouvez également essayer le didacticiel [Appeler des scripts à partir d’un flux manuel Power Automate](excel-power-automate-manual.md) pour créer un flux Power Automate utilisant un script Office.

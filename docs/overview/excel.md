@@ -1,19 +1,19 @@
 ---
-title: Office Scripts dans Excel sur le web
+title: Scripts Office dans Excel
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
 ms.topic: overview
 ms.date: 02/25/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 3c5423344bb1d0f619ea1933a2681dc7e5fd8ba1
-ms.sourcegitcommit: f1550e457c220a2d1498907e925768aba0c36dc3
+ms.openlocfilehash: a85e8dad8d6e99ee3b4c5558cd2c1b8417956fb3
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187230"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393634"
 ---
-# <a name="office-scripts-in-excel-on-the-web"></a>Office Scripts dans Excel sur le web
+# <a name="office-scripts-in-excel"></a>Scripts Office dans Excel
 
-Office Scripts dans Excel sur le web vous permet d’automatiser vos tâches quotidiennes. Vous pouvez enregistrer les actions Excel avec l’enregistreur d’actions, ce qui crée un script linguistique TypeScript. Vous pouvez également créer et modifier des scripts avec l’éditeur de code. Vos scripts peuvent ensuite être partagés au sein de votre organisation afin que vos collègues puissent également automatiser leurs flux de travail.
+Office Scripts dans Excel sur le web vous permet d’automatiser vos tâches quotidiennes. Dans Excel sur le Web, vous pouvez enregistrer vos actions avec l’enregistreur d’actions. Cela crée un script de langage TypeScript qui peut être réexécuté à tout moment. Vous pouvez également créer et modifier des scripts avec l’éditeur de code. Vos scripts peuvent ensuite être partagés au sein de votre organisation afin que vos collègues puissent également automatiser leurs flux de travail.
 
 Cette série de documents vous explique comment utiliser ces outils. Vous allez découvrir comment enregistrer vos actions Excel fréquentes avec l’enregistreur d’actions. Vous découvrirez également comment créer ou mettre à jour vos propres scripts à l’aide de l’éditeur de code.
 
@@ -25,7 +25,7 @@ Cette série de documents vous explique comment utiliser ces outils. Vous allez 
 
 Pour utiliser les scripts Office, vous devez disposer des éléments suivants.
 
-1. [Excel sur le web](https://www.office.com/launch/excel) (les autres plateformes, telles que le bureau, ne sont pas prises en charge).
+1. [Excel sur le Web](https://www.office.com/launch/excel) (Excel pour Windows ne pouvez utiliser que des scripts Office avec des [boutons de script](../develop/script-buttons.md)).
 1. OneDrive Entreprise.
 1. Toute licence Microsoft 365 commerciale ou éducative donnant accès aux applications de bureau Microsoft 365, telles que :
 
@@ -72,7 +72,7 @@ Les scénarios Office peuvent être partagés avec d'autres utilisateurs d'un cl
 
 :::image type="content" source="../images/script-sharing.png" alt-text="La page des détails du script affichant l'option « Partager avec d'autres dans ce cahier de travail ».":::
 
-Ajoutez des boutons qui exécutent des scripts pour aider vos collègues à découvrir vos solutions précieuses. En savoir plus sur les boutons de script dans [Exécuter Scripts avec des boutons](../develop/script-buttons.md).
+Ajoutez des boutons qui exécutent des scripts pour aider vos collègues à découvrir vos solutions précieuses et à les laisser exécuter des scripts dans Excel sur le Bureau. En savoir plus sur les boutons de script dans [Exécuter Scripts avec des boutons](../develop/script-buttons.md).
 
 :::image type="content" source="../images/add-button.png" alt-text="Un bouton de la feuille de calcul qui exécute un script lorsque l’utilisateur clique dessus.":::
 
@@ -81,7 +81,7 @@ Ajoutez des boutons qui exécutent des scripts pour aider vos collègues à déc
 
 ## <a name="connect-office-scripts-to-power-automate"></a>Connecter les scripts Office à Power Automate
 
-[Automatisation de la puissance](https://flow.microsoft.com/) est un service qui vous aide à créer des flux de travail automatisés entre plusieurs applications et services. Les Office Scripts peuvent être utilisés dans ces flux de travail, ce qui vous permet de contrôler vos scénarios en dehors du cahier de travail. Vous pouvez exécuter vos scénarios selon un calendrier, les déclencher en réponse à des courriels, et bien plus encore. Visitez le [Exécutez des scénarios Office en Excel sur le web avec Power Automate](../tutorials/excel-power-automate-manual.md) pour apprendre les bases de la connexion de ces services d'automatisation.
+[Automatisation de la puissance](https://flow.microsoft.com/) est un service qui vous aide à créer des flux de travail automatisés entre plusieurs applications et services. Les Office Scripts peuvent être utilisés dans ces flux de travail, ce qui vous permet de contrôler vos scénarios en dehors du cahier de travail. Vous pouvez exécuter vos scénarios selon un calendrier, les déclencher en réponse à des courriels, et bien plus encore. Consultez le didacticiel [Exécuter des scripts Office avec Power Automate](../tutorials/excel-power-automate-manual.md) pour découvrir les bases de la connexion de ces services Automation.
 
 ## <a name="next-steps"></a>Étapes suivantes
 

@@ -2,19 +2,19 @@
 layout: LandingPage
 ms.topic: landing-page
 title: Documentation sur Office Scripts
-description: Des ressources pour découvrir Office Scripts dans Excel sur le web, avec notamment des tutoriels, des articles conceptuels et des exemples de code.
+description: Ressources pour l’apprentissage, Scripts Office dans Excel, incluant notamment des tutoriels, des articles conceptuels et des exemples de code.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 2f9a380408a2df793886093c10b685f918483489
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: b98c746ec89b61f05c3a6ded04100c0a1efc20bc
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585666"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393690"
 ---
 # <a name="office-scripts-documentation"></a>Documentation sur Office Scripts
 
-Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches communes. Explorez les articles suivants pour découvrir comment créer et modifier des scripts Office et automatisez vos tâches dès aujourd’hui.
+Utilisez les Scripts Office dans Excel pour automatiser vos tâches communes. Explorez les articles suivants pour découvrir comment créer et modifier des scripts Office et automatisez vos tâches dès aujourd’hui.
 
 <ul class="panelContent cardsF cols cols3 rows2">
     <li>
@@ -73,7 +73,7 @@ Utilisez les scripts Office dans Excel sur le web pour automatiser vos tâches c
 ---
 
 <h2>Autres ressources</h2>
-<p>Utilisez les ressources suivantes si vous souhaitez en savoir plus sur les API utilisées par les scripts Office pour interagir avec les classeurs dans Excel sur le web, poser des questions ou demander des fonctionnalités pour les scripts Office dans Excel sur le web.</p>
+<p>Utilisez les ressources suivantes pour en savoir plus sur les API utilisées par les Scripts Office, poser des questions sur les Scripts Office ou demander des fonctionnalités pour les Scripts Office.</p>
 <ul class="panelContent cardsF cols cols3 rows2">
     <li>
         <div class="cardSize">
