@@ -1,14 +1,14 @@
 ---
 title: Transmettre des données à des scripts dans un flux automatique Power Automate
 description: Un tutoriel sur l'exécution de scripts Office pour Excel sur le web via Power automate lorsque les messages sont reçus et transmettent les données de flux au script.
-ms.date: 06/29/2021
+ms.date: 06/10/2022
 ms.localizationpriority: high
-ms.openlocfilehash: ae57bb52b07df0822f1fac8c931c90de8614a770
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 73a551df09eadba1f6e75de35e17e1c5a93498e9
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64586058"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088132"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow"></a>Transmettre des données à des scripts dans un flux automatique Power Automate
 
@@ -210,6 +210,18 @@ Lorsque le flux est déclenché et exécute votre script correctement, la table 
 :::image type="content" source="../images/power-automate-params-tutorial-4.png" alt-text="Feuille de calcul affichant la table d’e-mail après l’exécution du flux à trois reprises.":::
 
 :::image type="content" source="../images/power-automate-params-tutorial-5.png" alt-text="Feuille de calcul affichant le tableau croisé dynamique après l’exécution du flux à trois reprises.":::
+
+## <a name="troubleshooting"></a>Résolution des problèmes
+
+La réception simultanée de plusieurs courriers peut entraîner des conflits de fusion dans Excel. Ce risque est atténué en définissant le connecteur de messagerie électronique pour qu’il agisse uniquement sur un seul courrier à la fois. Pour cela :
+
+1. Sélectionnez le bouton **Menu (...)** dans le connecteur de messagerie électronique, puis **Paramètres**.
+
+    :::image type="content" source="../images/outlook-connector-settings-1.png" alt-text="Option des paramètres mise en surbrillance dans le menu du connecteur.":::
+
+1. Dans les options de **Paramètres** qui s’affichent, définissez le **Contrôle de simultanéité** sur **Activé**. Ensuite, définissez le **Degré de parallélisme** sur **1**.
+
+    :::image type="content" source="../images/outlook-connector-settings-2.png" alt-text="Options de simultanéité dans le menu Paramètres.":::
 
 ## <a name="next-steps"></a>Étapes suivantes
 
