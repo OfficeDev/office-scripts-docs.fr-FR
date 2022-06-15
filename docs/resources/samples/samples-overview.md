@@ -1,14 +1,14 @@
 ---
 title: exemples de scripts Office
 description: Exemples et scénarios de scripts Office disponibles.
-ms.date: 04/26/2022
+ms.date: 06/14/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 7c9bbe9b6f7eb8abad2995dac72ccf636d585d69
-ms.sourcegitcommit: e6428a5214fa38aef036a952a0e3c09dbf6e4d3e
+ms.openlocfilehash: 059a21711f36273207f1e65ba844ba23c502ffe0
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2022
-ms.locfileid: "65109155"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088049"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>exemples et scénarios de scripts Office
 
@@ -18,11 +18,14 @@ Pour chacun des projets de [base](#basics) et [au-delà des principes de base](#
 
 Dans [Scénarios](#scenarios), nous avons inclus quelques exemples de scénarios plus volumineux qui illustrent des cas d’usage réels.
 
-Nous accueillons également les [contributions de la communauté](#community-contributions-and-fun-samples).
+Nous accueillons également les [contributions de la communauté](#community-contributions-and-fun-samples). Ces exemples sont open source.
+
+> [!IMPORTANT]
+> Veillez à respecter les prérequis pour Office scripts avant d’essayer les exemples. Les conditions requises pour votre abonnement et votre compte Microsoft 365 se trouvent dans la [section « Exigences » Office Scripts pour Excel vue d’ensemble](../../overview/excel.md#requirements).
 
 ## <a name="basics"></a>Informations de base
 
-| Projet | Détails |
+| Project | Détails |
 |---------|---------|
 | [Informations de base](../excel-samples.md) | Ces exemples illustrent les blocs de construction fondamentaux des scripts Office. |
 | [Ajouter des commentaires dans Excel](add-excel-comments.md) | Cet exemple ajoute des commentaires à une cellule, y compris @mentioning un collègue. |
@@ -34,7 +37,7 @@ Nous accueillons également les [contributions de la communauté](#community-con
 
 Consultez le projet de bout en bout suivant qui automatise les exemples de scénarios, ainsi que des scripts complets, des exemples de fichiers Excel utilisés et [des vidéos (hébergées sur YouTube).](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0)
 
-| Projet | Détails |
+| Project | Détails |
 |---------|---------|
 | [Combiner des feuilles de calcul dans un seul classeur](combine-worksheets-into-single-workbook.md) | Cet exemple utilise Office Scripts et Power Automate pour extraire des données d’autres classeurs dans un classeur unique. |
 | [Convertir des fichiers CSV en classeurs Excel](convert-csv.md) | Cet exemple utilise des scripts et des Power Automate Office pour créer des fichiers .xlsx à partir de fichiers .csv. |
@@ -66,15 +69,11 @@ Office scripts peuvent automatiser certaines parties de votre routine quotidienn
 
 Nous accueillons les [contributions](https://github.com/OfficeDev/office-scripts-docs/blob/master/Contributing.md) de notre communauté Office Scripts! N’hésitez pas à créer une demande de tirage pour révision.
 
-| Projet | Détails |
+| Project | Détails |
 |---------|---------|
 | [Jeu de la vie](https://techcommunity.microsoft.com/t5/excel-blog/ready-player-zero/ba-p/2246208) | Le blog « Ready Player Zero » de Yutao Huang sur le Excel Tech Community inclut un script pour modéliser [*Le jeu de la vie de*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) John Conway. |
-| [Bouton d’horloge perforé](../scenarios/punch-clock.md) | Ce script a été fourni par [Brian Gonzalez](https://github.com/b-gonzalez). Le scénario comprend un script et un bouton de script qui enregistre l’heure actuelle. |
+| [Bouton Horloge perforée](../scenarios/punch-clock.md) | Ce script a été fourni par [Brian Gonzalez](https://github.com/b-gonzalez). Le scénario comprend un script et un bouton de script qui enregistre l’heure actuelle. |
 | [Animation seasons greetings](community-seasons-greetings.md) | Ce script a été contribué par [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) dans l’esprit de la saison des fêtes! Il s’agit d’un script amusant qui montre un arbre de Noël chantant dans Excel sur le Web à l’aide de scripts Office. |
-
-## <a name="try-it-out"></a>Try it out
-
-Ces exemples sont open source. Essayez-les vous-même. Vous aurez besoin d’un compte professionnel ou scolaire Microsoft à partir du travail ou de l’école avec une licence pour Microsoft 365 abonnement (E3 ou version ultérieure). Il vous suffit de https://office.com vous connecter à votre compte et de commencer.
 
 ## <a name="leave-a-comment"></a>Laisser un commentaire
 

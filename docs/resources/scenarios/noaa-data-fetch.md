@@ -1,32 +1,34 @@
 ---
-title: 'Office exemple de scripts : Graph données de niveau d’eau à partir de la NOAA'
+title: 'exemple de scénario Office Scripts : Graph données de niveau de l’eau à partir de la NOAA'
 description: Exemple qui extrait des données JSON d’une base de données NOAA et les utilise pour créer un graphique.
 ms.date: 03/08/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 80c9c812662b18d76bd620c512d220a68c65855f
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: b4181edae7d8a46ae381ddfb1a2893b03faffd9b
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585435"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088098"
 ---
-# <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Office exemple de scripts : extraire et graphiquer des données au niveau de l’eau à partir de la NOAA
+# <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Office scénario d’exemple de scripts : extraire et grapher des données au niveau de l’eau à partir de la NOAA
 
-Dans ce scénario, vous devez tracer le niveau d’eau au niveau de la station [Seattle de l’Administration nationale de l’état de Seattle](https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130). Vous utiliserez des données externes pour remplir une feuille de calcul et créer un graphique.
+Dans ce scénario, vous devez tracer le niveau de l’eau à la [station de Seattle de l’Administration nationale océanique et atmosphérique](https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130). Vous allez utiliser des données externes pour remplir une feuille de calcul et créer un graphique.
 
-Vous allez développer un script qui utilise la `fetch` commande pour interroger la base de données [NOAA Des descendants et des courants](https://tidesandcurrents.noaa.gov/). Cela permettra d’enregistrer le niveau d’eau sur une période donnée. Les informations seront renvoyées en tant que JSON, de sorte qu’une partie du script les traduirea en valeurs de plage. Une fois que les données se trouve dans la feuille de calcul, elles sont utilisées pour créer un graphique.
+Vous allez développer un script qui utilise la `fetch` commande pour interroger la [base de données NOAA Tides et Currents](https://tidesandcurrents.noaa.gov/). Le niveau d’eau sera alors enregistré sur un intervalle de temps donné. Les informations sont retournées en [tant que JSON](https://www.w3schools.com/whatis/whatis_json.asp). Ainsi, une partie du script les traduit en valeurs de plage. Une fois les données dans la feuille de calcul, elles sont utilisées pour créer un graphique.
 
-## <a name="scripting-skills-covered"></a>Compétences d’écriture de scripts couvertes
+Pour plus d’informations sur l’utilisation de JSON, consultez [Utiliser JSON pour transmettre des données vers et depuis Office Scripts](../../develop/use-json.md).
+
+## <a name="scripting-skills-covered"></a>Compétences de script couvertes
 
 - Appels d’API externes (`fetch`)
-- L’insération JSON
+- Analyse JSON
 - Graphiques
 
 ## <a name="setup-instructions"></a>Instructions d’installation
 
-1. Ouvrez le Excel sur le Web.
+1. Ouvrez le classeur avec Excel sur le Web.
 
-1. Sous **l’onglet Automatiser** , sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
+1. Sous l’onglet **Automatiser** , sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     /**
@@ -109,12 +111,12 @@ Vous allez développer un script qui utilise la `fetch` commande pour interroger
     }
     ```
 
-1. Renommez le script en **NOAA Water Level Chart** et enregistrez-le.
+1. Renommez le script en **graphique de niveau d’eau NOAA** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Sur n’importe quelle feuille de calcul, exécutez le script **NOAA Water Level Chart** . Le script récupère les données de niveau d’eau du 25 décembre 2020 au 27 décembre 2020. Les `const` variables au début du script peuvent être modifiées pour utiliser des dates différentes ou obtenir des informations de station différentes. [L’API CO-OPS pour](https://api.tidesandcurrents.noaa.gov/api/prod/) la récupération des données décrit comment obtenir toutes ces données.
+Dans n’importe quelle feuille de calcul, exécutez le script **de graphique au niveau de l’eau NOAA** . Le script extrait les données de niveau d’eau du 25 décembre 2020 au 27 décembre 2020. Les `const` variables au début du script peuvent être modifiées pour utiliser différentes dates ou obtenir des informations de station différentes. [L’API CO-OPS pour la récupération des données](https://api.tidesandcurrents.noaa.gov/api/prod/) décrit comment obtenir toutes ces données.
 
-### <a name="after-running-the-script"></a>Après l’exécution du script
+### <a name="after-running-the-script"></a>Après avoir exécuté le script
 
 :::image type="content" source="../../images/scenario-noaa-water-level-after.png" alt-text="La feuille de calcul après l’exécution du script affiche des données de niveau d’eau et un graphique.":::

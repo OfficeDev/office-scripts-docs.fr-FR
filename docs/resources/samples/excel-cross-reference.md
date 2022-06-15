@@ -3,16 +3,18 @@ title: Fichiers Excel de référence croisée avec Power Automate
 description: Découvrez comment utiliser Office Scripts et Power Automate pour référencer et mettre en forme un fichier Excel.
 ms.date: 06/06/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 02c06b6376d3726b3e1b44255df14aa64be196ea
-ms.sourcegitcommit: f5fc9146d5c096e3a580a3fa8f9714147c548df4
+ms.openlocfilehash: a470ee4c59d0fc0a5612a54326a0dec3ab3a59d6
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "66038671"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088119"
 ---
 # <a name="cross-reference-excel-files-with-power-automate"></a>Fichiers Excel de référence croisée avec Power Automate
 
 Cette solution montre comment comparer des données entre deux fichiers Excel pour rechercher des différences. Il utilise Office Scripts pour analyser les données et Power Automate pour communiquer entre les classeurs.
+
+Cet exemple transmet des données entre des classeurs à l’aide d’objets [JSON](https://www.w3schools.com/whatis/whatis_json.asp) . Pour plus d’informations sur l’utilisation de JSON, consultez [Utiliser JSON pour transmettre des données vers et depuis Office Scripts](../../develop/use-json.md).
 
 ## <a name="example-scenario"></a>Exemple de scénario
 

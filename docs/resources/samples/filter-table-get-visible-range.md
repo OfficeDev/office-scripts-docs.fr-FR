@@ -1,30 +1,30 @@
 ---
-title: Filtrer Excel tableau et obtenir une plage visible
-description: Découvrez comment utiliser des scripts Office pour filtrer un tableau Excel et obtenir la plage visible sous la mesure d’un tableau d’objets.
+title: Filtrer Excel table et obtenir une plage visible
+description: Découvrez comment utiliser Office Scripts pour filtrer une table Excel et obtenir la plage visible sous la forme d’un tableau d’objets.
 ms.date: 03/10/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 09adbdabb64f9cf15b8219cfd3ef2dfa35d30fe2
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 103ec97111720ab872c0be843aa0573781d98c44
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585834"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088084"
 ---
-# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtrer Excel tableau et obtenir une plage visible en tant qu’objet JSON
+# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtrer Excel table et obtenir une plage visible en tant qu’objet JSON
 
-Cet exemple filtre un tableau Excel et renvoie la plage visible en tant qu’objet JSON. Ce JSON peut être fourni à un flux Power Automate dans le cadre d’une solution plus grande.
+Cet exemple filtre une table Excel et retourne la plage visible sous la forme d’un objet [JSON](https://www.w3schools.com/whatis/whatis_json.asp). Ce JSON peut être fourni à un flux de Power Automate dans le cadre d’une solution plus grande.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-* Appliquer un filtre à une colonne de tableau.
-* Extraire la plage visible après le filtrage.
-* Assemblez et renvoyer un objet avec une [structure JSON spécifique](#sample-json).
+* Appliquez un filtre à une colonne de table.
+* Extrayez la plage visible après le filtrage.
+* Assemblez et retournez un objet avec une [structure JSON spécifique](#sample-json).
 
-## <a name="sample-excel-file"></a>Exemple Excel fichier
+## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-<a href="table-filter.xlsx"> Téléchargeztable-filter.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+Téléchargez <a href="table-filter.xlsx">table-filter.xlsx</a> pour un classeur prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
 
-## <a name="sample-code-filter-a-table-and-get-visible-range"></a>Exemple de code : filtrer un tableau et obtenir une plage visible
+## <a name="sample-code-filter-a-table-and-get-visible-range"></a>Exemple de code : Filtrer une table et obtenir une plage visible
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReturnTemplate {
@@ -88,9 +88,9 @@ interface ReturnTemplate {
 }
 ```
 
-### <a name="sample-json"></a>Exemple de JSON
+### <a name="sample-json"></a>Exemple de code JSON
 
-Chaque clé représente une valeur unique d’une table. Chaque instance de tableau représente la ligne visible lorsque le filtre correspondant est appliqué.
+Chaque clé représente une valeur unique d’une table. Chaque instance de tableau représente la ligne visible lorsque le filtre correspondant est appliqué. Pour plus d’informations sur l’utilisation de JSON, consultez [Utiliser JSON pour transmettre des données vers et depuis Office Scripts](../../develop/use-json.md).
 
 ```json
 {
@@ -99,43 +99,43 @@ Chaque clé représente une valeur unique d’une table. Chaque instance de tabl
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Debra Berger",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }, {
     "Station": "Station-1",
     "Shift": "Afternoon",
     "Date": "27-Oct-20",
     "Responsible": "Delia Dennis",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }, {
     "Station": "Station-1",
     "Shift": "Afternoon",
     "Date": "28-Oct-20",
     "Responsible": "Lidia Holloway",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }],
   "Station-2": [{
     "Station": "Station-2",
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Gerhart Moller",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }, {
     "Station": "Station-2",
     "Shift": "Afternoon",
     "Date": "28-Oct-20",
     "Responsible": "Grady Archie",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }],
   "Station-3": [{
     "Station": "Station-3",
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Isaiah Langer",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }]
 }
 ```
 
-## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a>Vidéo de formation : filtrer un tableau Excel et obtenir la plage visible
+## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a>Vidéo de formation : Filtrer une table Excel et obtenir la plage visible
 
-[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/Mv7BrvPq84A).
+[Regardez Sudhi Ramamurthy parcourir cet exemple sur YouTube](https://youtu.be/Mv7BrvPq84A).
