@@ -35,6 +35,8 @@ items:
             href: develop/script-buttons.md
           - name: Exécuter des scripts avec Power Automate
             href: develop/power-automate-integration.md
+          - name: Utiliser JSON pour transmettre des données
+            href: develop/use-json.md
           - name: Utiliser des fichiers .xlsm dans Power Automate flux
             href: develop/macros-power-automate.md
           - name: Utiliser un tableau croisé dynamique
