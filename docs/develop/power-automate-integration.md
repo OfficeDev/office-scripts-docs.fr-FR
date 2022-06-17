@@ -1,14 +1,14 @@
 ---
 title: Exécuter des scripts Office avec Power Automate
 description: Comment obtenir Office Scripts pour Excel sur le Web utiliser un flux de travail Power Automate.
-ms.date: 03/08/2022
+ms.date: 05/16/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 67e48d297a8db16661ce394a11f2e425bc0a33be
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: 85c335eeb736ec544eccb2fbdbe819bdbef6848c
+ms.sourcegitcommit: aecbd5baf1e2122d836c3eef3b15649e132bc68e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393676"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66128229"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Exécuter des scripts Office avec Power Automate
 
@@ -26,6 +26,9 @@ Pour commencer à combiner des scripts Power Automate et Office, suivez le didac
 
 > [!IMPORTANT]
 > L’action « Exécuter le script » permet aux personnes qui utilisent le connecteur Excel un accès significatif à votre classeur et à ses données. En outre, il existe des risques de sécurité avec les scripts qui effectuent des appels d’API externes, comme expliqué dans [les appels externes à partir de Power Automate](external-calls.md). Si votre administrateur est préoccupé par l’exposition de données hautement sensibles, il peut désactiver le connecteur Excel Online ou restreindre l’accès aux scripts Office par le biais des [contrôles administrateur de scripts Office](/microsoft-365/admin/manage/manage-office-scripts-settings).
+
+> [!IMPORTANT]
+> Power Automate ne prend **pas** en charge les scripts stockés sur SharePoint pour l’instant.
 
 ## <a name="data-transfer-in-flows-for-scripts"></a>Transfert de données dans les flux pour les scripts
 

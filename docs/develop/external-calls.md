@@ -3,12 +3,12 @@ title: Prise en charge des appels d’API externes dans Scripts Office
 description: Prise en charge et conseils pour effectuer des appels d’API externes dans un script Office.
 ms.date: 06/10/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: b847400893184533c250ab99b640563ff0cbdb3e
-ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
+ms.openlocfilehash: 472b2e1b4aa38366b68b573fa959deee616b9dbe
+ms.sourcegitcommit: aecbd5baf1e2122d836c3eef3b15649e132bc68e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66088042"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66128222"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Prise en charge des appels d’API externes dans Scripts Office
 
@@ -18,7 +18,7 @@ Les scripts prennent en charge les appels aux services externes. Utilisez ces se
 > Les appels externes peuvent entraîner l’exposition de données sensibles à des points de terminaison indésirables. Votre administrateur peut établir une protection pare-feu contre ces appels.
 
 > [!IMPORTANT]
-> Les appels aux API externes ne peuvent être effectués que par le biais de l’application Excel, et non par Power Automate [dans des circonstances normales](#external-calls-from-power-automate).
+> Les appels aux API externes ne peuvent être effectués que par le biais de l’application Excel, et non par Power Automate [dans des circonstances normales](#external-calls-from-power-automate). Les appels externes ne sont pas non plus pris en charge pour les scripts stockés sur un site SharePoint.
 
 ## <a name="configure-your-script-for-external-calls"></a>Configurer votre script pour les appels externes
 
