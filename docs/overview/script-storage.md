@@ -1,14 +1,14 @@
 ---
 title: Office Le stockage et la propriété des fichiers scripts
 description: Informations sur la façon dont les scripts Office sont stockés dans Microsoft OneDrive et transférés entre propriétaires.
-ms.date: 06/01/2022
+ms.date: 06/21/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 17603660bcafa41f898b15b1226d11fa0d51b0a5
-ms.sourcegitcommit: aecbd5baf1e2122d836c3eef3b15649e132bc68e
+ms.openlocfilehash: 9dbf53292cb16b0be32afe3cdb93409f3dbb2612
+ms.sourcegitcommit: 4f2164ac4dd61d123ea5442a4c446be2d139e8ff
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66128208"
+ms.lasthandoff: 06/23/2022
+ms.locfileid: "66211297"
 ---
 # <a name="office-scripts-file-storage-and-ownership"></a>Office Le stockage et la propriété des fichiers scripts
 
@@ -57,9 +57,20 @@ Pendant la modification, les fichiers sont temporairement stockés dans le navig
 
 ## <a name="audit-office-scripts-usage-at-the-admin-level"></a>Auditer l’utilisation des scripts Office au niveau de l’administrateur
 
-Découvrez les locataires qui utilisent Office Scripts avec le journal d’audit dans le centre de conformité. Pour savoir comment utiliser cet outil, consultez [le journal d’audit dans le Centre de sécurité & conformité](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide&preserve-view=true#search-the-audit-log).
+Découvrez qui utilise Office Scripts dans votre organisation avec le journal d’audit du Centre de conformité. Pour plus d’informations sur le journal d’audit, consultez [le journal d’audit du Centre de sécurité & conformité](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide&preserve-view=true#search-the-audit-log).
 
-Pour rechercher qui utilise Office Scripts avec l’outil de recherche, ajoutez `.osts` le **fichier, le dossier ou le champ de site**. Cette opération recherche tous les fichiers avec l’extension de fichier Office Scripts. Si une personne de votre organisation a utilisé la fonctionnalité Office Scripts, l’activité de l’utilisateur s’affiche dans les résultats de la recherche dans le journal d’audit.
+Pour auditer spécifiquement Office activité liée aux scripts en tant qu’administrateur, effectuez les étapes suivantes.
+
+1. Dans une fenêtre de navigateur InPrivate (ou Incognito ou un autre mode de suivi limité spécifique au navigateur), ouvrez et connectez-vous au [Centre de conformité](https://compliance.microsoft.com/).
+1. Accédez à la page **Audit** .
+1. *(Une seule fois)* Sous l’onglet **Rechercher** , **sélectionnez Démarrer l’enregistrement de l’activité de l’utilisateur et de l’administrateur**.
+
+    > [!IMPORTANT]
+    > Il peut s’écouler une heure ou deux après l’activation de l’enregistrement avant que toutes les activités sur le locataire soient enregistrées.
+
+1. Définissez les options de recherche souhaitées et **appuyez sur Recherche**. **Filtrer les activités** pour **exécuter le script sur le classeur** pour voir chaque fois qu’un script a été exécuté. Vous pouvez également filtrer le **champ Fichier, dossier ou site** sur `.osts`. Cela révèle qui, dans votre organisation, crée ou modifie des scripts.
+
+    :::image type="content" source="../images/audit-log-example.png" alt-text="Quelques lignes de résultats de recherche dans le journal d’audit, notamment l’action « Exécuter le script sur le classeur » et le chargement et la modification d’un fichier .osts.":::
 
 ## <a name="see-also"></a>Voir aussi
 
