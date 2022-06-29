@@ -1,14 +1,14 @@
 ---
 title: Scripts de base pour les scripts Office dans Excel
-description: Collection d’exemples de code à utiliser avec Office Scripts dans Excel.
-ms.date: 03/24/2022
+description: Collection d’exemples de code à utiliser avec les scripts Office dans Excel.
+ms.date: 06/24/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e28026b7a3498d477cce8b6dc5940da33a30f53
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: 071329e35a1a3fe6197896afe3acaf11d3a53fd5
+ms.sourcegitcommit: c5ffe0a95b962936ee92e7ffe17388bef6d4fad8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393655"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241843"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel"></a>Scripts de base pour les scripts Office dans Excel
 
@@ -359,11 +359,11 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="formulas"></a>Formules
 
-Ces exemples utilisent Excel formules et montrent comment les utiliser dans des scripts.
+Ces exemples utilisent des formules Excel et montrent comment les utiliser dans des scripts.
 
 ### <a name="single-formula"></a>Formule unique
 
-Ce script définit la formule d’une cellule, puis affiche la façon dont Excel stocke séparément la formule et la valeur de la cellule.
+Ce script définit la formule d’une cellule, puis affiche la façon dont Excel stocke la formule et la valeur de la cellule séparément.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -416,6 +416,27 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
+### <a name="replace-all-formulas-with-their-result-values"></a>Remplacer toutes les formules par leurs valeurs de résultat
+
+Ce script remplace chaque cellule de la feuille de calcul actuelle qui contient une formule par le résultat de cette formule. Cela signifie qu’il n’y aura pas de formules après l’exécution du script, uniquement des valeurs.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+    // Get the ranges with formulas.
+    let sheet = workbook.getActiveWorksheet();
+    let usedRange = sheet.getUsedRange();
+    let formulaCells = usedRange.getSpecialCells(ExcelScript.SpecialCellType.formulas);
+
+    // In each formula range: get the current value, clear the contents, and set the value as the old one.
+    // This removes the formula but keeps the result.
+    formulaCells.getAreas().forEach((range) => {
+      let currentValues = range.getValues();
+      range.clear(ExcelScript.ClearApplyTo.contents);
+      range.setValues(currentValues);
+    });
+}
+```
+
 ## <a name="suggest-new-samples"></a>Suggérer de nouveaux exemples
 
 Nous vous invitons à vous proposer de nouveaux exemples. S’il existe un scénario courant qui aiderait d’autres développeurs de scripts, veuillez nous le dire dans la section commentaires en bas de la page.
@@ -423,5 +444,5 @@ Nous vous invitons à vous proposer de nouveaux exemples. S’il existe un scén
 ## <a name="see-also"></a>Voir aussi
 
 * [« Range basics » de Sudhi Ramamurthy sur YouTube](https://youtu.be/4emjkOFdLBA)
-* [exemples et scénarios de scripts Office](samples-overview.md)
+* [Exemples et scénarios de scripts Office](samples-overview.md)
 * [Enregistrer, modifier et créer des scripts Office dans Excel sur le web](../../tutorials/excel-tutorial.md)
