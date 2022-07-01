@@ -1,18 +1,18 @@
 ---
-title: exemples de scripts Office
-description: Exemples et scénarios de scripts Office disponibles.
+title: Exemples de scripts Office
+description: Exemples et scénarios De scripts Office disponibles.
 ms.date: 06/14/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 059a21711f36273207f1e65ba844ba23c502ffe0
-ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
+ms.openlocfilehash: c9b16272c893bf048f45d7f3256906c7d550d089
+ms.sourcegitcommit: 82fb78e6907b7c3b95c5c53cfc83af4ea1067a78
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66088049"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66572334"
 ---
-# <a name="office-scripts-samples-and-scenarios"></a>exemples et scénarios de scripts Office
+# <a name="office-scripts-samples-and-scenarios"></a>Exemples et scénarios de scripts Office
 
-Cette section contient Office solutions d’automatisation [basées sur des scripts](../../overview/excel.md) qui aident les utilisateurs finaux à réaliser l’automatisation des tâches quotidiennes. Il contient des scénarios réalistes auxquels les utilisateurs professionnels sont confrontés et fournit des solutions détaillées ainsi que des liens vidéo d’instructions pas à pas.
+Cette section contient des solutions d’automatisation [basées sur des scripts Office](../../overview/excel.md) qui aident les utilisateurs finaux à réaliser l’automatisation des tâches quotidiennes. Il contient des scénarios réalistes auxquels les utilisateurs professionnels sont confrontés et fournit des solutions détaillées ainsi que des liens vidéo d’instructions pas à pas.
 
 Pour chacun des projets de [base](#basics) et [au-delà des principes de base](#beyond-the-basics), consultez le code source, des [**vidéos YouTube**](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0) pas à pas, et bien plus encore.
 
@@ -21,41 +21,40 @@ Dans [Scénarios](#scenarios), nous avons inclus quelques exemples de scénarios
 Nous accueillons également les [contributions de la communauté](#community-contributions-and-fun-samples). Ces exemples sont open source.
 
 > [!IMPORTANT]
-> Veillez à respecter les prérequis pour Office scripts avant d’essayer les exemples. Les conditions requises pour votre abonnement et votre compte Microsoft 365 se trouvent dans la [section « Exigences » Office Scripts pour Excel vue d’ensemble](../../overview/excel.md#requirements).
+> Veillez à respecter les prérequis pour les scripts Office avant d’essayer les exemples. La configuration requise pour votre abonnement et votre compte Microsoft 365 se trouve dans la [section « Configuration requise » de la vue d’ensemble des scripts Office pour Excel](../../overview/excel.md#requirements).
 
 ## <a name="basics"></a>Informations de base
 
 | Project | Détails |
 |---------|---------|
-| [Informations de base](../excel-samples.md) | Ces exemples illustrent les blocs de construction fondamentaux des scripts Office. |
+| [Informations de base](excel-samples.md) | Ces exemples illustrent les blocs de construction fondamentaux des scripts Office. |
 | [Ajouter des commentaires dans Excel](add-excel-comments.md) | Cet exemple ajoute des commentaires à une cellule, y compris @mentioning un collègue. |
 | [Ajouter des images à un classeur](add-image-to-workbook.md) | Cet exemple ajoute une image à un classeur et copie une image sur plusieurs feuilles.|
-| [Copier plusieurs tables Excel dans une seule table](copy-tables-combine.md) | Cet exemple combine les données de plusieurs tables Excel dans une table unique qui inclut toutes les lignes. |
+| [Copier plusieurs tables Excel dans une table unique](copy-tables-combine.md) | Cet exemple combine les données de plusieurs tables Excel dans une table unique qui inclut toutes les lignes. |
 | [Créer une table des matières de classeur](table-of-contents.md) | Cet exemple crée une table des matières avec des liens vers chaque feuille de calcul. |
 
 ## <a name="beyond-the-basics"></a>Notions intermédiaires
 
-Consultez le projet de bout en bout suivant qui automatise les exemples de scénarios, ainsi que des scripts complets, des exemples de fichiers Excel utilisés et [des vidéos (hébergées sur YouTube).](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0)
+Consultez le projet de bout en bout suivant qui automatise des exemples de scénarios, ainsi que des scripts complets, des exemples de fichiers Excel utilisés et [des vidéos (hébergées sur YouTube).](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0)
 
 | Project | Détails |
 |---------|---------|
-| [Combiner des feuilles de calcul dans un seul classeur](combine-worksheets-into-single-workbook.md) | Cet exemple utilise Office Scripts et Power Automate pour extraire des données d’autres classeurs dans un classeur unique. |
-| [Convertir des fichiers CSV en classeurs Excel](convert-csv.md) | Cet exemple utilise des scripts et des Power Automate Office pour créer des fichiers .xlsx à partir de fichiers .csv. |
-| [Classeurs de référence croisée](excel-cross-reference.md) | Cet exemple utilise Office scripts et Power Automate pour référencer et valider des informations dans différents classeurs. |
-| [Compter les lignes vides dans une feuille spécifique ou dans toutes les feuilles](count-blank-rows.md) | Cet exemple détecte s’il existe des lignes vides dans les feuilles où vous prévoyez la présence de données, puis indique le nombre de lignes vides à utiliser dans un flux de Power Automate. |
-| [Graphique de messagerie et images de tableau](email-images-chart-table.md) | Cet exemple utilise des scripts Office et des actions Power Automate pour créer un graphique et l’envoyer en tant qu’image par e-mail. |
+| [Combiner des feuilles de calcul dans un seul classeur](combine-worksheets-into-single-workbook.md) | Cet exemple utilise les scripts Office et Power Automate pour extraire des données d’autres classeurs dans un classeur unique. |
+| [Convertir des fichiers CSV en classeurs Excel](convert-csv.md) | Cet exemple utilise les scripts Office et Power Automate pour créer des fichiers .xlsx à partir de fichiers .csv. |
+| [Classeurs de référence croisée](excel-cross-reference.md) | Cet exemple utilise les scripts Office et Power Automate pour référencer et valider des informations dans différents classeurs. |
+| [Compter les lignes vides dans une feuille spécifique ou dans toutes les feuilles](count-blank-rows.md) | Cet exemple détecte s’il existe des lignes vides dans les feuilles où vous prévoyez la présence de données, puis indique le nombre de lignes vides à utiliser dans un flux Power Automate. |
+| [Graphique de messagerie et images de tableau](email-images-chart-table.md) | Cet exemple utilise des scripts Office et des actions Power Automate pour créer un graphique et envoyer ce graphique en tant qu’image par e-mail. |
 | [Appels d’extraction externes](external-fetch-calls.md) | Cet exemple permet d’obtenir des `fetch` informations à partir de GitHub pour le script. |
-| [Filtrer Excel table et obtenir une plage visible](filter-table-get-visible-range.md) | Cet exemple filtre une table Excel et retourne la plage visible sous la forme d’un objet JSON. Ce JSON peut être fourni à un flux de Power Automate dans le cadre d’une solution plus grande. |
-| [Gérer le mode de calcul en Excel](excel-calculation.md) | Cet exemple montre comment utiliser le mode de calcul et calculer des méthodes dans Excel sur le Web à l’aide de scripts Office. |
+| [Gérer le mode de calcul dans Excel](excel-calculation.md) | Cet exemple montre comment utiliser le mode de calcul et calculer des méthodes dans Excel sur le Web à l’aide de scripts Office. |
 | [Déplacer des lignes entre des tables](move-rows-across-tables.md) | Cet exemple montre comment déplacer des lignes entre des tables en enregistrant les filtres, puis en traitant et en réappliqueant les filtres. |
-| [Sortie Excel données au format JSON](get-table-data.md) | Cette solution montre comment générer Excel données de table en tant que JSON à utiliser dans Power Automate. |
+| [Générer des données Excel en tant que JSON](get-table-data.md) | Cette solution montre comment générer des données de table Excel en tant que JSON à utiliser dans Power Automate. |
 | [Supprimer des liens hypertexte de chaque cellule d’une feuille de calcul Excel](remove-hyperlinks-from-cells.md) | Cet exemple efface tous les liens hypertexte de la feuille de calcul active. |
 | [Exécuter un script sur tous les fichiers Excel d’un dossier](automate-tasks-on-all-excel-files-in-folder.md) | Ce projet effectue un ensemble de tâches d’automatisation sur tous les fichiers situés dans un dossier sur OneDrive Entreprise (peut également être utilisé pour un dossier SharePoint). Il effectue des calculs sur les fichiers Excel, ajoute une mise en forme et insère un commentaire qui @mentions un collègue. |
 | [Rédiger un grand ensemble de données](write-large-dataset.md) | Cet exemple montre comment envoyer une grande plage en tant que sous-plages plus petites. |
 
 ## <a name="scenarios"></a>Scénarios
 
-Office scripts peuvent automatiser certaines parties de votre routine quotidienne. Ces tâches quotidiennes existent souvent dans des écosystèmes uniques, avec Excel classeurs qui sont configurés de manière particulière. Ces exemples de scénarios plus volumineux illustrent de tels cas d’usage réels. Ils incluent à la fois les scripts Office et les classeurs, afin que vous puissiez voir le scénario de bout en bout.
+Les scripts Office peuvent automatiser certaines parties de votre routine quotidienne. Ces tâches quotidiennes existent souvent dans des écosystèmes uniques, avec des classeurs Excel qui sont configurés de manière particulière. Ces exemples de scénarios plus volumineux illustrent de tels cas d’usage réels. Ils incluent à la fois les scripts Office et les classeurs, afin que vous puissiez voir le scénario de bout en bout.
 
 | Scénario | Détails |
 |---------|---------|
@@ -63,15 +62,15 @@ Office scripts peuvent automatiser certaines parties de votre routine quotidienn
 | [Obtenir et représenter graphiquement les données du niveau d'eau auprès de la NOAA](../scenarios/noaa-data-fetch.md) | Ce scénario utilise un script Office pour extraire des données d’une source externe (base de données [NOAA Tides et Currents](https://tidesandcurrents.noaa.gov/)) et représenter les informations obtenues. Il met en évidence les compétences d’utilisation `fetch` pour obtenir des données et utiliser des graphiques. |
 | [Calculatrice de notes](../scenarios/grade-calculator.md) | Ce scénario comporte un script qui valide l’enregistrement d’un instructeur pour les notes de leur classe. Il présente les compétences de la vérification des erreurs, de la mise en forme des cellules et des expressions régulières. |
 | [Planifier des entretiens dans Teams](../scenarios/schedule-interviews-in-teams.md) | Ce scénario montre comment utiliser une feuille de calcul Excel pour gérer les heures de réunion des entretiens et établir un flux vers les planifications de réunions dans Teams. |
-| [Rappels de tâches](../scenarios/task-reminders.md) | Ce scénario utilise un script Office dans un flux de Power Automate pour envoyer des rappels aux collègues afin de mettre à jour l’état d’un projet. Il met en évidence les compétences de Power Automate l’intégration et le transfert de données vers et depuis des scripts. |
+| [Rappels de tâches](../scenarios/task-reminders.md) | Ce scénario utilise un script Office dans un flux Power Automate pour envoyer des rappels à des collègues afin de mettre à jour l’état d’un projet. Il met en évidence les compétences de l’intégration de Power Automate et du transfert de données vers et depuis des scripts. |
 
-## <a name="community-contributions-and-fun-samples"></a>Community contributions et des exemples amusants
+## <a name="community-contributions-and-fun-samples"></a>Contributions de la communauté et exemples amusants
 
-Nous accueillons les [contributions](https://github.com/OfficeDev/office-scripts-docs/blob/master/Contributing.md) de notre communauté Office Scripts! N’hésitez pas à créer une demande de tirage pour révision.
+Nous accueillons les [contributions](https://github.com/OfficeDev/office-scripts-docs/blob/master/Contributing.md) de notre communauté Office Scripts ! N’hésitez pas à créer une demande de tirage pour révision.
 
 | Project | Détails |
 |---------|---------|
-| [Jeu de la vie](https://techcommunity.microsoft.com/t5/excel-blog/ready-player-zero/ba-p/2246208) | Le blog « Ready Player Zero » de Yutao Huang sur le Excel Tech Community inclut un script pour modéliser [*Le jeu de la vie de*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) John Conway. |
+| [Jeu de la vie](https://techcommunity.microsoft.com/t5/excel-blog/ready-player-zero/ba-p/2246208) | Le blog « Ready Player Zero » de Yutao Huang sur Excel Tech Community inclut un script pour modéliser [*Le jeu de la vie de*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) John Conway. |
 | [Bouton Horloge perforée](../scenarios/punch-clock.md) | Ce script a été fourni par [Brian Gonzalez](https://github.com/b-gonzalez). Le scénario comprend un script et un bouton de script qui enregistre l’heure actuelle. |
 | [Animation seasons greetings](community-seasons-greetings.md) | Ce script a été contribué par [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) dans l’esprit de la saison des fêtes! Il s’agit d’un script amusant qui montre un arbre de Noël chantant dans Excel sur le Web à l’aide de scripts Office. |
 

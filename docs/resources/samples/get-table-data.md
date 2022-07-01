@@ -1,18 +1,18 @@
 ---
-title: Sortie Excel données au format JSON
-description: Découvrez comment générer Excel données de table en tant que JSON à utiliser dans Power Automate.
-ms.date: 06/02/2022
+title: Générer des données Excel en tant que JSON
+description: Découvrez comment générer des données de table Excel en tant que JSON à utiliser dans Power Automate.
+ms.date: 06/27/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: bf7e8ceb7bec5a7362b1894cdfe13d9e01576a66
-ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
+ms.openlocfilehash: 6453d9f0e92f9b3fcccc6e3ec9c1b6c9af49859c
+ms.sourcegitcommit: 82fb78e6907b7c3b95c5c53cfc83af4ea1067a78
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66088105"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66572341"
 ---
-# <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Sortie Excel données de table au format JSON pour une utilisation dans Power Automate
+# <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Générer des données de table Excel en tant que JSON pour une utilisation dans Power Automate
 
-Excel données de table peuvent être représentées sous la forme d’un tableau d’objets sous la forme de [JSON](https://www.w3schools.com/whatis/whatis_json.asp). Chaque objet représente une ligne dans le tableau. Cela permet d’extraire les données de Excel dans un format cohérent visible par l’utilisateur. Les données peuvent ensuite être données à d’autres systèmes par le biais de flux Power Automate. 
+Les données de table Excel peuvent être représentées sous la forme d’un tableau d’objets sous la forme de [JSON](https://www.w3schools.com/whatis/whatis_json.asp). Chaque objet représente une ligne dans le tableau. Cela permet d’extraire les données d’Excel dans un format cohérent visible par l’utilisateur. Les données peuvent ensuite être données à d’autres systèmes via des flux Power Automate.
 
 ## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
@@ -29,7 +29,7 @@ Une variante de cet exemple inclut également les liens hypertexte dans l’une 
 Ajoutez le script suivant pour essayer l’exemple vous-même !
 
 > [!NOTE]
-> Vous pouvez modifier la structure pour qu’elle `interface TableData` corresponde à vos colonnes de tableau. Notez que pour les noms de colonnes avec des espaces, veillez à placer votre clé entre guillemets, par `"Event ID"` exemple dans l’exemple. Pour plus d’informations sur l’utilisation de JSON, consultez [Utiliser JSON pour transmettre des données vers et depuis Office Scripts](../../develop/use-json.md).
+> Vous pouvez modifier la structure pour qu’elle `interface TableData` corresponde à vos colonnes de tableau. Notez que pour les noms de colonnes avec des espaces, veillez à placer votre clé entre guillemets, par `"Event ID"` exemple dans l’exemple. Pour plus d’informations sur l’utilisation de JSON, consultez [Utiliser JSON pour transmettre des données vers et depuis des scripts Office](../../develop/use-json.md).
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): TableData[] {
@@ -260,4 +260,4 @@ interface TableData {
 
 ## <a name="use-in-power-automate"></a>Utiliser dans Power Automate
 
-Pour savoir comment utiliser un tel script dans Power Automate, consultez [Créer un flux de travail automatisé avec Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).
+Pour savoir comment utiliser un tel script dans Power Automate, consultez [Créer un workflow automatisé avec Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).
