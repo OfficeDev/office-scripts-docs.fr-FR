@@ -3,12 +3,12 @@ title: Exemples de scripts Office
 description: Exemples et scénarios De scripts Office disponibles.
 ms.date: 06/14/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: c9b16272c893bf048f45d7f3256906c7d550d089
-ms.sourcegitcommit: 82fb78e6907b7c3b95c5c53cfc83af4ea1067a78
+ms.openlocfilehash: 5959bc472dbec04526dcf912a8bd67e2554aa251
+ms.sourcegitcommit: dd632402cb46ec8407a1c98456f1bc9ab96ffa46
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66572334"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66918824"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Exemples et scénarios de scripts Office
 
@@ -32,6 +32,7 @@ Nous accueillons également les [contributions de la communauté](#community-con
 | [Ajouter des images à un classeur](add-image-to-workbook.md) | Cet exemple ajoute une image à un classeur et copie une image sur plusieurs feuilles.|
 | [Copier plusieurs tables Excel dans une table unique](copy-tables-combine.md) | Cet exemple combine les données de plusieurs tables Excel dans une table unique qui inclut toutes les lignes. |
 | [Créer une table des matières de classeur](table-of-contents.md) | Cet exemple crée une table des matières avec des liens vers chaque feuille de calcul. |
+| [Supprimer les filtres de colonnes de table](clear-table-filter-for-active-cell.md) | Cet exemple efface tous les filtres d’une colonne de table. |
 
 ## <a name="beyond-the-basics"></a>Notions intermédiaires
 
@@ -43,7 +44,7 @@ Consultez le projet de bout en bout suivant qui automatise des exemples de scén
 | [Convertir des fichiers CSV en classeurs Excel](convert-csv.md) | Cet exemple utilise les scripts Office et Power Automate pour créer des fichiers .xlsx à partir de fichiers .csv. |
 | [Classeurs de référence croisée](excel-cross-reference.md) | Cet exemple utilise les scripts Office et Power Automate pour référencer et valider des informations dans différents classeurs. |
 | [Compter les lignes vides dans une feuille spécifique ou dans toutes les feuilles](count-blank-rows.md) | Cet exemple détecte s’il existe des lignes vides dans les feuilles où vous prévoyez la présence de données, puis indique le nombre de lignes vides à utiliser dans un flux Power Automate. |
-| [Graphique de messagerie et images de tableau](email-images-chart-table.md) | Cet exemple utilise des scripts Office et des actions Power Automate pour créer un graphique et envoyer ce graphique en tant qu’image par e-mail. |
+| [Email images de graphique et de tableau](email-images-chart-table.md) | Cet exemple utilise des scripts Office et des actions Power Automate pour créer un graphique et envoyer ce graphique en tant qu’image par e-mail. |
 | [Appels d’extraction externes](external-fetch-calls.md) | Cet exemple permet d’obtenir des `fetch` informations à partir de GitHub pour le script. |
 | [Gérer le mode de calcul dans Excel](excel-calculation.md) | Cet exemple montre comment utiliser le mode de calcul et calculer des méthodes dans Excel sur le Web à l’aide de scripts Office. |
 | [Déplacer des lignes entre des tables](move-rows-across-tables.md) | Cet exemple montre comment déplacer des lignes entre des tables en enregistrant les filtres, puis en traitant et en réappliqueant les filtres. |

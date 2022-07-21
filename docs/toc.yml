@@ -71,6 +71,8 @@ items:
                 href: resources/samples/copy-tables-combine.md
               - name: Créer une table des matières de classeur
                 href: resources/samples/table-of-contents.md
+              - name: Supprimer les filtres de la colonne du tableau
+                href: resources/samples/clear-table-filter-for-active-cell.md
           - name: Notions intermédiaires
             items:
               - name: Combiner des feuilles de calcul dans un seul classeur
