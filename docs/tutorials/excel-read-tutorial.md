@@ -3,12 +3,12 @@ title: Lire les données d’un classeur avec les scripts Office d’Excel pour 
 description: Didacticiel des scripts Office sur la lecture de données à partir de classeurs et l’évaluation de ces données dans le script.
 ms.date: 01/06/2021
 ms.localizationpriority: high
-ms.openlocfilehash: d4378e1b4c851a1a2cf072b0eabb3d3d765bc234
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: 341bee17c22234e187377d84eb4983438bf52ad8
+ms.sourcegitcommit: 33fe0f6807daefb16b148fd73c863de101f47cea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393641"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67281916"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lire les données d’un classeur avec les scripts Office d’Excel pour le web
 
@@ -82,7 +82,7 @@ Maintenant que nous avons vu comment lire des données, nous allons les utiliser
 1. Nous utiliserons les méthodes `getValue` et `setValue` pour modifier la valeur de la cellule. Ces méthodes fonctionnent sur une seule cellule. Lorsque vous manipulez des plages de plusieurs cellules, vous pouvez utiliser `getValues` et `setValues`. Ajoutez le code suivant à la fin du script :
 
     ```TypeScript
-    // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
+    // Run the `Math.abs` method with the value at D2 and apply that value back to D2.
     let positiveValue = Math.abs(range.getValue() as number);
     range.setValue(positiveValue);
     ```
