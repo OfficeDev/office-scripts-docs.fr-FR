@@ -3,12 +3,12 @@ title: Principes de base des scripts pour Office Scripts dans Excel sur le web
 description: Informations sur le modèle d’objet et autres concepts de base pour vous familiariser avec les scripts Office.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: bd51f814de60da8006413096f4d6aad125f78fab
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: 97aa840809010f3640b045ce2fd28a39a47243b4
+ms.sourcegitcommit: 33fe0f6807daefb16b148fd73c863de101f47cea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393599"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67281923"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Principes de base des scripts pour Scripts Office dans Excel sur le web
 
@@ -32,7 +32,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Le code à l’intérieur de la fonction `main` s’exécute lors de l’exécution du script. `main` peut appeler d’autres fonctions dans le script, mais le code qui n’est pas inclus dans une fonction ne s’exécutera pas. Les scripts ne peuvent pas invoquer ou appeler d'autres scripts Office.
 
-[Power Automate](https://flow.microsoft.com) permet de connecter des scripts dans des flux. Les données sont transmises entre les scripts et le flux entre les paramètres et les retours de la méthode `main`. L'intégration des scripts Office avec Power Automate est couverte en détail dans [Exécuter des scripts Office avec Power Automate](power-automate-integration.md).
+[Power Automate](https://flow.microsoft.com) permet de connecter des scripts dans des flux. Les données sont transmises entre les scripts et le flux entre les paramètres et les retours de la fonction `main`. L'intégration des scripts Office avec Power Automate est couverte en détail dans [Exécuter des scripts Office avec Power Automate](power-automate-integration.md).
 
 ## <a name="object-model-overview"></a>Vue d'ensemble du modèle objet
 
