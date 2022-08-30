@@ -1,14 +1,14 @@
 ---
 title: Appeler des scripts à partir d’un flux manuel Power Automate
 description: Un tutoriel sur l’utilisation des scripts Office dans Power Automate via un déclencheur manuel.
-ms.date: 06/29/2021
+ms.date: 08/22/2022
 ms.localizationpriority: high
-ms.openlocfilehash: e926540976dc066b3f07620c1e710dfa3abc7660
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
-ms.translationtype: HT
+ms.openlocfilehash: c7d7df926ac00f4f9ee5ad47ae52089e5c46d2cc
+ms.sourcegitcommit: 4a26aa16a9c8cbedb2bb9f482235ea52a88cf08f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585939"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67424269"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow"></a>Appeler des scripts à partir d’un flux manuel Power Automate
 
@@ -120,9 +120,13 @@ Votre flux est désormais prêt à être exécuté via Power Automate. Vous pouv
 
 6. Sélectionnez **Terminé**. Vous devriez voir la section **Exécutions** s’actualiser en conséquence.
 
-7. Actualisez la page pour voir les résultats de Power Automate. Si l’opération est réussie, accédez au classeur pour voir les cellules mises à jour. Si l’opération a échoué, vérifiez les paramètres du flux et exécutez-le une deuxième fois.
+7. Actualisez la page pour voir les résultats de Power Automate. Si l’opération a échoué, vérifiez les paramètres du flux et exécutez-le une deuxième fois.
 
     :::image type="content" source="../images/power-automate-tutorial-9.png" alt-text="Sortie de Power Automate montrant une exécution réussie du flux":::
+
+8. Ouvrez le classeur pour voir les cellules mises à jour. Vous devez voir la date actuelle dans la cellule **A1** et l’heure actuelle dans la cellule **B1**. Power Automate utilise le temps universel coordonné (UTC), de sorte que l’heure sera probablement décalée de votre fuseau horaire actuel.
+
+    :::image type="content" source="../images/power-automate-tutorial-10.png" alt-text="Classeur affichant les valeurs de date et d’heure dans les cellules A1 et B1.":::
 
 ## <a name="next-steps"></a>Étapes suivantes
 
