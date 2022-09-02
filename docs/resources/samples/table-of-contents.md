@@ -3,24 +3,24 @@ title: Créer une table des matières de classeur
 description: Découvrez comment créer une table des matières avec des liens vers chaque feuille de calcul.
 ms.date: 01/20/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: b2d69609514c2e1e87f9c0590ea10152fc7d5e7d
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 5b158160ecb9ac29df547c6da6552e21c9875be3
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585519"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572513"
 ---
 # <a name="create-a-workbook-table-of-contents"></a>Créer une table des matières de classeur
 
-Cet exemple montre comment créer une table des matières pour le workbook. Chaque entrée de la table des matières est un lien hypertexte vers l’une des feuilles de calcul du manuel.
+Cet exemple montre comment créer une table des matières pour le classeur. Chaque entrée de la table des matières est un lien hypertexte vers l’une des feuilles de calcul du classeur.
 
-:::image type="content" source="../../images/table-of-contents-sample.png" alt-text="Feuille de calcul table des matières affichant des liens vers les autres feuilles de calcul.":::
+:::image type="content" source="../../images/table-of-contents-sample.png" alt-text="Feuille de calcul de table des matières affichant des liens vers les autres feuilles de calcul.":::
 
-## <a name="sample-excel-file"></a>Exemple Excel fichier
+## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-<a href="table-of-contents.xlsx"> Téléchargeztable-of-contents.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant et essayez l’exemple vous-même !
+Téléchargez [table-of-contents.xlsx](table-of-contents.xlsx) pour un classeur prêt à l’emploi. Ajoutez le script suivant et essayez l’exemple vous-même !
 
-## <a name="sample-code-create-a-workbook-table-of-contents"></a>Exemple de code : créer une table des matières de workbook
+## <a name="sample-code-create-a-workbook-table-of-contents"></a>Exemple de code : Créer une table des matières d’un classeur
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {

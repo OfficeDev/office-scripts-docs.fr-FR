@@ -1,37 +1,37 @@
 ---
-title: 'exemple Office scripts : analyser les téléchargements web'
-description: Exemple qui prend des données de trafic Internet brutes dans un Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans une table.
+title: 'Exemple de scénario Office Scripts : Analyser les téléchargements web'
+description: Exemple qui prend des données de trafic Internet brutes dans un classeur Excel et détermine l’emplacement d’origine, avant d’organiser ces informations dans une table.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 9d2d0ba302c72d4ca1f1aaad5e9cee5ba40d64e9
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 0ef368c5193fe65c0a01676aa2a8b3a2c5cf3bdc
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585490"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572422"
 ---
-# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>exemple Office scripts : analyser les téléchargements web
+# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Exemple de scénario Office Scripts : Analyser les téléchargements web
 
-Dans ce scénario, vous êtes chargé d’analyser les rapports de téléchargement à partir du site web de votre entreprise. L’objectif de cette analyse est de déterminer si le trafic web vient du États-Unis ou d’autres pays du monde.
+Dans ce scénario, vous êtes chargé d’analyser les rapports de téléchargement à partir du site web de votre entreprise. L’objectif de cette analyse est de déterminer si le trafic web provient du États-Unis ou d’un autre endroit dans le monde.
 
-Vos collègues téléchargent les données brutes dans votre workbook. Chaque ensemble de données de chaque semaine possède sa propre feuille de calcul. Il existe également la **feuille de calcul Résumé** avec un tableau et un graphique qui indiquent les tendances d’une semaine à l’autre.
+Vos collègues chargent les données brutes dans votre classeur. Chaque jeu de données de chaque semaine a sa propre feuille de calcul. Il existe également la feuille **de calcul Résumé** avec un tableau et un graphique qui affiche les tendances de semaine en semaine.
 
-Vous allez développer un script qui analyse les données de téléchargement hebdomadaires dans la feuille de calcul active. Elle permet d’évaluer l’adresse IP associée à chaque téléchargement et de déterminer si elle provenait ou non des États-Unis. La réponse est insérée dans la feuille de calcul sous la forme d’une valeur booléle (« TRUE » ou « FALSE ») et une mise en forme conditionnelle est appliquée à ces cellules. Les résultats de l’emplacement des adresses IP seront totaux dans la feuille de calcul et copiés dans le tableau récapitulatif.
+Vous allez développer un script qui analyse les données de téléchargement hebdomadaires dans la feuille de calcul active. Elle analyse l’adresse IP associée à chaque téléchargement et détermine si elle provient ou non des États-Unis. La réponse sera insérée dans la feuille de calcul sous la forme d’une valeur booléenne (« TRUE » ou « FALSE ») et la mise en forme conditionnelle sera appliquée à ces cellules. Les résultats de l’emplacement de l’adresse IP sont calculés dans la feuille de calcul et copiés dans la table récapitulative.
 
-## <a name="scripting-skills-covered"></a>Compétences d’écriture de scripts couvertes
+## <a name="scripting-skills-covered"></a>Compétences de script couvertes
 
-- L’l ment de texte
+- Analyse de texte
 - Sous-fonctions dans les scripts
 - Mise en forme conditionnelle
 - Tables
 
 ## <a name="setup-instructions"></a>Instructions d’installation
 
-1. <a href="analyze-web-downloads.xlsx"> Téléchargezanalyze-web-downloads.xlsx</a> sur votre OneDrive.
+1. Téléchargez [analyze-web-downloads.xlsx](analyze-web-downloads.xlsx) sur votre OneDrive.
 
-1. Ouvrez le Excel sur le Web.
+1. Ouvrez le classeur avec Excel sur le Web.
 
-1. Sous **l’onglet Automatiser** , sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
+1. Sous l’onglet **Automatiser** , sélectionnez **Nouveau script** et collez le script suivant dans l’éditeur.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -207,18 +207,18 @@ Vous allez développer un script qui analyse les données de téléchargement he
     }
     ```
 
-1. Renommez le script pour **analyser les téléchargements web** et enregistrez-le.
+1. Renommez le script **en Analyser les téléchargements web** et enregistrez-le.
 
 ## <a name="running-the-script"></a>Exécution du script
 
-Accédez à l’une **des feuilles de calcul Semaine\*\*** et exécutez le script **Analyser les téléchargements web** . Le script applique la mise en forme conditionnelle et la localisation sur la feuille actuelle. Il met également à jour la **feuille de calcul** Résumé.
+Accédez à l’une des feuilles de calcul **semaine\*\*** et **exécutez le script Analyser les téléchargements web** . Le script applique la mise en forme conditionnelle et l’étiquetage de l’emplacement sur la feuille active. Il met également à jour la feuille **de calcul Résumé** .
 
-### <a name="before-running-the-script"></a>Avant d’exécution du script
+### <a name="before-running-the-script"></a>Avant d’exécuter le script
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Feuille de calcul qui affiche les données brutes du trafic web.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Feuille de calcul qui affiche les données de trafic web brutes.":::
 
-### <a name="after-running-the-script"></a>Après l’exécution du script
+### <a name="after-running-the-script"></a>Après avoir exécuté le script
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Feuille de calcul qui affiche des informations d’emplacement IP formatées avec les lignes de trafic web précédentes.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Feuille de calcul qui affiche les informations d’emplacement IP mises en forme avec les lignes de trafic web précédentes.":::
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Tableau récapitulatif et graphique récapitulant les feuilles de calcul sur lesquelles le script a été exécuté.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Tableau et graphique récapitulatifs qui récapitulent les feuilles de calcul sur lesquelles le script a été exécuté.":::

@@ -3,12 +3,12 @@ title: Générer des données Excel en tant que JSON
 description: Découvrez comment générer des données de table Excel en tant que JSON à utiliser dans Power Automate.
 ms.date: 06/27/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 6453d9f0e92f9b3fcccc6e3ec9c1b6c9af49859c
-ms.sourcegitcommit: 82fb78e6907b7c3b95c5c53cfc83af4ea1067a78
+ms.openlocfilehash: 5078d2d86c92aacb0c0c2438b7298a523c132522
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66572341"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572667"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Générer des données de table Excel en tant que JSON pour une utilisation dans Power Automate
 
@@ -16,7 +16,7 @@ Les données de table Excel peuvent être représentées sous la forme d’un ta
 
 ## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-Téléchargez le <a href="table-data-with-hyperlinks.xlsx"> fichiertable-data-with-hyperlinks.xlsx</a> pour un classeur prêt à l’emploi.
+Téléchargez le [ fichiertable-data-with-hyperlinks.xlsx](table-data-with-hyperlinks.xlsx) pour un classeur prêt à l’emploi.
 
 :::image type="content" source="../../images/table-input.png" alt-text="Feuille de calcul montrant les données de table d’entrée.":::
 

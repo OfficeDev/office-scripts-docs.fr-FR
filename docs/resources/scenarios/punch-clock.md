@@ -1,18 +1,18 @@
 ---
-title: 'Office scénario d’exemple de scripts : bouton d’horloge punch'
+title: 'Exemple de scénario De scripts Office : bouton d’horloge perforé'
 description: Cet exemple ajoute un bouton d’horloge perforé et permet à un utilisateur d’entrer et d’expirer à l’aide de l’heure actuelle.
 ms.date: 04/26/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: de56fb651d6f6088620678cfd72ce662875eafa7
-ms.sourcegitcommit: e6428a5214fa38aef036a952a0e3c09dbf6e4d3e
+ms.openlocfilehash: ac128a33b653506b6168bd4acfe1713bf6d26759
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2022
-ms.locfileid: "65109291"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572681"
 ---
-# <a name="office-scripts-sample-scenario-punch-clock-button"></a>Office scénario d’exemple de scripts : bouton d’horloge punch
+# <a name="office-scripts-sample-scenario-punch-clock-button"></a>Exemple de scénario De scripts Office : bouton d’horloge perforé
 
-L’idée de scénario et le script utilisés dans cet exemple ont été contribués par Office membre de la communauté [Scripts Brian Gonzalez](https://github.com/b-gonzalez).
+L’idée de scénario et le script utilisés dans cet exemple ont été contribués par [Brian Gonzalez](https://github.com/b-gonzalez), membre de la communauté Office Scripts.
 
 Dans ce scénario, vous allez créer une feuille de temps pour un employé qui lui permet d’enregistrer ses heures de début et de fin en appuyant sur un [bouton](../../develop/script-buttons.md). En fonction de ce qui a été enregistré précédemment, appuyer sur le bouton démarre sa journée (horloge) ou met fin à sa journée (expiration de l’horloge). L’exemple fonctionne à la fois pour Excel sur le Web et sur Windows.
 
@@ -20,7 +20,7 @@ Dans ce scénario, vous allez créer une feuille de temps pour un employé qui l
 
 ## <a name="setup-instructions"></a>Instructions d’installation
 
-1. Téléchargez <a href="punch-clock-sample.xlsx">punch-clock-sample.xlsx</a> sur votre OneDrive.
+1. Téléchargez [punch-clock-sample.xlsx](punch-clock-sample.xlsx) sur votre OneDrive.
 
     :::image type="content" source="../../images/punch-clock-sample-1.png" alt-text="Tableau avec trois colonnes : « Clock In », « Clock Out » et « Duration ».":::
 
@@ -131,7 +131,7 @@ Dans ce scénario, vous allez créer une feuille de temps pour un employé qui l
 
 1. Enregistrez le classeur.
 
-## <a name="run-the-script"></a>Exécuter le script
+## <a name="run-the-script"></a>Exécutez le script
 
 Appuyez sur le bouton **d’horloge Punch** pour exécuter le script. Il enregistre l’heure actuelle sous « Clock In » ou « Clock Out », en fonction de ce qui a été précédemment entré.
 

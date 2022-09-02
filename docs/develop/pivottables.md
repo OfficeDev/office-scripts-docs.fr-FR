@@ -1,37 +1,37 @@
 ---
 title: Utiliser des tableaux croisés dynamiques dans des scripts Office
-description: Découvrez le modèle objet pour les tableaux croisés dynamiques dans l’API JavaScript Office Scripts.
+description: Découvrez le modèle objet pour les tableaux croisés dynamiques dans l’API JavaScript des scripts Office.
 ms.date: 04/20/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 579f94140214674912c9610e707123924e4aef18
-ms.sourcegitcommit: 4e3d3aa25fe4e604b806fbe72310b7a84ee72624
+ms.openlocfilehash: a457c41bd1205f4e17636c43d7ba78addc80d0e4
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65077064"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572583"
 ---
 # <a name="work-with-pivottables-in-office-scripts"></a>Utiliser des tableaux croisés dynamiques dans des scripts Office
 
-Les tableaux croisés dynamiques vous permettent d’analyser rapidement de grandes collections de données. Avec leur puissance vient la complexité. Les API Office Scripts vous permettent de personnaliser un tableau croisé dynamique en fonction de vos besoins, mais l’étendue de l’ensemble d’API rend la prise en main difficile. Cet article montre comment effectuer des tâches courantes de tableau croisé dynamique et explique les classes et méthodes importantes.
+Les tableaux croisés dynamiques vous permettent d’analyser rapidement de grandes collections de données. Avec leur puissance vient la complexité. Les API Scripts Office vous permettent de personnaliser un tableau croisé dynamique en fonction de vos besoins, mais l’étendue de l’ensemble d’API rend la prise en main difficile. Cet article montre comment effectuer des tâches courantes de tableau croisé dynamique et explique les classes et méthodes importantes.
 
 > [!NOTE]
-> Pour mieux comprendre le contexte des termes utilisés par les API, lisez d’abord la documentation du tableau croisé dynamique de Excel. Commencez par [créer un tableau croisé dynamique pour analyser les données de feuille de calcul](https://support.microsoft.com/office/a9a84538-bfe9-40a9-a8e9-f99134456576).
+> Pour mieux comprendre le contexte des termes utilisés par les API, lisez d’abord la documentation du tableau croisé dynamique d’Excel. Commencez par [créer un tableau croisé dynamique pour analyser les données de feuille de calcul](https://support.microsoft.com/office/a9a84538-bfe9-40a9-a8e9-f99134456576).
 
 ## <a name="object-model"></a>Modèle d’objet
 
 :::image type="content" source="../images/pivottable-object-model.png" alt-text="Image simplifiée des classes, méthodes et propriétés utilisées lors de l’utilisation de tableaux croisés dynamiques.":::
 
-Le [tableau croisé dynamique](/javascript/api/office-scripts/excelscript/excelscript.pivottable) est l’objet central des tableaux croisés dynamiques dans l’API Office Scripts.
+Le [tableau croisé dynamique](/javascript/api/office-scripts/excelscript/excelscript.pivottable) est l’objet central des tableaux croisés dynamiques dans l’API Scripts Office.
 
 - [L’objet Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) a une collection de tous les [tableaux croisés dynamiques](/javascript/api/office-scripts/excelscript/excelscript.pivottable). Chaque [feuille de calcul](/javascript/api/office-scripts/excelscript/excelscript.worksheet) contient également une collection de tableaux croisés dynamiques locale à cette feuille.
 - Un [tableau croisé dynamique](/javascript/api/office-scripts/excelscript/excelscript.pivottable) contient des [tableaux croisés dynamiques](/javascript/api/office-scripts/excelscript/excelscript.pivothierarchy). Une hiérarchie peut être considérée comme une colonne dans une table.
 - [PivotHierarchies](/javascript/api/office-scripts/excelscript/excelscript.pivothierarchy) peut être ajouté en tant que lignes ou colonnes ([RowColumnPivotHierarchy](/javascript/api/office-scripts/excelscript/excelscript.rowcolumnpivothierarchy)), données ([DataPivotHierarchy](/javascript/api/office-scripts/excelscript/excelscript.datapivothierarchy)) ou filtres ([FilterPivotHierarchy](/javascript/api/office-scripts/excelscript/excelscript.filterpivothierarchy)).
-- Chaque [pivotHierarchy](/javascript/api/office-scripts/excelscript/excelscript.pivothierarchy) contient exactement un [champ de tableau croisé dynamique](/javascript/api/office-scripts/excelscript/excelscript.pivotfield). Les structures de tableau croisé dynamique en dehors de Excel peuvent contenir plusieurs champs par hiérarchie. Cette conception existe donc pour prendre en charge les options futures. Pour Office scripts, les champs et les hiérarchies correspondent aux mêmes informations.
+- Chaque [pivotHierarchy](/javascript/api/office-scripts/excelscript/excelscript.pivothierarchy) contient exactement un [champ de tableau croisé dynamique](/javascript/api/office-scripts/excelscript/excelscript.pivotfield). Les structures de tableau croisé dynamique en dehors d’Excel peuvent contenir plusieurs champs par hiérarchie. Cette conception existe donc pour prendre en charge les options futures. Pour les scripts Office, les champs et les hiérarchies correspondent aux mêmes informations.
 - Un [champ de tableau](/javascript/api/office-scripts/excelscript/excelscript.pivotfield) croisé dynamique contient plusieurs éléments de tableau [croisé dynamique](/javascript/api/office-scripts/excelscript/excelscript.pivotitem). Chaque pivotItem est une valeur unique dans le champ. Considérez chaque élément comme une valeur dans la colonne de table. Les éléments peuvent également être des valeurs agrégées, telles que des sommes, si le champ est utilisé pour les données.
 - [PivotLayout](/javascript/api/office-scripts/excelscript/excelscript.pivotlayout) définit la façon dont les champs de tableau croisé dynamique et [les](/javascript/api/office-scripts/excelscript/excelscript.pivotfield) éléments [dynamiques sont affichés](/javascript/api/office-scripts/excelscript/excelscript.pivotitem).
 - [Les filtres de tableau croisé dynamique filtrent les](/javascript/api/office-scripts/excelscript/excelscript.pivotfilters) données du [tableau croisé dynamique](/javascript/api/office-scripts/excelscript/excelscript.pivottable) à l’aide de différents critères.
 
-Examinez le fonctionnement de ces relations dans la pratique. Les données suivantes décrivent les ventes de fruits provenant de différentes fermes. Il s’agit de la base de tous les exemples de cet article. Utilisez <a href="pivottable-sample.xlsx">pivottable-sample.xlsx</a> pour suivre.
+Examinez le fonctionnement de ces relations dans la pratique. Les données suivantes décrivent les ventes de fruits provenant de différentes fermes. Il s’agit de la base de tous les exemples de cet article. Utilisez [pivottable-sample.xlsx](pivottable-sample.xlsx) pour suivre.
 
 :::image type="content" source="../images/pivottable-raw-data.png" alt-text="Collection de ventes de fruits de différents types provenant de différentes fermes.":::
 
@@ -75,7 +75,7 @@ Un tableau croisé dynamique peut avoir autant ou moins de champs affectés à c
 
 ## <a name="layout-ranges"></a>Plages de disposition
 
-Chaque partie du tableau croisé dynamique est mappée à une plage. Cela permet à votre script d’obtenir des données à partir du tableau croisé dynamique pour une utilisation ultérieure dans le script ou pour être retourné dans un [flux de Power Automate](power-automate-integration.md). Ces plages sont accessibles via l’objet [PivotLayout](/javascript/api/office-scripts/excelscript/excelscript.pivotlayout) acquis à partir de `PivotTable.getLayout()`. Le diagramme suivant montre les plages retournées par les méthodes dans `PivotLayout`.
+Chaque partie du tableau croisé dynamique est mappée à une plage. Cela permet à votre script d’obtenir des données à partir du tableau croisé dynamique pour une utilisation ultérieure dans le script ou pour être retourné dans un [flux Power Automate](power-automate-integration.md). Ces plages sont accessibles via l’objet [PivotLayout](/javascript/api/office-scripts/excelscript/excelscript.pivotlayout) acquis à partir de `PivotTable.getLayout()`. Le diagramme suivant montre les plages retournées par les méthodes dans `PivotLayout`.
 
 :::image type="content" source="../images/pivottable-layout-breakdown.png" alt-text="Diagramme montrant les sections d’un tableau croisé dynamique retournées par les fonctions get range de la disposition.":::
 

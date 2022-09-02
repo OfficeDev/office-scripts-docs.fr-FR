@@ -73,6 +73,8 @@ items:
                 href: resources/samples/table-of-contents.md
               - name: Supprimer les filtres de la colonne du tableau
                 href: resources/samples/clear-table-filter-for-active-cell.md
+              - name: Signaler les modifications quotidiennes dans Power Automate
+                href: resources/samples/report-day-to-day-changes.md
           - name: Notions intermédiaires
             items:
               - name: Combiner des feuilles de calcul dans un seul classeur

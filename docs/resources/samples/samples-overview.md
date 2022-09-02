@@ -1,14 +1,14 @@
 ---
 title: Exemples de scripts Office
 description: Exemples et scénarios De scripts Office disponibles.
-ms.date: 06/14/2022
+ms.date: 08/25/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 5959bc472dbec04526dcf912a8bd67e2554aa251
-ms.sourcegitcommit: dd632402cb46ec8407a1c98456f1bc9ab96ffa46
+ms.openlocfilehash: 5798da37bd4166d18b41c005c4d8cc8a4b6c401d
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66918824"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572485"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Exemples et scénarios de scripts Office
 
@@ -25,20 +25,21 @@ Nous accueillons également les [contributions de la communauté](#community-con
 
 ## <a name="basics"></a>Informations de base
 
-| Project | Détails |
+| Projet | Détails |
 |---------|---------|
 | [Informations de base](excel-samples.md) | Ces exemples illustrent les blocs de construction fondamentaux des scripts Office. |
 | [Ajouter des commentaires dans Excel](add-excel-comments.md) | Cet exemple ajoute des commentaires à une cellule, y compris @mentioning un collègue. |
 | [Ajouter des images à un classeur](add-image-to-workbook.md) | Cet exemple ajoute une image à un classeur et copie une image sur plusieurs feuilles.|
 | [Copier plusieurs tables Excel dans une table unique](copy-tables-combine.md) | Cet exemple combine les données de plusieurs tables Excel dans une table unique qui inclut toutes les lignes. |
 | [Créer une table des matières de classeur](table-of-contents.md) | Cet exemple crée une table des matières avec des liens vers chaque feuille de calcul. |
-| [Supprimer les filtres de colonnes de table](clear-table-filter-for-active-cell.md) | Cet exemple efface tous les filtres d’une colonne de table. |
+| [Supprimer les filtres de la colonne du tableau](clear-table-filter-for-active-cell.md) | Cet exemple efface tous les filtres d’une colonne de table. |
+| [Enregistrer les modifications quotidiennes dans Excel et les signaler à l’aide d’un flux Power Automate](report-day-to-day-changes.md) | Cet exemple utilise un flux Power Automate planifié pour enregistrer les lectures quotidiennes et signaler les modifications. |
 
 ## <a name="beyond-the-basics"></a>Notions intermédiaires
 
 Consultez le projet de bout en bout suivant qui automatise des exemples de scénarios, ainsi que des scripts complets, des exemples de fichiers Excel utilisés et [des vidéos (hébergées sur YouTube).](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0)
 
-| Project | Détails |
+| Projet | Détails |
 |---------|---------|
 | [Combiner des feuilles de calcul dans un seul classeur](combine-worksheets-into-single-workbook.md) | Cet exemple utilise les scripts Office et Power Automate pour extraire des données d’autres classeurs dans un classeur unique. |
 | [Convertir des fichiers CSV en classeurs Excel](convert-csv.md) | Cet exemple utilise les scripts Office et Power Automate pour créer des fichiers .xlsx à partir de fichiers .csv. |
@@ -69,7 +70,7 @@ Les scripts Office peuvent automatiser certaines parties de votre routine quotid
 
 Nous accueillons les [contributions](https://github.com/OfficeDev/office-scripts-docs/blob/master/Contributing.md) de notre communauté Office Scripts ! N’hésitez pas à créer une demande de tirage pour révision.
 
-| Project | Détails |
+| Projet | Détails |
 |---------|---------|
 | [Jeu de la vie](https://techcommunity.microsoft.com/t5/excel-blog/ready-player-zero/ba-p/2246208) | Le blog « Ready Player Zero » de Yutao Huang sur Excel Tech Community inclut un script pour modéliser [*Le jeu de la vie de*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) John Conway. |
 | [Bouton Horloge perforée](../scenarios/punch-clock.md) | Ce script a été fourni par [Brian Gonzalez](https://github.com/b-gonzalez). Le scénario comprend un script et un bouton de script qui enregistre l’heure actuelle. |

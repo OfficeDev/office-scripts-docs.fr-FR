@@ -1,32 +1,32 @@
 ---
 title: Ajouter des images à un classeur
-description: Découvrez comment utiliser Office scripts pour ajouter une image à un workbook et la copier sur plusieurs feuilles.
+description: Découvrez comment utiliser les scripts Office pour ajouter une image à un classeur et la copier sur plusieurs feuilles.
 ms.date: 07/12/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: b827ebe4050fa8e260ed640a73d583264955b597
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 78c7779cf4d524ed62bf8d419135863228b23d33
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585862"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572604"
 ---
 # <a name="add-images-to-a-workbook"></a>Ajouter des images à un classeur
 
-Cet exemple montre comment utiliser des images à l’aide d’Office script dans Excel.
+Cet exemple montre comment utiliser des images à l’aide d’un script Office dans Excel.
 
 ## <a name="scenario"></a>Scénario
 
-Les images vous aident à utiliser la  branding, l’identité visuelle et les modèles. Ils contribuent à faire d’un workbook plus qu’un simple tableau.
+Les images facilitent la personnalisation, l’identité visuelle et les modèles. Ils aident à faire un classeur plus qu’une simple table géante.
 
-Le premier exemple copie une image d’une feuille de calcul vers une autre. Cela peut être utilisé pour placer le logo de votre entreprise à la même position sur chaque feuille.
+Le premier exemple copie une image d’une feuille de calcul vers une autre. Cela peut être utilisé pour placer le logo de votre entreprise dans la même position sur chaque feuille.
 
-Le deuxième exemple copie une image à partir d’une URL. Cela peut être utilisé pour copier les photos qu’un collègue a stockées dans un dossier partagé dans un classeur associé.
+Le deuxième exemple copie une image à partir d’une URL. Cela peut être utilisé pour copier des photos qu’un collègue a stockées dans un dossier partagé dans un classeur associé.
 
-## <a name="sample-excel-file"></a>Exemple Excel fichier
+## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-<a href="add-images.xlsx"> Téléchargezadd-images.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez les scripts suivants et essayez l’exemple vous-même !
+Téléchargez [add-images.xlsx](add-images.xlsx) pour un classeur prêt à l’emploi. Ajoutez les scripts suivants et essayez l’exemple vous-même !
 
-## <a name="sample-code-copy-an-image-across-worksheets"></a>Exemple de code : copier une image sur plusieurs feuilles de calcul
+## <a name="sample-code-copy-an-image-across-worksheets"></a>Exemple de code : Copier une image dans des feuilles de calcul
 
 ```TypeScript
 /**
@@ -52,7 +52,7 @@ function main(workbook: ExcelScript.Workbook)
 }
 ```
 
-## <a name="sample-code-add-an-image-from-a-url-to-a-workbook"></a>Exemple de code : ajouter une image à partir d’une URL à un workbook
+## <a name="sample-code-add-an-image-from-a-url-to-a-workbook"></a>Exemple de code : Ajouter une image à partir d’une URL à un classeur
 
 ```TypeScript
 async function main(workbook: ExcelScript.Workbook) {

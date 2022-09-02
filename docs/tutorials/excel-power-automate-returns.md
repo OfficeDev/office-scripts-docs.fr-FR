@@ -3,12 +3,12 @@ title: Renvoyer les données d’un script vers un flux Power Automate exécuté
 description: Un didacticiel qui présente comment envoyer des e-mails de rappel en exécutant des scripts Office pour Excel sur le web via Power Automate.
 ms.date: 04/12/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 7d232b4688132532dd2bc029588d6244a4a64ef8
-ms.sourcegitcommit: 8bcd743bebfacafa548b936ca99ad6d4918e7bcd
-ms.translationtype: HT
+ms.openlocfilehash: c35e3c0e005c7d64c9a0d860f1f6eafd2e26e13f
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64826687"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572597"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Renvoyer les données d’un script vers un flux Power Automate exécuté automatiquement
 
@@ -27,7 +27,7 @@ Ce tutoriel vous apprend à renvoyer les informations d’un script Office pour 
 
 ## <a name="prepare-the-workbook"></a>Préparer le classeur
 
-1. Téléchargez le classeur <a href="on-call-rotation.xlsx">on-call-rotation.xlsx</a> dans votre OneDrive.
+1. Téléchargez le classeur [on-call-rotation.xlsx](on-call-rotation.xlsx) dans votre OneDrive.
 
 1. Ouvrez **on-call-rotation.xlsx** dans Excel sur le web.
 

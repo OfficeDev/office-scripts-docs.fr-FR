@@ -1,14 +1,14 @@
 ---
 title: Ajouter des commentaires dans Excel
-description: Découvrez comment utiliser Office scripts pour ajouter des commentaires dans une feuille de calcul.
+description: Découvrez comment utiliser les scripts Office pour ajouter des commentaires dans une feuille de calcul.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 101f07fd2f1abcd4120585162dc2b77b8aece91a
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 90f072805e6798a4f9d6e74889ccca15610c87bd
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585596"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572492"
 ---
 # <a name="add-comments-in-excel"></a>Ajouter des commentaires dans Excel
 
@@ -16,21 +16,21 @@ Cet exemple montre comment ajouter des commentaires à une cellule, y compris [@
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-* Le chef d’équipe maintient la planification du travail d’équipe. Le chef d’équipe affecte un ID d’employé à l’enregistrement d’équipe.
-* Le chef d’équipe souhaite en informer l’employé. En ajoutant un commentaire qui @mentions l’employé, un message personnalisé provenant de la feuille de calcul lui est envoyé par courrier électronique.
-* Par la suite, l’employé peut afficher le livre de travail et répondre au commentaire à sa convenance.
+* Le responsable de l’équipe tient à jour le calendrier des quarts de travail. Le responsable d’équipe affecte un ID d’employé à l’enregistrement de décalage.
+* Le responsable de l’équipe souhaite informer l’employé. En ajoutant un commentaire qui @mentions l’employé, l’employé reçoit un message personnalisé de la feuille de calcul.
+* Par la suite, l’employé peut afficher le classeur et répondre au commentaire à sa convenance.
 
 ## <a name="solution"></a>Solution
 
 1. Le script extrait les informations de l’employé de la feuille de calcul de l’employé.
-1. Le script ajoute ensuite un commentaire (y compris l’e-mail de l’employé approprié) à la cellule appropriée dans l’enregistrement d’équipe.
+1. Le script ajoute ensuite un commentaire (y compris l’e-mail de l’employé concerné) à la cellule appropriée dans l’enregistrement de décalage.
 1. Les commentaires existants dans la cellule sont supprimés avant d’ajouter le nouveau commentaire.
 
-## <a name="sample-excel-file"></a>Exemple Excel fichier
+## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-<a href="excel-comments.xlsx"> Téléchargezexcel-comments.xlsx</a> pour un livre de travail prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+Téléchargez [excel-comments.xlsx](excel-comments.xlsx) pour un classeur prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
 
-## <a name="sample-code-add-comments"></a>Exemple de code : ajouter des commentaires
+## <a name="sample-code-add-comments"></a>Exemple de code : Ajouter des commentaires
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -77,6 +77,6 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="training-video-add-comments"></a>Vidéo de formation : ajouter des commentaires
+## <a name="training-video-add-comments"></a>Vidéo de formation : Ajouter des commentaires
 
-[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/CpR78nkaOFw).
+[Regardez Sudhi Ramamurthy parcourir cet exemple sur YouTube](https://youtu.be/CpR78nkaOFw).

@@ -1,28 +1,28 @@
 ---
-title: Déplacer des lignes entre des tableaux à l’aide Office scripts
-description: Découvrez comment déplacer des lignes d’une table à l’autre en enregistrement des filtres, puis en traitant et réappliquent les filtres.
+title: Déplacer des lignes entre des tables à l’aide de scripts Office
+description: Découvrez comment déplacer des lignes entre des tables en enregistrant les filtres, puis en traitant et réappliquez les filtres.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 9780cd79a55dcb5cd2e039b5198232358b3b1413
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: a7c28c4fef91402b8889d749a03f3aab5e615521
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585477"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572618"
 ---
-# <a name="move-rows-across-tables"></a>Déplacer des lignes dans des tableaux
+# <a name="move-rows-across-tables"></a>Déplacer des lignes entre des tables
 
 Ce script effectue les opérations suivantes :
 
 * Sélectionne des lignes dans la table source où la valeur d’une colonne est égale à une valeur (`FILTER_VALUE` dans le script).
-* Déplace toutes les lignes sélectionnées dans le tableau cible dans une autre feuille de calcul.
-* Réapplicité les filtres pertinents dans la table source.
+* Déplace toutes les lignes sélectionnées dans la table cible d’une autre feuille de calcul.
+* Réapplique les filtres appropriés à la table source.
 
-## <a name="sample-excel-file"></a>Exemple Excel fichier
+## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-Téléchargez le <a href="input-table-filters.xlsx"> fichierinput-table-filters.xlsx</a> pour un classez prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+Téléchargez le [ fichierinput-table-filters.xlsx](input-table-filters.xlsx) pour un classeur prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
 
-## <a name="sample-code-move-rows-using-range-values"></a>Exemple de code : déplacer des lignes à l’aide de valeurs de plage
+## <a name="sample-code-move-rows-using-range-values"></a>Exemple de code : Déplacer des lignes à l’aide de valeurs de plage
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -105,9 +105,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="training-video-move-rows-across-tables"></a>Vidéo de formation : déplacer des lignes dans des tableaux
+## <a name="training-video-move-rows-across-tables"></a>Vidéo de formation : Déplacer des lignes entre des tables
 
-[Regardez Sudhi Genrethy parcourir cet exemple sur YouTube](https://youtu.be/_3t3Pk4i2L0). Deux scripts sont affichés dans la solution de la vidéo. La principale différence est la façon dont les lignes sont sélectionnées.
+[Regardez Sudhi Ramamurthy parcourir cet exemple sur YouTube](https://youtu.be/_3t3Pk4i2L0). Deux scripts sont affichés dans la solution de la vidéo. La principale différence réside dans la façon dont les lignes sont sélectionnées.
 
-* Dans la première variante, les lignes sont sélectionnées en appliquant le filtre de tableau et en lisant la plage visible.
-* Dans la seconde, les lignes sont sélectionnées en lisant les valeurs et en extrayant les valeurs de ligne (ce que l’exemple de cette page utilise).
+* Dans la première variante, les lignes sont sélectionnées en appliquant le filtre de table et en lisant la plage visible.
+* Dans la seconde, les lignes sont sélectionnées en lisant les valeurs et en extrayant les valeurs de ligne (c’est ce que l’exemple de cette page utilise).

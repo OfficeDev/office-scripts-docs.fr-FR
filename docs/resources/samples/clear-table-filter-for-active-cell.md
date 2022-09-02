@@ -1,16 +1,16 @@
 ---
-title: Supprimer les filtres de colonnes de table
+title: Supprimer les filtres de la colonne du tableau
 description: Découvrez comment effacer le filtre de colonne de table en fonction de l’emplacement de cellule actif.
 ms.date: 07/15/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 21a79abfdd4aeac79af4a0f9ea4a581d45b9706b
-ms.sourcegitcommit: dd632402cb46ec8407a1c98456f1bc9ab96ffa46
+ms.openlocfilehash: e016f7f2af9e7553229f3b3b19007e011879de8e
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66918810"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572520"
 ---
-# <a name="remove-table-column-filters"></a>Supprimer les filtres de colonnes de table
+# <a name="remove-table-column-filters"></a>Supprimer les filtres de la colonne du tableau
 
 Cet exemple supprime les filtres d’une colonne de table, en fonction de l’emplacement de la cellule active. Le script détecte si la cellule fait partie d’une table, détermine la colonne de table et efface tous les filtres qui y sont appliqués.
 
@@ -18,7 +18,7 @@ Si vous souhaitez en savoir plus sur l’enregistrement du filtre avant de l’e
 
 ## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
-Téléchargez <a href="table-with-filter.xlsx">table-with-filter.xlsx</a> pour un classeur prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
+Téléchargez [table-with-filter.xlsx](table-with-filter.xlsx) pour un classeur prêt à l’emploi. Ajoutez le script suivant pour essayer l’exemple vous-même !
 
 ## <a name="sample-code-clear-table-column-filter-based-on-active-cell"></a>Exemple de code : Effacer le filtre de colonne de table en fonction de la cellule active
 
