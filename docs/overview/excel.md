@@ -2,14 +2,14 @@
 title: Scripts Office dans Excel
 description: Une brève introduction sur l’enregistreur d’actions et l’éditeur de code pour Office Scripts.
 ms.topic: overview
-ms.date: 02/25/2022
+ms.date: 10/05/2022
 ms.localizationpriority: high
-ms.openlocfilehash: a85e8dad8d6e99ee3b4c5558cd2c1b8417956fb3
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
-ms.translationtype: HT
+ms.openlocfilehash: 02a45e5aae468cff2c61e18b35c54ba656d0484b
+ms.sourcegitcommit: 64d506257bee282fb01aedbf4d090781b06e4900
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393634"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68495473"
 ---
 # <a name="office-scripts-in-excel"></a>Scripts Office dans Excel
 
@@ -25,7 +25,11 @@ Cette série de documents vous explique comment utiliser ces outils. Vous allez 
 
 Pour utiliser les scripts Office, vous devez disposer des éléments suivants.
 
-1. [Excel sur le Web](https://www.office.com/launch/excel) (Excel pour Windows ne pouvez utiliser que des scripts Office avec des [boutons de script](../develop/script-buttons.md)).
+1. [Excel sur le Web](https://www.office.com/launch/excel) (Excel sur Windows peut uniquement utiliser des scripts Office avec des [boutons de script](../develop/script-buttons.md)).
+
+    > [!TIP]
+    > Les scripts Office sont désormais disponibles dans Office sur Windows et sur Mac pour [les insiders Office](https://insider.office.com/).
+
 1. OneDrive Entreprise.
 1. Toute licence Microsoft 365 commerciale ou éducative donnant accès aux applications de bureau Microsoft 365, telles que :
 

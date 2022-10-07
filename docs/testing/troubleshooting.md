@@ -1,25 +1,25 @@
 ---
 title: Résoudre les problèmes liés aux scripts Office
-description: Conseils et techniques de débogage pour Office scripts, ainsi que des ressources d’aide.
-ms.date: 11/11/2021
+description: Conseils et techniques de débogage pour les scripts Office, ainsi que des ressources d’aide.
+ms.date: 10/05/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e673d39b6249ccc7598b832d6478cc8dc0751f6
-ms.sourcegitcommit: f5fc9146d5c096e3a580a3fa8f9714147c548df4
+ms.openlocfilehash: 4fe4a9b17d51d078403d1a46abed774d38eeaa80
+ms.sourcegitcommit: 64d506257bee282fb01aedbf4d090781b06e4900
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "66038678"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68495466"
 ---
 # <a name="troubleshoot-office-scripts"></a>Résoudre les problèmes liés aux scripts Office
 
 Lorsque vous développez des scripts Office, vous pouvez faire des erreurs. C'est bon. Vous disposez des outils nécessaires pour vous aider à trouver les problèmes et à faire fonctionner parfaitement vos scripts.
 
 > [!NOTE]
-> Pour obtenir des conseils de dépannage spécifiques à Office Scripts avec Power Automate, consultez [Résolution des problèmes liés aux scripts Office s’exécutant dans Power Automate](power-automate-troubleshooting.md).
+> Pour obtenir des conseils de dépannage spécifiques aux scripts Office avec Power Automate, consultez [Résolution des problèmes liés aux scripts Office en cours d’exécution dans Power Automate](power-automate-troubleshooting.md).
 
 ## <a name="types-of-errors"></a>Types d’erreurs
 
-Office les erreurs de scripts se répartissent dans l’une des deux catégories suivantes :
+Les erreurs de scripts Office se répartissent dans l’une des deux catégories suivantes :
 
 * Erreurs ou avertissements au moment de la compilation
 * Erreurs d’exécution
@@ -68,17 +68,20 @@ Les chaînes transmises sont `console.log` affichées dans la console de journal
 
 Les journaux n’affectent pas le classeur.
 
-## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Automatiser l’onglet qui n’apparaît pas ou Office scripts non disponibles
+## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>L’onglet Automatiser n’apparaît pas ou les scripts Office ne sont pas disponibles
 
 Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l’onglet **Automatiser** qui n’apparaît pas dans Excel sur le Web.
 
 1. [Assurez-vous que votre licence Microsoft 365 inclut des scripts Office](../overview/excel.md#requirements).
 1. [Vérifiez que votre navigateur est pris en charge](platform-limits.md#browser-support).
 1. [Vérifiez que les cookies tiers sont activés](platform-limits.md#third-party-cookies).
-1. [Vérifiez que votre administrateur n’a pas désactivé Office scripts dans le Centre d'administration Microsoft 365](/microsoft-365/admin/manage/manage-office-scripts-settings).
+1. [Vérifiez que votre administrateur n’a pas désactivé les scripts Office dans le Centre d'administration Microsoft 365](/microsoft-365/admin/manage/manage-office-scripts-settings).
 1. Vérifiez que vous n’êtes pas connecté en tant qu’utilisateur externe ou invité à votre locataire.
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
+
+> [!NOTE]
+> Il existe un problème connu qui empêche les scripts stockés dans SharePoint d’apparaître toujours dans la liste récemment utilisée. Cela se produit lorsque votre administrateur désactive Exchange Web Services (EWS). Vos scripts SharePoint sont toujours accessibles et utilisables par le biais de la boîte de dialogue de fichier.
 
 ## <a name="help-resources"></a>Ressources d’aide
 
@@ -89,5 +92,5 @@ Les étapes suivantes doivent vous aider à résoudre les problèmes liés à l�
 - [Meilleures pratiques en matière de scripts Office](../develop/best-practices.md)
 - [Limites de plateforme avec les scripts Office](platform-limits.md)
 - [Améliorer les performances de vos scripts Office](../develop/web-client-performance.md)
-- [Résoudre les problèmes Office scripts en cours d’exécution dans PowerAutomate](power-automate-troubleshooting.md)
+- [Résoudre les problèmes liés aux scripts Office en cours d’exécution dans PowerAutomate](power-automate-troubleshooting.md)
 - [Annuler les effets des scripts Office](undo.md)
