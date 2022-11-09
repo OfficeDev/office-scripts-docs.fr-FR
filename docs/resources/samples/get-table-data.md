@@ -1,35 +1,35 @@
 ---
-title: Générer des données Excel en tant que JSON
-description: Découvrez comment générer des données de table Excel en tant que JSON à utiliser dans Power Automate.
-ms.date: 06/27/2022
+title: Sortie de données Excel au format JSON
+description: Découvrez comment générer des données de tableau Excel au format JSON à utiliser dans Power Automate.
+ms.date: 11/04/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 5078d2d86c92aacb0c0c2438b7298a523c132522
-ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
+ms.openlocfilehash: 96883bb1f74f66065e8f45760858e960ece90e30
+ms.sourcegitcommit: 7cadf2b637bf62874e43b6e595286101816662aa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572667"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68891238"
 ---
-# <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Générer des données de table Excel en tant que JSON pour une utilisation dans Power Automate
+# <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Sortie des données de tableau Excel au format JSON pour une utilisation dans Power Automate
 
-Les données de table Excel peuvent être représentées sous la forme d’un tableau d’objets sous la forme de [JSON](https://www.w3schools.com/whatis/whatis_json.asp). Chaque objet représente une ligne dans le tableau. Cela permet d’extraire les données d’Excel dans un format cohérent visible par l’utilisateur. Les données peuvent ensuite être données à d’autres systèmes via des flux Power Automate.
+Les données de tableau Excel peuvent être représentées sous la forme d’un tableau d’objets sous la forme de [JSON](https://www.w3schools.com/whatis/whatis_json.asp). Chaque objet représente une ligne dans le tableau. Cela permet d’extraire les données d’Excel dans un format cohérent visible par l’utilisateur. Les données peuvent ensuite être transmises à d’autres systèmes par le biais de flux Power Automate.
 
 ## <a name="sample-excel-file"></a>Exemple de fichier Excel
 
 Téléchargez le [ fichiertable-data-with-hyperlinks.xlsx](table-data-with-hyperlinks.xlsx) pour un classeur prêt à l’emploi.
 
-:::image type="content" source="../../images/table-input.png" alt-text="Feuille de calcul montrant les données de table d’entrée.":::
+:::image type="content" source="../../images/table-input.png" alt-text="Feuille de calcul montrant les données de la table d’entrée.":::
 
-Une variante de cet exemple inclut également les liens hypertexte dans l’une des colonnes du tableau. Cela permet d’afficher des niveaux supplémentaires de données de cellule dans le JSON.
+Une variante de cet exemple inclut également les liens hypertexte dans l’une des colonnes de la table. Cela permet de faire apparaître des niveaux supplémentaires de données de cellule dans le json.
 
-:::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Feuille de calcul montrant une colonne de données de table mise en forme sous forme de liens hypertexte.":::
+:::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Feuille de calcul montrant une colonne de données de tableau mise en forme sous forme de liens hypertexte.":::
 
-## <a name="sample-code-return-table-data-as-json"></a>Exemple de code : Retourner des données de table au format JSON
+## <a name="sample-code-return-table-data-as-json"></a>Exemple de code : retourner des données de table au format JSON
 
 Ajoutez le script suivant pour essayer l’exemple vous-même !
 
 > [!NOTE]
-> Vous pouvez modifier la structure pour qu’elle `interface TableData` corresponde à vos colonnes de tableau. Notez que pour les noms de colonnes avec des espaces, veillez à placer votre clé entre guillemets, par `"Event ID"` exemple dans l’exemple. Pour plus d’informations sur l’utilisation de JSON, consultez [Utiliser JSON pour transmettre des données vers et depuis des scripts Office](../../develop/use-json.md).
+> Vous pouvez modifier la `interface TableData` structure pour qu’elle corresponde à vos colonnes de table. Notez que pour les noms de colonnes avec des espaces, veillez à placer votre clé entre guillemets, comme avec `"Event ID"` dans l’exemple. Pour plus d’informations sur l’utilisation de JSON, consultez [Utiliser JSON pour passer des données vers et à partir de scripts Office](../../develop/use-json.md).
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): TableData[] {
@@ -136,10 +136,10 @@ interface TableData {
 }]
 ```
 
-## <a name="sample-code-return-table-data-as-json-with-hyperlink-text"></a>Exemple de code : Retourner des données de table au format JSON avec du texte de lien hypertexte
+## <a name="sample-code-return-table-data-as-json-with-hyperlink-text"></a>Exemple de code : retourner des données de table au format JSON avec du texte de lien hypertexte
 
 > [!NOTE]
-> Le script extrait toujours les liens hypertexte de la 4e colonne (0 index) de la table. Vous pouvez modifier cet ordre ou inclure plusieurs colonnes comme données de lien hypertexte en modifiant le code sous le commentaire `// For the 4th column (0 index), extract the hyperlink and use that instead of text.`
+> Le script extrait toujours les liens hypertexte de la 4e colonne (index 0) de la table. Vous pouvez modifier cet ordre ou inclure plusieurs colonnes en tant que données de lien hypertexte en modifiant le code sous le commentaire `// For the 4th column (0 index), extract the hyperlink and use that instead of text.`
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): TableData[] {
