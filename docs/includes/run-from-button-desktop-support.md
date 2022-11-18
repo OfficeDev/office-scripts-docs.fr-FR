@@ -1,1 +1,0 @@
-[Les boutons de script](../develop/script-buttons.md) fonctionnent dans Excel sur Windows et sur le web. Ils permettent l’exécution d’un script avec un bouton figurant dans une feuille de calcul. Pour créer ou modifier un bouton ou un script, vous devez toujours utiliser l’application web.
